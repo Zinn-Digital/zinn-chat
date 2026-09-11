@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-chat\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: my_MM\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: zinn-chat\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#. translators: page title.
+#: zinn-chat.php
+#: includes/class-zinn-chat-admin.php:67
+#: includes/class-zinn-chat-admin.php:68
+#: includes/class-zinn-chat-admin.php:149
+msgid "Zinn® Chat"
+msgstr "Zinn® Chat"
+
+#. Plugin URI of the plugin
+#: zinn-chat.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-chat"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
+
+#. Description of the plugin
+#: zinn-chat.php
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 5 KB on the page and no requests at all until somebody opens it."
+msgstr "သင့်ဝဘ်ဆိုဒ်အတွက် အမြန်ဆန်ဆုံးနှင့် ကိုယ်ရေးကိုယ်တာလုံခြုံမှုကို လေးစားသော တိုက်ရိုက်ချတ် (live chat) တစ်ခု။ သင်အလုပ်များနေချိန်တွင် AI ဖြင့် ဧည့်သည်များကို ဖြေကြားပေးပြီး လူကိုယ်တိုင်လိုအပ်လာပါက သင့်ထံသို့ လွှဲပြောင်းပေးကာ၊ သင်လွတ်သွားသည့် မည်သည့်အရာကိုမဆို အီးမေးလ်ဖြင့် ပို့ပေးသည်။ စာမျက်နှာပေါ်တွင် 5 KB အောက်သာ ရှိပြီး တစ်စုံတစ်ဦးက ဖွင့်လှစ်သည်အထိ မည်သည့်တောင်းဆိုမှုကိုမျှ လုံးဝမပြုလုပ်ပါ။"
+
+#. Author of the plugin
+#: zinn-chat.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-chat.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-chat-admin.php:56
+msgid "Settings"
+msgstr "ဆက်တင်များ"
+
+#: includes/class-zinn-chat-admin.php:115
+msgid "That does not look like a Zinn® Chat key. Copy it from the Live chat page of your Zinn Digital® dashboard — it starts with zc_."
+msgstr "ထိုသို့သော Zinn® Chat သော့ချက်ပုံမပေါ်ပါ။ ၎င်းကို သင်၏ Zinn Digital® ဒက်ရှ်ဘုတ်ရှိ တိုက်ရိုက်ချတ် (Live chat) စာမျက်နှာမှ ကူးယူပါ— ၎င်းသည် zc_ ဖြင့် စတင်သည်။"
+
+#: includes/class-zinn-chat-admin.php:125
+msgid "Add your chat key before switching the chat on — without it there is nothing for the widget to connect to."
+msgstr "ချတ်ကို မဖွင့်မီ သင့်ချတ်သော့ကို ထည့်ပါ — ၎င်းမပါဘဲ ဝစ်ဂျက်ချိတ်ဆက်ရန် ဘာမှရှိမည် မဟုတ်ပါ။"
+
+#: includes/class-zinn-chat-admin.php:151
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 5 KB on the page."
+msgstr "ဤဆိုက်အတွက် တိုက်ရိုက်စကားပြောခန်း။ လာရောက်လည်ပတ်သူများသည် ချက်ချင်းအဖြေရရှိမည်ဖြစ်ပြီး၊ သင်လွတ်သွားသမျှကို အီးမေးလ်ဖြင့် ရရှိမည်ဖြစ်ကာ၊ တစ်ခုလုံးသည် စာမျက်နှာပေါ်တွင် 5 KB အောက်သာ ရှိပါသည်။"
+
+#: includes/class-zinn-chat-admin.php:156
+msgid "The chat is live on this site."
+msgstr "ဤဆိုက်တွင် ချတ်ကို တိုက်ရိုက်ထုတ်လွှင့်နေပါသည်။"
+
+#: includes/class-zinn-chat-admin.php:158
+msgid "The chat is switched off. Nothing is loaded on your site."
+msgstr "ချက်တင်ကို ပိတ်ထားသည်။ သင့်ဆိုက်တွင် မည်သည့်အရာမျှ တင်ထားခြင်း မရှိပါ။"
+
+#: includes/class-zinn-chat-admin.php:167
+msgid "Chat key"
+msgstr "ချတ်သော့ချက်"
+
+#. translators: %s: link to the Zinn dashboard.
+#: includes/class-zinn-chat-admin.php:179
+#, php-format
+msgid "Copy this from the Live chat page of your %s."
+msgstr "သင့်၏ %s ၏ တိုက်ရိုက်ချတ် (Live chat) စာမျက်နှာမှ ဤအရာကို ကူးယူပါ။"
+
+#: includes/class-zinn-chat-admin.php:181
+msgid "Zinn Digital® dashboard"
+msgstr "Zinn Digital® ဒက်ရှ်ဘုတ်"
+
+#: includes/class-zinn-chat-admin.php:188
+msgid "Show the chat"
+msgstr "ချတ်ကို ပြပါ"
+
+#: includes/class-zinn-chat-admin.php:195
+msgid "Show the chat window to visitors of this site"
+msgstr "ဤဆိုဒ်သို့ လာရောက်လည်ပတ်သူများအား ချတ်ဝင်းဒိုးကို ပြပါ။"
+
+#: includes/class-zinn-chat-admin.php:198
+msgid "Until you tick this, the plugin adds nothing at all to your pages — no script, no cookie, no requests."
+msgstr "ဤအရာကို သင် အမှတ်အသားမခြစ်မချင်း၊ ဤပလပ်အင်သည် သင့်စာမျက်နှာများသို့ မည်သည်မျှ လုံးဝထည့်သွင်းမည်မဟုတ်ပါ — စခရင်ပစ်၊ ကူကီး သို့မဟုတ် တောင်းဆိုချက်များ မပါဝင်ပါ။"
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-chat-promo.php:241
+#: includes/class-zinn-chat-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — လမ်းညွှန်များနှင့် ဝန်ဆောင်မှုများ"
+
+#: includes/class-zinn-chat-promo.php:256
+msgid "User guides"
+msgstr "အသုံးပြုသူ လမ်းညွှန်ချက်များ"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-chat-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "%s အသုံးပြုသူ လမ်းညွှန်ကို ဖတ်ပါ"
+
+#: includes/class-zinn-chat-promo.php:314
+msgid "Hide this"
+msgstr "ဒါကို ဝှက်ပါ"
+
+#: includes/class-zinn-chat-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr "WordPress အတွက် Zinn® ဟိုစတင်င််"
+
+#: includes/class-zinn-chat-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed၊ နေ့စဉ်ဘက်ကပ်ပြုလုပ်ခြင်း၊ အခမဲ့ပြောင်းရွှေ့ခြင်းနှင့် ဆိုက်တစ်ခုထက်ပို၍ လုပ်ဆောင်နေသူများအတွက် တည်ဆောက်ထားသော ထိန်းချုပ်မှုဝင်းဒိုး။"
+
+#: includes/class-zinn-chat-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "Zinn® ဈေးကွက်"
+
+#: includes/class-zinn-chat-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "တည်ထောင်ပြီးသား ဝဘ်ဆိုက်များ၊ ဒိုမိန်းများနှင့် လင့်ခ်ချိတ်ထားမှုများကို နှစ်ဖက်စလုံး ကျေနပ်သည်အထိ ငွေကြေးကို လုံခြုံစွာ သိမ်းဆည်းထားပြီး ဝယ်ယူရောင်းချပါ။"
+
+#: includes/class-zinn-chat-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — ဤအလုပ်ကို ကျွမ်းကျင်ပိုင်နိုင်စွာ လုပ်ကိုင်သူများကို ငှားရမ်းပါ"
+
+#: includes/class-zinn-chat-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "ကျွန်ုပ်တို့၏ ကမ္ဘာလုံးဆိုင်ရာ အလွတ်တန်းလုပ်သား ဈေးကွက်- စာရေးဆရာများ၊ ဒီဇိုင်နာများ၊ ဆော့ဖ်ဝဲရေးသားသူများနှင့် SEO ပညာရှင်များထံမှ အသင့်သုံးဝန်ဆောင်မှု ၁၀,၀၀၀ ကျော်ကို ရှာဖွေကြည့်ရှုပါ သို့မဟုတ် ပရောဂျက်တစ်ခုတင်ပြီး ၎င်းတို့ကို လေလံဆွဲခွင့်ပြုပါ။"
+
+#: includes/class-zinn-chat-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® ၏ ထုတ်ဝေမှု မှတ်စုများကို ကြည့်ပါ။"
+
+#: includes/class-zinn-chat-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "ဒေါင်းလုပ်လုပ်ထားသော အပ်ဒိတ်သည် ၎င်း၏ ခိုင်မာမှုစစ်ဆေးမှုကို မအောင်မြင်ခဲ့ပါ၊ ထို့ကြောင့် ထည့်သွင်းခြင်းမပြုခဲ့ပါ။"

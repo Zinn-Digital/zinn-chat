@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-chat\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: zinn-chat\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#. translators: page title.
+#: zinn-chat.php
+#: includes/class-zinn-chat-admin.php:67
+#: includes/class-zinn-chat-admin.php:68
+#: includes/class-zinn-chat-admin.php:149
+msgid "Zinn® Chat"
+msgstr "Zinn® Chat"
+
+#. Plugin URI of the plugin
+#: zinn-chat.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-chat"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
+
+#. Description of the plugin
+#: zinn-chat.php
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 5 KB on the page and no requests at all until somebody opens it."
+msgstr "ການສົນທະນາສົດທີ່ວ່ອງໄວ ແລະ ເຄົາລົບຄວາມເປັນສ່ວນຕົວສຳລັບເວັບໄຊທ໌ຂອງທ່ານ. ຕອບຜູ້ເຂົ້າຊົມດ້ວຍ AI ເມື່ອທ່ານບໍ່ຫວ່າງ, ສົ່ງຕໍ່ໃຫ້ທ່ານເມື່ອພວກເຂົາຕ້ອງການຄົນແທ້, ແລະ ສົ່ງອີເມວຫາທ່ານໃນສິ່ງທີ່ທ່ານພາດ. ມີຂະໜາດຕ່ຳກວ່າ 5 KB ຢູ່ໃນໜ້າເວັບ ແລະ ບໍ່ມີການຮ້ອງຂໍໃດໆເລີຍຈົນກວ່າຜູ້ໃດຜູ້ໜຶ່ງຈະເປີດມັນຂຶ້ນມາ."
+
+#. Author of the plugin
+#: zinn-chat.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-chat.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-chat-admin.php:56
+msgid "Settings"
+msgstr "ການຕັ້ງຄ່າ"
+
+#: includes/class-zinn-chat-admin.php:115
+msgid "That does not look like a Zinn® Chat key. Copy it from the Live chat page of your Zinn Digital® dashboard — it starts with zc_."
+msgstr "ນັ້ນບໍ່ຄືກັບຄີ Zinn® Chat. ກະລຸນາ ສຳເນົາມັນຈາກໜ້າ ແຊັດສົດ ຂອງແຜງຄວບຄຸມ Zinn Digital® ຂອງທ່ານ — ມັນເລີ່ມຕົ້ນດ້ວຍ zc_."
+
+#: includes/class-zinn-chat-admin.php:125
+msgid "Add your chat key before switching the chat on — without it there is nothing for the widget to connect to."
+msgstr "ເພີ່ມຄີການສົນທະນາຂອງທ່ານກ່ອນທີ່ຈະເປີດໃຊ້ການສົນທະນາ — ຖ້າບໍ່ມີມັນ ຈະບໍ່ມີຫຍັງໃຫ້ວິດເຈັດເຊື່ອມຕໍ່ນຳ."
+
+#: includes/class-zinn-chat-admin.php:151
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 5 KB on the page."
+msgstr "ສົນທະນາສົດສຳລັບເວັບໄຊນີ້. ຜູ້ເຂົ້າຊົມຈະໄດ້ຮັບຄຳຕອບທັນທີ, ທ່ານຈະໄດ້ຮັບທຸກຂໍ້ຄວາມທີ່ພາດໄປທາງອີເມວ, ແລະ ທັງໝົດນີ້ມີຂະໜາດຕ່ຳກວ່າ 5 KB ໃນໜ້າເວັບ."
+
+#: includes/class-zinn-chat-admin.php:156
+msgid "The chat is live on this site."
+msgstr "ການສົນທະນາກຳລັງຖ່າຍທອດສົດຢູ່ໃນເວັບໄຊນີ້."
+
+#: includes/class-zinn-chat-admin.php:158
+msgid "The chat is switched off. Nothing is loaded on your site."
+msgstr "ການສົນທະນາຖືກປິດໄວ້. ບໍ່ມີຫຍັງຖືກໂຫຼດຢູ່ໃນເວັບໄຊຂອງທ່ານ."
+
+#: includes/class-zinn-chat-admin.php:167
+msgid "Chat key"
+msgstr "ລະຫັດແຊັດ"
+
+#. translators: %s: link to the Zinn dashboard.
+#: includes/class-zinn-chat-admin.php:179
+#, php-format
+msgid "Copy this from the Live chat page of your %s."
+msgstr "ກັອບປີ້ຂໍ້ຄວາມນີ້ຈາກໜ້າສົນທະນາສົດຂອງ %s ຂອງທ່ານ."
+
+#: includes/class-zinn-chat-admin.php:181
+msgid "Zinn Digital® dashboard"
+msgstr "ໜ້າປັດ Zinn Digital®"
+
+#: includes/class-zinn-chat-admin.php:188
+msgid "Show the chat"
+msgstr "ສະແດງການສົນທະນາ"
+
+#: includes/class-zinn-chat-admin.php:195
+msgid "Show the chat window to visitors of this site"
+msgstr "ສະແດງໜ້າຕ່າງສົນທະນາໃຫ້ຜູ້ເຂົ້າຊົມເວັບໄຊນີ້ເຫັນ"
+
+#: includes/class-zinn-chat-admin.php:198
+msgid "Until you tick this, the plugin adds nothing at all to your pages — no script, no cookie, no requests."
+msgstr "ຈົນກວ່າທ່ານຈະຕິກເລືອກຕົວເລືອກນີ້, ປັກອິນຈະບໍ່ເພີ່ມຫຍັງເລີຍໃສ່ໜ້າເວັບຂອງທ່ານ — ບໍ່ມີສະກຣິບ, ບໍ່ມີຄຸກກີ້, ບໍ່ມີການຮ້ອງຂໍ."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-chat-promo.php:241
+#: includes/class-zinn-chat-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — ຄູ່ມື ແລະ ບໍລິການ"
+
+#: includes/class-zinn-chat-promo.php:256
+msgid "User guides"
+msgstr "ຄູ່ມືຜູ້ໃຊ້"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-chat-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "ອ່ານຄູ່ມືຜູ້ໃຊ້ %s"
+
+#: includes/class-zinn-chat-promo.php:314
+msgid "Hide this"
+msgstr "ຊ່ອນສິ່ງນີ້"
+
+#: includes/class-zinn-chat-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr "ການໂຮດຕິ້ງ Zinn® ຳລັບ WordPress"
+
+#: includes/class-zinn-chat-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, ການສໍາຮອງຂໍ້ມູນປະຈໍາວັນ, ການຍ້າຍເວັບໄຊຟຣີ ແລະ ແຜງຄວບຄຸມທີ່ສ້າງຂຶ້ນສໍາລັບຜູ້ທີ່ບໍລິຫານຫຼາຍກວ່າໜຶ່ງເວັບໄຊ."
+
+#: includes/class-zinn-chat-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "ຕະຫຼາດແລກປ່ຽນ Zinn®"
+
+#: includes/class-zinn-chat-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "ຊື້ ແລະ ຂາຍເວັບໄຊ, ໂດເມນ ແລະ ບ່ອນວາງລິ້ງທີ່ມີຢູ່ແລ້ວ ໂດຍມີການເກັບຮັກສາເງິນໄວ້ຢ່າງປອດໄພ ຈົນກວ່າທັງສອງຝ່າຍຈະພໍໃຈ."
+
+#: includes/class-zinn-chat-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — ຈ້າງຜູ້ຊ່ຽວຊານທີ່ເຮັດວຽກນີ້ເປັນອາຊີບ"
+
+#: includes/class-zinn-chat-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "ຕະຫຼາດຟຣີແລນຊ໌ທົ່ວໂລກຂອງພວກເຮົາ: ເບິ່ງການບໍລິການສຳເລັດຮູບຫຼາຍກວ່າ 10,000 ລາຍການຈາກນັກຂຽນ, ນັກອອກແບບ, ຜູ້ພັດທະນາ ແລະ ຜູ້ຊ່ຽວຊານດ້ານ SEO, ຫຼື ປະກາດໂຄງການແລ້ວໃຫ້ພວກເຂົາຍື່ນປະມູນ."
+
+#: includes/class-zinn-chat-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "ເບິ່ງບັນທຶກການປ່ອຍເວີຊັນຂອງ Zinn Digital®."
+
+#: includes/class-zinn-chat-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "ການອັບເດດທີ່ດາວໂຫຼດມາບໍ່ຜ່ານການກວດສອບຄວາມຖືກຕ້ອງ ແລະ ບໍ່ໄດ້ຖືກຕິດຕັ້ງ."

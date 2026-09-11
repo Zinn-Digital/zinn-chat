@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-chat\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: te\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: zinn-chat\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#. translators: page title.
+#: zinn-chat.php
+#: includes/class-zinn-chat-admin.php:67
+#: includes/class-zinn-chat-admin.php:68
+#: includes/class-zinn-chat-admin.php:149
+msgid "Zinn® Chat"
+msgstr "Zinn® Chat"
+
+#. Plugin URI of the plugin
+#: zinn-chat.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-chat"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
+
+#. Description of the plugin
+#: zinn-chat.php
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 5 KB on the page and no requests at all until somebody opens it."
+msgstr "మీ వెబ్‌సైట్ కోసం వేగవంతమైన, గోప్యతను గౌరవించే లైవ్ చాట్. మీరు బిజీగా ఉన్నప్పుడు AIతో సందర్శకులకు సమాధానాలు ఇస్తుంది, వారికి వ్యక్తి సహాయం అవసరమైనప్పుడు మీ వద్దకు చేరుస్తుంది మరియు మీరు మిస్ అయిన దాన్ని ఇమెయిల్ చేస్తుంది. పేజీలో 5 KB కంటే తక్కువ ఉంటుంది మరియు ఎవరైనా తెరిచే వరకు అసలు అభ్యర్థనలు ఉండవు."
+
+#. Author of the plugin
+#: zinn-chat.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-chat.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-chat-admin.php:56
+msgid "Settings"
+msgstr "అమరికలు"
+
+#: includes/class-zinn-chat-admin.php:115
+msgid "That does not look like a Zinn® Chat key. Copy it from the Live chat page of your Zinn Digital® dashboard — it starts with zc_."
+msgstr "అది Zinn® చాట్ కీ లాగా కనిపించడం లేదు. మీ Zinn Digital® డ్యాష్‌బోర్డ్ లైవ్ చాట్ పేజీ నుండి దాన్ని కాపీ చేయండి — అది zc_ తో ప్రారంభమవుతుంది."
+
+#: includes/class-zinn-chat-admin.php:125
+msgid "Add your chat key before switching the chat on — without it there is nothing for the widget to connect to."
+msgstr "చాట్‌ను ఆన్ చేయడానికి ముందు మీ చాట్ కీని జోడించండి — అది లేకుండా విడ్జెట్ కనెక్ట్ కావడానికి ఏమీ ఉండదు."
+
+#: includes/class-zinn-chat-admin.php:151
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 5 KB on the page."
+msgstr "ఈ సైట్ కోసం లైవ్ చాట్. సందర్శకులు తక్షణమే సమాధానం పొందుతారు, మీకు మిస్ అయినవి ఏవైనా ఈమెయిల్ ద్వారా వస్తాయి మరియు మొత్తం పేజీలో 5 KB కంటే తక్కువ ఉంటుంది."
+
+#: includes/class-zinn-chat-admin.php:156
+msgid "The chat is live on this site."
+msgstr "ఈ సైట్‌లో చాట్ లైవ్‌లో ఉంది."
+
+#: includes/class-zinn-chat-admin.php:158
+msgid "The chat is switched off. Nothing is loaded on your site."
+msgstr "చాట్ స్విచ్ ఆఫ్ చేయబడింది. మీ సైట్‌లో ఏదీ లోడ్ కాలేదు."
+
+#: includes/class-zinn-chat-admin.php:167
+msgid "Chat key"
+msgstr "చాట్ కీ"
+
+#. translators: %s: link to the Zinn dashboard.
+#: includes/class-zinn-chat-admin.php:179
+#, php-format
+msgid "Copy this from the Live chat page of your %s."
+msgstr "మీ %s యొక్క లైవ్ చాట్ పేజీ నుండి దీన్ని కాపీ చేయండి."
+
+#: includes/class-zinn-chat-admin.php:181
+msgid "Zinn Digital® dashboard"
+msgstr "Zinn Digital® డాష్‌బోర్డ్"
+
+#: includes/class-zinn-chat-admin.php:188
+msgid "Show the chat"
+msgstr "చాట్‌ను చూపుము"
+
+#: includes/class-zinn-chat-admin.php:195
+msgid "Show the chat window to visitors of this site"
+msgstr "ఈ సైట్ సందర్శకులకు చాట్ విండోను చూపించు"
+
+#: includes/class-zinn-chat-admin.php:198
+msgid "Until you tick this, the plugin adds nothing at all to your pages — no script, no cookie, no requests."
+msgstr "మీరు దీన్ని టిక్ చేసే వరకు, ప్లగిన్ మీ పేజీలకు ఏదీ జోడించదు — ఏ స్క్రిప్ట్ లేదు, ఏ కూకీ లేదు, ఏ అభ్యర్థనలు లేవు."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-chat-promo.php:241
+#: includes/class-zinn-chat-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — గైడ్‌లు మరియు సేవలు"
+
+#: includes/class-zinn-chat-promo.php:256
+msgid "User guides"
+msgstr "యూజర్ గైడ్‌లు"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-chat-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "%s వినియోగదారు మార్గదర్శిని చదవండి"
+
+#: includes/class-zinn-chat-promo.php:314
+msgid "Hide this"
+msgstr "దీన్ని దాచు"
+
+#: includes/class-zinn-chat-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr "WordPress కోసం Zinn® హోస్టింగ్"
+
+#: includes/class-zinn-chat-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, రోజువారీ బ్యాకప్‌లు, ఉచిత మైగ్రేషన్ మరియు ఒకటి కంటే ఎక్కువ సైట్‌లను నిర్వహించే వ్యక్తుల కోసం రూపొందించబడిన కంట్రోల్ ప్యానెల్."
+
+#: includes/class-zinn-chat-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "Zinn® మార్కెట్ ప్లేస్"
+
+#: includes/class-zinn-chat-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "ఇరువర్గాలు సంతృప్తి చెందే వరకు నిధులు సురక్షితంగా ఉంచబడేలా, స్థాపించబడిన సైట్‌లు, డొమైన్‌లు మరియు లింక్ ప్లేస్‌మెంట్‌లను కొనుగోలు చేయండి మరియు విక్రయించండి."
+
+#: includes/class-zinn-chat-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — దీన్ని వృత్తిగా చేసే వారిని నియమించుకోండి"
+
+#: includes/class-zinn-chat-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "మా గ్లోబల్ ఫ్రీలాన్స్ మార్కెట్‌ప్లేస్: రైటర్లు, డిజైనర్లు, డెవలపర్లు మరియు SEO నిపుణుల నుండి 10,000 కంటే ఎక్కువ సిద్ధంగా ఉన్న సేవలను బ్రౌజ్ చేయండి లేదా ప్రాజెక్ట్‌ను పోస్ట్ చేసి వారిని బిడ్ చేయనివ్వండి."
+
+#: includes/class-zinn-chat-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® విడుదల గమనికలను చూడండి."
+
+#: includes/class-zinn-chat-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "డౌన్‌లోడ్ చేసిన అప్‌డేట్ సమగ్రత తనిఖీలో విఫలమైంది మరియు ఇన్‌స్టాల్ చేయబడలేదు."

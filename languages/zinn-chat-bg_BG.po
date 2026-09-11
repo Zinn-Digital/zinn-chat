@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-chat\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bg_BG\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: zinn-chat\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#. translators: page title.
+#: zinn-chat.php
+#: includes/class-zinn-chat-admin.php:67
+#: includes/class-zinn-chat-admin.php:68
+#: includes/class-zinn-chat-admin.php:149
+msgid "Zinn® Chat"
+msgstr "Zinn® Chat"
+
+#. Plugin URI of the plugin
+#: zinn-chat.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-chat"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
+
+#. Description of the plugin
+#: zinn-chat.php
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 5 KB on the page and no requests at all until somebody opens it."
+msgstr "Бърз, насочен към поверителността чат на живо за вашия уебсайт. Отговаря на посетителите с изкуствен интелект, когато сте заети, пренасочва ги към вас, когато имат нужда от човек, и ви изпраща имейл за всичко пропуснато. Под 5 KB на страницата и без никакви заявки, докато някой не го отвори."
+
+#. Author of the plugin
+#: zinn-chat.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-chat.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-chat-admin.php:56
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class-zinn-chat-admin.php:115
+msgid "That does not look like a Zinn® Chat key. Copy it from the Live chat page of your Zinn Digital® dashboard — it starts with zc_."
+msgstr "Това не прилича на ключ за Zinn® Chat. Копирайте го от страницата за чат на живо (Live chat) на вашето табло за управление в Zinn Digital® — той започва с zc_."
+
+#: includes/class-zinn-chat-admin.php:125
+msgid "Add your chat key before switching the chat on — without it there is nothing for the widget to connect to."
+msgstr "Добавете своя ключ за чат, преди да включите чата — без него уиджетът няма към какво да се свърже."
+
+#: includes/class-zinn-chat-admin.php:151
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 5 KB on the page."
+msgstr "Чат на живо за този сайт. Посетителите получават отговор веднага, вие получавате пропуснатото по имейл, а цялото нещо е под 5 KB на страницата."
+
+#: includes/class-zinn-chat-admin.php:156
+msgid "The chat is live on this site."
+msgstr "Чатът е активен на този сайт."
+
+#: includes/class-zinn-chat-admin.php:158
+msgid "The chat is switched off. Nothing is loaded on your site."
+msgstr "Чатът е изключен. Нищо не е заредено на вашия сайт."
+
+#: includes/class-zinn-chat-admin.php:167
+msgid "Chat key"
+msgstr "Ключ за чат"
+
+#. translators: %s: link to the Zinn dashboard.
+#: includes/class-zinn-chat-admin.php:179
+#, php-format
+msgid "Copy this from the Live chat page of your %s."
+msgstr "Копирайте това от страницата за чат на живо на вашия %s."
+
+#: includes/class-zinn-chat-admin.php:181
+msgid "Zinn Digital® dashboard"
+msgstr "Табло за управление Zinn Digital®"
+
+#: includes/class-zinn-chat-admin.php:188
+msgid "Show the chat"
+msgstr "Показване на чата"
+
+#: includes/class-zinn-chat-admin.php:195
+msgid "Show the chat window to visitors of this site"
+msgstr "Показване на прозореца за чат на посетителите на този сайт"
+
+#: includes/class-zinn-chat-admin.php:198
+msgid "Until you tick this, the plugin adds nothing at all to your pages — no script, no cookie, no requests."
+msgstr "Докато не отметнете това, плъгинът не добавя абсолютно нищо към вашите страници — нито скрипт, нито бисквитка, нито заявки."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-chat-promo.php:241
+#: includes/class-zinn-chat-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — ръководства и услуги"
+
+#: includes/class-zinn-chat-promo.php:256
+msgid "User guides"
+msgstr "Потребителски ръководства"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-chat-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "Прочетете потребителското ръководство за %s"
+
+#: includes/class-zinn-chat-promo.php:314
+msgid "Hide this"
+msgstr "Скрий това"
+
+#: includes/class-zinn-chat-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr "Zinn® хостинг за WordPress"
+
+#: includes/class-zinn-chat-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, ежедневни архиви, безплатна миграция и контролен панел, създаден за хора, които управляват повече от един сайт."
+
+#: includes/class-zinn-chat-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "Пазарът на Zinn®"
+
+#: includes/class-zinn-chat-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "Купувайте и продавайте съществуващи сайтове, домейни и места за линкове, като парите се съхраняват сигурно, докато двете страни останат доволни."
+
+#: includes/class-zinn-chat-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — наемете хора, за които това е професия"
+
+#: includes/class-zinn-chat-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "Нашата глобална платформа за фрилансъри: разгледайте над 10 000 готови услуги от писатели, дизайнери, разработчици и SEO специалисти или публикувайте проект и им позволете да наддават."
+
+#: includes/class-zinn-chat-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Вижте бележките за изданието на Zinn Digital®."
+
+#: includes/class-zinn-chat-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Изтеглените актуализации не издържаха проверката за цялост и не бяха инсталирани."

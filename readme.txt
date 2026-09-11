@@ -1,0 +1,92 @@
+=== Zinn® Chat ===
+Contributors: zinndigital
+Plugin URI: https://zinndigital.com/wordpress-plugins/zinn-chat
+Author: Neil Lock — CEO, Zinn Digital® Ltd
+Author URI: https://zinndigital.com
+Tags: live chat, chat, support, helpdesk, ai
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 8.2
+Stable tag: 1.0.0
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+Live chat that answers visitors straight away, hands them to you when it matters, and weighs under 5 KB on the page.
+
+== Description ==
+
+Most live chat widgets cost your visitors several hundred kilobytes of JavaScript on every page, whether or not anybody ever opens them. This one is under 5 KB compressed, loads after your page has finished rendering, and makes **no network requests at all** until a visitor actually clicks it.
+
+When somebody does open it, an assistant answers immediately from what it knows about your site. If it cannot answer — or the visitor asks for a person, or the question is about an order, money or a complaint — it hands the conversation straight to you. Anything that comes in when nobody is there is emailed to you with the transcript.
+
+= What makes it fast =
+
+* Under 5 KB compressed. No framework, no polyfills, no web fonts, no tracking pixel.
+* Loaded with `defer`, in the footer, after your page has painted. It cannot delay your content and it cannot shift your layout.
+* Its settings travel with the page, so the widget does not have to fetch them.
+* Zero requests until a visitor opens the chat. A page nobody chats on costs one cached script and nothing else.
+* Its styles live in a shadow root, so your theme cannot break the widget and the widget cannot leak into your theme.
+
+= What it does =
+
+* **AI first responder.** Answers from your own site's content, with links to the page it answered from.
+* **Straight to a human when it matters.** Money, orders, complaints and "can I talk to someone" go to a person without the assistant trying its luck first.
+* **You answer from one inbox.** Every site you run, in one place, in your Zinn Digital® dashboard.
+* **Nothing is lost.** A visitor's message is saved the moment they send it, whether or not anyone is online. Missed conversations are emailed to you with the transcript.
+* **Canned replies, transfer and business hours** on the premium tier.
+
+= Privacy =
+
+The plugin adds nothing to your site until you paste a key and tick the box — no script, no cookie, no storage, no requests.
+
+Once it is on, the widget stores one thing in the visitor's own browser: the identifier of their conversation, so a page refresh does not lose what they typed. It does not set cookies, does not track people across sites, and does not record IP addresses. The country shown to you is worked out at our edge from the connection and the address itself is never stored.
+
+== Installation ==
+
+1. Upload the plugin and activate it. (If Zinn Digital® hosts your site, it is already there.)
+2. In your Zinn Digital® dashboard, open **Live chat**, create a chat for this site and copy its key.
+3. In WordPress, go to **Settings → Zinn® Chat**, paste the key, tick **Show the chat**, and save.
+
+Everything else — greeting, colour, business hours, canned replies, who answers — is set once in the dashboard and applies to every site you run.
+
+== External services ==
+
+This plugin connects your site to Zinn Digital®'s chat service, which is what makes the chat work. It is useless without it and it talks to nothing else.
+
+**What is sent, and when**
+
+* **Nothing at all until you switch the chat on.** With the box unticked, the plugin adds no script to your pages and makes no request.
+* **Nothing until a visitor opens the chat.** With it on, your pages carry one `<script>` tag pointing at `https://zinndigital.com/embed/zinn-chat.js`, plus your public chat key and its appearance settings. Loading that file is the only network activity; it makes no request of its own until somebody clicks the launcher.
+* **When a visitor sends a message** their message, the address of the page they are on, the page's title, the referring address and their browser's language are sent to `https://api.zinndigital.com/v1/public/chat/…`, along with any name or email address they choose to give. That is what a live chat is: their words go to you, through us.
+* **While a conversation is open** the widget asks `https://api.zinndigital.com` for new replies. How often is decided by the service, not by the widget, and it slows right down when the conversation goes quiet or the browser tab is hidden.
+
+The public chat key is not a secret — it names your chat and nothing else, and it only works on the web addresses you have listed in your dashboard.
+
+Service: Zinn Digital® — [zinndigital.com](https://zinndigital.com) · [Terms](https://zinndigital.com/legal/terms) · [Privacy](https://zinndigital.com/legal/privacy)
+
+== Frequently Asked Questions ==
+
+= Does it work on a site you do not host? =
+
+Yes. The plugin works on any WordPress site, and any non-WordPress site can use the plain `<script>` snippet instead.
+
+= What happens if nobody is online? =
+
+The visitor still gets an answer from the assistant, and the conversation is emailed to the address you set, with the transcript. Nothing is lost.
+
+= Can I stop it showing on some pages? =
+
+Yes — return `false` from the `zinn_chat_should_render` filter. Checkout pages and signed-in staff are the usual reasons.
+
+= Will it slow my site down? =
+
+It is built so that it cannot. It loads after your page has rendered, it is outside the document flow so it cannot shift your layout, and its size is checked automatically on every change we make to it.
+
+= Is there a free tier? =
+
+Yes. The free tier includes one operator, thirty days of history and one hundred AI replies a month. The premium tier adds unlimited operators and history, canned replies, transfer between people, business hours and a much larger AI allowance.
+
+== Changelog ==
+
+= 1.0.0 =
+* First release.

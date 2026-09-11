@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-chat\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ms_MY\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: zinn-chat\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#. translators: page title.
+#: zinn-chat.php
+#: includes/class-zinn-chat-admin.php:67
+#: includes/class-zinn-chat-admin.php:68
+#: includes/class-zinn-chat-admin.php:149
+msgid "Zinn® Chat"
+msgstr "Zinn® Chat"
+
+#. Plugin URI of the plugin
+#: zinn-chat.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-chat"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
+
+#. Description of the plugin
+#: zinn-chat.php
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 5 KB on the page and no requests at all until somebody opens it."
+msgstr "Sembang langsung yang pantas dan mementingkan privasi untuk tapak web anda. Menjawab pelawat dengan AI apabila anda sibuk, menyerahkan mereka kepada anda apabila mereka memerlukan seseorang, dan menghantar e-mel kepada anda tentang apa sahaja yang anda terlepas. Bawah 5 KB pada halaman dan tiada permintaan sama sekali sehingga seseorang membukanya."
+
+#. Author of the plugin
+#: zinn-chat.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-chat.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-chat-admin.php:56
+msgid "Settings"
+msgstr "Tetapan"
+
+#: includes/class-zinn-chat-admin.php:115
+msgid "That does not look like a Zinn® Chat key. Copy it from the Live chat page of your Zinn Digital® dashboard — it starts with zc_."
+msgstr "Itu kelihatan tidak seperti kekunci Zinn® Chat. Salin ia daripada halaman Live chat papan pemuka Zinn Digital® anda — ia bermula dengan zc_."
+
+#: includes/class-zinn-chat-admin.php:125
+msgid "Add your chat key before switching the chat on — without it there is nothing for the widget to connect to."
+msgstr "Tambah kunci sembang anda sebelum menghidupkan sembang — tanpa kunci tersebut, widget tidak mempunyai apa-apa untuk dihubungkan."
+
+#: includes/class-zinn-chat-admin.php:151
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 5 KB on the page."
+msgstr "Sembang langsung untuk tapak ini. Pelawat mendapat jawapan serta-merta, anda mendapat apa sahaja yang terlepas melalui e-mel, dan keseluruhannya bersaiz bawah 5 KB pada halaman."
+
+#: includes/class-zinn-chat-admin.php:156
+msgid "The chat is live on this site."
+msgstr "Sembang ini sedang aktif di tapak ini."
+
+#: includes/class-zinn-chat-admin.php:158
+msgid "The chat is switched off. Nothing is loaded on your site."
+msgstr "Sembang dimatikan. Tiada apa-apa yang dimuatkan pada tapak anda."
+
+#: includes/class-zinn-chat-admin.php:167
+msgid "Chat key"
+msgstr "Kunci sembang"
+
+#. translators: %s: link to the Zinn dashboard.
+#: includes/class-zinn-chat-admin.php:179
+#, php-format
+msgid "Copy this from the Live chat page of your %s."
+msgstr "Salin ini daripada halaman Sembang langsung bagi %s anda."
+
+#: includes/class-zinn-chat-admin.php:181
+msgid "Zinn Digital® dashboard"
+msgstr "Papan pemuka Zinn Digital®"
+
+#: includes/class-zinn-chat-admin.php:188
+msgid "Show the chat"
+msgstr "Tunjukkan sembang"
+
+#: includes/class-zinn-chat-admin.php:195
+msgid "Show the chat window to visitors of this site"
+msgstr "Tunjukkan tingkap sembang kepada pelawat tapak ini"
+
+#: includes/class-zinn-chat-admin.php:198
+msgid "Until you tick this, the plugin adds nothing at all to your pages — no script, no cookie, no requests."
+msgstr "Sehingga anda menandakannya, palam infak ini tidak menambah apa-apa pada halaman anda — tiada skrip, tiada kuki, tiada permintaan."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-chat-promo.php:241
+#: includes/class-zinn-chat-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — panduan dan perkhidmatan"
+
+#: includes/class-zinn-chat-promo.php:256
+msgid "User guides"
+msgstr "Panduan pengguna"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-chat-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "Baca panduan pengguna %s"
+
+#: includes/class-zinn-chat-promo.php:314
+msgid "Hide this"
+msgstr "Sembunyikan ini"
+
+#: includes/class-zinn-chat-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr "Pengehosan Zinn® untuk WordPress"
+
+#: includes/class-zinn-chat-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, sandaran harian, migrasi percuma dan panel kawalan yang dibina untuk mereka yang mengendalikan lebih daripada satu tapak."
+
+#: includes/class-zinn-chat-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "Pasaran Zinn®"
+
+#: includes/class-zinn-chat-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "Beli dan jual tapak web sedia ada, domain dan penempatan pautan, dengan wang disimpan selamat sehingga kedua-dua pihak berpuas hati."
+
+#: includes/class-zinn-chat-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — upah orang yang melakukan kerja ini sebagai kerjaya"
+
+#: includes/class-zinn-chat-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "Pasaran bebas global kami: layari lebih 10,000 perkhidmatan siap pakai daripada penulis, pereka bentuk, pembangun dan pakar SEO, atau poskan projek dan biarkan mereka membida."
+
+#: includes/class-zinn-chat-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Lihat nota keluaran Zinn Digital®."
+
+#: includes/class-zinn-chat-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Kemas kini yang dimuat turun gagal dalam pemeriksaan integriti dan tidak dipasang."
