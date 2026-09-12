@@ -7,7 +7,7 @@ Tags: live chat, chat, support, helpdesk, ai
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.0.1
+Stable tag: 1.1.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -87,6 +87,10 @@ It is built so that it cannot. It loads after your page has rendered, it is outs
 
 Yes, and it is a real one rather than a trial. The free tier gives you one operator, thirty days of transcript history and one hundred AI replies a month, for nothing, for ever. The premium tier adds unlimited operators, transcripts kept for ever, five thousand AI replies a month, removal of the Zinn Digital® badge from the widget, canned replies, transfer between people and business hours.
 
+= Do I have to pay for premium? =
+
+Not if you host with Zinn Digital®. Premium is included with your hosting for as long as it is active, on every site in your account, with nothing to buy and no code to enter. If your hosting is cancelled or suspended, the chat returns to the free tier and transcripts go back to thirty days.
+
 == Screenshots ==
 
 1. Settings → Zinn® Chat. Paste the key from your dashboard, tick the box, and that is the whole setup. Until you do, the plugin adds nothing to your site at all.
@@ -94,6 +98,11 @@ Yes, and it is a real one rather than a trial. The free tier gives you one opera
 3. The Zinn Digital® panel in your dashboard: this plugin's own guide, and the other things we run. No remote call, no tracking pixel, no image loaded from us.
 
 == Changelog ==
+
+= 1.1.0 =
+* The widget's appearance now travels with the page instead of being fetched. The plugin caches your chat's greeting, colour, corner and team name when you save your key and once a day after that, so a visitor's browser makes no request at all on the chat's behalf until somebody opens it.
+* If your key cannot be reached, the previous settings are kept rather than cleared.
+* The chat now sits in the mirror corner on a right-to-left page, so "bottom right" means the side the reader ends on rather than the side they start from.
 
 = 1.0.1 =
 * The premium tier's branding removal is now listed where the tiers are described — it was the one paid capability this page did not mention.
