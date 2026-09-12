@@ -7,7 +7,7 @@ Tags: live chat, chat, support, helpdesk, ai
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,7 +33,8 @@ When somebody does open it, an assistant answers immediately from what it knows 
 * **Straight to a human when it matters.** Money, orders, complaints and "can I talk to someone" go to a person without the assistant trying its luck first.
 * **You answer from one inbox.** Every site you run, in one place, in your Zinn Digital® dashboard.
 * **Nothing is lost.** A visitor's message is saved the moment they send it, whether or not anyone is online. Missed conversations are emailed to you with the transcript.
-* **Canned replies, transfer and business hours** on the premium tier.
+* **Your own name on it.** The premium tier removes the Zinn Digital® badge from the widget, so the chat on your site is yours.
+* **Canned replies, transfer between people and business hours** on the premium tier.
 
 = Privacy =
 
@@ -84,9 +85,19 @@ It is built so that it cannot. It loads after your page has rendered, it is outs
 
 = Is there a free tier? =
 
-Yes. The free tier includes one operator, thirty days of history and one hundred AI replies a month. The premium tier adds unlimited operators and history, canned replies, transfer between people, business hours and a much larger AI allowance.
+Yes, and it is a real one rather than a trial. The free tier gives you one operator, thirty days of transcript history and one hundred AI replies a month, for nothing, for ever. The premium tier adds unlimited operators, transcripts kept for ever, five thousand AI replies a month, removal of the Zinn Digital® badge from the widget, canned replies, transfer between people and business hours.
+
+== Screenshots ==
+
+1. Settings → Zinn® Chat. Paste the key from your dashboard, tick the box, and that is the whole setup. Until you do, the plugin adds nothing to your site at all.
+2. The chat is off until you say otherwise — no script, no cookie, no request, and the screen says so rather than leaving you to find out.
+3. The Zinn Digital® panel in your dashboard: this plugin's own guide, and the other things we run. No remote call, no tracking pixel, no image loaded from us.
 
 == Changelog ==
+
+= 1.0.1 =
+* The premium tier's branding removal is now listed where the tiers are described — it was the one paid capability this page did not mention.
+* Clearer answer on what the free tier includes, and for how long.
 
 = 1.0.0 =
 * First release.
