@@ -25,8 +25,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
 
 #. Description of the plugin
 #: zinn-chat.php
-msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 5 KB on the page and no requests at all until somebody opens it."
-msgstr "Μια γρήγορη ζωντανή συνομιλία που σέβεται το απόρρητο για τον ιστότοπό σας. Απαντά στους επισκέπτες με τεχνητή νοημοσύνη όταν είστε απασχολημένοι, τους μεταφέρει σε εσάς όταν χρειάζονται κάποιον άνθρωπο και σας στέλνει email για ό,τι χάσετε. Κάτω από 5 KB στη σελίδα και κανένα αίτημα απολύτως μέχρι κάποιος να την ανοίξει."
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 10 KB on the page and no requests at all until somebody opens it."
+msgstr "Μια γρήγορη ζωντανή συνομιλία που σέβεται το απόρρητο για τον ιστότοπό σας. Απαντά στους επισκέπτες με τεχνητή νοημοσύνη όταν είστε απασχολημένοι, τους μεταφέρει σε εσάς όταν χρειάζονται κάποιον άνθρωπο και σας στέλνει email για ό,τι χάσετε. Κάτω από 10 KB στη σελίδα και κανένα αίτημα απολύτως μέχρι κάποιος να την ανοίξει."
 
 #. Author of the plugin
 #: zinn-chat.php
@@ -51,8 +51,8 @@ msgid "Add your chat key before switching the chat on — without it there is no
 msgstr "Προσθέστε το κλειδί συνομιλίας σας προτού ενεργοποιήσετε τη συνομιλία — χωρίς αυτό, το widget δεν έχει σε τι να συνδεθεί."
 
 #: includes/class-zinn-chat-admin.php:151
-msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 5 KB on the page."
-msgstr "Ζωντανή συνομιλία για αυτόν τον ιστότοπο. Οι επισκέπτες παίρνουν απάντηση αμέσως, εσείς λαμβάνετε ό,τι χάνετε μέσω email, και ολόκληρος ο μηχανισμός είναι κάτω από 5 KB στη σελίδα."
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
+msgstr "Ζωντανή συνομιλία για αυτόν τον ιστότοπο. Οι επισκέπτες παίρνουν απάντηση αμέσως, εσείς λαμβάνετε ό,τι χάνετε μέσω email, και ολόκληρος ο μηχανισμός είναι κάτω από 10 KB στη σελίδα."
 
 #: includes/class-zinn-chat-admin.php:156
 msgid "The chat is live on this site."

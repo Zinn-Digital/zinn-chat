@@ -25,8 +25,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
 
 #. Description of the plugin
 #: zinn-chat.php
-msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 5 KB on the page and no requests at all until somebody opens it."
-msgstr "Một tiện ích trò chuyện trực tiếp nhanh chóng, tôn trọng quyền riêng tư cho trang web của bạn. Trả lời khách truy cập bằng AI khi bạn bận, chuyển họ cho bạn khi họ cần con người, và gửi email cho bạn mọi thứ bạn bỏ lỡ. Dưới 5 KB trên trang và không có yêu cầu nào cho đến khi ai đó mở nó."
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 10 KB on the page and no requests at all until somebody opens it."
+msgstr "Một tiện ích trò chuyện trực tiếp nhanh chóng, tôn trọng quyền riêng tư cho trang web của bạn. Trả lời khách truy cập bằng AI khi bạn bận, chuyển họ cho bạn khi họ cần con người, và gửi email cho bạn mọi thứ bạn bỏ lỡ. Dưới 10 KB trên trang và không có yêu cầu nào cho đến khi ai đó mở nó."
 
 #. Author of the plugin
 #: zinn-chat.php
@@ -51,8 +51,8 @@ msgid "Add your chat key before switching the chat on — without it there is no
 msgstr "Thêm khóa trò chuyện của bạn trước khi bật tính năng trò chuyện — nếu không có khóa này, tiện ích sẽ không có gì để kết nối."
 
 #: includes/class-zinn-chat-admin.php:151
-msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 5 KB on the page."
-msgstr "Trò chuyện trực tiếp cho trang web này. Khách truy cập nhận được câu trả lời ngay lập tức, bạn nhận được mọi tin nhắn bỏ lỡ qua email và toàn bộ tính năng này có dung lượng dưới 5 KB trên trang."
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
+msgstr "Trò chuyện trực tiếp cho trang web này. Khách truy cập nhận được câu trả lời ngay lập tức, bạn nhận được mọi tin nhắn bỏ lỡ qua email và toàn bộ tính năng này có dung lượng dưới 10 KB trên trang."
 
 #: includes/class-zinn-chat-admin.php:156
 msgid "The chat is live on this site."

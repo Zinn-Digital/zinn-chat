@@ -25,8 +25,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
 
 #. Description of the plugin
 #: zinn-chat.php
-msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 5 KB on the page and no requests at all until somebody opens it."
-msgstr "웹사이트를 위한 빠르고 프라이버시를 존중하는 실시간 채팅입니다. 바쁠 때는 AI로 방문자의 질문에 답하고, 사람이 필요할 때는 담당자에게 연결하며, 놓친 내용은 이메일로 알려줍니다. 페이지 용량이 5KB 미만이며, 누군가 열기 전까지는 요청이 전혀 발생하지 않습니다."
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 10 KB on the page and no requests at all until somebody opens it."
+msgstr "웹사이트를 위한 빠르고 프라이버시를 존중하는 실시간 채팅입니다. 바쁠 때는 AI로 방문자의 질문에 답하고, 사람이 필요할 때는 담당자에게 연결하며, 놓친 내용은 이메일로 알려줍니다. 페이지 용량이 10KB 미만이며, 누군가 열기 전까지는 요청이 전혀 발생하지 않습니다."
 
 #. Author of the plugin
 #: zinn-chat.php
@@ -51,8 +51,8 @@ msgid "Add your chat key before switching the chat on — without it there is no
 msgstr "채팅을 켜기 전에 채팅 키를 추가하세요. 채팅 키가 없으면 위젯이 연결될 대상이 없습니다."
 
 #: includes/class-zinn-chat-admin.php:151
-msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 5 KB on the page."
-msgstr "이 사이트를 위한 실시간 채팅. 방문자는 즉시 답변을 받고, 놓친 내용은 이메일로 받아볼 수 있으며, 전체 용량은 페이지에서 5 KB 미만입니다."
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
+msgstr "이 사이트를 위한 실시간 채팅. 방문자는 즉시 답변을 받고, 놓친 내용은 이메일로 받아볼 수 있으며, 전체 용량은 페이지에서 10 KB 미만입니다."
 
 #: includes/class-zinn-chat-admin.php:156
 msgid "The chat is live on this site."

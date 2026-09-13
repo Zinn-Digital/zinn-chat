@@ -25,8 +25,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
 
 #. Description of the plugin
 #: zinn-chat.php
-msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 5 KB on the page and no requests at all until somebody opens it."
-msgstr "Արագ, գաղտնիությունը հարգող ուղիղ զրույց ձեր վեբկայքի համար: Այն պատասխանում է այցելուներին արհեստական ​​բանականությամբ, երբ զբաղված եք, փոխանցում է ձեզ, երբ մարդու կարիք կա, և էլփոստով ուղարկում բաց թողնվածը: Էջում 5 KB-ից պակաս է և որևէ հարցում չի կատարում, քանի դեռ ինչ-որ մեկը չի բացել այն:"
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 10 KB on the page and no requests at all until somebody opens it."
+msgstr "Արագ, գաղտնիությունը հարգող ուղիղ զրույց ձեր վեբկայքի համար: Այն պատասխանում է այցելուներին արհեստական ​​բանականությամբ, երբ զբաղված եք, փոխանցում է ձեզ, երբ մարդու կարիք կա, և էլփոստով ուղարկում բաց թողնվածը: Էջում 10 KB-ից պակաս է և որևէ հարցում չի կատարում, քանի դեռ ինչ-որ մեկը չի բացել այն:"
 
 #. Author of the plugin
 #: zinn-chat.php
@@ -51,8 +51,8 @@ msgid "Add your chat key before switching the chat on — without it there is no
 msgstr "Ավելացրեք ձեր զրույցի բանալին զրույցը միացնելուց առաջ․ առանց դրա վիջեթը միանալու տեղ չի ունենա։"
 
 #: includes/class-zinn-chat-admin.php:151
-msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 5 KB on the page."
-msgstr "Ուղիղ զրույց այս կայքի համար։ Այցելուներն անմիջապես պատասխան են ստանում, դուք էլ էլփոստով ստանում եք այն ամենը, ինչ բաց եք թողել, և ամբողջ համակարգը էջում զբաղեցնում է 5 կԲ-ից պակաս։"
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
+msgstr "Ուղիղ զրույց այս կայքի համար։ Այցելուներն անմիջապես պատասխան են ստանում, դուք էլ էլփոստով ստանում եք այն ամենը, ինչ բաց եք թողել, և ամբողջ համակարգը էջում զբաղեցնում է 10 կԲ-ից պակաս։"
 
 #: includes/class-zinn-chat-admin.php:156
 msgid "The chat is live on this site."

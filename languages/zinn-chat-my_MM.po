@@ -25,8 +25,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
 
 #. Description of the plugin
 #: zinn-chat.php
-msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 5 KB on the page and no requests at all until somebody opens it."
-msgstr "သင့်ဝဘ်ဆိုဒ်အတွက် အမြန်ဆန်ဆုံးနှင့် ကိုယ်ရေးကိုယ်တာလုံခြုံမှုကို လေးစားသော တိုက်ရိုက်ချတ် (live chat) တစ်ခု။ သင်အလုပ်များနေချိန်တွင် AI ဖြင့် ဧည့်သည်များကို ဖြေကြားပေးပြီး လူကိုယ်တိုင်လိုအပ်လာပါက သင့်ထံသို့ လွှဲပြောင်းပေးကာ၊ သင်လွတ်သွားသည့် မည်သည့်အရာကိုမဆို အီးမေးလ်ဖြင့် ပို့ပေးသည်။ စာမျက်နှာပေါ်တွင် 5 KB အောက်သာ ရှိပြီး တစ်စုံတစ်ဦးက ဖွင့်လှစ်သည်အထိ မည်သည့်တောင်းဆိုမှုကိုမျှ လုံးဝမပြုလုပ်ပါ။"
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 10 KB on the page and no requests at all until somebody opens it."
+msgstr "သင့်ဝဘ်ဆိုဒ်အတွက် အမြန်ဆန်ဆုံးနှင့် ကိုယ်ရေးကိုယ်တာလုံခြုံမှုကို လေးစားသော တိုက်ရိုက်ချတ် (live chat) တစ်ခု။ သင်အလုပ်များနေချိန်တွင် AI ဖြင့် ဧည့်သည်များကို ဖြေကြားပေးပြီး လူကိုယ်တိုင်လိုအပ်လာပါက သင့်ထံသို့ လွှဲပြောင်းပေးကာ၊ သင်လွတ်သွားသည့် မည်သည့်အရာကိုမဆို အီးမေးလ်ဖြင့် ပို့ပေးသည်။ စာမျက်နှာပေါ်တွင် 10 KB အောက်သာ ရှိပြီး တစ်စုံတစ်ဦးက ဖွင့်လှစ်သည်အထိ မည်သည့်တောင်းဆိုမှုကိုမျှ လုံးဝမပြုလုပ်ပါ။"
 
 #. Author of the plugin
 #: zinn-chat.php
@@ -51,8 +51,8 @@ msgid "Add your chat key before switching the chat on — without it there is no
 msgstr "ချတ်ကို မဖွင့်မီ သင့်ချတ်သော့ကို ထည့်ပါ — ၎င်းမပါဘဲ ဝစ်ဂျက်ချိတ်ဆက်ရန် ဘာမှရှိမည် မဟုတ်ပါ။"
 
 #: includes/class-zinn-chat-admin.php:151
-msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 5 KB on the page."
-msgstr "ဤဆိုက်အတွက် တိုက်ရိုက်စကားပြောခန်း။ လာရောက်လည်ပတ်သူများသည် ချက်ချင်းအဖြေရရှိမည်ဖြစ်ပြီး၊ သင်လွတ်သွားသမျှကို အီးမေးလ်ဖြင့် ရရှိမည်ဖြစ်ကာ၊ တစ်ခုလုံးသည် စာမျက်နှာပေါ်တွင် 5 KB အောက်သာ ရှိပါသည်။"
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
+msgstr "ဤဆိုက်အတွက် တိုက်ရိုက်စကားပြောခန်း။ လာရောက်လည်ပတ်သူများသည် ချက်ချင်းအဖြေရရှိမည်ဖြစ်ပြီး၊ သင်လွတ်သွားသမျှကို အီးမေးလ်ဖြင့် ရရှိမည်ဖြစ်ကာ၊ တစ်ခုလုံးသည် စာမျက်နှာပေါ်တွင် 10 KB အောက်သာ ရှိပါသည်။"
 
 #: includes/class-zinn-chat-admin.php:156
 msgid "The chat is live on this site."

@@ -1,6 +1,6 @@
 # Zinn® Chat
 
-Live chat that answers visitors straight away, hands them to you when it matters, and weighs under 5 KB on the page.
+Live chat that answers visitors straight away, hands them to you when it matters, and weighs under 10 KB on the page.
 
 Built and maintained by **Neil Lock — CEO, Zinn Digital® Ltd** — https://zinndigital.com
 
@@ -15,7 +15,7 @@ Both are the same file. The download page is the canonical one: it is served fro
 
 | | |
 |---|---|
-| Version | `1.1.0` |
+| Version | `1.1.1` |
 | Requires WordPress | 6.6 or later |
 | Tested up to | WordPress **7.1** |
 | Requires PHP | 8.2 or later |

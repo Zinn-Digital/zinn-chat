@@ -25,8 +25,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
 
 #. Description of the plugin
 #: zinn-chat.php
-msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 5 KB on the page and no requests at all until somebody opens it."
-msgstr "Obrolan langsung yang cepat dan menjaga privasi untuk situs web Anda. Menjawab pengunjung dengan AI saat Anda sibuk, meneruskannya kepada Anda saat mereka membutuhkan manusia, dan mengirimkan email tentang apa pun yang Anda lewatkan. Di bawah 5 KB di halaman dan tidak ada permintaan sama sekali hingga seseorang membukanya."
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 10 KB on the page and no requests at all until somebody opens it."
+msgstr "Obrolan langsung yang cepat dan menjaga privasi untuk situs web Anda. Menjawab pengunjung dengan AI saat Anda sibuk, meneruskannya kepada Anda saat mereka membutuhkan manusia, dan mengirimkan email tentang apa pun yang Anda lewatkan. Di bawah 10 KB di halaman dan tidak ada permintaan sama sekali hingga seseorang membukanya."
 
 #. Author of the plugin
 #: zinn-chat.php
@@ -51,8 +51,8 @@ msgid "Add your chat key before switching the chat on — without it there is no
 msgstr "Tambahkan kunci obrolan Anda sebelum mengaktifkan obrolan — tanpa itu, widget tidak akan dapat terhubung ke mana pun."
 
 #: includes/class-zinn-chat-admin.php:151
-msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 5 KB on the page."
-msgstr "Obrolan langsung untuk situs ini. Pengunjung langsung mendapatkan jawaban, Anda menerima apa pun yang terlewat melalui email, dan ukurannya secara keseluruhan kurang dari 5 KB di halaman."
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
+msgstr "Obrolan langsung untuk situs ini. Pengunjung langsung mendapatkan jawaban, Anda menerima apa pun yang terlewat melalui email, dan ukurannya secara keseluruhan kurang dari 10 KB di halaman."
 
 #: includes/class-zinn-chat-admin.php:156
 msgid "The chat is live on this site."

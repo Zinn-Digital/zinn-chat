@@ -25,8 +25,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
 
 #. Description of the plugin
 #: zinn-chat.php
-msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 5 KB on the page and no requests at all until somebody opens it."
-msgstr "Un chat live rapid și care respectă viața privată pentru site-ul dvs. Răspunde vizitatorilor cu ajutorul inteligenței artificiale atunci când sunteți ocupați, vi-i transferă atunci când au nevoie de o persoană și vă trimite prin e-mail tot ce ratați. Sub 5 KB în pagină și fără nicio solicitare până când cineva îl deschide."
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 10 KB on the page and no requests at all until somebody opens it."
+msgstr "Un chat live rapid și care respectă viața privată pentru site-ul dvs. Răspunde vizitatorilor cu ajutorul inteligenței artificiale atunci când sunteți ocupați, vi-i transferă atunci când au nevoie de o persoană și vă trimite prin e-mail tot ce ratați. Sub 10 KB în pagină și fără nicio solicitare până când cineva îl deschide."
 
 #. Author of the plugin
 #: zinn-chat.php
@@ -51,8 +51,8 @@ msgid "Add your chat key before switching the chat on — without it there is no
 msgstr "Adăugați cheia de chat înainte de a activa chatul — fără aceasta, widgetul nu are la ce să se conecteze."
 
 #: includes/class-zinn-chat-admin.php:151
-msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 5 KB on the page."
-msgstr "Chat live pentru acest site. Vizitatorii primesc un răspuns imediat, dumneavoastră primiți pe e-mail tot ce ratați, iar întregul modul are sub 5 KB pe pagină."
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
+msgstr "Chat live pentru acest site. Vizitatorii primesc un răspuns imediat, dumneavoastră primiți pe e-mail tot ce ratați, iar întregul modul are sub 10 KB pe pagină."
 
 #: includes/class-zinn-chat-admin.php:156
 msgid "The chat is live on this site."

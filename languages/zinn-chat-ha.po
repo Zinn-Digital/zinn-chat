@@ -25,8 +25,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
 
 #. Description of the plugin
 #: zinn-chat.php
-msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 5 KB on the page and no requests at all until somebody opens it."
-msgstr "Wani tattaunawa ta kai-tsaye mai sauri wacce ke kare sirri don shafinku na yanar gizo. Tana amsa wa baƙi da fasahar AI lokacin da kuke aiki, tana mika su gare ku lokacin da suke buƙatar mutum, kuma tana turo muku imel na duk abin da kuka rasa. Kasa da KB 5 a shafin kuma babu buƙatu ko kaɗan har sai wani ya buɗe ta."
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 10 KB on the page and no requests at all until somebody opens it."
+msgstr "Wani tattaunawa ta kai-tsaye mai sauri wacce ke kare sirri don shafinku na yanar gizo. Tana amsa wa baƙi da fasahar AI lokacin da kuke aiki, tana mika su gare ku lokacin da suke buƙatar mutum, kuma tana turo muku imel na duk abin da kuka rasa. Kasa da KB 10 a shafin kuma babu buƙatu ko kaɗan har sai wani ya buɗe ta."
 
 #. Author of the plugin
 #: zinn-chat.php
@@ -51,8 +51,8 @@ msgid "Add your chat key before switching the chat on — without it there is no
 msgstr "Ƙara maɓallin tattaunawarka kafin ka kunna tattaunawar — ba tare da shi ba babu abin da widget din zai haɗa da shi."
 
 #: includes/class-zinn-chat-admin.php:151
-msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 5 KB on the page."
-msgstr "Tattaunawa kai tsaye don wannan shafin. Baƙi suna samun amsa nan da nan, kuna samun duk abin da kuka rasa ta imel, kuma duka abin yana ƙasan 5 KB a shafin."
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
+msgstr "Tattaunawa kai tsaye don wannan shafin. Baƙi suna samun amsa nan da nan, kuna samun duk abin da kuka rasa ta imel, kuma duka abin yana ƙasan 10 KB a shafin."
 
 #: includes/class-zinn-chat-admin.php:156
 msgid "The chat is live on this site."

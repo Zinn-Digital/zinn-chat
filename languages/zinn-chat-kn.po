@@ -25,8 +25,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
 
 #. Description of the plugin
 #: zinn-chat.php
-msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 5 KB on the page and no requests at all until somebody opens it."
-msgstr "ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ಗಾಗಿ ವೇಗವಾದ, ಗೌಪ್ಯತೆಯನ್ನು ಗೌರವಿಸುವ ಲೈವ್ ಚಾಟ್. ನೀವು ಬ್ಯುಸಿ ಇದ್ದಾಗ AI ಮೂಲಕ ಸಂದರ್ಶಕರಿಗೆ ಉತ್ತರಿಸುತ್ತದೆ, ಅವರಿಗೆ ಮಾನವನ ಅಗತ್ಯವಿದ್ದಾಗ ನಿಮ್ಮ ಬಳಿಗೆ ವರ್ಗಾಯಿಸುತ್ತದೆ ಮತ್ತು ನೀವು ತಪ್ಪಿಸಿಕೊಂಡ ಯಾವುದನ್ನಾದರೂ ಇಮೇಲ್ ಮಾಡುತ್ತದೆ. ಪುಟದಲ್ಲಿ 5 KB ಗಿಂತ ಕಡಿಮೆ ಗಾತ್ರದಲ್ಲಿದೆ ಮತ್ತು ಯಾರಾದರೂ ಅದನ್ನು ತೆರೆಯುವವರೆಗೆ ಯಾವುದೇ ವಿನಂತಿಗಳಿರುವುದಿಲ್ಲ."
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 10 KB on the page and no requests at all until somebody opens it."
+msgstr "ನಿಮ್ಮ ವೆಬ್‌ಸೈಟ್‌ಗಾಗಿ ವೇಗವಾದ, ಗೌಪ್ಯತೆಯನ್ನು ಗೌರವಿಸುವ ಲೈವ್ ಚಾಟ್. ನೀವು ಬ್ಯುಸಿ ಇದ್ದಾಗ AI ಮೂಲಕ ಸಂದರ್ಶಕರಿಗೆ ಉತ್ತರಿಸುತ್ತದೆ, ಅವರಿಗೆ ಮಾನವನ ಅಗತ್ಯವಿದ್ದಾಗ ನಿಮ್ಮ ಬಳಿಗೆ ವರ್ಗಾಯಿಸುತ್ತದೆ ಮತ್ತು ನೀವು ತಪ್ಪಿಸಿಕೊಂಡ ಯಾವುದನ್ನಾದರೂ ಇಮೇಲ್ ಮಾಡುತ್ತದೆ. ಪುಟದಲ್ಲಿ 10 KB ಗಿಂತ ಕಡಿಮೆ ಗಾತ್ರದಲ್ಲಿದೆ ಮತ್ತು ಯಾರಾದರೂ ಅದನ್ನು ತೆರೆಯುವವರೆಗೆ ಯಾವುದೇ ವಿನಂತಿಗಳಿರುವುದಿಲ್ಲ."
 
 #. Author of the plugin
 #: zinn-chat.php
@@ -51,8 +51,8 @@ msgid "Add your chat key before switching the chat on — without it there is no
 msgstr "ಚಾಟ್ ಅನ್ನು ಆನ್ ಮಾಡುವ ಮೊದಲು ನಿಮ್ಮ ಚಾಟ್ ಕೀಲಿಯನ್ನು ಸೇರಿಸಿ — ಅದು ಇಲ್ಲದೆ ವಿಜೆಟ್ ಸಂಪರ್ಕಗೊಳ್ಳಲು ಏನೂ ಇರುವುದಿಲ್ಲ."
 
 #: includes/class-zinn-chat-admin.php:151
-msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 5 KB on the page."
-msgstr "ಈ ಸೈಟ್‌ಗಾಗಿ ಲೈವ್ ಚಾಟ್. ಸಂದರ್ಶಕರಿಗೆ ತಕ್ಷಣವೇ ಉತ್ತರ ಸಿಗುತ್ತದೆ, ನಿಮಗೆ ತಪ್ಪಿಹೋದ ವಿಷಯಗಳು ಇಮೇಲ್ ಮೂಲಕ ತಲುಪುತ್ತವೆ, ಮತ್ತು ಇ całym ಪುಟದಲ್ಲಿ ಇದರ ಗಾತ್ರ 5 KB ಗಿಂತ ಕಡಿಮೆಯಿರುತ್ತದೆ."
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
+msgstr "ಈ ಸೈಟ್‌ಗಾಗಿ ಲೈವ್ ಚಾಟ್. ಸಂದರ್ಶಕರಿಗೆ ತಕ್ಷಣವೇ ಉತ್ತರ ಸಿಗುತ್ತದೆ, ನಿಮಗೆ ತಪ್ಪಿಹೋದ ವಿಷಯಗಳು ಇಮೇಲ್ ಮೂಲಕ ತಲುಪುತ್ತವೆ, ಮತ್ತು ಇ całym ಪುಟದಲ್ಲಿ ಇದರ ಗಾತ್ರ 10 KB ಗಿಂತ ಕಡಿಮೆಯಿರುತ್ತದೆ."
 
 #: includes/class-zinn-chat-admin.php:156
 msgid "The chat is live on this site."

@@ -25,8 +25,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
 
 #. Description of the plugin
 #: zinn-chat.php
-msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 5 KB on the page and no requests at all until somebody opens it."
-msgstr "ਤੁਹਾਡੀ ਵੈੱਬਸਾਈਟ ਲਈ ਇੱਕ ਤੇਜ਼, ਨਿੱਜਤਾ ਦਾ ਸਤਿਕਾਰ ਕਰਨ ਵਾਲੀ ਲਾਈਵ ਚੈਟ। ਜਦੋਂ ਤੁਸੀਂ ਰੁੱਝੇ ਹੁੰਦੇ ਹੋ ਤਾਂ AI ਨਾਲ ਵਿਜ਼ਿਟਰਾਂ ਨੂੰ ਜਵਾਬ ਦਿੰਦੀ ਹੈ, ਜਦੋਂ ਉਨ੍ਹਾਂ ਨੂੰ ਕਿਸੇ ਵਿਅਕਤੀ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ ਤਾਂ ਤੁਹਾਨੂੰ ਸੌਂਪਦੀ ਹੈ, ਅਤੇ ਜੋ ਵੀ ਤੁਸੀਂ ਮਿਸ ਕਰਦੇ ਹੋ ਉਹ ਤੁਹਾਨੂੰ ਈਮੇਲ ਕਰਦੀ ਹੈ। ਪੰਨੇ 'ਤੇ 5 KB ਤੋਂ ਘੱਟ ਅਤੇ ਜਦੋਂ ਤੱਕ ਕੋਈ ਇਸਨੂੰ ਖੋਲ੍ਹਦਾ ਨਹੀਂ ਹੈ, ਉਦੋਂ ਤੱਕ ਕੋਈ ਬੇਨਤੀ ਨਹੀਂ ਕੀਤੀ ਜਾਂਦੀ।"
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 10 KB on the page and no requests at all until somebody opens it."
+msgstr "ਤੁਹਾਡੀ ਵੈੱਬਸਾਈਟ ਲਈ ਇੱਕ ਤੇਜ਼, ਨਿੱਜਤਾ ਦਾ ਸਤਿਕਾਰ ਕਰਨ ਵਾਲੀ ਲਾਈਵ ਚੈਟ। ਜਦੋਂ ਤੁਸੀਂ ਰੁੱਝੇ ਹੁੰਦੇ ਹੋ ਤਾਂ AI ਨਾਲ ਵਿਜ਼ਿਟਰਾਂ ਨੂੰ ਜਵਾਬ ਦਿੰਦੀ ਹੈ, ਜਦੋਂ ਉਨ੍ਹਾਂ ਨੂੰ ਕਿਸੇ ਵਿਅਕਤੀ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ ਤਾਂ ਤੁਹਾਨੂੰ ਸੌਂਪਦੀ ਹੈ, ਅਤੇ ਜੋ ਵੀ ਤੁਸੀਂ ਮਿਸ ਕਰਦੇ ਹੋ ਉਹ ਤੁਹਾਨੂੰ ਈਮੇਲ ਕਰਦੀ ਹੈ। ਪੰਨੇ 'ਤੇ 10 KB ਤੋਂ ਘੱਟ ਅਤੇ ਜਦੋਂ ਤੱਕ ਕੋਈ ਇਸਨੂੰ ਖੋਲ੍ਹਦਾ ਨਹੀਂ ਹੈ, ਉਦੋਂ ਤੱਕ ਕੋਈ ਬੇਨਤੀ ਨਹੀਂ ਕੀਤੀ ਜਾਂਦੀ।"
 
 #. Author of the plugin
 #: zinn-chat.php
@@ -51,8 +51,8 @@ msgid "Add your chat key before switching the chat on — without it there is no
 msgstr "ਚੈਤ ਚਾਲੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਆਪਣੀ ਚੈਟ ਕੁੰਜੀ ਸ਼ਾਮਲ ਕਰੋ — ਇਸ ਤੋਂ ਬਿਨਾਂ ਵਿਜੇਟ ਦੇ ਕਨੈਕਟ ਹੋਣ ਲਈ ਕੁਝ ਨਹੀਂ ਹੋਵੇਗਾ।"
 
 #: includes/class-zinn-chat-admin.php:151
-msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 5 KB on the page."
-msgstr "ਇਸ ਸਾਈਟ ਲਈ ਲਾਈਵ ਚੈਟ। ਵਿਜ਼ਟਰਾਂ ਨੂੰ ਤੁਰੰਤ ਜਵਾਬ ਮਿਲਦਾ ਹੈ, ਜੋ ਕੁਝ ਤੁਸੀਂ ਖੁੰਝਾਉਂਦੇ ਹੋ ਉਹ ਤੁਹਾਨੂੰ ਈਮੇਲ ਰਾਹੀਂ ਮਿਲ ਜਾਂਦਾ ਹੈ, ਅਤੇ ਪੂਰੀ ਚੀਜ਼ ਪੇਜ 'ਤੇ 5 KB ਤੋਂ ਘੱਟ ਹੈ।"
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
+msgstr "ਇਸ ਸਾਈਟ ਲਈ ਲਾਈਵ ਚੈਟ। ਵਿਜ਼ਟਰਾਂ ਨੂੰ ਤੁਰੰਤ ਜਵਾਬ ਮਿਲਦਾ ਹੈ, ਜੋ ਕੁਝ ਤੁਸੀਂ ਖੁੰਝਾਉਂਦੇ ਹੋ ਉਹ ਤੁਹਾਨੂੰ ਈਮੇਲ ਰਾਹੀਂ ਮਿਲ ਜਾਂਦਾ ਹੈ, ਅਤੇ ਪੂਰੀ ਚੀਜ਼ ਪੇਜ 'ਤੇ 10 KB ਤੋਂ ਘੱਟ ਹੈ।"
 
 #: includes/class-zinn-chat-admin.php:156
 msgid "The chat is live on this site."

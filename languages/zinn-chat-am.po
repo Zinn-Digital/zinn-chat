@@ -25,8 +25,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
 
 #. Description of the plugin
 #: zinn-chat.php
-msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 5 KB on the page and no requests at all until somebody opens it."
-msgstr "ለድር ጣቢያዎ ፈጣን፣ ግላዊነትን የሚያከብር ቀጥታ ውይይት። ስራ ሲበዛብዎት በAI መልስ ይሰጣል፣ ሰው ሲፈልጉ ደግሞ ወደ እርስዎ ያስተላልፋል፣ ያመለጡዎትንም ነገሮች በኢሜይል ይልክልዎታል። በገጹ ላይ ከ 5 KB በታች የሆነ እና ማንም ሰው እስኪከፍተው ድረስ ምንም ዓይነት ጥያቄዎችን አያቀርብም።"
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 10 KB on the page and no requests at all until somebody opens it."
+msgstr "ለድር ጣቢያዎ ፈጣን፣ ግላዊነትን የሚያከብር ቀጥታ ውይይት። ስራ ሲበዛብዎት በAI መልስ ይሰጣል፣ ሰው ሲፈልጉ ደግሞ ወደ እርስዎ ያስተላልፋል፣ ያመለጡዎትንም ነገሮች በኢሜይል ይልክልዎታል። በገጹ ላይ ከ 10 KB በታች የሆነ እና ማንም ሰው እስኪከፍተው ድረስ ምንም ዓይነት ጥያቄዎችን አያቀርብም።"
 
 #. Author of the plugin
 #: zinn-chat.php
@@ -51,8 +51,8 @@ msgid "Add your chat key before switching the chat on — without it there is no
 msgstr "ውይይቱን ከማብራትዎ በፊት የውይይት ቁልፍዎን ያክሉ — ያለሱ መግብሩ የሚገናኝበት ምንም ነገር አይኖርም።"
 
 #: includes/class-zinn-chat-admin.php:151
-msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 5 KB on the page."
-msgstr "ለዚህ ድር ጣቢያ የቀጥታ ውይይት። ጎብኝዎች ወዲያውኑ ምላሽ ያገኛሉ፣ ያመለጡዎትን ነገሮች ሁሉ በኢሜይል ይቀበላሉ፣ እና አጠቃላይ ይዘቱ በገጹ ላይ ከ 5 ኪባ (KB) በታች ነው።"
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
+msgstr "ለዚህ ድር ጣቢያ የቀጥታ ውይይት። ጎብኝዎች ወዲያውኑ ምላሽ ያገኛሉ፣ ያመለጡዎትን ነገሮች ሁሉ በኢሜይል ይቀበላሉ፣ እና አጠቃላይ ይዘቱ በገጹ ላይ ከ 10 ኪባ (KB) በታች ነው።"
 
 #: includes/class-zinn-chat-admin.php:156
 msgid "The chat is live on this site."

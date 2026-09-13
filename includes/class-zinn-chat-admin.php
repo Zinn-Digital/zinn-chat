@@ -148,7 +148,7 @@ final class Zinn_Chat_Admin {
 		<div class="wrap">
 			<h1><?php esc_html_e( 'Zinn® Chat', 'zinn-chat' ); ?></h1>
 			<p>
-				<?php esc_html_e( 'Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 5 KB on the page.', 'zinn-chat' ); ?>
+				<?php esc_html_e( 'Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page.', 'zinn-chat' ); ?>
 			</p>
 			<p>
 				<?php

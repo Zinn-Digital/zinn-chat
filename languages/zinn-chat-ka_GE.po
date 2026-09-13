@@ -25,8 +25,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
 
 #. Description of the plugin
 #: zinn-chat.php
-msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 5 KB on the page and no requests at all until somebody opens it."
-msgstr "სwrafqi, confidencialobis damcveli cocxali cati tqveni veb-saitisTvis. is pasuxobs vizitorebis SekiTxvebs xelovnuri intelektit, roca dakavebuli xarT, gadascems maT Tqven, roca adamianis CarTvaa saWiro da gogzavniT el-fostam yvelafers, rac gamotoveT. gverdis zoma 5 KB-ze naklebia da arcerT moTxovnas ar agzavnis manam, sanam vincme ar gaxsnis."
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 10 KB on the page and no requests at all until somebody opens it."
+msgstr "სwrafqi, confidencialobis damcveli cocxali cati tqveni veb-saitisTvis. is pasuxobs vizitorebis SekiTxvebs xelovnuri intelektit, roca dakavebuli xarT, gadascems maT Tqven, roca adamianis CarTvaa saWiro da gogzavniT el-fostam yvelafers, rac gamotoveT. gverdis zoma 10 KB-ze naklebia da arcerT moTxovnas ar agzavnis manam, sanam vincme ar gaxsnis."
 
 #. Author of the plugin
 #: zinn-chat.php
@@ -51,8 +51,8 @@ msgid "Add your chat key before switching the chat on — without it there is no
 msgstr "დაამატეთ თქვენი ჩატის გასაღები ჩატის ჩართვამდე — უამისოდ ვიჯეტს დასაკავშირებელი არაფერი ექნება."
 
 #: includes/class-zinn-chat-admin.php:151
-msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 5 KB on the page."
-msgstr "ცოცხალი ჩატი ამ საიტისთვის. ვიზიტორები პასუხს დაუყოვნებლივ იღებენ, გამოტოვებულ შეტყობინებებს ელფოსტით მიიღებთ, ხოლო მთლიანი მოდული გვერდზე 5 კბ-ზე ნაკლებს იკავებს."
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
+msgstr "ცოცხალი ჩატი ამ საიტისთვის. ვიზიტორები პასუხს დაუყოვნებლივ იღებენ, გამოტოვებულ შეტყობინებებს ელფოსტით მიიღებთ, ხოლო მთლიანი მოდული გვერდზე 10 კბ-ზე ნაკლებს იკავებს."
 
 #: includes/class-zinn-chat-admin.php:156
 msgid "The chat is live on this site."

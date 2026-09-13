@@ -25,8 +25,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
 
 #. Description of the plugin
 #: zinn-chat.php
-msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 5 KB on the page and no requests at all until somebody opens it."
-msgstr "Чati зиндаи зуд ва риояткунандаи махфият барои вебсайти шумо. Ҳангоми банд буданатон ба боздидкунандагон бо зеҳни сунъӣ ҷавоб медиҳад, ҳангоми ба шахси воқеӣ ниёз доштанашон онҳоро ба шумо месупорад ва ҳар чизеро, ки аз даст медиҳед, ба почтаи электронии шумо мефиристад. Дар саҳифа камтар аз 5 КБ буда, то кушода шудани он ягон дархост намефиристад."
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 10 KB on the page and no requests at all until somebody opens it."
+msgstr "Чati зиндаи зуд ва риояткунандаи махфият барои вебсайти шумо. Ҳангоми банд буданатон ба боздидкунандагон бо зеҳни сунъӣ ҷавоб медиҳад, ҳангоми ба шахси воқеӣ ниёз доштанашон онҳоро ба шумо месупорад ва ҳар чизеро, ки аз даст медиҳед, ба почтаи электронии шумо мефиристад. Дар саҳифа камтар аз 10 КБ буда, то кушода шудани он ягон дархост намефиристад."
 
 #. Author of the plugin
 #: zinn-chat.php
@@ -51,8 +51,8 @@ msgid "Add your chat key before switching the chat on — without it there is no
 msgstr "Пеш аз фаъол кардани чат калиди чати худро илова кунед — бидуни он виджет ба ҳеҷ ҷой пайваст шуда наметавонад."
 
 #: includes/class-zinn-chat-admin.php:151
-msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 5 KB on the page."
-msgstr "Чотии зинда барои ин сайт. Меҳмонон посухро фавран мегиранд, ҳамаи паёмҳои аздастдошта ба почтаи электронии шумо фиристода мешаванд ва ҳаҷми умумии он дар саҳифа камтар аз 5 КБ аст."
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
+msgstr "Чотии зинда барои ин сайт. Меҳмонон посухро фавран мегиранд, ҳамаи паёмҳои аздастдошта ба почтаи электронии шумо фиристода мешаванд ва ҳаҷми умумии он дар саҳифа камтар аз 10 КБ аст."
 
 #: includes/class-zinn-chat-admin.php:156
 msgid "The chat is live on this site."

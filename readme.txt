@@ -7,21 +7,21 @@ Tags: live chat, chat, support, helpdesk, ai
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Live chat that answers visitors straight away, hands them to you when it matters, and weighs under 5 KB on the page.
+Live chat that answers visitors straight away, hands them to you when it matters, and weighs under 10 KB on the page.
 
 == Description ==
 
-Most live chat widgets cost your visitors several hundred kilobytes of JavaScript on every page, whether or not anybody ever opens them. This one is under 5 KB compressed, loads after your page has finished rendering, and makes **no network requests at all** until a visitor actually clicks it.
+Most live chat widgets cost your visitors several hundred kilobytes of JavaScript on every page, whether or not anybody ever opens them. This one is under 10 KB compressed, loads after your page has finished rendering, and makes **no network requests at all** until a visitor actually clicks it.
 
 When somebody does open it, an assistant answers immediately from what it knows about your site. If it cannot answer — or the visitor asks for a person, or the question is about an order, money or a complaint — it hands the conversation straight to you. Anything that comes in when nobody is there is emailed to you with the transcript.
 
 = What makes it fast =
 
-* Under 5 KB compressed. No framework, no polyfills, no web fonts, no tracking pixel.
+* Under 10 KB compressed. No framework, no polyfills, no web fonts, no tracking pixel.
 * Loaded with `defer`, in the footer, after your page has painted. It cannot delay your content and it cannot shift your layout.
 * Its settings travel with the page, so the widget does not have to fetch them.
 * Zero requests until a visitor opens the chat. A page nobody chats on costs one cached script and nothing else.
@@ -98,6 +98,10 @@ Not if you host with Zinn Digital®. Premium is included with your hosting for a
 3. The Zinn Digital® panel in your dashboard: this plugin's own guide, and the other things we run. No remote call, no tracking pixel, no image loaded from us.
 
 == Changelog ==
+
+= 1.1.1 =
+* Corrected: the plugin description and settings screen said the widget is under 5 KB. It is about 8 KB compressed, so they now say under 10 KB.
+* Translations: every string this plugin's admin shows is now translated in every bundled language. A few strings the machine translator refused were shipping in English; they are now translated by hand.
 
 = 1.1.0 =
 * The widget's appearance now travels with the page instead of being fetched. The plugin caches your chat's greeting, colour, corner and team name when you save your key and once a day after that, so a visitor's browser makes no request at all on the chat's behalf until somebody opens it.

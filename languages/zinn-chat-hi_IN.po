@@ -25,8 +25,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
 
 #. Description of the plugin
 #: zinn-chat.php
-msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 5 KB on the page and no requests at all until somebody opens it."
-msgstr "आपकी वेबसाइट के लिए एक तेज़, गोपनीयता का सम्मान करने वाली लाइव चैट। जब आप व्यस्त हों तो यह AI के साथ विज़िटर्स के जवाब देती है, किसी व्यक्ति की ज़रूरत होने पर उन्हें आपको सौंप देती है, और आपकी छूटी हुई हर बात को ईमेल करती है। पेज पर 5 KB से कम और किसी के खोलने तक बिल्कुल कोई अनुरोध नहीं।"
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 10 KB on the page and no requests at all until somebody opens it."
+msgstr "आपकी वेबसाइट के लिए एक तेज़, गोपनीयता का सम्मान करने वाली लाइव चैट। जब आप व्यस्त हों तो यह AI के साथ विज़िटर्स के जवाब देती है, किसी व्यक्ति की ज़रूरत होने पर उन्हें आपको सौंप देती है, और आपकी छूटी हुई हर बात को ईमेल करती है। पेज पर 10 KB से कम और किसी के खोलने तक बिल्कुल कोई अनुरोध नहीं।"
 
 #. Author of the plugin
 #: zinn-chat.php
@@ -51,8 +51,8 @@ msgid "Add your chat key before switching the chat on — without it there is no
 msgstr "चैट चालू करने से पहले अपनी चैट कुंजी जोड़ें — इसके बिना विजेट के कनेक्ट होने के लिए कुछ नहीं होगा।"
 
 #: includes/class-zinn-chat-admin.php:151
-msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 5 KB on the page."
-msgstr "इस साइट के लिए लाइव चैट। आगंतुकों को तुरंत उत्तर मिल जाता है, जो कुछ भी छूट जाता है वह आपको ईमेल से मिल जाता है, और यह पूरा विजेट पेज पर 5 KB से भी कम का है।"
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
+msgstr "इस साइट के लिए लाइव चैट। आगंतुकों को तुरंत उत्तर मिल जाता है, जो कुछ भी छूट जाता है वह आपको ईमेल से मिल जाता है, और यह पूरा विजेट पेज पर 10 KB से भी कम का है।"
 
 #: includes/class-zinn-chat-admin.php:156
 msgid "The chat is live on this site."

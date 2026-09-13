@@ -25,8 +25,8 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
 
 #. Description of the plugin
 #: zinn-chat.php
-msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 5 KB on the page and no requests at all until somebody opens it."
-msgstr "আপনার ওয়েবসাইটের জন্য একটি দ্রুত এবং গোপনীয়তা বজায় রাখা লাইভ চ্যাট। আপনি ব্যস্ত থাকলে এটি এআই-এর মাধ্যমে দর্শকদের উত্তর দেয়, মানুষের প্রয়োজন হলে আপনার কাছে হস্তান্তর করে এবং আপনার মিস হয়ে যাওয়া যেকোনো বার্তা ইমেইল করে। পেজে ৫ কিলোবাইটের কম এবং কেউ এটি না খোলা পর্যন্ত কোনো রিকোয়েস্টই করে না।"
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 10 KB on the page and no requests at all until somebody opens it."
+msgstr "আপনার ওয়েবসাইটের জন্য একটি দ্রুত এবং গোপনীয়তা বজায় রাখা লাইভ চ্যাট। আপনি ব্যস্ত থাকলে এটি এআই-এর মাধ্যমে দর্শকদের উত্তর দেয়, মানুষের প্রয়োজন হলে আপনার কাছে হস্তান্তর করে এবং আপনার মিস হয়ে যাওয়া যেকোনো বার্তা ইমেইল করে। পেজে ১০ কিলোবাইটের কম এবং কেউ এটি না খোলা পর্যন্ত কোনো রিকোয়েস্টই করে না।"
 
 #. Author of the plugin
 #: zinn-chat.php
@@ -51,8 +51,8 @@ msgid "Add your chat key before switching the chat on — without it there is no
 msgstr "চ্যাট চালু করার আগে আপনার চ্যাট কি (chat key) যোগ করুন — এটি ছাড়া উইজেট সংযোগ করার মতো কিছুই থাকবে না।"
 
 #: includes/class-zinn-chat-admin.php:151
-msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 5 KB on the page."
-msgstr "এই সাইটের জন্য লাইভ চ্যাট। দর্শনার্থীরা সঙ্গে সঙ্গে উত্তর পান, আপনার বাদ পড়া যেকোনো বার্তা ইমেইলে চলে আসে, আর পুরো বিষয়টি পেজে ৫ কিলোবাইটেরও কম জায়গা নেয়।"
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
+msgstr "এই সাইটের জন্য লাইভ চ্যাট। দর্শনার্থীরা সঙ্গে সঙ্গে উত্তর পান, আপনার বাদ পড়া যেকোনো বার্তা ইমেইলে চলে আসে, আর পুরো বিষয়টি পেজে ১০ কিলোবাইটেরও কম জায়গা নেয়।"
 
 #: includes/class-zinn-chat-admin.php:156
 msgid "The chat is live on this site."
