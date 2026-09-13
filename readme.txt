@@ -7,7 +7,7 @@ Tags: live chat, chat, support, helpdesk, ai
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -98,6 +98,9 @@ Not if you host with Zinn Digital®. Premium is included with your hosting for a
 3. The Zinn Digital® panel in your dashboard: this plugin's own guide, and the other things we run. No remote call, no tracking pixel, no image loaded from us.
 
 == Changelog ==
+
+= 1.1.2 =
+* The chat window now speaks your site's language: its buttons, placeholder, the "leave your email" prompt and "Powered by" follow the language your WordPress site is set to, in any of 58 languages, instead of always being English.
 
 = 1.1.1 =
 * Corrected: the plugin description and settings screen said the widget is under 5 KB. It is about 8 KB compressed, so they now say under 10 KB.

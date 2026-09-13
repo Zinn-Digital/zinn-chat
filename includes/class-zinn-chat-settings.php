@@ -143,6 +143,29 @@ final class Zinn_Chat_Settings {
 			'branding'      => ! isset( $config['branding'] ) || (bool) $config['branding'],
 			'ai_enabled'    => ! isset( $config['ai_enabled'] ) || (bool) $config['ai_enabled'],
 			'online'        => ! empty( $config['online'] ),
+			'strings'       => self::clean_strings( $config['strings'] ?? array() ),
 		);
+	}
+
+	/**
+	 * The widget's visitor-facing words, as synced from the engine.
+	 *
+	 * Only short plain-text values under known-shaped keys survive; anything else is dropped,
+	 * and the widget falls back to its own English for a key that is missing.
+	 *
+	 * @param mixed $strings Decoded `strings` object from the config endpoint.
+	 * @return array<string, string>
+	 */
+	public static function clean_strings( $strings ): array {
+		if ( ! is_array( $strings ) ) {
+			return array();
+		}
+		$clean = array();
+		foreach ( $strings as $key => $value ) {
+			if ( is_string( $key ) && preg_match( '/^[a-z_]{1,32}$/', $key ) && is_string( $value ) ) {
+				$clean[ $key ] = sanitize_text_field( mb_substr( $value, 0, 200 ) );
+			}
+		}
+		return $clean;
 	}
 }

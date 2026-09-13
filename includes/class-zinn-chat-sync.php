@@ -120,7 +120,10 @@ final class Zinn_Chat_Sync {
 		}
 
 		$url = untrailingslashit( (string) $settings['api_base'] )
-			. '/v1/public/chat/' . rawurlencode( $key ) . '/config';
+			. '/v1/public/chat/' . rawurlencode( $key ) . '/config'
+			// The widget's words in this site's language; the engine answers the nearest of its
+			// 58 languages, or English.
+			. '?locale=' . rawurlencode( determine_locale() );
 
 		$response = wp_remote_get(
 			$url,
