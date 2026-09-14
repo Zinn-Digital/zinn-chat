@@ -10,11 +10,7 @@ msgstr ""
 "X-Generator: scripts/wp-i18n-translate.py\n"
 
 #. Plugin Name of the plugin
-#. translators: page title.
 #: zinn-chat.php
-#: includes/class-zinn-chat-admin.php:67
-#: includes/class-zinn-chat-admin.php:68
-#: includes/class-zinn-chat-admin.php:149
 msgid "Zinn® Chat"
 msgstr "Zinn® Chat"
 
@@ -42,49 +38,50 @@ msgstr "https://zinndigital.com"
 msgid "Settings"
 msgstr "设置"
 
-#: includes/class-zinn-chat-admin.php:115
+#: includes/class-zinn-chat-admin.php:151
 msgid "That does not look like a Zinn® Chat key. Copy it from the Live chat page of your Zinn Digital® dashboard — it starts with zc_."
 msgstr "这看起来不像是一个 Zinn® Chat 密钥。请从您的 Zinn Digital® 控制面板的“在线聊天”页面复制——它以 zc_ 开头。"
 
-#: includes/class-zinn-chat-admin.php:125
+#: includes/class-zinn-chat-admin.php:161
 msgid "Add your chat key before switching the chat on — without it there is nothing for the widget to connect to."
 msgstr "在开启聊天之前请先添加您的聊天密钥——否则小部件将无法连接任何内容。"
 
-#: includes/class-zinn-chat-admin.php:151
+#: includes/class-zinn-chat-admin.php:201
 msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
 msgstr "本网站的在线客服。访客可立即获得回复，您错过的消息将通过电子邮件发送给您，且整个脚本在网页上的大小不到 10 KB。"
 
-#: includes/class-zinn-chat-admin.php:156
+#: includes/class-zinn-chat-admin.php:206
 msgid "The chat is live on this site."
 msgstr "本网站已开通在线聊天。"
 
-#: includes/class-zinn-chat-admin.php:158
+#: includes/class-zinn-chat-admin.php:208
 msgid "The chat is switched off. Nothing is loaded on your site."
 msgstr "聊天功能已关闭。您的网站未加载任何内容。"
 
-#: includes/class-zinn-chat-admin.php:167
+#: includes/class-zinn-chat-admin.php:217
 msgid "Chat key"
 msgstr "聊天密钥"
 
 #. translators: %s: link to the Zinn dashboard.
-#: includes/class-zinn-chat-admin.php:179
+#: includes/class-zinn-chat-admin.php:229
 #, php-format
 msgid "Copy this from the Live chat page of your %s."
 msgstr "从您的 %s 的在线聊天页面中复制此内容。"
 
-#: includes/class-zinn-chat-admin.php:181
+#: includes/class-zinn-chat-admin.php:231
+#: includes/pro/class-zinn-chat-pro-admin.php:107
 msgid "Zinn Digital® dashboard"
 msgstr "Zinn Digital® 仪表板"
 
-#: includes/class-zinn-chat-admin.php:188
+#: includes/class-zinn-chat-admin.php:238
 msgid "Show the chat"
 msgstr "显示聊天"
 
-#: includes/class-zinn-chat-admin.php:195
+#: includes/class-zinn-chat-admin.php:245
 msgid "Show the chat window to visitors of this site"
 msgstr "向该网站的访客显示聊天窗口"
 
-#: includes/class-zinn-chat-admin.php:198
+#: includes/class-zinn-chat-admin.php:248
 msgid "Until you tick this, the plugin adds nothing at all to your pages — no script, no cookie, no requests."
 msgstr "在您勾选此项之前，插件不会向您的页面添加任何内容——没有脚本，没有Cookie，也没有请求。"
 
@@ -140,3 +137,181 @@ msgstr "请参阅 Zinn Digital® 发行说明。"
 #: includes/class-zinn-chat-updater.php:288
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "下载的更新未通过完整性检查，因此未安装。"
+
+#: includes/class-zinn-chat-upsell.php:83
+msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
+msgstr "这里的一切将永远免费保持运行。Pro版适用于单人回复以及一个月的历史记录不再满足需求的情况。"
+
+#: includes/class-zinn-chat-upsell.php:86
+msgid "As many colleagues answering at once as you like — the free plugin allows one."
+msgstr "您可以让任意数量的同事同时回复——免费插件仅允许一人。"
+
+#: includes/class-zinn-chat-upsell.php:87
+msgid "Every conversation kept for ever, instead of thirty days."
+msgstr "所有对话永久保存，而非常规的三十天。"
+
+#: includes/class-zinn-chat-upsell.php:88
+msgid "Your own name on the chat window, with ours removed."
+msgstr "聊天窗口显示您自己的名称，并移除我们的名称。"
+
+#: includes/class-zinn-chat-upsell.php:89
+msgid "Saved replies, transfer a conversation to a colleague, and business hours."
+msgstr "已保存的回复、将对话转接给同事以及营业时间。"
+
+#: includes/class-zinn-chat-upsell.php:90
+msgid "5,000 AI answers a month rather than 100."
+msgstr "每月 5,000 个 AI 回答，而不是 100 个。"
+
+#: includes/class-zinn-chat-upsell.php:91
+msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
+msgstr "精确选择显示聊天的页面——或者将其在结账页面中隐藏。"
+
+#: includes/class-zinn-chat-upsell.php:92
+msgid "One licence covers three of your sites; ten-site licences are available."
+msgstr "一个许可证可覆盖您的三个站点；另提供十个站点的许可证。"
+
+#: includes/class-zinn-chat-upsell.php:96
+msgid "See what Pro costs"
+msgstr "查看 Pro 的价格"
+
+#. translators: %s: link to the customer's licences page.
+#: includes/class-zinn-chat-upsell.php:103
+#, php-format
+msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
+msgstr "已经在 Zinn Digital® 托管了网站？专业版免费包含在内 —— 您的密钥在 %s 上。"
+
+#: includes/class-zinn-chat-upsell.php:105
+msgid "Licences page of your dashboard"
+msgstr "您仪表板上的“许可证”页面"
+
+#: includes/pro/class-zinn-chat-licence.php:276
+msgid "Your licence is active."
+msgstr "您的许可证处于活动状态。"
+
+#: includes/pro/class-zinn-chat-licence.php:278
+msgid "Your licence has run out but everything still works for a short while. Renew it to keep receiving updates."
+msgstr "您的许可证已过期，但所有功能在短时间内仍可正常使用。请续费以继续接收更新。"
+
+#: includes/pro/class-zinn-chat-licence.php:280
+msgid "We do not recognise that licence key. Copy it again from the Licences page of your Zinn Digital® dashboard."
+msgstr "我们不识别该许可证密钥。请从您的 Zinn Digital® 仪表板的“许可证”页面重新复制它。"
+
+#: includes/pro/class-zinn-chat-licence.php:282
+msgid "That key is for a different Zinn® plugin. The one you want is on the Licences page of your dashboard, next to Zinn® Chat Pro."
+msgstr "该密钥适用于另一个 Zinn® 插件。您需要的密钥位于仪表板的“许可证”页面上，紧邻 Zinn® Chat Pro。"
+
+#: includes/pro/class-zinn-chat-licence.php:284
+msgid "Your licence has expired. Renew it from your Zinn Digital® dashboard to switch the Pro features back on."
+msgstr "您的许可证已过期。请从您的 Zinn Digital® 仪表板续费以重新启用 Pro 功能。"
+
+#: includes/pro/class-zinn-chat-licence.php:286
+msgid "This licence has been cancelled."
+msgstr "此许可证已被取消。"
+
+#: includes/pro/class-zinn-chat-licence.php:288
+msgid "This licence is on hold. Please get in touch and we will sort it out."
+msgstr "此许可证已被暂停。请与我们联系，我们将为您解决。"
+
+#: includes/pro/class-zinn-chat-licence.php:290
+msgid "There is a billing problem on your Zinn Digital® account. Once it is settled the licence works again straight away."
+msgstr "您的 Zinn Digital® 账户存在账单问题。问题解决后，许可证将立即恢复正常。"
+
+#: includes/pro/class-zinn-chat-licence.php:292
+msgid "This licence came free with your Zinn® hosting, and that hosting has ended. Buy a licence, or start hosting with us again, to switch Pro back on."
+msgstr "您的 Zinn® 主机服务附赠了此许可证，而该主机服务现已到期。请购买许可证，或重新开始使用我们的主机服务，以重新启用 Pro。"
+
+#: includes/pro/class-zinn-chat-licence.php:294
+msgid "Every site on this licence is in use. Release one below, or upgrade to cover more sites."
+msgstr "此许可证下的每个站点都已在使用中。请释放下方的一个站点，或升级以涵盖更多站点。"
+
+#: includes/pro/class-zinn-chat-licence.php:296
+msgid "We could not confirm your licence just now. Nothing has changed on your site; we will try again shortly."
+msgstr "我们目前无法确认您的许可证。您的网站没有发生任何变化；我们将很快重试。"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:60
+msgid "You do not have permission to manage licences on this site."
+msgstr "您没有权限管理此网站上的许可证。"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:87
+msgid "Your Pro licence"
+msgstr "您的 Pro 许可证"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:94
+msgid "Licence key"
+msgstr "许可证密钥"
+
+#. translators: %s: link to the dashboard licences page.
+#: includes/pro/class-zinn-chat-pro-admin.php:105
+#, php-format
+msgid "Copy it from the Licences page of your %s."
+msgstr "从您的 %s 的“许可证”页面复制。"
+
+#. translators: %s: a date.
+#: includes/pro/class-zinn-chat-pro-admin.php:121
+#, php-format
+msgid "Renews on %s."
+msgstr "将在 %s 续费。"
+
+#. translators: 1: sites in use, 2: sites the licence covers.
+#: includes/pro/class-zinn-chat-pro-admin.php:137
+#, php-format
+msgid "Using %1$d of %2$d sites."
+msgstr "已使用 %1$d / %2$d 个站点。"
+
+#. translators: %s: comma-separated list of hostnames.
+#: includes/pro/class-zinn-chat-pro-admin.php:149
+#, php-format
+msgid "In use on: %s. Release one from your dashboard, then try again."
+msgstr "当前正用于：%s。请在控制台中释放一个，然后重试。"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:160
+msgid "Save licence"
+msgstr "保存许可证"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:164
+msgid "Remove it from this site"
+msgstr "从本网站中移除"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:181
+msgid "Where the chat appears"
+msgstr "聊天显示位置"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:193
+msgid "Show it"
+msgstr "显示"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:197
+msgid "Everywhere on this site"
+msgstr "全站"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:198
+msgid "Only on the pages I choose below"
+msgstr "仅在我下方选择的页面上"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:199
+msgid "Everywhere except the pages I choose below"
+msgstr "以下我选择的页面除外"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:215
+msgid "Page or post IDs"
+msgstr "页面或文章 ID"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:223
+msgid "Separate them with commas. The ID is in the address bar while you edit a page."
+msgstr "用逗号分隔它们。在编辑页面时，ID 位于地址栏中。"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:228
+msgid "Whole content types"
+msgstr "所有内容类型"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:242
+msgid "Signed-in visitors"
+msgstr "已登录访客"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:249
+msgid "Hide the chat from people who are signed in to this site"
+msgstr "向已登录此网站的用户隐藏聊天"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:254
+msgid "Save where it appears"
+msgstr "保存显示位置"

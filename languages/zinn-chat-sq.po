@@ -10,11 +10,7 @@ msgstr ""
 "X-Generator: scripts/wp-i18n-translate.py\n"
 
 #. Plugin Name of the plugin
-#. translators: page title.
 #: zinn-chat.php
-#: includes/class-zinn-chat-admin.php:67
-#: includes/class-zinn-chat-admin.php:68
-#: includes/class-zinn-chat-admin.php:149
 msgid "Zinn® Chat"
 msgstr "Zinn® Chat"
 
@@ -42,49 +38,50 @@ msgstr "https://zinndigital.com"
 msgid "Settings"
 msgstr "Cilësimet"
 
-#: includes/class-zinn-chat-admin.php:115
+#: includes/class-zinn-chat-admin.php:151
 msgid "That does not look like a Zinn® Chat key. Copy it from the Live chat page of your Zinn Digital® dashboard — it starts with zc_."
 msgstr "Kjo nuk duket si një çelës i Zinn® Chat. Kopjojeni nga faqja e bisedës live e panelit tuaj të Zinn Digital® — ajo fillon me zc_."
 
-#: includes/class-zinn-chat-admin.php:125
+#: includes/class-zinn-chat-admin.php:161
 msgid "Add your chat key before switching the chat on — without it there is nothing for the widget to connect to."
 msgstr "Shtoni çelësin tuaj të bisedës përpara se të aktivizoni bisedën — pa të, miniaplikacioni nuk ka se me çfarë të lidhet."
 
-#: includes/class-zinn-chat-admin.php:151
+#: includes/class-zinn-chat-admin.php:201
 msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
 msgstr "Bisedë direkte për këtë faqe. Vizitorët marrin një përgjigje menjëherë, ju merrni me email çdo gjë që ju ka shpëtuar, dhe e gjithë kjo është nën 10 KB në faqe."
 
-#: includes/class-zinn-chat-admin.php:156
+#: includes/class-zinn-chat-admin.php:206
 msgid "The chat is live on this site."
 msgstr "Biseda është aktive në këtë faqe."
 
-#: includes/class-zinn-chat-admin.php:158
+#: includes/class-zinn-chat-admin.php:208
 msgid "The chat is switched off. Nothing is loaded on your site."
 msgstr "Biseda është e fikur. Asgjë nuk është ngarkuar në faqen tuaj."
 
-#: includes/class-zinn-chat-admin.php:167
+#: includes/class-zinn-chat-admin.php:217
 msgid "Chat key"
 msgstr "Çelësi i bisedës"
 
 #. translators: %s: link to the Zinn dashboard.
-#: includes/class-zinn-chat-admin.php:179
+#: includes/class-zinn-chat-admin.php:229
 #, php-format
 msgid "Copy this from the Live chat page of your %s."
 msgstr "Kopjoeni këtë nga faqja e bisedës live e %s tuaj."
 
-#: includes/class-zinn-chat-admin.php:181
+#: includes/class-zinn-chat-admin.php:231
+#: includes/pro/class-zinn-chat-pro-admin.php:107
 msgid "Zinn Digital® dashboard"
 msgstr "Paneli i kontrollit të Zinn Digital®"
 
-#: includes/class-zinn-chat-admin.php:188
+#: includes/class-zinn-chat-admin.php:238
 msgid "Show the chat"
 msgstr "Shfaq bisedën"
 
-#: includes/class-zinn-chat-admin.php:195
+#: includes/class-zinn-chat-admin.php:245
 msgid "Show the chat window to visitors of this site"
 msgstr "Shfaq dritaren e bisedës për vizitorët e kësaj faqeje"
 
-#: includes/class-zinn-chat-admin.php:198
+#: includes/class-zinn-chat-admin.php:248
 msgid "Until you tick this, the plugin adds nothing at all to your pages — no script, no cookie, no requests."
 msgstr "Derisa ta zgjidhni këtë, shtojca nuk shton absolutisht asgjë në faqet tuaja — as skript, as skedë cookie, as kërkesa."
 
@@ -140,3 +137,181 @@ msgstr "Shihni shënimet e lëshimit për Zinn Digital®."
 #: includes/class-zinn-chat-updater.php:288
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Përditësimi i shkarkuar dështoi në kontrollin e integritetit dhe nuk u instalua."
+
+#: includes/class-zinn-chat-upsell.php:83
+msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
+msgstr "Gjithçka këtu vazhdon të punojë falas, përgjithmonë. Plani Pro është për kur një person që përgjigjet dhe një muaj histori nuk mjaftojnë më."
+
+#: includes/class-zinn-chat-upsell.php:86
+msgid "As many colleagues answering at once as you like — the free plugin allows one."
+msgstr "Aq kolegë që përgjigjen njëkohësisht sa të dëshironi — shtojca falas lejon vetëm një."
+
+#: includes/class-zinn-chat-upsell.php:87
+msgid "Every conversation kept for ever, instead of thirty days."
+msgstr "Çdo bisedë ruhet përgjithmonë, në vend të tridhjetë ditëve."
+
+#: includes/class-zinn-chat-upsell.php:88
+msgid "Your own name on the chat window, with ours removed."
+msgstr "Emri juaj në dritaren e bisedës, me tonin e hequr."
+
+#: includes/class-zinn-chat-upsell.php:89
+msgid "Saved replies, transfer a conversation to a colleague, and business hours."
+msgstr "Përgjigje të ruajtura, transferoni një bisedë te një koleg dhe orari i punës."
+
+#: includes/class-zinn-chat-upsell.php:90
+msgid "5,000 AI answers a month rather than 100."
+msgstr "5,000 përgjigje të AI në muaj në vend të 100."
+
+#: includes/class-zinn-chat-upsell.php:91
+msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
+msgstr "Zgjidhni saktësisht se në cilat faqe shfaqet biseda — ose fshiheni atë nga arka."
+
+#: includes/class-zinn-chat-upsell.php:92
+msgid "One licence covers three of your sites; ten-site licences are available."
+msgstr "Një licencë mbulon tre nga faqet tuaja; licencat për dhjetë faqe janë të disponueshme."
+
+#: includes/class-zinn-chat-upsell.php:96
+msgid "See what Pro costs"
+msgstr "Shihni sa kushton Pro"
+
+#. translators: %s: link to the customer's licences page.
+#: includes/class-zinn-chat-upsell.php:103
+#, php-format
+msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
+msgstr "Keni tashmë një faqe të strehuar te Zinn Digital®? Pro përfshihet falas — çelësi juaj ndodhet në %s."
+
+#: includes/class-zinn-chat-upsell.php:105
+msgid "Licences page of your dashboard"
+msgstr "Faqja e licencave e panelit tuaj të kontrollit"
+
+#: includes/pro/class-zinn-chat-licence.php:276
+msgid "Your licence is active."
+msgstr "Licenca juaj është aktive."
+
+#: includes/pro/class-zinn-chat-licence.php:278
+msgid "Your licence has run out but everything still works for a short while. Renew it to keep receiving updates."
+msgstr "Licenca juaj ka skaduar, por gjithçka funksionon ende për një kohë të shkurtër. Përtërijeni atë për të vazhduar të merrni përditësime."
+
+#: includes/pro/class-zinn-chat-licence.php:280
+msgid "We do not recognise that licence key. Copy it again from the Licences page of your Zinn Digital® dashboard."
+msgstr "Nuk e njohim këtë çelës licence. Kopjojeni përsëri nga faqja e Licencave në pultin tuaj të Zinn Digital®."
+
+#: includes/pro/class-zinn-chat-licence.php:282
+msgid "That key is for a different Zinn® plugin. The one you want is on the Licences page of your dashboard, next to Zinn® Chat Pro."
+msgstr "Kjo çelës është për një shtojcë tjetër të Zinn®. Ajo që ju duhet është në faqen e Licencave të pultit tuaj, pranë Zinn® Chat Pro."
+
+#: includes/pro/class-zinn-chat-licence.php:284
+msgid "Your licence has expired. Renew it from your Zinn Digital® dashboard to switch the Pro features back on."
+msgstr "Licenca juaj ka skaduar. Rinovoni atë nga paneli juaj i Zinn Digital® për të riaktivizuar veçoritë Pro."
+
+#: includes/pro/class-zinn-chat-licence.php:286
+msgid "This licence has been cancelled."
+msgstr "Kjo licencë është anuluar."
+
+#: includes/pro/class-zinn-chat-licence.php:288
+msgid "This licence is on hold. Please get in touch and we will sort it out."
+msgstr "Kjo licencë është në pritje. Ju lutemi, kontaktoni me ne dhe ne do ta rregullojmë."
+
+#: includes/pro/class-zinn-chat-licence.php:290
+msgid "There is a billing problem on your Zinn Digital® account. Once it is settled the licence works again straight away."
+msgstr "Ka një problem faturimi në llogarinë tuaj në Zinn Digital®. Posa të zgjidhet, licenca do të funksionojë përsëri menjëherë."
+
+#: includes/pro/class-zinn-chat-licence.php:292
+msgid "This licence came free with your Zinn® hosting, and that hosting has ended. Buy a licence, or start hosting with us again, to switch Pro back on."
+msgstr "Kjo licencë erdhi falas me pritjen tuaj Zinn®, dhe ajo pritje ka përfunduar. Bleni një licencë, ose filloni përsëri pritjen tek ne, për të rifikuar Pro."
+
+#: includes/pro/class-zinn-chat-licence.php:294
+msgid "Every site on this licence is in use. Release one below, or upgrade to cover more sites."
+msgstr "Çdo sajt në këtë licencë është në përdorim. Lironi një më poshtë, ose përditësoni për të mbuluar më shumë sajte."
+
+#: includes/pro/class-zinn-chat-licence.php:296
+msgid "We could not confirm your licence just now. Nothing has changed on your site; we will try again shortly."
+msgstr "Nuk mundëm ta konfirmonim licencën tuaj për momentin. Asgjë nuk ka ndryshuar në faqen tuaj; ne do të provojmë përsëri së shpejti."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:60
+msgid "You do not have permission to manage licences on this site."
+msgstr "Nuk keni leje për të menaxhuar licencat në këtë faqe."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:87
+msgid "Your Pro licence"
+msgstr "Licenca juaj Pro"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:94
+msgid "Licence key"
+msgstr "Çelësi i licencës"
+
+#. translators: %s: link to the dashboard licences page.
+#: includes/pro/class-zinn-chat-pro-admin.php:105
+#, php-format
+msgid "Copy it from the Licences page of your %s."
+msgstr "Kopjojeni atë nga faqja e Licencave të %s tuaj."
+
+#. translators: %s: a date.
+#: includes/pro/class-zinn-chat-pro-admin.php:121
+#, php-format
+msgid "Renews on %s."
+msgstr "Rinohet më %s."
+
+#. translators: 1: sites in use, 2: sites the licence covers.
+#: includes/pro/class-zinn-chat-pro-admin.php:137
+#, php-format
+msgid "Using %1$d of %2$d sites."
+msgstr "Duke përdorur %1$d nga %2$d faqe."
+
+#. translators: %s: comma-separated list of hostnames.
+#: includes/pro/class-zinn-chat-pro-admin.php:149
+#, php-format
+msgid "In use on: %s. Release one from your dashboard, then try again."
+msgstr "Përdoret në: %s. Lirojeni një nga paneli juaj dhe provoni përsëri."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:160
+msgid "Save licence"
+msgstr "Ruaj licencën"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:164
+msgid "Remove it from this site"
+msgstr "Hiqeni nga kjo faqe"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:181
+msgid "Where the chat appears"
+msgstr "Ku shfaqet biseda"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:193
+msgid "Show it"
+msgstr "Shfaq atë"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:197
+msgid "Everywhere on this site"
+msgstr "Kudo në këtë sajt"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:198
+msgid "Only on the pages I choose below"
+msgstr "Vetëm në faqet që zgjedh më poshtë"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:199
+msgid "Everywhere except the pages I choose below"
+msgstr "Kudo tjetër përveç faqeve që zgjedh më poshtë"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:215
+msgid "Page or post IDs"
+msgstr "ID-të e faqeve ose postimeve"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:223
+msgid "Separate them with commas. The ID is in the address bar while you edit a page."
+msgstr "Ndani ato me presje. ID-ja gjendet në shiritin e adresave ndërkohë që redaktoni një faqe."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:228
+msgid "Whole content types"
+msgstr "Të gjitha llojet e përmbajtjes"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:242
+msgid "Signed-in visitors"
+msgstr "Vizitorët e kyçur"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:249
+msgid "Hide the chat from people who are signed in to this site"
+msgstr "Fshih bisedën nga personat që janë të kyçur në këtë sajt"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:254
+msgid "Save where it appears"
+msgstr "Ruaj aty ku shfaqet"

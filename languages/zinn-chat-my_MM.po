@@ -10,11 +10,7 @@ msgstr ""
 "X-Generator: scripts/wp-i18n-translate.py\n"
 
 #. Plugin Name of the plugin
-#. translators: page title.
 #: zinn-chat.php
-#: includes/class-zinn-chat-admin.php:67
-#: includes/class-zinn-chat-admin.php:68
-#: includes/class-zinn-chat-admin.php:149
 msgid "Zinn® Chat"
 msgstr "Zinn® Chat"
 
@@ -42,49 +38,50 @@ msgstr "https://zinndigital.com"
 msgid "Settings"
 msgstr "ဆက်တင်များ"
 
-#: includes/class-zinn-chat-admin.php:115
+#: includes/class-zinn-chat-admin.php:151
 msgid "That does not look like a Zinn® Chat key. Copy it from the Live chat page of your Zinn Digital® dashboard — it starts with zc_."
 msgstr "ထိုသို့သော Zinn® Chat သော့ချက်ပုံမပေါ်ပါ။ ၎င်းကို သင်၏ Zinn Digital® ဒက်ရှ်ဘုတ်ရှိ တိုက်ရိုက်ချတ် (Live chat) စာမျက်နှာမှ ကူးယူပါ— ၎င်းသည် zc_ ဖြင့် စတင်သည်။"
 
-#: includes/class-zinn-chat-admin.php:125
+#: includes/class-zinn-chat-admin.php:161
 msgid "Add your chat key before switching the chat on — without it there is nothing for the widget to connect to."
 msgstr "ချတ်ကို မဖွင့်မီ သင့်ချတ်သော့ကို ထည့်ပါ — ၎င်းမပါဘဲ ဝစ်ဂျက်ချိတ်ဆက်ရန် ဘာမှရှိမည် မဟုတ်ပါ။"
 
-#: includes/class-zinn-chat-admin.php:151
+#: includes/class-zinn-chat-admin.php:201
 msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
 msgstr "ဤဆိုက်အတွက် တိုက်ရိုက်စကားပြောခန်း။ လာရောက်လည်ပတ်သူများသည် ချက်ချင်းအဖြေရရှိမည်ဖြစ်ပြီး၊ သင်လွတ်သွားသမျှကို အီးမေးလ်ဖြင့် ရရှိမည်ဖြစ်ကာ၊ တစ်ခုလုံးသည် စာမျက်နှာပေါ်တွင် 10 KB အောက်သာ ရှိပါသည်။"
 
-#: includes/class-zinn-chat-admin.php:156
+#: includes/class-zinn-chat-admin.php:206
 msgid "The chat is live on this site."
 msgstr "ဤဆိုက်တွင် ချတ်ကို တိုက်ရိုက်ထုတ်လွှင့်နေပါသည်။"
 
-#: includes/class-zinn-chat-admin.php:158
+#: includes/class-zinn-chat-admin.php:208
 msgid "The chat is switched off. Nothing is loaded on your site."
 msgstr "ချက်တင်ကို ပိတ်ထားသည်။ သင့်ဆိုက်တွင် မည်သည့်အရာမျှ တင်ထားခြင်း မရှိပါ။"
 
-#: includes/class-zinn-chat-admin.php:167
+#: includes/class-zinn-chat-admin.php:217
 msgid "Chat key"
 msgstr "ချတ်သော့ချက်"
 
 #. translators: %s: link to the Zinn dashboard.
-#: includes/class-zinn-chat-admin.php:179
+#: includes/class-zinn-chat-admin.php:229
 #, php-format
 msgid "Copy this from the Live chat page of your %s."
 msgstr "သင့်၏ %s ၏ တိုက်ရိုက်ချတ် (Live chat) စာမျက်နှာမှ ဤအရာကို ကူးယူပါ။"
 
-#: includes/class-zinn-chat-admin.php:181
+#: includes/class-zinn-chat-admin.php:231
+#: includes/pro/class-zinn-chat-pro-admin.php:107
 msgid "Zinn Digital® dashboard"
 msgstr "Zinn Digital® ဒက်ရှ်ဘုတ်"
 
-#: includes/class-zinn-chat-admin.php:188
+#: includes/class-zinn-chat-admin.php:238
 msgid "Show the chat"
 msgstr "ချတ်ကို ပြပါ"
 
-#: includes/class-zinn-chat-admin.php:195
+#: includes/class-zinn-chat-admin.php:245
 msgid "Show the chat window to visitors of this site"
 msgstr "ဤဆိုဒ်သို့ လာရောက်လည်ပတ်သူများအား ချတ်ဝင်းဒိုးကို ပြပါ။"
 
-#: includes/class-zinn-chat-admin.php:198
+#: includes/class-zinn-chat-admin.php:248
 msgid "Until you tick this, the plugin adds nothing at all to your pages — no script, no cookie, no requests."
 msgstr "ဤအရာကို သင် အမှတ်အသားမခြစ်မချင်း၊ ဤပလပ်အင်သည် သင့်စာမျက်နှာများသို့ မည်သည်မျှ လုံးဝထည့်သွင်းမည်မဟုတ်ပါ — စခရင်ပစ်၊ ကူကီး သို့မဟုတ် တောင်းဆိုချက်များ မပါဝင်ပါ။"
 
@@ -140,3 +137,181 @@ msgstr "Zinn Digital® ၏ ထုတ်ဝေမှု မှတ်စုမျ�
 #: includes/class-zinn-chat-updater.php:288
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ဒေါင်းလုပ်လုပ်ထားသော အပ်ဒိတ်သည် ၎င်း၏ ခိုင်မာမှုစစ်ဆေးမှုကို မအောင်မြင်ခဲ့ပါ၊ ထို့ကြောင့် ထည့်သွင်းခြင်းမပြုခဲ့ပါ။"
+
+#: includes/class-zinn-chat-upsell.php:83
+msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
+msgstr "ဤနေရာရှိ အရာအားလုံးသည် အခမဲ့ဖြင့် အမြဲတမ်း ဆက်လက်လုပ်ဆောင်နေမည် ဖြစ်သည်။ Pro သည် လူတစ်ဦးတည်းက ဖြေကြားခြင်းနှင့် တစ်လစာ သမိုင်းကြောင်းတို့က လုံလောက်မှု မရှိတော့သည့် အချိန်အတွက် ဖြစ်သည်။"
+
+#: includes/class-zinn-chat-upsell.php:86
+msgid "As many colleagues answering at once as you like — the free plugin allows one."
+msgstr "သင်နှစ်သက်သလောက် လုပ်ဖော်ကိုင်ဖက်များ တစ်ပြိုင်နက်တည်း ဖြေဆိုနိုင်ပါသည် - အခမဲ့ ပလပ်အင်က တစ်ဦးကို ခွင့်ပြုထားပါသည်။"
+
+#: includes/class-zinn-chat-upsell.php:87
+msgid "Every conversation kept for ever, instead of thirty days."
+msgstr "စကားဝိုင်းတိုင်းကို ရက်သုံးဆယ်အစား အမြဲတမ်း သိမ်းဆည်းထားမည်။"
+
+#: includes/class-zinn-chat-upsell.php:88
+msgid "Your own name on the chat window, with ours removed."
+msgstr "ချတ်ဝင်းဒိုးပေါ်တွင် ကျွန်ုပ်တို့၏အမည်ကို ဖယ်ရှားပြီး သင်၏ကိုယ်ပိုင်အမည်ကို ထည့်သွင်းပါ။"
+
+#: includes/class-zinn-chat-upsell.php:89
+msgid "Saved replies, transfer a conversation to a colleague, and business hours."
+msgstr "သိမ်းဆည်းထားသော အဖြေများ၊ လုပ်ဖော်ကိုင်ဖက်တစ်ဦးထံသို့ စကားဝိုင်းတစ်ခုကို လွှဲပြောင်းပေးခြင်းနှင့် ရုံးချိန်များ။"
+
+#: includes/class-zinn-chat-upsell.php:90
+msgid "5,000 AI answers a month rather than 100."
+msgstr "၁၀၀ အစား တစ်လလျှင် AI အဖြေ ၅,၀၀၀။"
+
+#: includes/class-zinn-chat-upsell.php:91
+msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
+msgstr "ဆတ်ဆက်မှု ပေါ်လာမည့် စာမျက်နှာများကို တိကျစွာ ရွေးချယ်ပါ — သို့မဟုတ် ငွေရှင်းသည့် စာမျက်နှာတွင် ယင်းကို ဖျောက်ထားပါ။"
+
+#: includes/class-zinn-chat-upsell.php:92
+msgid "One licence covers three of your sites; ten-site licences are available."
+msgstr "လိုင်စင်တစ်ခုက သင့်ဆိုက်သုံးခုကို အကျုံးဝင်ပါသည်။ ဆိုက်ဆယ်ခုအတွက် လိုင်စင်များကို ရရှိနိုင်ပါသည်။"
+
+#: includes/class-zinn-chat-upsell.php:96
+msgid "See what Pro costs"
+msgstr "Pro ၏ ကုန်ကျစရိတ်ကို ကြည့်ပါ"
+
+#. translators: %s: link to the customer's licences page.
+#: includes/class-zinn-chat-upsell.php:103
+#, php-format
+msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
+msgstr "Zinn Digital® တွင် ဝက်ဘ်ဆိုက်တစ်ခု လက်ခံထားပြီးသားလား။ Pro ကို အခမဲ့ ထည့်သွင်းပေးထားပါသည် - သင်၏သော့ချက်ကို %s တွင် တွေ့ရှိနိုင်ပါသည်။"
+
+#: includes/class-zinn-chat-upsell.php:105
+msgid "Licences page of your dashboard"
+msgstr "သင်၏ ဒက်ရှ်ဘုတ်ရှိ လိုင်စင်များ စာမျက်နှာ"
+
+#: includes/pro/class-zinn-chat-licence.php:276
+msgid "Your licence is active."
+msgstr "သင့်လိုင်စင်မှာ တက်ကြွနေပါသည်။"
+
+#: includes/pro/class-zinn-chat-licence.php:278
+msgid "Your licence has run out but everything still works for a short while. Renew it to keep receiving updates."
+msgstr "သင့်လိုင်စင် သက်တမ်းကုန်သွားပြီဖြစ်သော်လည်း အရာရာတိုင်းသည် ခဏတာ ဆက်လက်အလုပ်လုပ်နေဦးမည် ဖြစ်သည်။ အပ်ဒိတ်များကို ဆက်လက်ရယူနိုင်ရန် ၎င်းကို သက်တမ်းတိုးပါ။"
+
+#: includes/pro/class-zinn-chat-licence.php:280
+msgid "We do not recognise that licence key. Copy it again from the Licences page of your Zinn Digital® dashboard."
+msgstr "ထိုလိုင်စင်သော့ကို ကျွန်ုပ်တို့ မသိပါ။ Zinn Digital® ဒက်ရှ်ဘုတ်၏ လိုင်စင်များ စာမျက်နှာမှ ၎င်းကို ထပ်မံကူးယူပါ။"
+
+#: includes/pro/class-zinn-chat-licence.php:282
+msgid "That key is for a different Zinn® plugin. The one you want is on the Licences page of your dashboard, next to Zinn® Chat Pro."
+msgstr "ထိုကီးသည် အခြား Zinn® ပလပ်ဂင်တစ်ခုအတွက် ဖြစ်သည်။ သင်လိုချင်သောအရာသည် သင်၏ ဒက်ရှ်ဘုတ်ရှိ လိုင်စင်များစာမျက်နှာပေါ်တွင် Zinn® Chat Pro ၏ ဘေးတွင် ရှိပါသည်။"
+
+#: includes/pro/class-zinn-chat-licence.php:284
+msgid "Your licence has expired. Renew it from your Zinn Digital® dashboard to switch the Pro features back on."
+msgstr "သင်၏ လိုင်စင် သက်တမ်းကုန်ဆုံးသွားပါပြီ။ Pro အင်္ဂါရပ်များကို ပြန်လည်အသုံးပြုနိုင်ရန် သင်၏ Zinn Digital® ဒက်ရှ်ဘုတ်မှ လိုင်စင်ကို သက်တမ်းတိုးပါ။"
+
+#: includes/pro/class-zinn-chat-licence.php:286
+msgid "This licence has been cancelled."
+msgstr "ဤလိုင်စင်ကို ဖျက်သိမ်းလိုက်ပါပြီ။"
+
+#: includes/pro/class-zinn-chat-licence.php:288
+msgid "This licence is on hold. Please get in touch and we will sort it out."
+msgstr "ဤလိုင်စင်ကို ခေတ္တဆိုင်းငံ့ထားသည်။ ကျေးဇူးပြု၍ ဆက်သွယ်ပေးပါ၊ အဆင်ပြေအောင် ဖြေရှင်းပေးပါမည်။"
+
+#: includes/pro/class-zinn-chat-licence.php:290
+msgid "There is a billing problem on your Zinn Digital® account. Once it is settled the licence works again straight away."
+msgstr "သင်၏ Zinn Digital® အကောင့်တွင် ငွေတောင်းခံလွှာဆိုင်ရာ ပြဿနာတစ်ခု ရှိနေပါသည်။ ၎င်းကို ဖြေရှင်းပြီးသည်နှင့် လိုင်စင်သည် ချက်ချင်း ပြန်လည်အလုပ်လုပ်မည် ဖြစ်သည်။"
+
+#: includes/pro/class-zinn-chat-licence.php:292
+msgid "This licence came free with your Zinn® hosting, and that hosting has ended. Buy a licence, or start hosting with us again, to switch Pro back on."
+msgstr "ဤလိုင်စင်သည် သင်၏ Zinn® ဟို့စ်တင်းနှင့်အတူ အခမဲ့ပါလာခြင်းဖြစ်ပြီး ယခုအခါ ဟို့စ်တင်းသက်တမ်း ကုန်ဆုံးသွားပါပြီ။ Pro ကို ပြန်လည်ဖွင့်ရန် လိုင်စင်တစ်ခု ဝယ်ယူပါ သို့မဟုတ် ကျွန်ုပ်တို့နှင့်အတူ ဟို့စ်တင်းကို ပြန်လည်စတင်ပါ။"
+
+#: includes/pro/class-zinn-chat-licence.php:294
+msgid "Every site on this licence is in use. Release one below, or upgrade to cover more sites."
+msgstr "ဤလိုင်စင်ပေါ်ရှိ ဆိုက်အားလုံးကို အသုံးပြုနေပါသည်။ အောက်ပါတို့မှ တစ်ခုကို ဖယ်ရှားပါ သို့မဟုတ် ဆိုက်များ ပိုမိုအသုံးပြုနိုင်ရန် အဆင့်မြှင့်တင်ပါ။"
+
+#: includes/pro/class-zinn-chat-licence.php:296
+msgid "We could not confirm your licence just now. Nothing has changed on your site; we will try again shortly."
+msgstr "ယခုလက်ရှိတွင် သင့်လိုင်စင်ကို အတည်ပြု၍မရပါ။ သင့်ဆိုက်တွင် မည်သည့်အပြောင်းအလဲမျှ မရှိပါ၊ ခဏအကြာတွင် ထပ်မံကြိုးစားပါမည်။"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:60
+msgid "You do not have permission to manage licences on this site."
+msgstr "ဤဆိုက်ပေါ်တွင် လိုင်စင်များကို စီမံခန့်ခွဲရန် သင့်တွင် ခွင့်ပြုချက်မရှိပါ။"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:87
+msgid "Your Pro licence"
+msgstr "သင့်၏ Pro လိုင်စင်"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:94
+msgid "Licence key"
+msgstr "လိုင်စင်သော့ချက်"
+
+#. translators: %s: link to the dashboard licences page.
+#: includes/pro/class-zinn-chat-pro-admin.php:105
+#, php-format
+msgid "Copy it from the Licences page of your %s."
+msgstr "သင်၏ %s ၏ လိုင်စင်များ စာမျက်နှာမှ ၎င်းကို ကူးယူပါ။"
+
+#. translators: %s: a date.
+#: includes/pro/class-zinn-chat-pro-admin.php:121
+#, php-format
+msgid "Renews on %s."
+msgstr "%s တွင် သက်တမ်းကုန်ဆုံးမည်။"
+
+#. translators: 1: sites in use, 2: sites the licence covers.
+#: includes/pro/class-zinn-chat-pro-admin.php:137
+#, php-format
+msgid "Using %1$d of %2$d sites."
+msgstr "%2$d ခုထဲမှ ဆိုက် %1$d ခုကို အသုံးပြုနေသည်။"
+
+#. translators: %s: comma-separated list of hostnames.
+#: includes/pro/class-zinn-chat-pro-admin.php:149
+#, php-format
+msgid "In use on: %s. Release one from your dashboard, then try again."
+msgstr "အသုံးပြုနေသည့်နေရာ- %s။ သင့်ဒက်ရှ်ဘုတ်မှ တစ်ခုအား ထုတ်ပေးပြီးနောက် ထပ်မံကြိုးစားပါ။"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:160
+msgid "Save licence"
+msgstr "လိုင်စင်ကို သိမ်းဆည်းရန်"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:164
+msgid "Remove it from this site"
+msgstr "ဤဆိုက်မှ ၎င်းကို ဖယ်ရှားပါ"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:181
+msgid "Where the chat appears"
+msgstr "ချတ်ပေါ်လာမည့်နေရာ"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:193
+msgid "Show it"
+msgstr "ပြပါ"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:197
+msgid "Everywhere on this site"
+msgstr "ဤဆိုဒ်ရှိ နေရာတိုင်းတွင်"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:198
+msgid "Only on the pages I choose below"
+msgstr "အောက်တွင် ကျွန်ုပ်ရွေးချယ်သော စာမျက်နှာများတွင်သာ"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:199
+msgid "Everywhere except the pages I choose below"
+msgstr "အောက်တွင် ကျွန်ုပ်ရွေးချယ်ထားသော စာမျက်နှာများမှလွဲ၍ အခြားနေရာတိုင်းတွင်"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:215
+msgid "Page or post IDs"
+msgstr "စာမျက်နှာ သို့မဟုတ် ပို့စ် ID များ"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:223
+msgid "Separate them with commas. The ID is in the address bar while you edit a page."
+msgstr "၎င်းတို့ကို ကော်မာများဖြင့် ပိုင်းခြားပါ။ စာမျက်နှာကို ပြင်ဆင်နေစဉ် ID ကို လိပ်စာဘားတွင် တွေ့နိုင်ပါသည်။"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:228
+msgid "Whole content types"
+msgstr "အကြောင်းအရာအမျိုးအစား အားလုံး"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:242
+msgid "Signed-in visitors"
+msgstr "ဝင်ရောက်ထားသော ဧည့်သည်များ"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:249
+msgid "Hide the chat from people who are signed in to this site"
+msgstr "ဤဆိုဒ်သို့ အကောင့်ဝင်ထားသူများထံမှ ချတ်ကို ဖျောက်ထားပါ"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:254
+msgid "Save where it appears"
+msgstr "ပေါ်လာသည့်နေရာတွင် သိမ်းဆည်းရန်"

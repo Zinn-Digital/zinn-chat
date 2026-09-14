@@ -10,11 +10,7 @@ msgstr ""
 "X-Generator: scripts/wp-i18n-translate.py\n"
 
 #. Plugin Name of the plugin
-#. translators: page title.
 #: zinn-chat.php
-#: includes/class-zinn-chat-admin.php:67
-#: includes/class-zinn-chat-admin.php:68
-#: includes/class-zinn-chat-admin.php:149
 msgid "Zinn® Chat"
 msgstr "Zinn® Chat"
 
@@ -42,49 +38,50 @@ msgstr "https://zinndigital.com"
 msgid "Settings"
 msgstr "პარამეტრები"
 
-#: includes/class-zinn-chat-admin.php:115
+#: includes/class-zinn-chat-admin.php:151
 msgid "That does not look like a Zinn® Chat key. Copy it from the Live chat page of your Zinn Digital® dashboard — it starts with zc_."
 msgstr "ეს არ ჰგავს Zinn® Chat-ის გასაღებს. დააკოპირეთ ის თქვენი Zinn Digital® სამართავი პანელის „ლაივ ჩატის“ (Live chat) გვერდიდან — ის იწყება zc_-ით."
 
-#: includes/class-zinn-chat-admin.php:125
+#: includes/class-zinn-chat-admin.php:161
 msgid "Add your chat key before switching the chat on — without it there is nothing for the widget to connect to."
 msgstr "დაამატეთ თქვენი ჩატის გასაღები ჩატის ჩართვამდე — უამისოდ ვიჯეტს დასაკავშირებელი არაფერი ექნება."
 
-#: includes/class-zinn-chat-admin.php:151
+#: includes/class-zinn-chat-admin.php:201
 msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
 msgstr "ცოცხალი ჩატი ამ საიტისთვის. ვიზიტორები პასუხს დაუყოვნებლივ იღებენ, გამოტოვებულ შეტყობინებებს ელფოსტით მიიღებთ, ხოლო მთლიანი მოდული გვერდზე 10 კბ-ზე ნაკლებს იკავებს."
 
-#: includes/class-zinn-chat-admin.php:156
+#: includes/class-zinn-chat-admin.php:206
 msgid "The chat is live on this site."
 msgstr "ჩატი ამ საიტზე აქტიურია."
 
-#: includes/class-zinn-chat-admin.php:158
+#: includes/class-zinn-chat-admin.php:208
 msgid "The chat is switched off. Nothing is loaded on your site."
 msgstr "ჩატი გამორთულია. თქვენს საიტზე არაფერია ჩატვირთული."
 
-#: includes/class-zinn-chat-admin.php:167
+#: includes/class-zinn-chat-admin.php:217
 msgid "Chat key"
 msgstr "ჩატის გასაღები"
 
 #. translators: %s: link to the Zinn dashboard.
-#: includes/class-zinn-chat-admin.php:179
+#: includes/class-zinn-chat-admin.php:229
 #, php-format
 msgid "Copy this from the Live chat page of your %s."
 msgstr "დააკოპირეთ ეს თქვენი %s-ის „ლაივ ჩათის“ გვერდიდან."
 
-#: includes/class-zinn-chat-admin.php:181
+#: includes/class-zinn-chat-admin.php:231
+#: includes/pro/class-zinn-chat-pro-admin.php:107
 msgid "Zinn Digital® dashboard"
 msgstr "Zinn Digital® სამართავი პანელი"
 
-#: includes/class-zinn-chat-admin.php:188
+#: includes/class-zinn-chat-admin.php:238
 msgid "Show the chat"
 msgstr "ჩვენება ჩატი"
 
-#: includes/class-zinn-chat-admin.php:195
+#: includes/class-zinn-chat-admin.php:245
 msgid "Show the chat window to visitors of this site"
 msgstr "ჩვენების ფანჯრის ჩვენება ამ საიტის სტუმრებისთვის"
 
-#: includes/class-zinn-chat-admin.php:198
+#: includes/class-zinn-chat-admin.php:248
 msgid "Until you tick this, the plugin adds nothing at all to your pages — no script, no cookie, no requests."
 msgstr "სანამ ამას არ მონიშნავთ, მოდული თქვენს გვერდებზე საერთოდ არაფერს ამატებს — არც სკრიპტს, არც ქუქი-ფაილს და არც მოთხოვნებს."
 
@@ -140,3 +137,181 @@ msgstr "იხილეთ Zinn Digital®-ის გამოშვების 
 #: includes/class-zinn-chat-updater.php:288
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ჩამოტვირთული განახლება ვერ გაიარა მთლიანობის შემოწმება და არ დაინსტალირდა."
+
+#: includes/class-zinn-chat-upsell.php:83
+msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
+msgstr "აქ ყველაფერი უფასოდ და სამუდამოდ აგრძელებს მუშაობას. Pro განკუთვნილია იმ შემთხვევისთვის, როდესაც ერთი პასუხისმგებელი პირი და ისტორიის ერთი თვე აღარ არის საკმარისი."
+
+#: includes/class-zinn-chat-upsell.php:86
+msgid "As many colleagues answering at once as you like — the free plugin allows one."
+msgstr "იმდენი კოლეგა უპასუხებს ერთდროულად, რამდენიც გსურთ — უფასო მოდული ერთის საშუალებას იძლევა."
+
+#: includes/class-zinn-chat-upsell.php:87
+msgid "Every conversation kept for ever, instead of thirty days."
+msgstr "ყველა საუბარი ინახება სამუდამოდ, ოცდაათი დღის ნაცვლად."
+
+#: includes/class-zinn-chat-upsell.php:88
+msgid "Your own name on the chat window, with ours removed."
+msgstr "თქვენი საკუთari სახელი ჩატის ფანჯარაში, ჩვენის მოხსნით."
+
+#: includes/class-zinn-chat-upsell.php:89
+msgid "Saved replies, transfer a conversation to a colleague, and business hours."
+msgstr "შენახული პასუხები, საუბრის კოლეგისთვის გადაცემა და სამუშაო საათები."
+
+#: includes/class-zinn-chat-upsell.php:90
+msgid "5,000 AI answers a month rather than 100."
+msgstr "თვეში 5 000 ხელოვნური ინტელექტის პასუხი 100-ის ნაცვლად."
+
+#: includes/class-zinn-chat-upsell.php:91
+msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
+msgstr "ზუსტად აირჩიეთ, რომელ გვერდებზე გამოჩნდება ჩატი — ან დამალეთ იგი გადახდის გვერდიდან."
+
+#: includes/class-zinn-chat-upsell.php:92
+msgid "One licence covers three of your sites; ten-site licences are available."
+msgstr "ერთი ლიცენზია ფარავს თქვენს სამ საიტს; ხელმისაწვდომია ათსაიტიანი ლიცენზიები."
+
+#: includes/class-zinn-chat-upsell.php:96
+msgid "See what Pro costs"
+msgstr "იხილეთ Pro-ს ღირებულება"
+
+#. translators: %s: link to the customer's licences page.
+#: includes/class-zinn-chat-upsell.php:103
+#, php-format
+msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
+msgstr "უკვე გაქვთ საიტი განთავსებული Zinn Digital®-ზე? Pro უფასოდ მოჰყვება — თქვენი გასაღები %s-ზეა."
+
+#: includes/class-zinn-chat-upsell.php:105
+msgid "Licences page of your dashboard"
+msgstr "თქვენი სამართავი პანელის ლიცენზიების გვერდი"
+
+#: includes/pro/class-zinn-chat-licence.php:276
+msgid "Your licence is active."
+msgstr "თქვენი ლიცენზია აქტიურია."
+
+#: includes/pro/class-zinn-chat-licence.php:278
+msgid "Your licence has run out but everything still works for a short while. Renew it to keep receiving updates."
+msgstr "თქვენი ლიცენზია ამოიწურა, მაგრამ ყველაფერი მუშაობს კიდევ მცირე ხნით. განაახლეთ იგი განახლებების მისაღებად."
+
+#: includes/pro/class-zinn-chat-licence.php:280
+msgid "We do not recognise that licence key. Copy it again from the Licences page of your Zinn Digital® dashboard."
+msgstr "ჩვენ ვერ ვცნობთ ამ ლიცენზიის გასაღებს. კვლავ დააკოპირეთ იგი თქვენი Zinn Digital® სამართავი პანელის ლიცენზიების გვერდიდან."
+
+#: includes/pro/class-zinn-chat-licence.php:282
+msgid "That key is for a different Zinn® plugin. The one you want is on the Licences page of your dashboard, next to Zinn® Chat Pro."
+msgstr "ეს გასაღები განკუთვნილია Zinn®-ის სხვა მოდულისთვის. ის, რომელიც გჭირდებათ, არის თქვენი სამართავი პანელის ლიცენზიების გვერდზე, Zinn® Chat Pro-ს გვერდით."
+
+#: includes/pro/class-zinn-chat-licence.php:284
+msgid "Your licence has expired. Renew it from your Zinn Digital® dashboard to switch the Pro features back on."
+msgstr "თქვენი ლიცენზია ვადაგასულია. განაახლეთ იგი Zinn Digital® მართვის პანელიდან Pro ფუნქციების ხელახლა ჩასართავად."
+
+#: includes/pro/class-zinn-chat-licence.php:286
+msgid "This licence has been cancelled."
+msgstr "ეს ლიცენზია გაუქმებულია."
+
+#: includes/pro/class-zinn-chat-licence.php:288
+msgid "This licence is on hold. Please get in touch and we will sort it out."
+msgstr "ეს ლიცენზია შეჩერებულია. გთხოვთ, დაგვიკავშირდეთ და ჩვენ ამას მოვაგვარებთ."
+
+#: includes/pro/class-zinn-chat-licence.php:290
+msgid "There is a billing problem on your Zinn Digital® account. Once it is settled the licence works again straight away."
+msgstr "თქვენს Zinn Digital® ანგარიშზე არის გადახდის პრობლემა. მოგვარებისთანავე ლიცენზია მაშინვე კვლავ ამოქმედდება."
+
+#: includes/pro/class-zinn-chat-licence.php:292
+msgid "This licence came free with your Zinn® hosting, and that hosting has ended. Buy a licence, or start hosting with us again, to switch Pro back on."
+msgstr "ეს ლიცენზია შემოგთავაზათ უფასოდ Zinn® ჰოსტინგთან ერთად, ხოლო აღნიშნული ჰოსტინგი დასრულდა. Pro-ს ხელახლა გასააქტიურებლად შეიძინეთ ლიცენზია ან განაახლეთ ჰოსტინგი ჩვენთან."
+
+#: includes/pro/class-zinn-chat-licence.php:294
+msgid "Every site on this licence is in use. Release one below, or upgrade to cover more sites."
+msgstr "ამ ლიცენზიაზე არსებული ყველა საიტი დაკავებულია. გაათავისუფლეთ ერთი ქვემოთ, ან განაახლეთ მეტი საიტის დასაფარად."
+
+#: includes/pro/class-zinn-chat-licence.php:296
+msgid "We could not confirm your licence just now. Nothing has changed on your site; we will try again shortly."
+msgstr "ჩვენ ახლახან ვერ დავადასტურეთ თქვენი ლიცენზია. თქვენს საიტზე არაფერი შეცვლილა; ჩვენ მალე ვეცდებით ხელახლა."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:60
+msgid "You do not have permission to manage licences on this site."
+msgstr "თქვენ არ გაქვთ ამ საიტზე ლიცენზიების მართვის უფლება."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:87
+msgid "Your Pro licence"
+msgstr "თქვენი Pro ლიცენზია"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:94
+msgid "Licence key"
+msgstr "ლიცენზიის გასაღები"
+
+#. translators: %s: link to the dashboard licences page.
+#: includes/pro/class-zinn-chat-pro-admin.php:105
+#, php-format
+msgid "Copy it from the Licences page of your %s."
+msgstr "დააკოპირეთ ის თქვენი %s-ის ლიცენზიების გვერდიდან."
+
+#. translators: %s: a date.
+#: includes/pro/class-zinn-chat-pro-admin.php:121
+#, php-format
+msgid "Renews on %s."
+msgstr "განახლდება %s."
+
+#. translators: 1: sites in use, 2: sites the licence covers.
+#: includes/pro/class-zinn-chat-pro-admin.php:137
+#, php-format
+msgid "Using %1$d of %2$d sites."
+msgstr "გამოყენებულია %1$d საიტი %2$d-დან."
+
+#. translators: %s: comma-separated list of hostnames.
+#: includes/pro/class-zinn-chat-pro-admin.php:149
+#, php-format
+msgid "In use on: %s. Release one from your dashboard, then try again."
+msgstr "გამოყენებაშია: %s. გაათავისუფლეთ ერთი თქვენი სამართავი პანელიდან და სცადეთ თავიდან."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:160
+msgid "Save licence"
+msgstr "ლიცენზიის შენახვა"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:164
+msgid "Remove it from this site"
+msgstr "წაშალეთ ის ამ საიტიდან"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:181
+msgid "Where the chat appears"
+msgstr "სად ჩნდება ჩატი"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:193
+msgid "Show it"
+msgstr "ჩვენება"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:197
+msgid "Everywhere on this site"
+msgstr "ამ საიტის ყველგან"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:198
+msgid "Only on the pages I choose below"
+msgstr "მხოლოდ ქვემოთ არჩეულ გვერდებზე"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:199
+msgid "Everywhere except the pages I choose below"
+msgstr "ყველგან, გარდა ქვემოთ არჩეული გვერდებისა"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:215
+msgid "Page or post IDs"
+msgstr "გვერდის ან პუბლიკაციის ID-ები"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:223
+msgid "Separate them with commas. The ID is in the address bar while you edit a page."
+msgstr "გაყავით ისინი მძიმეებით. ID ჩანს მისამართების ზოლში გვერდის რედაქტირებისას."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:228
+msgid "Whole content types"
+msgstr "კონტენტის მთლიანი ტიპები"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:242
+msgid "Signed-in visitors"
+msgstr "შესული ვიზიტორები"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:249
+msgid "Hide the chat from people who are signed in to this site"
+msgstr "ჩათის დამალვა ამ საიტზე შესული მომხმარებლებისთვის"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:254
+msgid "Save where it appears"
+msgstr "შენახვის ადგილი"

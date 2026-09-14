@@ -10,11 +10,7 @@ msgstr ""
 "X-Generator: scripts/wp-i18n-translate.py\n"
 
 #. Plugin Name of the plugin
-#. translators: page title.
 #: zinn-chat.php
-#: includes/class-zinn-chat-admin.php:67
-#: includes/class-zinn-chat-admin.php:68
-#: includes/class-zinn-chat-admin.php:149
 msgid "Zinn® Chat"
 msgstr "Zinn® Chat"
 
@@ -42,49 +38,50 @@ msgstr "https://zinndigital.com"
 msgid "Settings"
 msgstr "সেটিংস"
 
-#: includes/class-zinn-chat-admin.php:115
+#: includes/class-zinn-chat-admin.php:151
 msgid "That does not look like a Zinn® Chat key. Copy it from the Live chat page of your Zinn Digital® dashboard — it starts with zc_."
 msgstr "সেটিকে জিনের চ্যাট কি (Zinn® Chat key) বলে মনে হচ্ছে না। আপনার Zinn Digital® ড্যাশবোর্ডের লাইভ চ্যাট (Live chat) পৃষ্ঠা থেকে এটি অনুলিপি করুন— এটি zc_ দিয়ে শুরু হয়।"
 
-#: includes/class-zinn-chat-admin.php:125
+#: includes/class-zinn-chat-admin.php:161
 msgid "Add your chat key before switching the chat on — without it there is nothing for the widget to connect to."
 msgstr "চ্যাট চালু করার আগে আপনার চ্যাট কি (chat key) যোগ করুন — এটি ছাড়া উইজেট সংযোগ করার মতো কিছুই থাকবে না।"
 
-#: includes/class-zinn-chat-admin.php:151
+#: includes/class-zinn-chat-admin.php:201
 msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
 msgstr "এই সাইটের জন্য লাইভ চ্যাট। দর্শনার্থীরা সঙ্গে সঙ্গে উত্তর পান, আপনার বাদ পড়া যেকোনো বার্তা ইমেইলে চলে আসে, আর পুরো বিষয়টি পেজে ১০ কিলোবাইটেরও কম জায়গা নেয়।"
 
-#: includes/class-zinn-chat-admin.php:156
+#: includes/class-zinn-chat-admin.php:206
 msgid "The chat is live on this site."
 msgstr "এই সাইটে চ্যাট লাইভ আছে।"
 
-#: includes/class-zinn-chat-admin.php:158
+#: includes/class-zinn-chat-admin.php:208
 msgid "The chat is switched off. Nothing is loaded on your site."
 msgstr "চ্যাটটি বন্ধ রয়েছে। আপনার সাইটে কিছু লোড হয়নি।"
 
-#: includes/class-zinn-chat-admin.php:167
+#: includes/class-zinn-chat-admin.php:217
 msgid "Chat key"
 msgstr "চ্যাট চাবি"
 
 #. translators: %s: link to the Zinn dashboard.
-#: includes/class-zinn-chat-admin.php:179
+#: includes/class-zinn-chat-admin.php:229
 #, php-format
 msgid "Copy this from the Live chat page of your %s."
 msgstr "আপনার %s-এর লাইভ চ্যাট পেজ থেকে এটি কপি করুন।"
 
-#: includes/class-zinn-chat-admin.php:181
+#: includes/class-zinn-chat-admin.php:231
+#: includes/pro/class-zinn-chat-pro-admin.php:107
 msgid "Zinn Digital® dashboard"
 msgstr "Zinn Digital® ড্যাশবোর্ড"
 
-#: includes/class-zinn-chat-admin.php:188
+#: includes/class-zinn-chat-admin.php:238
 msgid "Show the chat"
 msgstr "চ্যাটটি দেখান"
 
-#: includes/class-zinn-chat-admin.php:195
+#: includes/class-zinn-chat-admin.php:245
 msgid "Show the chat window to visitors of this site"
 msgstr "এই সাইটের আগন্তুকদের জন্য চ্যাট উইন্ডোটি দেখান"
 
-#: includes/class-zinn-chat-admin.php:198
+#: includes/class-zinn-chat-admin.php:248
 msgid "Until you tick this, the plugin adds nothing at all to your pages — no script, no cookie, no requests."
 msgstr "আপনি এটি টিক না দেওয়া পর্যন্ত, প্লাগইনটি আপনার পেজগুলোতে সম্পূর্ণ কিছু যোগ করে না — কোনো স্ক্রিপ্ট নেই, কোনো কুকি নেই, কোনো অনুরোধ নেই।"
 
@@ -140,3 +137,181 @@ msgstr "Zinn Digital® রিলিজ নোট দেখুন।"
 #: includes/class-zinn-chat-updater.php:288
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ডাউনলোড করা আপডেটটির অখণ্ডতা পরীক্ষা ব্যর্থ হয়েছে এবং এটি ইনস্টল করা হয়নি।"
+
+#: includes/class-zinn-chat-upsell.php:83
+msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
+msgstr "এখানে সবকিছু চিরকালের জন্য বিনামূল্যে কাজ করতে থাকে। প্রো হলো এমন সময়ের জন্য যখন একজনের উত্তর দেওয়া এবং এক মাসের ইতিহাস যথেষ্ট হওয়া বন্ধ হয়ে যায়।"
+
+#: includes/class-zinn-chat-upsell.php:86
+msgid "As many colleagues answering at once as you like — the free plugin allows one."
+msgstr "আপনার পছন্দের যত খুশি সহকর্মী একসাথে উত্তর দিতে পারবেন — ফ্রি প্লাগইনটিতে একজনের অনুমতি রয়েছে।"
+
+#: includes/class-zinn-chat-upsell.php:87
+msgid "Every conversation kept for ever, instead of thirty days."
+msgstr "ত্রিশ দিন নয়, প্রতিটি কথোপকথন চিরকালের জন্য সংরক্ষিত।"
+
+#: includes/class-zinn-chat-upsell.php:88
+msgid "Your own name on the chat window, with ours removed."
+msgstr "চ্যাট উইন্ডোতে আপনার নিজস্ব নাম থাকবে, আমাদেরটি সরানো হয়েছে।"
+
+#: includes/class-zinn-chat-upsell.php:89
+msgid "Saved replies, transfer a conversation to a colleague, and business hours."
+msgstr "সংরক্ষিত উত্তর, কথোপকথন কোনো সহকর্মীকে স্থানান্তর করা এবং ব্যবসার সময়।"
+
+#: includes/class-zinn-chat-upsell.php:90
+msgid "5,000 AI answers a month rather than 100."
+msgstr "প্রতি মাসে ১০০টির বদলে ৫,০০০টি এআই উত্তর।"
+
+#: includes/class-zinn-chat-upsell.php:91
+msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
+msgstr "চ্যাটটি কোন পৃষ্ঠায় প্রদর্শিত হবে তা স্পষ্টভাবে বেছে নিন—অথবা চেকআউট থেকে এটি লুকিয়ে রাখুন।"
+
+#: includes/class-zinn-chat-upsell.php:92
+msgid "One licence covers three of your sites; ten-site licences are available."
+msgstr "একটি লাইসেন্স আপনার তিনটি সাইট কভার করে; দশটি সাইটের লাইসেন্স উপলব্ধ রয়েছে।"
+
+#: includes/class-zinn-chat-upsell.php:96
+msgid "See what Pro costs"
+msgstr "প্রো-এর দাম দেখুন"
+
+#. translators: %s: link to the customer's licences page.
+#: includes/class-zinn-chat-upsell.php:103
+#, php-format
+msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
+msgstr "Zinn Digital®-এ ইতিমধ্যে একটি সাইট হোস্ট করেছেন? প্রো বিনামূল্যে অন্তর্ভুক্ত রয়েছে — আপনার চাবিকাঠি %s-এ রয়েছে।"
+
+#: includes/class-zinn-chat-upsell.php:105
+msgid "Licences page of your dashboard"
+msgstr "আপনার ড্যাশবোর্ডের লাইসেন্স পৃষ্ঠা"
+
+#: includes/pro/class-zinn-chat-licence.php:276
+msgid "Your licence is active."
+msgstr "আপনার লাইসেন্সটি সক্রিয় রয়েছে।"
+
+#: includes/pro/class-zinn-chat-licence.php:278
+msgid "Your licence has run out but everything still works for a short while. Renew it to keep receiving updates."
+msgstr "আপনার লাইসেন্সের মেয়াদ শেষ হয়ে গেছে তবে সবকিছু আরও কিছুদিন কাজ করবে। আপডেট পেতে এটি নবায়ন করুন।"
+
+#: includes/pro/class-zinn-chat-licence.php:280
+msgid "We do not recognise that licence key. Copy it again from the Licences page of your Zinn Digital® dashboard."
+msgstr "আমরা সেই লাইসেন্স কীটি চিনতে পারছি না। আপনার Zinn Digital® ড্যাশবোর্ডের লাইসেন্স পেজ থেকে এটি আবার কপি করুন।"
+
+#: includes/pro/class-zinn-chat-licence.php:282
+msgid "That key is for a different Zinn® plugin. The one you want is on the Licences page of your dashboard, next to Zinn® Chat Pro."
+msgstr "ওই চাবিটি একটি ভিন্ন Zinn® প্লাগিনের জন্য। আপনার ড্যাশবোর্ডের Licences পৃষ্ঠায় Zinn® Chat Pro-এর পাশে আপনার কাঙ্ক্ষিত চাবিটি রয়েছে।"
+
+#: includes/pro/class-zinn-chat-licence.php:284
+msgid "Your licence has expired. Renew it from your Zinn Digital® dashboard to switch the Pro features back on."
+msgstr "আপনার লাইসেন্সের মেয়াদ শেষ হয়ে গেছে। প্রো ফিচারগুলো পুনরায় চালু করতে আপনার Zinn Digital® ড্যাশবোর্ড থেকে এটি নবায়ন করুন।"
+
+#: includes/pro/class-zinn-chat-licence.php:286
+msgid "This licence has been cancelled."
+msgstr "এই লাইসেন্সটি বাতিল করা হয়েছে।"
+
+#: includes/pro/class-zinn-chat-licence.php:288
+msgid "This licence is on hold. Please get in touch and we will sort it out."
+msgstr "এই লাইসেন্সটি সাময়িকভাবে স্থগিত আছে। অনুগ্রহ করে যোগাযোগ করুন এবং আমরা এটি সমাধান করে দেব।"
+
+#: includes/pro/class-zinn-chat-licence.php:290
+msgid "There is a billing problem on your Zinn Digital® account. Once it is settled the licence works again straight away."
+msgstr "আপনার Zinn Digital® অ্যাকাউন্ট একটি বিলিং সমস্যা রয়েছে। এটি মিটিয়ে ফেললেই লাইসেন্সটি সাথে সাথে আবার কাজ করা শুরু করবে।"
+
+#: includes/pro/class-zinn-chat-licence.php:292
+msgid "This licence came free with your Zinn® hosting, and that hosting has ended. Buy a licence, or start hosting with us again, to switch Pro back on."
+msgstr "এই লাইসেন্সটি আপনার Zinn® হোস্টিংয়ের সাথে বিনামূল্যে এসেছিল এবং সেই হোস্টিংয়ের মেয়াদ শেষ হয়ে গেছে। প্রো (Pro) ফিচারটি আবার চালু করতে একটি লাইসেন্স কিনুন অথবা আমাদের সাথে পুনরায় হোস্টিং শুরু করুন।"
+
+#: includes/pro/class-zinn-chat-licence.php:294
+msgid "Every site on this licence is in use. Release one below, or upgrade to cover more sites."
+msgstr "এই লাইসেন্সের প্রতিটি সাইট ব্যবহার করা হচ্ছে। নিচের একটি সাইট রিলিজ করুন, অথবা আরও সাইট যুক্ত করতে আপগ্রেড করুন।"
+
+#: includes/pro/class-zinn-chat-licence.php:296
+msgid "We could not confirm your licence just now. Nothing has changed on your site; we will try again shortly."
+msgstr "আমরা এই মুহূর্তে আপনার লাইসেন্স নিশ্চিত করতে পারিনি। আপনার সাইটে কোনো পরিবর্তন করা হয়নি; আমরা শীঘ্রই আবার চেষ্টা করব।"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:60
+msgid "You do not have permission to manage licences on this site."
+msgstr "আপনার এই সাইটে লাইসেন্স পরিচালনা করার অনুমতি নেই।"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:87
+msgid "Your Pro licence"
+msgstr "আপনার প্র লাইসেন্স"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:94
+msgid "Licence key"
+msgstr "লাইসেন্স কী"
+
+#. translators: %s: link to the dashboard licences page.
+#: includes/pro/class-zinn-chat-pro-admin.php:105
+#, php-format
+msgid "Copy it from the Licences page of your %s."
+msgstr "আপনার %s-এর লাইসেন্স পৃষ্ঠা থেকে এটি কপি করুন।"
+
+#. translators: %s: a date.
+#: includes/pro/class-zinn-chat-pro-admin.php:121
+#, php-format
+msgid "Renews on %s."
+msgstr "%s তারিখে নবায়ন হবে।"
+
+#. translators: 1: sites in use, 2: sites the licence covers.
+#: includes/pro/class-zinn-chat-pro-admin.php:137
+#, php-format
+msgid "Using %1$d of %2$d sites."
+msgstr "%2$dটি সাইটের মধ্যে %1$dটি ব্যবহার করা হচ্ছে।"
+
+#. translators: %s: comma-separated list of hostnames.
+#: includes/pro/class-zinn-chat-pro-admin.php:149
+#, php-format
+msgid "In use on: %s. Release one from your dashboard, then try again."
+msgstr "ব্যবহার হচ্ছে: %s। আপনার ড্যাশবোর্ড থেকে একটি রিলিজ করুন, তারপর আবার চেষ্টা করুন।"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:160
+msgid "Save licence"
+msgstr "লাইসেন্স সংরক্ষণ করুন"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:164
+msgid "Remove it from this site"
+msgstr "এই সাইট থেকে এটি সরান"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:181
+msgid "Where the chat appears"
+msgstr "যেখানে চ্যাট প্রদর্শিত হয়"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:193
+msgid "Show it"
+msgstr "এটি দেখান"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:197
+msgid "Everywhere on this site"
+msgstr "এই সাইটের সর্বত্র"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:198
+msgid "Only on the pages I choose below"
+msgstr "শুধুমাত্র নিচে আমার বেছে নেওয়া পেজগুলোতে"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:199
+msgid "Everywhere except the pages I choose below"
+msgstr "আমি নিচে যে পৃষ্ঠাগুলো বেছে নেব সেগুরো ছাড়া সব জায়গায়"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:215
+msgid "Page or post IDs"
+msgstr "পেজ বা পোস্ট আইডিগুলি"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:223
+msgid "Separate them with commas. The ID is in the address bar while you edit a page."
+msgstr "এগুলোকে কমা দিয়ে আলাদা করুন। আপনি যখন কোনো পৃষ্ঠা সম্পাদনা করছেন, তখন আইডিটি অ্যাড্রেস বারে থাকে।"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:228
+msgid "Whole content types"
+msgstr "সম্পূর্ণ বিষয়বস্তুর প্রকারভেদ"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:242
+msgid "Signed-in visitors"
+msgstr "সাইন-ইন করা দর্শনার্থীরা"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:249
+msgid "Hide the chat from people who are signed in to this site"
+msgstr "এই সাইটে সাইন ইন করা ব্যক্তিদের কাছ থেকে চ্যাট লুকান"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:254
+msgid "Save where it appears"
+msgstr "যেখানে প্রদর্শিত হয় সেখানে সংরক্ষণ করুন"

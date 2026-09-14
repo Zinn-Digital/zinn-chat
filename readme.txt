@@ -7,7 +7,7 @@ Tags: live chat, chat, support, helpdesk, ai
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.1.2
+Stable tag: 1.2.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -63,6 +63,8 @@ This plugin connects your site to Zinn Digital®'s chat service, which is what m
 
 The public chat key is not a secret — it names your chat and nothing else, and it only works on the web addresses you have listed in your dashboard.
 
+* **If you have a Zinn® Chat Pro licence**, once a day — and when you press Save on the licence box — the plugin sends your licence key, this site's address and the plugin's version number to `https://api.zinndigital.com/v1/plugin-licences/` to ask whether the licence is still valid and whether a newer Pro build exists. Nothing about your visitors or your content is sent. The free plugin never makes this request: the code that makes it is only in the Pro build.
+
 Service: Zinn Digital® — [zinndigital.com](https://zinndigital.com) · [Terms](https://zinndigital.com/legal/terms) · [Privacy](https://zinndigital.com/legal/privacy)
 
 == Frequently Asked Questions ==
@@ -77,7 +79,11 @@ The visitor still gets an answer from the assistant, and the conversation is ema
 
 = Can I stop it showing on some pages? =
 
-Yes — return `false` from the `zinn_chat_should_render` filter. Checkout pages and signed-in staff are the usual reasons.
+Yes — return `false` from the `zinn_chat_should_render` filter. Checkout pages and signed-in staff are the usual reasons. Zinn® Chat Pro gives you the same thing as a settings screen: show it only on the pages you choose, or everywhere except them, and hide it from people who are signed in.
+
+= What is Zinn® Chat Pro? =
+
+The same plugin with a licence key in it. Pro removes the limits the free version has — one person answering becomes as many as you like, thirty days of history becomes for ever, our name comes off the chat window, and you get saved replies, transfers between colleagues, business hours and 5,000 AI answers a month instead of 100. One licence covers three of your sites. If you host a site with Zinn Digital®, Pro is included free and your key is already waiting on the Licences page of your dashboard.
 
 = Will it slow my site down? =
 
@@ -98,6 +104,11 @@ Not if you host with Zinn Digital®. Premium is included with your hosting for a
 3. The Zinn Digital® panel in your dashboard: this plugin's own guide, and the other things we run. No remote call, no tracking pixel, no image loaded from us.
 
 == Changelog ==
+
+= 1.2.0 =
+* New: Zinn® Chat Pro, the paid edition — unlimited people answering, transcripts kept for ever, your own branding, saved replies, transfers, business hours, 5,000 AI answers a month, and a settings screen for choosing exactly which pages the chat appears on. One licence covers three of your sites, and it is included free with Zinn Digital® hosting.
+* New: the settings screen names the edition you are running, read from the plugin header rather than a fixed string — so the paid edition no longer shows the free edition's name.
+* New: the free edition explains what Pro adds, in your own language, with no remote call.
 
 = 1.1.2 =
 * The chat window now speaks your site's language: its buttons, placeholder, the "leave your email" prompt and "Powered by" follow the language your WordPress site is set to, in any of 58 languages, instead of always being English.

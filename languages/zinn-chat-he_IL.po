@@ -10,11 +10,7 @@ msgstr ""
 "X-Generator: scripts/wp-i18n-translate.py\n"
 
 #. Plugin Name of the plugin
-#. translators: page title.
 #: zinn-chat.php
-#: includes/class-zinn-chat-admin.php:67
-#: includes/class-zinn-chat-admin.php:68
-#: includes/class-zinn-chat-admin.php:149
 msgid "Zinn® Chat"
 msgstr "Zinn® Chat"
 
@@ -42,49 +38,50 @@ msgstr "https://zinndigital.com"
 msgid "Settings"
 msgstr "הגדרות"
 
-#: includes/class-zinn-chat-admin.php:115
+#: includes/class-zinn-chat-admin.php:151
 msgid "That does not look like a Zinn® Chat key. Copy it from the Live chat page of your Zinn Digital® dashboard — it starts with zc_."
 msgstr "זה אינו נראה כמו מפתח Zinn® Chat. העתק אותו ממיקוד הצ'אט החי בלוח הבקרה שלך ב-Zinn Digital® — הוא מתחיל ב-zc_."
 
-#: includes/class-zinn-chat-admin.php:125
+#: includes/class-zinn-chat-admin.php:161
 msgid "Add your chat key before switching the chat on — without it there is nothing for the widget to connect to."
 msgstr "הוסף את מפתח הצ'אט שלך לפני הפעלת הצ'אט — בלעדיו אין ווידג'ט שיוכל להתחבר אליו."
 
-#: includes/class-zinn-chat-admin.php:151
+#: includes/class-zinn-chat-admin.php:201
 msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
 msgstr "צ'אט חי עבור אתר זה. מבקרים מקבלים מענה מיד, אתם מקבלים כל פנייה שפספסתם בדוא\"ל, והדבר כולו שוקל פחות מ-10 קילו-בייט בעמוד."
 
-#: includes/class-zinn-chat-admin.php:156
+#: includes/class-zinn-chat-admin.php:206
 msgid "The chat is live on this site."
 msgstr "הצ'אט פעיל באתר זה."
 
-#: includes/class-zinn-chat-admin.php:158
+#: includes/class-zinn-chat-admin.php:208
 msgid "The chat is switched off. Nothing is loaded on your site."
 msgstr "הצ'אט כבוי. שום דבר אינו נטען באתר שלך."
 
-#: includes/class-zinn-chat-admin.php:167
+#: includes/class-zinn-chat-admin.php:217
 msgid "Chat key"
 msgstr "מפתח צ'אט"
 
 #. translators: %s: link to the Zinn dashboard.
-#: includes/class-zinn-chat-admin.php:179
+#: includes/class-zinn-chat-admin.php:229
 #, php-format
 msgid "Copy this from the Live chat page of your %s."
 msgstr "העתק זאת מדף ה-Live chat של ה-%s שלך."
 
-#: includes/class-zinn-chat-admin.php:181
+#: includes/class-zinn-chat-admin.php:231
+#: includes/pro/class-zinn-chat-pro-admin.php:107
 msgid "Zinn Digital® dashboard"
 msgstr "לוח הבקרה של Zinn Digital®"
 
-#: includes/class-zinn-chat-admin.php:188
+#: includes/class-zinn-chat-admin.php:238
 msgid "Show the chat"
 msgstr "הצג את הצ'אט"
 
-#: includes/class-zinn-chat-admin.php:195
+#: includes/class-zinn-chat-admin.php:245
 msgid "Show the chat window to visitors of this site"
 msgstr "הצג את חלון הצ'אט למבקרים באתר זה"
 
-#: includes/class-zinn-chat-admin.php:198
+#: includes/class-zinn-chat-admin.php:248
 msgid "Until you tick this, the plugin adds nothing at all to your pages — no script, no cookie, no requests."
 msgstr "עד שתסמן תיבה זו, התוסף אינו מוסיף דבר לעמודים שלך — לא סקריפט, לא קוקי, לא בקשות."
 
@@ -140,3 +137,181 @@ msgstr "עיין בהערות השחרור של Zinn Digital®."
 #: includes/class-zinn-chat-updater.php:288
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "עדכון שהורד נכשל בבדיקת תקינות ולא הותקן."
+
+#: includes/class-zinn-chat-upsell.php:83
+msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
+msgstr "הכול כאן ממשיך לעבוד בחינם, לתמיד. Pro מיועד למצבים שבהם מענה על ידי אדם אחד, והיסטוריה של חודש אחד, כבר אינם מספיקים."
+
+#: includes/class-zinn-chat-upsell.php:86
+msgid "As many colleagues answering at once as you like — the free plugin allows one."
+msgstr "כמה עמיתים שעונים בו-זמנית שתרצו – התוסף החינמי מאפשר אחד."
+
+#: includes/class-zinn-chat-upsell.php:87
+msgid "Every conversation kept for ever, instead of thirty days."
+msgstr "כל שיחה נשמרת לנצח, במקום שלושים יום."
+
+#: includes/class-zinn-chat-upsell.php:88
+msgid "Your own name on the chat window, with ours removed."
+msgstr "שם משלך בחלון הצ'אט, כשהשם שלנו הוסר."
+
+#: includes/class-zinn-chat-upsell.php:89
+msgid "Saved replies, transfer a conversation to a colleague, and business hours."
+msgstr "תשובות שמורות, העברת שיחה לקולגה ושעות פעילות."
+
+#: includes/class-zinn-chat-upsell.php:90
+msgid "5,000 AI answers a month rather than 100."
+msgstr "5,000 תשובות בינה מלאכותית בחודש במקום 100."
+
+#: includes/class-zinn-chat-upsell.php:91
+msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
+msgstr "בחר בדיוק באילו עמודים הצ'אט יופיע – או הסתר אותו מעמוד התשלום."
+
+#: includes/class-zinn-chat-upsell.php:92
+msgid "One licence covers three of your sites; ten-site licences are available."
+msgstr "רישיון אחד מכסה שלושה מהאתרים שלך; רישיונות לעשרה אתרים זמינים."
+
+#: includes/class-zinn-chat-upsell.php:96
+msgid "See what Pro costs"
+msgstr "ראה את העלות של Pro"
+
+#. translators: %s: link to the customer's licences page.
+#: includes/class-zinn-chat-upsell.php:103
+#, php-format
+msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
+msgstr "כבר מארחים אתר ב-Zinn Digital®? פרו כלול בחינם — המפתח שלך נמצא ב-%s."
+
+#: includes/class-zinn-chat-upsell.php:105
+msgid "Licences page of your dashboard"
+msgstr "עמוד הרישיונות של לוח הבקרה שלך"
+
+#: includes/pro/class-zinn-chat-licence.php:276
+msgid "Your licence is active."
+msgstr "הרישיון שלך פעיל."
+
+#: includes/pro/class-zinn-chat-licence.php:278
+msgid "Your licence has run out but everything still works for a short while. Renew it to keep receiving updates."
+msgstr "הרישיון שלך פג, אך הכול עדיין פועל לזמן קצר. חדש אותו כדי להמשיך לקבל עדכונים."
+
+#: includes/pro/class-zinn-chat-licence.php:280
+msgid "We do not recognise that licence key. Copy it again from the Licences page of your Zinn Digital® dashboard."
+msgstr "איננו מזהים את מפתח הרישיון הזה. העתק אותו שוב מדף הרישיונות (Licences) בלוח הבקרה שלך ב-Zinn Digital®."
+
+#: includes/pro/class-zinn-chat-licence.php:282
+msgid "That key is for a different Zinn® plugin. The one you want is on the Licences page of your dashboard, next to Zinn® Chat Pro."
+msgstr "מפתח זה שייך לתוסף אחר של Zinn®. המפתח שאתה מחפש נמצא בדף הרישיונות (Licences) בלוח הבקרה שלך, לצד Zinn® Chat Pro."
+
+#: includes/pro/class-zinn-chat-licence.php:284
+msgid "Your licence has expired. Renew it from your Zinn Digital® dashboard to switch the Pro features back on."
+msgstr "הרישיון שלך פג. חידש אותו מלוח הבקרה של Zinn Digital® כדי להפעיל מחדש את תכונות ה-Pro."
+
+#: includes/pro/class-zinn-chat-licence.php:286
+msgid "This licence has been cancelled."
+msgstr "רישיון זה בוטל."
+
+#: includes/pro/class-zinn-chat-licence.php:288
+msgid "This licence is on hold. Please get in touch and we will sort it out."
+msgstr "רישיון זה מושהה. אנא צור קשר ונדאג לסדר זאת."
+
+#: includes/pro/class-zinn-chat-licence.php:290
+msgid "There is a billing problem on your Zinn Digital® account. Once it is settled the licence works again straight away."
+msgstr "יש בעיית חיוב בחשבון ה-Zinn Digital® שלך. ברגע שהיא תוסדר, הרישיון יחזור לפעול מיד."
+
+#: includes/pro/class-zinn-chat-licence.php:292
+msgid "This licence came free with your Zinn® hosting, and that hosting has ended. Buy a licence, or start hosting with us again, to switch Pro back on."
+msgstr "רישיון זה ניתן בחינם עם אחסון ה-Zinn® שלך, ואחסון זה הסתיים. רכוש רישיון, או התחל לאחסן אצלנו מחדש, כדי להפעיל מחדש את Pro."
+
+#: includes/pro/class-zinn-chat-licence.php:294
+msgid "Every site on this licence is in use. Release one below, or upgrade to cover more sites."
+msgstr "כל אתר ברישיון זה נמצא בשימוש. שחרר אחד מהם למטה או שדרג כדי לכסות אתרים נוספים."
+
+#: includes/pro/class-zinn-chat-licence.php:296
+msgid "We could not confirm your licence just now. Nothing has changed on your site; we will try again shortly."
+msgstr "לא הצלחנו לאשר את הרישיון שלך כרגע. דבר לא השתנה באתר שלך; ננסה שוב בקרוב."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:60
+msgid "You do not have permission to manage licences on this site."
+msgstr "אין לך הרשאה לנהל רישיונות באתר זה."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:87
+msgid "Your Pro licence"
+msgstr "רישיון ה-Pro שלך"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:94
+msgid "Licence key"
+msgstr "מפתח רישיון"
+
+#. translators: %s: link to the dashboard licences page.
+#: includes/pro/class-zinn-chat-pro-admin.php:105
+#, php-format
+msgid "Copy it from the Licences page of your %s."
+msgstr "העתק אותו מדף הרישיונות של ה-%s שלך."
+
+#. translators: %s: a date.
+#: includes/pro/class-zinn-chat-pro-admin.php:121
+#, php-format
+msgid "Renews on %s."
+msgstr "מתחדש ב-%s."
+
+#. translators: 1: sites in use, 2: sites the licence covers.
+#: includes/pro/class-zinn-chat-pro-admin.php:137
+#, php-format
+msgid "Using %1$d of %2$d sites."
+msgstr "משתמש ב-%1$d מתוך %2$d אתרים."
+
+#. translators: %s: comma-separated list of hostnames.
+#: includes/pro/class-zinn-chat-pro-admin.php:149
+#, php-format
+msgid "In use on: %s. Release one from your dashboard, then try again."
+msgstr "בשימוש ב: %s. שחרר אחד מלוח הבקרה שלך ונסה שוב."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:160
+msgid "Save licence"
+msgstr "שמור רישיון"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:164
+msgid "Remove it from this site"
+msgstr "הסר מהאתר הזה"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:181
+msgid "Where the chat appears"
+msgstr "היכן שהצ'אט מופיע"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:193
+msgid "Show it"
+msgstr "הצג זאת"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:197
+msgid "Everywhere on this site"
+msgstr "בכל מקום באתר הזה"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:198
+msgid "Only on the pages I choose below"
+msgstr "רק בעמודים שאבחר להלן"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:199
+msgid "Everywhere except the pages I choose below"
+msgstr "בכל מקום פרט לעמודים שאבחר להלן"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:215
+msgid "Page or post IDs"
+msgstr "מזהי עמודים או פוסטים"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:223
+msgid "Separate them with commas. The ID is in the address bar while you edit a page."
+msgstr "הפרד ביניהם בפסיקים. המזהה נמצא בשורת הכתובת בזמן עריכת עמוד."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:228
+msgid "Whole content types"
+msgstr "סוגי תוכן מלאים"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:242
+msgid "Signed-in visitors"
+msgstr "מבקרים מחוברים"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:249
+msgid "Hide the chat from people who are signed in to this site"
+msgstr "הסתר את הצ'אט מאנשים המחוברים לאתר זה"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:254
+msgid "Save where it appears"
+msgstr "שמור במקום שבו הוא מופיע"

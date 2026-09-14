@@ -10,11 +10,7 @@ msgstr ""
 "X-Generator: scripts/wp-i18n-translate.py\n"
 
 #. Plugin Name of the plugin
-#. translators: page title.
 #: zinn-chat.php
-#: includes/class-zinn-chat-admin.php:67
-#: includes/class-zinn-chat-admin.php:68
-#: includes/class-zinn-chat-admin.php:149
 msgid "Zinn® Chat"
 msgstr "Zinn® Chat"
 
@@ -42,49 +38,50 @@ msgstr "https://zinndigital.com"
 msgid "Settings"
 msgstr "Танзимот"
 
-#: includes/class-zinn-chat-admin.php:115
+#: includes/class-zinn-chat-admin.php:151
 msgid "That does not look like a Zinn® Chat key. Copy it from the Live chat page of your Zinn Digital® dashboard — it starts with zc_."
 msgstr "Ин ба калиди Zinn® Chat монанд нест. Онро аз саҳифаи сӯҳбати зиндаи панели идоракунии Zinn Digital® nusxбардорӣ кунед — он бо zc_ оғоз мешавад."
 
-#: includes/class-zinn-chat-admin.php:125
+#: includes/class-zinn-chat-admin.php:161
 msgid "Add your chat key before switching the chat on — without it there is nothing for the widget to connect to."
 msgstr "Пеш аз фаъол кардани чат калиди чати худро илова кунед — бидуни он виджет ба ҳеҷ ҷой пайваст шуда наметавонад."
 
-#: includes/class-zinn-chat-admin.php:151
+#: includes/class-zinn-chat-admin.php:201
 msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
 msgstr "Чотии зинда барои ин сайт. Меҳмонон посухро фавран мегиранд, ҳамаи паёмҳои аздастдошта ба почтаи электронии шумо фиристода мешаванд ва ҳаҷми умумии он дар саҳифа камтар аз 10 КБ аст."
 
-#: includes/class-zinn-chat-admin.php:156
+#: includes/class-zinn-chat-admin.php:206
 msgid "The chat is live on this site."
 msgstr "Чат дар ин сайт фаъол аст."
 
-#: includes/class-zinn-chat-admin.php:158
+#: includes/class-zinn-chat-admin.php:208
 msgid "The chat is switched off. Nothing is loaded on your site."
 msgstr "Чат хомӯш карда шудааст. Дар сайти шумо ягон чиз бор карда намешавад."
 
-#: includes/class-zinn-chat-admin.php:167
+#: includes/class-zinn-chat-admin.php:217
 msgid "Chat key"
 msgstr "Калиди чат"
 
 #. translators: %s: link to the Zinn dashboard.
-#: includes/class-zinn-chat-admin.php:179
+#: includes/class-zinn-chat-admin.php:229
 #, php-format
 msgid "Copy this from the Live chat page of your %s."
 msgstr "Инро аз саҳифаи чати зиндаи %s-и худ нусхабардорӣ кунед."
 
-#: includes/class-zinn-chat-admin.php:181
+#: includes/class-zinn-chat-admin.php:231
+#: includes/pro/class-zinn-chat-pro-admin.php:107
 msgid "Zinn Digital® dashboard"
 msgstr "Панели идораи Zinn Digital®"
 
-#: includes/class-zinn-chat-admin.php:188
+#: includes/class-zinn-chat-admin.php:238
 msgid "Show the chat"
 msgstr "Намоиши чат"
 
-#: includes/class-zinn-chat-admin.php:195
+#: includes/class-zinn-chat-admin.php:245
 msgid "Show the chat window to visitors of this site"
 msgstr "Равзанаи сӯҳбатро ба меҳмонони ин сайт нишон диҳед"
 
-#: includes/class-zinn-chat-admin.php:198
+#: includes/class-zinn-chat-admin.php:248
 msgid "Until you tick this, the plugin adds nothing at all to your pages — no script, no cookie, no requests."
 msgstr "То даме ки шумо инро қайд накунед, плагин ба саҳифаҳои шумо умуман ягон чиз илова намекунад — ягон скрипт, ягон куки, ягон дархост."
 
@@ -140,3 +137,181 @@ msgstr "Ба қайдҳои барориши Zinn Digital® нигаред."
 #: includes/class-zinn-chat-updater.php:288
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Навсозии зеркашидашув санҷиши дақиқиро аз сар гузаронида натавонист ва насб карда нашуд."
+
+#: includes/class-zinn-chat-upsell.php:83
+msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
+msgstr "Ҳама чиз дар ин ҷо ройгон ва то абад кор мекунад. Pro барои замоне пешбинӣ шудааст, ки як шахси посухдиҳанда ва як моҳи таърих дигар кофӣ нестанд."
+
+#: includes/class-zinn-chat-upsell.php:86
+msgid "As many colleagues answering at once as you like — the free plugin allows one."
+msgstr "Ҳамон қадар ҳамкороне, ки хоҳед, метавонанд дар як вақт ҷавоб диҳанд — плагини ройгон танҳо ба як нафар иҷозат медиҳад."
+
+#: includes/class-zinn-chat-upsell.php:87
+msgid "Every conversation kept for ever, instead of thirty days."
+msgstr "Ҳар як муҳориба то абад ҳифз мешавад, на ин ки сӣ рӯз."
+
+#: includes/class-zinn-chat-upsell.php:88
+msgid "Your own name on the chat window, with ours removed."
+msgstr "Номи худи шумо дар равзанаи чат, ки номи мо нест карда шудааст."
+
+#: includes/class-zinn-chat-upsell.php:89
+msgid "Saved replies, transfer a conversation to a colleague, and business hours."
+msgstr "Ҷавобҳои захирашуда, интиқоли гуфтугӯ ба ҳамкор ва соатҳои корӣ."
+
+#: includes/class-zinn-chat-upsell.php:90
+msgid "5,000 AI answers a month rather than 100."
+msgstr "Ба ҷои 100 ҷавоби сунъӣ дар як моҳ 5,000 ҷавоб."
+
+#: includes/class-zinn-chat-upsell.php:91
+msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
+msgstr "Exact аниқ муайян кунед, ки чат дар кадом саҳифаҳо пайдо шавад — ё онро аз саҳифаи пардохт пинҳон кунед."
+
+#: includes/class-zinn-chat-upsell.php:92
+msgid "One licence covers three of your sites; ten-site licences are available."
+msgstr "Як литсензия сето аз сайтҳои шуморо фаро мегирад; литсензияҳо барои даҳ сайт низ дастрас ҳастанд."
+
+#: includes/class-zinn-chat-upsell.php:96
+msgid "See what Pro costs"
+msgstr "Арзиши Про-ро бубинед"
+
+#. translators: %s: link to the customer's licences page.
+#: includes/class-zinn-chat-upsell.php:103
+#, php-format
+msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
+msgstr "Шумо аллакай сайт бо Zinn Digital® доред? Pro ройгон дохил карда шудааст — калиди шумо дар %s аст."
+
+#: includes/class-zinn-chat-upsell.php:105
+msgid "Licences page of your dashboard"
+msgstr "Саҳифаи иҷозатномаҳои мизи кории шумо"
+
+#: includes/pro/class-zinn-chat-licence.php:276
+msgid "Your licence is active."
+msgstr "Лitsenziyai shumo faol ast."
+
+#: includes/pro/class-zinn-chat-licence.php:278
+msgid "Your licence has run out but everything still works for a short while. Renew it to keep receiving updates."
+msgstr "Лitsenziyali muddati tugadi, ammo ҳама чиз то муддати кӯтоҳ кор мекунад. Барои гирифтани минбаъдаи навсозиҳо онро нав кунед."
+
+#: includes/pro/class-zinn-chat-licence.php:280
+msgid "We do not recognise that licence key. Copy it again from the Licences page of your Zinn Digital® dashboard."
+msgstr "Мо ин калиди иҷозатномаро намешиносем. Онро бори дигар аз саҳифаи Иҷозатномаҳои панели идоракунии Zinn Digital®-и худ нусхабардорӣ кунед."
+
+#: includes/pro/class-zinn-chat-licence.php:282
+msgid "That key is for a different Zinn® plugin. The one you want is on the Licences page of your dashboard, next to Zinn® Chat Pro."
+msgstr "Он калид барои плагини дигари Zinn® аст. Калиди лозимаи шумо дар саҳифаи Литсензияҳои панели идоракунии шумо, дар паҳлӯи Zinn® Chat Pro ҷойгир аст."
+
+#: includes/pro/class-zinn-chat-licence.php:284
+msgid "Your licence has expired. Renew it from your Zinn Digital® dashboard to switch the Pro features back on."
+msgstr "Лицензияи шумо мӯҳлати тамом шуд. Барои фаъол сохтани хусусиятҳои Pro онро аз панели идоракунии Zinn Digital® нав кунед."
+
+#: includes/pro/class-zinn-chat-licence.php:286
+msgid "This licence has been cancelled."
+msgstr "Ин литсензия бекор карда шуд."
+
+#: includes/pro/class-zinn-chat-licence.php:288
+msgid "This licence is on hold. Please get in touch and we will sort it out."
+msgstr "Ин лутнозия дар ҳолати интизорӣ қарор дорад. Лутфан тамос гиред ва мо ин масъаларо ҳал мекунем."
+
+#: includes/pro/class-zinn-chat-licence.php:290
+msgid "There is a billing problem on your Zinn Digital® account. Once it is settled the licence works again straight away."
+msgstr "Дар ҳисоби Zinn Digital®-и шумо мушкилоти ҳисобдорӣ вуҷуд дорад. Пас аз ҳалли он, иҷозатнома фавран дубора кор мекунад."
+
+#: includes/pro/class-zinn-chat-licence.php:292
+msgid "This licence came free with your Zinn® hosting, and that hosting has ended. Buy a licence, or start hosting with us again, to switch Pro back on."
+msgstr "Ин иҷозатнома бо мизбонии Zinn®-и шумо ройгон дода шуда буд ва он мизбонӣ ба охир расид. Барои дубора фаъол кардани Pro, иҷозатнома харед ё бори дигар бо мо мизбониро оғоз кунед."
+
+#: includes/pro/class-zinn-chat-licence.php:294
+msgid "Every site on this licence is in use. Release one below, or upgrade to cover more sites."
+msgstr "Ҳамаи сайтҳо дар ин иҷозатнома истифода мешаванд. Якеро дар поён озод кунед ё барои фаро гирифтани сайтҳои бештар навсозӣ кунед."
+
+#: includes/pro/class-zinn-chat-licence.php:296
+msgid "We could not confirm your licence just now. Nothing has changed on your site; we will try again shortly."
+msgstr "Мо ҳоло натавонистем иҷозатномаи шуморо тасдиқ кунем. Дар сомонаи шумо ягон тағйирот рух надодааст; мо ба зудӣ дубора кӯшиш хоҳем кард."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:60
+msgid "You do not have permission to manage licences on this site."
+msgstr "Шумо барои идора кардани лисензияҳо дар ин сайт иҷозат надоред."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:87
+msgid "Your Pro licence"
+msgstr "Лitsenziya Pro-и шумо"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:94
+msgid "Licence key"
+msgstr "Калиди луғавӣ"
+
+#. translators: %s: link to the dashboard licences page.
+#: includes/pro/class-zinn-chat-pro-admin.php:105
+#, php-format
+msgid "Copy it from the Licences page of your %s."
+msgstr "Онро аз саҳифаи Иҷозатномаҳои %s-и худ нусхабардорӣ кунед."
+
+#. translators: %s: a date.
+#: includes/pro/class-zinn-chat-pro-admin.php:121
+#, php-format
+msgid "Renews on %s."
+msgstr "Тармим дар %s."
+
+#. translators: 1: sites in use, 2: sites the licence covers.
+#: includes/pro/class-zinn-chat-pro-admin.php:137
+#, php-format
+msgid "Using %1$d of %2$d sites."
+msgstr "Аз %2$d сайт %1$d сайт истифода шуда истодааст."
+
+#. translators: %s: comma-separated list of hostnames.
+#: includes/pro/class-zinn-chat-pro-admin.php:149
+#, php-format
+msgid "In use on: %s. Release one from your dashboard, then try again."
+msgstr "Дар истифода дар: %s. Якеро аз панели идоракунии худ озод кунед ва дубора кӯшиш кунед."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:160
+msgid "Save licence"
+msgstr "Нигоҳ доштани иҷозатнома"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:164
+msgid "Remove it from this site"
+msgstr "Онро аз ин сайт нест кунед"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:181
+msgid "Where the chat appears"
+msgstr "Ҷое, ки чат пайдо мешавад"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:193
+msgid "Show it"
+msgstr "Намоиш додан"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:197
+msgid "Everywhere on this site"
+msgstr "Дар ҳама ҷои ин сомона"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:198
+msgid "Only on the pages I choose below"
+msgstr "Танҳо дар саҳифаҳое, ки дар зер интихоб мекунам"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:199
+msgid "Everywhere except the pages I choose below"
+msgstr "Ҳама ҷо ба истиснои саҳифаҳои дар поён интихобкардаи ман"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:215
+msgid "Page or post IDs"
+msgstr "Идентификаторҳои саҳифа ё мақола"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:223
+msgid "Separate them with commas. The ID is in the address bar while you edit a page."
+msgstr "Онҳоро бо вергул ҷудо кунед. Ҳангоми таҳрири саҳифа, ID дар сатри суроғаҳо ҷойгир аст."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:228
+msgid "Whole content types"
+msgstr "Намудҳои пурраи мундариҷа"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:242
+msgid "Signed-in visitors"
+msgstr "Боздидкунандагони воридшуда"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:249
+msgid "Hide the chat from people who are signed in to this site"
+msgstr "Чтро бо ин сайт ворид шудаанд, чатро пинҳон кунед"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:254
+msgid "Save where it appears"
+msgstr "Ҷойгиршавии захиракуниро интихоб кунед"

@@ -59,13 +59,49 @@ final class Zinn_Chat_Admin {
 	}
 
 	/**
+	 * This build's own display name, read from its `Plugin Name:` header.
+	 *
+	 * ⛔⛤ **THE SCREEN TITLE USED TO BE THE LITERAL `'Zinn® Chat'`, AND IN THE PRO BUILD
+	 * THAT IS THE WRONG PRODUCT'S NAME.** Found by installing the built Pro zip into a real
+	 * WordPress and looking at the screen (W43-84, D25335): the plugins list said *Zinn®
+	 * Chat Pro*, the menu entry and the `<h1>` said *Zinn® Chat*, and a customer who had just
+	 * paid was looking at the free edition's name on the page they went to to enter their
+	 * licence key. Nothing was red; both builds come from one source and the literal was
+	 * correct for one of them.
+	 *
+	 * ⭐ Derived rather than substituted at build time, so there is nothing for a future
+	 * edition to forget: `get_plugin_data` reads the header the build already rewrites, which
+	 * makes this the same fact rather than a second copy of it (§2.45).
+	 *
+	 * ⛔ NOT translated, and that is correct rather than an oversight: it is a registered
+	 * trade mark plus an edition word (§2.15), and the header it comes from is not on the
+	 * translation surface. Wrapping it in `__()` would put an untranslatable literal in 58
+	 * catalogues for 58 people to leave alone.
+	 *
+	 * ⛔ `get_plugin_data` lives in `wp-admin/includes/plugin.php`, which is NOT loaded on
+	 * every admin request — `admin_menu` fires before `admin-header.php` pulls it in on some
+	 * screens. Required explicitly rather than assumed, or this fatals on the one path that
+	 * did not happen to load it.
+	 */
+	private static function product_name(): string {
+		if ( ! function_exists( 'get_plugin_data' ) ) {
+			require_once ABSPATH . 'wp-admin/includes/plugin.php';
+		}
+		$data = get_plugin_data( ZINN_CHAT_FILE, false, false );
+		$name = isset( $data['Name'] ) ? trim( (string) $data['Name'] ) : '';
+		// ⛔ A fallback, because a header WordPress could not read must not produce a blank
+		// page title. The free edition's name is the honest default: it is what this source
+		// tree is, and it is what every build without a rewrite ships as.
+		return '' !== $name ? $name : 'Zinn® Chat';
+	}
+
+	/**
 	 * Add the settings page.
 	 */
 	public static function menu(): void {
 		add_options_page(
-			/* translators: page title. */
-			__( 'Zinn® Chat', 'zinn-chat' ),
-			__( 'Zinn® Chat', 'zinn-chat' ),
+			self::product_name(),
+			self::product_name(),
 			'manage_options',
 			self::PAGE,
 			array( __CLASS__, 'render' )
@@ -127,12 +163,26 @@ final class Zinn_Chat_Admin {
 			$enabled = false;
 		}
 
-		return array(
+		$clean = array(
 			'enabled'    => $enabled,
 			'public_key' => $key,
 			'api_base'   => $current['api_base'],
 			'config'     => is_array( $current['config'] ) ? $current['config'] : array(),
 		);
+
+		/**
+		 * Filters the cleaned settings before they are written.
+		 *
+		 * ⛔⛔ **AN EXPLICIT ARRAY IS RETURNED ABOVE, WHICH MEANS ANY KEY NOT LISTED THERE IS
+		 * SILENTLY DISCARDED ON EVERY SAVE.** That is right — it is what stops a crafted
+		 * submission writing arbitrary option keys — and it is exactly why this filter has to
+		 * exist: without it the Pro build's targeting rules would be wiped the first time
+		 * somebody pressed Save on this screen, with nothing anywhere reporting it.
+		 *
+		 * @param array<string, mixed> $clean The settings about to be stored.
+		 * @param mixed                $input The raw submission.
+		 */
+		return (array) apply_filters( 'zinn_chat_sanitize', $clean, $input );
 	}
 
 	/**
@@ -146,7 +196,7 @@ final class Zinn_Chat_Admin {
 		$live     = Zinn_Chat_Settings::is_live();
 		?>
 		<div class="wrap">
-			<h1><?php esc_html_e( 'Zinn® Chat', 'zinn-chat' ); ?></h1>
+			<h1><?php echo esc_html( self::product_name() ); ?></h1>
 			<p>
 				<?php esc_html_e( 'Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page.', 'zinn-chat' ); ?>
 			</p>
@@ -213,6 +263,15 @@ final class Zinn_Chat_Admin {
 			if ( class_exists( 'Zinn_Chat_Promo' ) ) {
 				Zinn_Chat_Promo::render_panel();
 			}
+
+			/**
+			 * Fires at the bottom of the Zinn® Chat settings screen.
+			 *
+			 * ⭐ The seam the Pro build hangs its licence panel and targeting rules on, and
+			 * the seam the FREE build hangs its upsell on. One hook, two consumers, and
+			 * neither build has to know the other exists.
+			 */
+			do_action( 'zinn_chat_after_settings' );
 			?>
 		</div>
 		<?php

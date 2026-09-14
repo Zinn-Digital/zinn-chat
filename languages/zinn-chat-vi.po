@@ -10,11 +10,7 @@ msgstr ""
 "X-Generator: scripts/wp-i18n-translate.py\n"
 
 #. Plugin Name of the plugin
-#. translators: page title.
 #: zinn-chat.php
-#: includes/class-zinn-chat-admin.php:67
-#: includes/class-zinn-chat-admin.php:68
-#: includes/class-zinn-chat-admin.php:149
 msgid "Zinn® Chat"
 msgstr "Zinn® Chat"
 
@@ -42,49 +38,50 @@ msgstr "https://zinndigital.com"
 msgid "Settings"
 msgstr "Cài đặt"
 
-#: includes/class-zinn-chat-admin.php:115
+#: includes/class-zinn-chat-admin.php:151
 msgid "That does not look like a Zinn® Chat key. Copy it from the Live chat page of your Zinn Digital® dashboard — it starts with zc_."
 msgstr "Đó có vẻ không phải là khóa Zinn® Chat. Hãy sao chép khóa này từ trang Trò chuyện trực tiếp trên bảng điều khiển Zinn Digital® của bạn — khóa này bắt đầu bằng zc_."
 
-#: includes/class-zinn-chat-admin.php:125
+#: includes/class-zinn-chat-admin.php:161
 msgid "Add your chat key before switching the chat on — without it there is nothing for the widget to connect to."
 msgstr "Thêm khóa trò chuyện của bạn trước khi bật tính năng trò chuyện — nếu không có khóa này, tiện ích sẽ không có gì để kết nối."
 
-#: includes/class-zinn-chat-admin.php:151
+#: includes/class-zinn-chat-admin.php:201
 msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
 msgstr "Trò chuyện trực tiếp cho trang web này. Khách truy cập nhận được câu trả lời ngay lập tức, bạn nhận được mọi tin nhắn bỏ lỡ qua email và toàn bộ tính năng này có dung lượng dưới 10 KB trên trang."
 
-#: includes/class-zinn-chat-admin.php:156
+#: includes/class-zinn-chat-admin.php:206
 msgid "The chat is live on this site."
 msgstr "Trò chuyện đang hoạt động trực tiếp trên trang web này."
 
-#: includes/class-zinn-chat-admin.php:158
+#: includes/class-zinn-chat-admin.php:208
 msgid "The chat is switched off. Nothing is loaded on your site."
 msgstr "Trò chuyện đã tắt. Không có gì được tải trên trang web của bạn."
 
-#: includes/class-zinn-chat-admin.php:167
+#: includes/class-zinn-chat-admin.php:217
 msgid "Chat key"
 msgstr "Khóa trò chuyện"
 
 #. translators: %s: link to the Zinn dashboard.
-#: includes/class-zinn-chat-admin.php:179
+#: includes/class-zinn-chat-admin.php:229
 #, php-format
 msgid "Copy this from the Live chat page of your %s."
 msgstr "Sao chép nội dung này từ trang Trò chuyện trực tiếp của %s của bạn."
 
-#: includes/class-zinn-chat-admin.php:181
+#: includes/class-zinn-chat-admin.php:231
+#: includes/pro/class-zinn-chat-pro-admin.php:107
 msgid "Zinn Digital® dashboard"
 msgstr "Bảng điều khiển Zinn Digital®"
 
-#: includes/class-zinn-chat-admin.php:188
+#: includes/class-zinn-chat-admin.php:238
 msgid "Show the chat"
 msgstr "Hiển thị cuộc trò chuyện"
 
-#: includes/class-zinn-chat-admin.php:195
+#: includes/class-zinn-chat-admin.php:245
 msgid "Show the chat window to visitors of this site"
 msgstr "Hiển thị cửa sổ trò chuyện cho khách truy cập trang web này"
 
-#: includes/class-zinn-chat-admin.php:198
+#: includes/class-zinn-chat-admin.php:248
 msgid "Until you tick this, the plugin adds nothing at all to your pages — no script, no cookie, no requests."
 msgstr "Cho đến khi bạn đánh dấu vào ô này, plugin sẽ không thêm bất kỳ thứ gì vào trang của bạn — không có tập lệnh, không có cookie, không có yêu cầu nào."
 
@@ -140,3 +137,181 @@ msgstr "Xem ghi chú phát hành của Zinn Digital®."
 #: includes/class-zinn-chat-updater.php:288
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Bản cập nhật đã tải xuống không vượt qua được kiểm tra tính toàn vẹn và không được cài đặt."
+
+#: includes/class-zinn-chat-upsell.php:83
+msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
+msgstr "Mọi thứ ở đây vẫn hoạt động miễn phí, mãi mãi. Gói Pro dành cho khi một người trả lời và một tháng lịch sử không còn đủ nữa."
+
+#: includes/class-zinn-chat-upsell.php:86
+msgid "As many colleagues answering at once as you like — the free plugin allows one."
+msgstr "Số lượng đồng nghiệp trả lời cùng lúc tùy ý bạn — plugin miễn phí cho phép một người."
+
+#: includes/class-zinn-chat-upsell.php:87
+msgid "Every conversation kept for ever, instead of thirty days."
+msgstr "Mọi cuộc trò chuyện được lưu giữ mãi mãi, thay vì ba mươi ngày."
+
+#: includes/class-zinn-chat-upsell.php:88
+msgid "Your own name on the chat window, with ours removed."
+msgstr "Tên của riêng bạn trên cửa sổ trò chuyện, với tên của chúng tôi đã được gỡ bỏ."
+
+#: includes/class-zinn-chat-upsell.php:89
+msgid "Saved replies, transfer a conversation to a colleague, and business hours."
+msgstr "Câu trả lời đã lưu, chuyển cuộc trò chuyện cho đồng nghiệp và giờ làm việc."
+
+#: includes/class-zinn-chat-upsell.php:90
+msgid "5,000 AI answers a month rather than 100."
+msgstr "5.000 câu trả lời AI một tháng thay vì 100."
+
+#: includes/class-zinn-chat-upsell.php:91
+msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
+msgstr "Chọn chính xác các trang hiển thị khung chat — hoặc ẩn khung chat khỏi trang thanh toán."
+
+#: includes/class-zinn-chat-upsell.php:92
+msgid "One licence covers three of your sites; ten-site licences are available."
+msgstr "Một giấy phép bao gồm ba trang web của bạn; giấy phép mười trang web có sẵn."
+
+#: includes/class-zinn-chat-upsell.php:96
+msgid "See what Pro costs"
+msgstr "Xem giá gói Pro"
+
+#. translators: %s: link to the customer's licences page.
+#: includes/class-zinn-chat-upsell.php:103
+#, php-format
+msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
+msgstr "Bạn đã lưu trữ một trang web với Zinn Digital® chưa? Gói Pro được bao gồm miễn phí — khóa của bạn ở trên %s."
+
+#: includes/class-zinn-chat-upsell.php:105
+msgid "Licences page of your dashboard"
+msgstr "Trang Giấy phép trên bảng điều khiển của bạn"
+
+#: includes/pro/class-zinn-chat-licence.php:276
+msgid "Your licence is active."
+msgstr "Giấy phép của bạn đang hoạt động."
+
+#: includes/pro/class-zinn-chat-licence.php:278
+msgid "Your licence has run out but everything still works for a short while. Renew it to keep receiving updates."
+msgstr "Giấy phép của bạn đã hết hạn nhưng mọi thứ vẫn hoạt động bình thường trong một thời gian ngắn. Hãy gia hạn để tiếp tục nhận các bản cập nhật."
+
+#: includes/pro/class-zinn-chat-licence.php:280
+msgid "We do not recognise that licence key. Copy it again from the Licences page of your Zinn Digital® dashboard."
+msgstr "Chúng tôi không nhận ra khóa bản quyền đó. Hãy sao chép lại từ trang Giấy phép trong bảng điều khiển Zinn Digital® của bạn."
+
+#: includes/pro/class-zinn-chat-licence.php:282
+msgid "That key is for a different Zinn® plugin. The one you want is on the Licences page of your dashboard, next to Zinn® Chat Pro."
+msgstr "Khóa đó dành cho một plugin Zinn® khác. Khóa bạn cần nằm ở trang Giấy phép trong bảng điều khiển của bạn, bên cạnh Zinn® Chat Pro."
+
+#: includes/pro/class-zinn-chat-licence.php:284
+msgid "Your licence has expired. Renew it from your Zinn Digital® dashboard to switch the Pro features back on."
+msgstr "Giấy phép của bạn đã hết hạn. Hãy gia hạn từ bảng điều khiển Zinn Digital® của bạn để bật lại các tính năng Pro."
+
+#: includes/pro/class-zinn-chat-licence.php:286
+msgid "This licence has been cancelled."
+msgstr "Giấy phép này đã bị hủy."
+
+#: includes/pro/class-zinn-chat-licence.php:288
+msgid "This licence is on hold. Please get in touch and we will sort it out."
+msgstr "Giấy phép này đang tạm ngưng. Vui lòng liên hệ với chúng tôi để được giải quyết."
+
+#: includes/pro/class-zinn-chat-licence.php:290
+msgid "There is a billing problem on your Zinn Digital® account. Once it is settled the licence works again straight away."
+msgstr "Có một sự cố thanh toán đối với tài khoản Zinn Digital® của bạn. Ngay sau khi vấn đề được giải quyết, giấy phép sẽ hoạt động trở lại ngay lập tức."
+
+#: includes/pro/class-zinn-chat-licence.php:292
+msgid "This licence came free with your Zinn® hosting, and that hosting has ended. Buy a licence, or start hosting with us again, to switch Pro back on."
+msgstr "Giấy phép này đi kèm miễn phí với gói lưu trữ Zinn® của bạn, và gói lưu trữ đó đã kết thúc. Hãy mua một giấy phép, hoặc bắt đầu lưu trữ lại với chúng tôi, để bật lại tính năng Pro."
+
+#: includes/pro/class-zinn-chat-licence.php:294
+msgid "Every site on this licence is in use. Release one below, or upgrade to cover more sites."
+msgstr "Mọi trang web trên giấy phép này đang được sử dụng. Hãy giải phóng một trang bên dưới hoặc nâng cấp để hỗ trợ thêm nhiều trang web."
+
+#: includes/pro/class-zinn-chat-licence.php:296
+msgid "We could not confirm your licence just now. Nothing has changed on your site; we will try again shortly."
+msgstr "Chúng tôi chưa thể xác thực giấy phép của bạn lúc này. Không có gì thay đổi trên trang web của bạn; chúng tôi sẽ thử lại sau ít phút."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:60
+msgid "You do not have permission to manage licences on this site."
+msgstr "Bạn không có quyền quản lý giấy phép trên trang web này."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:87
+msgid "Your Pro licence"
+msgstr "Giấy phép Pro của bạn"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:94
+msgid "Licence key"
+msgstr "Khóa bản quyền"
+
+#. translators: %s: link to the dashboard licences page.
+#: includes/pro/class-zinn-chat-pro-admin.php:105
+#, php-format
+msgid "Copy it from the Licences page of your %s."
+msgstr "Sao chép từ trang Giấy phép của %s của bạn."
+
+#. translators: %s: a date.
+#: includes/pro/class-zinn-chat-pro-admin.php:121
+#, php-format
+msgid "Renews on %s."
+msgstr "Gia hạn vào %s."
+
+#. translators: 1: sites in use, 2: sites the licence covers.
+#: includes/pro/class-zinn-chat-pro-admin.php:137
+#, php-format
+msgid "Using %1$d of %2$d sites."
+msgstr "Đang sử dụng %1$d trong tổng số %2$d trang web."
+
+#. translators: %s: comma-separated list of hostnames.
+#: includes/pro/class-zinn-chat-pro-admin.php:149
+#, php-format
+msgid "In use on: %s. Release one from your dashboard, then try again."
+msgstr "Đang sử dụng trên: %s. Hãy giải phóng một cái từ bảng điều khiển của bạn, sau đó thử lại."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:160
+msgid "Save licence"
+msgstr "Lưu giấy phép"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:164
+msgid "Remove it from this site"
+msgstr "Xóa khỏi trang web này"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:181
+msgid "Where the chat appears"
+msgstr "Vị trí hiển thị khung trò chuyện"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:193
+msgid "Show it"
+msgstr "Hiển thị"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:197
+msgid "Everywhere on this site"
+msgstr "Mọi nơi trên trang web này"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:198
+msgid "Only on the pages I choose below"
+msgstr "Chỉ trên các trang tôi chọn bên dưới"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:199
+msgid "Everywhere except the pages I choose below"
+msgstr "Mọi nơi trừ các trang tôi chọn bên dưới"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:215
+msgid "Page or post IDs"
+msgstr "ID trang hoặc bài viết"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:223
+msgid "Separate them with commas. The ID is in the address bar while you edit a page."
+msgstr "Ngăn cách chúng bằng dấu phẩy. ID nằm trong thanh địa chỉ khi bạn chỉnh sửa trang."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:228
+msgid "Whole content types"
+msgstr "Toàn bộ loại nội dung"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:242
+msgid "Signed-in visitors"
+msgstr "Khách truy cập đã đăng nhập"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:249
+msgid "Hide the chat from people who are signed in to this site"
+msgstr "Ẩn khung trò chuyện với những người đã đăng nhập vào trang web này"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:254
+msgid "Save where it appears"
+msgstr "Lưu vào vị trí xuất hiện"
