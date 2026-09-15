@@ -141,6 +141,10 @@ final class Zinn_Chat_Settings {
 			'accent_colour' => preg_match( '/^#[0-9a-fA-F]{3,6}$/', $colour ) ? $colour : '#1f6feb',
 			'position'      => ( isset( $config['position'] ) && 'left' === $config['position'] ) ? 'left' : 'right',
 			'branding'      => ! isset( $config['branding'] ) || (bool) $config['branding'],
+			// The customer's own logo for the chat header. The engine sends it only on Premium;
+			// kept only when it is an https URL, so the inline config can never carry a script
+			// or a mixed-content image into the page.
+			'logo_url'      => ( isset( $config['logo_url'] ) && 0 === strpos( (string) $config['logo_url'], 'https://' ) ) ? esc_url_raw( (string) $config['logo_url'], array( 'https' ) ) : '',
 			'ai_enabled'    => ! isset( $config['ai_enabled'] ) || (bool) $config['ai_enabled'],
 			'online'        => ! empty( $config['online'] ),
 			'strings'       => self::clean_strings( $config['strings'] ?? array() ),
