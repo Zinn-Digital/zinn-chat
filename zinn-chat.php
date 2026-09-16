@@ -3,7 +3,7 @@
  * Plugin Name:       Zinn® Chat
  * Plugin URI:        https://zinndigital.com/wordpress-plugins/zinn-chat
  * Description:       A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 10 KB on the page and no requests at all until somebody opens it.
- * Version:           1.3.0
+ * Version:           1.3.1
  * Requires at least: 6.6
  * Requires PHP:      8.2
  * Author:            Neil Lock — CEO, Zinn Digital® Ltd
@@ -47,7 +47,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'ZINN_CHAT_VERSION', '1.3.0' );
+define( 'ZINN_CHAT_VERSION', '1.3.1' );
 define( 'ZINN_CHAT_FILE', __FILE__ );
 define( 'ZINN_CHAT_DIR', plugin_dir_path( __FILE__ ) );
 
