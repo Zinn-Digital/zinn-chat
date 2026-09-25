@@ -106,27 +106,27 @@ msgstr "อ่านคู่มือผู้ใช้ %s"
 msgid "Hide this"
 msgstr "ซ่อนสิ่งนี้"
 
-#: includes/class-zinn-chat-promo.php:374
+#: includes/class-zinn-chat-promo.php:424
 msgid "Zinn® hosting for WordPress"
 msgstr "โฮสติ้ง Zinn® สำหรับ WordPress"
 
-#: includes/class-zinn-chat-promo.php:375
+#: includes/class-zinn-chat-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, การสำรองข้อมูลรายวัน, ย้ายข้อมูลฟรี และแผงควบคุมที่สร้างขึ้นสำหรับผู้ที่ดูแลเว็บไซต์มากกว่าหนึ่งเว็บไซต์"
 
-#: includes/class-zinn-chat-promo.php:381
+#: includes/class-zinn-chat-promo.php:431
 msgid "The Zinn® marketplace"
 msgstr "ตลาด Zinn®"
 
-#: includes/class-zinn-chat-promo.php:382
+#: includes/class-zinn-chat-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "ซื้อขายเว็บไซต์ โดเมน และพื้นที่วางลิงก์ที่มีอยู่แล้ว โดยเงินจะถูกเก็บไว้อย่างปลอดภัยจนกว่าทั้งสองฝ่ายจะพึงพอใจ"
 
-#: includes/class-zinn-chat-promo.php:429
+#: includes/class-zinn-chat-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — จ้างมืออาชีพผู้เชี่ยวชาญด้านนี้โดยเฉพาะ"
 
-#: includes/class-zinn-chat-promo.php:430
+#: includes/class-zinn-chat-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ตลาดฟรีแลนซ์ระดับโลกของเรา: เรียกดูบริการสำเร็จรูปกว่า 10,000 รายการจากนักเขียน นักออกแบบ นักพัฒนา และผู้เชี่ยวชาญด้าน SEO หรือโพสต์โปรเจกต์แล้วให้พวกเขาเสนอราคาได้เลย"
 

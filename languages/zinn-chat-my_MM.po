@@ -106,27 +106,27 @@ msgstr "%s အသုံးပြုသူ လမ်းညွှန်ကို �
 msgid "Hide this"
 msgstr "ဒါကို ဝှက်ပါ"
 
-#: includes/class-zinn-chat-promo.php:374
+#: includes/class-zinn-chat-promo.php:424
 msgid "Zinn® hosting for WordPress"
 msgstr "WordPress အတွက် Zinn® ဟိုစတင်င််"
 
-#: includes/class-zinn-chat-promo.php:375
+#: includes/class-zinn-chat-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed၊ နေ့စဉ်ဘက်ကပ်ပြုလုပ်ခြင်း၊ အခမဲ့ပြောင်းရွှေ့ခြင်းနှင့် ဆိုက်တစ်ခုထက်ပို၍ လုပ်ဆောင်နေသူများအတွက် တည်ဆောက်ထားသော ထိန်းချုပ်မှုဝင်းဒိုး။"
 
-#: includes/class-zinn-chat-promo.php:381
+#: includes/class-zinn-chat-promo.php:431
 msgid "The Zinn® marketplace"
 msgstr "Zinn® ဈေးကွက်"
 
-#: includes/class-zinn-chat-promo.php:382
+#: includes/class-zinn-chat-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "တည်ထောင်ပြီးသား ဝဘ်ဆိုက်များ၊ ဒိုမိန်းများနှင့် လင့်ခ်ချိတ်ထားမှုများကို နှစ်ဖက်စလုံး ကျေနပ်သည်အထိ ငွေကြေးကို လုံခြုံစွာ သိမ်းဆည်းထားပြီး ဝယ်ယူရောင်းချပါ။"
 
-#: includes/class-zinn-chat-promo.php:429
+#: includes/class-zinn-chat-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — ဤအလုပ်ကို ကျွမ်းကျင်ပိုင်နိုင်စွာ လုပ်ကိုင်သူများကို ငှားရမ်းပါ"
 
-#: includes/class-zinn-chat-promo.php:430
+#: includes/class-zinn-chat-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ကျွန်ုပ်တို့၏ ကမ္ဘာလုံးဆိုင်ရာ အလွတ်တန်းလုပ်သား ဈေးကွက်- စာရေးဆရာများ၊ ဒီဇိုင်နာများ၊ ဆော့ဖ်ဝဲရေးသားသူများနှင့် SEO ပညာရှင်များထံမှ အသင့်သုံးဝန်ဆောင်မှု ၁၀,၀၀၀ ကျော်ကို ရှာဖွေကြည့်ရှုပါ သို့မဟုတ် ပရောဂျက်တစ်ခုတင်ပြီး ၎င်းတို့ကို လေလံဆွဲခွင့်ပြုပါ။"
 
