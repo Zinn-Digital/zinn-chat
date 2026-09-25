@@ -5,9 +5,9 @@ Author: Neil Lock — CEO, Zinn Digital® Ltd
 Author URI: https://zinndigital.com
 Tags: live chat, chat, support, helpdesk, ai
 Requires at least: 6.6
-Tested up to: 7.1.1
+Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.3.2
+Stable tag: 1.3.3
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -104,6 +104,9 @@ Not if you host with Zinn Digital®. Premium is included with your hosting for a
 3. The Zinn Digital® panel in your dashboard: this plugin's own guide, and the other things we run. No remote call, no tracking pixel, no image loaded from us.
 
 == Changelog ==
+
+= 1.3.3 =
+* Tested up to: 7.1 — the major version only, as WordPress.org's Plugin Check requires (7.1.1 was refused as invalid_tested_upto_minor).
 
 = 1.3.2 =
 * Tested up to WordPress 7.1.1.
