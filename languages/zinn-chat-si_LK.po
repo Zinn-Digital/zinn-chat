@@ -48,11 +48,11 @@ msgstr "චැට් එක ක්‍රියාත්මක කිරීමට
 
 #: includes/class-zinn-chat-admin.php:201
 msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
-msgstr "ഈ වෙබ් අඩවිය සඳහා සජීවී කතාබස්. අමුත්තන්ට වහාම පිළිතුරක් ලැබෙන අතර, ඔබට මගහැරෙන ඕනෑම දෙයක් විද්‍යුත් තැපෑලෙන් ලැබේ, මුළු පද්ධතියම පිටුවේ 10 KB ට වඩා අඩුය."
+msgstr "මෙම අඩවිය සඳහා සජීවී කතාබස් (Live chat). නරඹන්නන්ට වහාම පිළිතුරක් ලැබෙන අතර, ඔබට මග හැරෙන ඕනෑම දෙයක් විද්‍යුත් තැපෑලෙන් ලැබෙන අතර, සම්පූර්ණ පිටුවම KB 10කට වඩා අඩුය."
 
 #: includes/class-zinn-chat-admin.php:206
 msgid "The chat is live on this site."
-msgstr "ഈ අඩවියේ කතාබහ සජීවීව ක්‍රියාත්මක වේ."
+msgstr "මෙම වෙබ් අඩවියේ කතාබහ දැන් සජීවීව පවතී."
 
 #: includes/class-zinn-chat-admin.php:208
 msgid "The chat is switched off. Nothing is loaded on your site."
@@ -222,7 +222,7 @@ msgstr "මෙම බලපත්‍රය ඔබේ Zinn® සත්කාර�
 
 #: includes/pro/class-zinn-chat-licence.php:294
 msgid "Every site on this licence is in use. Release one below, or upgrade to cover more sites."
-msgstr "ഈ බලපත්‍රය යටතේ ඇති සෑම වෙබ් අඩවියක්ම භාවිතයේ ඇත. පහත එකක් නිදහස් කරන්න, නැතහොත් වැඩි වෙබ් අඩවි ප්‍රමාණයක් ආවරණය කිරීමට උත්ශ්‍රේණි කරන්න."
+msgstr "මෙම බලපත්‍රය යටතේ ඇති සෑම වෙබ් අඩවියක්ම භාවිතයේ පවතී. පහත එකක් නිදහස් කරන්න, නැතහොත් තවත් වෙබ් අඩවි ආවරණය කිරීමට උසස් කරන්න (upgrade)."
 
 #: includes/pro/class-zinn-chat-licence.php:296
 msgid "We could not confirm your licence just now. Nothing has changed on your site; we will try again shortly."
@@ -310,7 +310,7 @@ msgstr "පුරනය වී සිටින අමුත්තන්"
 
 #: includes/pro/class-zinn-chat-pro-admin.php:249
 msgid "Hide the chat from people who are signed in to this site"
-msgstr "ఈ අඩවියට පිවිස සිටින අයට කතාබහ සඟවන්න"
+msgstr "මෙම වෙබ් අඩවියට පිවිසී සිටින පුද්ගලයින්ගෙන් කතාබහ සඟවන්න"
 
 #: includes/pro/class-zinn-chat-pro-admin.php:254
 msgid "Save where it appears"
