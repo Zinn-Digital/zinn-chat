@@ -148,49 +148,53 @@ msgstr "Актуализацията не можа да бъде изтегле�
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Изтеглените актуализации не издържаха проверката за цялост и не бяха инсталирани."
 
-#: includes/class-zinn-chat-upsell.php:83
+#: includes/class-zinn-chat-upsell.php:101
+msgid "Go Pro"
+msgstr "Надградете до Pro"
+
+#: includes/class-zinn-chat-upsell.php:115
 msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
 msgstr "Всичко тук продължава да работи безплатно и завинаги. Pro е за случаите, когато един отговарящ човек и месец история вече не са достатъчни."
 
-#: includes/class-zinn-chat-upsell.php:86
+#: includes/class-zinn-chat-upsell.php:118
 msgid "As many colleagues answering at once as you like — the free plugin allows one."
 msgstr "Колкото искате колеги да отговарят едновременно – безплатният плъгин позволява един."
 
-#: includes/class-zinn-chat-upsell.php:87
+#: includes/class-zinn-chat-upsell.php:119
 msgid "Every conversation kept for ever, instead of thirty days."
 msgstr "Всяка конверсация се пази завинаги, вместо тридесет дни."
 
-#: includes/class-zinn-chat-upsell.php:88
+#: includes/class-zinn-chat-upsell.php:120
 msgid "Your own name on the chat window, with ours removed."
 msgstr "Вашето собствено име в прозореца за чат, като нашето е премахнато."
 
-#: includes/class-zinn-chat-upsell.php:89
+#: includes/class-zinn-chat-upsell.php:121
 msgid "Saved replies, transfer a conversation to a colleague, and business hours."
 msgstr "Запазени отговори, прехвърляне на разговор към колега и работно време."
 
-#: includes/class-zinn-chat-upsell.php:90
+#: includes/class-zinn-chat-upsell.php:122
 msgid "5,000 AI answers a month rather than 100."
 msgstr "5000 ИИ отговора на месец вместо 100."
 
-#: includes/class-zinn-chat-upsell.php:91
+#: includes/class-zinn-chat-upsell.php:123
 msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
 msgstr "Изберете точно на кои страници да се показва чатът – или го скрий от страницата за плащане."
 
-#: includes/class-zinn-chat-upsell.php:92
+#: includes/class-zinn-chat-upsell.php:124
 msgid "One licence covers three of your sites; ten-site licences are available."
 msgstr "Един лиценз покрива три от вашите сайтове; налични са лицензи за десет сайта."
 
-#: includes/class-zinn-chat-upsell.php:96
+#: includes/class-zinn-chat-upsell.php:128
 msgid "See what Pro costs"
 msgstr "Вижте колко струва Pro"
 
 #. translators: %s: link to the customer's licences page.
-#: includes/class-zinn-chat-upsell.php:103
+#: includes/class-zinn-chat-upsell.php:135
 #, php-format
 msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
 msgstr "Вече хоствате сайт в Zinn Digital®? Pro е включен безплатно — Вашият ключ е на %s."
 
-#: includes/class-zinn-chat-upsell.php:105
+#: includes/class-zinn-chat-upsell.php:137
 msgid "Licences page of your dashboard"
 msgstr "Страница с лицензи във вашето табло за управление"
 

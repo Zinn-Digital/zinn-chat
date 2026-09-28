@@ -148,49 +148,53 @@ msgstr "A ko le ṣe igbasilẹ imudojuiwọn naa lati iṣẹ imudojuiwọn Zin
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Ìgbékẹ̀lẹ̀ ìṣọ̀tún tí a ṣe sílẹ̀ kùnà àti pé a kò fi í sori ẹrọ náà."
 
-#: includes/class-zinn-chat-upsell.php:83
+#: includes/class-zinn-chat-upsell.php:101
+msgid "Go Pro"
+msgstr "Lọ si Pro"
+
+#: includes/class-zinn-chat-upsell.php:115
 msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
 msgstr "Ohun gbogbo nibi yoo tẹsiwaju lati ṣiṣẹ laisi isanwo, lailai. Pro jẹ fun nigbati eniyan kan ba n dahun, ati oṣu kan ti itan, ti dẹkun lati to."
 
-#: includes/class-zinn-chat-upsell.php:86
+#: includes/class-zinn-chat-upsell.php:118
 msgid "As many colleagues answering at once as you like — the free plugin allows one."
 msgstr "Ọ̀pọ̀ àwọn alájọṣepọ̀ tó o fẹ́ lẹ́ẹ̀kan náà ló lè dáhùn — plọ́ọ̀gì ọ̀fẹ́ náà yọ̀ǹda fún ẹnì kan."
 
-#: includes/class-zinn-chat-upsell.php:87
+#: includes/class-zinn-chat-upsell.php:119
 msgid "Every conversation kept for ever, instead of thirty days."
 msgstr "Gbogbo iwiregbe ni a n tọju laelae, dipo ọjọ ọgbọn."
 
-#: includes/class-zinn-chat-upsell.php:88
+#: includes/class-zinn-chat-upsell.php:120
 msgid "Your own name on the chat window, with ours removed."
 msgstr "Oruko ti ara re lori ferese iwiregbe, ti ti wa si kuro."
 
-#: includes/class-zinn-chat-upsell.php:89
+#: includes/class-zinn-chat-upsell.php:121
 msgid "Saved replies, transfer a conversation to a colleague, and business hours."
 msgstr "Àwọn ìdáhùn tí a ti fi pamọ́, gbigbe ìjíròrò kan kalẹ̀ sí ẹlẹgbẹ́ rẹ, àti àkókò iṣẹ́."
 
-#: includes/class-zinn-chat-upsell.php:90
+#: includes/class-zinn-chat-upsell.php:122
 msgid "5,000 AI answers a month rather than 100."
 msgstr "Àwọn ìdáhùn AI 5,000 lọ́dún ní dípò 100."
 
-#: includes/class-zinn-chat-upsell.php:91
+#: includes/class-zinn-chat-upsell.php:123
 msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
 msgstr "Yanà àwọn ojú ewé gan-an tí ìfọ̀rọ̀wérọ̀ yóò ti hàn — tàbí kí o fi pamọ́ kúrò ní ojú ẹ̀rọ ìṣẹ̀san-ówó náà."
 
-#: includes/class-zinn-chat-upsell.php:92
+#: includes/class-zinn-chat-upsell.php:124
 msgid "One licence covers three of your sites; ten-site licences are available."
 msgstr "Lẹ́ẹ̀kan ṣoṣo ni ìwé àṣẹ kan bo ojula mẹta rẹ; àwọn ìwé àṣẹ ojula mẹ́wàá wà fún lílò."
 
-#: includes/class-zinn-chat-upsell.php:96
+#: includes/class-zinn-chat-upsell.php:128
 msgid "See what Pro costs"
 msgstr "Wo iye ti Pro jẹ"
 
 #. translators: %s: link to the customer's licences page.
-#: includes/class-zinn-chat-upsell.php:103
+#: includes/class-zinn-chat-upsell.php:135
 #, php-format
 msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
 msgstr "Ṣe o ti ni aaye kan tẹlẹ pẹlu Zinn Digital®? A wa Pro fẹ́ fẹ́fẹ́ — bọtínì rẹ wa lori %s."
 
-#: includes/class-zinn-chat-upsell.php:105
+#: includes/class-zinn-chat-upsell.php:137
 msgid "Licences page of your dashboard"
 msgstr "Ojú-ewé àwọn ìwé àṣẹ ti ìṣàkóso rẹ"
 

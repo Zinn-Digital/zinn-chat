@@ -148,49 +148,53 @@ msgstr "Pembaruan tidak dapat diunduh dari layanan pembaruan Zinn® (%s). Coba l
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Pembaruan yang diunduh gagal dalam pemeriksaan integritas dan tidak dipasang."
 
-#: includes/class-zinn-chat-upsell.php:83
+#: includes/class-zinn-chat-upsell.php:101
+msgid "Go Pro"
+msgstr "Beralih ke Pro"
+
+#: includes/class-zinn-chat-upsell.php:115
 msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
 msgstr "Semua yang ada di sini terus berfungsi secara gratis, selamanya. Pro adalah untuk saat satu orang yang menjawab, dan riwayat satu bulan, tidak lagi mencukupi."
 
-#: includes/class-zinn-chat-upsell.php:86
+#: includes/class-zinn-chat-upsell.php:118
 msgid "As many colleagues answering at once as you like — the free plugin allows one."
 msgstr "Jumlah rekan kerja yang menjawab sekaligus sebanyak yang Anda inginkan — plugin gratis hanya mengizinkan satu."
 
-#: includes/class-zinn-chat-upsell.php:87
+#: includes/class-zinn-chat-upsell.php:119
 msgid "Every conversation kept for ever, instead of thirty days."
 msgstr "Setiap percakapan disimpan selamanya, bukan selama tiga puluh hari."
 
-#: includes/class-zinn-chat-upsell.php:88
+#: includes/class-zinn-chat-upsell.php:120
 msgid "Your own name on the chat window, with ours removed."
 msgstr "Nama Anda sendiri di jendela obrolan, dengan nama kami dihapus."
 
-#: includes/class-zinn-chat-upsell.php:89
+#: includes/class-zinn-chat-upsell.php:121
 msgid "Saved replies, transfer a conversation to a colleague, and business hours."
 msgstr "Balasan tersimpan, transfer percakapan ke rekan kerja, dan jam kerja."
 
-#: includes/class-zinn-chat-upsell.php:90
+#: includes/class-zinn-chat-upsell.php:122
 msgid "5,000 AI answers a month rather than 100."
 msgstr "5.000 jawaban AI per bulan, bukan 100."
 
-#: includes/class-zinn-chat-upsell.php:91
+#: includes/class-zinn-chat-upsell.php:123
 msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
 msgstr "Pilih halaman tempat obrolan akan ditampilkan — atau sembunyikan dari halaman pembayaran."
 
-#: includes/class-zinn-chat-upsell.php:92
+#: includes/class-zinn-chat-upsell.php:124
 msgid "One licence covers three of your sites; ten-site licences are available."
 msgstr "Satu lisensi mencakup tiga situs Anda; lisensi untuk sepuluh situs juga tersedia."
 
-#: includes/class-zinn-chat-upsell.php:96
+#: includes/class-zinn-chat-upsell.php:128
 msgid "See what Pro costs"
 msgstr "Lihat harga Pro"
 
 #. translators: %s: link to the customer's licences page.
-#: includes/class-zinn-chat-upsell.php:103
+#: includes/class-zinn-chat-upsell.php:135
 #, php-format
 msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
 msgstr "Sudah meng-host situs di Zinn Digital®? Pro disertakan secara gratis — kunci Anda ada di %s."
 
-#: includes/class-zinn-chat-upsell.php:105
+#: includes/class-zinn-chat-upsell.php:137
 msgid "Licences page of your dashboard"
 msgstr "Halaman lisensi di dasbor Anda"
 

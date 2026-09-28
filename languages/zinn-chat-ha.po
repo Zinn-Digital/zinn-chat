@@ -148,49 +148,53 @@ msgstr "Ba a iya saukar da sabuntawar daga sabis na sabuntawa na Zinn® ba (%s).
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Sabuntawar da aka sauke ta gaza a wajen tantance amincinta kuma ba a sanya ta ba."
 
-#: includes/class-zinn-chat-upsell.php:83
+#: includes/class-zinn-chat-upsell.php:101
+msgid "Go Pro"
+msgstr "Je zuwa Pro"
+
+#: includes/class-zinn-chat-upsell.php:115
 msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
 msgstr "Komai a nan yana cigaba da aiki kyauta, har abada. Pro na lokacin da mutum daya ke ba da amsa, da wata daya na tarihin, sun daina isa."
 
-#: includes/class-zinn-chat-upsell.php:86
+#: includes/class-zinn-chat-upsell.php:118
 msgid "As many colleagues answering at once as you like — the free plugin allows one."
 msgstr "Kamar yadda kuke so abokan aiki da yawa su amsa lokaci ɗaya — kyautar plugin tana ba da damar mutum ɗaya."
 
-#: includes/class-zinn-chat-upsell.php:87
+#: includes/class-zinn-chat-upsell.php:119
 msgid "Every conversation kept for ever, instead of thirty days."
 msgstr "Kowane tattaunawa an adana shi har abada, maimakon kwanaki talatin."
 
-#: includes/class-zinn-chat-upsell.php:88
+#: includes/class-zinn-chat-upsell.php:120
 msgid "Your own name on the chat window, with ours removed."
 msgstr "Sunanka a kan taga ta tattaunawa, an cire namu."
 
-#: includes/class-zinn-chat-upsell.php:89
+#: includes/class-zinn-chat-upsell.php:121
 msgid "Saved replies, transfer a conversation to a colleague, and business hours."
 msgstr "Amsoshin da aka adana, tura tattaunawa ga abokin aiki, da kuma lokutan aiki."
 
-#: includes/class-zinn-chat-upsell.php:90
+#: includes/class-zinn-chat-upsell.php:122
 msgid "5,000 AI answers a month rather than 100."
 msgstr "Amsoshin AI 5,000 a wata maimakon 100."
 
-#: includes/class-zinn-chat-upsell.php:91
+#: includes/class-zinn-chat-upsell.php:123
 msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
 msgstr "Zaɓi takamaiman shafukan da hira za ta bayyana a kai — ko kuma ka ɓoye shi daga shafin biyan kuɗi."
 
-#: includes/class-zinn-chat-upsell.php:92
+#: includes/class-zinn-chat-upsell.php:124
 msgid "One licence covers three of your sites; ten-site licences are available."
 msgstr "Lasisi ɗaya tana rufe shafukanku guda uku; akwai lasisin shafuka goma."
 
-#: includes/class-zinn-chat-upsell.php:96
+#: includes/class-zinn-chat-upsell.php:128
 msgid "See what Pro costs"
 msgstr "Duba abin da Pro ke ci"
 
 #. translators: %s: link to the customer's licences page.
-#: includes/class-zinn-chat-upsell.php:103
+#: includes/class-zinn-chat-upsell.php:135
 #, php-format
 msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
 msgstr "Kuna da shafin da aka karbi bakuncinsa a Zinn Digital® tuni? An haɗa da Pro kyauta — mabuɗinku yana kan %s."
 
-#: includes/class-zinn-chat-upsell.php:105
+#: includes/class-zinn-chat-upsell.php:137
 msgid "Licences page of your dashboard"
 msgstr "Shafin lasisi na allon kula da ku"
 

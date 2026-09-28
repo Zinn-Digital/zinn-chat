@@ -148,49 +148,53 @@ msgstr "La mise à jour n'a pas pu être téléchargée depuis le service de mis
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "La mise à jour téléchargée a échoué au contrôle d'intégrité et n'a pas été installée."
 
-#: includes/class-zinn-chat-upsell.php:83
+#: includes/class-zinn-chat-upsell.php:101
+msgid "Go Pro"
+msgstr "Passer à Pro"
+
+#: includes/class-zinn-chat-upsell.php:115
 msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
 msgstr "Tout ici continue de fonctionner gratuitement, pour toujours. Pro est conçu pour le moment où une seule personne pour répondre et un mois d'historique ne suffisent plus."
 
-#: includes/class-zinn-chat-upsell.php:86
+#: includes/class-zinn-chat-upsell.php:118
 msgid "As many colleagues answering at once as you like — the free plugin allows one."
 msgstr "Autant de collègues qui répondent en même temps que vous le souhaitez — le module gratuit n'en autorise qu'un."
 
-#: includes/class-zinn-chat-upsell.php:87
+#: includes/class-zinn-chat-upsell.php:119
 msgid "Every conversation kept for ever, instead of thirty days."
 msgstr "Chaque conversation est conservée indéfiniment, au lieu de trente jours."
 
-#: includes/class-zinn-chat-upsell.php:88
+#: includes/class-zinn-chat-upsell.php:120
 msgid "Your own name on the chat window, with ours removed."
 msgstr "Votre propre nom sur la fenêtre de discussion, avec le nôtre supprimé."
 
-#: includes/class-zinn-chat-upsell.php:89
+#: includes/class-zinn-chat-upsell.php:121
 msgid "Saved replies, transfer a conversation to a colleague, and business hours."
 msgstr "Réponses enregistrées, transfert d'une conversation à un collègue et horaires d'ouverture."
 
-#: includes/class-zinn-chat-upsell.php:90
+#: includes/class-zinn-chat-upsell.php:122
 msgid "5,000 AI answers a month rather than 100."
 msgstr "5 000 réponses générées par IA par mois au lieu de 100."
 
-#: includes/class-zinn-chat-upsell.php:91
+#: includes/class-zinn-chat-upsell.php:123
 msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
 msgstr "Choisissez exactement sur quelles pages le chat apparaît — ou masquez-le sur la page de paiement."
 
-#: includes/class-zinn-chat-upsell.php:92
+#: includes/class-zinn-chat-upsell.php:124
 msgid "One licence covers three of your sites; ten-site licences are available."
 msgstr "Une licence couvre trois de vos sites ; des licences pour dix sites sont disponibles."
 
-#: includes/class-zinn-chat-upsell.php:96
+#: includes/class-zinn-chat-upsell.php:128
 msgid "See what Pro costs"
 msgstr "Découvrir les tarifs de Pro"
 
 #. translators: %s: link to the customer's licences page.
-#: includes/class-zinn-chat-upsell.php:103
+#: includes/class-zinn-chat-upsell.php:135
 #, php-format
 msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
 msgstr "Vous hébergez déjà un site chez Zinn Digital® ? Pro est inclus gratuitement — votre clé se trouve sur le %s."
 
-#: includes/class-zinn-chat-upsell.php:105
+#: includes/class-zinn-chat-upsell.php:137
 msgid "Licences page of your dashboard"
 msgstr "Page des licences de votre tableau de bord"
 

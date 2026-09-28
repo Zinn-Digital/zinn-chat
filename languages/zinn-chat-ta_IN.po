@@ -148,49 +148,53 @@ msgstr "Zinn® புதுப்பிப்பு சேவையிலிர�
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "பதிவிறக்கம் செய்யப்பட்ட புதுப்பிப்பு அதன் ஒருமைமை சோதனையில் (integrity check) தோல்வியடைந்தது, அதனால் நிறுவப்படவில்லை."
 
-#: includes/class-zinn-chat-upsell.php:83
+#: includes/class-zinn-chat-upsell.php:101
+msgid "Go Pro"
+msgstr "கோ புரோ"
+
+#: includes/class-zinn-chat-upsell.php:115
 msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
 msgstr "இங்குள்ள அனைத்தும் எந்தக் கட்டணமும் இல்லாமல், எப்போதும் தொடர்ந்து செயல்படும். பதிலளிக்க ஒரு நபர் மற்றும் ஒரு மாத கால வரலாறு ஆகியவை போதுமானதாக இல்லாதபோது ப்ரோ (Pro) பதிப்பு பயன்படும்."
 
-#: includes/class-zinn-chat-upsell.php:86
+#: includes/class-zinn-chat-upsell.php:118
 msgid "As many colleagues answering at once as you like — the free plugin allows one."
 msgstr "விருப்பப்படி எத்தனை சக ஊழியர்கள் வேண்டுமானாலும் ஒரே நேரத்தில் பதிலளிக்கலாம் — இலவச செருகுநிரல் (plugin) ஒன்றை அனுமதிக்கிறது."
 
-#: includes/class-zinn-chat-upsell.php:87
+#: includes/class-zinn-chat-upsell.php:119
 msgid "Every conversation kept for ever, instead of thirty days."
 msgstr "முப்பது நாட்களுக்குப் பதிலாக ஒவ்வொரு உரையாடலும் எப்போதும் சேமிக்கப்படும்."
 
-#: includes/class-zinn-chat-upsell.php:88
+#: includes/class-zinn-chat-upsell.php:120
 msgid "Your own name on the chat window, with ours removed."
 msgstr "அரட்டை சாளரத்தில் எங்கள் பெயருக்குப் பதிலாக உங்கள் சொந்தப் பெயர் இருக்கும்."
 
-#: includes/class-zinn-chat-upsell.php:89
+#: includes/class-zinn-chat-upsell.php:121
 msgid "Saved replies, transfer a conversation to a colleague, and business hours."
 msgstr "சேமிக்கப்பட்ட பதில்கள், உரையாடலை ஒரு சக ஊழியருக்கு மாற்றுவது மற்றும் வணிக நேரங்கள்."
 
-#: includes/class-zinn-chat-upsell.php:90
+#: includes/class-zinn-chat-upsell.php:122
 msgid "5,000 AI answers a month rather than 100."
 msgstr "100-க்கு பதிலாக மாதத்திற்கு 5,000 AI பதில்கள்."
 
-#: includes/class-zinn-chat-upsell.php:91
+#: includes/class-zinn-chat-upsell.php:123
 msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
 msgstr "சாட் எந்தப் பக்கங்களில் தோன்ற வேண்டும் என்பதைத் துல்லியமாகத் தேர்ந்தெடுக்கவும் — அல்லது செக்அவுட்டிலிருந்து அதை மறைக்கவும்."
 
-#: includes/class-zinn-chat-upsell.php:92
+#: includes/class-zinn-chat-upsell.php:124
 msgid "One licence covers three of your sites; ten-site licences are available."
 msgstr "ஒரு உரிமம் உங்கள் தளங்களில் மூன்றை உள்ளடக்கும்; பத்து தள உரிமைகளும் கிடைக்கின்றன."
 
-#: includes/class-zinn-chat-upsell.php:96
+#: includes/class-zinn-chat-upsell.php:128
 msgid "See what Pro costs"
 msgstr "Pro-ன் கட்டணத்தை பார்க்கவும்"
 
 #. translators: %s: link to the customer's licences page.
-#: includes/class-zinn-chat-upsell.php:103
+#: includes/class-zinn-chat-upsell.php:135
 #, php-format
 msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
 msgstr "Zinn Digital®-இல் ஏற்கனவே ஒரு தளத்தை ஹோஸ்ட் செய்கிறீர்களா? Pro இலவசமாக சேர்க்கப்பட்டுள்ளது — உங்கள் விசை %s-இல் உள்ளது."
 
-#: includes/class-zinn-chat-upsell.php:105
+#: includes/class-zinn-chat-upsell.php:137
 msgid "Licences page of your dashboard"
 msgstr "உங்கள் டேஷ்போர்டின் உரிமங்கள் பக்கம்"
 

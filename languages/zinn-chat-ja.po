@@ -149,49 +149,53 @@ msgstr "Zinn® のアップデートサービスからアップデートをダ�
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ダウンロードされたアップデートの整合性チェックに失敗したため、インストールされませんでした。"
 
-#: includes/class-zinn-chat-upsell.php:83
+#: includes/class-zinn-chat-upsell.php:101
+msgid "Go Pro"
+msgstr "Pro版にする"
+
+#: includes/class-zinn-chat-upsell.php:115
 msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
 msgstr "ここにあるすべての機能は無料でずっと使い続けることができます。プロプランは、1人での対応や1か月分の履歴では足りなくなった場合のためのプランです。"
 
-#: includes/class-zinn-chat-upsell.php:86
+#: includes/class-zinn-chat-upsell.php:118
 msgid "As many colleagues answering at once as you like — the free plugin allows one."
 msgstr "制限なく何人でも同時に同僚が回答できます—無料プラグインでは1人までです。"
 
-#: includes/class-zinn-chat-upsell.php:87
+#: includes/class-zinn-chat-upsell.php:119
 msgid "Every conversation kept for ever, instead of thirty days."
 msgstr "30日間ではなく、すべての会話が永久に保存されます。"
 
-#: includes/class-zinn-chat-upsell.php:88
+#: includes/class-zinn-chat-upsell.php:120
 msgid "Your own name on the chat window, with ours removed."
 msgstr "チャットウィンドウにご自身の名前を表示し、当社の名前は非表示にします。"
 
-#: includes/class-zinn-chat-upsell.php:89
+#: includes/class-zinn-chat-upsell.php:121
 msgid "Saved replies, transfer a conversation to a colleague, and business hours."
 msgstr "保存済み返信、同僚への会話の引き継ぎ、および営業時間。"
 
-#: includes/class-zinn-chat-upsell.php:90
+#: includes/class-zinn-chat-upsell.php:122
 msgid "5,000 AI answers a month rather than 100."
 msgstr "100件ではなく、月5,000件のAI回答。"
 
-#: includes/class-zinn-chat-upsell.php:91
+#: includes/class-zinn-chat-upsell.php:123
 msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
 msgstr "チャットを表示するページを正確に選択するか、チェックアウト画面では非表示にします。"
 
-#: includes/class-zinn-chat-upsell.php:92
+#: includes/class-zinn-chat-upsell.php:124
 msgid "One licence covers three of your sites; ten-site licences are available."
 msgstr "1つのライセンスで3つのサイトをご利用いただけます。10サイト用のライセンスもご用意しています。"
 
-#: includes/class-zinn-chat-upsell.php:96
+#: includes/class-zinn-chat-upsell.php:128
 msgid "See what Pro costs"
 msgstr "Proの料金を確認する"
 
 #. translators: %s: link to the customer's licences page.
-#: includes/class-zinn-chat-upsell.php:103
+#: includes/class-zinn-chat-upsell.php:135
 #, php-format
 msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
 msgstr "Zinn Digital®でのサイト運用はすでに始まっていますか？Pro版は無料で含まれています。キーは%sにあります。"
 
-#: includes/class-zinn-chat-upsell.php:105
+#: includes/class-zinn-chat-upsell.php:137
 msgid "Licences page of your dashboard"
 msgstr "ダッシュボードのライセンスページ"
 

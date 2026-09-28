@@ -148,49 +148,53 @@ msgstr "ការអាប់ដេតមិនអាចទាញយកពីស
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ការទាញយកបច្ចុប្បន្នភាពមិនបានឆ្លងកាត់ការត្រួតពិនិត្យភាពត្រឹមត្រូវទេ ហើយត្រូវបានបរាជ័យក្នុងការដំឡើង។"
 
-#: includes/class-zinn-chat-upsell.php:83
+#: includes/class-zinn-chat-upsell.php:101
+msgid "Go Pro"
+msgstr "ឡើងកម្រិតប្រូ"
+
+#: includes/class-zinn-chat-upsell.php:115
 msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
 msgstr "អ្វីៗគ្រប់យ៉ាងនៅទីនេះបន្តដំណើរការដោយឥតគិតថ្លៃជារៀងរហូត។ កំណែ Pro គឺសម្រាប់ពេលដែលមនុស្សម្នាក់ឆ្លើយ និងប្រវត្តិមួយខែ មិនគ្រប់គ្រាន់ទៀតទេ។"
 
-#: includes/class-zinn-chat-upsell.php:86
+#: includes/class-zinn-chat-upsell.php:118
 msgid "As many colleagues answering at once as you like — the free plugin allows one."
 msgstr "សូមឱ្យសហការីចំនួនប៉ុណ្ណាក៏បានឆ្លើយតបក្នុងពេលតែមួយតាមដែលអ្នកចង់បាន — កម្មវិធីជំនួយឥតគិតថ្លៃអនុញ្ញាតឱ្យត្រឹមតែម្នាក់ប៉ុណ្ណោះ។"
 
-#: includes/class-zinn-chat-upsell.php:87
+#: includes/class-zinn-chat-upsell.php:119
 msgid "Every conversation kept for ever, instead of thirty days."
 msgstr "រាល់ការសន្ទនាត្រូវបានរក្សាទុកជារៀងរហូត ជំនួសឱ្យសាមសិបថ្ងៃ។"
 
-#: includes/class-zinn-chat-upsell.php:88
+#: includes/class-zinn-chat-upsell.php:120
 msgid "Your own name on the chat window, with ours removed."
 msgstr "ឈ្មោះផ្ទាល់ខ្លួនរបស់អ្នកនៅលើបង្អួចជជែក ជាមួយឈ្មោះរបស់យើងត្រូវលុបចេញ។"
 
-#: includes/class-zinn-chat-upsell.php:89
+#: includes/class-zinn-chat-upsell.php:121
 msgid "Saved replies, transfer a conversation to a colleague, and business hours."
 msgstr "ចម្លើយដែលបានរក្សាទុក បញ្ជូនការសន្ទនាទៅកាន់សហការី និងម៉ោងធ្វើការ។"
 
-#: includes/class-zinn-chat-upsell.php:90
+#: includes/class-zinn-chat-upsell.php:122
 msgid "5,000 AI answers a month rather than 100."
 msgstr "ចម្លើយ AI ចំនួន ៥,០០០ ក្នុងមួយខែ ជាជាង ១០០។"
 
-#: includes/class-zinn-chat-upsell.php:91
+#: includes/class-zinn-chat-upsell.php:123
 msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
 msgstr "ជ្រើសរើសទំព័រពិតប្រាកដដែលការជជែកនឹងត្រូវបង្ហាញ ឬលាក់វាពីទំព័រទូទាត់ប្រាក់។"
 
-#: includes/class-zinn-chat-upsell.php:92
+#: includes/class-zinn-chat-upsell.php:124
 msgid "One licence covers three of your sites; ten-site licences are available."
 msgstr "អាជ្ញាប័ណ្ណមួយគ្របដណ្តប់គេហទំព័រចំនួនបីរបស់អ្នក; អាជ្ញាប័ណ្ណសម្រាប់ដប់គេហទំព័រគឺមាន។"
 
-#: includes/class-zinn-chat-upsell.php:96
+#: includes/class-zinn-chat-upsell.php:128
 msgid "See what Pro costs"
 msgstr "មើលតម្លៃ Pro"
 
 #. translators: %s: link to the customer's licences page.
-#: includes/class-zinn-chat-upsell.php:103
+#: includes/class-zinn-chat-upsell.php:135
 #, php-format
 msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
 msgstr "តើអ្នកមានគេហទំព័រដែលបង្ហោះជាមួយ Zinn Digital® រួចហើយឬនៅ? កំណែ Pro ត្រូវបានរួមបញ្ចូលដោយឥតគិតថ្លៃ — កូនសោរបស់អ្នកស្ថិតនៅលើ %s។"
 
-#: includes/class-zinn-chat-upsell.php:105
+#: includes/class-zinn-chat-upsell.php:137
 msgid "Licences page of your dashboard"
 msgstr "ទំព័រអាជ្ញាប័ណ្ណនៃផ្ទាំងគ្រប់គ្រងរបស់អ្នក"
 

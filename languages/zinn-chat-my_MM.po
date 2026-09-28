@@ -148,49 +148,53 @@ msgstr "Zinn® အပ်ဒိတ်ဝန်ဆောင်မှု (%s) မ�
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ဒေါင်းလုပ်လုပ်ထားသော အပ်ဒိတ်သည် ၎င်း၏ ခိုင်မာမှုစစ်ဆေးမှုကို မအောင်မြင်ခဲ့ပါ၊ ထို့ကြောင့် ထည့်သွင်းခြင်းမပြုခဲ့ပါ။"
 
-#: includes/class-zinn-chat-upsell.php:83
+#: includes/class-zinn-chat-upsell.php:101
+msgid "Go Pro"
+msgstr "ပရိုသို့ သွားရန်"
+
+#: includes/class-zinn-chat-upsell.php:115
 msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
 msgstr "ဤနေရာရှိ အရာအားလုံးသည် အခမဲ့ဖြင့် အမြဲတမ်း ဆက်လက်လုပ်ဆောင်နေမည် ဖြစ်သည်။ Pro သည် လူတစ်ဦးတည်းက ဖြေကြားခြင်းနှင့် တစ်လစာ သမိုင်းကြောင်းတို့က လုံလောက်မှု မရှိတော့သည့် အချိန်အတွက် ဖြစ်သည်။"
 
-#: includes/class-zinn-chat-upsell.php:86
+#: includes/class-zinn-chat-upsell.php:118
 msgid "As many colleagues answering at once as you like — the free plugin allows one."
 msgstr "သင်နှစ်သက်သလောက် လုပ်ဖော်ကိုင်ဖက်များ တစ်ပြိုင်နက်တည်း ဖြေဆိုနိုင်ပါသည် - အခမဲ့ ပလပ်အင်က တစ်ဦးကို ခွင့်ပြုထားပါသည်။"
 
-#: includes/class-zinn-chat-upsell.php:87
+#: includes/class-zinn-chat-upsell.php:119
 msgid "Every conversation kept for ever, instead of thirty days."
 msgstr "စကားဝိုင်းတိုင်းကို ရက်သုံးဆယ်အစား အမြဲတမ်း သိမ်းဆည်းထားမည်။"
 
-#: includes/class-zinn-chat-upsell.php:88
+#: includes/class-zinn-chat-upsell.php:120
 msgid "Your own name on the chat window, with ours removed."
 msgstr "ချတ်ဝင်းဒိုးပေါ်တွင် ကျွန်ုပ်တို့၏အမည်ကို ဖယ်ရှားပြီး သင်၏ကိုယ်ပိုင်အမည်ကို ထည့်သွင်းပါ။"
 
-#: includes/class-zinn-chat-upsell.php:89
+#: includes/class-zinn-chat-upsell.php:121
 msgid "Saved replies, transfer a conversation to a colleague, and business hours."
 msgstr "သိမ်းဆည်းထားသော အဖြေများ၊ လုပ်ဖော်ကိုင်ဖက်တစ်ဦးထံသို့ စကားဝိုင်းတစ်ခုကို လွှဲပြောင်းပေးခြင်းနှင့် ရုံးချိန်များ။"
 
-#: includes/class-zinn-chat-upsell.php:90
+#: includes/class-zinn-chat-upsell.php:122
 msgid "5,000 AI answers a month rather than 100."
 msgstr "၁၀၀ အစား တစ်လလျှင် AI အဖြေ ၅,၀၀၀။"
 
-#: includes/class-zinn-chat-upsell.php:91
+#: includes/class-zinn-chat-upsell.php:123
 msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
 msgstr "ဆတ်ဆက်မှု ပေါ်လာမည့် စာမျက်နှာများကို တိကျစွာ ရွေးချယ်ပါ — သို့မဟုတ် ငွေရှင်းသည့် စာမျက်နှာတွင် ယင်းကို ဖျောက်ထားပါ။"
 
-#: includes/class-zinn-chat-upsell.php:92
+#: includes/class-zinn-chat-upsell.php:124
 msgid "One licence covers three of your sites; ten-site licences are available."
 msgstr "လိုင်စင်တစ်ခုက သင့်ဆိုက်သုံးခုကို အကျုံးဝင်ပါသည်။ ဆိုက်ဆယ်ခုအတွက် လိုင်စင်များကို ရရှိနိုင်ပါသည်။"
 
-#: includes/class-zinn-chat-upsell.php:96
+#: includes/class-zinn-chat-upsell.php:128
 msgid "See what Pro costs"
 msgstr "Pro ၏ ကုန်ကျစရိတ်ကို ကြည့်ပါ"
 
 #. translators: %s: link to the customer's licences page.
-#: includes/class-zinn-chat-upsell.php:103
+#: includes/class-zinn-chat-upsell.php:135
 #, php-format
 msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
 msgstr "Zinn Digital® တွင် ဝက်ဘ်ဆိုက်တစ်ခု လက်ခံထားပြီးသားလား။ Pro ကို အခမဲ့ ထည့်သွင်းပေးထားပါသည် - သင်၏သော့ချက်ကို %s တွင် တွေ့ရှိနိုင်ပါသည်။"
 
-#: includes/class-zinn-chat-upsell.php:105
+#: includes/class-zinn-chat-upsell.php:137
 msgid "Licences page of your dashboard"
 msgstr "သင်၏ ဒက်ရှ်ဘုတ်ရှိ လိုင်စင်များ စာမျက်နှာ"
 

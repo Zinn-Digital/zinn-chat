@@ -69,6 +69,38 @@ final class Zinn_Chat_Upsell {
 	 */
 	public static function init(): void {
 		add_action( 'zinn_chat_after_settings', array( __CLASS__, 'render' ) );
+		add_filter(
+			'plugin_action_links_' . plugin_basename( ZINN_CHAT_FILE ),
+			array( __CLASS__, 'action_link' ),
+			20
+		);
+	}
+
+	/**
+	 * A "Go Pro" link beside Settings on the Plugins screen.
+	 *
+	 * ⚖️ Owner ruling 2026-09-28 (spec rule 2): promote Pro from the plugins list as well as
+	 * from the plugin's own screen. ⭐ Inside the WordPress.org guidelines by construction:
+	 * guideline 11 allows upgrade prompts that are *"contextual, or only on the plugin's
+	 * settings page"* — an action link sits on this plugin's own row and nowhere else, is not a
+	 * notice, needs no dismissing and nags nobody — and guideline 5 is untouched, because the
+	 * free plugin locks nothing behind it.
+	 *
+	 * ⛔ Registered HERE, in the file the Pro build drops, not in `Zinn_Chat_Admin` beside the
+	 * Settings link. That makes "a paying customer is never asked to buy what they own"
+	 * structural for this link too — it cannot exist in a build that has no upsell class. The
+	 * priority (20) puts it after Settings, which `Zinn_Chat_Admin` adds at the default 10.
+	 *
+	 * @param array<int|string, string> $links Existing links.
+	 * @return array<int|string, string>
+	 */
+	public static function action_link( array $links ): array {
+		$links['zinn_chat_go_pro'] = sprintf(
+			'<a href="%1$s" target="_blank" rel="noopener" style="font-weight:600">%2$s</a>',
+			esc_url( self::PRODUCT_URL ),
+			esc_html__( 'Go Pro', 'zinn-chat' )
+		);
+		return $links;
 	}
 
 	/**

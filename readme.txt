@@ -7,7 +7,7 @@ Tags: live chat, chat, support, helpdesk, ai
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.4.0
+Stable tag: 1.5.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -41,6 +41,20 @@ When somebody does open it, an assistant answers immediately from what it knows 
 The plugin adds nothing to your site until you paste a key and tick the box — no script, no cookie, no storage, no requests.
 
 Once it is on, the widget stores one thing in the visitor's own browser: the identifier of their conversation, so a page refresh does not lose what they typed. It does not set cookies, does not track people across sites, and does not record IP addresses. The country shown to you is worked out at our edge from the connection and the address itself is never stored.
+
+= Pro features =
+
+Everything above is free and stays free. [Zinn® Chat Pro](https://zinndigital.com/wordpress-plugins/zinn-chat-pro) is the same plugin with its limits removed:
+
+* As many colleagues answering at once as you like — the free plugin allows one.
+* Every conversation kept for ever, instead of thirty days.
+* Your own name on the chat window, with ours removed.
+* Saved replies, transfer a conversation to a colleague, and business hours.
+* 5,000 AI answers a month rather than 100.
+* Choose exactly which pages the chat appears on — or hide it from the checkout.
+* One licence covers three of your sites; ten-site licences are available.
+
+If you host a site with Zinn Digital®, Pro is included free and your key is on the Licences page of your dashboard.
 
 == Installation ==
 
@@ -104,6 +118,9 @@ Not if you host with Zinn Digital®. Premium is included with your hosting for a
 3. The Zinn Digital® panel in your dashboard: this plugin's own guide, and the other things we run. No remote call, no tracking pixel, no image loaded from us.
 
 == Changelog ==
+
+= 1.5.0 =
+* New: a "Go Pro" link beside Settings on the Plugins screen, and a "Pro features" section in this readme, so what Zinn® Chat Pro adds is easy to find. Neither appears in the Pro edition, and neither is a notice or makes a request.
 
 = 1.4.0 =
 * Updates install whenever you click Update, even months later: the download link is fetched fresh at install time instead of expiring in WordPress's saved update data.

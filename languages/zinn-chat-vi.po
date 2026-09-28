@@ -148,49 +148,53 @@ msgstr "Không thể tải bản cập nhật xuống từ dịch vụ cập nh�
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Bản cập nhật đã tải xuống không vượt qua được kiểm tra tính toàn vẹn và không được cài đặt."
 
-#: includes/class-zinn-chat-upsell.php:83
+#: includes/class-zinn-chat-upsell.php:101
+msgid "Go Pro"
+msgstr "Nâng cấp Pro"
+
+#: includes/class-zinn-chat-upsell.php:115
 msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
 msgstr "Mọi thứ ở đây vẫn hoạt động miễn phí, mãi mãi. Gói Pro dành cho khi một người trả lời và một tháng lịch sử không còn đủ nữa."
 
-#: includes/class-zinn-chat-upsell.php:86
+#: includes/class-zinn-chat-upsell.php:118
 msgid "As many colleagues answering at once as you like — the free plugin allows one."
 msgstr "Số lượng đồng nghiệp trả lời cùng lúc tùy ý bạn — plugin miễn phí cho phép một người."
 
-#: includes/class-zinn-chat-upsell.php:87
+#: includes/class-zinn-chat-upsell.php:119
 msgid "Every conversation kept for ever, instead of thirty days."
 msgstr "Mọi cuộc trò chuyện được lưu giữ mãi mãi, thay vì ba mươi ngày."
 
-#: includes/class-zinn-chat-upsell.php:88
+#: includes/class-zinn-chat-upsell.php:120
 msgid "Your own name on the chat window, with ours removed."
 msgstr "Tên của riêng bạn trên cửa sổ trò chuyện, với tên của chúng tôi đã được gỡ bỏ."
 
-#: includes/class-zinn-chat-upsell.php:89
+#: includes/class-zinn-chat-upsell.php:121
 msgid "Saved replies, transfer a conversation to a colleague, and business hours."
 msgstr "Câu trả lời đã lưu, chuyển cuộc trò chuyện cho đồng nghiệp và giờ làm việc."
 
-#: includes/class-zinn-chat-upsell.php:90
+#: includes/class-zinn-chat-upsell.php:122
 msgid "5,000 AI answers a month rather than 100."
 msgstr "5.000 câu trả lời AI một tháng thay vì 100."
 
-#: includes/class-zinn-chat-upsell.php:91
+#: includes/class-zinn-chat-upsell.php:123
 msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
 msgstr "Chọn chính xác các trang hiển thị khung chat — hoặc ẩn khung chat khỏi trang thanh toán."
 
-#: includes/class-zinn-chat-upsell.php:92
+#: includes/class-zinn-chat-upsell.php:124
 msgid "One licence covers three of your sites; ten-site licences are available."
 msgstr "Một giấy phép bao gồm ba trang web của bạn; giấy phép mười trang web có sẵn."
 
-#: includes/class-zinn-chat-upsell.php:96
+#: includes/class-zinn-chat-upsell.php:128
 msgid "See what Pro costs"
 msgstr "Xem giá gói Pro"
 
 #. translators: %s: link to the customer's licences page.
-#: includes/class-zinn-chat-upsell.php:103
+#: includes/class-zinn-chat-upsell.php:135
 #, php-format
 msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
 msgstr "Bạn đã lưu trữ một trang web với Zinn Digital® chưa? Gói Pro được bao gồm miễn phí — khóa của bạn ở trên %s."
 
-#: includes/class-zinn-chat-upsell.php:105
+#: includes/class-zinn-chat-upsell.php:137
 msgid "Licences page of your dashboard"
 msgstr "Trang Giấy phép trên bảng điều khiển của bạn"
 

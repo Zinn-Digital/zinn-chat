@@ -148,49 +148,53 @@ msgstr "යාවත්කාලීන කිරීම Zinn® යාවත්ක
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "බාගත කළ යාවත්කාලීන කිරීමේ අඛණ්ඩතා පරීක්ෂාව අසමත් වූ අතර එය ස්ථාපනය කර නැත."
 
-#: includes/class-zinn-chat-upsell.php:83
+#: includes/class-zinn-chat-upsell.php:101
+msgid "Go Pro"
+msgstr "ගෝ ප්‍රෝ"
+
+#: includes/class-zinn-chat-upsell.php:115
 msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
 msgstr "මෙහි ඇති සියල්ල කිසිදු මුදලකින් තොරව, සදාකාලයටම අඛණ්ඩව ක්‍රියාත්මක වේ. Pro යනු ප්‍රතිචාර දක්වන එක් අයෙකු සහ ඉතිහාසය මාසයක් ප්‍රමාණවත් නොවන අවස්ථා සඳහාය."
 
-#: includes/class-zinn-chat-upsell.php:86
+#: includes/class-zinn-chat-upsell.php:118
 msgid "As many colleagues answering at once as you like — the free plugin allows one."
 msgstr "ඔබට අවශ්‍ය තරම් සගයන්ට එකවර පිළිතුරු ලබා දිය හැකිය — නොමිලේ ලබා දෙන ප්ලගීනය එකකට ඉඩ සලසයි."
 
-#: includes/class-zinn-chat-upsell.php:87
+#: includes/class-zinn-chat-upsell.php:119
 msgid "Every conversation kept for ever, instead of thirty days."
 msgstr "දින ති treinta ක් වෙනුවට, සෑම සංවාදයක්ම සදහටම තබා ගනී."
 
-#: includes/class-zinn-chat-upsell.php:88
+#: includes/class-zinn-chat-upsell.php:120
 msgid "Your own name on the chat window, with ours removed."
 msgstr "කැට් කවුළුවෙහි අපගේ නම ඉවත් කර, ඔබේම නම යොදන්න."
 
-#: includes/class-zinn-chat-upsell.php:89
+#: includes/class-zinn-chat-upsell.php:121
 msgid "Saved replies, transfer a conversation to a colleague, and business hours."
 msgstr "සුරක්ෂිත පිළිතුරු, සංවාදයක් සගයෙකුට මාරු කිරීම සහ ව්‍යාපාරික වේලාවන්."
 
-#: includes/class-zinn-chat-upsell.php:90
+#: includes/class-zinn-chat-upsell.php:122
 msgid "5,000 AI answers a month rather than 100."
 msgstr "මසකට 100 වෙනුවට AI පිළිතුරු 5,000ක්."
 
-#: includes/class-zinn-chat-upsell.php:91
+#: includes/class-zinn-chat-upsell.php:123
 msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
 msgstr "කතාබහ පෙන්විය යුත්තේ කුමන පිටුවලද යන්න හරියටම තෝරන්න - නැතහොත් පිටවීම් පිටුවෙන් එය සඟවන්න."
 
-#: includes/class-zinn-chat-upsell.php:92
+#: includes/class-zinn-chat-upsell.php:124
 msgid "One licence covers three of your sites; ten-site licences are available."
 msgstr "එක් බලපත්‍රයකින් ඔබගේ වෙබ් අඩවි තුනක් ආවරණය වේ; වෙබ් අඩවි දහයක බලපත්‍ර ද ලබා ගත හැක."
 
-#: includes/class-zinn-chat-upsell.php:96
+#: includes/class-zinn-chat-upsell.php:128
 msgid "See what Pro costs"
 msgstr "Pro හි මිල ගණන් බලන්න"
 
 #. translators: %s: link to the customer's licences page.
-#: includes/class-zinn-chat-upsell.php:103
+#: includes/class-zinn-chat-upsell.php:135
 #, php-format
 msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
 msgstr "Zinn Digital® සමඟ දැනටමත් වෙබ් අඩවියක් හොස්ට් කර තිබේද? Pro නොමිලේ ඇතුළත් කර ඇත — ඔබේ යතුර %s මත ඇත."
 
-#: includes/class-zinn-chat-upsell.php:105
+#: includes/class-zinn-chat-upsell.php:137
 msgid "Licences page of your dashboard"
 msgstr "ඔබේ උපකරණ පුවරුවේ බලපත්‍ර පිටුව"
 

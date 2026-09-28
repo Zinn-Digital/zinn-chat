@@ -148,49 +148,53 @@ msgstr "Përditësimi nuk mund të shkarkohej nga shërbimi i përditësimeve Zi
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Përditësimi i shkarkuar dështoi në kontrollin e integritetit dhe nuk u instalua."
 
-#: includes/class-zinn-chat-upsell.php:83
+#: includes/class-zinn-chat-upsell.php:101
+msgid "Go Pro"
+msgstr "Kalo në Pro"
+
+#: includes/class-zinn-chat-upsell.php:115
 msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
 msgstr "Gjithçka këtu vazhdon të punojë falas, përgjithmonë. Plani Pro është për kur një person që përgjigjet dhe një muaj histori nuk mjaftojnë më."
 
-#: includes/class-zinn-chat-upsell.php:86
+#: includes/class-zinn-chat-upsell.php:118
 msgid "As many colleagues answering at once as you like — the free plugin allows one."
 msgstr "Aq kolegë që përgjigjen njëkohësisht sa të dëshironi — shtojca falas lejon vetëm një."
 
-#: includes/class-zinn-chat-upsell.php:87
+#: includes/class-zinn-chat-upsell.php:119
 msgid "Every conversation kept for ever, instead of thirty days."
 msgstr "Çdo bisedë ruhet përgjithmonë, në vend të tridhjetë ditëve."
 
-#: includes/class-zinn-chat-upsell.php:88
+#: includes/class-zinn-chat-upsell.php:120
 msgid "Your own name on the chat window, with ours removed."
 msgstr "Emri juaj në dritaren e bisedës, me tonin e hequr."
 
-#: includes/class-zinn-chat-upsell.php:89
+#: includes/class-zinn-chat-upsell.php:121
 msgid "Saved replies, transfer a conversation to a colleague, and business hours."
 msgstr "Përgjigje të ruajtura, transferoni një bisedë te një koleg dhe orari i punës."
 
-#: includes/class-zinn-chat-upsell.php:90
+#: includes/class-zinn-chat-upsell.php:122
 msgid "5,000 AI answers a month rather than 100."
 msgstr "5,000 përgjigje të AI në muaj në vend të 100."
 
-#: includes/class-zinn-chat-upsell.php:91
+#: includes/class-zinn-chat-upsell.php:123
 msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
 msgstr "Zgjidhni saktësisht se në cilat faqe shfaqet biseda — ose fshiheni atë nga arka."
 
-#: includes/class-zinn-chat-upsell.php:92
+#: includes/class-zinn-chat-upsell.php:124
 msgid "One licence covers three of your sites; ten-site licences are available."
 msgstr "Një licencë mbulon tre nga faqet tuaja; licencat për dhjetë faqe janë të disponueshme."
 
-#: includes/class-zinn-chat-upsell.php:96
+#: includes/class-zinn-chat-upsell.php:128
 msgid "See what Pro costs"
 msgstr "Shihni sa kushton Pro"
 
 #. translators: %s: link to the customer's licences page.
-#: includes/class-zinn-chat-upsell.php:103
+#: includes/class-zinn-chat-upsell.php:135
 #, php-format
 msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
 msgstr "Keni tashmë një faqe të strehuar te Zinn Digital®? Pro përfshihet falas — çelësi juaj ndodhet në %s."
 
-#: includes/class-zinn-chat-upsell.php:105
+#: includes/class-zinn-chat-upsell.php:137
 msgid "Licences page of your dashboard"
 msgstr "Faqja e licencave e panelit tuaj të kontrollit"
 

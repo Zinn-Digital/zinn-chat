@@ -148,49 +148,53 @@ msgstr "Güncelleme, Zinn® güncelleme servisinden (%s) indirilemedi. Birkaç d
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "İndirilen güncelleme bütünlük kontrolünden başarısız oldu ve yüklenmedi."
 
-#: includes/class-zinn-chat-upsell.php:83
+#: includes/class-zinn-chat-upsell.php:101
+msgid "Go Pro"
+msgstr "Pro'ya Geç"
+
+#: includes/class-zinn-chat-upsell.php:115
 msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
 msgstr "Buradaki her şey hiçbir ücret ödemeden sonsuza kadar çalışmaya devam eder. Pro, tek bir kişinin yanıt vermesi ve bir aylık geçmiş artık yeterli olmadığında devreye girer."
 
-#: includes/class-zinn-chat-upsell.php:86
+#: includes/class-zinn-chat-upsell.php:118
 msgid "As many colleagues answering at once as you like — the free plugin allows one."
 msgstr "Ücretsiz eklenti yalnızca birine izin verirken, dilediğiniz sayıda meslektaşınız aynı anda yanıt verebilir."
 
-#: includes/class-zinn-chat-upsell.php:87
+#: includes/class-zinn-chat-upsell.php:119
 msgid "Every conversation kept for ever, instead of thirty days."
 msgstr "Otuz gün yerine sonsuza kadar saklanan her konuşma."
 
-#: includes/class-zinn-chat-upsell.php:88
+#: includes/class-zinn-chat-upsell.php:120
 msgid "Your own name on the chat window, with ours removed."
 msgstr "Sohbet pencerenizde kendi adınız yer alır, bizimki kaldırılır."
 
-#: includes/class-zinn-chat-upsell.php:89
+#: includes/class-zinn-chat-upsell.php:121
 msgid "Saved replies, transfer a conversation to a colleague, and business hours."
 msgstr "Kayıtlı yanıtlar, bir sohbeti meslektaşa aktarma ve çalışma saatleri."
 
-#: includes/class-zinn-chat-upsell.php:90
+#: includes/class-zinn-chat-upsell.php:122
 msgid "5,000 AI answers a month rather than 100."
 msgstr "100 yerine ayda 5.000 yapay zeka yanıtı."
 
-#: includes/class-zinn-chat-upsell.php:91
+#: includes/class-zinn-chat-upsell.php:123
 msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
 msgstr "Sohbetin tam olarak hangi sayfalarda görüneceğini seçin — veya ödeme sayfasından gizleyin."
 
-#: includes/class-zinn-chat-upsell.php:92
+#: includes/class-zinn-chat-upsell.php:124
 msgid "One licence covers three of your sites; ten-site licences are available."
 msgstr "Tek lisans sitelerinizden üçünü kapsar; on sitelik lisanslar mevcuttur."
 
-#: includes/class-zinn-chat-upsell.php:96
+#: includes/class-zinn-chat-upsell.php:128
 msgid "See what Pro costs"
 msgstr "Pro planının fiyatlarını görün"
 
 #. translators: %s: link to the customer's licences page.
-#: includes/class-zinn-chat-upsell.php:103
+#: includes/class-zinn-chat-upsell.php:135
 #, php-format
 msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
 msgstr "Zinn Digital® ile zaten bir site barındırıyor musunuz? Pro ücretsiz olarak dahildir — anahtarınız %s üzerindedir."
 
-#: includes/class-zinn-chat-upsell.php:105
+#: includes/class-zinn-chat-upsell.php:137
 msgid "Licences page of your dashboard"
 msgstr "Kontrol panelinizin Lisanslar sayfası"
 

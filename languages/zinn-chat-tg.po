@@ -148,49 +148,53 @@ msgstr "Навсозӣ аз хидмати навсозии Zinn® зеркаш�
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Навсозии зеркашидашув санҷиши дақиқиро аз сар гузаронида натавонист ва насб карда нашуд."
 
-#: includes/class-zinn-chat-upsell.php:83
+#: includes/class-zinn-chat-upsell.php:101
+msgid "Go Pro"
+msgstr "Гузариш ба Pro"
+
+#: includes/class-zinn-chat-upsell.php:115
 msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
 msgstr "Ҳама чиз дар ин ҷо ройгон ва то абад кор мекунад. Pro барои замоне пешбинӣ шудааст, ки як шахси посухдиҳанда ва як моҳи таърих дигар кофӣ нестанд."
 
-#: includes/class-zinn-chat-upsell.php:86
+#: includes/class-zinn-chat-upsell.php:118
 msgid "As many colleagues answering at once as you like — the free plugin allows one."
 msgstr "Ҳамон қадар ҳамкороне, ки хоҳед, метавонанд дар як вақт ҷавоб диҳанд — плагини ройгон танҳо ба як нафар иҷозат медиҳад."
 
-#: includes/class-zinn-chat-upsell.php:87
+#: includes/class-zinn-chat-upsell.php:119
 msgid "Every conversation kept for ever, instead of thirty days."
 msgstr "Ҳар як муҳориба то абад ҳифз мешавад, на ин ки сӣ рӯз."
 
-#: includes/class-zinn-chat-upsell.php:88
+#: includes/class-zinn-chat-upsell.php:120
 msgid "Your own name on the chat window, with ours removed."
 msgstr "Номи худи шумо дар равзанаи чат, ки номи мо нест карда шудааст."
 
-#: includes/class-zinn-chat-upsell.php:89
+#: includes/class-zinn-chat-upsell.php:121
 msgid "Saved replies, transfer a conversation to a colleague, and business hours."
 msgstr "Ҷавобҳои захирашуда, интиқоли гуфтугӯ ба ҳамкор ва соатҳои корӣ."
 
-#: includes/class-zinn-chat-upsell.php:90
+#: includes/class-zinn-chat-upsell.php:122
 msgid "5,000 AI answers a month rather than 100."
 msgstr "Ба ҷои 100 ҷавоби сунъӣ дар як моҳ 5,000 ҷавоб."
 
-#: includes/class-zinn-chat-upsell.php:91
+#: includes/class-zinn-chat-upsell.php:123
 msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
 msgstr "Exact аниқ муайян кунед, ки чат дар кадом саҳифаҳо пайдо шавад — ё онро аз саҳифаи пардохт пинҳон кунед."
 
-#: includes/class-zinn-chat-upsell.php:92
+#: includes/class-zinn-chat-upsell.php:124
 msgid "One licence covers three of your sites; ten-site licences are available."
 msgstr "Як литсензия сето аз сайтҳои шуморо фаро мегирад; литсензияҳо барои даҳ сайт низ дастрас ҳастанд."
 
-#: includes/class-zinn-chat-upsell.php:96
+#: includes/class-zinn-chat-upsell.php:128
 msgid "See what Pro costs"
 msgstr "Арзиши Про-ро бубинед"
 
 #. translators: %s: link to the customer's licences page.
-#: includes/class-zinn-chat-upsell.php:103
+#: includes/class-zinn-chat-upsell.php:135
 #, php-format
 msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
 msgstr "Шумо аллакай сайт бо Zinn Digital® доред? Pro ройгон дохил карда шудааст — калиди шумо дар %s аст."
 
-#: includes/class-zinn-chat-upsell.php:105
+#: includes/class-zinn-chat-upsell.php:137
 msgid "Licences page of your dashboard"
 msgstr "Саҳифаи иҷозатномаҳои мизи кории шумо"
 

@@ -148,49 +148,53 @@ msgstr "Zinn® шинэчлэлийн үйлчилгээнээс (%s) шинэч
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Татаж авсан шинэчлэлт бүрэн бүтэн байдлын шалгалтад тэнцээгүй тул суулгасангүй."
 
-#: includes/class-zinn-chat-upsell.php:83
+#: includes/class-zinn-chat-upsell.php:101
+msgid "Go Pro"
+msgstr "Pro руу шилжих"
+
+#: includes/class-zinn-chat-upsell.php:115
 msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
 msgstr "Энд байгаа бүх зүйл үнэ төлбөргүйгээр, үүрд хэвийн ажилласаар байх болно. Pro багц нь нэг хүн хариулахаа болих болон бүтэн сарын түүх хангалтгүй болоход зориулагдсан болно."
 
-#: includes/class-zinn-chat-upsell.php:86
+#: includes/class-zinn-chat-upsell.php:118
 msgid "As many colleagues answering at once as you like — the free plugin allows one."
 msgstr "Та хүссэн хэмжээгээрээ олон хамтран ажиллагсадтай нэгэн зэрэг хариулах боломжтой бөгөөд үнэгүй залгаас нь нэхийг зөвшөөрдөг."
 
-#: includes/class-zinn-chat-upsell.php:87
+#: includes/class-zinn-chat-upsell.php:119
 msgid "Every conversation kept for ever, instead of thirty days."
 msgstr "Яриа бүрийг гучин хоногийн турш биш, үүрд хадгална."
 
-#: includes/class-zinn-chat-upsell.php:88
+#: includes/class-zinn-chat-upsell.php:120
 msgid "Your own name on the chat window, with ours removed."
 msgstr "Чатны цонх дээр өөрийн тань нэр гарч, биднийх устах болно."
 
-#: includes/class-zinn-chat-upsell.php:89
+#: includes/class-zinn-chat-upsell.php:121
 msgid "Saved replies, transfer a conversation to a colleague, and business hours."
 msgstr "Хадгалсан хариултууд, харилцан яриаг хамтран ажиллагч руу шилжүүлэх, болон ажлын цаг."
 
-#: includes/class-zinn-chat-upsell.php:90
+#: includes/class-zinn-chat-upsell.php:122
 msgid "5,000 AI answers a month rather than 100."
 msgstr "Сард 100 биш, 5,000 хиймэл оюун ухааны хариулт."
 
-#: includes/class-zinn-chat-upsell.php:91
+#: includes/class-zinn-chat-upsell.php:123
 msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
 msgstr "Чат аль хуудсууд дээр харагдахыг яг таг сонгох эсвэл тооцоо хийх хэсгээс нуух."
 
-#: includes/class-zinn-chat-upsell.php:92
+#: includes/class-zinn-chat-upsell.php:124
 msgid "One licence covers three of your sites; ten-site licences are available."
 msgstr "Нэг лиценз таны гурван сайтыг хамрах бөгөөд арван сайтын лиценз авах боломжтой."
 
-#: includes/class-zinn-chat-upsell.php:96
+#: includes/class-zinn-chat-upsell.php:128
 msgid "See what Pro costs"
 msgstr "Pro-ийн үнийг үзэх"
 
 #. translators: %s: link to the customer's licences page.
-#: includes/class-zinn-chat-upsell.php:103
+#: includes/class-zinn-chat-upsell.php:135
 #, php-format
 msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
 msgstr "Zinn Digital® дээр аль хэдийн сайт байршуулсан уу? Pro үнэгүй багтсан болно — таны түлхүүр %s дээр байна."
 
-#: includes/class-zinn-chat-upsell.php:105
+#: includes/class-zinn-chat-upsell.php:137
 msgid "Licences page of your dashboard"
 msgstr "Таны хяналтын самбарын Лицензийн хуудас"
 

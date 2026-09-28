@@ -148,49 +148,53 @@ msgstr "Hindi na-download ang update mula sa serbisyo ng pag-update ng Zinn® (%
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Ang na-download na update ay nabigo sa pagsusuri ng integridad nito at hindi na-install."
 
-#: includes/class-zinn-chat-upsell.php:83
+#: includes/class-zinn-chat-upsell.php:101
+msgid "Go Pro"
+msgstr "Mag-Pro"
+
+#: includes/class-zinn-chat-upsell.php:115
 msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
 msgstr "Patuloy na gagana ang lahat dito nang walang bayad magpakailanman. Ang Pro ay para sa mga panahong ang isang taong sumasagot, at ang isang buwan na kasaysayan, ay hindi na sapat."
 
-#: includes/class-zinn-chat-upsell.php:86
+#: includes/class-zinn-chat-upsell.php:118
 msgid "As many colleagues answering at once as you like — the free plugin allows one."
 msgstr "Kahit gaano karaming kasamahan ang sumabay sa pag-sagot — ang libreng plugin ay nagpapahintulot ng isa."
 
-#: includes/class-zinn-chat-upsell.php:87
+#: includes/class-zinn-chat-upsell.php:119
 msgid "Every conversation kept for ever, instead of thirty days."
 msgstr "Ang bawat pag-uusap ay napanatili magpakailanman, sa halip na tatlumpung araw."
 
-#: includes/class-zinn-chat-upsell.php:88
+#: includes/class-zinn-chat-upsell.php:120
 msgid "Your own name on the chat window, with ours removed."
 msgstr "Ang iyong sariling pangalan sa window ng chat, na tinanggal ang sa amin."
 
-#: includes/class-zinn-chat-upsell.php:89
+#: includes/class-zinn-chat-upsell.php:121
 msgid "Saved replies, transfer a conversation to a colleague, and business hours."
 msgstr "Mga naka-save na tugon, maglipat ng pag-uusap sa isang kasamahan, at mga oras ng negosyo."
 
-#: includes/class-zinn-chat-upsell.php:90
+#: includes/class-zinn-chat-upsell.php:122
 msgid "5,000 AI answers a month rather than 100."
 msgstr "5,000 na sagot ng AI sa isang buwan sa halip na 100."
 
-#: includes/class-zinn-chat-upsell.php:91
+#: includes/class-zinn-chat-upsell.php:123
 msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
 msgstr "Piliin nang eksakto kung aling mga pahina lilitaw ang chat — o itago ito mula sa checkout."
 
-#: includes/class-zinn-chat-upsell.php:92
+#: includes/class-zinn-chat-upsell.php:124
 msgid "One licence covers three of your sites; ten-site licences are available."
 msgstr "Saklaw ng isang lisensya ang tatlo sa iyong mga site; available ang mga lisensya para sa sampung site."
 
-#: includes/class-zinn-chat-upsell.php:96
+#: includes/class-zinn-chat-upsell.php:128
 msgid "See what Pro costs"
 msgstr "Tingnan ang halaga ng Pro"
 
 #. translators: %s: link to the customer's licences page.
-#: includes/class-zinn-chat-upsell.php:103
+#: includes/class-zinn-chat-upsell.php:135
 #, php-format
 msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
 msgstr "Nag-ho-host na ba kayo ng site sa Zinn Digital®? Kasama ang Pro nang libre — ang iyong key ay nasa %s."
 
-#: includes/class-zinn-chat-upsell.php:105
+#: includes/class-zinn-chat-upsell.php:137
 msgid "Licences page of your dashboard"
 msgstr "Pahina ng mga lisensya ng iyong dashboard"
 
