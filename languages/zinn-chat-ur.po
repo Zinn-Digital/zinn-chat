@@ -131,11 +131,21 @@ msgstr "Zinn Hub® — ایسے لوگوں کی خدمات حاصل کریں ج�
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ہماری عالمی فری لانس مارکیٹ پلیس: مصنفین، ڈیزائنرز، ڈویلپرز اور ایس ای او ماہرین کی 10,000 سے زائد تیار شدہ خدمات میں سے انتخاب کریں، یا کوئی پروجیکٹ پوسٹ کریں اور انہیں بولی لگانے دیں۔"
 
-#: includes/class-zinn-chat-updater.php:233
+#: includes/class-zinn-chat-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Zinn Digital® ریلیز نوٹس دیکھیں۔"
 
-#: includes/class-zinn-chat-updater.php:288
+#: includes/class-zinn-chat-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® اپ ڈیٹ سروس نے اس اپ ڈیٹ کے لیے ڈاؤن لوڈ کا لنک جاری نہیں کیا۔ جانچ کریں کہ یہ سائیڈ Zinn® پلیٹ فارم تک پہنچ سکتی ہے یا نہیں، پھر دوبارہ کوشش کریں۔"
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-chat-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "اپ ڈیٹ Zinn® اپ ڈیٹ سروس (%s) سے ڈاؤن لوڈ نہیں کی جا سکتی تھی۔ کچھ دیر بعد دوبارہ کوشش کریں۔"
+
+#: includes/class-zinn-chat-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ڈاؤن لوڈ کی گئی اپ ڈیٹ اپنی سالمیت کی جانچ میں ناکام ہو گئی اور اسے انسٹال نہیں کیا گیا۔"
 

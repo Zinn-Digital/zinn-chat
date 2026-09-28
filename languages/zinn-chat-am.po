@@ -130,11 +130,21 @@ msgstr "Zinn Hub® — ይህንኑ አዘውትረው የሚሰሩ ባለሙያ
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "የglobal ነፃ ባለሙያዎች ገበያችን፡ ከጸሐፊዎች፣ ዲዛይነሮች፣ ገንቢዎች እና የSEO ባለሙያዎች ከ10,000 በላይ ዝግጁ አገልግሎቶችን ያስሱ፣ ወይም ፕሮጀክት ይለጥፉ እና እንዲወዳደሩ ያድርጉ።"
 
-#: includes/class-zinn-chat-updater.php:233
+#: includes/class-zinn-chat-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "የZinn Digital® መልቀቂያ ማስታወሻዎችን ይመልከቱ።"
 
-#: includes/class-zinn-chat-updater.php:288
+#: includes/class-zinn-chat-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "የZinn® የማሻሻያ አገልግሎት ለዚህ ማሻሻያ የማውረጃ አገናኝ አልሰጠም። ይህ ድር ጣቢያ የZinn® መድረክን መድረስ መቻሉን ያረጋግጡ፣ ከዚያ እንደገና ይሞክሩ።"
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-chat-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "ዝማኔውን ከZinn® ማሻሻያ አገልግሎት (%s) ማውረድ አልተቻለም። ከጥቂት ደቂቃዎች በኋላ እንደገና ይሞክሩ።"
+
+#: includes/class-zinn-chat-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "የወረደው ዝማኔ የታማኝነት ምርመራውን አልፎ አልፎ አልተጫነም።"
 

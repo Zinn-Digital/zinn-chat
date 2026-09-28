@@ -130,11 +130,21 @@ msgstr "Zinn Hub® — zatrudnij profesjonalistów, którzy zajmują się tym na
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Nasza globalna platforma dla freelancerów: przeglądaj ponad 10 000 gotowych usług od pisarzy, projektantów, programistów i specjalistów SEO lub opublikuj projekt i pozwól im składać oferty."
 
-#: includes/class-zinn-chat-updater.php:233
+#: includes/class-zinn-chat-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Zapoznaj się z informacjami o wydaniu Zinn Digital®."
 
-#: includes/class-zinn-chat-updater.php:288
+#: includes/class-zinn-chat-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Usługa aktualizacji Zinn® nie wygenerowała łącza do pobrania dla tej aktualizacji. Sprawdź, czy ta witryna ma dostęp do platformy Zinn®, a następnie spróbuj ponownie."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-chat-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Nie udało się pobrać aktualizacji z usługi aktualizacji Zinn® (%s). Spróbuj ponownie za kilka minut."
+
+#: includes/class-zinn-chat-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Pobrana aktualizacja nie przeszła kontroli spójności i nie została zainstalowana."
 

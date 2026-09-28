@@ -130,11 +130,21 @@ msgstr "Zinn Hub® — დაიქირავეთ ადამიანე�
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ჩვენი გლობალური ფრილანსერების ბაზარი: დაათვალიერეთ მწერლების, დიზაინერების, დეველოპერებისა და SEO სპეციალისტების 10 000-ზე მეტი მზა სერვისი, ან გამოაქვეყნეთ პროექტი და მისცეს მათ განაცხადის შეტანის საშუალება."
 
-#: includes/class-zinn-chat-updater.php:233
+#: includes/class-zinn-chat-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "იხილეთ Zinn Digital®-ის გამოშვების შენიშვნები."
 
-#: includes/class-zinn-chat-updater.php:288
+#: includes/class-zinn-chat-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® განახლების სერვისს ამ განახლებისთვის ჩამოტვირთვის ბმული არ გაუცია. შეამოწმეთ, წვდება თუ არა ეს საიტი Zinn® პლატფორმას, და სცადეთ თავიდან."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-chat-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "განახლების ჩამოტვირთვა ვერ მოხერხდა Zinn® განახლების სერვისიდან (%s). სცადეთ ისევ რამდენიმე წუთში."
+
+#: includes/class-zinn-chat-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ჩამოტვირთული განახლება ვერ გაიარა მთლიანობის შემოწმება და არ დაინსტალირდა."
 

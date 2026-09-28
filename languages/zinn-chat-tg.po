@@ -130,11 +130,21 @@ msgstr "Zinn Hub® — мутахассисони касбиро барои ин
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Бозори ҷаҳонии фрилансерони мо: зиёда аз 10,000 хидмати омодаро аз нависандагон, тарроҳон, таҳиягарон ва мутахассисони SEO пайдо кунед ё лоиҳаеро ҷойгир кунед ва бигзор онҳо пешниҳод пешниҳод кунанд."
 
-#: includes/class-zinn-chat-updater.php:233
+#: includes/class-zinn-chat-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Ба қайдҳои барориши Zinn Digital® нигаред."
 
-#: includes/class-zinn-chat-updater.php:288
+#: includes/class-zinn-chat-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Хидмати навсозии Zinn® истиноди зеркаширо барои ин навсозӣ пешниҳод накард. Санҷед, ки оё ин сомона метавонад ба платформаи Zinn® дастрасӣ пайдо кунад ва сипас дубора кӯшиш кунед."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-chat-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Навсозӣ аз хидмати навсозии Zinn® зеркашӣ карда нашуд (%s). Пас аз чанд дақиқа дубора кӯшиш кунед."
+
+#: includes/class-zinn-chat-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Навсозии зеркашидашув санҷиши дақиқиро аз сар гузаронида натавонист ва насб карда нашуд."
 
