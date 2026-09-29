@@ -148,7 +148,7 @@ final class Widget {
 			'max'       => (int) Settings::get( 'max_chars', 2000 ),
 			'i18n'      => array(
 				'title'       => Settings::text( 'title' ),
-				'greeting'    => Settings::text( 'greeting' ),
+				'greeting'    => Settings::text( Assistant::available() ? 'greeting' : 'greeting_no_ai' ),
 				'offline'     => Settings::text( 'offline_greeting' ),
 				'consent'     => Settings::text( 'consent_text' ),
 				'privacy'     => __( 'Privacy policy', 'zinn-chat' ),

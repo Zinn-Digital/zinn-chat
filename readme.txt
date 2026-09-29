@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.2
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.0.0
+Stable tag: 2.1.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -127,6 +127,9 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.1.0 =
+* Fix: with no AI key set up, the chat's default greeting no longer promises answers from the site's pages; it invites the visitor to send a message instead. A greeting you wrote yourself is unchanged.
 
 = 2.0.0 =
 * New: a complete help desk that runs on your own site. The AI assistant answers from a search index of your whole site (posts, pages, WooCommerce, forums, custom fields and page-builder content) built with your own AI key, links the page it used, and says when it does not know.

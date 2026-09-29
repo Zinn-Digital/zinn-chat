@@ -180,6 +180,11 @@ final class Settings {
 				return __( 'Chat with us', 'zinn-chat' );
 			case 'greeting':
 				return __( 'Hi! Ask me anything about this site. I answer from its own pages, and I can put you through to a person.', 'zinn-chat' );
+			case 'greeting_no_ai':
+				// ⛔ Without an AI key there is no assistant, so the default greeting must not promise
+				// one (2.0.1). An owner's own greeting (the `greeting` field) still wins.
+				$own = trim( (string) self::get( 'greeting', '' ) );
+				return '' !== $own ? $own : __( 'Hi! How can we help? Send us a message and we will get back to you.', 'zinn-chat' );
 			case 'offline_greeting':
 				return __( 'Nobody is online right now. Leave your question and email address and we will reply by email.', 'zinn-chat' );
 			case 'consent_text':
