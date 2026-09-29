@@ -148,6 +148,11 @@ final class Admin {
 	 * @return array<int|string, string>
 	 */
 	public static function action_links( array $links ): array {
+		// ⛔ No "Settings" link while Freemius waits for the opt-in choice: the screen is not
+		// registered yet, so the link answered 403. Freemius's own "Opt In" link is shown then.
+		if ( function_exists( 'zinn_chat_fs' ) && zinn_chat_fs()->is_activation_mode() ) {
+			return $links;
+		}
 		array_unshift( $links, '<a href="' . esc_url( admin_url( 'admin.php?page=' . Settings_Page::SLUG ) ) . '">' . esc_html__( 'Settings', 'zinn-chat' ) . '</a>' );
 		return $links;
 	}
@@ -164,6 +169,13 @@ final class Admin {
 		delete_transient( 'zinn_chat_activated' );
 		// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- core's own bulk-activation flag.
 		if ( isset( $_GET['activate-multi'] ) || wp_doing_ajax() || ! Capabilities::can_manage() || Settings::get( 'enabled' ) ) {
+			return;
+		}
+		// ⛔ While Freemius is waiting for the owner's opt-in choice it holds the plugin's own
+		// screens back (they are not registered yet), so redirecting to Setup answered 403 on the
+		// first admin page after activation — on every site outside our hosting (2.3.0). Freemius
+		// shows its own opt-in screen then, and sends the owner to Setup (`first-path`) after it.
+		if ( function_exists( 'zinn_chat_fs' ) && zinn_chat_fs()->is_activation_mode() ) {
 			return;
 		}
 		wp_safe_redirect( admin_url( 'admin.php?page=' . Setup_Page::SLUG ) );

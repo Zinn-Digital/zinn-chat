@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.2.0
+Stable tag: 2.3.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -127,6 +127,9 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.3.0 =
+* Fix: on a site that has not yet made the Freemius opt-in choice, activating the plugin no longer opens an error page ("Sorry, you are not allowed to access this page"). The opt-in screen appears first, then Setup. The Settings link waits for that choice too.
 
 = 2.2.0 =
 * Requirements corrected: WordPress 6.9 or later (the background task library the site index uses needs it) and PHP 7.4 or later.
