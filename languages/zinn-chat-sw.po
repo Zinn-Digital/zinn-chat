@@ -1,0 +1,331 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-chat\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sw\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: zinn-chat\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-chat.php
+msgid "Zinn® Chat"
+msgstr "Zinn® Chat"
+
+#. Plugin URI of the plugin
+#: zinn-chat.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-chat"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
+
+#. Description of the plugin
+#: zinn-chat.php
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 10 KB on the page and no requests at all until somebody opens it."
+msgstr "Soga la live chat ya haraka na inayoweka faragha mbele kwa ajili ya tovuti yako. Huwajibu wageni kwa AI ukiwa na shughuli nyingi, huwakabidhi kwako wanapohitaji mtu halisi, na kukutumia barua pepe kwa kila kitu unachokosa. Chini ya KB 10 kwenye ukurasa na hakuna maombi kabisa hadi mtu aifungue."
+
+#. Author of the plugin
+#: zinn-chat.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-chat.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-chat-admin.php:56
+msgid "Settings"
+msgstr "Mipangilio"
+
+#: includes/class-zinn-chat-admin.php:151
+msgid "That does not look like a Zinn® Chat key. Copy it from the Live chat page of your Zinn Digital® dashboard — it starts with zc_."
+msgstr "Hiyo haionekani kama ufunguo wa Zinn® Chat. Ibandue kutoka kwenye ukurasa wa Live chat wa dashibodi yako ya Zinn Digital® — huanza na zc_."
+
+#: includes/class-zinn-chat-admin.php:161
+msgid "Add your chat key before switching the chat on — without it there is nothing for the widget to connect to."
+msgstr "Ongeza ufunguo wako wa gumzo kabla ya kuwasha gumzo — bila huo hakuna kitu ambacho wijeti inaweza kuunganisha nacho."
+
+#: includes/class-zinn-chat-admin.php:201
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
+msgstr "Mazungumzo ya moja kwa moja kwa ajili ya tovuti hii. Wageni wanapata jibu mara moja, unapata chochote unachokosa kupitia barua pepe, na kila kitu kiko chini ya KB 10 kwenye ukurasa."
+
+#: includes/class-zinn-chat-admin.php:206
+msgid "The chat is live on this site."
+msgstr "Mazungumzo yako mubashara kwenye tovuti hii."
+
+#: includes/class-zinn-chat-admin.php:208
+msgid "The chat is switched off. Nothing is loaded on your site."
+msgstr "Mazungumzo yamezimwa. Hakuna kilichopakiwa kwenye tovuti yako."
+
+#: includes/class-zinn-chat-admin.php:217
+msgid "Chat key"
+msgstr "Ufunguo wa gumzo"
+
+#. translators: %s: link to the Zinn dashboard.
+#: includes/class-zinn-chat-admin.php:229
+#, php-format
+msgid "Copy this from the Live chat page of your %s."
+msgstr "Nakili hii kutoka kwenye ukurasa wa mazungumzo ya moja kwa moja wa %s yako."
+
+#: includes/class-zinn-chat-admin.php:231
+#: includes/pro/class-zinn-chat-pro-admin.php:107
+msgid "Zinn Digital® dashboard"
+msgstr "Dashibodi ya Zinn Digital®"
+
+#: includes/class-zinn-chat-admin.php:238
+msgid "Show the chat"
+msgstr "Onyesha mazungumzo"
+
+#: includes/class-zinn-chat-admin.php:245
+msgid "Show the chat window to visitors of this site"
+msgstr "Onyesha dirisha la gumzo kwa wageni wa tovuti hii"
+
+#: includes/class-zinn-chat-admin.php:248
+msgid "Until you tick this, the plugin adds nothing at all to your pages — no script, no cookie, no requests."
+msgstr "Hadi utakapoweka tiki hapa, programu-jalizi haiongezi chochote kwenye kurasa zako — hakuna hati, hakuna kuki, hakuna maombi."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-chat-promo.php:241
+#: includes/class-zinn-chat-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — miongozo na huduma"
+
+#: includes/class-zinn-chat-promo.php:256
+msgid "User guides"
+msgstr "Miongozo ya watumiaji"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-chat-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "Soma mwongozo wa mtumiaji wa %s"
+
+#: includes/class-zinn-chat-promo.php:314
+msgid "Hide this"
+msgstr "Ficha hii"
+
+#: includes/class-zinn-chat-promo.php:424
+msgid "Zinn® hosting for WordPress"
+msgstr "Upangishaji wa Zinn® kwa ajili ya WordPress"
+
+#: includes/class-zinn-chat-promo.php:425
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, nakala rudufu za kila siku, uhamiaji wa bure na kidhibiti kilichoundwa kwa ajili ya watu wanaoendesha zaidi ya tovuti moja."
+
+#: includes/class-zinn-chat-promo.php:431
+msgid "The Zinn® marketplace"
+msgstr "Soko la Zinn®"
+
+#: includes/class-zinn-chat-promo.php:432
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "Nunua na uuze tovuti, vikoa na nafasi za viungo zilizowekwa tayari, huku pesa zikiwekwa kwa usalama hadi pande zote mbili zitakapofurahi."
+
+#: includes/class-zinn-chat-promo.php:479
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — ajiri wataalamu wanaofanya hili kwa kazi yao"
+
+#: includes/class-zinn-chat-promo.php:480
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "Soko letu la kimataifa la wanafanyakazi huru: vinjari huduma zaidi ya 10,000 zilizotayari kutoka kwa waandishi, wabunifu, wasanidi programu na wataalamu wa SEO, au chapisha mradi na uwaruhusu watoe zabuni."
+
+#: includes/class-zinn-chat-updater.php:253
+msgid "See the Zinn Digital® release notes."
+msgstr "Angalia maelezo ya toleo la Zinn Digital®."
+
+#: includes/class-zinn-chat-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Huduma ya sasisho ya Zinn® haikutoa kiungo cha kupakua kwa sasisho hili. Hakikisha kuwa tovuti hii inaweza kufikia jukwaa la Zinn®, kisha jaribu tena."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-chat-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Sasisho halikuweza kupakuliwa kutoka kwa huduma ya sasisho ya Zinn® (%s). Jaribu tena baada ya dakika chache."
+
+#: includes/class-zinn-chat-updater.php:330
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Sasisho lililopakuliwa limeshindwa ukaguzi wa uadilifu na halijasakinishwa."
+
+#: includes/class-zinn-chat-upsell.php:101
+msgid "Go Pro"
+msgstr "Peleka Pro"
+
+#: includes/class-zinn-chat-upsell.php:115
+msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
+msgstr "Kila kitu hapa kinaendelea kufanya kazi bila malipo, milele. Toleo la Pro ni la wakati ambapo mtu mmoja anayejibu, na mwezi mmoja wa historia, vinapoacha kutosha."
+
+#: includes/class-zinn-chat-upsell.php:118
+msgid "As many colleagues answering at once as you like — the free plugin allows one."
+msgstr "Wenzao wengi wa wafanyakazi unaowataka wakijibu kwa wakati mmoja — programu-jalizi ya bure inaruhusu mmoja tu."
+
+#: includes/class-zinn-chat-upsell.php:119
+msgid "Every conversation kept for ever, instead of thirty days."
+msgstr "Kila mazungumzo yanatunzwa milele, badala ya siku thelathini."
+
+#: includes/class-zinn-chat-upsell.php:120
+msgid "Your own name on the chat window, with ours removed."
+msgstr "Jina lako mwenyewe kwenye dirisha la gumzo, huku letu likiondolewa."
+
+#: includes/class-zinn-chat-upsell.php:121
+msgid "Saved replies, transfer a conversation to a colleague, and business hours."
+msgstr "Majibu yaliyohifadhiwa, hamisha mazungumzo kwa mfanyakazi mwenzako, na saa za kazi."
+
+#: includes/class-zinn-chat-upsell.php:122
+msgid "5,000 AI answers a month rather than 100."
+msgstr "Majibu ya AI 5,000 kwa mwezi badala ya 100."
+
+#: includes/class-zinn-chat-upsell.php:123
+msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
+msgstr "Chagua kwa usahihi kurasa ambazo mazungumzo yanaonekana — au yafiche kwenye sehemu ya kulipa."
+
+#: includes/class-zinn-chat-upsell.php:124
+msgid "One licence covers three of your sites; ten-site licences are available."
+msgstr "Leseni moja inashughulikia tovuti zako tatu; leseni za tovuti kumi zinapatikana."
+
+#: includes/class-zinn-chat-upsell.php:128
+msgid "See what Pro costs"
+msgstr "Tazama gharama za Pro"
+
+#. translators: %s: link to the customer's licences page.
+#: includes/class-zinn-chat-upsell.php:135
+#, php-format
+msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
+msgstr "Tayari unapangisha tovuti na Zinn Digital®? Pro imejumuishwa bure — ufunguo wako uko kwenye %s."
+
+#: includes/class-zinn-chat-upsell.php:137
+msgid "Licences page of your dashboard"
+msgstr "Ukurasa wa leseni za dashibodi yako"
+
+#: includes/pro/class-zinn-chat-licence.php:276
+msgid "Your licence is active."
+msgstr "Leseni yako inafanya kazi."
+
+#: includes/pro/class-zinn-chat-licence.php:278
+msgid "Your licence has run out but everything still works for a short while. Renew it to keep receiving updates."
+msgstr "Leseni yako imeisha lakini kila kitu bado kinafanya kazi kwa muda mfupi. Ifanye upya ili uendelee kupokea masasisho."
+
+#: includes/pro/class-zinn-chat-licence.php:280
+msgid "We do not recognise that licence key. Copy it again from the Licences page of your Zinn Digital® dashboard."
+msgstr "Hatutambui ufunguo huo wa leseni. Nakili tena kutoka kwenye ukurasa wa Leseni za dashibodi yako ya Zinn Digital®."
+
+#: includes/pro/class-zinn-chat-licence.php:282
+msgid "That key is for a different Zinn® plugin. The one you want is on the Licences page of your dashboard, next to Zinn® Chat Pro."
+msgstr "Ufunguo huo ni wa programu jalizi nyingine ya Zinn®. Unayohitaji iko kwenye ukurasa wa Leseni wa dashibodi yako, karibu na Zinn® Chat Pro."
+
+#: includes/pro/class-zinn-chat-licence.php:284
+msgid "Your licence has expired. Renew it from your Zinn Digital® dashboard to switch the Pro features back on."
+msgstr "Leseni yako imekwisha muda wake. Jisasishe kutoka kwenye dashibodi yako ya Zinn Digital® ili kuwezesha tena vipengele vya Pro."
+
+#: includes/pro/class-zinn-chat-licence.php:286
+msgid "This licence has been cancelled."
+msgstr "Leseni hii imefutiliwa mbali."
+
+#: includes/pro/class-zinn-chat-licence.php:288
+msgid "This licence is on hold. Please get in touch and we will sort it out."
+msgstr "Leseni hii imesitishwa. Tafadhali wasiliana nasi na tutalitatua."
+
+#: includes/pro/class-zinn-chat-licence.php:290
+msgid "There is a billing problem on your Zinn Digital® account. Once it is settled the licence works again straight away."
+msgstr "Kuna tatizo la malipo kwenye akaunti yako ya Zinn Digital®. Mara tu litakaporekebishwa, leseni itafanya kazi tena mara moja."
+
+#: includes/pro/class-zinn-chat-licence.php:292
+msgid "This licence came free with your Zinn® hosting, and that hosting has ended. Buy a licence, or start hosting with us again, to switch Pro back on."
+msgstr "Leseni hii ilikuja bure na upangishaji wako wa Zinn®, na upangishaji huo umekwisha. Nunua leseni, au anza kupangisha nasi tena, ili kuwasha Pro tena."
+
+#: includes/pro/class-zinn-chat-licence.php:294
+msgid "Every site on this licence is in use. Release one below, or upgrade to cover more sites."
+msgstr "Kila tovuti iliyo kwenye leseni hii inatum randomIndex. Futa moja hapa chini, au boresha ili ujumuishe tovuti zaidi."
+
+#: includes/pro/class-zinn-chat-licence.php:296
+msgid "We could not confirm your licence just now. Nothing has changed on your site; we will try again shortly."
+msgstr "Hatukuweza kuthibitisha leseni yako kwa sasa. Hakuna kilichobadilika kwenye tovuti yako; tutajaribu tena hivi karibuni."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:60
+msgid "You do not have permission to manage licences on this site."
+msgstr "Huna ruhusa ya kusimamia leseni kwenye tovuti hii."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:87
+msgid "Your Pro licence"
+msgstr "Leseni yako ya Pro"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:94
+msgid "Licence key"
+msgstr "Ufunguo wa leseni"
+
+#. translators: %s: link to the dashboard licences page.
+#: includes/pro/class-zinn-chat-pro-admin.php:105
+#, php-format
+msgid "Copy it from the Licences page of your %s."
+msgstr "Iakili kutoka ukurasa wa Leseni za %s yako."
+
+#. translators: %s: a date.
+#: includes/pro/class-zinn-chat-pro-admin.php:121
+#, php-format
+msgid "Renews on %s."
+msgstr "Inajirishwa tarehe %s."
+
+#. translators: 1: sites in use, 2: sites the licence covers.
+#: includes/pro/class-zinn-chat-pro-admin.php:137
+#, php-format
+msgid "Using %1$d of %2$d sites."
+msgstr "Unatumia tovuti %1$d kati ya %2$d."
+
+#. translators: %s: comma-separated list of hostnames.
+#: includes/pro/class-zinn-chat-pro-admin.php:149
+#, php-format
+msgid "In use on: %s. Release one from your dashboard, then try again."
+msgstr "Inatumika kwenye: %s. Achilia moja kutoka kwenye dashibodi yako, kisha ujaribu tena."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:160
+msgid "Save licence"
+msgstr "Hifadhi leseni"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:164
+msgid "Remove it from this site"
+msgstr "Ondoa kutoka kwenye tovuti hii"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:181
+msgid "Where the chat appears"
+msgstr "Mahali ambapo gumzo linaonekana"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:193
+msgid "Show it"
+msgstr "Oneshe"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:197
+msgid "Everywhere on this site"
+msgstr "Kila mahali kwenye tovuti hii"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:198
+msgid "Only on the pages I choose below"
+msgstr "Kwenye kurasa ninazochagua hapa chini pekee"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:199
+msgid "Everywhere except the pages I choose below"
+msgstr "Kila mahali isipokuwa kurasa ninazochagua hapa chini"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:215
+msgid "Page or post IDs"
+msgstr "Vitambulisho vya ukurasa au chapisho"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:223
+msgid "Separate them with commas. The ID is in the address bar while you edit a page."
+msgstr "Tenganisha kwa koma. Kitambulisho kiko kwenye mwambaa wa anwani wakati unahariri ukurasa."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:228
+msgid "Whole content types"
+msgstr "Aina zote za maudhui"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:242
+msgid "Signed-in visitors"
+msgstr "Wagenzi waliotia sahihi"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:249
+msgid "Hide the chat from people who are signed in to this site"
+msgstr "Ficha gumzo kwa watu walioingia kwenye tovuti hii"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:254
+msgid "Save where it appears"
+msgstr "Hifadhi inapohitajika"

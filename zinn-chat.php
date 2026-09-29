@@ -1,86 +1,223 @@
 <?php
-
 /**
  * Plugin Name:       Zinn® Chat
  * Plugin URI:        https://zinndigital.com/wordpress-plugins/zinn-chat
- * Description:       A complete help desk and AI assistant that runs on your own WordPress: an AI that answers from your own pages with links, live chat, and support tickets in wp-admin, on a submit-a-ticket page and in the WooCommerce account area. Under 10 KB on the page and no requests at all until a visitor opens it.
- * Version:           2.1.0
- * Requires at least: 6.2
- * Requires PHP:      7.4
+ * Description:       A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 10 KB on the page and no requests at all until somebody opens it.
+ * Version:           1.6.0
+ * Requires at least: 6.6
+ * Requires PHP:      8.2
  * Author:            Neil Lock — CEO, Zinn Digital® Ltd
  * Author URI:        https://zinndigital.com
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       zinn-chat
  * Domain Path:       /languages
+ * Update URI:        https://zinndigital.com
  *
- * @package ZinnDigital\ZinnChat
+ * @package ZinnChat
  *
- * ⛔⛔ THIS FILE IS WRITTEN IN THE LICENSING SERVICE'S OWN PRINT, NOT IN WPCS STYLE. Freemius
- * re-prints the file that calls fs_dynamic_init() (four-space indent, no blank lines between
- * statements, `!$x`); every other file reaches its free package byte-for-byte (docs/adr/0031).
- * Keep it to headers, constants, the SDK init and one require; everything else lives in includes/.
+ * ⚖️ **Owner, 2026-09-09:** *"what about building our own tawk.io style chat plugin and
+ * backend as a stand alone product with premium features for wp and any site with js and
+ * things? So we can install on all our customers wp sites by default and make it better
+ * performance optimised and ai integrated and better than tawk's slow shitty expensive
+ * one etc?"*
  *
- * ⛔ No `Update URI` header and no secret key in this SOURCE. Freemius adds the header to the
- * premium download only. The SDK needs only the PUBLIC key below.
+ * ⛔⛔ **ACTIVE ONLY WHEN THE SITE OWNER SWITCHES IT ON.** It may be present on a site
+ * whose owner has never asked for a chat widget — it is installable from wordpress.org and
+ * from our own catalogue, and the deploy footprint is intended to carry it.
+ * ⚠️ It does NOT carry it today: `engine/hosting/platform_plugin.py` ships exactly one
+ * plugin, `zinn-cache` (measured 2026-09-12, D25514). The consent design below does not
+ * depend on which is true, and must not be relaxed if the footprint ever widens. It does
+ * NOTHING until a key is saved and the box is ticked: no script, no markup, no request,
+ * no cookie, no storage. A chat window that starts talking to somebody's visitors unasked
+ * is a consent problem, not a feature — and under the GDPR it would be our customer who
+ * answered for it.
  *
- * ⛔ `has_paid_plans` stays false until the release that SHIPS Pro (lane CHAT-PRO flips it, with
- * `Admin\Upsell::LIVE`): with it true the SDK adds an Upgrade menu and trial notices, which would
- * sell a Pro edition that does not exist yet.
- *
- * ⛔⛔ ACTIVE ONLY WHEN THE SITE OWNER SWITCHES IT ON. It is preinstalled on every site Zinn hosts,
- * so it does NOTHING on the front end until the owner turns the chat on: no script, no markup, no
- * request, no cookie. A chat window that talks to somebody's visitors unasked is a consent problem.
+ * ⭐ **The performance claim is the product, so it is structural rather than careful.**
+ * The widget is enqueued with `defer`, in the footer, and carries its configuration
+ * INLINE as a data attribute — so a page nobody chats on makes not one network request
+ * on the widget's behalf. The settings are already in the database on the server that is
+ * rendering the page; making the visitor's browser go and ask for them would be paying a
+ * round trip for something we were holding all along.
  */
-defined( 'ABSPATH' ) || exit;
-if ( function_exists( 'zinn_chat_fs' ) ) {
-    zinn_chat_fs()->set_basename( false, __FILE__ );
-    return;
+
+declare( strict_types = 1 );
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
 }
-define( 'ZINN_CHAT_VERSION', '2.1.0' );
+
+define( 'ZINN_CHAT_VERSION', '1.6.0' );
 define( 'ZINN_CHAT_FILE', __FILE__ );
 define( 'ZINN_CHAT_DIR', plugin_dir_path( __FILE__ ) );
-define( 'ZINN_CHAT_URL', plugin_dir_url( __FILE__ ) );
-if ( !function_exists( 'zinn_chat_fs' ) ) {
-    /**
-     * The licensing SDK instance for this plugin (Freemius product 40436).
-     *
-     * @return Freemius
-     */
-    function zinn_chat_fs() {
-        global $zinn_chat_fs;
-        if ( !isset( $zinn_chat_fs ) ) {
-            require_once __DIR__ . '/vendor/freemius/start.php';
-            $zinn_chat_fs = fs_dynamic_init( array(
-                'id'               => '40436',
-                'slug'             => 'zinn-chat',
-                'premium_slug'     => 'zinn-chat-premium',
-                'type'             => 'plugin',
-                'public_key'       => 'pk_a4fcbff8e8c9d1c7c756694c0311e',
-                'is_premium'       => false,
-                'premium_suffix'   => 'Pro',
-                'has_addons'       => false,
-                'has_paid_plans'   => false,
-                'trial'            => array(
-                    'days'               => 14,
-                    'is_require_payment' => false,
-                ),
-                'is_org_compliant' => true,
-                'menu'             => array(
-                    'slug'       => 'zinn-chat',
-                    'first-path' => 'admin.php?page=zinn-chat-setup',
-                    'contact'    => false,
-                    'support'    => false,
-                ),
-                'anonymous_mode'   => defined( 'ZINN_SITE_EVENTS_URL' ),
-                'is_live'          => true,
-            ) );
-        }
-        return $zinn_chat_fs;
-    }
 
-    zinn_chat_fs();
-    zinn_chat_fs()->add_action( 'after_uninstall', 'zinn_chat_uninstall' );
-    do_action( 'zinn_chat_fs_loaded' );
+// ⛔ `__DIR__`, not the `ZINN_CHAT_DIR` constant, and the difference is a GATE rather than
+// taste. `scripts/wp-class-loader-check.py` reads these lines statically to prove every
+// class the plugin CALLS is in a file it LOADS — a `require_once <CONSTANT> . '…'` is
+// invisible to it, so it reported four classes as never loaded and a PHP fatal at each
+// call. The constant was resolvable only at run time, which is exactly when a fatal is too
+// late to be useful.
+require_once __DIR__ . '/includes/class-zinn-chat-settings.php';
+require_once __DIR__ . '/includes/class-zinn-chat-widget.php';
+require_once __DIR__ . '/includes/class-zinn-chat-admin.php';
+require_once __DIR__ . '/includes/class-zinn-chat-sync.php';
+require_once __DIR__ . '/includes/class-zinn-chat-updater.php'; // Generated by wp/bin/build-updater.php.
+// ⛔⛤ **`is_readable`, NOT A BARE `require_once`, AND THIS LINE FATALED A REAL WordPress.**
+// The Pro build DROPS this file (it asks a paying customer to buy what they own), so a hard
+// require of it is `Failed opening required …` on activation — the plugin does not install
+// at all. Found by booting a real WordPress and installing the built zip; **no static gate
+// on this estate could see it**, because `scripts/wp-class-loadable.py` reads the requires
+// against the SOURCE TREE, where the file is present. §2.24: the observable was "does it
+// activate", and that appears in no diff.
+if ( is_readable( __DIR__ . '/includes/class-zinn-chat-upsell.php' ) ) {
+	require_once __DIR__ . '/includes/class-zinn-chat-upsell.php';
 }
-require_once __DIR__ . '/includes/bootstrap.php';
+
+// ⛔⛤ **THE PRO LAYER IS LOADED IF IT IS THERE, AND IN THE FREE BUILD IT IS NOT.**
+// `wp/bin/build-plugin.php --pro` ships `includes/pro/`; the free and `--dotorg` builds drop
+// the directory and this block finds nothing. There is still exactly ONE source tree — see
+// that script's header for why two was refused, and `includes/pro/class-zinn-chat-licence.php`
+// for what each build contains.
+//
+// ⛔ `file_exists` rather than a constant or a build-time substitution: the check has to be
+// true of the FILES ON DISK, so a half-copied deploy loads nothing rather than fataling on a
+// `require` of a file a build decided not to ship.
+//
+// ⛔⛔ AND IT IS NOT INSIDE `is_admin()`. `Zinn_Chat_Targeting` filters a FRONT-END decision
+// and `Zinn_Chat_Licence` runs on cron; loading the Pro layer only in wp-admin would mean the
+// targeting rules a customer saved applied to nothing, silently, on every page a visitor
+// actually sees — which is the exact shape D19745 records one require down.
+//
+// ⛔⛔⛤ **AND `defined()` AS WELL AS `is_readable()`, BECAUSE PRESENCE ALONE IS A FLAG NOTHING
+// CAN ASSERT AGAINST** (raised by lane W43-85, 2026-09-14, and they were right). Until this
+// line the ONLY thing switching the Pro layer off was `build-plugin.php` declining to copy the
+// directory — so **any other process that archives this tree ships a Pro build**, and one
+// does: `engine/hosting/platform_plugin.py` zips `wp/plugins/zinn-chat/` whole, with no
+// transform, for the deploy footprint. On a hosted site that never bought Pro, the files would
+// have loaded, `Licence::init()` would have scheduled a cron, `Targeting::init()` would have
+// added a live front-end filter, and — the customer-visible half — the `class_exists` ternary
+// below would have taken the OTHER branch and rendered **the licence-key box instead of the
+// upsell**. Which is precisely what the comment on that ternary forbids.
+//
+// ⭐ `ZINN_CHAT_PRO` is written into the main file by `build-plugin.php --pro`, so the Pro
+// layer now needs a POSITIVE signal that a build had to put there on purpose. An archiver that
+// sweeps the directory in is harmless: the files are present and never loaded. ⛔ Both
+// conditions, not either: the constant says what this build IS, `is_readable` says what is
+// actually on disk, and a half-copied deploy must load nothing rather than fatal on a
+// `require` of a file that is missing.
+if ( defined( 'ZINN_CHAT_PRO' ) && ZINN_CHAT_PRO
+	&& is_readable( __DIR__ . '/includes/pro/class-zinn-chat-licence.php' ) ) {
+	require_once __DIR__ . '/includes/pro/class-zinn-chat-licence.php';
+	require_once __DIR__ . '/includes/pro/class-zinn-chat-targeting.php';
+	require_once __DIR__ . '/includes/pro/class-zinn-chat-pro-admin.php';
+}
+
+/**
+ * Boot the plugin.
+ *
+ * ⛔ Hooked on `plugins_loaded` rather than run at include time: every `add_action` below
+ * needs WordPress to be up, and a plugin that does work while it is being included is one of
+ * the things a directory reviewer looks for.
+ *
+ * ⛔⛔ **This docblock must stay true of BOTH build targets.** `wp/bin/build-plugin.php`
+ * strips the textdomain call and the updater from the `--dotorg` zip, so prose here that
+ * explains machinery the reviewer cannot find is a stale comment shipped to wordpress.org
+ * — exactly the class `docs/432` §2a records for `readme.txt`. Anything specific to a
+ * stripped call belongs on the call's own `//` lines, which the transform removes with it.
+ */
+function zinn_chat_boot(): void {
+	// ⛔ The call needs WordPress up, which is the other half of the `plugins_loaded` hook
+	// above. It is stripped from the `--dotorg` build: a plugin in the directory receives its
+	// translations from translate.wordpress.org and WordPress has loaded them automatically
+	// since 4.6, so calling it there is redundant and the directory's own checker flags it.
+	// A plugin we distribute ourselves receives no language packs at all, so this call is what
+	// makes the bundled `languages/` directory work and MUST stay in the default build.
+	load_plugin_textdomain( 'zinn-chat', false, dirname( plugin_basename( ZINN_CHAT_FILE ) ) . '/languages' );
+
+	Zinn_Chat_Widget::init();
+	// ⛔ OUTSIDE the `is_admin()` branch below, and that is the whole point: the daily
+	// refresh runs from WP-Cron, and a cron request is not an admin one. Registering it
+	// with the settings screen would mean the cached config only ever updated while
+	// somebody had wp-admin open — the defect `Zinn_Chat_Updater` already records as
+	// D19745, one hook down.
+	Zinn_Chat_Sync::init();
+
+	// ⛔ Registered outside the `is_admin()` branch. WordPress runs its update check from
+	// cron as well as from the updates screen, and a cron request is not an admin one — so
+	// a plugin that only registers this in wp-admin is a plugin whose updates arrive when
+	// somebody happens to look, rather than when they are published (D19745).
+	( new Zinn_Chat_Updater( ZINN_CHAT_FILE, ZINN_CHAT_VERSION ) )->register();
+
+	// ⛔ OUTSIDE `is_admin()` for the same reason `Zinn_Chat_Sync` is: `Zinn_Chat_Licence`
+	// schedules and answers a daily WP-Cron event, and a cron request is not an admin one.
+	// `Zinn_Chat_Targeting` filters a front-end decision and would apply to nothing at all.
+	if ( class_exists( 'Zinn_Chat_Licence' ) ) {
+		Zinn_Chat_Licence::init();
+		Zinn_Chat_Targeting::init();
+	}
+
+	if ( is_admin() ) {
+		Zinn_Chat_Admin::init();
+		// ⛔ Exactly ONE of these two exists in any given build — the Pro build drops the
+		// upsell and the free build drops the Pro layer — so a customer never sees a panel
+		// asking them to buy what they have already paid for, and a free user is never shown
+		// a licence box they cannot fill in.
+		if ( class_exists( 'Zinn_Chat_Pro_Admin' ) ) {
+			Zinn_Chat_Pro_Admin::init();
+		} elseif ( class_exists( 'Zinn_Chat_Upsell' ) ) {
+			Zinn_Chat_Upsell::init();
+		}
+	}
+}
+add_action( 'plugins_loaded', 'zinn_chat_boot' );
+
+// The shared Zinn® panel in wp-admin — hosting, the marketplace, Zinn Hub® and this
+// plugin's own guide (⚖️ owner, 2026-09-01). GENERATED by `wp/bin/build-promo.php`; do not
+// edit the file it writes.
+//
+// ⛔ `require_once` rather than the autoloader, and a STRING callable rather than
+// `array( Zinn_Chat_Promo::class, … )`. The class is deliberately global — it is shipped
+// identically into every plugin, and some of them bootstrap inside a namespace where
+// `::class` would resolve to a class that does not exist. A string callable resolves in
+// the global namespace at call time, which is correct from all of them. `php -l` cannot
+// see that mistake; only running it can.
+require_once __DIR__ . '/includes/class-zinn-chat-promo.php';
+add_action( 'plugins_loaded', array( 'Zinn_Chat_Promo', 'register' ) );
+
+/**
+ * Remove the options this plugin owns when it is deleted.
+ *
+ * ⭐ Registered here AND implemented in `uninstall.php`. WordPress calls the file for a
+ * deletion from the plugins screen; the hook covers a programmatic `delete_plugins()`,
+ * which is how our own fleet tooling removes it. Two entry points, one function, so they
+ * cannot disagree about what "uninstalled" leaves behind.
+ */
+register_uninstall_hook( __FILE__, 'zinn_chat_uninstall' );
+
+// ⛔ The daily config refresh is a scheduled event, so it is started and stopped with
+// the plugin rather than left behind. A cron entry pointing at a hook nothing listens
+// to is silent, permanent litter in every deactivated site's options table.
+register_activation_hook( __FILE__, array( 'Zinn_Chat_Sync', 'schedule' ) );
+register_deactivation_hook( __FILE__, array( 'Zinn_Chat_Sync', 'unschedule' ) );
+
+/**
+ * Delete every option this plugin created. Safe to call twice.
+ */
+function zinn_chat_uninstall(): void {
+	delete_option( Zinn_Chat_Settings::OPTION );
+	// ⭐ The scheduled event too. `register_deactivation_hook` normally gets there first,
+	// but a plugin deleted from a site whose deactivation hook did not run (a file-level
+	// removal by our own fleet tooling, say) would otherwise leave a cron entry firing at
+	// a hook that no longer exists, for ever.
+	if ( class_exists( 'Zinn_Chat_Sync' ) ) {
+		Zinn_Chat_Sync::unschedule();
+	}
+	// ⭐ The Pro build's own option and cron event. Guarded by `class_exists` rather than by
+	// a build flag, so this one function is correct in both builds — a second uninstall path
+	// per edition is two things to keep in step and one of them would be wrong.
+	delete_option( 'zinn_chat_licence' );
+	$licence_cron = wp_next_scheduled( 'zinn_chat_licence_check' );
+	if ( $licence_cron ) {
+		wp_unschedule_event( $licence_cron, 'zinn_chat_licence_check' );
+	}
+}

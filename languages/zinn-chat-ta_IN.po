@@ -1,0 +1,331 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-chat\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ta_IN\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: zinn-chat\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-chat.php
+msgid "Zinn® Chat"
+msgstr "Zinn® Chat"
+
+#. Plugin URI of the plugin
+#: zinn-chat.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-chat"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-chat"
+
+#. Description of the plugin
+#: zinn-chat.php
+msgid "A fast, privacy-respecting live chat for your website. Answers visitors with AI when you are busy, hands them to you when they need a person, and emails you anything you miss. Under 10 KB on the page and no requests at all until somebody opens it."
+msgstr "உங்கள் வலைத்தளத்திற்கான வேகமான, தனியுரிமை மதிக்கக்கூடிய நேரலை அரட்டை. நீங்கள் பிஸியாக இருக்கும்போது AI மூலம் பார்வையாளர்களுக்கு பதிலளிக்கிறது, அவர்களுக்கு மனித உதவியாளர் தேவைப்படும்போது உங்களிடம் மாற்றுகிறது, மேலும் நீங்கள் தவறவிட்ட எதையும் உங்களுக்கு மின்னஞ்சல் செய்கிறது. பக்கத்தில் 10 KB க்கும் குறைவானது மற்றும் யாராவது திறக்கும் வரை எந்த கோரிக்கைகளும் இல்லை."
+
+#. Author of the plugin
+#: zinn-chat.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-chat.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-chat-admin.php:56
+msgid "Settings"
+msgstr "அமைப்புகள்"
+
+#: includes/class-zinn-chat-admin.php:151
+msgid "That does not look like a Zinn® Chat key. Copy it from the Live chat page of your Zinn Digital® dashboard — it starts with zc_."
+msgstr "அது Zinn® Chat விசை போல் தெரியவில்லை. உங்கள் Zinn Digital® டாஷ்போர்டின் லைவ் அரட்டை பக்கத்திலிருந்து அதை நகலெடுக்கவும் — அது zc_ உடன் தொடங்கும்."
+
+#: includes/class-zinn-chat-admin.php:161
+msgid "Add your chat key before switching the chat on — without it there is nothing for the widget to connect to."
+msgstr "அரட்டையை இயக்குவதற்கு முன்பு உங்கள் அரட்டை விசையைச் சேர்க்கவும் — அது இல்லாமல் விட்ஜெட் இணைக்க எதுவும் இருக்காது."
+
+#: includes/class-zinn-chat-admin.php:201
+msgid "Live chat for this site. Visitors get an answer straight away, you get anything you miss by email, and the whole thing is under 10 KB on the page."
+msgstr "இந்தத் தளத்திற்கான நேரலை அரட்டை. பார்வையாளர்களுக்கு உடனடியாகப் பதில் கிடைக்கும், நீங்கள் தவறவிடுபவை மின்னஞ்சல் மூலம் கிடைக்கும், மேலும் பக்கத்தில் இதன் மொத்த அளவு 10 KB-க்கும் குறைவு."
+
+#: includes/class-zinn-chat-admin.php:206
+msgid "The chat is live on this site."
+msgstr "இந்தத் தளத்தில் அரட்டை நேரலையில் உள்ளது."
+
+#: includes/class-zinn-chat-admin.php:208
+msgid "The chat is switched off. Nothing is loaded on your site."
+msgstr "அரட்டை அணைக்கப்பட்டுள்ளது. உங்கள் தளத்தில் எதுவும் ஏற்றப்படவில்லை."
+
+#: includes/class-zinn-chat-admin.php:217
+msgid "Chat key"
+msgstr "அரட்டை விசை"
+
+#. translators: %s: link to the Zinn dashboard.
+#: includes/class-zinn-chat-admin.php:229
+#, php-format
+msgid "Copy this from the Live chat page of your %s."
+msgstr "உங்களின் %s இன் நேரலை அரட்டைப் பக்கத்திலிருந்து இதை நகலெடுக்கவும்."
+
+#: includes/class-zinn-chat-admin.php:231
+#: includes/pro/class-zinn-chat-pro-admin.php:107
+msgid "Zinn Digital® dashboard"
+msgstr "Zinn Digital® டாஷ்போர்டு"
+
+#: includes/class-zinn-chat-admin.php:238
+msgid "Show the chat"
+msgstr "அரட்டையைக் காட்டுங்கள்"
+
+#: includes/class-zinn-chat-admin.php:245
+msgid "Show the chat window to visitors of this site"
+msgstr "இந்தத் தளத்தின் வருகையாளர்களுக்கு அரட்டை சாளரத்தைக் காட்டுங்கள்"
+
+#: includes/class-zinn-chat-admin.php:248
+msgid "Until you tick this, the plugin adds nothing at all to your pages — no script, no cookie, no requests."
+msgstr "நீங்கள் இதை டிக் செய்யும் வரை, பிளக்கின் உங்கள் பக்கங்களில் எதையுமே சேர்க்காது - ஸ்கிரிப்ட் இல்லை, குக்ஹி இல்லை, கோரிக்கைகளும் இல்லை."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-chat-promo.php:241
+#: includes/class-zinn-chat-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — வழிகாட்டிகளும் சேவைகளும்"
+
+#: includes/class-zinn-chat-promo.php:256
+msgid "User guides"
+msgstr "பயனர் வழிகாட்டிகள்"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-chat-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "%s பயனர் வழிகாட்டியைப் படிக்கவும்"
+
+#: includes/class-zinn-chat-promo.php:314
+msgid "Hide this"
+msgstr "மறை"
+
+#: includes/class-zinn-chat-promo.php:424
+msgid "Zinn® hosting for WordPress"
+msgstr "வேர்ட்பிரஸ் (WordPress)-க்கான Zinn® ஹோஸ்டிங்"
+
+#: includes/class-zinn-chat-promo.php:425
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, தினசரி காப்புப்பிரதிகள், இலவச இடம்பெயர்வு மற்றும் ஒன்றுக்கும் மேற்பட்ட தளங்களை இயக்குபவர்களுக்காக உருவாக்கப்பட்ட கட்டுப்பாட்டுப் பலகம்."
+
+#: includes/class-zinn-chat-promo.php:431
+msgid "The Zinn® marketplace"
+msgstr "Zinn® சந்தை"
+
+#: includes/class-zinn-chat-promo.php:432
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "நிறுவப்பட்ட தளங்கள், டொமைன்கள் மற்றும் இணைப்பு இடங்களை வாங்கலாம் மற்றும் விற்கலாம், இரு தரப்பினரும் திருப்தி அடையும் வரை பணம் பாதுகாப்பாகப் பிடிக்கப்படும்."
+
+#: includes/class-zinn-chat-promo.php:479
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — இதைத் தொழிலாகச் செய்பவர்களை அமர்த்துங்கள்"
+
+#: includes/class-zinn-chat-promo.php:480
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "எங்களின் உலகளாவிய ப்ரீலான்ஸ் சந்தை: எழுத்தாளர்கள், வடிவமைப்பாளர்கள், டெவலப்பர்கள் மற்றும் எஸ்சிஓ நிபுணர்களின் 10,000-க்கும் மேற்பட்ட ரெடிமேட் சேவைகளை உலவுங்கள் அல்லது ஒரு திட்டத்தை இடுகையிட்டு அவர்களை ஏலம் எடுக்க விடுங்கள்."
+
+#: includes/class-zinn-chat-updater.php:253
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® வெளியீட்டு குறிப்புகளைப் பார்க்கவும்."
+
+#: includes/class-zinn-chat-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® புதுப்பிப்புச் சேவை இந்தப் புதுப்பிப்புக்கான பதிவிறக்க இணைப்பை வழங்கவில்லை. இந்தத் தளம் Zinn® தளத்தை அடைய முடியுமா என்பதைச் சரிபார்த்துவிட்டு, மீண்டும் முயற்சிக்கவும்."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-chat-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Zinn® புதுப்பிப்பு சேவையிலிருந்து (%s) புதுப்பிப்பைப் பதிவிறக்க முடியவில்லை. சில நிமிடங்களுக்குப் பிறகு மீண்டும் முயற்சிக்கவும்."
+
+#: includes/class-zinn-chat-updater.php:330
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "பதிவிறக்கம் செய்யப்பட்ட புதுப்பிப்பு அதன் ஒருமைமை சோதனையில் (integrity check) தோல்வியடைந்தது, அதனால் நிறுவப்படவில்லை."
+
+#: includes/class-zinn-chat-upsell.php:101
+msgid "Go Pro"
+msgstr "கோ புரோ"
+
+#: includes/class-zinn-chat-upsell.php:115
+msgid "Everything here keeps working for nothing, for ever. Pro is for when one person answering, and a month of history, stops being enough."
+msgstr "இங்குள்ள அனைத்தும் எந்தக் கட்டணமும் இல்லாமல், எப்போதும் தொடர்ந்து செயல்படும். பதிலளிக்க ஒரு நபர் மற்றும் ஒரு மாத கால வரலாறு ஆகியவை போதுமானதாக இல்லாதபோது ப்ரோ (Pro) பதிப்பு பயன்படும்."
+
+#: includes/class-zinn-chat-upsell.php:118
+msgid "As many colleagues answering at once as you like — the free plugin allows one."
+msgstr "விருப்பப்படி எத்தனை சக ஊழியர்கள் வேண்டுமானாலும் ஒரே நேரத்தில் பதிலளிக்கலாம் — இலவச செருகுநிரல் (plugin) ஒன்றை அனுமதிக்கிறது."
+
+#: includes/class-zinn-chat-upsell.php:119
+msgid "Every conversation kept for ever, instead of thirty days."
+msgstr "முப்பது நாட்களுக்குப் பதிலாக ஒவ்வொரு உரையாடலும் எப்போதும் சேமிக்கப்படும்."
+
+#: includes/class-zinn-chat-upsell.php:120
+msgid "Your own name on the chat window, with ours removed."
+msgstr "அரட்டை சாளரத்தில் எங்கள் பெயருக்குப் பதிலாக உங்கள் சொந்தப் பெயர் இருக்கும்."
+
+#: includes/class-zinn-chat-upsell.php:121
+msgid "Saved replies, transfer a conversation to a colleague, and business hours."
+msgstr "சேமிக்கப்பட்ட பதில்கள், உரையாடலை ஒரு சக ஊழியருக்கு மாற்றுவது மற்றும் வணிக நேரங்கள்."
+
+#: includes/class-zinn-chat-upsell.php:122
+msgid "5,000 AI answers a month rather than 100."
+msgstr "100-க்கு பதிலாக மாதத்திற்கு 5,000 AI பதில்கள்."
+
+#: includes/class-zinn-chat-upsell.php:123
+msgid "Choose exactly which pages the chat appears on — or hide it from the checkout."
+msgstr "சாட் எந்தப் பக்கங்களில் தோன்ற வேண்டும் என்பதைத் துல்லியமாகத் தேர்ந்தெடுக்கவும் — அல்லது செக்அவுட்டிலிருந்து அதை மறைக்கவும்."
+
+#: includes/class-zinn-chat-upsell.php:124
+msgid "One licence covers three of your sites; ten-site licences are available."
+msgstr "ஒரு உரிமம் உங்கள் தளங்களில் மூன்றை உள்ளடக்கும்; பத்து தள உரிமைகளும் கிடைக்கின்றன."
+
+#: includes/class-zinn-chat-upsell.php:128
+msgid "See what Pro costs"
+msgstr "Pro-ன் கட்டணத்தை பார்க்கவும்"
+
+#. translators: %s: link to the customer's licences page.
+#: includes/class-zinn-chat-upsell.php:135
+#, php-format
+msgid "Already host a site with Zinn Digital®? Pro is included free — your key is on the %s."
+msgstr "Zinn Digital®-இல் ஏற்கனவே ஒரு தளத்தை ஹோஸ்ட் செய்கிறீர்களா? Pro இலவசமாக சேர்க்கப்பட்டுள்ளது — உங்கள் விசை %s-இல் உள்ளது."
+
+#: includes/class-zinn-chat-upsell.php:137
+msgid "Licences page of your dashboard"
+msgstr "உங்கள் டேஷ்போர்டின் உரிமங்கள் பக்கம்"
+
+#: includes/pro/class-zinn-chat-licence.php:276
+msgid "Your licence is active."
+msgstr "உங்கள் உரிமம் செயலில் உள்ளது."
+
+#: includes/pro/class-zinn-chat-licence.php:278
+msgid "Your licence has run out but everything still works for a short while. Renew it to keep receiving updates."
+msgstr "உங்கள் உரிமம் காலாவதியாகிவிட்டது, ஆனால் இன்னும் சிறிது காலத்திற்கு அனைத்தும் தொடர்ந்து இயங்கும். புதுப்பிப்புகளைத் தொடர்ந்து பெற அதனைப் புதுப்பிக்கவும்."
+
+#: includes/pro/class-zinn-chat-licence.php:280
+msgid "We do not recognise that licence key. Copy it again from the Licences page of your Zinn Digital® dashboard."
+msgstr "அந்த உரிம விசையை எங்களால் அடையாளம் காண முடியவில்லை. Zinn Digital® டாஷ்போர்டின் உரிமங்கள் பக்கத்திலிருந்து அதை மீண்டும் நகலெடுக்கவும்."
+
+#: includes/pro/class-zinn-chat-licence.php:282
+msgid "That key is for a different Zinn® plugin. The one you want is on the Licences page of your dashboard, next to Zinn® Chat Pro."
+msgstr "அந்த விசை வேறுபட்ட Zinn® செருகுநிறைக்கானது. உங்களுக்குத் தேவையான விசை உங்கள் டாஷ்போர்டின் Licences பக்கத்தில், Zinn® Chat Pro-க்கு அருகில் உள்ளது."
+
+#: includes/pro/class-zinn-chat-licence.php:284
+msgid "Your licence has expired. Renew it from your Zinn Digital® dashboard to switch the Pro features back on."
+msgstr "உங்கள் உரிமம் காலாவதியாகிவிட்டது. Pro அம்சங்களை மீண்டும் இயக்க, உங்கள் Zinn Digital® டாஷ்போர்டில் இருந்து அதைப் புதுப்பிக்கவும்."
+
+#: includes/pro/class-zinn-chat-licence.php:286
+msgid "This licence has been cancelled."
+msgstr "இந்த உரிமம் ரத்து செய்யப்பட்டுள்ளது."
+
+#: includes/pro/class-zinn-chat-licence.php:288
+msgid "This licence is on hold. Please get in touch and we will sort it out."
+msgstr "இந்த உரிமம் நிறுத்தி வைக்கப்பட்டுள்ளது. தயவுசெய்து எங்களைத் தொடர்பு கொள்ளுங்கள், நாங்கள் அதைச் சரிசெய்கிறோம்."
+
+#: includes/pro/class-zinn-chat-licence.php:290
+msgid "There is a billing problem on your Zinn Digital® account. Once it is settled the licence works again straight away."
+msgstr "உங்கள் Zinn Digital® கணக்கில் கட்டணச் சிக்கல் உள்ளது. அது தீர்க்கப்பட்டவுடன் உரிமம் உடனடியாக மீண்டும் வேலை செய்யும்."
+
+#: includes/pro/class-zinn-chat-licence.php:292
+msgid "This licence came free with your Zinn® hosting, and that hosting has ended. Buy a licence, or start hosting with us again, to switch Pro back on."
+msgstr "இந்த உரிமம் உங்கள் Zinn® ஹோஸ்டிங்குடன் இலவசமாகக் கிடைத்தது, அந்த ஹோஸ்டிங் முடிந்துவிட்டது. Pro-வை மீண்டும் இயக்க, ஒரு உரிமத்தை வாங்குங்கள் அல்லது எங்களுடன் மீண்டும் ஹோஸ்டிங்கைத் தொடங்குங்கள்."
+
+#: includes/pro/class-zinn-chat-licence.php:294
+msgid "Every site on this licence is in use. Release one below, or upgrade to cover more sites."
+msgstr "இந்த உரிமத்தில் உள்ள ஒவ்வொரு தளமும் பயன்பாட்டில் உள்ளது. கீழே உள்ளவற்றில் ஒன்றை விடுவிக்கவும் அல்லது கூடுதல் தளங்களை இணைக்க மேம்படுத்தவும்."
+
+#: includes/pro/class-zinn-chat-licence.php:296
+msgid "We could not confirm your licence just now. Nothing has changed on your site; we will try again shortly."
+msgstr "எங்களால் இப்போது உங்கள் உரிமத்தை உறுதிப்படுத்த முடியவில்லை. உங்கள் தளத்தில் எதுவும் மாறவில்லை; சிறிது நேரத்தில் மீண்டும் முயற்சிப்போம்."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:60
+msgid "You do not have permission to manage licences on this site."
+msgstr "இந்தத் தளத்தில் உரிமங்களை நிர்வகிக்க உங்களுக்கு அனுமதி இல்லை."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:87
+msgid "Your Pro licence"
+msgstr "உங்கள் Pro உரிமம்"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:94
+msgid "Licence key"
+msgstr "உரிம விசை"
+
+#. translators: %s: link to the dashboard licences page.
+#: includes/pro/class-zinn-chat-pro-admin.php:105
+#, php-format
+msgid "Copy it from the Licences page of your %s."
+msgstr "உங்கள் %s இன் உரிமங்கள் (Licences) பக்கத்திலிருந்து அதை நகலெடுக்கவும்."
+
+#. translators: %s: a date.
+#: includes/pro/class-zinn-chat-pro-admin.php:121
+#, php-format
+msgid "Renews on %s."
+msgstr "%s அன்று புதுப்பிக்கப்படும்."
+
+#. translators: 1: sites in use, 2: sites the licence covers.
+#: includes/pro/class-zinn-chat-pro-admin.php:137
+#, php-format
+msgid "Using %1$d of %2$d sites."
+msgstr "%2$d தளங்களில் %1$d தளங்கள் பயன்படுத்தப்படுகின்றன."
+
+#. translators: %s: comma-separated list of hostnames.
+#: includes/pro/class-zinn-chat-pro-admin.php:149
+#, php-format
+msgid "In use on: %s. Release one from your dashboard, then try again."
+msgstr "பயன்பாட்டில் உள்ளது: %s. உங்கள் டாஷ்போர்டிலிருந்து ஒன்றை விடுவித்து, பின்னர் மீண்டும் முயற்சிக்கவும்."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:160
+msgid "Save licence"
+msgstr "உரிமத்தைச் சேமிக்கவும்"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:164
+msgid "Remove it from this site"
+msgstr "இந்த தளத்திலிருந்து அதை அகற்று"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:181
+msgid "Where the chat appears"
+msgstr "அரட்டை எங்கு தோன்றும்"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:193
+msgid "Show it"
+msgstr "இதைக் காட்டுங்கள்"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:197
+msgid "Everywhere on this site"
+msgstr "இந்தத் தளத்தில் எங்கும்"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:198
+msgid "Only on the pages I choose below"
+msgstr "நான் கீழே தேர்ந்தெடுக்கும் பக்கங்களில் மட்டுமே"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:199
+msgid "Everywhere except the pages I choose below"
+msgstr "நான் கீழே தேர்ந்தெடுத்த பக்கங்களைத் தவிர மற்ற எல்லா இடங்களிலும்"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:215
+msgid "Page or post IDs"
+msgstr "பக்கங்கள் அல்லது இடுகை ஐடிகள் (IDs)"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:223
+msgid "Separate them with commas. The ID is in the address bar while you edit a page."
+msgstr "அவற்றை காற்புள்ளிகளால் (கமா) பிரிக்கவும். பக்கத்தைத் திருத்தும்போது முகவரிப்பட்டையில் ஐடி (ID) இருக்கும்."
+
+#: includes/pro/class-zinn-chat-pro-admin.php:228
+msgid "Whole content types"
+msgstr "முழு உள்ளடக்க வகைகள்"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:242
+msgid "Signed-in visitors"
+msgstr "உள்நுழைந்த பார்வையாளர்கள்"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:249
+msgid "Hide the chat from people who are signed in to this site"
+msgstr "இந்தத் தளத்தில் உள்நுழைந்திருப்பவர்களிடமிருந்து அரட்டையை மறைக்கவும்"
+
+#: includes/pro/class-zinn-chat-pro-admin.php:254
+msgid "Save where it appears"
+msgstr "அது தோன்றும் இடத்தில் சேமிக்கவும்"
