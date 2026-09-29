@@ -1,0 +1,375 @@
+{
+    "translation-revision-date": "2026-09-29T15:04:41+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/console.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "pa_IN",
+                "plural-forms": "nplurals=2; plural=(n > 1);"
+            },
+            "Inbox": [
+                "\u0a07\u0a28\u0a2c\u0a3e\u0a15\u0a38"
+            ],
+            "Tickets": [
+                "\u0a1f\u0a3f\u0a15\u0a1f\u0a3e\u0a02"
+            ],
+            "Assistant": [
+                "\u0a38\u0a39\u0a3e\u0a07\u0a15"
+            ],
+            "Fix it": [
+                "\u0a20\u0a40\u0a15 \u0a15\u0a30\u0a4b"
+            ],
+            "AI providers": [
+                "\u0a0f.\u0a06\u0a08. \u0a2a\u0a4d\u0a30\u0a26\u0a3e\u0a24\u0a3e"
+            ],
+            "Test the assistant": [
+                "\u0a38\u0a39\u0a3e\u0a07\u0a15 \u0a26\u0a40 \u0a1c\u0a3e\u0a02\u0a1a \u0a15\u0a30\u0a4b"
+            ],
+            "Status": [
+                "\u0a38\u0a25\u0a3f\u0a24\u0a40"
+            ],
+            "Open": [
+                "\u0a16\u0a4b\u0a32\u0a4d\u0a39\u0a4b"
+            ],
+            "Subject": [
+                "\u0a35\u0a3f\u0a38\u0a3c\u0a3e"
+            ],
+            "Updated": [
+                "\u0a05\u0a71\u0a2a\u0a21\u0a47\u0a1f \u0a15\u0a40\u0a24\u0a3e \u0a17\u0a3f\u0a06"
+            ],
+            "Send reply": [
+                "\u0a1c\u0a35\u0a3e\u0a2c \u0a2d\u0a47\u0a1c\u0a4b"
+            ],
+            "Page": [
+                "\u0a2a\u0a70\u0a28\u0a3e"
+            ],
+            "Opened": [
+                "\u0a16\u0a41\u0a71\u0a32\u0a4d\u0a39\u0a3f\u0a06 \u0a39\u0a48"
+            ],
+            "Visitor": [
+                "\u0a26\u0a30\u0a36\u0a15"
+            ],
+            "Waiting for customer": [
+                "\u0a17\u0a3e\u0a39\u0a15 \u0a26\u0a40 \u0a09\u0a21\u0a40\u0a15 \u0a15\u0a40\u0a24\u0a40 \u0a1c\u0a3e \u0a30\u0a39\u0a40 \u0a39\u0a48"
+            ],
+            "Solved": [
+                "\u0a39\u0a71\u0a32 \u0a39\u0a4b \u0a17\u0a3f\u0a06"
+            ],
+            "Closed": [
+                "\u0a2c\u0a70\u0a26 \u0a15\u0a40\u0a24\u0a3e \u0a17\u0a3f\u0a06"
+            ],
+            "Send": [
+                "\u0a2d\u0a47\u0a1c\u0a4b"
+            ],
+            "Cancel": [
+                "\u0a30\u0a71\u0a26 \u0a15\u0a30\u0a4b"
+            ],
+            "End chat": [
+                "\u0a1a\u0a48\u0a24 \u0a38\u0a2e\u0a3e\u0a2a\u0a24 \u0a15\u0a30\u0a4b"
+            ],
+            "Something went wrong. Please try again.": [
+                "\u0a15\u0a41\u0a1d \u0a17\u0a32\u0a24 \u0a39\u0a4b \u0a17\u0a3f\u0a06 \u0a39\u0a48\u0964 \u0a15\u0a3f\u0a30\u0a2a\u0a3e \u0a15\u0a30\u0a15\u0a47 \u0a26\u0a41\u0a2c\u0a3e\u0a30\u0a3e \u0a15\u0a4b\u0a38\u0a3c\u0a3f\u0a38\u0a3c \u0a15\u0a30\u0a4b\u0964"
+            ],
+            "Details": [
+                "\u0a35\u0a47\u0a30\u0a35\u0a47"
+            ],
+            "Message": [
+                "\u0a38\u0a41\u0a28\u0a47\u0a39\u0a3e"
+            ],
+            "Type": [
+                "\u0a15\u0a3f\u0a38\u0a2e"
+            ],
+            "%ds": [
+                "%d \u0a38\u0a15\u0a3f\u0a70\u0a1f"
+            ],
+            "%dm": [
+                "%dm"
+            ],
+            "%dh": [
+                "%dh"
+            ],
+            "Agent": [
+                "\u0a0f\u0a1c\u0a70\u0a1f"
+            ],
+            "Internal note": [
+                "\u0a05\u0a70\u0a26\u0a30\u0a42\u0a28\u0a40 \u0a28\u0a4b\u0a1f"
+            ],
+            "With the assistant": [
+                "\u0a38\u0a39\u0a3e\u0a07\u0a15 \u0a28\u0a3e\u0a32"
+            ],
+            "Waiting for a person": [
+                "\u0a15\u0a3f\u0a38\u0a47 \u0a35\u0a3f\u0a05\u0a15\u0a24\u0a40 \u0a26\u0a40 \u0a09\u0a21\u0a40\u0a15 \u0a15\u0a40\u0a24\u0a40 \u0a1c\u0a3e \u0a30\u0a39\u0a40 \u0a39\u0a48"
+            ],
+            "With an agent": [
+                "\u0a0f\u0a1c\u0a70\u0a1f \u0a28\u0a3e\u0a32"
+            ],
+            "Left a message": [
+                "\u0a38\u0a41\u0a28\u0a47\u0a39\u0a3e \u0a1b\u0a71\u0a21\u0a3f\u0a06"
+            ],
+            "Away": [
+                "\u0a17\u0a3c\u0a48\u0a30-\u0a39\u0a3e\u0a1c\u0a3c\u0a30"
+            ],
+            "Focus mode": [
+                "\u0a2b\u0a4b\u0a15\u0a38 \u0a2e\u0a4b\u0a21"
+            ],
+            "Desktop alerts": [
+                "\u0a21\u0a48\u0a38\u0a15\u0a1f\u0a3e\u0a2a \u0a1a\u0a47\u0a24\u0a3e\u0a35\u0a28\u0a40\u0a06\u0a02"
+            ],
+            "Needs a person": [
+                "\u0a15\u0a3f\u0a38\u0a47 \u0a35\u0a3f\u0a05\u0a15\u0a24\u0a40 \u0a26\u0a40 \u0a32\u0a4b\u0a5c \u0a39\u0a48"
+            ],
+            "Choose a chat on the left. You can open several; each keeps its own draft.": [
+                "\u0a16\u0a71\u0a2c\u0a47 \u0a2a\u0a3e\u0a38\u0a47 \u0a24\u0a4b\u0a02 \u0a07\u0a71\u0a15 \u0a1a\u0a48\u0a1f \u0a1a\u0a41\u0a23\u0a4b\u0964 \u0a24\u0a41\u0a38\u0a40\u0a02 \u0a15\u0a08 \u0a16\u0a4b\u0a32\u0a4d\u0a39 \u0a38\u0a15\u0a26\u0a47 \u0a39\u0a4b; \u0a39\u0a30 \u0a07\u0a71\u0a15 \u0a06\u0a2a\u0a23\u0a3e \u0a21\u0a30\u0a3e\u0a2b\u0a1f \u0a30\u0a71\u0a16\u0a26\u0a3e \u0a39\u0a48\u0964"
+            ],
+            "A visitor is waiting": [
+                "\u0a07\u0a71\u0a15 \u0a35\u0a3f\u0a1c\u0a3c\u0a3f\u0a1f\u0a30 \u0a09\u0a21\u0a40\u0a15 \u0a15\u0a30 \u0a30\u0a3f\u0a39\u0a3e \u0a39\u0a48"
+            ],
+            "Chat #%d": [
+                "\u0a1a\u0a48\u0a1f #%d"
+            ],
+            "Nothing here right now.": [
+                "\u0a07\u0a71\u0a25\u0a47 \u0a07\u0a38 \u0a38\u0a2e\u0a47\u0a02 \u0a15\u0a41\u0a1d \u0a28\u0a39\u0a40\u0a02 \u0a39\u0a48\u0964"
+            ],
+            "Visitor #%d": [
+                "\u0a2e\u0a41\u0a32\u0a3e\u0a15\u0a3e\u0a24\u0a40 #%d"
+            ],
+            "typing\u2026": [
+                "\u0a1f\u0a3e\u0a08\u0a2a \u0a15\u0a30 \u0a30\u0a3f\u0a39\u0a3e \u0a39\u0a48\u2026"
+            ],
+            "waiting %s": [
+                "\u0a09\u0a21\u0a40\u0a15 \u0a30\u0a3f\u0a39\u0a3e \u0a39\u0a48 %s"
+            ],
+            "%d online": [
+                "%d \u0a06\u0a28\u0a32\u0a3e\u0a08\u0a28"
+            ],
+            "Close tab": [
+                "\u0a1f\u0a48\u0a2c \u0a2c\u0a70\u0a26 \u0a15\u0a30\u0a4b"
+            ],
+            "Back to the list": [
+                "\u0a38\u0a42\u0a1a\u0a40 '\u0a24\u0a47 \u0a35\u0a3e\u0a2a\u0a38 \u0a1c\u0a3e\u0a13"
+            ],
+            "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
+                "\u0a1c\u0a35\u0a3e\u0a2c \u0a1f\u0a3e\u0a08\u0a2a \u0a15\u0a30\u0a4b\u2026 (\u0a2d\u0a47\u0a1c\u0a23 \u0a32\u0a08 Enter, \u0a28\u0a35\u0a40\u0a02 \u0a32\u0a3e\u0a08\u0a28 \u0a32\u0a08 Shift+Enter)"
+            ],
+            "Ticket #%d": [
+                "\u0a1f\u0a3f\u0a15\u0a1f #%d"
+            ],
+            "Take this chat": [
+                "\u0a07\u0a39 \u0a1a\u0a48\u0a24 \u0a32\u0a13"
+            ],
+            "Back to the assistant": [
+                "\u0a38\u0a39\u0a3e\u0a07\u0a15 \u0a15\u0a4b\u0a32 \u0a35\u0a3e\u0a2a\u0a38 \u0a1c\u0a3e\u0a13"
+            ],
+            "Make a ticket": [
+                "\u0a07\u0a15 \u0a1f\u0a3f\u0a15\u0a1f \u0a2c\u0a23\u0a3e\u0a13"
+            ],
+            "The visitor's email address": [
+                "\u0a35\u0a3f\u0a1c\u0a3c\u0a1f\u0a30 \u0a26\u0a3e \u0a08\u0a2e\u0a47\u0a32 \u0a2a\u0a24\u0a3e"
+            ],
+            "The visitor is typing\u2026": [
+                "\u0a35\u0a3f\u0a1c\u0a3c\u0a3f\u0a1f\u0a30 \u0a1f\u0a3e\u0a08\u0a2a \u0a15\u0a30 \u0a30\u0a3f\u0a39\u0a3e \u0a39\u0a48\u2026"
+            ],
+            "New ticket": [
+                "\u0a28\u0a35\u0a40\u0a02 \u0a1f\u0a3f\u0a15\u0a1f"
+            ],
+            "Search subject, email or number": [
+                "\u0a35\u0a3f\u0a38\u0a3c\u0a3e, \u0a08\u0a2e\u0a47\u0a32 \u0a1c\u0a3e\u0a02 \u0a28\u0a70\u0a2c\u0a30 \u0a16\u0a4b\u0a1c\u0a4b"
+            ],
+            "Customer": [
+                "\u0a17\u0a3e\u0a39\u0a15"
+            ],
+            "Priority": [
+                "\u0a24\u0a1c\u0a40\u0a39"
+            ],
+            "Needs attention": [
+                "\u0a27\u0a3f\u0a06\u0a28 \u0a26\u0a40 \u0a32\u0a4b\u0a5c \u0a39\u0a48"
+            ],
+            "All": [
+                "\u0a38\u0a3e\u0a30\u0a47"
+            ],
+            "No tickets.": [
+                "\u0a15\u0a08 \u0a1f\u0a3f\u0a15\u0a1f\u0a3e\u0a02 \u0a28\u0a39\u0a40\u0a02 \u0a39\u0a28\u0964"
+            ],
+            "Page %1$d of %2$d": [
+                "\u0a38\u0a2b\u0a3c\u0a3e %1$d \u0a26\u0a3e %2$d"
+            ],
+            "Customer name": [
+                "\u0a17\u0a3e\u0a39\u0a15 \u0a26\u0a3e \u0a28\u0a3e\u0a2e"
+            ],
+            "Customer email": [
+                "\u0a17\u0a3e\u0a39\u0a15 \u0a08\u0a2e\u0a47\u0a32"
+            ],
+            "Create ticket": [
+                "\u0a1f\u0a3f\u0a15\u0a1f \u0a2c\u0a23\u0a3e\u0a13"
+            ],
+            "All tickets": [
+                "\u0a38\u0a3e\u0a30\u0a40\u0a06\u0a02 \u0a1f\u0a3f\u0a15\u0a1f\u0a3e\u0a02"
+            ],
+            "Write a reply\u2026": [
+                "\u0a1c\u0a35\u0a3e\u0a2c \u0a32\u0a3f\u0a16\u0a4b\u2026"
+            ],
+            "Internal note (the customer does not see it)": [
+                "\u0a05\u0a70\u0a26\u0a30\u0a42\u0a28\u0a40 \u0a28\u0a4b\u0a1f (\u0a17\u0a3e\u0a39\u0a15 \u0a07\u0a38 \u0a28\u0a42\u0a70 \u0a28\u0a39\u0a40\u0a02 \u0a26\u0a47\u0a16\u0a26\u0a3e)"
+            ],
+            "then: waiting for customer": [
+                "\u0a24\u0a3e\u0a02: \u0a17\u0a3e\u0a39\u0a15 \u0a26\u0a40 \u0a09\u0a21\u0a40\u0a15 \u0a15\u0a40\u0a24\u0a40 \u0a1c\u0a3e \u0a30\u0a39\u0a40 \u0a39\u0a48"
+            ],
+            "then: solved": [
+                "\u0a24\u0a3e\u0a02: \u0a39\u0a71\u0a32 \u0a39\u0a4b \u0a17\u0a3f\u0a06"
+            ],
+            "then: keep open": [
+                "\u0a2b\u0a3f\u0a30: \u0a16\u0a41\u0a71\u0a32\u0a4d\u0a39\u0a3e \u0a30\u0a71\u0a16\u0a4b"
+            ],
+            "#%1$d %2$s": [
+                "#%1$d %2$s"
+            ],
+            "by email": [
+                "\u0a08\u0a2e\u0a47\u0a32 \u0a30\u0a3e\u0a39\u0a40\u0a02"
+            ],
+            "internal note": [
+                "\u0a05\u0a70\u0a26\u0a30\u0a42\u0a28\u0a40 \u0a28\u0a4b\u0a1f"
+            ],
+            "Channel": [
+                "\u0a1a\u0a48\u0a28\u0a32"
+            ],
+            "Low": [
+                "\u0a18\u0a71\u0a1f"
+            ],
+            "Normal": [
+                "\u0a38\u0a27\u0a3e\u0a30\u0a28"
+            ],
+            "High": [
+                "\u0a09\u0a71\u0a1a\u0a3e"
+            ],
+            "Urgent": [
+                "\u0a10\u0a2e\u0a30\u0a1c\u0a48\u0a02\u0a38\u0a40"
+            ],
+            "Nobody": [
+                "\u0a15\u0a4b\u0a08 \u0a28\u0a39\u0a40\u0a02"
+            ],
+            "Assigned to": [
+                "\u0a38\u0a4c\u0a02\u0a2a\u0a3f\u0a06 \u0a17\u0a3f\u0a06"
+            ],
+            "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
+                "\u0a06\u0a30\u0a21\u0a30 #%1$s \u00b7 %2$s \u00b7 %3$s"
+            ],
+            "Order": [
+                "\u0a06\u0a30\u0a21\u0a30"
+            ],
+            "Delete ticket": [
+                "\u0a1f\u0a3f\u0a15\u0a1f \u0a2e\u0a3f\u0a1f\u0a3e\u0a13"
+            ],
+            "Delete this ticket and all its messages?": [
+                "\u0a07\u0a39 \u0a1f\u0a3f\u0a15\u0a1f \u0a05\u0a24\u0a47 \u0a07\u0a38 \u0a26\u0a47 \u0a38\u0a3e\u0a30\u0a47 \u0a38\u0a41\u0a28\u0a47\u0a39\u0a47 \u0a39\u0a1f\u0a3e\u0a13?"
+            ],
+            "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
+                "\u0a09\u0a39\u0a40 \u0a2a\u0a41\u0a71\u0a1b\u0a4b \u0a1c\u0a4b \u0a24\u0a41\u0a39\u0a3e\u0a21\u0a47 \u0a35\u0a3f\u0a1c\u0a3c\u0a3f\u0a1f\u0a30 \u0a2a\u0a41\u0a71\u0a1b\u0a26\u0a47 \u0a39\u0a28\u0964 \u0a24\u0a41\u0a38\u0a40\u0a02 \u0a1c\u0a35\u0a3e\u0a2c \u0a05\u0a24\u0a47 \u0a07\u0a38 \u0a26\u0a41\u0a06\u0a30\u0a3e \u0a32\u0a71\u0a2d\u0a3f\u0a06 \u0a17\u0a3f\u0a06 \u0a39\u0a30 \u0a2a\u0a70\u0a28\u0a3e \u0a26\u0a47\u0a16\u0a26\u0a47 \u0a39\u0a4b, \u0a28\u0a3e\u0a32 \u0a39\u0a40 \u0a07\u0a39 \u0a35\u0a40 \u0a26\u0a47\u0a16 \u0a38\u0a15\u0a26\u0a47 \u0a39\u0a4b \u0a15\u0a3f \u0a39\u0a30\u0a47\u0a15 \u0a15\u0a3f\u0a70\u0a28\u0a3e \u0a35\u0a27\u0a40\u0a06 \u0a2e\u0a47\u0a32 \u0a16\u0a3e\u0a02\u0a26\u0a3e \u0a39\u0a48, \u0a07\u0a39 \u0a2a\u0a3f\u0a1b\u0a32\u0a40 \u0a35\u0a3e\u0a30 \u0a15\u0a26\u0a4b\u0a02 \u0a05\u0a71\u0a2a\u0a21\u0a47\u0a1f \u0a15\u0a40\u0a24\u0a3e \u0a17\u0a3f\u0a06 \u0a38\u0a40, \u0a05\u0a24\u0a47 \u0a09\u0a39\u0a28\u0a3e\u0a02 \u0a2a\u0a70\u0a28\u0a3f\u0a06\u0a02 \u0a32\u0a08 \u0a1a\u0a47\u0a24\u0a3e\u0a35\u0a28\u0a40\u0a06\u0a02 \u0a1c\u0a4b \u0a2a\u0a41\u0a30\u0a3e\u0a23\u0a47 \u0a1c\u0a3e\u0a2a\u0a26\u0a47 \u0a39\u0a28\u0964 \u0a15\u0a3f\u0a38\u0a47 \u0a2a\u0a70\u0a28\u0a47 \u0a28\u0a42\u0a70 \u0a20\u0a40\u0a15 \u0a15\u0a30\u0a4b, \"\u0a2e\u0a41\u0a5c-\u0a2a\u0a5c\u0a4d\u0a39\u0a4b\" '\u0a24\u0a47 \u0a26\u0a2c\u0a3e\u0a13, \u0a05\u0a24\u0a47 \u0a26\u0a41\u0a2c\u0a3e\u0a30\u0a3e \u0a2a\u0a41\u0a71\u0a1b\u0a4b\u0964"
+            ],
+            "For example: What is your returns policy?": [
+                "\u0a09\u0a26\u0a3e\u0a39\u0a30\u0a23 \u0a35\u0a1c\u0a4b\u0a02: \u0a24\u0a41\u0a39\u0a3e\u0a21\u0a40 \u0a30\u0a3f\u0a1f\u0a30\u0a28 \u0a28\u0a40\u0a24\u0a40 \u0a15\u0a40 \u0a39\u0a48?"
+            ],
+            "Ask": [
+                "\u0a2a\u0a41\u0a71\u0a1b\u0a4b"
+            ],
+            "Not updated for over a year": [
+                "\u0a07\u0a71\u0a15 \u0a38\u0a3e\u0a32 \u0a24\u0a4b\u0a02 \u0a35\u0a71\u0a27 \u0a38\u0a2e\u0a47\u0a02 \u0a24\u0a4b\u0a02 \u0a05\u0a71\u0a2a\u0a21\u0a47\u0a1f \u0a28\u0a39\u0a40\u0a02 \u0a15\u0a40\u0a24\u0a3e \u0a17\u0a3f\u0a06"
+            ],
+            "A newer page covers the same subject: %s": [
+                "\u0a07\u0a71\u0a15 \u0a28\u0a35\u0a3e\u0a02 \u0a2a\u0a47\u0a38\u0a3c \u0a07\u0a38\u0a47 \u0a35\u0a3f\u0a38\u0a3c\u0a47 \u0a28\u0a42\u0a70 \u0a15\u0a35\u0a30 \u0a15\u0a30\u0a26\u0a3e \u0a39\u0a48: %s"
+            ],
+            "Re-read \u2713": [
+                "\u0a26\u0a41\u0a2c\u0a3e\u0a30\u0a3e \u0a2a\u0a5c\u0a4d\u0a39\u0a4b \u2713"
+            ],
+            "Asking\u2026": [
+                "\u0a2a\u0a41\u0a71\u0a1b \u0a30\u0a3f\u0a39\u0a3e \u0a39\u0a48\u2026"
+            ],
+            "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
+                "\u0a28\u0a24\u0a40\u0a1c\u0a3e: %1$s \u00b7 \u0a16\u0a4b\u0a1c: %2$s \u00b7 \u0a1f\u0a4b\u0a15\u0a28: %3$d \u0a05\u0a70\u0a26\u0a30, %4$d \u0a2c\u0a3e\u0a39\u0a30"
+            ],
+            "by meaning and words": [
+                "\u0a05\u0a30\u0a25 \u0a05\u0a24\u0a47 \u0a38\u0a3c\u0a2c\u0a26\u0a3e\u0a02 \u0a26\u0a41\u0a06\u0a30\u0a3e"
+            ],
+            "by words only (no embedding key)": [
+                "\u0a15\u0a47\u0a35\u0a32 \u0a38\u0a3c\u0a2c\u0a26\u0a3e\u0a02 \u0a26\u0a41\u0a06\u0a30\u0a3e (\u0a15\u0a4b\u0a08 \u0a10\u0a2e\u0a2c\u0a48\u0a21\u0a3f\u0a70\u0a17 \u0a15\u0a41\u0a70\u0a1c\u0a40 \u0a28\u0a39\u0a40\u0a02)"
+            ],
+            "nothing indexed": [
+                "\u0a15\u0a41\u0a1d \u0a35\u0a40 \u0a07\u0a70\u0a21\u0a48\u0a15\u0a38 \u0a28\u0a39\u0a40\u0a02 \u0a15\u0a40\u0a24\u0a3e \u0a17\u0a3f\u0a06"
+            ],
+            "The AI is not set up yet or could not answer.": [
+                "\u0a0f\u0a06\u0a08 (AI) \u0a05\u0a1c\u0a47 \u0a38\u0a48\u0a71\u0a1f\u0a05\u0a71\u0a2a \u0a28\u0a39\u0a40\u0a02 \u0a15\u0a40\u0a24\u0a3e \u0a17\u0a3f\u0a06 \u0a39\u0a48 \u0a1c\u0a3e\u0a02 \u0a1c\u0a35\u0a3e\u0a2c \u0a28\u0a39\u0a40\u0a02 \u0a26\u0a47 \u0a38\u0a15\u0a3f\u0a06\u0964"
+            ],
+            "Sources found (%d)": [
+                "\u0a38\u0a30\u0a4b\u0a24 \u0a2e\u0a3f\u0a32\u0a47 (%d)"
+            ],
+            "Nothing on the site matched. Add a page that answers this, or check the Site index settings.": [
+                "\u0a38\u0a3e\u0a08\u0a1f '\u0a24\u0a47 \u0a15\u0a41\u0a1d \u0a35\u0a40 \u0a2e\u0a47\u0a32 \u0a28\u0a39\u0a40\u0a02 \u0a16\u0a3e\u0a02\u0a26\u0a3e\u0964 \u0a07\u0a71\u0a15 \u0a2a\u0a47\u0a1c \u0a36\u0a3e\u0a2e\u0a32 \u0a15\u0a30\u0a4b \u0a1c\u0a4b \u0a07\u0a38\u0a26\u0a3e \u0a1c\u0a35\u0a3e\u0a2c \u0a26\u0a47\u0a35\u0a47, \u0a1c\u0a3e\u0a02 \u0a38\u0a3e\u0a08\u0a1f \u0a07\u0a70\u0a21\u0a48\u0a15\u0a38 \u0a38\u0a48\u0a1f\u0a3f\u0a70\u0a17\u0a3e\u0a02 \u0a26\u0a40 \u0a1c\u0a3e\u0a02\u0a1a \u0a15\u0a30\u0a4b\u0964"
+            ],
+            "Score": [
+                "\u0a38\u0a15\u0a4b\u0a30"
+            ],
+            "Last updated": [
+                "\u0a06\u0a16\u0a30\u0a40 \u0a35\u0a3e\u0a30 \u0a05\u0a71\u0a2a\u0a21\u0a47\u0a1f \u0a15\u0a40\u0a24\u0a3e \u0a17\u0a3f\u0a06"
+            ],
+            "Passage": [
+                "\u0a2a\u0a3e\u0a38\u0a47\u0a1c"
+            ],
+            "Edit": [
+                "\u0a38\u0a4b\u0a27 \u0a15\u0a30\u0a4b"
+            ],
+            "Re-read": [
+                "\u0a26\u0a41\u0a2c\u0a3e\u0a30\u0a3e \u0a2a\u0a5c\u0a4d\u0a39\u0a4b"
+            ],
+            "What the assistant has read": [
+                "\u0a38\u0a39\u0a3e\u0a07\u0a15 \u0a28\u0a47 \u0a1c\u0a4b \u0a2a\u0a5c\u0a4d\u0a39\u0a3f\u0a06 \u0a39\u0a48"
+            ],
+            "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
+                "%1$d \u0a38\u0a2b\u0a3c\u0a47 \u0a2a\u0a5c\u0a4d\u0a39\u0a47 \u0a17\u0a0f \u00b7 %2$d \u0a09\u0a21\u0a40\u0a15 \u0a15\u0a30 \u0a30\u0a39\u0a47 \u0a39\u0a28 \u00b7 %3$d \u0a17\u0a32\u0a24\u0a40\u0a06\u0a02 \u0a35\u0a3e\u0a32\u0a47 \u00b7 %4$d \u0a05\u0a70\u0a38\u0a3c \u00b7 %5$d \u0a05\u0a30\u0a25 \u0a26\u0a41\u0a06\u0a30\u0a3e \u0a38\u0a2e\u0a1d\u0a47 \u0a17\u0a0f"
+            ],
+            "Embedding model: %s": [
+                "\u0a07\u0a70\u0a2c\u0a48\u0a21\u0a3f\u0a70\u0a17 \u0a2e\u0a3e\u0a21\u0a32: %s"
+            ],
+            "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
+                "\u0a15\u0a4b\u0a08 \u0a10\u0a02\u0a2c\u0a48\u0a21\u0a3f\u0a70\u0a17 \u0a2e\u0a3e\u0a21\u0a32 \u0a28\u0a39\u0a40\u0a02: \u0a16\u0a4b\u0a1c \u0a38\u0a3f\u0a30\u0a2b\u0a3c \u0a38\u0a3c\u0a2c\u0a26\u0a3e\u0a02 \u0a26\u0a41\u0a06\u0a30\u0a3e \u0a39\u0a48\u0964 \u0a05\u0a30\u0a25 \u0a26\u0a41\u0a06\u0a30\u0a3e \u0a16\u0a4b\u0a1c \u0a15\u0a30\u0a28 \u0a32\u0a08 Google Gemini, OpenAI, Mistral \u0a1c\u0a3e\u0a02 OpenRouter \u0a28\u0a42\u0a70 \u0a15\u0a28\u0a48\u0a15\u0a1f \u0a15\u0a30\u0a4b\u0964"
+            ],
+            "Building meanings is paused:": [
+                "\u0a05\u0a30\u0a25 \u0a2c\u0a23\u0a3e\u0a09\u0a23 \u0a26\u0a3e \u0a15\u0a70\u0a2e \u0a30\u0a4b\u0a15\u0a3f\u0a06 \u0a17\u0a3f\u0a06 \u0a39\u0a48:"
+            ],
+            "Re-read the whole site": [
+                "\u0a2a\u0a42\u0a30\u0a40 \u0a38\u0a3e\u0a08\u0a1f \u0a28\u0a42\u0a70 \u0a26\u0a41\u0a2c\u0a3e\u0a30\u0a3e \u0a2a\u0a5c\u0a4d\u0a39\u0a4b"
+            ],
+            "Rebuild all meanings": [
+                "\u0a38\u0a3e\u0a30\u0a47 \u0a05\u0a30\u0a25 \u0a26\u0a41\u0a2c\u0a3e\u0a30\u0a3e \u0a2c\u0a23\u0a3e\u0a13"
+            ],
+            "Filter by title or address": [
+                "\u0a38\u0a3f\u0a30\u0a32\u0a47\u0a16 \u0a1c\u0a3e\u0a02 \u0a2a\u0a24\u0a47 \u0a26\u0a41\u0a06\u0a30\u0a3e \u0a2b\u0a3f\u0a32\u0a1f\u0a30 \u0a15\u0a30\u0a4b"
+            ],
+            "Read": [
+                "\u0a2a\u0a5c\u0a4d\u0a39\u0a4b"
+            ],
+            "Waiting": [
+                "\u0a09\u0a21\u0a40\u0a15 \u0a15\u0a30 \u0a30\u0a3f\u0a39\u0a3e \u0a39\u0a48"
+            ],
+            "Errors": [
+                "\u0a17\u0a32\u0a24\u0a40\u0a06\u0a02"
+            ],
+            "Passages": [
+                "\u0a2a\u0a48\u0a38\u0a47\u0a1c\u0a3c"
+            ],
+            "by meaning": [
+                "\u0a05\u0a30\u0a25 \u0a26\u0a41\u0a06\u0a30\u0a3e"
+            ],
+            "Rebuild meaning": [
+                "\u0a05\u0a30\u0a25 \u0a2e\u0a41\u0a5c \u0a24\u0a3f\u0a06\u0a30 \u0a15\u0a30\u0a4b"
+            ],
+            "Done \u2713": [
+                "\u0a39\u0a4b \u0a17\u0a3f\u0a06 \u2713"
+            ],
+            "Failed": [
+                "\u0a05\u0a38\u0a2b\u0a32"
+            ]
+        }
+    }
+}

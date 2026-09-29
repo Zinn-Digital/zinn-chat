@@ -1,0 +1,375 @@
+{
+    "translation-revision-date": "2026-09-29T15:04:41+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/console.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "hr",
+                "plural-forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+            },
+            "Inbox": [
+                "Prezime"
+            ],
+            "Tickets": [
+                "Zahtjevi"
+            ],
+            "Assistant": [
+                "Pomo\u0107nik"
+            ],
+            "Fix it": [
+                "Popravi to"
+            ],
+            "AI providers": [
+                "AI pru\u017eatelji usluga"
+            ],
+            "Test the assistant": [
+                "Testiraj pomo\u0107nika"
+            ],
+            "Status": [
+                "Status"
+            ],
+            "Open": [
+                "Otvori"
+            ],
+            "Subject": [
+                "Predmet"
+            ],
+            "Updated": [
+                "A\u017eurirano"
+            ],
+            "Send reply": [
+                "Po\u0161alji odgovor"
+            ],
+            "Page": [
+                "Stranica"
+            ],
+            "Opened": [
+                "Otvoreno"
+            ],
+            "Visitor": [
+                "Posjetitelj"
+            ],
+            "Waiting for customer": [
+                "\u010ceka se korisnik"
+            ],
+            "Solved": [
+                "Rije\u0161eno"
+            ],
+            "Closed": [
+                "Zatvoreno"
+            ],
+            "Send": [
+                "Po\u0161alji"
+            ],
+            "Cancel": [
+                "Odustani"
+            ],
+            "End chat": [
+                "Zavr\u0161i razgovor"
+            ],
+            "Something went wrong. Please try again.": [
+                "Ne\u0161to je po\u0161lo po zlu. Molimo poku\u0161ajte ponovno."
+            ],
+            "Details": [
+                "Detalji"
+            ],
+            "Message": [
+                "Poruka"
+            ],
+            "Type": [
+                "Vrsta"
+            ],
+            "%ds": [
+                "%ds"
+            ],
+            "%dm": [
+                "%dm"
+            ],
+            "%dh": [
+                "%dh"
+            ],
+            "Agent": [
+                "Agent"
+            ],
+            "Internal note": [
+                "Interna bilje\u0161ka"
+            ],
+            "With the assistant": [
+                "Uz asistenta"
+            ],
+            "Waiting for a person": [
+                "\u010ceka se osoba"
+            ],
+            "With an agent": [
+                "S agentom"
+            ],
+            "Left a message": [
+                "Ostigao poruku"
+            ],
+            "Away": [
+                "Odsutan"
+            ],
+            "Focus mode": [
+                "Na\u010din fokusiranja"
+            ],
+            "Desktop alerts": [
+                "Obavijesti na radnoj povr\u0161ini"
+            ],
+            "Needs a person": [
+                "Potrebna osoba"
+            ],
+            "Choose a chat on the left. You can open several; each keeps its own draft.": [
+                "Odaberite razgovor s lijeve strane. Mo\u017eete otvoriti nekoliko njih; svaki \u010duva vlastiti nacrt."
+            ],
+            "A visitor is waiting": [
+                "Posjetitelj \u010deka"
+            ],
+            "Chat #%d": [
+                "Razgovor #%d"
+            ],
+            "Nothing here right now.": [
+                "Trenutno nema ni\u010dega ovdje."
+            ],
+            "Visitor #%d": [
+                "Posjetitelj #%d"
+            ],
+            "typing\u2026": [
+                "tipkanje\u2026"
+            ],
+            "waiting %s": [
+                "\u010dekanje %s"
+            ],
+            "%d online": [
+                "%d na mre\u017ei"
+            ],
+            "Close tab": [
+                "Zatvori karticu"
+            ],
+            "Back to the list": [
+                "Natrag na popis"
+            ],
+            "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
+                "Upi\u0161ite odgovor\u2026 (Enter za slanje, Shift+Enter za novi red)"
+            ],
+            "Ticket #%d": [
+                "Zahtjev #%d"
+            ],
+            "Take this chat": [
+                "Preuzmi ovaj chat"
+            ],
+            "Back to the assistant": [
+                "Natrag na pomo\u0107nika"
+            ],
+            "Make a ticket": [
+                "Otvorite zahtjev"
+            ],
+            "The visitor's email address": [
+                "Adresa e-po\u0161te posjetitelja"
+            ],
+            "The visitor is typing\u2026": [
+                "Posjetitelj tipka\u2026"
+            ],
+            "New ticket": [
+                "Novi zahtjev"
+            ],
+            "Search subject, email or number": [
+                "Pretra\u017eite predmet, e-po\u0161tu ili broj"
+            ],
+            "Customer": [
+                "Korisnik"
+            ],
+            "Priority": [
+                "Prioritet"
+            ],
+            "Needs attention": [
+                "Potrebna pa\u017enja"
+            ],
+            "All": [
+                "Sve"
+            ],
+            "No tickets.": [
+                "Nema zahtjeva."
+            ],
+            "Page %1$d of %2$d": [
+                "Stranica %1$d od %2$d"
+            ],
+            "Customer name": [
+                "Ime klijenta"
+            ],
+            "Customer email": [
+                "Korisni\u010dka adresa e-po\u0161te"
+            ],
+            "Create ticket": [
+                "Otvori zahtjev"
+            ],
+            "All tickets": [
+                "Svi zahtjevi"
+            ],
+            "Write a reply\u2026": [
+                "Napi\u0161ite odgovor..."
+            ],
+            "Internal note (the customer does not see it)": [
+                "Interna bilje\u0161ka (klij je ne vidi)"
+            ],
+            "then: waiting for customer": [
+                "zatim: \u010dekanje korisnika"
+            ],
+            "then: solved": [
+                "rije\u0161eno: rije\u0161eno"
+            ],
+            "then: keep open": [
+                "zatim: ostavi otvoreno"
+            ],
+            "#%1$d %2$s": [
+                "#%1$d %2$s"
+            ],
+            "by email": [
+                "putem e-po\u0161te"
+            ],
+            "internal note": [
+                "interna bilje\u0161ka"
+            ],
+            "Channel": [
+                "Kanal"
+            ],
+            "Low": [
+                "Nisko"
+            ],
+            "Normal": [
+                "Normalno"
+            ],
+            "High": [
+                "Visoko"
+            ],
+            "Urgent": [
+                "Hitno"
+            ],
+            "Nobody": [
+                "Nitko"
+            ],
+            "Assigned to": [
+                "Dodijeljeno"
+            ],
+            "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
+                "Narud\u017eba #%1$s \u00b7 %2$s \u00b7 %3$s"
+            ],
+            "Order": [
+                "Narud\u017eba"
+            ],
+            "Delete ticket": [
+                "Izbri\u0161i zahtjev"
+            ],
+            "Delete this ticket and all its messages?": [
+                "Obrisati ovaj zahtjev i sve njegove poruke?"
+            ],
+            "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
+                "Pitajte ono \u0161to pitaju Va\u0161i posjetitelji. Vidite odgovor i svaku prona\u0111enu stranicu, s podacima o tome koliko se dobro svaka podudarala, kada je posljednji put a\u017eurirana te upozorenja za stranice koje djeluju zastarjelo. Popravite stranicu, pritisnite Ponovno pro\u010ditaj i pitajte ponovno."
+            ],
+            "For example: What is your returns policy?": [
+                "Na primjer: Kakva je va\u0161a politika povrata?"
+            ],
+            "Ask": [
+                "Pitajte"
+            ],
+            "Not updated for over a year": [
+                "Nije a\u017eurirano vi\u0161e od godinu dana"
+            ],
+            "A newer page covers the same subject: %s": [
+                "Novija stranica obuhva\u0107a istu temu: %s"
+            ],
+            "Re-read \u2713": [
+                "Pro\u010ditaj ponovno \u2713"
+            ],
+            "Asking\u2026": [
+                "Postavlja se\u2026"
+            ],
+            "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
+                "Ishod: %1$s \u00b7 Pretraga: %2$s \u00b7 Tokeni: %3$d ulaznih, %4$d izlaznih"
+            ],
+            "by meaning and words": [
+                "po zna\u010denju i rije\u010dima"
+            ],
+            "by words only (no embedding key)": [
+                "samo po rije\u010dima (bez klju\u010da za ugra\u0111ivanje)"
+            ],
+            "nothing indexed": [
+                "ni\u0161ta nije indeksirano"
+            ],
+            "The AI is not set up yet or could not answer.": [
+                "AI jo\u0161 nije postavljen ili nije mogao odgovoriti."
+            ],
+            "Sources found (%d)": [
+                "Prona\u0111eni izvori (%d)"
+            ],
+            "Nothing on the site matched. Add a page that answers this, or check the Site index settings.": [
+                "Ni\u0161ta na stranici nije prona\u0111eno. Dodajte stranicu koja na to odgovara ili provjerite postavke indeksa stranice."
+            ],
+            "Score": [
+                "Rezultat"
+            ],
+            "Last updated": [
+                "Posljednje a\u017eurirano"
+            ],
+            "Passage": [
+                "Prolazak"
+            ],
+            "Edit": [
+                "Uredi"
+            ],
+            "Re-read": [
+                "Ponovno pro\u010ditaj"
+            ],
+            "What the assistant has read": [
+                "\u0160to je pomo\u0107nik pro\u010ditao"
+            ],
+            "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
+                "%1$d pro\u010ditanih stranica \u00b7 %2$d na \u010dekanju \u00b7 %3$d s pogre\u0161kama \u00b7 %4$d odlomaka \u00b7 %5$d shva\u0107eno po zna\u010denju"
+            ],
+            "Embedding model: %s": [
+                "Model za ugra\u0111ivanje: %s"
+            ],
+            "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
+                "Nema modela za ugra\u0111ivanje: pretra\u017eivanje se vr\u0161i samo prema rije\u010dima. Pove\u017eite Google Gemini, OpenAI, Mistral ili OpenRouter za pretra\u017eivanje prema zna\u010denju."
+            ],
+            "Building meanings is paused:": [
+                "Izrada zna\u010denja je pauzirana:"
+            ],
+            "Re-read the whole site": [
+                "Ponovno pro\u010ditaj cijelu web-lokaciju"
+            ],
+            "Rebuild all meanings": [
+                "Ponovno izgradi sva zna\u010denja"
+            ],
+            "Filter by title or address": [
+                "Filtriraj po naslovu ili adresi"
+            ],
+            "Read": [
+                "\u010citaj"
+            ],
+            "Waiting": [
+                "Na \u010dekanju"
+            ],
+            "Errors": [
+                "Pogre\u0161ke"
+            ],
+            "Passages": [
+                "Prolazi"
+            ],
+            "by meaning": [
+                "prema zna\u010denju"
+            ],
+            "Rebuild meaning": [
+                "Ponovno izgradi zna\u010denje"
+            ],
+            "Done \u2713": [
+                "Gotovo \u2713"
+            ],
+            "Failed": [
+                "Neuspjelo"
+            ]
+        }
+    }
+}

@@ -1,0 +1,375 @@
+{
+    "translation-revision-date": "2026-09-29T15:04:41+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/console.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "kn",
+                "plural-forms": "nplurals=2; plural=(n > 1);"
+            },
+            "Inbox": [
+                "\u0c87\u0ca8\u0ccd\u200d\u0cac\u0cbe\u0c95\u0ccd\u0cb8\u0ccd"
+            ],
+            "Tickets": [
+                "\u0ca6\u0cc2\u0cb0\u0cc1\u0c97\u0cb3\u0cc1"
+            ],
+            "Assistant": [
+                "\u0cb8\u0cbe\u0caf\u0c95"
+            ],
+            "Fix it": [
+                "\u0c87\u0ca6\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb8\u0cb0\u0cbf\u0caa\u0ca1\u0cbf\u0cb8\u0cbf"
+            ],
+            "AI providers": [
+                "AI \u0c92\u0ca6\u0c97\u0cbf\u0cb8\u0cc1\u0cb5\u0cb5\u0cb0\u0cc1"
+            ],
+            "Test the assistant": [
+                "\u0cb8\u0cb9\u0cbe\u0caf\u0c95\u0ca8\u0ca8\u0ccd\u0ca8\u0cc1 \u0caa\u0cb0\u0cc0\u0c95\u0ccd\u0cb7\u0cbf\u0cb8\u0cbf"
+            ],
+            "Status": [
+                "\u0cb8\u0ccd\u0ca5\u0cbf\u0ca4\u0cbf"
+            ],
+            "Open": [
+                "\u0ca4\u0cc6\u0cb0\u0cc6\u0caf\u0cbf\u0cb0\u0cbf"
+            ],
+            "Subject": [
+                "\u0cb5\u0cbf\u0cb7\u0caf"
+            ],
+            "Updated": [
+                "\u0ca8\u0cb5\u0cc0\u0c95\u0cb0\u0cbf\u0cb8\u0cb2\u0cbe\u0c97\u0cbf\u0ca6\u0cc6"
+            ],
+            "Send reply": [
+                "\u0c89\u0ca4\u0ccd\u0ca4\u0cb0 \u0c95\u0cb3\u0cc1\u0cb9\u0cbf\u0cb8\u0cbf"
+            ],
+            "Page": [
+                "\u0caa\u0cc1\u0c9f"
+            ],
+            "Opened": [
+                "\u0ca4\u0cc6\u0cb0\u0cc6\u0caf\u0cb2\u0cbe\u0c97\u0cbf\u0ca6\u0cc6"
+            ],
+            "Visitor": [
+                "\u0cad\u0cc7\u0c9f\u0cbf\u0c97\u0cbe\u0cb0"
+            ],
+            "Waiting for customer": [
+                "\u0c97\u0ccd\u0cb0\u0cbe\u0cb9\u0c95\u0cb0\u0cbf\u0c97\u0cbe\u0c97\u0cbf \u0c95\u0cbe\u0caf\u0cb2\u0cbe\u0c97\u0cc1\u0ca4\u0ccd\u0ca4\u0cbf\u0ca6\u0cc6"
+            ],
+            "Solved": [
+                "\u0caa\u0cb0\u0cbf\u0cb9\u0cb0\u0cbf\u0cb8\u0cb2\u0cbe\u0c97\u0cbf\u0ca6\u0cc6"
+            ],
+            "Closed": [
+                "\u0cae\u0cc1\u0c9a\u0ccd\u0c9a\u0cb2\u0cbe\u0c97\u0cbf\u0ca6\u0cc6"
+            ],
+            "Send": [
+                "\u0c95\u0cb3\u0cc1\u0cb9\u0cbf\u0cb8\u0cbf"
+            ],
+            "Cancel": [
+                "\u0cb0\u0ca6\u0ccd\u0ca6\u0cc1\u0cae\u0cbe\u0ca1\u0cbf"
+            ],
+            "End chat": [
+                "\u0c9a\u0cbe\u0c9f\u0ccd \u0cae\u0cc1\u0c95\u0ccd\u0ca4\u0cbe\u0caf\u0c97\u0cca\u0cb3\u0cbf\u0cb8\u0cbf"
+            ],
+            "Something went wrong. Please try again.": [
+                "\u0c8f\u0ca8\u0ccb \u0ca4\u0caa\u0ccd\u0caa\u0cbe\u0c97\u0cbf\u0ca6\u0cc6. \u0ca6\u0caf\u0cb5\u0cbf\u0c9f\u0ccd\u0c9f\u0cc1 \u0cae\u0ca4\u0ccd\u0ca4\u0cc6 \u0caa\u0ccd\u0cb0\u0caf\u0ca4\u0ccd\u0ca8\u0cbf\u0cb8\u0cbf."
+            ],
+            "Details": [
+                "\u0cb5\u0cbf\u0cb5\u0cb0\u0c97\u0cb3\u0cc1"
+            ],
+            "Message": [
+                "\u0cb8\u0c82\u0ca6\u0cc7\u0cb6"
+            ],
+            "Type": [
+                "\u0caa\u0ccd\u0cb0\u0c95\u0cbe\u0cb0"
+            ],
+            "%ds": [
+                "%d\u0cb8\u0cc6"
+            ],
+            "%dm": [
+                "%dm"
+            ],
+            "%dh": [
+                "%dh"
+            ],
+            "Agent": [
+                "\u0c8f\u0c9c\u0cc6\u0c82\u0c9f\u0ccd"
+            ],
+            "Internal note": [
+                "\u0c86\u0c82\u0ca4\u0cb0\u0cbf\u0c95 \u0c9f\u0cbf\u0caa\u0ccd\u0caa\u0ca3\u0cbf"
+            ],
+            "With the assistant": [
+                "\u0c85\u0cb8\u0cbf\u0cb8\u0ccd\u0c9f\u0cc6\u0c82\u0c9f\u0ccd \u0c9c\u0cca\u0ca4\u0cc6\u0c97\u0cc6"
+            ],
+            "Waiting for a person": [
+                "\u0cb5\u0ccd\u0caf\u0c95\u0ccd\u0ca4\u0cbf\u0c97\u0cbe\u0c97\u0cbf \u0ca8\u0cbf\u0cb0\u0cc0\u0c95\u0ccd\u0cb7\u0cbf\u0cb8\u0cb2\u0cbe\u0c97\u0cc1\u0ca4\u0ccd\u0ca4\u0cbf\u0ca6\u0cc6"
+            ],
+            "With an agent": [
+                "\u0c8f\u0c9c\u0cc6\u0c82\u0c9f\u0ccd\u200c\u0ca8\u0cca\u0c82\u0ca6\u0cbf\u0c97\u0cc6"
+            ],
+            "Left a message": [
+                "\u0cb8\u0c82\u0ca6\u0cc7\u0cb6\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0cac\u0cbf\u0ca1\u0cb2\u0cbe\u0c97\u0cbf\u0ca6\u0cc6"
+            ],
+            "Away": [
+                "\u0ca6\u0cc2\u0cb0\u0ca6\u0cb2\u0ccd\u0cb2\u0cbf\u0ca6\u0ccd\u0ca6\u0cbe\u0cb0\u0cc6"
+            ],
+            "Focus mode": [
+                "\u0cab\u0ccb\u0c95\u0cb8\u0ccd \u0cae\u0ccb\u0ca1\u0ccd"
+            ],
+            "Desktop alerts": [
+                "\u0ca1\u0cc6\u0cb8\u0ccd\u0c95\u0ccd\u200c\u0c9f\u0cbe\u0caa\u0ccd \u0c8e\u0c9a\u0ccd\u0c9a\u0cb0\u0cbf\u0c95\u0cc6\u0c97\u0cb3\u0cc1"
+            ],
+            "Needs a person": [
+                "\u0cb5\u0ccd\u0caf\u0c95\u0ccd\u0ca4\u0cbf\u0caf \u0c85\u0c97\u0ca4\u0ccd\u0caf\u0cb5\u0cbf\u0ca6\u0cc6"
+            ],
+            "Choose a chat on the left. You can open several; each keeps its own draft.": [
+                "\u0c8e\u0ca1\u0cad\u0cbe\u0c97\u0ca6\u0cb2\u0ccd\u0cb2\u0cbf\u0cb0\u0cc1\u0cb5 \u0c9a\u0cbe\u0c9f\u0ccd \u0c85\u0ca8\u0ccd\u0ca8\u0cc1 \u0c86\u0caf\u0ccd\u0c95\u0cc6\u0cae\u0cbe\u0ca1\u0cbf. \u0ca8\u0cc0\u0cb5\u0cc1 \u0cb9\u0cb2\u0cb5\u0cbe\u0cb0\u0cc1 \u0ca4\u0cc6\u0cb0\u0cc6\u0caf\u0cac\u0cb9\u0cc1\u0ca6\u0cc1; \u0caa\u0ccd\u0cb0\u0ca4\u0cbf\u0caf\u0cca\u0c82\u0ca6\u0cc2 \u0ca4\u0ca8\u0ccd\u0ca8\u0ca6\u0cc7 \u0c86\u0ca6 \u0ca1\u0ccd\u0cb0\u0cbe\u0cab\u0ccd\u0c9f\u0ccd \u0c85\u0ca8\u0ccd\u0ca8\u0cc1 \u0c89\u0cb3\u0cbf\u0cb8\u0cbf\u0c95\u0cca\u0cb3\u0ccd\u0cb3\u0cc1\u0ca4\u0ccd\u0ca4\u0ca6\u0cc6."
+            ],
+            "A visitor is waiting": [
+                "\u0c92\u0cac\u0ccd\u0cac \u0cb8\u0c82\u0ca6\u0cb0\u0ccd\u0cb6\u0c95\u0cb0\u0cc1 \u0c95\u0cbe\u0caf\u0cc1\u0ca4\u0ccd\u0ca4\u0cbf\u0ca6\u0ccd\u0ca6\u0cbe\u0cb0\u0cc6"
+            ],
+            "Chat #%d": [
+                "\u0c9a\u0cbe\u0c9f\u0ccd #%d"
+            ],
+            "Nothing here right now.": [
+                "\u0caa\u0ccd\u0cb0\u0cb8\u0ccd\u0ca4\u0cc1\u0ca4 \u0c87\u0cb2\u0ccd\u0cb2\u0cbf \u0c8f\u0ca8\u0cc2 \u0c87\u0cb2\u0ccd\u0cb2."
+            ],
+            "Visitor #%d": [
+                "\u0cb8\u0c82\u0ca6\u0cb0\u0ccd\u0cb6\u0c95 #%d"
+            ],
+            "typing\u2026": [
+                "\u0c9f\u0cc8\u0caa\u0ccd \u0cae\u0cbe\u0ca1\u0cb2\u0cbe\u0c97\u0cc1\u0ca4\u0ccd\u0ca4\u0cbf\u0ca6\u0cc6\u2026"
+            ],
+            "waiting %s": [
+                "%s \u0c97\u0cbe\u0c97\u0cbf \u0c95\u0cbe\u0caf\u0cb2\u0cbe\u0c97\u0cc1\u0ca4\u0ccd\u0ca4\u0cbf\u0ca6\u0cc6"
+            ],
+            "%d online": [
+                "%d \u0c86\u0ca8\u0ccd\u200c\u0cb2\u0cc8\u0ca8\u0ccd"
+            ],
+            "Close tab": [
+                "\u0c9f\u0ccd\u0caf\u0cbe\u0cac\u0ccd \u0cae\u0cc1\u0c9a\u0ccd\u0c9a\u0cbf"
+            ],
+            "Back to the list": [
+                "\u0caa\u0c9f\u0ccd\u0c9f\u0cbf\u0c97\u0cc6 \u0cb9\u0cbf\u0c82\u0ca4\u0cbf\u0cb0\u0cc1\u0c97\u0cbf"
+            ],
+            "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
+                "\u0c89\u0ca4\u0ccd\u0ca4\u0cb0\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0c9f\u0cc8\u0caa\u0ccd \u0cae\u0cbe\u0ca1\u0cbf\u2026 (\u0c95\u0cb3\u0cc1\u0cb9\u0cbf\u0cb8\u0cb2\u0cc1 Enter \u0c92\u0ca4\u0ccd\u0ca4\u0cbf, \u0cb9\u0cca\u0cb8 \u0cb8\u0cbe\u0cb2\u0cbf\u0c97\u0cbe\u0c97\u0cbf Shift+Enter)"
+            ],
+            "Ticket #%d": [
+                "\u0c9f\u0cbf\u0c95\u0cc6\u0c9f\u0ccd #%d"
+            ],
+            "Take this chat": [
+                "\u0c88 \u0c9a\u0cbe\u0c9f\u0ccd \u0c85\u0ca8\u0ccd\u0ca8\u0cc1 \u0ca4\u0cc6\u0c97\u0cc6\u0ca6\u0cc1\u0c95\u0cca\u0cb3\u0ccd\u0cb3\u0cbf"
+            ],
+            "Back to the assistant": [
+                "\u0cb8\u0cb9\u0cbe\u0caf\u0c95\u0ca8\u0cbf\u0c97\u0cc6 \u0cb9\u0cbf\u0c82\u0ca4\u0cbf\u0cb0\u0cc1\u0c97\u0cbf"
+            ],
+            "Make a ticket": [
+                "\u0c9f\u0cbf\u0c95\u0cc6\u0c9f\u0ccd \u0cae\u0cbe\u0ca1\u0cbf"
+            ],
+            "The visitor's email address": [
+                "\u0cb8\u0c82\u0ca6\u0cb0\u0ccd\u0cb6\u0c95\u0cb0 \u0c87\u0cae\u0cc7\u0cb2\u0ccd \u0cb5\u0cbf\u0cb3\u0cbe\u0cb8"
+            ],
+            "The visitor is typing\u2026": [
+                "\u0cb8\u0c82\u0ca6\u0cb0\u0ccd\u0cb6\u0c95\u0cb0\u0cc1 \u0c9f\u0cc8\u0caa\u0ccd \u0cae\u0cbe\u0ca1\u0cc1\u0ca4\u0ccd\u0ca4\u0cbf\u0ca6\u0ccd\u0ca6\u0cbe\u0cb0\u0cc6..."
+            ],
+            "New ticket": [
+                "\u0cb9\u0cca\u0cb8 \u0c9f\u0cbf\u0c95\u0cc6\u0c9f\u0ccd"
+            ],
+            "Search subject, email or number": [
+                "\u0cb5\u0cbf\u0cb7\u0caf, \u0c87\u0cae\u0cc7\u0cb2\u0ccd \u0c85\u0ca5\u0cb5\u0cbe \u0cb8\u0c82\u0c96\u0ccd\u0caf\u0cc6\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb9\u0cc1\u0ca1\u0cc1\u0c95\u0cbf"
+            ],
+            "Customer": [
+                "\u0c97\u0ccd\u0cb0\u0cbe\u0cb9\u0c95\u0cb0\u0cc1"
+            ],
+            "Priority": [
+                "\u0c86\u0ca6\u0ccd\u0caf\u0ca4\u0cc6"
+            ],
+            "Needs attention": [
+                "\u0c97\u0cae\u0ca8\u0ca6 \u0c85\u0c97\u0ca4\u0ccd\u0caf\u0cb5\u0cbf\u0ca6\u0cc6"
+            ],
+            "All": [
+                "\u0c8e\u0cb2\u0ccd\u0cb2\u0cbe"
+            ],
+            "No tickets.": [
+                "\u0caf\u0cbe\u0cb5 \u0c9f\u0cbf\u0c95\u0cc6\u0c9f\u0ccd\u200c\u0c97\u0cb3\u0cbf\u0cb2\u0ccd\u0cb2."
+            ],
+            "Page %1$d of %2$d": [
+                "\u0caa\u0cc1\u0c9f %1$d \u0cb0\u0cb2\u0ccd\u0cb2\u0cbf %2$d"
+            ],
+            "Customer name": [
+                "\u0c97\u0ccd\u0cb0\u0cbe\u0cb9\u0c95\u0cb0 \u0cb9\u0cc6\u0cb8\u0cb0\u0cc1"
+            ],
+            "Customer email": [
+                "\u0c97\u0ccd\u0cb0\u0cbe\u0cb9\u0c95\u0cb0 \u0c87\u0cae\u0cc7\u0cb2\u0ccd"
+            ],
+            "Create ticket": [
+                "\u0c9f\u0cbf\u0c95\u0cc6\u0c9f\u0ccd \u0cb0\u0c9a\u0cbf\u0cb8\u0cbf"
+            ],
+            "All tickets": [
+                "\u0c8e\u0cb2\u0ccd\u0cb2\u0cbe \u0c9f\u0cbf\u0c95\u0cc6\u0c9f\u0ccd\u200c\u0c97\u0cb3\u0cc1"
+            ],
+            "Write a reply\u2026": [
+                "\u0caa\u0ccd\u0cb0\u0ca4\u0ccd\u0caf\u0cc1\u0ca4\u0ccd\u0ca4\u0cb0\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0cac\u0cb0\u0cc6\u0caf\u0cbf\u0cb0\u0cbf..."
+            ],
+            "Internal note (the customer does not see it)": [
+                "\u0c86\u0c82\u0ca4\u0cb0\u0cbf\u0c95 \u0c9f\u0cbf\u0caa\u0ccd\u0caa\u0ca3\u0cbf (\u0c97\u0ccd\u0cb0\u0cbe\u0cb9\u0c95\u0cb0\u0cc1 \u0c87\u0ca6\u0ca8\u0ccd\u0ca8\u0cc1 \u0ca8\u0ccb\u0ca1\u0cc1\u0cb5\u0cc1\u0ca6\u0cbf\u0cb2\u0ccd\u0cb2)"
+            ],
+            "then: waiting for customer": [
+                "\u0ca8\u0c82\u0ca4\u0cb0: \u0c97\u0ccd\u0cb0\u0cbe\u0cb9\u0c95\u0cb0\u0cbf\u0c97\u0cbe\u0c97\u0cbf \u0c95\u0cbe\u0caf\u0cb2\u0cbe\u0c97\u0cc1\u0ca4\u0ccd\u0ca4\u0cbf\u0ca6\u0cc6"
+            ],
+            "then: solved": [
+                "\u0c86\u0c97: \u0caa\u0cb0\u0cbf\u0cb9\u0cb0\u0cbf\u0cb8\u0cb2\u0cbe\u0c97\u0cbf\u0ca6\u0cc6"
+            ],
+            "then: keep open": [
+                "\u0ca8\u0c82\u0ca4\u0cb0: \u0ca4\u0cc6\u0cb0\u0cc6\u0ca6\u0cbf\u0ca1\u0cbf"
+            ],
+            "#%1$d %2$s": [
+                "#%1$d %2$s"
+            ],
+            "by email": [
+                "\u0c87\u0cae\u0cc7\u0cb2\u0ccd \u0cae\u0cc2\u0cb2\u0c95"
+            ],
+            "internal note": [
+                "\u0c86\u0c82\u0ca4\u0cb0\u0cbf\u0c95 \u0c9f\u0cbf\u0caa\u0ccd\u0caa\u0ca3\u0cbf"
+            ],
+            "Channel": [
+                "\u0c9a\u0cbe\u0ca8\u0cb2\u0ccd"
+            ],
+            "Low": [
+                "\u0c95\u0ca8\u0cbf\u0cb7\u0ccd\u0ca0"
+            ],
+            "Normal": [
+                "\u0cb8\u0cbe\u0cae\u0cbe\u0ca8\u0ccd\u0caf"
+            ],
+            "High": [
+                "\u0cb9\u0cc6\u0c9a\u0ccd\u0c9a\u0cc1"
+            ],
+            "Urgent": [
+                "\u0c85\u0ca4\u0ccd\u0caf\u0cc1\u0ca4\u0ccd\u0c95\u0c9f"
+            ],
+            "Nobody": [
+                "\u0caf\u0cbe\u0cb0\u0cc2 \u0c85\u0cb2\u0ccd\u0cb2"
+            ],
+            "Assigned to": [
+                "\u0c87\u0cb5\u0cb0\u0cbf\u0c97\u0cc6 \u0ca8\u0cbf\u0caf\u0ccb\u0c9c\u0cbf\u0cb8\u0cb2\u0cbe\u0c97\u0cbf\u0ca6\u0cc6"
+            ],
+            "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
+                "\u0c86\u0cb0\u0ccd\u0ca1\u0cb0\u0ccd #%1$s \u00b7 %2$s \u00b7 %3$s"
+            ],
+            "Order": [
+                "\u0c86\u0cb0\u0ccd\u0ca1\u0cb0\u0ccd \u0cae\u0cbe\u0ca1\u0cbf"
+            ],
+            "Delete ticket": [
+                "\u0c9f\u0cbf\u0c95\u0cc6\u0c9f\u0ccd \u0c85\u0cb3\u0cbf\u0cb8\u0cbf"
+            ],
+            "Delete this ticket and all its messages?": [
+                "\u0c88 \u0c9f\u0cbf\u0c95\u0cc6\u0c9f\u0ccd \u0cae\u0ca4\u0ccd\u0ca4\u0cc1 \u0c85\u0ca6\u0cb0 \u0c8e\u0cb2\u0ccd\u0cb2\u0cbe \u0cb8\u0c82\u0ca6\u0cc7\u0cb6\u0c97\u0cb3\u0ca8\u0ccd\u0ca8\u0cc1 \u0c85\u0cb3\u0cbf\u0cb8\u0cac\u0cc7\u0c95\u0cc7?"
+            ],
+            "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
+                "\u0ca8\u0cbf\u0cae\u0ccd\u0cae \u0cb8\u0c82\u0ca6\u0cb0\u0ccd\u0cb6\u0c95\u0cb0\u0cc1 \u0c95\u0cc7\u0cb3\u0cc1\u0cb5\u0cc1\u0ca6\u0ca8\u0ccd\u0ca8\u0cc1 \u0ca8\u0cc0\u0cb5\u0cc1 \u0c95\u0cc7\u0cb3\u0cbf. \u0c89\u0ca4\u0ccd\u0ca4\u0cb0 \u0cae\u0ca4\u0ccd\u0ca4\u0cc1 \u0c85\u0ca6\u0cc1 \u0c95\u0c82\u0ca1\u0cc1\u0c95\u0cca\u0c82\u0ca1 \u0caa\u0ccd\u0cb0\u0ca4\u0cbf\u0caf\u0cca\u0c82\u0ca6\u0cc1 \u0caa\u0cc1\u0c9f\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1, \u0caa\u0ccd\u0cb0\u0ca4\u0cbf\u0caf\u0cca\u0c82\u0ca6\u0cc2 \u0c8e\u0cb7\u0ccd\u0c9f\u0cc1 \u0c9a\u0cc6\u0ca8\u0ccd\u0ca8\u0cbe\u0c97\u0cbf \u0cb9\u0cca\u0c82\u0ca6\u0cbf\u0c95\u0cc6\u0caf\u0cbe\u0c97\u0cbf\u0ca6\u0cc6, \u0c85\u0ca6\u0ca8\u0ccd\u0ca8\u0cc1 \u0c95\u0cca\u0ca8\u0cc6\u0caf \u0cac\u0cbe\u0cb0\u0cbf\u0c97\u0cc6 \u0caf\u0cbe\u0cb5\u0cbe\u0c97 \u0ca8\u0cb5\u0cc0\u0c95\u0cb0\u0cbf\u0cb8\u0cb2\u0cbe\u0c97\u0cbf\u0ca6\u0cc6 \u0cae\u0ca4\u0ccd\u0ca4\u0cc1 \u0cb9\u0cb3\u0cc6\u0caf\u0ca6\u0cbe\u0c97\u0cbf \u0c95\u0cbe\u0ca3\u0cc1\u0cb5 \u0caa\u0cc1\u0c9f\u0c97\u0cb3 \u0c8e\u0c9a\u0ccd\u0c9a\u0cb0\u0cbf\u0c95\u0cc6\u0c97\u0cb3\u0cca\u0c82\u0ca6\u0cbf\u0c97\u0cc6 \u0ca8\u0cc0\u0cb5\u0cc1 \u0ca8\u0ccb\u0ca1\u0cc1\u0ca4\u0ccd\u0ca4\u0cc0\u0cb0\u0cbf. \u0caa\u0cc1\u0c9f\u0cb5\u0cca\u0c82\u0ca6\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb8\u0cb0\u0cbf\u0caa\u0ca1\u0cbf\u0cb8\u0cbf, \u0cae\u0cb0\u0cc1-\u0c93\u0ca6\u0cc1 (Re-read) \u0c92\u0ca4\u0ccd\u0ca4\u0cbf \u0cae\u0ca4\u0ccd\u0ca4\u0cc1 \u0cae\u0ca4\u0ccd\u0ca4\u0cca\u0cae\u0ccd\u0cae\u0cc6 \u0c95\u0cc7\u0cb3\u0cbf."
+            ],
+            "For example: What is your returns policy?": [
+                "\u0c89\u0ca6\u0cbe\u0cb9\u0cb0\u0ca3\u0cc6\u0c97\u0cc6: \u0ca8\u0cbf\u0cae\u0ccd\u0cae \u0cb0\u0cbf\u0c9f\u0cb0\u0ccd\u0ca8\u0ccd\u0cb8\u0ccd \u0ca8\u0cc0\u0ca4\u0cbf \u0c8f\u0ca8\u0cc1?"
+            ],
+            "Ask": [
+                "\u0c95\u0cc7\u0cb3\u0cbf"
+            ],
+            "Not updated for over a year": [
+                "\u0c92\u0c82\u0ca6\u0cc1 \u0cb5\u0cb0\u0ccd\u0cb7\u0c95\u0ccd\u0c95\u0cbf\u0c82\u0ca4 \u0cb9\u0cc6\u0c9a\u0ccd\u0c9a\u0cc1 \u0c95\u0cbe\u0cb2\u0ca6\u0cbf\u0c82\u0ca6 \u0ca8\u0cb5\u0cc0\u0c95\u0cb0\u0cbf\u0cb8\u0cb2\u0cbe\u0c97\u0cbf\u0cb2\u0ccd\u0cb2"
+            ],
+            "A newer page covers the same subject: %s": [
+                "\u0cb9\u0cca\u0cb8 \u0caa\u0cc1\u0c9f\u0cb5\u0cc1 \u0c87\u0ca6\u0cc7 \u0cb5\u0cbf\u0cb7\u0caf\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0c92\u0cb3\u0c97\u0cca\u0c82\u0ca1\u0cbf\u0ca6\u0cc6: %s"
+            ],
+            "Re-read \u2713": [
+                "\u0cae\u0cb0\u0cc1-\u0c93\u0ca6\u0cbf \u2713"
+            ],
+            "Asking\u2026": [
+                "\u0c95\u0cc7\u0cb3\u0cb2\u0cbe\u0c97\u0cc1\u0ca4\u0ccd\u0ca4\u0cbf\u0ca6\u0cc6\u2026"
+            ],
+            "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
+                "\u0cab\u0cb2\u0cbf\u0ca4\u0cbe\u0c82\u0cb6: %1$s \u00b7 \u0cb9\u0cc1\u0ca1\u0cc1\u0c95\u0cbe\u0c9f: %2$s \u00b7 \u0c9f\u0ccb\u0c95\u0ca8\u0ccd\u200c\u0c97\u0cb3\u0cc1: \u0c92\u0cb3\u0c97\u0cc6 %3$d, \u0cb9\u0cca\u0cb0\u0c97\u0cc6 %4$d"
+            ],
+            "by meaning and words": [
+                "\u0c85\u0cb0\u0ccd\u0ca5 \u0cae\u0ca4\u0ccd\u0ca4\u0cc1 \u0caa\u0ca6\u0c97\u0cb3 \u0cae\u0cc2\u0cb2\u0c95"
+            ],
+            "by words only (no embedding key)": [
+                "\u0c95\u0cc7\u0cb5\u0cb2 \u0caa\u0ca6\u0c97\u0cb3 \u0cae\u0cc2\u0cb2\u0c95 (\u0c8e\u0c82\u0cac\u0cc6\u0ca1\u0cbf\u0c82\u0c97\u0ccd \u0c95\u0cc0 \u0c87\u0cb2\u0ccd\u0cb2\u0ca6\u0cc6)"
+            ],
+            "nothing indexed": [
+                "\u0caf\u0cbe\u0cb5\u0cbe\u0c97\u0cb2\u0cc2 \u0cb8\u0cc2\u0c9a\u0cbf\u0c95\u0cc6 \u0cae\u0cbe\u0ca1\u0cb2\u0cbe\u0c97\u0cbf\u0cb2\u0ccd\u0cb2"
+            ],
+            "The AI is not set up yet or could not answer.": [
+                "AI \u0c87\u0ca8\u0ccd\u0ca8\u0cc2 \u0c95\u0cbe\u0ca8\u0ccd\u0cab\u0cbf\u0c97\u0cb0\u0ccd \u0c86\u0c97\u0cbf\u0cb2\u0ccd\u0cb2 \u0c85\u0ca5\u0cb5\u0cbe \u0c89\u0ca4\u0ccd\u0ca4\u0cb0\u0cbf\u0cb8\u0cb2\u0cc1 \u0cb8\u0cbe\u0ca7\u0ccd\u0caf\u0cb5\u0cbe\u0c97\u0cb2\u0cbf\u0cb2\u0ccd\u0cb2."
+            ],
+            "Sources found (%d)": [
+                "\u0cae\u0cc2\u0cb2\u0c97\u0cb3\u0cc1 \u0c95\u0c82\u0ca1\u0cc1\u0cac\u0c82\u0ca6\u0cbf\u0cb5\u0cc6 (%d)"
+            ],
+            "Nothing on the site matched. Add a page that answers this, or check the Site index settings.": [
+                "\u0cb8\u0cc8\u0c9f\u0ccd\u200c\u0ca8\u0cb2\u0ccd\u0cb2\u0cbf \u0caf\u0cbe\u0cb5\u0cc1\u0ca6\u0cc2 \u0cb9\u0cca\u0c82\u0ca6\u0cbf\u0c95\u0cc6\u0caf\u0cbe\u0c97\u0cbf\u0cb2\u0ccd\u0cb2. \u0c87\u0ca6\u0c95\u0ccd\u0c95\u0cc6 \u0c89\u0ca4\u0ccd\u0ca4\u0cb0\u0cbf\u0cb8\u0cc1\u0cb5 \u0caa\u0cc1\u0c9f\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb8\u0cc7\u0cb0\u0cbf\u0cb8\u0cbf \u0c85\u0ca5\u0cb5\u0cbe \u0cb8\u0cc8\u0c9f\u0ccd \u0c87\u0c82\u0ca1\u0cc6\u0c95\u0ccd\u0cb8\u0ccd \u0cb8\u0cc6\u0c9f\u0ccd\u0c9f\u0cbf\u0c82\u0c97\u0ccd\u200c\u0c97\u0cb3\u0ca8\u0ccd\u0ca8\u0cc1 \u0caa\u0cb0\u0cbf\u0cb6\u0cc0\u0cb2\u0cbf\u0cb8\u0cbf."
+            ],
+            "Score": [
+                "\u0c85\u0c82\u0c95"
+            ],
+            "Last updated": [
+                "\u0c95\u0cca\u0ca8\u0cc6\u0caf\u0ca6\u0cbe\u0c97\u0cbf \u0ca8\u0cb5\u0cc0\u0c95\u0cb0\u0cbf\u0cb8\u0cb2\u0cbe\u0c97\u0cbf\u0ca6\u0cc6"
+            ],
+            "Passage": [
+                "\u0caa\u0cbe\u0cb8\u0ccd\u0c85\u0ca5\u0ccd"
+            ],
+            "Edit": [
+                "\u0cb8\u0c82\u0caa\u0cbe\u0ca6\u0cbf\u0cb8\u0cbf"
+            ],
+            "Re-read": [
+                "\u0caa\u0cc1\u0ca8\u0c83 \u0c93\u0ca6\u0cbf"
+            ],
+            "What the assistant has read": [
+                "\u0cb8\u0cb9\u0cbe\u0caf\u0c95\u0cb0\u0cc1 \u0c93\u0ca6\u0cbf\u0cb0\u0cc1\u0cb5\u0cc1\u0ca6\u0cc1"
+            ],
+            "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
+                "%1$d \u0caa\u0cc1\u0c9f\u0c97\u0cb3\u0ca8\u0ccd\u0ca8\u0cc1 \u0c93\u0ca6\u0cb2\u0cbe\u0c97\u0cbf\u0ca6\u0cc6 \u00b7 %2$d \u0c95\u0cbe\u0caf\u0cc1\u0ca4\u0ccd\u0ca4\u0cbf\u0cb5\u0cc6 \u00b7 %3$d \u0ca6\u0ccb\u0cb7\u0c97\u0cb3\u0cca\u0c82\u0ca6\u0cbf\u0c97\u0cc6 \u00b7 %4$d \u0cad\u0cbe\u0c97\u0c97\u0cb3\u0cc1 \u00b7 %5$d \u0c85\u0cb0\u0ccd\u0ca5\u0ca6\u0cbf\u0c82\u0ca6 \u0c85\u0cb0\u0ccd\u0ca5\u0cae\u0cbe\u0ca1\u0cbf\u0c95\u0cca\u0cb3\u0ccd\u0cb3\u0cb2\u0cbe\u0c97\u0cbf\u0ca6\u0cc6"
+            ],
+            "Embedding model: %s": [
+                "\u0c8e\u0c82\u0cac\u0cc6\u0ca1\u0ccd\u0ca1\u0cbf\u0c82\u0c97\u0ccd \u0cae\u0cbe\u0ca6\u0cb0\u0cbf: %s"
+            ],
+            "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
+                "\u0caf\u0cbe\u0cb5\u0cc1\u0ca6\u0cc7 \u0c8e\u0c82\u0cac\u0cc6\u0ca1\u0cbf\u0c82\u0c97\u0ccd \u0cae\u0cbe\u0ca6\u0cb0\u0cbf \u0c87\u0cb2\u0ccd\u0cb2: \u0cb9\u0cc1\u0ca1\u0cc1\u0c95\u0cbe\u0c9f\u0cb5\u0cc1 \u0caa\u0ca6\u0c97\u0cb3 \u0cae\u0cc2\u0cb2\u0c95 \u0cae\u0cbe\u0ca4\u0ccd\u0cb0. \u0c85\u0cb0\u0ccd\u0ca5\u0ca6 \u0cae\u0cc2\u0cb2\u0c95 \u0cb9\u0cc1\u0ca1\u0cc1\u0c95\u0cb2\u0cc1 Google Gemini, OpenAI, Mistral \u0c85\u0ca5\u0cb5\u0cbe OpenRouter \u0c85\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb8\u0c82\u0caa\u0cb0\u0ccd\u0c95\u0cbf\u0cb8\u0cbf."
+            ],
+            "Building meanings is paused:": [
+                "\u0c85\u0cb0\u0ccd\u0ca5\u0c97\u0cb3\u0ca8\u0ccd\u0ca8\u0cc1 \u0ca8\u0cbf\u0cb0\u0ccd\u0cae\u0cbf\u0cb8\u0cc1\u0cb5\u0cc1\u0ca6\u0ca8\u0ccd\u0ca8\u0cc1 \u0cb5\u0cbf\u0cb0\u0cbe\u0cae\u0c97\u0cca\u0cb3\u0cbf\u0cb8\u0cb2\u0cbe\u0c97\u0cbf\u0ca6\u0cc6:"
+            ],
+            "Re-read the whole site": [
+                "\u0c87\u0ca1\u0cc0 \u0cb8\u0cc8\u0c9f\u0ccd \u0c85\u0ca8\u0ccd\u0ca8\u0cc1 \u0cae\u0cb0\u0cc1-\u0c93\u0ca6\u0cbf"
+            ],
+            "Rebuild all meanings": [
+                "\u0c8e\u0cb2\u0ccd\u0cb2\u0cbe \u0c85\u0cb0\u0ccd\u0ca5\u0c97\u0cb3\u0ca8\u0ccd\u0ca8\u0cc1 \u0cae\u0cb0\u0cc1\u0ca8\u0cbf\u0cb0\u0ccd\u0cae\u0cbe\u0ca3 \u0cae\u0cbe\u0ca1\u0cbf"
+            ],
+            "Filter by title or address": [
+                "\u0cb6\u0cc0\u0cb0\u0ccd\u0cb7\u0cbf\u0c95\u0cc6 \u0c85\u0ca5\u0cb5\u0cbe \u0cb5\u0cbf\u0cb3\u0cbe\u0cb8\u0ca6 \u0cae\u0cc2\u0cb2\u0c95 \u0cab\u0cbf\u0cb2\u0ccd\u0c9f\u0cb0\u0ccd \u0cae\u0cbe\u0ca1\u0cbf"
+            ],
+            "Read": [
+                "\u0c93\u0ca6\u0cbf"
+            ],
+            "Waiting": [
+                "\u0c95\u0cbe\u0caf\u0cb2\u0cbe\u0c97\u0cc1\u0ca4\u0ccd\u0ca4\u0cbf\u0ca6\u0cc6"
+            ],
+            "Errors": [
+                "\u0ca6\u0ccb\u0cb7\u0c97\u0cb3\u0cc1"
+            ],
+            "Passages": [
+                "\u0caa\u0ccd\u0caf\u0cbe\u0cb8\u0cc7\u0c9c\u0ccd\u200c\u0c97\u0cb3\u0cc1"
+            ],
+            "by meaning": [
+                "\u0c85\u0cb0\u0ccd\u0ca5\u0ca6 \u0cae\u0cc2\u0cb2\u0c95"
+            ],
+            "Rebuild meaning": [
+                "\u0c85\u0cb0\u0ccd\u0ca5\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0cae\u0cb0\u0cc1\u0ca8\u0cbf\u0cb0\u0ccd\u0cae\u0cbf\u0cb8\u0cbf"
+            ],
+            "Done \u2713": [
+                "\u0cae\u0cc1\u0c97\u0cbf\u0ca6\u0cbf\u0ca6\u0cc6 \u2713"
+            ],
+            "Failed": [
+                "\u0cb5\u0cbf\u0cab\u0cb2\u0cb5\u0cbe\u0c97\u0cbf\u0ca6\u0cc6"
+            ]
+        }
+    }
+}

@@ -1,0 +1,375 @@
+{
+    "translation-revision-date": "2026-09-29T15:04:41+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/console.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "uz_UZ",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Inbox": [
+                "Kirish qutisi"
+            ],
+            "Tickets": [
+                "Chiptalar"
+            ],
+            "Assistant": [
+                "Yordamchi"
+            ],
+            "Fix it": [
+                "Tuzatish"
+            ],
+            "AI providers": [
+                "Sun'iy intellekt provayderlari"
+            ],
+            "Test the assistant": [
+                "Yordamchini sinab ko\u2018rish"
+            ],
+            "Status": [
+                "Holat"
+            ],
+            "Open": [
+                "Ochish"
+            ],
+            "Subject": [
+                "Mavzu"
+            ],
+            "Updated": [
+                "Yangilangan"
+            ],
+            "Send reply": [
+                "Javob yuborish"
+            ],
+            "Page": [
+                "Sahifa"
+            ],
+            "Opened": [
+                "Ochilgan"
+            ],
+            "Visitor": [
+                "Tashrif buyuruvchi"
+            ],
+            "Waiting for customer": [
+                "Mijozni kutish"
+            ],
+            "Solved": [
+                "Hal qilingan"
+            ],
+            "Closed": [
+                "Yopilgan"
+            ],
+            "Send": [
+                "Yuborish"
+            ],
+            "Cancel": [
+                "Bekor qilish"
+            ],
+            "End chat": [
+                "Chatni tugatish"
+            ],
+            "Something went wrong. Please try again.": [
+                "Xatolik yuz berdi. Iltimos, qaytadan urinib ko'ring."
+            ],
+            "Details": [
+                "Tafsilotlar"
+            ],
+            "Message": [
+                "Xabar"
+            ],
+            "Type": [
+                "Turi"
+            ],
+            "%ds": [
+                "%ds"
+            ],
+            "%dm": [
+                "%dm"
+            ],
+            "%dh": [
+                "%dh"
+            ],
+            "Agent": [
+                "Agent"
+            ],
+            "Internal note": [
+                "Ichki eslatma"
+            ],
+            "With the assistant": [
+                "Yordamchi bilan"
+            ],
+            "Waiting for a person": [
+                "Odamni kutish"
+            ],
+            "With an agent": [
+                "Agent bilan"
+            ],
+            "Left a message": [
+                "Xabar qoldirildi"
+            ],
+            "Away": [
+                "Chiqib ketgan"
+            ],
+            "Focus mode": [
+                "Diqqat rejimi"
+            ],
+            "Desktop alerts": [
+                "Ish stolidagi ogohlantirishlar"
+            ],
+            "Needs a person": [
+                "Shaxs talab qilinadi"
+            ],
+            "Choose a chat on the left. You can open several; each keeps its own draft.": [
+                "Chap tomondan chatni tanlang. Bir nechta ochishingiz mumkin; ularning har biri o'z qoralamasini saqlab qoladi."
+            ],
+            "A visitor is waiting": [
+                "Tashrif buyuruvchi kutmoqda"
+            ],
+            "Chat #%d": [
+                "Chat #%d"
+            ],
+            "Nothing here right now.": [
+                "Hozircha hech narsa yo'q."
+            ],
+            "Visitor #%d": [
+                "Tashrif buyuruvchi #%d"
+            ],
+            "typing\u2026": [
+                "yozilmoqda\u2026"
+            ],
+            "waiting %s": [
+                "%s kutilmoqda"
+            ],
+            "%d online": [
+                "%d onlayn"
+            ],
+            "Close tab": [
+                "Tabni yopish"
+            ],
+            "Back to the list": [
+                "Ro\u02bbyxatga qaytish"
+            ],
+            "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
+                "Javob yozing\u2026 (Yuborish uchun Enter, yangi qator uchun Shift+Enter)"
+            ],
+            "Ticket #%d": [
+                "Murojaat \u2116%d"
+            ],
+            "Take this chat": [
+                "Ushbu chatni olish"
+            ],
+            "Back to the assistant": [
+                "Yordamchiga qaytish"
+            ],
+            "Make a ticket": [
+                "Chipta yaratish"
+            ],
+            "The visitor's email address": [
+                "Tashrif buyuruvchining elektron pochta manzili"
+            ],
+            "The visitor is typing\u2026": [
+                "Tashrif buyuruvchi yozmoqda\u2026"
+            ],
+            "New ticket": [
+                "Yangi so'rov"
+            ],
+            "Search subject, email or number": [
+                "Mavzu, elektron pochta yoki raqamni qidirish"
+            ],
+            "Customer": [
+                "Mijoz"
+            ],
+            "Priority": [
+                "Ustuvorlik"
+            ],
+            "Needs attention": [
+                "E'tibor talab qiladi"
+            ],
+            "All": [
+                "Barchasi"
+            ],
+            "No tickets.": [
+                "Chiptalar yo\u2018q."
+            ],
+            "Page %1$d of %2$d": [
+                "%1$d-sahifa (%2$d tadan)"
+            ],
+            "Customer name": [
+                "Mijoz nomi"
+            ],
+            "Customer email": [
+                "Mijoz elektron pochtasi"
+            ],
+            "Create ticket": [
+                "Ticket yaratish"
+            ],
+            "All tickets": [
+                "Barcha cheklar"
+            ],
+            "Write a reply\u2026": [
+                "Javob yozish\u2026"
+            ],
+            "Internal note (the customer does not see it)": [
+                "Ichki eslatma (mijoz buni ko\u2018rmaydi)"
+            ],
+            "then: waiting for customer": [
+                "keyin: mijoz kutilmoqda"
+            ],
+            "then: solved": [
+                "keyingi: hal qilindi"
+            ],
+            "then: keep open": [
+                "so'ng: ochiq saqlash"
+            ],
+            "#%1$d %2$s": [
+                "#%1$d %2$s"
+            ],
+            "by email": [
+                "elektron pochta orqali"
+            ],
+            "internal note": [
+                "ichki eslatma"
+            ],
+            "Channel": [
+                "Kanal"
+            ],
+            "Low": [
+                "Past past"
+            ],
+            "Normal": [
+                "Normal"
+            ],
+            "High": [
+                "Yuqori"
+            ],
+            "Urgent": [
+                "Shoshilinch"
+            ],
+            "Nobody": [
+                "Hech kim"
+            ],
+            "Assigned to": [
+                "Biriktirilgan"
+            ],
+            "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
+                "Buyurtma \u2116%1$s \u00b7 %2$s \u00b7 %3$s"
+            ],
+            "Order": [
+                "Buyurtma"
+            ],
+            "Delete ticket": [
+                "Chiptani o'chirish"
+            ],
+            "Delete this ticket and all its messages?": [
+                "Ushbu murojaat va uning barcha xabarlari o'chirilsinmi?"
+            ],
+            "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
+                "Tashrif buyuruvchilaringiz nima so'rasa, shuni so'rang. Siz javobni va u topgan har bir sahifani, har birining moslik darajasini, oxirgi marta qachon yangilanganini va eskirgan ko'ringan sahifalar uchun ogohlantirimlarni ko'rasiz. Sahifani tuzating, \"Qayta o'qish\" tugmasini bosing va yana so'rang."
+            ],
+            "For example: What is your returns policy?": [
+                "Masalan: Qaytish siyosatingiz qanday?"
+            ],
+            "Ask": [
+                "So'rash"
+            ],
+            "Not updated for over a year": [
+                "Bir yildan ortiq vaqtdan beri yangilanmagan"
+            ],
+            "A newer page covers the same subject: %s": [
+                "Yangiroq sahifa shunday mavzuni qamrab oladi: %s"
+            ],
+            "Re-read \u2713": [
+                "Qayta o\u02bbqish \u2713"
+            ],
+            "Asking\u2026": [
+                "So'ralmoqda\u2026"
+            ],
+            "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
+                "Natija: %1$s \u00b7 Qidiruv: %2$s \u00b7 Tokenlar: %3$d kiruvchi, %4$d chiquvchi"
+            ],
+            "by meaning and words": [
+                "ma'nosi va so'zlari bo'yicha"
+            ],
+            "by words only (no embedding key)": [
+                "faqat so'zlar bo'yicha (joylashtirish kalitisiz)"
+            ],
+            "nothing indexed": [
+                "indekslanmagan"
+            ],
+            "The AI is not set up yet or could not answer.": [
+                "Sun'iy intellekt hali sozlangan emas yoki javob bera olmadi."
+            ],
+            "Sources found (%d)": [
+                "Topilgan manbalar (%d)"
+            ],
+            "Nothing on the site matched. Add a page that answers this, or check the Site index settings.": [
+                "Saytda hech narsa mos kelmadi. Bunga javob beradigan sahifa qo'shing yoki Sayt indeksi sozlamalarini tekshiring."
+            ],
+            "Score": [
+                "Ball"
+            ],
+            "Last updated": [
+                "Oxirgi marta yangilangan"
+            ],
+            "Passage": [
+                "Parol"
+            ],
+            "Edit": [
+                "Tahrirlash"
+            ],
+            "Re-read": [
+                "Qaytadan o'qish"
+            ],
+            "What the assistant has read": [
+                "Yordamchi o\u02bbqigan narsa"
+            ],
+            "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
+                "%1$d sahifa o\u02bbqildi \u00b7 %2$d kutilmoqda \u00b7 %3$d xatoli \u00b7 %4$d parcha \u00b7 %5$d ma\u02bcnosi tushunildi"
+            ],
+            "Embedding model: %s": [
+                "O\u02bbrnatish modeli: %s"
+            ],
+            "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
+                "Vektorli modellar yo\u2018q: qidiruv faqat so\u2018zlar bo\u2018yicha amalga oshiriladi. Ma'no bo\u2018yicha qidirish uchun Google Gemini, OpenAI, Mistral yoki OpenRouter'ni ulang."
+            ],
+            "Building meanings is paused:": [
+                "Ma'nolarni yig'ish to'xtatib turilgan:"
+            ],
+            "Re-read the whole site": [
+                "Butun saytni qayta o'qib chiqish"
+            ],
+            "Rebuild all meanings": [
+                "Barcha ma'nolarni qayta tiklash"
+            ],
+            "Filter by title or address": [
+                "Sarlavha yoki manzil bo'yicha filtrlash"
+            ],
+            "Read": [
+                "O\u02bbqish"
+            ],
+            "Waiting": [
+                "Kutilmoqda"
+            ],
+            "Errors": [
+                "Xatoliklar"
+            ],
+            "Passages": [
+                "Bo'limlar"
+            ],
+            "by meaning": [
+                "ma'nosi bo'yicha"
+            ],
+            "Rebuild meaning": [
+                "Ma'noni qayta tiklash"
+            ],
+            "Done \u2713": [
+                "Bajarildi \u2713"
+            ],
+            "Failed": [
+                "Muvaffaqiyatsiz"
+            ]
+        }
+    }
+}

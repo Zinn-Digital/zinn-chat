@@ -1,0 +1,375 @@
+{
+    "translation-revision-date": "2026-09-29T15:04:41+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/console.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "it_IT",
+                "plural-forms": "nplurals=3; plural=(((((((0 == 0)) && ((((n == 0)) == 0))) && (((n % 1000000) == 0))) && ((0 == 0))) || ((((0 >= 0 && 0 <= 5)) == 0))) ? 1 : (((n == 1)) && ((0 == 0))) ? 0 : 2);"
+            },
+            "Inbox": [
+                "Posta in arrivo"
+            ],
+            "Tickets": [
+                "Ticket"
+            ],
+            "Assistant": [
+                "Assistente"
+            ],
+            "Fix it": [
+                "Risolvi"
+            ],
+            "AI providers": [
+                "Provider di IA"
+            ],
+            "Test the assistant": [
+                "Testa l'assistente"
+            ],
+            "Status": [
+                "Stato"
+            ],
+            "Open": [
+                "Apri"
+            ],
+            "Subject": [
+                "Oggetto"
+            ],
+            "Updated": [
+                "Aggiornato"
+            ],
+            "Send reply": [
+                "Invia risposta"
+            ],
+            "Page": [
+                "Pagina"
+            ],
+            "Opened": [
+                "Aperto"
+            ],
+            "Visitor": [
+                "Visitatore"
+            ],
+            "Waiting for customer": [
+                "In attesa del cliente"
+            ],
+            "Solved": [
+                "Risolto"
+            ],
+            "Closed": [
+                "Chiuso"
+            ],
+            "Send": [
+                "Invia"
+            ],
+            "Cancel": [
+                "Annulla"
+            ],
+            "End chat": [
+                "Termina chat"
+            ],
+            "Something went wrong. Please try again.": [
+                "Si \u00e8 verificato un errore. Riprova."
+            ],
+            "Details": [
+                "Dettagli"
+            ],
+            "Message": [
+                "Messaggio"
+            ],
+            "Type": [
+                "Tipo"
+            ],
+            "%ds": [
+                "%ds"
+            ],
+            "%dm": [
+                "%dm"
+            ],
+            "%dh": [
+                "%dh"
+            ],
+            "Agent": [
+                "Agente"
+            ],
+            "Internal note": [
+                "Nota interna"
+            ],
+            "With the assistant": [
+                "Con l'assistente"
+            ],
+            "Waiting for a person": [
+                "In attesa di un operatore"
+            ],
+            "With an agent": [
+                "Con un agente"
+            ],
+            "Left a message": [
+                "Messaggio lasciato"
+            ],
+            "Away": [
+                "Assente"
+            ],
+            "Focus mode": [
+                "Modalit\u00e0 concentrazione"
+            ],
+            "Desktop alerts": [
+                "Avvisi sul desktop"
+            ],
+            "Needs a person": [
+                "Richiede una persona"
+            ],
+            "Choose a chat on the left. You can open several; each keeps its own draft.": [
+                "Scegli una chat a sinistra. Puoi aprirne diverse; ognuna mantiene la propria bozza."
+            ],
+            "A visitor is waiting": [
+                "Un visitatore \u00e8 in attesa"
+            ],
+            "Chat #%d": [
+                "Chat #%d"
+            ],
+            "Nothing here right now.": [
+                "Al momento non c'\u00e8 nulla."
+            ],
+            "Visitor #%d": [
+                "Visitatore n. %d"
+            ],
+            "typing\u2026": [
+                "digitazione in corso\u2026"
+            ],
+            "waiting %s": [
+                "in attesa di %s"
+            ],
+            "%d online": [
+                "%d online"
+            ],
+            "Close tab": [
+                "Chiudi scheda"
+            ],
+            "Back to the list": [
+                "Torna all'elenco"
+            ],
+            "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
+                "Digita una risposta\u2026 (Invio per inviare, Maiusc+Invio per una nuova riga)"
+            ],
+            "Ticket #%d": [
+                "Ticket #%d"
+            ],
+            "Take this chat": [
+                "Accetta questa chat"
+            ],
+            "Back to the assistant": [
+                "Torna all'assistente"
+            ],
+            "Make a ticket": [
+                "Apri un ticket"
+            ],
+            "The visitor's email address": [
+                "Indirizzo email del visitatore"
+            ],
+            "The visitor is typing\u2026": [
+                "Il visitatore sta scrivendo\u2026"
+            ],
+            "New ticket": [
+                "Nuovo ticket"
+            ],
+            "Search subject, email or number": [
+                "Cerca oggetto, email o numero"
+            ],
+            "Customer": [
+                "Cliente"
+            ],
+            "Priority": [
+                "Priorit\u00e0"
+            ],
+            "Needs attention": [
+                "Richiede attenzione"
+            ],
+            "All": [
+                "Tutti"
+            ],
+            "No tickets.": [
+                "Nessun ticket."
+            ],
+            "Page %1$d of %2$d": [
+                "Pagina %1$d di %2$d"
+            ],
+            "Customer name": [
+                "Nome cliente"
+            ],
+            "Customer email": [
+                "Email cliente"
+            ],
+            "Create ticket": [
+                "Apri ticket"
+            ],
+            "All tickets": [
+                "Tutti i ticket"
+            ],
+            "Write a reply\u2026": [
+                "Scrivi una risposta\u2026"
+            ],
+            "Internal note (the customer does not see it)": [
+                "Nota interna (il cliente non la vede)"
+            ],
+            "then: waiting for customer": [
+                "allora: in attesa del cliente"
+            ],
+            "then: solved": [
+                "allora: risolto"
+            ],
+            "then: keep open": [
+                "quindi: tieni aperto"
+            ],
+            "#%1$d %2$s": [
+                "#%1$d %2$s"
+            ],
+            "by email": [
+                "via email"
+            ],
+            "internal note": [
+                "nota interna"
+            ],
+            "Channel": [
+                "Canale"
+            ],
+            "Low": [
+                "Basso"
+            ],
+            "Normal": [
+                "Normale"
+            ],
+            "High": [
+                "Alto"
+            ],
+            "Urgent": [
+                "Urgente"
+            ],
+            "Nobody": [
+                "Nessuno"
+            ],
+            "Assigned to": [
+                "Assegnato a"
+            ],
+            "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
+                "Ordine n. %1$s \u00b7 %2$s \u00b7 %3$s"
+            ],
+            "Order": [
+                "Ordine"
+            ],
+            "Delete ticket": [
+                "Elimina ticket"
+            ],
+            "Delete this ticket and all its messages?": [
+                "Eliminare questo ticket e tutti i suoi messaggi?"
+            ],
+            "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
+                "Chieda ci\u00f2 che chiedono i Suoi visitatori. Vede la risposta e ogni pagina trovata, con il rispettivo livello di corrispondenza, la data dell'ultimo aggiornamento e gli avvisi per le pagine che sembrano obsolete. Corregga una pagina, prema Rileggi e chieda di nuovo."
+            ],
+            "For example: What is your returns policy?": [
+                "Ad esempio: qual \u00e8 la vostra politica sui resi?"
+            ],
+            "Ask": [
+                "Chiedi"
+            ],
+            "Not updated for over a year": [
+                "Non aggiornato da oltre un anno"
+            ],
+            "A newer page covers the same subject: %s": [
+                "Una pagina pi\u00f9 recente tratta lo stesso argomento: %s"
+            ],
+            "Re-read \u2713": [
+                "Rileggi \u2713"
+            ],
+            "Asking\u2026": [
+                "Attendere\u2026"
+            ],
+            "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
+                "Risultato: %1$s \u00b7 Ricerca: %2$s \u00b7 Token: %3$d in entrata, %4$d in uscita"
+            ],
+            "by meaning and words": [
+                "per significato e parole"
+            ],
+            "by words only (no embedding key)": [
+                "solo per parole (senza chiave di incorporamento)"
+            ],
+            "nothing indexed": [
+                "nessun elemento indicizzato"
+            ],
+            "The AI is not set up yet or could not answer.": [
+                "L'IA non \u00e8 ancora configurata o non ha potuto rispondere."
+            ],
+            "Sources found (%d)": [
+                "Fonti trovate (%d)"
+            ],
+            "Nothing on the site matched. Add a page that answers this, or check the Site index settings.": [
+                "Nessun elemento sul sito corrisponde. Aggiungi una pagina che risponda a questa richiesta o controlla le impostazioni dell'indice del sito."
+            ],
+            "Score": [
+                "Punteggio"
+            ],
+            "Last updated": [
+                "Ultimo aggiornamento"
+            ],
+            "Passage": [
+                "Passaggio"
+            ],
+            "Edit": [
+                "Modifica"
+            ],
+            "Re-read": [
+                "Rileggi"
+            ],
+            "What the assistant has read": [
+                "Cosa ha letto l'assistente"
+            ],
+            "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
+                "%1$d pagine lette \u00b7 %2$d in attesa \u00b7 %3$d con errori \u00b7 %4$d passaggi \u00b7 %5$d comprese per significato"
+            ],
+            "Embedding model: %s": [
+                "Modello di incorporamento: %s"
+            ],
+            "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
+                "Nessun modello di embedding: la ricerca avviene solo per parole. Collega Google Gemini, OpenAI, Mistral o OpenRouter per cercare per significato."
+            ],
+            "Building meanings is paused:": [
+                "La creazione di significati \u00e8 in pausa:"
+            ],
+            "Re-read the whole site": [
+                "Rileggi l'intero sito"
+            ],
+            "Rebuild all meanings": [
+                "Rigenera tutti i significati"
+            ],
+            "Filter by title or address": [
+                "Filtra per titolo o indirizzo"
+            ],
+            "Read": [
+                "Leggi"
+            ],
+            "Waiting": [
+                "In attesa"
+            ],
+            "Errors": [
+                "Errori"
+            ],
+            "Passages": [
+                "Passaggi"
+            ],
+            "by meaning": [
+                "in base al significato"
+            ],
+            "Rebuild meaning": [
+                "Ricostruisci significato"
+            ],
+            "Done \u2713": [
+                "Completato \u2713"
+            ],
+            "Failed": [
+                "Non riuscita"
+            ]
+        }
+    }
+}

@@ -1,0 +1,375 @@
+{
+    "translation-revision-date": "2026-09-29T15:04:41+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/console.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "ja",
+                "plural-forms": "nplurals=1; plural=0;"
+            },
+            "Inbox": [
+                "\u53d7\u4fe1\u30c8\u30ec\u30a4"
+            ],
+            "Tickets": [
+                "\u30c1\u30b1\u30c3\u30c8"
+            ],
+            "Assistant": [
+                "\u30a2\u30b7\u30b9\u30bf\u30f3\u30c8"
+            ],
+            "Fix it": [
+                "\u4fee\u6b63\u3059\u308b"
+            ],
+            "AI providers": [
+                "AI\u30d7\u30ed\u30d0\u30a4\u30c0\u30fc"
+            ],
+            "Test the assistant": [
+                "\u30a2\u30b7\u30b9\u30bf\u30f3\u30c8\u3092\u30c6\u30b9\u30c8"
+            ],
+            "Status": [
+                "\u30b9\u30c6\u30fc\u30bf\u30b9"
+            ],
+            "Open": [
+                "\u958b\u304f"
+            ],
+            "Subject": [
+                "\u4ef6\u540d"
+            ],
+            "Updated": [
+                "\u66f4\u65b0\u6e08\u307f"
+            ],
+            "Send reply": [
+                "\u8fd4\u4fe1\u3059\u308b"
+            ],
+            "Page": [
+                "\u30da\u30fc\u30b8"
+            ],
+            "Opened": [
+                "\u30aa\u30fc\u30d7\u30f3\u6e08\u307f"
+            ],
+            "Visitor": [
+                "\u30d3\u30b8\u30bf\u30fc"
+            ],
+            "Waiting for customer": [
+                "\u304a\u5ba2\u69d8\u306e\u304a\u5f85\u3061\u5408\u308f\u305b\u4e2d"
+            ],
+            "Solved": [
+                "\u89e3\u6c7a\u6e08\u307f"
+            ],
+            "Closed": [
+                "\u505c\u6b62\u4e2d"
+            ],
+            "Send": [
+                "\u9001\u4fe1"
+            ],
+            "Cancel": [
+                "\u30ad\u30e3\u30f3\u30bb\u30eb"
+            ],
+            "End chat": [
+                "\u30c1\u30e3\u30c3\u30c8\u3092\u7d42\u4e86"
+            ],
+            "Something went wrong. Please try again.": [
+                "\u30a8\u30e9\u30fc\u304c\u767a\u751f\u3057\u307e\u3057\u305f\u3002\u3082\u3046\u4e00\u5ea6\u304a\u8a66\u3057\u304f\u3060\u3055\u3044\u3002"
+            ],
+            "Details": [
+                "\u8a73\u7d30"
+            ],
+            "Message": [
+                "\u30e1\u30c3\u30bb\u30fc\u30b8"
+            ],
+            "Type": [
+                "\u7a2e\u985e"
+            ],
+            "%ds": [
+                "%d\u79d2"
+            ],
+            "%dm": [
+                "%d\u5206"
+            ],
+            "%dh": [
+                "%d\u6642\u9593"
+            ],
+            "Agent": [
+                "\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8"
+            ],
+            "Internal note": [
+                "\u793e\u5185\u30e1\u30e2"
+            ],
+            "With the assistant": [
+                "\u30a2\u30b7\u30b9\u30bf\u30f3\u30c8\u3092\u5229\u7528\u3059\u308b"
+            ],
+            "Waiting for a person": [
+                "\u62c5\u5f53\u8005\u306e\u5bfe\u5fdc\u5f85\u3061"
+            ],
+            "With an agent": [
+                "\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u3092\u5229\u7528\u3059\u308b"
+            ],
+            "Left a message": [
+                "\u30e1\u30c3\u30bb\u30fc\u30b8\u3092\u9001\u4fe1\u6e08\u307f"
+            ],
+            "Away": [
+                "\u9000\u5e2d\u4e2d"
+            ],
+            "Focus mode": [
+                "\u30d5\u30a9\u30fc\u30ab\u30b9\u30e2\u30fc\u30c9"
+            ],
+            "Desktop alerts": [
+                "\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u901a\u77e5"
+            ],
+            "Needs a person": [
+                "\u62c5\u5f53\u8005\u304c\u5fc5\u8981"
+            ],
+            "Choose a chat on the left. You can open several; each keeps its own draft.": [
+                "\u5de6\u5074\u304b\u3089\u30c1\u30e3\u30c3\u30c8\u3092\u9078\u629e\u3057\u3066\u304f\u3060\u3055\u3044\u3002\u8907\u6570\u306e\u30c1\u30e3\u30c3\u30c8\u3092\u958b\u304f\u3053\u3068\u304c\u3067\u304d\u3001\u305d\u308c\u305e\u308c\u306b\u4e0b\u66f8\u304d\u304c\u4fdd\u5b58\u3055\u308c\u307e\u3059\u3002"
+            ],
+            "A visitor is waiting": [
+                "\u8a2a\u554f\u8005\u304c\u5f85\u6a5f\u4e2d\u3067\u3059"
+            ],
+            "Chat #%d": [
+                "\u30c1\u30e3\u30c3\u30c8 #%d"
+            ],
+            "Nothing here right now.": [
+                "\u73fe\u5728\u3001\u4f55\u3082\u3042\u308a\u307e\u305b\u3093\u3002"
+            ],
+            "Visitor #%d": [
+                "\u8a2a\u554f\u8005 #%d"
+            ],
+            "typing\u2026": [
+                "\u5165\u529b\u4e2d\u2026"
+            ],
+            "waiting %s": [
+                "%s \u5f85\u6a5f\u4e2d"
+            ],
+            "%d online": [
+                "\u30aa\u30f3\u30e9\u30a4\u30f3: %d"
+            ],
+            "Close tab": [
+                "\u30bf\u30d6\u3092\u9589\u3058\u308b"
+            ],
+            "Back to the list": [
+                "\u30ea\u30b9\u30c8\u306b\u623b\u308b"
+            ],
+            "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
+                "\u8fd4\u4fe1\u3092\u5165\u529b\u2026\uff08Enter\u3067\u9001\u4fe1\u3001Shift+Enter\u3067\u6539\u884c\uff09"
+            ],
+            "Ticket #%d": [
+                "\u30c1\u30b1\u30c3\u30c8 #%d"
+            ],
+            "Take this chat": [
+                "\u3053\u306e\u30c1\u30e3\u30c3\u30c8\u3092\u5f15\u304d\u53d6\u308b"
+            ],
+            "Back to the assistant": [
+                "\u30a2\u30b7\u30b9\u30bf\u30f3\u30c8\u306b\u623b\u308b"
+            ],
+            "Make a ticket": [
+                "\u30c1\u30b1\u30c3\u30c8\u3092\u4f5c\u6210"
+            ],
+            "The visitor's email address": [
+                "\u8a2a\u554f\u8005\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9"
+            ],
+            "The visitor is typing\u2026": [
+                "\u8a2a\u554f\u8005\u304c\u5165\u529b\u4e2d\u2026"
+            ],
+            "New ticket": [
+                "\u65b0\u898f\u30c1\u30b1\u30c3\u30c8"
+            ],
+            "Search subject, email or number": [
+                "\u4ef6\u540d\u3001\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3001\u307e\u305f\u306f\u756a\u53f7\u3067\u691c\u7d22"
+            ],
+            "Customer": [
+                "\u9867\u5ba2"
+            ],
+            "Priority": [
+                "\u512a\u5148\u5ea6"
+            ],
+            "Needs attention": [
+                "\u5bfe\u5fdc\u304c\u5fc5\u8981"
+            ],
+            "All": [
+                "\u3059\u3079\u3066"
+            ],
+            "No tickets.": [
+                "\u30c1\u30b1\u30c3\u30c8\u306f\u3042\u308a\u307e\u305b\u3093\u3002"
+            ],
+            "Page %1$d of %2$d": [
+                "%1$d \u30da\u30fc\u30b8 \/ \u5168 %2$d \u30da\u30fc\u30b8"
+            ],
+            "Customer name": [
+                "\u9867\u5ba2\u540d"
+            ],
+            "Customer email": [
+                "\u9867\u5ba2\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9"
+            ],
+            "Create ticket": [
+                "\u30c1\u30b1\u30c3\u30c8\u3092\u4f5c\u6210"
+            ],
+            "All tickets": [
+                "\u3059\u3079\u3066\u306e\u30c1\u30b1\u30c3\u30c8"
+            ],
+            "Write a reply\u2026": [
+                "\u8fd4\u4fe1\u3059\u308b\u2026"
+            ],
+            "Internal note (the customer does not see it)": [
+                "\u793e\u5185\u30e1\u30e2\uff08\u304a\u5ba2\u69d8\u306b\u306f\u8868\u793a\u3055\u308c\u307e\u305b\u3093\uff09"
+            ],
+            "then: waiting for customer": [
+                "\u305d\u306e\u5f8c: \u304a\u5ba2\u69d8\u306e\u5bfe\u5fdc\u5f85\u3061"
+            ],
+            "then: solved": [
+                "\u89e3\u6c7a\u6e08\u307f:"
+            ],
+            "then: keep open": [
+                "\u305d\u308c\u304b\u3089\uff1a\u958b\u3044\u305f\u307e\u307e\u306b\u3059\u308b"
+            ],
+            "#%1$d %2$s": [
+                "#%1$d %2$s"
+            ],
+            "by email": [
+                "\u30e1\u30fc\u30eb\u3067"
+            ],
+            "internal note": [
+                "\u793e\u5185\u30e1\u30e2"
+            ],
+            "Channel": [
+                "\u30c1\u30e3\u30cd\u30eb"
+            ],
+            "Low": [
+                "\u4f4e"
+            ],
+            "Normal": [
+                "\u901a\u5e38"
+            ],
+            "High": [
+                "\u9ad8"
+            ],
+            "Urgent": [
+                "\u8981\u5bfe\u5fdc"
+            ],
+            "Nobody": [
+                "\u8a72\u5f53\u306a\u3057"
+            ],
+            "Assigned to": [
+                "\u5272\u308a\u5f53\u3066\u5148"
+            ],
+            "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
+                "\u6ce8\u6587 #%1$s \u00b7 %2$s \u00b7 %3$s"
+            ],
+            "Order": [
+                "\u6ce8\u6587"
+            ],
+            "Delete ticket": [
+                "\u30c1\u30b1\u30c3\u30c8\u3092\u524a\u9664"
+            ],
+            "Delete this ticket and all its messages?": [
+                "\u3053\u306e\u30c1\u30b1\u30c3\u30c8\u3068\u3059\u3079\u3066\u306e\u30e1\u30c3\u30bb\u30fc\u30b8\u3092\u524a\u9664\u3057\u307e\u3059\u304b\uff1f"
+            ],
+            "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
+                "\u8a2a\u554f\u8005\u304c\u8cea\u554f\u3059\u308b\u5185\u5bb9\u3092\u305d\u306e\u307e\u307e\u8cea\u554f\u3057\u3066\u307f\u307e\u3057\u3087\u3046\u3002\u7b54\u3048\u3068\u3001\u305d\u308c\u304c\u30d2\u30c3\u30c8\u3057\u305f\u3059\u3079\u3066\u306e\u30da\u30fc\u30b8\u3001\u305d\u308c\u305e\u308c\u306e\u30de\u30c3\u30c1\u5ea6\u3001\u6700\u7d42\u66f4\u65b0\u65e5\u3001\u304a\u3088\u3073\u53e4\u304f\u306a\u3063\u3066\u3044\u308b\u3068\u601d\u308f\u308c\u308b\u30da\u30fc\u30b8\u306e\u8b66\u544a\u304c\u8868\u793a\u3055\u308c\u307e\u3059\u3002\u30da\u30fc\u30b8\u3092\u4fee\u6b63\u3057\u3001\u300c\u518d\u8aad\u307f\u8fbc\u307f\u300d\u3092\u62bc\u3057\u3066\u3001\u3082\u3046\u4e00\u5ea6\u8cea\u554f\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+            ],
+            "For example: What is your returns policy?": [
+                "\u4f8b\uff1a\u8fd4\u54c1\u30dd\u30ea\u30b7\u30fc\u306f\u4f55\u3067\u3059\u304b\uff1f"
+            ],
+            "Ask": [
+                "\u8cea\u554f\u3059\u308b"
+            ],
+            "Not updated for over a year": [
+                "1\u5e74\u4ee5\u4e0a\u66f4\u65b0\u3055\u308c\u3066\u3044\u307e\u305b\u3093"
+            ],
+            "A newer page covers the same subject: %s": [
+                "\u65b0\u3057\u3044\u30da\u30fc\u30b8\u304c\u540c\u3058\u30c8\u30d4\u30c3\u30af\u3092\u30ab\u30d0\u30fc\u3057\u3066\u3044\u307e\u3059: %s"
+            ],
+            "Re-read \u2713": [
+                "\u518d\u8aad \u2713"
+            ],
+            "Asking\u2026": [
+                "\u554f\u3044\u5408\u308f\u305b\u4e2d\u2026"
+            ],
+            "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
+                "\u7d50\u679c\uff1a%1$s \u00b7 \u691c\u7d22\uff1a%2$s \u00b7 \u30c8\u30fc\u30af\u30f3\uff1a\u5165\u529b %3$d\u3001\u51fa\u529b %4$d"
+            ],
+            "by meaning and words": [
+                "\u610f\u5473\u3068\u5358\u8a9e\u5225"
+            ],
+            "by words only (no embedding key)": [
+                "\u30ad\u30fc\u30ef\u30fc\u30c9\u306e\u307f\uff08\u57cb\u3081\u8fbc\u307f\u30ad\u30fc\u306a\u3057\uff09"
+            ],
+            "nothing indexed": [
+                "\u30a4\u30f3\u30c7\u30c3\u30af\u30b9\u306a\u3057"
+            ],
+            "The AI is not set up yet or could not answer.": [
+                "AI\u304c\u307e\u3060\u8a2d\u5b9a\u3055\u308c\u3066\u3044\u306a\u3044\u304b\u3001\u56de\u7b54\u3092\u53d6\u5f97\u3067\u304d\u307e\u305b\u3093\u3067\u3057\u305f\u3002"
+            ],
+            "Sources found (%d)": [
+                "\u898b\u3064\u304b\u3063\u305f\u30bd\u30fc\u30b9 (%d)"
+            ],
+            "Nothing on the site matched. Add a page that answers this, or check the Site index settings.": [
+                "\u30b5\u30a4\u30c8\u5185\u306e\u3069\u306e\u30b3\u30f3\u30c6\u30f3\u30c4\u3082\u4e00\u81f4\u3057\u307e\u305b\u3093\u3067\u3057\u305f\u3002\u3053\u308c\u306b\u56de\u7b54\u3059\u308b\u30da\u30fc\u30b8\u3092\u8ffd\u52a0\u3059\u308b\u304b\u3001\u30b5\u30a4\u30c8\u30a4\u30f3\u30c7\u30c3\u30af\u30b9\u306e\u8a2d\u5b9a\u3092\u78ba\u8a8d\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+            ],
+            "Score": [
+                "\u30b9\u30b3\u30a2"
+            ],
+            "Last updated": [
+                "\u6700\u7d42\u66f4\u65b0\u65e5\u6642"
+            ],
+            "Passage": [
+                "\u30d1\u30b9\u30b3\u30fc\u30c9"
+            ],
+            "Edit": [
+                "\u7de8\u96c6"
+            ],
+            "Re-read": [
+                "\u518d\u8aad\u3059\u308b"
+            ],
+            "What the assistant has read": [
+                "\u30a2\u30b7\u30b9\u30bf\u30f3\u30c8\u304c\u8aad\u307f\u53d6\u3063\u305f\u5185\u5bb9"
+            ],
+            "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
+                "%1$d \u30da\u30fc\u30b8\u8aad\u307f\u8fbc\u307f\u6e08\u307f \u00b7 %2$d \u4ef6\u5f85\u6a5f\u4e2d \u00b7 %3$d \u4ef6\u306e\u30a8\u30e9\u30fc \u00b7 %4$d \u30d1\u30c3\u30bb\u30fc\u30b8 \u00b7 %5$d \u4ef6\u306e\u610f\u5473\u7406\u89e3\u6e08\u307f"
+            ],
+            "Embedding model: %s": [
+                "\u57cb\u3081\u8fbc\u307f\u30e2\u30c7\u30eb: %s"
+            ],
+            "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
+                "\u57cb\u3081\u8fbc\u307f\u30e2\u30c7\u30eb\u304c\u3042\u308a\u307e\u305b\u3093\uff1a\u691c\u7d22\u306f\u5358\u8a9e\u306e\u307f\u3067\u884c\u308f\u308c\u307e\u3059\u3002\u610f\u5473\u306b\u3088\u308b\u691c\u7d22\u3092\u884c\u3046\u306b\u306f\u3001Google Gemini\u3001OpenAI\u3001Mistral\u3001\u307e\u305f\u306fOpenRouter\u3092\u63a5\u7d9a\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+            ],
+            "Building meanings is paused:": [
+                "\u69cb\u7bc9\u306e\u610f\u5473\u306f\u4e00\u6642\u505c\u6b62\u4e2d\u3067\u3059:"
+            ],
+            "Re-read the whole site": [
+                "\u30b5\u30a4\u30c8\u5168\u4f53\u3092\u518d\u8aad\u307f\u8fbc\u307f\u3059\u308b"
+            ],
+            "Rebuild all meanings": [
+                "\u3059\u3079\u3066\u306e\u610f\u5473\u3092\u518d\u69cb\u7bc9"
+            ],
+            "Filter by title or address": [
+                "\u30bf\u30a4\u30c8\u30eb\u307e\u305f\u306f\u30a2\u30c9\u30ec\u30b9\u3067\u7d5e\u308a\u8fbc\u307f"
+            ],
+            "Read": [
+                "\u95b2\u89a7"
+            ],
+            "Waiting": [
+                "\u5f85\u6a5f\u4e2d"
+            ],
+            "Errors": [
+                "\u30a8\u30e9\u30fc"
+            ],
+            "Passages": [
+                "\u30d1\u30c3\u30bb\u30fc\u30b8"
+            ],
+            "by meaning": [
+                "\u610f\u5473\u3054\u3068"
+            ],
+            "Rebuild meaning": [
+                "\u518d\u69cb\u7bc9\u3059\u308b"
+            ],
+            "Done \u2713": [
+                "\u5b8c\u4e86 \u2713"
+            ],
+            "Failed": [
+                "\u5931\u6557\u3057\u307e\u3057\u305f"
+            ]
+        }
+    }
+}

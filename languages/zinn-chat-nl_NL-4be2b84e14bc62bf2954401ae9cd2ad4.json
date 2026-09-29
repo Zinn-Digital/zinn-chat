@@ -1,0 +1,375 @@
+{
+    "translation-revision-date": "2026-09-29T15:04:41+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/console.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "nl_NL",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Inbox": [
+                "Postvak in"
+            ],
+            "Tickets": [
+                "Tickets"
+            ],
+            "Assistant": [
+                "Assistent"
+            ],
+            "Fix it": [
+                "Oplossen"
+            ],
+            "AI providers": [
+                "AI-providers"
+            ],
+            "Test the assistant": [
+                "De assistent testen"
+            ],
+            "Status": [
+                "Status"
+            ],
+            "Open": [
+                "Open"
+            ],
+            "Subject": [
+                "Onderwerp"
+            ],
+            "Updated": [
+                "Bijgewerkt"
+            ],
+            "Send reply": [
+                "Antwoord versturen"
+            ],
+            "Page": [
+                "Pagina"
+            ],
+            "Opened": [
+                "Geopend"
+            ],
+            "Visitor": [
+                "Bezoeker"
+            ],
+            "Waiting for customer": [
+                "Wachten op klant"
+            ],
+            "Solved": [
+                "Opgelost"
+            ],
+            "Closed": [
+                "Gesloten"
+            ],
+            "Send": [
+                "Verzenden"
+            ],
+            "Cancel": [
+                "Annuleren"
+            ],
+            "End chat": [
+                "Chat be\u00ebindigen"
+            ],
+            "Something went wrong. Please try again.": [
+                "Er is iets misgegaan. Probeer het alstublieft opnieuw."
+            ],
+            "Details": [
+                "Gegevens"
+            ],
+            "Message": [
+                "Bericht"
+            ],
+            "Type": [
+                "Type"
+            ],
+            "%ds": [
+                "%ds"
+            ],
+            "%dm": [
+                "%dm"
+            ],
+            "%dh": [
+                "%dh"
+            ],
+            "Agent": [
+                "Agent"
+            ],
+            "Internal note": [
+                "Interne notitie"
+            ],
+            "With the assistant": [
+                "Met de assistent"
+            ],
+            "Waiting for a person": [
+                "Wachten op een persoon"
+            ],
+            "With an agent": [
+                "Met een agent"
+            ],
+            "Left a message": [
+                "Bericht achtergelaten"
+            ],
+            "Away": [
+                "Afwezig"
+            ],
+            "Focus mode": [
+                "Focus-modus"
+            ],
+            "Desktop alerts": [
+                "Bureaubladmeldingen"
+            ],
+            "Needs a person": [
+                "Persoon vereist"
+            ],
+            "Choose a chat on the left. You can open several; each keeps its own draft.": [
+                "Kies links een chat. U kunt er meerdere openen; elk behoudt een eigen concept."
+            ],
+            "A visitor is waiting": [
+                "Een bezoeker wacht"
+            ],
+            "Chat #%d": [
+                "Chat #%d"
+            ],
+            "Nothing here right now.": [
+                "Hier is momenteel niets te vinden."
+            ],
+            "Visitor #%d": [
+                "Bezoeker #%d"
+            ],
+            "typing\u2026": [
+                "aan het typen..."
+            ],
+            "waiting %s": [
+                "wachten op %s"
+            ],
+            "%d online": [
+                "%d online"
+            ],
+            "Close tab": [
+                "Tab sluiten"
+            ],
+            "Back to the list": [
+                "Terug naar de lijst"
+            ],
+            "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
+                "Typ een antwoord\u2026 (Druk op Enter om te verzenden, Shift+Enter voor een nieuwe regel)"
+            ],
+            "Ticket #%d": [
+                "Ticket #%d"
+            ],
+            "Take this chat": [
+                "Neem deze chat"
+            ],
+            "Back to the assistant": [
+                "Terug naar de assistent"
+            ],
+            "Make a ticket": [
+                "Ticket aanmaken"
+            ],
+            "The visitor's email address": [
+                "Het e-mailadres van de bezoeker"
+            ],
+            "The visitor is typing\u2026": [
+                "De bezoeker is aan het typen\u2026"
+            ],
+            "New ticket": [
+                "Nieuw ticket"
+            ],
+            "Search subject, email or number": [
+                "Onderwerp, e-mail of nummer zoeken"
+            ],
+            "Customer": [
+                "Klant"
+            ],
+            "Priority": [
+                "Prioriteit"
+            ],
+            "Needs attention": [
+                "Vereist aandacht"
+            ],
+            "All": [
+                "Alle"
+            ],
+            "No tickets.": [
+                "Geen tickets."
+            ],
+            "Page %1$d of %2$d": [
+                "Pagina %1$d van %2$d"
+            ],
+            "Customer name": [
+                "Klantnaam"
+            ],
+            "Customer email": [
+                "Klanten-e-mail"
+            ],
+            "Create ticket": [
+                "Ticket aanmaken"
+            ],
+            "All tickets": [
+                "Alle tickets"
+            ],
+            "Write a reply\u2026": [
+                "Schrijf een antwoord..."
+            ],
+            "Internal note (the customer does not see it)": [
+                "Interne notitie (de klant ziet dit niet)"
+            ],
+            "then: waiting for customer": [
+                "daarna: wachten op klant"
+            ],
+            "then: solved": [
+                "daarna: opgelost"
+            ],
+            "then: keep open": [
+                "vervolgens: open houden"
+            ],
+            "#%1$d %2$s": [
+                "#%1$d %2$s"
+            ],
+            "by email": [
+                "per e-mail"
+            ],
+            "internal note": [
+                "interne notitie"
+            ],
+            "Channel": [
+                "Kanaal"
+            ],
+            "Low": [
+                "Laag"
+            ],
+            "Normal": [
+                "Normaal"
+            ],
+            "High": [
+                "Hoog"
+            ],
+            "Urgent": [
+                "Dringend"
+            ],
+            "Nobody": [
+                "Niemand"
+            ],
+            "Assigned to": [
+                "Toegewezen aan"
+            ],
+            "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
+                "Bestelling #%1$s \u00b7 %2$s \u00b7 %3$s"
+            ],
+            "Order": [
+                "Bestellen"
+            ],
+            "Delete ticket": [
+                "Ticket verwijderen"
+            ],
+            "Delete this ticket and all its messages?": [
+                "Wilt u dit ticket en al de bijbehorende berichten verwijderen?"
+            ],
+            "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
+                "Vraag wat uw bezoekers vragen. U ziet het antwoord en elke pagina die is gevonden, inclusief hoe goed elke pagina overeenkwam, wanneer deze voor het laatst is bijgewerkt en waarschuwingen voor pagina's die verouderd lijken. Pas een pagina aan, druk op Opnieuw lezen en stel de vraag opnieuw."
+            ],
+            "For example: What is your returns policy?": [
+                "Bijvoorbeeld: Wat is uw retourbeleid?"
+            ],
+            "Ask": [
+                "Vragen"
+            ],
+            "Not updated for over a year": [
+                "Al meer dan een jaar niet bijgewerkt"
+            ],
+            "A newer page covers the same subject: %s": [
+                "Een nieuwere pagina behandelt hetzelfde onderwerp: %s"
+            ],
+            "Re-read \u2713": [
+                "Opnieuw gelezen \u2713"
+            ],
+            "Asking\u2026": [
+                "Bezig met vragen\u2026"
+            ],
+            "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
+                "Resultaat: %1$s \u00b7 Zoekopdracht: %2$s \u00b7 Tokens: %3$d in, %4$d uit"
+            ],
+            "by meaning and words": [
+                "op betekenis en woorden"
+            ],
+            "by words only (no embedding key)": [
+                "op basis van woorden (geen insluitingssleutel)"
+            ],
+            "nothing indexed": [
+                "niets ge\u00efndexeerd"
+            ],
+            "The AI is not set up yet or could not answer.": [
+                "De AI is nog niet ingesteld of kon niet antwoorden."
+            ],
+            "Sources found (%d)": [
+                "Gevonden bronnen (%d)"
+            ],
+            "Nothing on the site matched. Add a page that answers this, or check the Site index settings.": [
+                "Er kwam geen overeenkomst op de site gevonden. Voeg een pagina toe die hierop antwoord geeft, of controleer de instellingen van de site-index."
+            ],
+            "Score": [
+                "Score"
+            ],
+            "Last updated": [
+                "Laatst bijgewerkt"
+            ],
+            "Passage": [
+                "Wachtwoord"
+            ],
+            "Edit": [
+                "Bewerken"
+            ],
+            "Re-read": [
+                "Opnieuw inlezen"
+            ],
+            "What the assistant has read": [
+                "Wat de assistent heeft gelezen"
+            ],
+            "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
+                "%1$d pagina's gelezen \u00b7 %2$d in wachtrij \u00b7 %3$d met fouten \u00b7 %4$d passages \u00b7 %5$d begrepen op betekenis"
+            ],
+            "Embedding model: %s": [
+                "Inbeddingsmodel: %s"
+            ],
+            "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
+                "Geen embedding-model: zoeken gebeurt alleen op trefwoord. Verbind Google Gemini, OpenAI, Mistral of OpenRouter om op betekenis te zoeken."
+            ],
+            "Building meanings is paused:": [
+                "Het opbouwen van betekenissen is gepauzeerd:"
+            ],
+            "Re-read the whole site": [
+                "Hele site opnieuw inlezen"
+            ],
+            "Rebuild all meanings": [
+                "Alle betekenissen opnieuw opbouwen"
+            ],
+            "Filter by title or address": [
+                "Filter op titel of adres"
+            ],
+            "Read": [
+                "Lezen"
+            ],
+            "Waiting": [
+                "In afwachting"
+            ],
+            "Errors": [
+                "Fouten"
+            ],
+            "Passages": [
+                "Passages"
+            ],
+            "by meaning": [
+                "op betekenis"
+            ],
+            "Rebuild meaning": [
+                "Betekenis opnieuw opbouwen"
+            ],
+            "Done \u2713": [
+                "Gereed \u2713"
+            ],
+            "Failed": [
+                "Mislukt"
+            ]
+        }
+    }
+}

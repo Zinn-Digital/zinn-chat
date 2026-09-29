@@ -1,0 +1,375 @@
+{
+    "translation-revision-date": "2026-09-29T15:04:41+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/console.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "tl",
+                "plural-forms": "nplurals=2; plural=(n != 1 && n != 2 && n != 3 && (n%10 == 4 || n%10 == 6 || n%10 == 9));"
+            },
+            "Inbox": [
+                "Inbox"
+            ],
+            "Tickets": [
+                "Mga Ticket"
+            ],
+            "Assistant": [
+                "Katulong"
+            ],
+            "Fix it": [
+                "Ayusin ito"
+            ],
+            "AI providers": [
+                "Mga provider ng AI"
+            ],
+            "Test the assistant": [
+                "Subukin ang assistant"
+            ],
+            "Status": [
+                "Katayuan"
+            ],
+            "Open": [
+                "Buksan"
+            ],
+            "Subject": [
+                "Paksa"
+            ],
+            "Updated": [
+                "Na-update"
+            ],
+            "Send reply": [
+                "Magpadala ng tugon"
+            ],
+            "Page": [
+                "Pahina"
+            ],
+            "Opened": [
+                "Binuksan"
+            ],
+            "Visitor": [
+                "Bisita"
+            ],
+            "Waiting for customer": [
+                "Naghihintay sa customer"
+            ],
+            "Solved": [
+                "Nalutas na"
+            ],
+            "Closed": [
+                "Isinara"
+            ],
+            "Send": [
+                "Ipadala"
+            ],
+            "Cancel": [
+                "Kanselahin"
+            ],
+            "End chat": [
+                "Tapusin ang chat"
+            ],
+            "Something went wrong. Please try again.": [
+                "Mayroong nagawang mali. Mangyaring subukang muli."
+            ],
+            "Details": [
+                "Mga Detalye"
+            ],
+            "Message": [
+                "Mensahe"
+            ],
+            "Type": [
+                "Uri"
+            ],
+            "%ds": [
+                "%ds"
+            ],
+            "%dm": [
+                "%dm"
+            ],
+            "%dh": [
+                "%dh"
+            ],
+            "Agent": [
+                "Ahente"
+            ],
+            "Internal note": [
+                "Panloob na tala"
+            ],
+            "With the assistant": [
+                "Gamit ang katulong"
+            ],
+            "Waiting for a person": [
+                "Naghihintay ng tao"
+            ],
+            "With an agent": [
+                "May kasamang ahente"
+            ],
+            "Left a message": [
+                "Nag-iwan ng mensahe"
+            ],
+            "Away": [
+                "Wala"
+            ],
+            "Focus mode": [
+                "Pokus na mode"
+            ],
+            "Desktop alerts": [
+                "Mga alerto sa desktop"
+            ],
+            "Needs a person": [
+                "Nangangailangan ng tao"
+            ],
+            "Choose a chat on the left. You can open several; each keeps its own draft.": [
+                "Pumili ng chat sa kaliwa. Maaari kang magbukas ng ilan; ang bawat isa ay may sariling draft."
+            ],
+            "A visitor is waiting": [
+                "May naghihintay na bisita"
+            ],
+            "Chat #%d": [
+                "Chat #%d"
+            ],
+            "Nothing here right now.": [
+                "Walang anuman dito sa ngayon."
+            ],
+            "Visitor #%d": [
+                "Bisita #%d"
+            ],
+            "typing\u2026": [
+                "nagta-type\u2026"
+            ],
+            "waiting %s": [
+                "naghihintay sa %s"
+            ],
+            "%d online": [
+                "%d online"
+            ],
+            "Close tab": [
+                "Isara ang tab"
+            ],
+            "Back to the list": [
+                "Bumalik sa listahan"
+            ],
+            "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
+                "Mag-type ng tugon\u2026 (Enter para ipadala, Shift+Enter para sa bagong linya)"
+            ],
+            "Ticket #%d": [
+                "Ticket #%d"
+            ],
+            "Take this chat": [
+                "Kunin ang chat na ito"
+            ],
+            "Back to the assistant": [
+                "Bumalik sa assistant"
+            ],
+            "Make a ticket": [
+                "Gumawa ng ticket"
+            ],
+            "The visitor's email address": [
+                "Ang email address ng bisita"
+            ],
+            "The visitor is typing\u2026": [
+                "Nagta-type ang bisita\u2026"
+            ],
+            "New ticket": [
+                "Bagong tiket"
+            ],
+            "Search subject, email or number": [
+                "Maghanap ng paksa, email o numero"
+            ],
+            "Customer": [
+                "Customer"
+            ],
+            "Priority": [
+                "Prayoridad"
+            ],
+            "Needs attention": [
+                "Kailangan ng pansin"
+            ],
+            "All": [
+                "Lahat"
+            ],
+            "No tickets.": [
+                "Walang mga tiket."
+            ],
+            "Page %1$d of %2$d": [
+                "Pahina %1$d ng %2$d"
+            ],
+            "Customer name": [
+                "Pangalan ng customer"
+            ],
+            "Customer email": [
+                "Email ng Customer"
+            ],
+            "Create ticket": [
+                "Gumawa ng tiket"
+            ],
+            "All tickets": [
+                "Lahat ng mga tiket"
+            ],
+            "Write a reply\u2026": [
+                "Sumulat ng tugon\u2026"
+            ],
+            "Internal note (the customer does not see it)": [
+                "Panloob na tala (hindi ito nakikita ng customer)"
+            ],
+            "then: waiting for customer": [
+                "pagkatapos: naghihintay sa customer"
+            ],
+            "then: solved": [
+                "pagkatapos: nalutas na"
+            ],
+            "then: keep open": [
+                "pagkatapos: panatilihing bukas"
+            ],
+            "#%1$d %2$s": [
+                "#%1$d %2$s"
+            ],
+            "by email": [
+                "sa pamamagitan ng email"
+            ],
+            "internal note": [
+                "panloob na tala"
+            ],
+            "Channel": [
+                "Channel"
+            ],
+            "Low": [
+                "Mababa"
+            ],
+            "Normal": [
+                "Normal"
+            ],
+            "High": [
+                "Mataas"
+            ],
+            "Urgent": [
+                "Madalian"
+            ],
+            "Nobody": [
+                "Wala"
+            ],
+            "Assigned to": [
+                "Nakatalaga sa"
+            ],
+            "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
+                "Order #%1$s \u00b7 %2$s \u00b7 %3$s"
+            ],
+            "Order": [
+                "Mag-order"
+            ],
+            "Delete ticket": [
+                "Tanggalin ang tiket"
+            ],
+            "Delete this ticket and all its messages?": [
+                "Gusto mo bang tanggalin ang tiket na ito at ang lahat ng mga mensahe nito?"
+            ],
+            "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
+                "Tanungin kung ano ang itinatanong ng iyong mga bisita. Makikita mo ang sagot at ang bawat pahinang nahanap nito, kasama ang antas ng pagtutugma ng bawat isa, kung kailan ito huling na-update, at mga babala para sa mga pahinang mukhang luma na. Ayusin ang isang pahina, pindutin ang Re-read, at magtanong muli."
+            ],
+            "For example: What is your returns policy?": [
+                "Halimbawa: Ano ang patakaran mo sa pagbabalik?"
+            ],
+            "Ask": [
+                "Magtanong"
+            ],
+            "Not updated for over a year": [
+                "Hindi na-update sa loob ng mahigit isang taon"
+            ],
+            "A newer page covers the same subject: %s": [
+                "Isang mas bagong pahina ang sumasaklaw sa parehong paksa: %s"
+            ],
+            "Re-read \u2713": [
+                "Basahing muli \u2713"
+            ],
+            "Asking\u2026": [
+                "Nag-aabang\u2026"
+            ],
+            "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
+                "Kinalabasan: %1$s \u00b7 Paghahanap: %2$s \u00b7 Mga Token: %3$d ang pumasok, %4$d ang lumabas"
+            ],
+            "by meaning and words": [
+                "sa pamamagitan ng kahulugan at mga salita"
+            ],
+            "by words only (no embedding key)": [
+                "sa mga salita lamang (walang embedding key)"
+            ],
+            "nothing indexed": [
+                "walang naka-index"
+            ],
+            "The AI is not set up yet or could not answer.": [
+                "Hindi pa naka-setup ang AI o hindi ito nakasagot."
+            ],
+            "Sources found (%d)": [
+                "Natagpuang mga pinagmulan (%d)"
+            ],
+            "Nothing on the site matched. Add a page that answers this, or check the Site index settings.": [
+                "Walang tumugma sa site. Magdagdag ng page na sumasagot dito, o tingnan ang mga setting ng Site index."
+            ],
+            "Score": [
+                "Marka"
+            ],
+            "Last updated": [
+                "Huling na-update"
+            ],
+            "Passage": [
+                "Passage"
+            ],
+            "Edit": [
+                "I-edit"
+            ],
+            "Re-read": [
+                "Basahing muli"
+            ],
+            "What the assistant has read": [
+                "Ang nabasa ng assistant"
+            ],
+            "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
+                "%1$d pahinang nabasa \u00b7 %2$d naghihintay \u00b7 %3$d may mga error \u00b7 %4$d sipi \u00b7 %5$d nauunawaan sa kahulugan"
+            ],
+            "Embedding model: %s": [
+                "Model ng pag-embed: %s"
+            ],
+            "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
+                "Walang embedding model: paghahanap ayon sa mga salita lamang. Ikonekta ang Google Gemini, OpenAI, Mistral o OpenRouter para maghanap ayon sa kahulugan."
+            ],
+            "Building meanings is paused:": [
+                "Naka-pause ang pagbuo ng mga kahulugan:"
+            ],
+            "Re-read the whole site": [
+                "Basahing muli ang buong site"
+            ],
+            "Rebuild all meanings": [
+                "Buuin muli ang lahat ng mga kahulugan"
+            ],
+            "Filter by title or address": [
+                "Salain ayon sa pamagat o address"
+            ],
+            "Read": [
+                "Basahin"
+            ],
+            "Waiting": [
+                "Naghihintay"
+            ],
+            "Errors": [
+                "Mga Error"
+            ],
+            "Passages": [
+                "Mga Seksyon"
+            ],
+            "by meaning": [
+                "sa pamamagitan ng kahulugan"
+            ],
+            "Rebuild meaning": [
+                "Muling buuin ang kahulugan"
+            ],
+            "Done \u2713": [
+                "Tapos na \u2713"
+            ],
+            "Failed": [
+                "Nabigo"
+            ]
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "translation-revision-date": "2026-09-29T15:04:41+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/blocks.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "gu",
+                "plural-forms": "nplurals=2; plural=(n > 1);"
+            },
+            "Settings": [
+                "\u0ab8\u0ac7\u0a9f\u0abf\u0a82\u0a97\u0acd\u0ab8"
+            ]
+        }
+    }
+}

@@ -1,0 +1,375 @@
+{
+    "translation-revision-date": "2026-09-29T15:04:41+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/console.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "sw",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Inbox": [
+                "Kikasha"
+            ],
+            "Tickets": [
+                "Tiketi"
+            ],
+            "Assistant": [
+                "Msaidizi"
+            ],
+            "Fix it": [
+                "Rekebisha"
+            ],
+            "AI providers": [
+                "Watoa huduma za AI"
+            ],
+            "Test the assistant": [
+                "Jaribu msaidizi"
+            ],
+            "Status": [
+                "Hali"
+            ],
+            "Open": [
+                "Fungua"
+            ],
+            "Subject": [
+                "Mada"
+            ],
+            "Updated": [
+                "Imesasishwa"
+            ],
+            "Send reply": [
+                "Tuma jibu"
+            ],
+            "Page": [
+                "Ukurasa"
+            ],
+            "Opened": [
+                "Imefunguliwa"
+            ],
+            "Visitor": [
+                "Mgeni"
+            ],
+            "Waiting for customer": [
+                "Inasubiri mteja"
+            ],
+            "Solved": [
+                "Imetuliwa"
+            ],
+            "Closed": [
+                "Imefungwa"
+            ],
+            "Send": [
+                "Tuma"
+            ],
+            "Cancel": [
+                "Ghairi"
+            ],
+            "End chat": [
+                "Maliza mazungumzo"
+            ],
+            "Something went wrong. Please try again.": [
+                "Kuna kitu kimeenda vibaya. Tafadhali jaribu tena."
+            ],
+            "Details": [
+                "Maelezo"
+            ],
+            "Message": [
+                "Ujumbe"
+            ],
+            "Type": [
+                "Aina"
+            ],
+            "%ds": [
+                "%ds"
+            ],
+            "%dm": [
+                "%dm"
+            ],
+            "%dh": [
+                "%dh"
+            ],
+            "Agent": [
+                "Wakala"
+            ],
+            "Internal note": [
+                "Ujumbe wa ndani"
+            ],
+            "With the assistant": [
+                "Na msaidizi"
+            ],
+            "Waiting for a person": [
+                "Inasubiri mtu"
+            ],
+            "With an agent": [
+                "Na wakala"
+            ],
+            "Left a message": [
+                "Umeacha ujumbe"
+            ],
+            "Away": [
+                "Haipo"
+            ],
+            "Focus mode": [
+                "Hali ya umakini"
+            ],
+            "Desktop alerts": [
+                "Arifa za kompyuta ya mezani"
+            ],
+            "Needs a person": [
+                "Inahitaji mtu"
+            ],
+            "Choose a chat on the left. You can open several; each keeps its own draft.": [
+                "Chagua gumzo upande wa kushoto. Unaweza kufungua kadhaa; kila moja hutunza rasimu yake."
+            ],
+            "A visitor is waiting": [
+                "Mgeni anasubiri"
+            ],
+            "Chat #%d": [
+                "Mazungumzo #%d"
+            ],
+            "Nothing here right now.": [
+                "Hakuna kitu hapa kwa sasa."
+            ],
+            "Visitor #%d": [
+                "Mgeni #%d"
+            ],
+            "typing\u2026": [
+                "inaandika\u2026"
+            ],
+            "waiting %s": [
+                "inasubiri %s"
+            ],
+            "%d online": [
+                "%d mtandaoni"
+            ],
+            "Close tab": [
+                "Funga kichupo"
+            ],
+            "Back to the list": [
+                "Rudi kwenye orodha"
+            ],
+            "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
+                "Andika jibu\u2026 (Bonyeza Enter kutuma, Shift+Enter kwa mstari mpya)"
+            ],
+            "Ticket #%d": [
+                "Tiketi #%d"
+            ],
+            "Take this chat": [
+                "Chukua gumzo hili"
+            ],
+            "Back to the assistant": [
+                "Rudi kwenye msaidizi"
+            ],
+            "Make a ticket": [
+                "Tengeneza tiketi"
+            ],
+            "The visitor's email address": [
+                "Barua pepe ya mgeni"
+            ],
+            "The visitor is typing\u2026": [
+                "Mgeni anaandika\u2026"
+            ],
+            "New ticket": [
+                "Tiketi mpya"
+            ],
+            "Search subject, email or number": [
+                "Tafuta mada, barua pepe au nambari"
+            ],
+            "Customer": [
+                "Mteja"
+            ],
+            "Priority": [
+                "Kipaumbele"
+            ],
+            "Needs attention": [
+                "Inahitaji uangalifu"
+            ],
+            "All": [
+                "Zote"
+            ],
+            "No tickets.": [
+                "Hakuna tikiti."
+            ],
+            "Page %1$d of %2$d": [
+                "Ukurasa %1$d kati ya %2$d"
+            ],
+            "Customer name": [
+                "Jina la mteja"
+            ],
+            "Customer email": [
+                "Barua pepe ya mteja"
+            ],
+            "Create ticket": [
+                "Tengeneza tiketi"
+            ],
+            "All tickets": [
+                "Tiketi zote"
+            ],
+            "Write a reply\u2026": [
+                "Andika jibu\u2026"
+            ],
+            "Internal note (the customer does not see it)": [
+                "Ujumbe wa ndani (mteja hauoni)"
+            ],
+            "then: waiting for customer": [
+                "kisha: inasubiri mteja"
+            ],
+            "then: solved": [
+                "kisha: imetatuliwa"
+            ],
+            "then: keep open": [
+                "kisha: weka wazi"
+            ],
+            "#%1$d %2$s": [
+                "#%1$d %2$s"
+            ],
+            "by email": [
+                "kwa barua pepe"
+            ],
+            "internal note": [
+                "madokezo ya ndani"
+            ],
+            "Channel": [
+                "Kituo"
+            ],
+            "Low": [
+                "Chini"
+            ],
+            "Normal": [
+                "Kawaida"
+            ],
+            "High": [
+                "Juu"
+            ],
+            "Urgent": [
+                "Dharura"
+            ],
+            "Nobody": [
+                "Hakuna"
+            ],
+            "Assigned to": [
+                "Iliyopangwa kwa"
+            ],
+            "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
+                "Oda #%1$s \u00b7 %2$s \u00b7 %3$s"
+            ],
+            "Order": [
+                "Agiza"
+            ],
+            "Delete ticket": [
+                "Futa tiketi"
+            ],
+            "Delete this ticket and all its messages?": [
+                "Ufute tiketi hii na jumbe zake zote?"
+            ],
+            "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
+                "Uliza kile ambacho wageni wako wanauliza. Unaona jibu na kila ukurasa uliopatikana, ukiwa na kiwango cha ulinganifu wa kila moja, wakati uliposasishwa mwisho, na maonyo kwa kurasa zinazoonekana zimepitwa na wakati. Rekebisha ukurasa, bonyeza Soma tena, kisha uulize tena."
+            ],
+            "For example: What is your returns policy?": [
+                "Kwa mfano: Je, sera yako ya kurejesha bidhaa ni ipi?"
+            ],
+            "Ask": [
+                "Uliza"
+            ],
+            "Not updated for over a year": [
+                "Haijasasishwa kwa zaidi ya mwaka mmoja"
+            ],
+            "A newer page covers the same subject: %s": [
+                "Ukurasa mpya zaidi unashughulikia mada hiyo hiyo: %s"
+            ],
+            "Re-read \u2713": [
+                "Soma tena \u2713"
+            ],
+            "Asking\u2026": [
+                "Inasubiri majibu\u2026"
+            ],
+            "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
+                "Matokeo: %1$s \u00b7 Utafutaji: %2$s \u00b7 Tokeni: %3$d zilioingia, %4$d zilitoka"
+            ],
+            "by meaning and words": [
+                "kwa maana na maneno"
+            ],
+            "by words only (no embedding key)": [
+                "kwa maneno pekee (bila ufunguo wa kupachika)"
+            ],
+            "nothing indexed": [
+                "hakuna kilichoorodheshwa"
+            ],
+            "The AI is not set up yet or could not answer.": [
+                "AI bado haijasusanidiwa au haikuweza kujibu."
+            ],
+            "Sources found (%d)": [
+                "Vyanzo vimepatikana (%d)"
+            ],
+            "Nothing on the site matched. Add a page that answers this, or check the Site index settings.": [
+                "Hakuna kilicholingana kwenye tovuti. Ongeza ukurasa unaojibu hili, au angalia mipangilio ya faharasa ya tovuti."
+            ],
+            "Score": [
+                "Alama"
+            ],
+            "Last updated": [
+                "Ilisasishwa mwisho"
+            ],
+            "Passage": [
+                "Nenosiri"
+            ],
+            "Edit": [
+                "Hariri"
+            ],
+            "Re-read": [
+                "Soma upya"
+            ],
+            "What the assistant has read": [
+                "Kile msaidizi alichosoma"
+            ],
+            "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
+                "Kurasa %1$d zimesomwa \u00b7 %2$d zinasubiri \u00b7 %3$d zenye makosa \u00b7 %4$d vifungu \u00b7 %5$d zimeeleweka kwa maana"
+            ],
+            "Embedding model: %s": [
+                "Mfano wa uwekaji: %s"
+            ],
+            "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
+                "Hakuna mtindo wa kutoa maelezo ya ndani: utafutaji ni kwa maneno pekee. Unganisha Google Gemini, OpenAI, Mistral au OpenRouter ili kutafuta kwa maana."
+            ],
+            "Building meanings is paused:": [
+                "Ujenzi wa maana umesitishwa:"
+            ],
+            "Re-read the whole site": [
+                "Soma upya tovuti nzima"
+            ],
+            "Rebuild all meanings": [
+                "Jenga upya maana yote"
+            ],
+            "Filter by title or address": [
+                "Chuja kwa kichwa au anwani"
+            ],
+            "Read": [
+                "Soma"
+            ],
+            "Waiting": [
+                "Inasubiri"
+            ],
+            "Errors": [
+                "Makosa"
+            ],
+            "Passages": [
+                "Vifungu"
+            ],
+            "by meaning": [
+                "kwa maana"
+            ],
+            "Rebuild meaning": [
+                "Jenga upya maana"
+            ],
+            "Done \u2713": [
+                "Imekamilika \u2713"
+            ],
+            "Failed": [
+                "Imeshindwa"
+            ]
+        }
+    }
+}

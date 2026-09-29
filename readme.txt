@@ -3,121 +3,140 @@ Contributors: zinndigital
 Plugin URI: https://zinndigital.com/wordpress-plugins/zinn-chat
 Author: Neil Lock — CEO, Zinn Digital® Ltd
 Author URI: https://zinndigital.com
-Tags: live chat, chat, support, helpdesk, ai
-Requires at least: 6.6
+Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
+Requires at least: 6.2
 Tested up to: 7.1
-Requires PHP: 8.2
-Stable tag: 1.6.0
+Requires PHP: 7.4
+Stable tag: 2.0.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Live chat that answers visitors straight away, hands them to you when it matters, and weighs under 10 KB on the page.
+A help desk and AI assistant that runs on your own site: answers from your own pages with links, live chat, and support tickets.
 
 == Description ==
 
-Most live chat widgets cost your visitors several hundred kilobytes of JavaScript on every page, whether or not anybody ever opens them. This one is under 10 KB compressed, loads after your page has finished rendering, and makes **no network requests at all** until a visitor actually clicks it.
+Zinn® Chat puts a complete help desk inside your WordPress. An AI assistant answers your visitors from your own pages, with a link to the page it used; when it cannot, it says so honestly and hands the visitor to a person or takes their question as a support ticket. Your team answers live chats from a multi-chat inbox and tickets from wp-admin, and your customers follow their requests on a support page or in their WooCommerce account.
 
-When somebody does open it, an assistant answers immediately from what it knows about your site. If it cannot answer — or the visitor asks for a person, or the question is about an order, money or a complaint — it hands the conversation straight to you. Anything that comes in when nobody is there is emailed to you with the transcript.
+Everything runs on your own site and stays in your own database. The AI uses your own key with the provider you choose.
 
-= What makes it fast =
+= An assistant that knows your whole site =
 
-* Under 10 KB compressed. No framework, no polyfills, no web fonts, no tracking pixel.
-* Loaded with `defer`, in the footer, after your page has painted. It cannot delay your content and it cannot shift your layout.
-* Its settings travel with the page, so the widget does not have to fetch them.
-* Zero requests until a visitor opens the chat. A page nobody chats on costs one cached script and nothing else.
-* Its styles live in a shadow root, so your theme cannot break the widget and the widget cannot leak into your theme.
+* **Reads everything, as visitors see it:** posts, pages and custom post types, WooCommerce products with prices, stock, variations, shipping and payment methods, forums (bbPress, BuddyBoss, wpForo), custom fields (ACF), and pages built with the block editor, Page Builder Sandwich, Elementor, Divi, Beaver Builder and Bricks.
+* **Search by meaning, not just words:** your AI key builds a semantic index of your site. Without an embedding key it still searches by keyword, so it is never blind.
+* **Keeps itself up to date:** new, edited and deleted content is picked up automatically, and a background check goes through the whole site every hour, however large it is.
+* **Honest answers with links:** answers only from your pages, links the page it used, and says "I could not find that" instead of guessing, then offers a person or a ticket.
+* **Answers in the visitor's language.**
+* **"Where is my order?":** signed-in WooCommerce customers can ask about their own orders.
+* **Bring your own AI key:** Google Gemini, OpenAI, Anthropic Claude, Mistral, OpenRouter, DeepSeek or any OpenAI-compatible service. The newest model is chosen automatically from the provider's own model list, and you can pick another.
 
-= What it does =
+= A test console that shows its working =
 
-* **AI first responder.** Answers from your own site's content, with links to the page it answered from.
-* **Straight to a human when it matters.** Money, orders, complaints and "can I talk to someone" go to a person without the assistant trying its luck first.
-* **You answer from one inbox.** Every site you run, in one place, in your Zinn Digital® dashboard.
-* **Nothing is lost.** A visitor's message is saved the moment they send it, whether or not anyone is online. Missed conversations are emailed to you with the transcript.
-* **Your own name on it.** The premium tier removes the Zinn Digital® badge from the widget, so the chat on your site is yours.
-* **Canned replies, transfer between people and business hours** on the premium tier.
+Ask the assistant questions in wp-admin and see the answer with every page it found: the address, title, when it was last updated, the passage it read and how well it matched. Pages that have not been updated for a year, or that disagree with a newer page on the same subject, are flagged, so you can find the stale page giving visitors a wrong answer, fix it, re-read it with one click, and ask again.
+
+= Live chat that does not lose track =
+
+* **Multi-chat inbox:** open several chats at once as tabs, side by side on a wide screen, each with its own draft. Waiting visitors go to the top with how long they have waited.
+* **Phone and tablet view:** the inbox becomes one chat at a time, full screen, with a Focus mode that hides the rest of wp-admin.
+* Internal notes, hand a chat back to the assistant, turn a chat into a ticket, email the visitor a copy.
+* Sound and desktop alerts when somebody is waiting, and an email if nobody answers.
+
+= Support tickets =
+
+* Tickets in wp-admin with status, priority and who is handling them.
+* A support page, a ticket form, a "my requests" list and a chat button, each as a shortcode, a block, and a module for Elementor, Divi, Beaver Builder and Bricks. Add "Submit a ticket" and "Chat with us" to any menu.
+* A **Support** tab in the WooCommerce account area, and "Get help with this order" on every order.
+* Email notifications both ways. Customers without an account follow their request through a private link; if it expires they can have a new one emailed.
+
+= Fast by design =
+
+The chat launcher is about 2 KB, printed inside the page, drawn after the page has finished loading, and fixed in the corner so it cannot shift your layout. The chat itself is fetched only when a visitor opens it. A page nobody chats on makes no request on the chat's behalf. Ticket forms load their small stylesheet only on the pages that show them.
 
 = Privacy =
 
-The plugin adds nothing to your site until you paste a key and tick the box — no script, no cookie, no storage, no requests.
+Nothing appears on your site until you turn the chat on. Visitors can be asked to agree before a chat or ticket, IP addresses are stored only in coded form unless you choose otherwise, and chats and tickets can be deleted automatically after a number of days you set. WordPress's own Export and Erase Personal Data tools include everything Zinn® Chat stores. Spam protection includes a hidden field, per-visitor limits and a block list, and loads nothing from another site.
 
-Once it is on, the widget stores one thing in the visitor's own browser: the identifier of their conversation, so a page refresh does not lose what they typed. It does not set cookies, does not track people across sites, and does not record IP addresses. The country shown to you is worked out at our edge from the connection and the address itself is never stored.
+= Connect to Zinn Digital® (optional) =
 
-= Pro features =
+If Zinn Digital® hosts your site you can instead answer chats from the Zinn® app. Settings, Connect to Zinn Digital®.
 
-Everything above is free and stays free. [Zinn® Chat Pro](https://zinndigital.com/wordpress-plugins/zinn-chat-pro) is the same plugin with its limits removed:
+= Shortcodes =
 
-* As many colleagues answering at once as you like — the free plugin allows one.
-* Every conversation kept for ever, instead of thirty days.
-* Your own name on the chat window, with ours removed.
-* Saved replies, transfer a conversation to a colleague, and business hours.
-* 5,000 AI answers a month rather than 100.
-* Choose exactly which pages the chat appears on — or hide it from the checkout.
-* One licence covers three of your sites; ten-site licences are available.
+* `[zinn_chat_support]` — the whole support page: the form, the signed-in customer's requests, or a request opened from a private link.
+* `[zinn_chat_ticket_form title="" subject="" button="" show_subject="yes"]` — just the form.
+* `[zinn_chat_my_tickets]` — the signed-in customer's requests.
+* `[zinn_chat_button label="Chat with us"]` — a button that opens the chat. Any link to `#zinn-chat`, or any element with the class `zinn-chat-open`, does the same.
 
-If you host a site with Zinn Digital®, Pro is included free and your key is on the Licences page of your dashboard.
+= Zinn® Chat Pro =
+
+An optional paid edition adds a Cloudflare Turnstile bot check on new chats and ticket forms, and a choice of exactly which pages show the chat. Everything described above is free and stays free.
 
 == Installation ==
 
-1. Upload the plugin and activate it. (If Zinn Digital® hosts your site, it is already there.)
-2. In your Zinn Digital® dashboard, open **Live chat**, create a chat for this site and copy its key.
-3. In WordPress, go to **Settings → Zinn® Chat**, paste the key, tick **Show the chat**, and save.
-
-Everything else — greeting, colour, business hours, canned replies, who answers — is set once in the dashboard and applies to every site you run.
+1. Install and activate the plugin. (If Zinn Digital® hosts your site, it is already there.)
+2. Open **Zinn® Chat, Setup** and follow the checklist: turn the chat on, add your AI key, let the assistant read your site, and create your support page.
+3. Open **Zinn® Chat, Inbox** to answer chats. Visitors can ask for a person while the Inbox is open.
 
 == External services ==
 
-This plugin connects your site to Zinn Digital®'s chat service, which is what makes the chat work. It is useless without it and it talks to nothing else.
+**Your AI provider (only if you add a key).** When the assistant answers a visitor, the visitor's message, the recent conversation and the passages of your site that match it are sent to the AI provider you chose, with your key. When the site index is built or updated, the text of your published pages is sent to that provider to build the search index. Nothing is sent to any provider until you add its key. Providers and their terms: Google Gemini ([terms](https://ai.google.dev/gemini-api/terms), [privacy](https://policies.google.com/privacy)), OpenAI ([terms](https://openai.com/policies/services-agreement/), [privacy](https://openai.com/policies/privacy-policy/)), Anthropic ([terms](https://www.anthropic.com/legal/commercial-terms), [privacy](https://www.anthropic.com/legal/privacy)), Mistral ([terms](https://legal.mistral.ai/terms/commercial-terms-of-service/), [privacy](https://legal.mistral.ai/terms/privacy-policy/)), OpenRouter ([terms](https://openrouter.ai/terms), [privacy](https://openrouter.ai/privacy)), DeepSeek ([terms](https://cdn.deepseek.com/policies/en-US/deepseek-open-platform-terms-of-service.html), [privacy](https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html)), or a service you name yourself.
 
-**What is sent, and when**
+**Recommended models list (only if you tick it).** Settings, AI providers can fetch Zinn Digital®'s list of recommended models once a day from `https://api.zinndigital.com/v1/ai-model-catalogue`. The request carries no key, no site address and no content.
 
-* **Nothing at all until you switch the chat on.** With the box unticked, the plugin adds no script to your pages and makes no request.
-* **Nothing until a visitor opens the chat.** With it on, your pages carry one `<script>` tag pointing at `https://zinndigital.com/embed/zinn-chat.js`, plus your public chat key and its appearance settings. Loading that file is the only network activity; it makes no request of its own until somebody clicks the launcher.
-* **When a visitor sends a message** their message, the address of the page they are on, the page's title, the referring address and their browser's language are sent to `https://api.zinndigital.com/v1/public/chat/…`, along with any name or email address they choose to give. That is what a live chat is: their words go to you, through us.
-* **While a conversation is open** the widget asks `https://api.zinndigital.com` for new replies. How often is decided by the service, not by the widget, and it slows right down when the conversation goes quiet or the browser tab is hidden.
+**Cloudflare Turnstile (Zinn® Chat Pro only, and only if you add Turnstile keys).** The chat and ticket forms load Cloudflare's Turnstile script, and each answer is checked with Cloudflare. The free edition never loads it. [Terms](https://www.cloudflare.com/website-terms/), [privacy](https://www.cloudflare.com/privacypolicy/).
 
-The public chat key is not a secret — it names your chat and nothing else, and it only works on the web addresses you have listed in your dashboard.
+**Zinn Digital® chat service (only in "Connect to Zinn Digital®" mode).** Your pages load `https://zinndigital.com/embed/zinn-chat.js` with your public chat key, and visitors' messages go to `https://api.zinndigital.com/v1/public/chat/…` so you can answer them from the Zinn® app. Once a day the plugin fetches your chat's appearance from the same service. [Terms](https://zinndigital.com/legal/terms), [privacy](https://zinndigital.com/legal/privacy).
 
-* **If you have a Zinn® Chat Pro licence**, once a day — and when you press Save on the licence box — the plugin sends your licence key, this site's address and the plugin's version number to `https://api.zinndigital.com/v1/plugin-licences/` to ask whether the licence is still valid and whether a newer Pro build exists. Nothing about your visitors or your content is sent. The free plugin never makes this request: the code that makes it is only in the Pro build.
-
-Service: Zinn Digital® — [zinndigital.com](https://zinndigital.com) · [Terms](https://zinndigital.com/legal/terms) · [Privacy](https://zinndigital.com/legal/privacy)
+**Licensing (Freemius).** The plugin includes the Freemius SDK for the optional Pro edition and product updates. Nothing is sent until you opt in on the screen shown after activation, or start a Pro trial or activate a licence. When you do, the SDK sends your site's URL, WordPress, PHP and plugin versions, language, and the administrator's name and email address to Freemius, and checks it periodically for licence status and updates. Before connecting it checks that the service is reachable by requesting `https://api.freemius.com/v1/ping.json`, which sends nothing about your site. You can opt out at any time from the plugin's Account page. [Terms](https://freemius.com/terms/), [privacy](https://freemius.com/privacy/).
 
 == Frequently Asked Questions ==
 
-= Does it work on a site you do not host? =
+= Do I need an AI key? =
 
-Yes. The plugin works on any WordPress site, and any non-WordPress site can use the plain `<script>` snippet instead.
+For AI answers, yes: the assistant uses your own key, so you pay your provider directly and nothing goes through us. Without one, the chat still works for live chat and tickets.
 
-= What happens if nobody is online? =
+= Which AI providers work? =
 
-The visitor still gets an answer from the assistant, and the conversation is emailed to the address you set, with the transcript. Nothing is lost.
+Google Gemini, OpenAI, Anthropic Claude, Mistral, OpenRouter, DeepSeek, and any OpenAI-compatible service, including one you run yourself. Meaning-based site search needs a provider that offers embeddings: Gemini, OpenAI, Mistral, OpenRouter or a compatible service.
+
+= How does it know my content has changed? =
+
+Saving, updating, trashing or deleting a post, product, forum reply or page-builder layout re-reads that item within a minute. An hourly background pass catches anything else, such as imports.
+
+= The assistant gave a wrong answer. How do I find out why? =
+
+Open **Zinn® Chat, Assistant**, ask the same question, and look at the sources. The page it used, and any out-of-date page, is shown with its last-updated date and an Edit button. Fix the page, press Re-read, and ask again.
+
+= Does it work with WooCommerce? =
+
+Yes. It reads your products, prices, stock, variations, shipping and payment methods, adds a Support tab to the account area, and tells signed-in customers about their own orders.
 
 = Can I stop it showing on some pages? =
 
-Yes — return `false` from the `zinn_chat_should_render` filter. Checkout pages and signed-in staff are the usual reasons. Zinn® Chat Pro gives you the same thing as a settings screen: show it only on the pages you choose, or everywhere except them, and hide it from people who are signed in.
-
-= What is Zinn® Chat Pro? =
-
-The same plugin with a licence key in it. Pro removes the limits the free version has — one person answering becomes as many as you like, thirty days of history becomes for ever, our name comes off the chat window, and you get saved replies, transfers between colleagues, business hours and 5,000 AI answers a month instead of 100. One licence covers three of your sites. If you host a site with Zinn Digital®, Pro is included free and your key is already waiting on the Licences page of your dashboard.
+Return `false` from the `zinn_chat_should_render` filter.
 
 = Will it slow my site down? =
 
-It is built so that it cannot. It loads after your page has rendered, it is outside the document flow so it cannot shift your layout, and its size is checked automatically on every change we make to it.
-
-= Is there a free tier? =
-
-Yes, and it is a real one rather than a trial. The free tier gives you one operator, thirty days of transcript history and one hundred AI replies a month, for nothing, for ever. The premium tier adds unlimited operators, transcripts kept for ever, five thousand AI replies a month, removal of the Zinn Digital® badge from the widget, canned replies, transfer between people and business hours.
-
-= Do I have to pay for premium? =
-
-Not if you host with Zinn Digital®. Premium is included with your hosting for as long as it is active, on every site in your account, with nothing to buy and no code to enter. If your hosting is cancelled or suspended, the chat returns to the free tier and transcripts go back to thirty days.
+No request is made on the chat's behalf until a visitor opens it, and the launcher cannot move your layout.
 
 == Screenshots ==
 
-1. Settings → Zinn® Chat. Paste the key from your dashboard, tick the box, and that is the whole setup. Until you do, the plugin adds nothing to your site at all.
-2. The chat is off until you say otherwise — no script, no cookie, no request, and the screen says so rather than leaving you to find out.
-3. The Zinn Digital® panel in your dashboard: this plugin's own guide, and the other things we run. No remote call, no tracking pixel, no image loaded from us.
+1. The multi-chat Inbox: several chats at once, waiting visitors first.
+2. The Assistant test console: the answer, and every page it came from, with out-of-date pages flagged.
+3. A ticket in wp-admin.
+4. The chat on a phone.
+5. The Setup checklist.
 
 == Changelog ==
+
+= 2.0.0 =
+* New: a complete help desk that runs on your own site. The AI assistant answers from a search index of your whole site (posts, pages, WooCommerce, forums, custom fields and page-builder content) built with your own AI key, links the page it used, and says when it does not know.
+* New: the Assistant test console, with sources, match scores and out-of-date page warnings, and one-click re-reading.
+* New: a multi-chat Inbox for live chat, with a phone and tablet view.
+* New: support tickets in wp-admin, a support page, ticket form, "my requests" list and chat button as shortcodes, blocks and page-builder modules, a menu box, and a WooCommerce account tab.
+* New: spam protection, consent, retention and personal-data export and erasure.
+* Sites that used Zinn® Chat 1.x with a key keep working exactly as before, answered from the Zinn® app.
+* Now runs on PHP 7.4 and WordPress 6.2 and later.
+
 
 = 1.6.0 =
 * Smaller download: the editable translation sources (.po) are no longer shipped; WordPress only ever loads the compiled .mo and .l10n.php files, which are unchanged.
@@ -147,10 +166,10 @@ Not if you host with Zinn Digital®. Premium is included with your hosting for a
 * Maintenance release: the admin panel code this plugin shares with the other Zinn® plugins gained a layout fix for Zinn® Cache Engine. Nothing changes on this plugin's own screens.
 
 = 1.3.0 =
-* New: your own logo in the chat window. Upload it from the site's Live chat settings in your Zinn Digital® dashboard, and it appears beside your name at the top of the chat once the site is on Premium (included with Zinn® hosting).
+* New: your own logo in the chat window. Upload it from the site's Live chat settings in your Zinn Digital® dashboard, and it appears beside your name at the top of the chat once the site is on Premium.
 
 = 1.2.0 =
-* New: Zinn® Chat Pro, the paid edition — unlimited people answering, transcripts kept for ever, your own branding, saved replies, transfers, business hours, 5,000 AI answers a month, and a settings screen for choosing exactly which pages the chat appears on. One licence covers three of your sites, and it is included free with Zinn Digital® hosting.
+* New: Zinn® Chat Pro, the paid edition — unlimited people answering, transcripts kept for ever, your own branding, saved replies, transfers, business hours, 5,000 AI answers a month, and a settings screen for choosing exactly which pages the chat appears on. One licence covered three of your sites.
 * New: the settings screen names the edition you are running, read from the plugin header rather than a fixed string — so the paid edition no longer shows the free edition's name.
 * New: the free edition explains what Pro adds, in your own language, with no remote call.
 

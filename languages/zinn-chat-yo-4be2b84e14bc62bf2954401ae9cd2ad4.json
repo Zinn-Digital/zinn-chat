@@ -1,0 +1,375 @@
+{
+    "translation-revision-date": "2026-09-29T15:04:41+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/console.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "yo",
+                "plural-forms": "nplurals=1; plural=0;"
+            },
+            "Inbox": [
+                "Apoti ifiran\u1e63\u1eb9"
+            ],
+            "Tickets": [
+                "\u00c0w\u1ecdn T\u00edk\u1eb9\u0301t\u00ec"
+            ],
+            "Assistant": [
+                "Ol\u00f9r\u00e0nl\u1ecd\u0301w\u1ecd\u0301"
+            ],
+            "Fix it": [
+                "\u1e62e \u00e0t\u00fan\u1e63e r\u1eb9"
+            ],
+            "AI providers": [
+                "\u00c0w\u1ecdn ol\u00f9p\u00e8s\u00e8 AI"
+            ],
+            "Test the assistant": [
+                "D\u00e1n ol\u00f9r\u00e0nl\u1ecd\u0301w\u1ecd\u0301 w\u00f2"
+            ],
+            "Status": [
+                "Ip\u00f2"
+            ],
+            "Open": [
+                "\u1e62ii"
+            ],
+            "Subject": [
+                "Or\u00ed-\u1ecdr\u1ecd"
+            ],
+            "Updated": [
+                "Ti \u1e63e imudojuiw\u1ecdn"
+            ],
+            "Send reply": [
+                "Fi \u00ecd\u00e1h\u00f9n r\u00e1n\u1e63\u1eb9\u0301"
+            ],
+            "Page": [
+                "Oj\u00fa-ew\u00e9"
+            ],
+            "Opened": [
+                "Ti \u1e63\u00ed"
+            ],
+            "Visitor": [
+                "\u1eb8ni t\u00ed \u00f3 \u0144 b\u1eb9w\u00f2"
+            ],
+            "Waiting for customer": [
+                "Nduro alabara"
+            ],
+            "Solved": [
+                "Ti yanju"
+            ],
+            "Closed": [
+                "Ti niipa"
+            ],
+            "Send": [
+                "Fi ran\u1e63\u1eb9"
+            ],
+            "Cancel": [
+                "Fagilee"
+            ],
+            "End chat": [
+                "Par\u00ed \u00ecf\u1ecd\u0300r\u1ecd\u0300w\u00e9r\u1ecd\u0300"
+            ],
+            "Something went wrong. Please try again.": [
+                "Nkan kan ko t\u1ecd. J\u1ecd\u0300\u1ecd\u0301 t\u00fan gbiyanju r\u1eb9\u0300 l\u1eb9\u0301\u1eb9\u0300kan si."
+            ],
+            "Details": [
+                "\u00c0w\u1ecdn \u0144kan k\u00edk\u00fan"
+            ],
+            "Message": [
+                "Ifiji\u1e63\u1eb9"
+            ],
+            "Type": [
+                "Iru"
+            ],
+            "%ds": [
+                "%ds"
+            ],
+            "%dm": [
+                "%dm"
+            ],
+            "%dh": [
+                "%dh"
+            ],
+            "Agent": [
+                "A\u1e63oju"
+            ],
+            "Internal note": [
+                "\u00c0k\u1ecds\u00edl\u1eb9 in\u00fa"
+            ],
+            "With the assistant": [
+                "P\u1eb9\u0300l\u00fa ol\u00f9r\u00e0nl\u1ecd\u0301w\u1ecd\u0301"
+            ],
+            "Waiting for a person": [
+                "Nduro eniyan kan"
+            ],
+            "With an agent": [
+                "P\u1eb9\u0300l\u00fa a\u1e63oj\u00fa kan"
+            ],
+            "Left a message": [
+                "Fi ifiran\u1e63\u1eb9 sil\u1eb9"
+            ],
+            "Away": [
+                "Kuro"
+            ],
+            "Focus mode": [
+                "Ipo idojuk\u1ecd"
+            ],
+            "Desktop alerts": [
+                "\u00c0w\u1ecdn \u00eck\u00ecl\u1ecd\u0300 oj\u00fa oj\u00fa-i\u1e63\u1eb9\u0301"
+            ],
+            "Needs a person": [
+                "O nilo eniyan kan"
+            ],
+            "Choose a chat on the left. You can open several; each keeps its own draft.": [
+                "Yan iwiregbe kan ni apa osi. O le \u1e63ii pup\u1ecd; eeyan k\u1ecd\u1ecdkan n t\u1ecdju \u00e0k\u1ecd\u1ecdk\u1ecd tir\u1eb9."
+            ],
+            "A visitor is waiting": [
+                "Alejo kan n duro"
+            ],
+            "Chat #%d": [
+                "I\u0300ji\u0300r\u00f2oro\u0300 #%d"
+            ],
+            "Nothing here right now.": [
+                "K\u00f2 s\u00ed ohun kankan n\u00edb\u00ed b\u00e1y\u00ec\u00ed."
+            ],
+            "Visitor #%d": [
+                "Alejo #%d"
+            ],
+            "typing\u2026": [
+                "\u0144k\u1ecdwe l\u1ecdw\u1ecd\u2026"
+            ],
+            "waiting %s": [
+                "nduro %s"
+            ],
+            "%d online": [
+                "%d lori intaneti"
+            ],
+            "Close tab": [
+                "Pa taabu k\u00far\u00f2"
+            ],
+            "Back to the list": [
+                "Pad b\u1eb9 s\u00ed \u00e0k\u00f3j\u1ecd n\u00e1\u00e0"
+            ],
+            "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
+                "T\u1eb9 esi... (T\u1eb9 b\u1ecdtini Enter lati firan\u1e63\u1eb9, Shift+Enter fun ila titun)"
+            ],
+            "Ticket #%d": [
+                "Tiketi #%d"
+            ],
+            "Take this chat": [
+                "Gba iwiregbe yii"
+            ],
+            "Back to the assistant": [
+                "Pad b\u1eb9 s\u00ed ol\u00f9r\u00e0nl\u1ecd\u0301w\u1ecd\u0301 n\u00e1\u00e0"
+            ],
+            "Make a ticket": [
+                "\u1e62e tik\u1eb9eti kan"
+            ],
+            "The visitor's email address": [
+                "Adir\u1eb9si imeeli alejo naa"
+            ],
+            "The visitor is typing\u2026": [
+                "Ol\u1eb9\u0300w\u00f2 n\u00e1\u00e0 \u0144 t\u1eb9\u0300..."
+            ],
+            "New ticket": [
+                "Tiki ti o tun"
+            ],
+            "Search subject, email or number": [
+                "\u1e62\u00e0w\u00e1r\u00ed k\u00f3k\u00f3, \u00edm\u00e9\u00e8l\u00ec t\u00e0b\u00ed n\u1ecd\u0301mb\u00e0"
+            ],
+            "Customer": [
+                "Onibara"
+            ],
+            "Priority": [
+                "\u00c0k\u1ecdk\u1ecd"
+            ],
+            "Needs attention": [
+                "O nilo akiyesi"
+            ],
+            "All": [
+                "Gbogbo"
+            ],
+            "No tickets.": [
+                "K\u00f2 s\u00ed tik\u1eb9\u0301t\u00ec."
+            ],
+            "Page %1$d of %2$d": [
+                "Oj\u00fa-ew\u00e9 %1$d n\u00edn\u00fa %2$d"
+            ],
+            "Customer name": [
+                "Or\u00fak\u1ecd on\u00edb\u00e0\u00e1r\u00e0"
+            ],
+            "Customer email": [
+                "\u00cdmeeli Onibara"
+            ],
+            "Create ticket": [
+                "\u1e62\u1eb9\u0301 t\u00eck\u1eb9\u0301t\u00ec"
+            ],
+            "All tickets": [
+                "Gbogbo tiketi"
+            ],
+            "Write a reply\u2026": [
+                "K\u1ecd \u00ecd\u00e1h\u00f9n kan\u2026"
+            ],
+            "Internal note (the customer does not see it)": [
+                "\u00c0k\u1ecds\u00edl\u1eb9\u0300 in\u00fa (on\u00edb\u00e0\u00e1r\u00e0 k\u00f2 n\u00ed r\u00ed i)"
+            ],
+            "then: waiting for customer": [
+                "l\u1eb9\u0301y\u00ecn n\u00e1\u00e0: \u00f3 \u0144 d\u00far\u00f3 de on\u00edb\u00e0\u00e1r\u00e0"
+            ],
+            "then: solved": [
+                "l\u1eb9\u0301y\u00ecn n\u00e1\u00e0: yanj\u00fa"
+            ],
+            "then: keep open": [
+                "l\u1eb9hinna: t\u1ecdju r\u1eb9 s\u00ed s\u00edl\u1eb9\u0300"
+            ],
+            "#%1$d %2$s": [
+                "#%1$d %2$s"
+            ],
+            "by email": [
+                "n\u00edpas\u1eb9\u0300 ime\u00e8l\u00ec"
+            ],
+            "internal note": [
+                "ak\u1ecdsil\u1eb9 ab\u1eb9nu"
+            ],
+            "Channel": [
+                "Ikanni"
+            ],
+            "Low": [
+                "K\u00e9ker\u00e9"
+            ],
+            "Normal": [
+                "Deede"
+            ],
+            "High": [
+                "Giga"
+            ],
+            "Urgent": [
+                "Kakanju"
+            ],
+            "Nobody": [
+                "K\u00f2 s\u00ed \u1eb9nik\u1eb9ni"
+            ],
+            "Assigned to": [
+                "A y\u1ecd f\u00fan"
+            ],
+            "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
+                "\u00c0\u1e63\u1eb9 #%1$s \u00b7 %2$s \u00b7 %3$s"
+            ],
+            "Order": [
+                "\u00c8t\u00f2"
+            ],
+            "Delete ticket": [
+                "Pa tik\u1eb9ti r\u1eb9"
+            ],
+            "Delete this ticket and all its messages?": [
+                "\u1e62\u00e9 o f\u1eb9\u0301 pa tik\u1eb9\u0301t\u00ec y\u00ec\u00ed r\u1eb9\u0301 p\u1eb9\u0300l\u00fa gbogbo \u00e0w\u1ecdn \u00ecr\u00e1n\u1e63\u1eb9\u0301 r\u1eb9\u0300?"
+            ],
+            "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
+                "B\u1eb9\u0301ni ohun t\u00ed \u00e0w\u1ecdn \u00e0lej\u00f2 r\u1eb9 \u0144 bi. O r\u00ed \u00ecd\u00e1h\u00f9n n\u00e1\u00e0 \u00e0ti oj\u00fa-ew\u00e9 k\u1ecd\u0300\u1ecd\u0300kan t\u00ed \u00f3 r\u00ed, p\u1eb9\u0300l\u00fa b\u00ed \u1eb9n\u00ec k\u1ecd\u0300\u1ecd\u0300kan \u1e63e b\u00e1 mu t\u00f3, \u00ecgb\u00e0 t\u00ed a k\u1eb9\u0301y\u00ecn \u1e63e \u00e9 n\u00ed t\u00edt\u00fan\u1e63e, \u00e0ti \u00e0w\u1ecdn \u00eck\u00ecl\u1ecd\u0300 f\u00fan \u00e0w\u1ecdn oj\u00fa-ew\u00e9 t\u00ed \u00f3 d\u00e0 b\u00ed \u00e8y\u00ed t\u00ed \u00f3 ti p\u00e9 \u1ecdj\u1ecd\u0301. \u1e62e \u00e0t\u00fan\u1e63e oj\u00fa-ew\u00e9 kan, t\u1eb9 Re-read, k\u00ed o s\u00ec t\u00fan bi \u00ed l\u1eb9\u0301\u1eb9\u0300kan s\u00ed i."
+            ],
+            "For example: What is your returns policy?": [
+                "F\u00fan \u00e0p\u1eb9\u1eb9r\u1eb9: Kini eto \u00ecd\u00e1pad\u00e0 r\u1eb9?"
+            ],
+            "Ask": [
+                "Bi ni ibeere"
+            ],
+            "Not updated for over a year": [
+                "K\u00f2 t\u00ed\u00ec \u1e63e \u00e0t\u00fan\u1e63e f\u00fan ju \u1ecdd\u00fan kan l\u1ecd"
+            ],
+            "A newer page covers the same subject: %s": [
+                "Oj\u00fa-ew\u00e9 tuntun kan w\u00e0 t\u00ed \u00f3 s\u1ecd n\u00edpa k\u00f3k\u00f3 kan n\u00e1\u00e0: %s"
+            ],
+            "Re-read \u2713": [
+                "Ka l\u1eb9\u1eb9kan s\u00ed i \u2713"
+            ],
+            "Asking\u2026": [
+                "\u0143 b\u00e9\u00e8r\u00e8 l\u1ecd\u0301w\u1ecd\u0301\u2026"
+            ],
+            "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
+                "\u00c8s\u00ec: %1$s \u00b7 \u00c0w\u00e1r\u00ed: %2$s \u00b7 \u00c0m\u00ec: %3$d n\u00edn\u00fa, %4$d j\u00e1de"
+            ],
+            "by meaning and words": [
+                "n\u00edpa \u00ectum\u1ecd\u0300 \u00e0ti \u00e0w\u1ecdn \u1ecd\u0300r\u1ecd\u0300"
+            ],
+            "by words only (no embedding key)": [
+                "n\u00edpa \u00e0w\u1ecdn \u1ecd\u0300r\u1ecd\u0300 n\u00eckan (k\u00f2 s\u00ed b\u1ecd\u0301t\u00ecnn\u00ec \u00ecf\u00fangb\u00e1)"
+            ],
+            "nothing indexed": [
+                "k\u00f2 s\u00ed ohun t\u00ed a \u1e63e \u00e0k\u1ecds\u00edl\u1eb9\u0300 r\u1eb9\u0300"
+            ],
+            "The AI is not set up yet or could not answer.": [
+                "A \u00f2 t\u00ed\u00ec \u1e63\u00e8t\u00f2 AI t\u00e0b\u00ed k\u00f2 l\u00e8 d\u00e1h\u00f9n."
+            ],
+            "Sources found (%d)": [
+                "Aw\u1ecdn orisun ti a rii (%d)"
+            ],
+            "Nothing on the site matched. Add a page that answers this, or check the Site index settings.": [
+                "Ko si nkan lori aaye na ti o baamu. Fi oju-iwe kan kun ti o dahun eyi, tabi \u1e63ay\u1eb9wo aw\u1ecdn eto at\u1ecdka aaye naa."
+            ],
+            "Score": [
+                "\u00c0m\u00ec\u00ec"
+            ],
+            "Last updated": [
+                "\u00ccgb\u00e0 t\u00ed a \u1e63e \u00e0t\u00fan\u1e63e gb\u1eb9\u0300y\u00ecn"
+            ],
+            "Passage": [
+                "\u1ecc\u0300n\u00e0 \u00eck\u1ecdj\u00e1"
+            ],
+            "Edit": [
+                "\u1e62atun\u1e63e"
+            ],
+            "Re-read": [
+                "Tun ka"
+            ],
+            "What the assistant has read": [
+                "Ohun ti oluranl\u1ecdw\u1ecd ti ka"
+            ],
+            "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
+                "Aw\u1ecdn oju-iwe %1$d ti ka \u00b7 %2$d n duro \u00b7 %3$d p\u1eb9lu aw\u1ecdn asise \u00b7 %4$d aw\u1ecdn apakan \u00b7 %5$d ti a loye nipas\u1eb9 itum\u1ecd"
+            ],
+            "Embedding model: %s": [
+                "\u00c0wo\u1e63e \u00ecf\u00fanni: %s"
+            ],
+            "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
+                "Ko si awo\u1e63e ifib\u1ecd: wiwa j\u1eb9 nipas\u1eb9 aw\u1ecdn \u1ecdr\u1ecd nikan. Sop\u1ecd Google Gemini, OpenAI, Mistral tabi OpenRouter lati wa nipas\u1eb9 itumo."
+            ],
+            "Building meanings is paused:": [
+                "A k\u1ecd\u0301 \u1eb9\u0300s\u1eb9\u0300 w\u00e0 n\u00ed \u00ecsinmi:"
+            ],
+            "Re-read the whole site": [
+                "Tun ka gbogbo aaye naa atuny\u1eb9wo"
+            ],
+            "Rebuild all meanings": [
+                "T\u00fan gbogbo \u00ectum\u1ecd\u0300 \u1e63e"
+            ],
+            "Filter by title or address": [
+                "\u1e62e \u00e0l\u1eb9m\u1ecd n\u00edpa \u00e0k\u1ecdl\u00e9 t\u00e0b\u00ed \u00e0d\u00edr\u1eb9\u0301s\u00ec"
+            ],
+            "Read": [
+                "Ka"
+            ],
+            "Waiting": [
+                "Nduro"
+            ],
+            "Errors": [
+                "Aw\u1ecdn a\u1e63i\u1e63e"
+            ],
+            "Passages": [
+                "\u00c0w\u1ecdn Ap\u00e1"
+            ],
+            "by meaning": [
+                "n\u00edpa \u00ectum\u1ecd\u0300"
+            ],
+            "Rebuild meaning": [
+                "T\u00fan itumo r\u1eb9 \u1e63e"
+            ],
+            "Done \u2713": [
+                "Se e pari \u2713"
+            ],
+            "Failed": [
+                "K\u00f2\u1e63e\u00e9\u1e63e"
+            ]
+        }
+    }
+}

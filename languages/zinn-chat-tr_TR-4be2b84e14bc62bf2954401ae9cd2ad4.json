@@ -1,0 +1,375 @@
+{
+    "translation-revision-date": "2026-09-29T15:04:41+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/console.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "tr_TR",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Inbox": [
+                "Gelen Kutusu"
+            ],
+            "Tickets": [
+                "Destek Talepleri"
+            ],
+            "Assistant": [
+                "Asistan"
+            ],
+            "Fix it": [
+                "D\u00fczelt"
+            ],
+            "AI providers": [
+                "Yapay zeka sa\u011flay\u0131c\u0131lar\u0131"
+            ],
+            "Test the assistant": [
+                "Asistan\u0131 test et"
+            ],
+            "Status": [
+                "Durum"
+            ],
+            "Open": [
+                "A\u00e7"
+            ],
+            "Subject": [
+                "Konu"
+            ],
+            "Updated": [
+                "G\u00fcncellendi"
+            ],
+            "Send reply": [
+                "Yan\u0131t g\u00f6nder"
+            ],
+            "Page": [
+                "Sayfa"
+            ],
+            "Opened": [
+                "A\u00e7\u0131ld\u0131"
+            ],
+            "Visitor": [
+                "Ziyaret\u00e7i"
+            ],
+            "Waiting for customer": [
+                "M\u00fc\u015fteri bekleniyor"
+            ],
+            "Solved": [
+                "\u00c7\u00f6z\u00fcld\u00fc"
+            ],
+            "Closed": [
+                "Kapal\u0131"
+            ],
+            "Send": [
+                "G\u00f6nder"
+            ],
+            "Cancel": [
+                "\u0130ptal Et"
+            ],
+            "End chat": [
+                "Sohbeti sonland\u0131r"
+            ],
+            "Something went wrong. Please try again.": [
+                "Bir \u015feyler yanl\u0131\u015f gitti. L\u00fctfen tekrar deneyin."
+            ],
+            "Details": [
+                "Ayr\u0131nt\u0131lar"
+            ],
+            "Message": [
+                "Mesaj"
+            ],
+            "Type": [
+                "T\u00fcr"
+            ],
+            "%ds": [
+                "%ds"
+            ],
+            "%dm": [
+                "%dm"
+            ],
+            "%dh": [
+                "%dh"
+            ],
+            "Agent": [
+                "Arac\u0131"
+            ],
+            "Internal note": [
+                "Dahili not"
+            ],
+            "With the assistant": [
+                "Asistan ile birlikte"
+            ],
+            "Waiting for a person": [
+                "Bir ki\u015finin gelmesi bekleniyor"
+            ],
+            "With an agent": [
+                "Bir ajanla"
+            ],
+            "Left a message": [
+                "Mesaj b\u0131rak\u0131ld\u0131"
+            ],
+            "Away": [
+                "Uzakta"
+            ],
+            "Focus mode": [
+                "Odak modu"
+            ],
+            "Desktop alerts": [
+                "Masa\u00fcst\u00fc uyar\u0131lar\u0131"
+            ],
+            "Needs a person": [
+                "Ki\u015fi gerekli"
+            ],
+            "Choose a chat on the left. You can open several; each keeps its own draft.": [
+                "Soldaki bir sohbeti se\u00e7in. Birka\u00e7 tane a\u00e7abilirsiniz; her biri kendi tasla\u011f\u0131n\u0131 korur."
+            ],
+            "A visitor is waiting": [
+                "Ziyaret\u00e7i bekliyor"
+            ],
+            "Chat #%d": [
+                "Sohbet #%d"
+            ],
+            "Nothing here right now.": [
+                "\u015eu an burada hi\u00e7bir \u015fey yok."
+            ],
+            "Visitor #%d": [
+                "Ziyaret\u00e7i #%d"
+            ],
+            "typing\u2026": [
+                "yaz\u0131yor\u2026"
+            ],
+            "waiting %s": [
+                "%s bekleniyor"
+            ],
+            "%d online": [
+                "%d \u00e7evrimi\u00e7i"
+            ],
+            "Close tab": [
+                "Sekmeyi kapat"
+            ],
+            "Back to the list": [
+                "Listeye d\u00f6n"
+            ],
+            "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
+                "Bir yan\u0131t yaz\u0131n\u2026 (G\u00f6ndermek i\u00e7in Enter, yeni sat\u0131r i\u00e7in Shift+Enter)"
+            ],
+            "Ticket #%d": [
+                "Destek Talebi #%d"
+            ],
+            "Take this chat": [
+                "Bu sohbeti al"
+            ],
+            "Back to the assistant": [
+                "Asistana geri d\u00f6n"
+            ],
+            "Make a ticket": [
+                "Destek talebi olu\u015ftur"
+            ],
+            "The visitor's email address": [
+                "Ziyaret\u00e7inin e-posta adresi"
+            ],
+            "The visitor is typing\u2026": [
+                "Ziyaret\u00e7i yaz\u0131yor\u2026"
+            ],
+            "New ticket": [
+                "Yeni talep"
+            ],
+            "Search subject, email or number": [
+                "Konu, e-posta veya numara ara"
+            ],
+            "Customer": [
+                "M\u00fc\u015fteri"
+            ],
+            "Priority": [
+                "\u00d6ncelik"
+            ],
+            "Needs attention": [
+                "\u0130\u015flem gerektiriyor"
+            ],
+            "All": [
+                "T\u00fcm\u00fc"
+            ],
+            "No tickets.": [
+                "Destek talebi yok."
+            ],
+            "Page %1$d of %2$d": [
+                "Sayfa %1$d \/ %2$d"
+            ],
+            "Customer name": [
+                "M\u00fc\u015fteri ad\u0131"
+            ],
+            "Customer email": [
+                "M\u00fc\u015fteri e-postas\u0131"
+            ],
+            "Create ticket": [
+                "Destek talebi olu\u015ftur"
+            ],
+            "All tickets": [
+                "T\u00fcm biletler"
+            ],
+            "Write a reply\u2026": [
+                "Bir yan\u0131t yaz\u0131n\u2026"
+            ],
+            "Internal note (the customer does not see it)": [
+                "Dahili not (m\u00fc\u015fteri bunu g\u00f6rmez)"
+            ],
+            "then: waiting for customer": [
+                "o zaman: m\u00fc\u015fteri bekleniyor"
+            ],
+            "then: solved": [
+                "o zaman: \u00e7\u00f6z\u00fcld\u00fc"
+            ],
+            "then: keep open": [
+                "o zaman: a\u00e7\u0131k tut"
+            ],
+            "#%1$d %2$s": [
+                "#%1$d %2$s"
+            ],
+            "by email": [
+                "e-posta ile"
+            ],
+            "internal note": [
+                "dahili not"
+            ],
+            "Channel": [
+                "Kanal"
+            ],
+            "Low": [
+                "D\u00fc\u015f\u00fck"
+            ],
+            "Normal": [
+                "Normal"
+            ],
+            "High": [
+                "Y\u00fcksek"
+            ],
+            "Urgent": [
+                "Acil"
+            ],
+            "Nobody": [
+                "Hi\u00e7biri"
+            ],
+            "Assigned to": [
+                "Atanan"
+            ],
+            "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
+                "Sipari\u015f #%1$s \u00b7 %2$s \u00b7 %3$s"
+            ],
+            "Order": [
+                "Sipari\u015f"
+            ],
+            "Delete ticket": [
+                "Tebli\u011fi sil"
+            ],
+            "Delete this ticket and all its messages?": [
+                "Bu destek talebini ve t\u00fcm mesajlar\u0131n\u0131 silmek istiyor musunuz?"
+            ],
+            "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
+                "Ziyaret\u00e7ilerinizin sordu\u011fu sorular\u0131 sorun. Yan\u0131t\u0131 ve buldu\u011fu her sayfay\u0131, her birinin ne kadar iyi e\u015fle\u015fti\u011fini, en son ne zaman g\u00fcncellendi\u011fini ve g\u00fcncelli\u011fini yitirmi\u015f gibi g\u00f6r\u00fcnen sayfalar i\u00e7in uyar\u0131lar\u0131 g\u00f6r\u00fcrs\u00fcn\u00fcz. Bir sayfay\u0131 d\u00fczeltin, Yeniden oku d\u00fc\u011fmesine bas\u0131n ve tekrar sorun."
+            ],
+            "For example: What is your returns policy?": [
+                "\u00d6rne\u011fin: \u0130ade politikan\u0131z nedir?"
+            ],
+            "Ask": [
+                "Sor"
+            ],
+            "Not updated for over a year": [
+                "Bir y\u0131ldan uzun s\u00fcredir g\u00fcncellenmedi"
+            ],
+            "A newer page covers the same subject: %s": [
+                "Daha yeni bir sayfa ayn\u0131 konuyu ele al\u0131yor: %s"
+            ],
+            "Re-read \u2713": [
+                "Yeniden oku \u2713"
+            ],
+            "Asking\u2026": [
+                "Soruluyor..."
+            ],
+            "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
+                "Sonu\u00e7: %1$s \u00b7 Arama: %2$s \u00b7 Token: %3$d giri\u015f, %4$d \u00e7\u0131k\u0131\u015f"
+            ],
+            "by meaning and words": [
+                "anlam ve kelimelere g\u00f6re"
+            ],
+            "by words only (no embedding key)": [
+                "yaln\u0131zca kelimelerle (g\u00f6mme anahtar\u0131 yok)"
+            ],
+            "nothing indexed": [
+                "hi\u00e7 dizine eklenmedi"
+            ],
+            "The AI is not set up yet or could not answer.": [
+                "Yapay zeka hen\u00fcz ayarlanmad\u0131 veya yan\u0131t veremedi."
+            ],
+            "Sources found (%d)": [
+                "Bulunan kaynaklar (%d)"
+            ],
+            "Nothing on the site matched. Add a page that answers this, or check the Site index settings.": [
+                "Sitede e\u015fle\u015fen hi\u00e7bir \u015fey bulunamad\u0131. Buna yan\u0131t veren bir sayfa ekleyin veya Site dizini ayarlar\u0131n\u0131 kontrol edin."
+            ],
+            "Score": [
+                "Puan"
+            ],
+            "Last updated": [
+                "Son g\u00fcncelleme"
+            ],
+            "Passage": [
+                "Parola"
+            ],
+            "Edit": [
+                "D\u00fczenle"
+            ],
+            "Re-read": [
+                "Yeniden oku"
+            ],
+            "What the assistant has read": [
+                "Asistan\u0131n okudu\u011fu"
+            ],
+            "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
+                "%1$d sayfa okundu \u00b7 %2$d bekleniyor \u00b7 %3$d hatal\u0131 \u00b7 %4$d pasaj \u00b7 %5$d anlam olarak anla\u015f\u0131ld\u0131"
+            ],
+            "Embedding model: %s": [
+                "Yerle\u015ftirme modeli: %s"
+            ],
+            "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
+                "G\u00f6mme modeli yok: arama yaln\u0131zca kelimelerle yap\u0131l\u0131r. Anlama g\u00f6re arama yapmak i\u00e7in Google Gemini, OpenAI, Mistral veya OpenRouter'\u0131 ba\u011flay\u0131n."
+            ],
+            "Building meanings is paused:": [
+                "Anlam olu\u015fturma duraklat\u0131ld\u0131:"
+            ],
+            "Re-read the whole site": [
+                "T\u00fcm siteyi yeniden oku"
+            ],
+            "Rebuild all meanings": [
+                "T\u00fcm anlamlar\u0131 yeniden olu\u015ftur"
+            ],
+            "Filter by title or address": [
+                "Ba\u015fl\u0131\u011fa veya adrese g\u00f6re filtrele"
+            ],
+            "Read": [
+                "Oku"
+            ],
+            "Waiting": [
+                "Bekliyor"
+            ],
+            "Errors": [
+                "Hatalar"
+            ],
+            "Passages": [
+                "Ge\u00e7itler"
+            ],
+            "by meaning": [
+                "anlam\u0131na g\u00f6re"
+            ],
+            "Rebuild meaning": [
+                "Yeniden olu\u015ftur"
+            ],
+            "Done \u2713": [
+                "Tamamland\u0131 \u2713"
+            ],
+            "Failed": [
+                "Ba\u015far\u0131s\u0131z"
+            ]
+        }
+    }
+}
