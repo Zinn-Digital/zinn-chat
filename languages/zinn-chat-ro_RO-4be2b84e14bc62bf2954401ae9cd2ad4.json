@@ -1,0 +1,375 @@
+{
+    "translation-revision-date": "2026-09-29T17:24:54+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/console.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "ro_RO",
+                "plural-forms": "nplurals=3; plural=(n==1 ? 0 : n==0 || (n%100>0 && n%100<20) ? 1 : 2);"
+            },
+            "Inbox": [
+                "Mesaje primite"
+            ],
+            "Tickets": [
+                "Tichete"
+            ],
+            "Assistant": [
+                "Asistent"
+            ],
+            "Fix it": [
+                "Rezolv\u0103"
+            ],
+            "AI providers": [
+                "Furnizori AI"
+            ],
+            "Test the assistant": [
+                "Testa\u021bi asistentul"
+            ],
+            "Status": [
+                "Stare"
+            ],
+            "Open": [
+                "Deschidere"
+            ],
+            "Subject": [
+                "Subiect"
+            ],
+            "Updated": [
+                "Actualizat"
+            ],
+            "Send reply": [
+                "Trimite\u021bi r\u0103spunsul"
+            ],
+            "Page": [
+                "Pagin\u0103"
+            ],
+            "Opened": [
+                "Deschis"
+            ],
+            "Visitor": [
+                "Vizitator"
+            ],
+            "Waiting for customer": [
+                "\u00cen a\u0219teptarea clientului"
+            ],
+            "Solved": [
+                "Rezolvat"
+            ],
+            "Closed": [
+                "\u00cenchis"
+            ],
+            "Send": [
+                "Trimite"
+            ],
+            "Cancel": [
+                "Anulare"
+            ],
+            "End chat": [
+                "\u00cencheie conversa\u021bia"
+            ],
+            "Something went wrong. Please try again.": [
+                "Ceva nu a func\u021bionat corect. V\u0103 rug\u0103m s\u0103 \u00eencerca\u021bi din nou."
+            ],
+            "Details": [
+                "Detalii"
+            ],
+            "Message": [
+                "Mesaj"
+            ],
+            "Type": [
+                "Tip"
+            ],
+            "%ds": [
+                "%ds"
+            ],
+            "%dm": [
+                "%dm"
+            ],
+            "%dh": [
+                "%dh"
+            ],
+            "Agent": [
+                "Agent"
+            ],
+            "Internal note": [
+                "Not\u0103 intern\u0103"
+            ],
+            "With the assistant": [
+                "Cu ajutorul asistentului"
+            ],
+            "Waiting for a person": [
+                "Se a\u0219teapt\u0103 o persoan\u0103"
+            ],
+            "With an agent": [
+                "Cu un agent"
+            ],
+            "Left a message": [
+                "A l\u0103sat un mesaj"
+            ],
+            "Away": [
+                "Absent"
+            ],
+            "Focus mode": [
+                "Mod de focalizare"
+            ],
+            "Desktop alerts": [
+                "Alerte desktop"
+            ],
+            "Needs a person": [
+                "Necesit\u0103 o persoan\u0103"
+            ],
+            "Choose a chat on the left. You can open several; each keeps its own draft.": [
+                "Alege\u021bi un chat din st\u00e2nga. Pute\u021bi deschide mai multe; fiecare \u00ee\u0219i p\u0103streaz\u0103 propria ciorn\u0103."
+            ],
+            "A visitor is waiting": [
+                "Un vizitator a\u0219teapt\u0103"
+            ],
+            "Chat #%d": [
+                "Chat #%d"
+            ],
+            "Nothing here right now.": [
+                "Nimic aici momentan."
+            ],
+            "Visitor #%d": [
+                "Vizitatorul #%d"
+            ],
+            "typing\u2026": [
+                "se tasteaz\u0103\u2026"
+            ],
+            "waiting %s": [
+                "se a\u0219teapt\u0103 %s"
+            ],
+            "%d online": [
+                "%d online"
+            ],
+            "Close tab": [
+                "\u00cenchide fila"
+            ],
+            "Back to the list": [
+                "\u00cenapoi la list\u0103"
+            ],
+            "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
+                "Scrie\u021bi un r\u0103spuns\u2026 (Enter pentru trimitere, Shift+Enter pentru r\u00e2nd nou)"
+            ],
+            "Ticket #%d": [
+                "Tichetele #%d"
+            ],
+            "Take this chat": [
+                "Preia acest chat"
+            ],
+            "Back to the assistant": [
+                "\u00cenapoi la asistent"
+            ],
+            "Make a ticket": [
+                "Deschide un tichet"
+            ],
+            "The visitor's email address": [
+                "Adresa de e-mail a vizitatorului"
+            ],
+            "The visitor is typing\u2026": [
+                "Vizitatorul scrie..."
+            ],
+            "New ticket": [
+                "Ticket nou"
+            ],
+            "Search subject, email or number": [
+                "Caut\u0103 subiect, e-mail sau num\u0103r"
+            ],
+            "Customer": [
+                "Client"
+            ],
+            "Priority": [
+                "Prioritate"
+            ],
+            "Needs attention": [
+                "Necesit\u0103 aten\u021bie"
+            ],
+            "All": [
+                "Toate"
+            ],
+            "No tickets.": [
+                "Niciun tichet."
+            ],
+            "Page %1$d of %2$d": [
+                "Pagina %1$d din %2$d"
+            ],
+            "Customer name": [
+                "Numele clientului"
+            ],
+            "Customer email": [
+                "Email client"
+            ],
+            "Create ticket": [
+                "Creeaz\u0103 tichet"
+            ],
+            "All tickets": [
+                "Toate tichetele"
+            ],
+            "Write a reply\u2026": [
+                "Scrie\u021bi un r\u0103spuns\u2026"
+            ],
+            "Internal note (the customer does not see it)": [
+                "Not\u0103 intern\u0103 (clientul nu o vede)"
+            ],
+            "then: waiting for customer": [
+                "atunci: se a\u0219teapt\u0103 clientul"
+            ],
+            "then: solved": [
+                "atunci: rezolvat"
+            ],
+            "then: keep open": [
+                "apoi: a se \u021bine deschis"
+            ],
+            "#%1$d %2$s": [
+                "#%1$d %2$s"
+            ],
+            "by email": [
+                "prin e-mail"
+            ],
+            "internal note": [
+                "not\u0103 intern\u0103"
+            ],
+            "Channel": [
+                "Canal"
+            ],
+            "Low": [
+                "Sc\u0103zut"
+            ],
+            "Normal": [
+                "Normal"
+            ],
+            "High": [
+                "Ridicat"
+            ],
+            "Urgent": [
+                "Urgent"
+            ],
+            "Nobody": [
+                "Niciunul"
+            ],
+            "Assigned to": [
+                "Atribuit c\u0103tre"
+            ],
+            "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
+                "Comanda #%1$s \u00b7 %2$s \u00b7 %3$s"
+            ],
+            "Order": [
+                "Comand\u0103"
+            ],
+            "Delete ticket": [
+                "\u0218terge\u021bi tichetul"
+            ],
+            "Delete this ticket and all its messages?": [
+                "\u0218terge\u021bi acest tichet \u0219i toate mesajele sale?"
+            ],
+            "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
+                "\u00centreba\u021bi ceea ce \u00eentreab\u0103 vizitatorii dvs. Vede\u021bi r\u0103spunsul \u0219i fiecare pagin\u0103 pe care a g\u0103sit-o, cu gradul de potrivire al fiec\u0103reia, data ultimei actualiz\u0103ri \u0219i avertismente pentru paginile care par dep\u0103\u0219ite. Corecta\u021bi o pagin\u0103, ap\u0103sa\u021bi Re-read \u0219i \u00eentreba\u021bi din nou."
+            ],
+            "For example: What is your returns policy?": [
+                "De exemplu: Care este politica dvs. de retur?"
+            ],
+            "Ask": [
+                "Solicit\u0103"
+            ],
+            "Not updated for over a year": [
+                "Neactualizat de mai bine de un an"
+            ],
+            "A newer page covers the same subject: %s": [
+                "O pagin\u0103 mai nou\u0103 acoper\u0103 acela\u0219i subiect: %s"
+            ],
+            "Re-read \u2713": [
+                "Recitit \u2713"
+            ],
+            "Asking\u2026": [
+                "Se interogheaz\u0103\u2026"
+            ],
+            "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
+                "Rezultat: %1$s \u00b7 C\u0103utare: %2$s \u00b7 Tokenuri: %3$d intrare, %4$d ie\u0219ire"
+            ],
+            "by meaning and words": [
+                "dup\u0103 \u00een\u021beles \u0219i cuvinte"
+            ],
+            "by words only (no embedding key)": [
+                "doar dup\u0103 cuvinte (f\u0103r\u0103 cheie de \u00eencorporare)"
+            ],
+            "nothing indexed": [
+                "nimic indexat"
+            ],
+            "The AI is not set up yet or could not answer.": [
+                "Inteligen\u021ba artificial\u0103 nu este \u00eenc\u0103 configurat\u0103 sau nu a putut r\u0103spunde."
+            ],
+            "Sources found (%d)": [
+                "Surse g\u0103site (%d)"
+            ],
+            "Nothing on the site matched. Add a page that answers this, or check the Site index settings.": [
+                "Nimic de pe site nu s-a potrivit. Ad\u0103uga\u021bi o pagin\u0103 care r\u0103spunde la aceasta sau verifica\u021bi set\u0103rile indexului site-ului."
+            ],
+            "Score": [
+                "Scor"
+            ],
+            "Last updated": [
+                "Ultima actualizare"
+            ],
+            "Passage": [
+                "Parol\u0103"
+            ],
+            "Edit": [
+                "Editeaz\u0103"
+            ],
+            "Re-read": [
+                "Re\u00eencarc\u0103"
+            ],
+            "What the assistant has read": [
+                "Ce a citit asistentul"
+            ],
+            "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
+                "%1$d pagini citite \u00b7 %2$d \u00een a\u0219teptare \u00b7 %3$d cu erori \u00b7 %4$d pasaje \u00b7 %5$d \u00een\u021belese ca sens"
+            ],
+            "Embedding model: %s": [
+                "Model de \u00eencorporare: %s"
+            ],
+            "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
+                "Niciun model de \u00eencorporare: c\u0103utarea se face doar dup\u0103 cuvinte. Conecta\u021bi Google Gemini, OpenAI, Mistral sau OpenRouter pentru a c\u0103uta dup\u0103 \u00een\u021beles."
+            ],
+            "Building meanings is paused:": [
+                "Generarea de semnifica\u021bii este \u00eentrerupt\u0103:"
+            ],
+            "Re-read the whole site": [
+                "Recite\u0219te \u00eentregul site"
+            ],
+            "Rebuild all meanings": [
+                "Reconstruie\u0219te toate semnifica\u021biile"
+            ],
+            "Filter by title or address": [
+                "Filtreaz\u0103 dup\u0103 titlu sau adres\u0103"
+            ],
+            "Read": [
+                "Cite\u0219te"
+            ],
+            "Waiting": [
+                "\u00cen a\u0219teptare"
+            ],
+            "Errors": [
+                "Erori"
+            ],
+            "Passages": [
+                "Pasaje"
+            ],
+            "by meaning": [
+                "dup\u0103 semnifica\u021bie"
+            ],
+            "Rebuild meaning": [
+                "Reconstruire semnifica\u021bia"
+            ],
+            "Done \u2713": [
+                "Gata \u2713"
+            ],
+            "Failed": [
+                "E\u0219uat"
+            ]
+        }
+    }
+}

@@ -1,0 +1,375 @@
+{
+    "translation-revision-date": "2026-09-29T17:24:54+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/console.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "zh_CN",
+                "plural-forms": "nplurals=1; plural=0;"
+            },
+            "Inbox": [
+                "\u6536\u4ef6\u7bb1"
+            ],
+            "Tickets": [
+                "\u5de5\u5355"
+            ],
+            "Assistant": [
+                "\u52a9\u7406"
+            ],
+            "Fix it": [
+                "\u4fee\u590d\u5b83"
+            ],
+            "AI providers": [
+                "AI \u63d0\u4f9b\u5546"
+            ],
+            "Test the assistant": [
+                "\u6d4b\u8bd5\u52a9\u624b"
+            ],
+            "Status": [
+                "\u72b6\u6001"
+            ],
+            "Open": [
+                "\u6253\u5f00"
+            ],
+            "Subject": [
+                "\u4e3b\u9898"
+            ],
+            "Updated": [
+                "\u5df2\u66f4\u65b0"
+            ],
+            "Send reply": [
+                "\u53d1\u9001\u56de\u590d"
+            ],
+            "Page": [
+                "\u9875\u9762"
+            ],
+            "Opened": [
+                "\u5df2\u5f00\u542f"
+            ],
+            "Visitor": [
+                "\u8bbf\u5ba2"
+            ],
+            "Waiting for customer": [
+                "\u7b49\u5f85\u5ba2\u6237"
+            ],
+            "Solved": [
+                "\u5df2\u89e3\u51b3"
+            ],
+            "Closed": [
+                "\u5df2\u5173\u95ed"
+            ],
+            "Send": [
+                "\u53d1\u9001"
+            ],
+            "Cancel": [
+                "\u53d6\u6d88"
+            ],
+            "End chat": [
+                "\u7ed3\u675f\u804a\u5929"
+            ],
+            "Something went wrong. Please try again.": [
+                "\u51fa\u9519\u4e86\uff0c\u8bf7\u91cd\u8bd5\u3002"
+            ],
+            "Details": [
+                "\u8be6\u7ec6\u4fe1\u606f"
+            ],
+            "Message": [
+                "\u6d88\u606f"
+            ],
+            "Type": [
+                "\u7c7b\u578b"
+            ],
+            "%ds": [
+                "%d\u79d2"
+            ],
+            "%dm": [
+                "%d \u5206\u949f"
+            ],
+            "%dh": [
+                "%d\u5c0f\u65f6"
+            ],
+            "Agent": [
+                "\u4ee3\u7406"
+            ],
+            "Internal note": [
+                "\u5185\u90e8\u5907\u6ce8"
+            ],
+            "With the assistant": [
+                "\u901a\u8fc7\u52a9\u624b"
+            ],
+            "Waiting for a person": [
+                "\u7b49\u5f85\u4eba\u5de5\u5904\u7406"
+            ],
+            "With an agent": [
+                "\u6709\u4ee3\u7406\u5546"
+            ],
+            "Left a message": [
+                "\u5df2\u7559\u8a00"
+            ],
+            "Away": [
+                "\u79bb\u5f00"
+            ],
+            "Focus mode": [
+                "\u4e13\u6ce8\u6a21\u5f0f"
+            ],
+            "Desktop alerts": [
+                "\u684c\u9762\u63d0\u9192"
+            ],
+            "Needs a person": [
+                "\u9700\u8981\u8054\u7cfb\u4eba\u5de5"
+            ],
+            "Choose a chat on the left. You can open several; each keeps its own draft.": [
+                "\u8bf7\u5728\u5de6\u4fa7\u9009\u62e9\u4e00\u4e2a\u804a\u5929\u3002\u60a8\u53ef\u4ee5\u540c\u65f6\u6253\u5f00\u591a\u4e2a\u804a\u5929\uff0c\u6bcf\u4e2a\u804a\u5929\u90fd\u4f1a\u4fdd\u7559\u5404\u81ea\u7684\u8349\u7a3f\u3002"
+            ],
+            "A visitor is waiting": [
+                "\u8bbf\u5ba2\u6b63\u5728\u7b49\u5f85"
+            ],
+            "Chat #%d": [
+                "\u804a\u5929 #%d"
+            ],
+            "Nothing here right now.": [
+                "\u8fd9\u91cc\u6682\u65f6\u6ca1\u6709\u5185\u5bb9\u3002"
+            ],
+            "Visitor #%d": [
+                "\u8bbf\u5ba2 #%d"
+            ],
+            "typing\u2026": [
+                "\u6b63\u5728\u8f93\u5165\u2026"
+            ],
+            "waiting %s": [
+                "\u7b49\u5f85 %s"
+            ],
+            "%d online": [
+                "%d \u5728\u7ebf"
+            ],
+            "Close tab": [
+                "\u5173\u95ed\u6807\u7b7e\u9875"
+            ],
+            "Back to the list": [
+                "\u8fd4\u56de\u5217\u8868"
+            ],
+            "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
+                "\u8f93\u5165\u56de\u590d\u2026\uff08\u6309\u56de\u8f66\u952e\u53d1\u9001\uff0c\u6309 Shift+\u56de\u8f66\u952e\u6362\u884c\uff09"
+            ],
+            "Ticket #%d": [
+                "\u5de5\u5355 #%d"
+            ],
+            "Take this chat": [
+                "\u8f6c\u79fb\u6b64\u804a\u5929"
+            ],
+            "Back to the assistant": [
+                "\u8fd4\u56de\u52a9\u624b"
+            ],
+            "Make a ticket": [
+                "\u63d0\u4ea4\u5de5\u5355"
+            ],
+            "The visitor's email address": [
+                "\u8bbf\u5ba2\u7684\u7535\u5b50\u90ae\u4ef6\u5730\u5740"
+            ],
+            "The visitor is typing\u2026": [
+                "\u8bbf\u5ba2\u6b63\u5728\u8f93\u5165\u2026\u2026"
+            ],
+            "New ticket": [
+                "\u65b0\u5efa\u5de5\u5355"
+            ],
+            "Search subject, email or number": [
+                "\u641c\u7d22\u4e3b\u9898\u3001\u7535\u5b50\u90ae\u4ef6\u6216\u7f16\u53f7"
+            ],
+            "Customer": [
+                "\u5ba2\u6237"
+            ],
+            "Priority": [
+                "\u4f18\u5148\u7ea7"
+            ],
+            "Needs attention": [
+                "\u9700\u8981\u6ce8\u610f"
+            ],
+            "All": [
+                "\u5168\u90e8"
+            ],
+            "No tickets.": [
+                "\u6ca1\u6709\u5de5\u5355\u3002"
+            ],
+            "Page %1$d of %2$d": [
+                "\u7b2c %1$d \u9875\uff0c\u5171 %2$d \u9875"
+            ],
+            "Customer name": [
+                "\u5ba2\u6237\u540d\u79f0"
+            ],
+            "Customer email": [
+                "\u5ba2\u6237\u7535\u5b50\u90ae\u4ef6"
+            ],
+            "Create ticket": [
+                "\u521b\u5efa\u5de5\u5355"
+            ],
+            "All tickets": [
+                "\u6240\u6709\u5de5\u5355"
+            ],
+            "Write a reply\u2026": [
+                "\u5199\u56de\u590d\u2026"
+            ],
+            "Internal note (the customer does not see it)": [
+                "\u5185\u90e8\u5907\u6ce8\uff08\u5ba2\u6237\u4e0d\u53ef\u89c1\uff09"
+            ],
+            "then: waiting for customer": [
+                "\u7136\u540e\uff1a\u7b49\u5f85\u5ba2\u6237"
+            ],
+            "then: solved": [
+                "\u7136\u540e\uff1a\u5df2\u89e3\u51b3"
+            ],
+            "then: keep open": [
+                "\u7136\u540e\uff1a\u4fdd\u6301\u5f00\u542f"
+            ],
+            "#%1$d %2$s": [
+                "#%1$d %2$s"
+            ],
+            "by email": [
+                "\u901a\u8fc7\u7535\u5b50\u90ae\u4ef6"
+            ],
+            "internal note": [
+                "\u5185\u90e8\u5907\u6ce8"
+            ],
+            "Channel": [
+                "\u9891\u9053"
+            ],
+            "Low": [
+                "\u4f4e"
+            ],
+            "Normal": [
+                "\u6b63\u5e38"
+            ],
+            "High": [
+                "\u9ad8"
+            ],
+            "Urgent": [
+                "\u7d27\u6025"
+            ],
+            "Nobody": [
+                "\u65e0"
+            ],
+            "Assigned to": [
+                "\u5df2\u5206\u914d\u7ed9"
+            ],
+            "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
+                "\u8ba2\u5355 #%1$s \u00b7 %2$s \u00b7 %3$s"
+            ],
+            "Order": [
+                "\u8ba2\u5355"
+            ],
+            "Delete ticket": [
+                "\u5220\u9664\u5de5\u5355"
+            ],
+            "Delete this ticket and all its messages?": [
+                "\u5220\u9664\u6b64\u5de5\u5355\u53ca\u5176\u6240\u6709\u6d88\u606f\uff1f"
+            ],
+            "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
+                "\u5411\u8bbf\u5ba2\u63d0\u51fa\u4ed6\u4eec\u6240\u95ee\u7684\u95ee\u9898\u3002\u60a8\u5c06\u770b\u5230\u7b54\u6848\u4ee5\u53ca\u5b83\u6240\u627e\u5230\u7684\u6bcf\u4e00\u4e2a\u9875\u9762\u3001\u6bcf\u4e2a\u9875\u9762\u7684\u5339\u914d\u5ea6\u3001\u6700\u540e\u66f4\u65b0\u65f6\u95f4\uff0c\u4ee5\u53ca\u9488\u5bf9\u770b\u4f3c\u8fc7\u65f6\u9875\u9762\u7684\u8b66\u544a\u3002\u4fee\u590d\u4e00\u4e2a\u9875\u9762\uff0c\u70b9\u51fb\u201c\u91cd\u65b0\u8bfb\u53d6\u201d\uff0c\u7136\u540e\u518d\u6b21\u63d0\u95ee\u3002"
+            ],
+            "For example: What is your returns policy?": [
+                "\u4f8b\u5982\uff1a\u9000\u8d27\u653f\u7b56\u662f\u4ec0\u4e48\uff1f"
+            ],
+            "Ask": [
+                "\u8be2\u95ee"
+            ],
+            "Not updated for over a year": [
+                "\u8d85\u8fc7\u4e00\u5e74\u672a\u66f4\u65b0"
+            ],
+            "A newer page covers the same subject: %s": [
+                "\u8f83\u65b0\u7684\u4e00\u9875\u6db5\u76d6\u4e86\u76f8\u540c\u7684\u4e3b\u9898\uff1a%s"
+            ],
+            "Re-read \u2713": [
+                "\u5df2\u91cd\u8bfb \u2713"
+            ],
+            "Asking\u2026": [
+                "\u6b63\u5728\u8be2\u95ee\u2026"
+            ],
+            "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
+                "\u7ed3\u679c\uff1a%1$s \u00b7 \u641c\u7d22\uff1a%2$s \u00b7 \u4ee4\u724c\uff1a%3$d \u4e2a\u8f93\u5165\uff0c%4$d \u4e2a\u8f93\u51fa"
+            ],
+            "by meaning and words": [
+                "\u6309\u542b\u4e49\u548c\u5b57\u9762"
+            ],
+            "by words only (no embedding key)": [
+                "\u4ec5\u6309\u8bcd\u5339\u914d\uff08\u65e0\u5d4c\u5165\u5bc6\u94a5\uff09"
+            ],
+            "nothing indexed": [
+                "\u672a\u7d22\u5f15"
+            ],
+            "The AI is not set up yet or could not answer.": [
+                "AI\u5c1a\u672a\u8bbe\u7f6e\u6216\u65e0\u6cd5\u56de\u7b54\u3002"
+            ],
+            "Sources found (%d)": [
+                "\u627e\u5230\u7684\u6765\u6e90 (%d)"
+            ],
+            "Nothing on the site matched. Add a page that answers this, or check the Site index settings.": [
+                "\u7ad9\u70b9\u4e0a\u6ca1\u6709\u627e\u5230\u5339\u914d\u7684\u5185\u5bb9\u3002\u8bf7\u6dfb\u52a0\u4e00\u4e2a\u56de\u7b54\u6b64\u95ee\u9898\u7684\u9875\u9762\uff0c\u6216\u68c0\u67e5\u7f51\u7ad9\u7d22\u5f15\u8bbe\u7f6e\u3002"
+            ],
+            "Score": [
+                "\u8bc4\u5206"
+            ],
+            "Last updated": [
+                "\u6700\u540e\u66f4\u65b0"
+            ],
+            "Passage": [
+                "\u6bb5\u843d"
+            ],
+            "Edit": [
+                "\u7f16\u8f91"
+            ],
+            "Re-read": [
+                "\u91cd\u65b0\u8bfb\u53d6"
+            ],
+            "What the assistant has read": [
+                "\u52a9\u624b\u5df2\u9605\u8bfb\u7684\u5185\u5bb9"
+            ],
+            "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
+                "%1$d \u9875\u5df2\u8bfb\u53d6 \u00b7 %2$d \u4e2a\u7b49\u5f85\u4e2d \u00b7 %3$d \u4e2a\u51fa\u9519 \u00b7 %4$d \u4e2a\u6bb5\u843d \u00b7 %5$d \u4e2a\u5df2\u6309\u8bed\u4e49\u7406\u89e3"
+            ],
+            "Embedding model: %s": [
+                "\u5d4c\u5165\u6a21\u578b\uff1a%s"
+            ],
+            "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
+                "\u672a\u542f\u7528\u5d4c\u5165\u6a21\u578b\uff1a\u4ec5\u6309\u5173\u952e\u8bcd\u641c\u7d22\u3002\u8fde\u63a5 Google Gemini\u3001OpenAI\u3001Mistral \u6216 OpenRouter \u4ee5\u6309\u8bed\u4e49\u641c\u7d22\u3002"
+            ],
+            "Building meanings is paused:": [
+                "\u6784\u5efa\u542b\u4e49\u5df2\u6682\u505c\uff1a"
+            ],
+            "Re-read the whole site": [
+                "\u91cd\u65b0\u8bfb\u53d6\u6574\u4e2a\u7ad9\u70b9"
+            ],
+            "Rebuild all meanings": [
+                "\u91cd\u5efa\u6240\u6709\u542b\u4e49"
+            ],
+            "Filter by title or address": [
+                "\u6309\u6807\u9898\u6216\u5730\u5740\u7b5b\u9009"
+            ],
+            "Read": [
+                "\u8bfb\u53d6"
+            ],
+            "Waiting": [
+                "\u7b49\u5f85\u4e2d"
+            ],
+            "Errors": [
+                "\u9519\u8bef"
+            ],
+            "Passages": [
+                "\u6bb5\u843d"
+            ],
+            "by meaning": [
+                "\u6309\u542b\u4e49"
+            ],
+            "Rebuild meaning": [
+                "\u91cd\u5efa\u542b\u4e49"
+            ],
+            "Done \u2713": [
+                "\u5df2\u5b8c\u6210 \u2713"
+            ],
+            "Failed": [
+                "\u5931\u8d25"
+            ]
+        }
+    }
+}

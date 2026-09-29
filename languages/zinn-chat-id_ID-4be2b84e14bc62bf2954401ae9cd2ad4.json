@@ -1,0 +1,375 @@
+{
+    "translation-revision-date": "2026-09-29T17:24:54+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/console.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "id_ID",
+                "plural-forms": "nplurals=1; plural=0;"
+            },
+            "Inbox": [
+                "Kotak Masuk"
+            ],
+            "Tickets": [
+                "Tiket"
+            ],
+            "Assistant": [
+                "Asisten"
+            ],
+            "Fix it": [
+                "Perbaiki"
+            ],
+            "AI providers": [
+                "Penyedia AI"
+            ],
+            "Test the assistant": [
+                "Uji asisten"
+            ],
+            "Status": [
+                "Status"
+            ],
+            "Open": [
+                "Buka"
+            ],
+            "Subject": [
+                "Subjek"
+            ],
+            "Updated": [
+                "Diperbarui"
+            ],
+            "Send reply": [
+                "Kirim balasan"
+            ],
+            "Page": [
+                "Halaman"
+            ],
+            "Opened": [
+                "Dibuka"
+            ],
+            "Visitor": [
+                "Pengunjung"
+            ],
+            "Waiting for customer": [
+                "Menunggu pelanggan"
+            ],
+            "Solved": [
+                "Teralihkan"
+            ],
+            "Closed": [
+                "Ditutup"
+            ],
+            "Send": [
+                "Kirim"
+            ],
+            "Cancel": [
+                "Batal"
+            ],
+            "End chat": [
+                "Akhiri obrolan"
+            ],
+            "Something went wrong. Please try again.": [
+                "Terjadi kesalahan. Silakan coba lagi."
+            ],
+            "Details": [
+                "Detail"
+            ],
+            "Message": [
+                "Pesan"
+            ],
+            "Type": [
+                "Tipe"
+            ],
+            "%ds": [
+                "%ds"
+            ],
+            "%dm": [
+                "%dm"
+            ],
+            "%dh": [
+                "%dh"
+            ],
+            "Agent": [
+                "Agen"
+            ],
+            "Internal note": [
+                "Catatan internal"
+            ],
+            "With the assistant": [
+                "Dengan asisten"
+            ],
+            "Waiting for a person": [
+                "Menunggu manusia"
+            ],
+            "With an agent": [
+                "Dengan agen"
+            ],
+            "Left a message": [
+                "Meninggalkan pesan"
+            ],
+            "Away": [
+                "Tidak Aktif"
+            ],
+            "Focus mode": [
+                "Mode fokus"
+            ],
+            "Desktop alerts": [
+                "Peringatan desktop"
+            ],
+            "Needs a person": [
+                "Membutuhkan seseorang"
+            ],
+            "Choose a chat on the left. You can open several; each keeps its own draft.": [
+                "Pilih obrolan di sebelah kiri. Anda dapat membuka beberapa; masing-masing menyimpan drafnya sendiri."
+            ],
+            "A visitor is waiting": [
+                "Pengunjung sedang menunggu"
+            ],
+            "Chat #%d": [
+                "Obrolan #%d"
+            ],
+            "Nothing here right now.": [
+                "Tidak ada apa-apa di sini saat ini."
+            ],
+            "Visitor #%d": [
+                "Pengunjung #%d"
+            ],
+            "typing\u2026": [
+                "sedang mengetik\u2026"
+            ],
+            "waiting %s": [
+                "menunggu %s"
+            ],
+            "%d online": [
+                "%d online"
+            ],
+            "Close tab": [
+                "Tutup tab"
+            ],
+            "Back to the list": [
+                "Kembali ke daftar"
+            ],
+            "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
+                "Ketik balasan\u2026 (Enter untuk mengirim, Shift+Enter untuk baris baru)"
+            ],
+            "Ticket #%d": [
+                "Tiket #%d"
+            ],
+            "Take this chat": [
+                "Ambil obrolan ini"
+            ],
+            "Back to the assistant": [
+                "Kembali ke asisten"
+            ],
+            "Make a ticket": [
+                "Buat tiket"
+            ],
+            "The visitor's email address": [
+                "Alamat email pengunjung"
+            ],
+            "The visitor is typing\u2026": [
+                "Pengunjung sedang mengetik\u2026"
+            ],
+            "New ticket": [
+                "Tiket baru"
+            ],
+            "Search subject, email or number": [
+                "Cari subjek, email, atau nomor"
+            ],
+            "Customer": [
+                "Pelanggan"
+            ],
+            "Priority": [
+                "Prioritas"
+            ],
+            "Needs attention": [
+                "Perlu perhatian"
+            ],
+            "All": [
+                "Semua"
+            ],
+            "No tickets.": [
+                "Tidak ada tiket."
+            ],
+            "Page %1$d of %2$d": [
+                "Halaman %1$d dari %2$d"
+            ],
+            "Customer name": [
+                "Nama pelanggan"
+            ],
+            "Customer email": [
+                "Email pelanggan"
+            ],
+            "Create ticket": [
+                "Buat tiket"
+            ],
+            "All tickets": [
+                "Semua tiket"
+            ],
+            "Write a reply\u2026": [
+                "Tulis balasan\u2026"
+            ],
+            "Internal note (the customer does not see it)": [
+                "Catatan internal (pelanggan tidak dapat melihatnya)"
+            ],
+            "then: waiting for customer": [
+                "lalu: menunggu pelanggan"
+            ],
+            "then: solved": [
+                "kemudian: teratasi"
+            ],
+            "then: keep open": [
+                "lalu: biarkan tetap terbuka"
+            ],
+            "#%1$d %2$s": [
+                "#%1$d %2$s"
+            ],
+            "by email": [
+                "melalui email"
+            ],
+            "internal note": [
+                "catatan internal"
+            ],
+            "Channel": [
+                "Saluran"
+            ],
+            "Low": [
+                "Rendah"
+            ],
+            "Normal": [
+                "Normal"
+            ],
+            "High": [
+                "Tinggi"
+            ],
+            "Urgent": [
+                "Penting"
+            ],
+            "Nobody": [
+                "Tidak ada"
+            ],
+            "Assigned to": [
+                "Ditugaskan ke"
+            ],
+            "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
+                "Pesanan #%1$s \u00b7 %2$s \u00b7 %3$s"
+            ],
+            "Order": [
+                "Pesan"
+            ],
+            "Delete ticket": [
+                "Hapus tiket"
+            ],
+            "Delete this ticket and all its messages?": [
+                "Hapus tiket ini dan semua pesannya?"
+            ],
+            "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
+                "Tanyakan apa yang ditanyakan pengunjung Anda. Anda akan melihat jawabannya dan setiap halaman yang ditemukan, lengkap dengan tingkat kecocokan setiap halaman, waktu pembaruan terakhir, serta peringatan untuk halaman yang tampak sudah kedaluwarsa. Perbaiki halaman, tekan Baca Ulang, lalu tanyakan lagi."
+            ],
+            "For example: What is your returns policy?": [
+                "Misalnya: Apa kebijakan pengembalian produk Anda?"
+            ],
+            "Ask": [
+                "Tanya"
+            ],
+            "Not updated for over a year": [
+                "Tidak diperbarui selama lebih dari setahun"
+            ],
+            "A newer page covers the same subject: %s": [
+                "Halaman yang lebih baru mencakup subjek yang sama: %s"
+            ],
+            "Re-read \u2713": [
+                "Baca ulang \u2713"
+            ],
+            "Asking\u2026": [
+                "Menanyakan\u2026"
+            ],
+            "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
+                "Hasil: %1$s \u00b7 Pencarian: %2$s \u00b7 Token: %3$d masuk, %4$d keluar"
+            ],
+            "by meaning and words": [
+                "berdasarkan arti dan kata"
+            ],
+            "by words only (no embedding key)": [
+                "hanya dengan kata (tanpa kunci penyematan)"
+            ],
+            "nothing indexed": [
+                "belum diindeks"
+            ],
+            "The AI is not set up yet or could not answer.": [
+                "AI belum diatur atau tidak dapat menjawab."
+            ],
+            "Sources found (%d)": [
+                "Sumber ditemukan (%d)"
+            ],
+            "Nothing on the site matched. Add a page that answers this, or check the Site index settings.": [
+                "Tidak ada yang cocok di situs. Tambahkan halaman yang menjawab ini, atau periksa pengaturan Indeks situs."
+            ],
+            "Score": [
+                "Skor"
+            ],
+            "Last updated": [
+                "Terakhir diperbarui"
+            ],
+            "Passage": [
+                "Sandi"
+            ],
+            "Edit": [
+                "Ubah"
+            ],
+            "Re-read": [
+                "Baca ulang"
+            ],
+            "What the assistant has read": [
+                "Yang telah dibaca oleh asisten"
+            ],
+            "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
+                "%1$d halaman dibaca \u00b7 %2$d menunggu \u00b7 %3$d dengan kesalahan \u00b7 %4$d bagian \u00b7 %5$d dipahami berdasarkan arti"
+            ],
+            "Embedding model: %s": [
+                "Model penyematan: %s"
+            ],
+            "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
+                "Tidak ada model penyematan: pencarian hanya berdasarkan kata. Hubungkan Google Gemini, OpenAI, Mistral, atau OpenRouter untuk mencari berdasarkan makna."
+            ],
+            "Building meanings is paused:": [
+                "Pembuatan makna dijeda:"
+            ],
+            "Re-read the whole site": [
+                "Baca ulang seluruh situs"
+            ],
+            "Rebuild all meanings": [
+                "Bangun ulang semua arti"
+            ],
+            "Filter by title or address": [
+                "Saring berdasarkan judul atau alamat"
+            ],
+            "Read": [
+                "Baca"
+            ],
+            "Waiting": [
+                "Menunggu"
+            ],
+            "Errors": [
+                "Kesalahan"
+            ],
+            "Passages": [
+                "Kanal"
+            ],
+            "by meaning": [
+                "berdasarkan arti"
+            ],
+            "Rebuild meaning": [
+                "Bangun ulang makna"
+            ],
+            "Done \u2713": [
+                "Selesai \u2713"
+            ],
+            "Failed": [
+                "Gagal"
+            ]
+        }
+    }
+}

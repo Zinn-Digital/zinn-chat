@@ -1,0 +1,375 @@
+{
+    "translation-revision-date": "2026-09-29T17:24:54+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/console.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "cs_CZ",
+                "plural-forms": "nplurals=4; plural=((((n >= 2 && n <= 4)) && ((0 == 0))) ? 1 : ((((0 == 0)) == 0)) ? 2 : (((n == 1)) && ((0 == 0))) ? 0 : 3);"
+            },
+            "Inbox": [
+                "Doru\u010den\u00e1 po\u0161ta"
+            ],
+            "Tickets": [
+                "Po\u017eadavky"
+            ],
+            "Assistant": [
+                "Asistent"
+            ],
+            "Fix it": [
+                "Opravit"
+            ],
+            "AI providers": [
+                "Poskytovatel\u00e9 AI"
+            ],
+            "Test the assistant": [
+                "Vyzkou\u0161et asistenta"
+            ],
+            "Status": [
+                "Stav"
+            ],
+            "Open": [
+                "Otev\u0159\u00edt"
+            ],
+            "Subject": [
+                "P\u0159edm\u011bt"
+            ],
+            "Updated": [
+                "Aktualizov\u00e1no"
+            ],
+            "Send reply": [
+                "Odeslat odpov\u011b\u010f"
+            ],
+            "Page": [
+                "Str\u00e1nka"
+            ],
+            "Opened": [
+                "Otev\u0159eno"
+            ],
+            "Visitor": [
+                "N\u00e1v\u0161t\u011bvn\u00edk"
+            ],
+            "Waiting for customer": [
+                "\u010cek\u00e1 se na z\u00e1kazn\u00edka"
+            ],
+            "Solved": [
+                "Vy\u0159e\u0161eno"
+            ],
+            "Closed": [
+                "Uzav\u0159eno"
+            ],
+            "Send": [
+                "Odeslat"
+            ],
+            "Cancel": [
+                "Zru\u0161it"
+            ],
+            "End chat": [
+                "Ukon\u010dit chat"
+            ],
+            "Something went wrong. Please try again.": [
+                "N\u011bco se pokazilo. Zkuste to pros\u00edm znovu."
+            ],
+            "Details": [
+                "Podrobnosti"
+            ],
+            "Message": [
+                "Zpr\u00e1va"
+            ],
+            "Type": [
+                "Typ"
+            ],
+            "%ds": [
+                "%d s"
+            ],
+            "%dm": [
+                "%dm"
+            ],
+            "%dh": [
+                "%dh"
+            ],
+            "Agent": [
+                "Agent"
+            ],
+            "Internal note": [
+                "Intern\u00ed pozn\u00e1mka"
+            ],
+            "With the assistant": [
+                "S asistentem"
+            ],
+            "Waiting for a person": [
+                "\u010cek\u00e1 se na osobu"
+            ],
+            "With an agent": [
+                "S agentem"
+            ],
+            "Left a message": [
+                "Zanech\u00e1na zpr\u00e1va"
+            ],
+            "Away": [
+                "Pry\u010d"
+            ],
+            "Focus mode": [
+                "Re\u017eim soust\u0159ed\u011bn\u00ed"
+            ],
+            "Desktop alerts": [
+                "Upozorn\u011bn\u00ed na plo\u0161e"
+            ],
+            "Needs a person": [
+                "Vy\u017eaduje osobu"
+            ],
+            "Choose a chat on the left. You can open several; each keeps its own draft.": [
+                "Zvolte chat vlevo. M\u016f\u017eete jich otev\u0159\u00edt n\u011bkolik; ka\u017ed\u00fd si uchov\u00e1v\u00e1 vlastn\u00ed koncept."
+            ],
+            "A visitor is waiting": [
+                "N\u00e1v\u0161t\u011bvn\u00edk \u010dek\u00e1"
+            ],
+            "Chat #%d": [
+                "Chat \u010d. %d"
+            ],
+            "Nothing here right now.": [
+                "Zde nen\u00ed nic k zobrazen\u00ed."
+            ],
+            "Visitor #%d": [
+                "N\u00e1v\u0161t\u011bvn\u00edk \u010d. %d"
+            ],
+            "typing\u2026": [
+                "p\u00ed\u0161e\u2026"
+            ],
+            "waiting %s": [
+                "\u010dek\u00e1 se na %s"
+            ],
+            "%d online": [
+                "%d online"
+            ],
+            "Close tab": [
+                "Zav\u0159\u00edt kartu"
+            ],
+            "Back to the list": [
+                "Zp\u011bt na seznam"
+            ],
+            "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
+                "Napi\u0161te odpov\u011b\u010f\u2026 (Odeslat stisknut\u00edm kl\u00e1vesy Enter, nov\u00fd \u0159\u00e1dek pomoc\u00ed Shift+Enter)"
+            ],
+            "Ticket #%d": [
+                "Po\u017eadavek \u010d. %d"
+            ],
+            "Take this chat": [
+                "P\u0159evz\u00edt tento chat"
+            ],
+            "Back to the assistant": [
+                "Zp\u011bt k asistenty"
+            ],
+            "Make a ticket": [
+                "Vytvo\u0159it tiket"
+            ],
+            "The visitor's email address": [
+                "E-mailov\u00e1 adresa n\u00e1v\u0161t\u011bvn\u00edka"
+            ],
+            "The visitor is typing\u2026": [
+                "N\u00e1v\u0161t\u011bvn\u00edk p\u00ed\u0161e..."
+            ],
+            "New ticket": [
+                "Nov\u00fd tiket"
+            ],
+            "Search subject, email or number": [
+                "Hledat p\u0159edm\u011bt, e-mail nebo \u010d\u00edslo"
+            ],
+            "Customer": [
+                "Z\u00e1kazn\u00edk"
+            ],
+            "Priority": [
+                "Priorita"
+            ],
+            "Needs attention": [
+                "Vy\u017eaduje pozornost"
+            ],
+            "All": [
+                "V\u0161e"
+            ],
+            "No tickets.": [
+                "\u017d\u00e1dn\u00e9 tikety."
+            ],
+            "Page %1$d of %2$d": [
+                "Strana %1$d z %2$d"
+            ],
+            "Customer name": [
+                "Jm\u00e9no z\u00e1kazn\u00edka"
+            ],
+            "Customer email": [
+                "Z\u00e1kaznick\u00fd e-mail"
+            ],
+            "Create ticket": [
+                "Vytvo\u0159it tiket"
+            ],
+            "All tickets": [
+                "V\u0161echny tikety"
+            ],
+            "Write a reply\u2026": [
+                "Napsat odpov\u011b\u010f\u2026"
+            ],
+            "Internal note (the customer does not see it)": [
+                "Intern\u00ed pozn\u00e1mka (z\u00e1kazn\u00edk ji nevid\u00ed)"
+            ],
+            "then: waiting for customer": [
+                "pot\u00e9: \u010dek\u00e1 se na z\u00e1kazn\u00edka"
+            ],
+            "then: solved": [
+                "pot\u00e9: vy\u0159e\u0161eno"
+            ],
+            "then: keep open": [
+                "pot\u00e9: nechat otev\u0159en\u00e9"
+            ],
+            "#%1$d %2$s": [
+                "#%1$d %2$s"
+            ],
+            "by email": [
+                "e-mailem"
+            ],
+            "internal note": [
+                "intern\u00ed pozn\u00e1mka"
+            ],
+            "Channel": [
+                "Kan\u00e1l"
+            ],
+            "Low": [
+                "N\u00edzk\u00e1"
+            ],
+            "Normal": [
+                "Norm\u00e1ln\u00ed"
+            ],
+            "High": [
+                "Vysok\u00e1"
+            ],
+            "Urgent": [
+                "Urgentn\u00ed"
+            ],
+            "Nobody": [
+                "Nikdo"
+            ],
+            "Assigned to": [
+                "P\u0159i\u0159azeno"
+            ],
+            "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
+                "Objedn\u00e1vka \u010d. %1$s \u00b7 %2$s \u00b7 %3$s"
+            ],
+            "Order": [
+                "Objednat"
+            ],
+            "Delete ticket": [
+                "Odstranit tiket"
+            ],
+            "Delete this ticket and all its messages?": [
+                "Smazat tento tiket a v\u0161echny jeho zpr\u00e1vy?"
+            ],
+            "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
+                "Zeptejte se na to, na co se ptaj\u00ed va\u0161i n\u00e1v\u0161t\u011bvn\u00edci. Zobraz\u00ed se v\u00e1m odpov\u011b\u010f a ka\u017ed\u00e1 nalezen\u00e1 str\u00e1nka spolu s m\u00edrou shody, datem posledn\u00ed aktualizace a upozorn\u011bn\u00edmi na str\u00e1nky, kter\u00e9 vypadaj\u00ed zastarale. Upravte str\u00e1nku, stiskn\u011bte Znovu na\u010d\u00edst a zeptejte se znovu."
+            ],
+            "For example: What is your returns policy?": [
+                "Nap\u0159\u00edklad: Jak\u00e9 jsou va\u0161e z\u00e1sady vr\u00e1cen\u00ed zbo\u017e\u00ed?"
+            ],
+            "Ask": [
+                "Zeptejte se"
+            ],
+            "Not updated for over a year": [
+                "Nen\u00ed aktualizov\u00e1no d\u00e9le ne\u017e rok"
+            ],
+            "A newer page covers the same subject: %s": [
+                "Nov\u011bj\u0161\u00ed str\u00e1nka pokr\u00fdv\u00e1 stejn\u00e9 t\u00e9ma: %s"
+            ],
+            "Re-read \u2713": [
+                "P\u0159e\u010dteno \u2713"
+            ],
+            "Asking\u2026": [
+                "Prob\u00edh\u00e1 dotazov\u00e1n\u00ed\u2026"
+            ],
+            "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
+                "V\u00fdsledek: %1$s \u00b7 Hled\u00e1n\u00ed: %2$s \u00b7 Tokeny: %3$d vstupn\u00ed, %4$d v\u00fdstupn\u00ed"
+            ],
+            "by meaning and words": [
+                "podle v\u00fdznamu a slov"
+            ],
+            "by words only (no embedding key)": [
+                "pouze slova (bez vkl\u00e1dan\u00e9ho kl\u00ed\u010de)"
+            ],
+            "nothing indexed": [
+                "nic nen\u00ed indexov\u00e1no"
+            ],
+            "The AI is not set up yet or could not answer.": [
+                "Um\u011bl\u00e1 inteligence je\u0161t\u011b nen\u00ed nastaven\u00e1 nebo nedok\u00e1zala odpov\u011bd\u011bt."
+            ],
+            "Sources found (%d)": [
+                "Nalezen\u00e9 zdroje (%d)"
+            ],
+            "Nothing on the site matched. Add a page that answers this, or check the Site index settings.": [
+                "Na webu nic neodpov\u00eddalo. P\u0159idejte str\u00e1nku, kter\u00e1 na to odpov\u00edd\u00e1, nebo zkontrolujte nastaven\u00ed indexu webu."
+            ],
+            "Score": [
+                "Sk\u00f3re"
+            ],
+            "Last updated": [
+                "Naposledy aktualizov\u00e1no"
+            ],
+            "Passage": [
+                "Heslo"
+            ],
+            "Edit": [
+                "Upravit"
+            ],
+            "Re-read": [
+                "P\u0159e\u010d\u00edst znovu"
+            ],
+            "What the assistant has read": [
+                "Co asistent p\u0159e\u010detl"
+            ],
+            "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
+                "%1$d p\u0159e\u010dten\u00fdch str\u00e1nek \u00b7 %2$d \u010dekaj\u00edc\u00edch \u00b7 %3$d s chybami \u00b7 %4$d pas\u00e1\u017e\u00ed \u00b7 %5$d s\u00e9manticky pochopen\u00fdch"
+            ],
+            "Embedding model: %s": [
+                "Vkl\u00e1dac\u00ed model: %s"
+            ],
+            "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
+                "\u017d\u00e1dn\u00fd model pro vkl\u00e1d\u00e1n\u00ed: vyhled\u00e1v\u00e1n\u00ed prob\u00edh\u00e1 pouze podle slov. P\u0159ipojte Google Gemini, OpenAI, Mistral nebo OpenRouter pro vyhled\u00e1v\u00e1n\u00ed podle v\u00fdznamu."
+            ],
+            "Building meanings is paused:": [
+                "Generov\u00e1n\u00ed v\u00fdznam\u016f je pozastaveno:"
+            ],
+            "Re-read the whole site": [
+                "Znovu na\u010d\u00edst cel\u00fd web"
+            ],
+            "Rebuild all meanings": [
+                "P\u0159estav\u011bt v\u0161echny v\u00fdznamy"
+            ],
+            "Filter by title or address": [
+                "Filtrovat podle n\u00e1zvu nebo adresy"
+            ],
+            "Read": [
+                "P\u0159e\u010d\u00edst"
+            ],
+            "Waiting": [
+                "\u010cek\u00e1 se"
+            ],
+            "Errors": [
+                "Chyby"
+            ],
+            "Passages": [
+                "P\u0159\u00edstupov\u00e9 fr\u00e1ze"
+            ],
+            "by meaning": [
+                "podle v\u00fdznamu"
+            ],
+            "Rebuild meaning": [
+                "Obnovit v\u00fdznam"
+            ],
+            "Done \u2713": [
+                "Hotovo \u2713"
+            ],
+            "Failed": [
+                "Nepoda\u0159ilo se"
+            ]
+        }
+    }
+}

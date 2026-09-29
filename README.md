@@ -1,6 +1,6 @@
 # Zinn® Chat
 
-Live chat that answers visitors straight away, hands them to you when it matters, and weighs under 10 KB on the page.
+A help desk and AI assistant that runs on your own site: answers from your own pages with links, live chat, and support tickets.
 
 Built and maintained by **Neil Lock — CEO, Zinn Digital® Ltd** — https://zinndigital.com
 
@@ -13,7 +13,7 @@ Both are the same file. The download page is the canonical one: it is served fro
 
 ## Zinn® Chat Pro
 
-Zinn® Chat Pro — the same live chat with the free edition's limits removed: as many colleagues answering as you like, transcripts kept for ever, your own branding, saved replies, transfers, business hours, 5,000 AI answers a month, and a settings screen for exactly which pages the chat appears on. One licence covers three sites. Included free with Zinn® hosting.
+Zinn® Chat Pro: the help desk for a whole team. Unlimited agents with a Support agent role, replies to tickets by email, a knowledge base, saved replies, business hours and SLAs, AI suggested replies and a knowledge-gap report, push notifications and an installable agent app. Personal (1 site), Business (5 sites) and Agency (unlimited) plans, monthly or yearly, with a 14-day free trial.
 
 - **[See what Zinn® Chat Pro adds, and what it costs](https://zinndigital.com/wordpress-plugins/zinn-chat-pro)**
 
@@ -23,10 +23,10 @@ Everything in Zinn® Chat keeps working without it.
 
 | | |
 |---|---|
-| Version | `1.6.0` |
-| Requires WordPress | 6.6 or later |
+| Version | `2.2.0` |
+| Requires WordPress | 6.9 or later |
 | Tested up to | WordPress **7.1** |
-| Requires PHP | 8.2 or later |
+| Requires PHP | 7.4 or later |
 | Licence | GPL-2.0-or-later |
 
 Every release is installed and activated against the current stable WordPress before it is published, on a real install with WooCommerce alongside — the *Tested up to* figure above is that test, not an estimate.

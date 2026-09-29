@@ -1,0 +1,375 @@
+{
+    "translation-revision-date": "2026-09-29T17:24:54+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/console.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "sq",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Inbox": [
+                "Kutia e mesazheve"
+            ],
+            "Tickets": [
+                "Kapacitete mb\u00ebshtetjeje"
+            ],
+            "Assistant": [
+                "Asistenti"
+            ],
+            "Fix it": [
+                "Rregulloje"
+            ],
+            "AI providers": [
+                "Furnizuesit e AI"
+            ],
+            "Test the assistant": [
+                "Testo asistentin"
+            ],
+            "Status": [
+                "Gjendja"
+            ],
+            "Open": [
+                "Hape"
+            ],
+            "Subject": [
+                "Subjekti"
+            ],
+            "Updated": [
+                "P\u00ebrdit\u00ebsuar"
+            ],
+            "Send reply": [
+                "D\u00ebrgo p\u00ebrgjigjen"
+            ],
+            "Page": [
+                "Faqja"
+            ],
+            "Opened": [
+                "I hapur"
+            ],
+            "Visitor": [
+                "Vizitor"
+            ],
+            "Waiting for customer": [
+                "Duke pritur klientin"
+            ],
+            "Solved": [
+                "Zgjidhur"
+            ],
+            "Closed": [
+                "Mbyllur"
+            ],
+            "Send": [
+                "D\u00ebrgo"
+            ],
+            "Cancel": [
+                "Anulo"
+            ],
+            "End chat": [
+                "P\u00ebrfundo bised\u00ebn"
+            ],
+            "Something went wrong. Please try again.": [
+                "Di\u00e7ka shkoi keq. Ju lutemi provoni p\u00ebrs\u00ebri."
+            ],
+            "Details": [
+                "Detajet"
+            ],
+            "Message": [
+                "Mesazh"
+            ],
+            "Type": [
+                "Lloji"
+            ],
+            "%ds": [
+                "%ds"
+            ],
+            "%dm": [
+                "%dm"
+            ],
+            "%dh": [
+                "%dh"
+            ],
+            "Agent": [
+                "Agjent"
+            ],
+            "Internal note": [
+                "Sh\u00ebnim i brendsh\u00ebm"
+            ],
+            "With the assistant": [
+                "Me asistentin"
+            ],
+            "Waiting for a person": [
+                "Duke pritur p\u00ebr nj\u00eb person"
+            ],
+            "With an agent": [
+                "Me nj\u00eb agjent"
+            ],
+            "Left a message": [
+                "La nj\u00eb mesazh"
+            ],
+            "Away": [
+                "Larguar"
+            ],
+            "Focus mode": [
+                "Modaliteti i fokusit"
+            ],
+            "Desktop alerts": [
+                "Sinjalizimet e desktopit"
+            ],
+            "Needs a person": [
+                "Nevojitet nj\u00eb person"
+            ],
+            "Choose a chat on the left. You can open several; each keeps its own draft.": [
+                "Zgjidhni nj\u00eb bised\u00eb n\u00eb t\u00eb majt\u00eb. Mund t\u00eb hapni disa; secila ruan skic\u00ebn e vet."
+            ],
+            "A visitor is waiting": [
+                "Nj\u00eb vizitor po pret"
+            ],
+            "Chat #%d": [
+                "Biseda #%d"
+            ],
+            "Nothing here right now.": [
+                "Asgj\u00eb k\u00ebtu p\u00ebr momentin."
+            ],
+            "Visitor #%d": [
+                "Vizitori #%d"
+            ],
+            "typing\u2026": [
+                "po shkruan\u2026"
+            ],
+            "waiting %s": [
+                "duke pritur %s"
+            ],
+            "%d online": [
+                "%d n\u00eb linj\u00eb"
+            ],
+            "Close tab": [
+                "Mbyll sked\u00ebn"
+            ],
+            "Back to the list": [
+                "Kthehu te lista"
+            ],
+            "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
+                "Shkruani nj\u00eb p\u00ebrgjigje\u2026 (Shtypni Enter p\u00ebr ta d\u00ebrguar, Shift+Enter p\u00ebr nj\u00eb rresht t\u00eb ri)"
+            ],
+            "Ticket #%d": [
+                "Bilet\u00eb #%d"
+            ],
+            "Take this chat": [
+                "Merr k\u00ebt\u00eb bised\u00eb"
+            ],
+            "Back to the assistant": [
+                "Kthehu te asistenti"
+            ],
+            "Make a ticket": [
+                "Hapni nj\u00eb bilet\u00eb"
+            ],
+            "The visitor's email address": [
+                "Adresa e email-it t\u00eb vizitorit"
+            ],
+            "The visitor is typing\u2026": [
+                "Vizitori po shkruan\u2026"
+            ],
+            "New ticket": [
+                "Tiket\u00eb e re"
+            ],
+            "Search subject, email or number": [
+                "K\u00ebrko subjektin, email-in ose numrin"
+            ],
+            "Customer": [
+                "Klienti"
+            ],
+            "Priority": [
+                "Prioriteti"
+            ],
+            "Needs attention": [
+                "K\u00ebrkon v\u00ebmendje"
+            ],
+            "All": [
+                "T\u00eb gjitha"
+            ],
+            "No tickets.": [
+                "Nuk ka bileta."
+            ],
+            "Page %1$d of %2$d": [
+                "Faqja %1$d nga %2$d"
+            ],
+            "Customer name": [
+                "Emri i klientit"
+            ],
+            "Customer email": [
+                "Emaili i klientit"
+            ],
+            "Create ticket": [
+                "Krijo bilet\u00eb"
+            ],
+            "All tickets": [
+                "T\u00eb gjitha k\u00ebrkesat"
+            ],
+            "Write a reply\u2026": [
+                "Shkruani nj\u00eb p\u00ebrgjigje\u2026"
+            ],
+            "Internal note (the customer does not see it)": [
+                "Sh\u00ebnim i brendsh\u00ebm (klienti nuk e shikon at\u00eb)"
+            ],
+            "then: waiting for customer": [
+                "at\u00ebher\u00eb: duke pritur p\u00ebr klientin"
+            ],
+            "then: solved": [
+                "at\u00ebher\u00eb: e zgjidhur"
+            ],
+            "then: keep open": [
+                "at\u00ebher\u00eb: mbaje t\u00eb hapur"
+            ],
+            "#%1$d %2$s": [
+                "#%1$d %2$s"
+            ],
+            "by email": [
+                "me email"
+            ],
+            "internal note": [
+                "sh\u00ebnim i brendsh\u00ebm"
+            ],
+            "Channel": [
+                "Kanal"
+            ],
+            "Low": [
+                "I ul\u00ebt"
+            ],
+            "Normal": [
+                "Normalisht"
+            ],
+            "High": [
+                "E lart\u00eb"
+            ],
+            "Urgent": [
+                "Urgente"
+            ],
+            "Nobody": [
+                "Askush"
+            ],
+            "Assigned to": [
+                "I Caktuar p\u00ebr"
+            ],
+            "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
+                "Porosia #%1$s \u00b7 %2$s \u00b7 %3$s"
+            ],
+            "Order": [
+                "Porosit"
+            ],
+            "Delete ticket": [
+                "Fshi k\u00ebrkes\u00ebn"
+            ],
+            "Delete this ticket and all its messages?": [
+                "T\u00eb fshihet kjo k\u00ebrkes\u00eb dhe t\u00eb gjitha mesazhet e saj?"
+            ],
+            "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
+                "Pyet at\u00eb q\u00eb pyesin vizitor\u00ebt e Jtaj. Ju shihni p\u00ebrgjigjen dhe \u00e7do faqe ku u gjet ajo, me shkall\u00ebn e p\u00ebrputhjes p\u00ebr secil\u00ebn, koh\u00ebn kur u p\u00ebrdit\u00ebsua p\u00ebr her\u00eb t\u00eb fundit dhe paralajm\u00ebrime p\u00ebr faqet q\u00eb duken t\u00eb vjetruara. Rregulloni nj\u00eb faqe, shtypni \"Rishiko\" dhe b\u00ebni pyetjen p\u00ebrs\u00ebri."
+            ],
+            "For example: What is your returns policy?": [
+                "P\u00ebr shembull: Cila \u00ebsht\u00eb politika juaj e kthimit?"
+            ],
+            "Ask": [
+                "Pyet"
+            ],
+            "Not updated for over a year": [
+                "Nuk \u00ebsht\u00eb p\u00ebrdit\u00ebsuar p\u00ebr m\u00eb shum\u00eb se nj\u00eb vit"
+            ],
+            "A newer page covers the same subject: %s": [
+                "Nj\u00eb faqe m\u00eb e re trajton t\u00eb nj\u00ebjt\u00ebn tem\u00eb: %s"
+            ],
+            "Re-read \u2713": [
+                "Ri-lexo \u2713"
+            ],
+            "Asking\u2026": [
+                "Duke pyetur\u2026"
+            ],
+            "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
+                "Rezultati: %1$s \u00b7 K\u00ebrkimi: %2$s \u00b7 Shenjat: %3$d hyr\u00ebse, %4$d dal\u00ebse"
+            ],
+            "by meaning and words": [
+                "sipas kuptimit dhe fjal\u00ebve"
+            ],
+            "by words only (no embedding key)": [
+                "vet\u00ebm sipas fjal\u00ebve (pa \u00e7el\u00ebs ngulitjeje)"
+            ],
+            "nothing indexed": [
+                "asnj\u00eb i indeksuar"
+            ],
+            "The AI is not set up yet or could not answer.": [
+                "AI-ja nuk \u00ebsht\u00eb konfiguruar ende ose nuk mundi t\u00eb p\u00ebrgjigjej."
+            ],
+            "Sources found (%d)": [
+                "Burimet u gjet\u00ebn (%d)"
+            ],
+            "Nothing on the site matched. Add a page that answers this, or check the Site index settings.": [
+                "Asgj\u00eb n\u00eb sajt nuk u p\u00ebrputh. Shtoni nj\u00eb faqe q\u00eb i p\u00ebrgjigjet k\u00ebsaj, ose kontrolloni cil\u00ebsimet e indeksit t\u00eb sajtit."
+            ],
+            "Score": [
+                "Rezultati"
+            ],
+            "Last updated": [
+                "P\u00ebrdit\u00ebsuar s\u00eb fundmi"
+            ],
+            "Passage": [
+                "Fjal\u00ebkalim"
+            ],
+            "Edit": [
+                "Modifiko"
+            ],
+            "Re-read": [
+                "Risi lexo"
+            ],
+            "What the assistant has read": [
+                "\u00c7far\u00eb ka lexuar asistenti"
+            ],
+            "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
+                "%1$d faqe t\u00eb lexuara \u00b7 %2$d n\u00eb pritje \u00b7 %3$d me gabime \u00b7 %4$d pasazhe \u00b7 %5$d t\u00eb kuptuara sipas kuptimit"
+            ],
+            "Embedding model: %s": [
+                "Modeli i ngulitjes: %s"
+            ],
+            "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
+                "Asnj\u00eb model ngulitjeje: k\u00ebrkimi b\u00ebhet vet\u00ebm sipas fjal\u00ebve. Lidhni Google Gemini, OpenAI, Mistral ose OpenRouter p\u00ebr t\u00eb k\u00ebrkuar sipas kuptimit."
+            ],
+            "Building meanings is paused:": [
+                "Nd\u00ebrtimi i kuptimeve \u00ebsht\u00eb pezulluar:"
+            ],
+            "Re-read the whole site": [
+                "Riflexiono t\u00eb gjith\u00eb faqen"
+            ],
+            "Rebuild all meanings": [
+                "Riharto t\u00eb gjitha kuptimet"
+            ],
+            "Filter by title or address": [
+                "Filtro sipas titullit ose adres\u00ebs"
+            ],
+            "Read": [
+                "Lexo"
+            ],
+            "Waiting": [
+                "N\u00eb pritje"
+            ],
+            "Errors": [
+                "Gabimet"
+            ],
+            "Passages": [
+                "Pasazhet"
+            ],
+            "by meaning": [
+                "sipas kuptimit"
+            ],
+            "Rebuild meaning": [
+                "Ringjidh kuptimin"
+            ],
+            "Done \u2713": [
+                "U krye \u2713"
+            ],
+            "Failed": [
+                "D\u00ebshtoi"
+            ]
+        }
+    }
+}

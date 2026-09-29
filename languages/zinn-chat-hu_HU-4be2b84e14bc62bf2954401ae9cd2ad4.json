@@ -1,0 +1,375 @@
+{
+    "translation-revision-date": "2026-09-29T17:24:54+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/console.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "hu_HU",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Inbox": [
+                "Be\u00e9rkez\u0151 levelek"
+            ],
+            "Tickets": [
+                "Hibajegyek"
+            ],
+            "Assistant": [
+                "Asszisztens"
+            ],
+            "Fix it": [
+                "Jav\u00edt\u00e1s"
+            ],
+            "AI providers": [
+                "Mesters\u00e9gesintelligencia-szolg\u00e1ltat\u00f3k"
+            ],
+            "Test the assistant": [
+                "Asszisztens tesztel\u00e9se"
+            ],
+            "Status": [
+                "\u00c1llapot"
+            ],
+            "Open": [
+                "Megnyit\u00e1s"
+            ],
+            "Subject": [
+                "T\u00e1rgy"
+            ],
+            "Updated": [
+                "Friss\u00edtve"
+            ],
+            "Send reply": [
+                "V\u00e1lasz k\u00fcld\u00e9se"
+            ],
+            "Page": [
+                "Oldal"
+            ],
+            "Opened": [
+                "Megnyitva"
+            ],
+            "Visitor": [
+                "L\u00e1togat\u00f3"
+            ],
+            "Waiting for customer": [
+                "V\u00e1rakoz\u00e1s az \u00fcgyf\u00e9lre"
+            ],
+            "Solved": [
+                "Megoldva"
+            ],
+            "Closed": [
+                "Lez\u00e1rva"
+            ],
+            "Send": [
+                "K\u00fcld\u00e9s"
+            ],
+            "Cancel": [
+                "M\u00e9gse"
+            ],
+            "End chat": [
+                "Cseveg\u00e9s befejez\u00e9se"
+            ],
+            "Something went wrong. Please try again.": [
+                "Valami hiba t\u00f6rt\u00e9nt. K\u00e9rj\u00fck, pr\u00f3b\u00e1lja \u00fajra."
+            ],
+            "Details": [
+                "R\u00e9szletek"
+            ],
+            "Message": [
+                "\u00dczenet"
+            ],
+            "Type": [
+                "T\u00edpus"
+            ],
+            "%ds": [
+                "%ds"
+            ],
+            "%dm": [
+                "%dperez"
+            ],
+            "%dh": [
+                "%dh"
+            ],
+            "Agent": [
+                "\u00dcgyn\u00f6k"
+            ],
+            "Internal note": [
+                "Bels\u0151 megjegyz\u00e9s"
+            ],
+            "With the assistant": [
+                "Az asszisztenssel"
+            ],
+            "Waiting for a person": [
+                "Szem\u00e9lyre v\u00e1rakoz\u00e1s"
+            ],
+            "With an agent": [
+                "\u00dcgyn\u00f6kkel"
+            ],
+            "Left a message": [
+                "\u00dczenetet hagyott"
+            ],
+            "Away": [
+                "T\u00e1vol"
+            ],
+            "Focus mode": [
+                "F\u00f3kuszm\u00f3d"
+            ],
+            "Desktop alerts": [
+                "Asztali \u00e9rtes\u00edt\u00e9sek"
+            ],
+            "Needs a person": [
+                "Szem\u00e9ly sz\u00fcks\u00e9ges"
+            ],
+            "Choose a chat on the left. You can open several; each keeps its own draft.": [
+                "V\u00e1lasszon egy cseveg\u00e9st a bal oldalon. Megnyithat t\u00f6bbet is; mindegyik meg\u0151rzi a saj\u00e1t piszkozat\u00e1t."
+            ],
+            "A visitor is waiting": [
+                "L\u00e1togat\u00f3 v\u00e1rakozik"
+            ],
+            "Chat #%d": [
+                "Cseveg\u00e9s #%d"
+            ],
+            "Nothing here right now.": [
+                "Jelenleg nincs itt semmi."
+            ],
+            "Visitor #%d": [
+                "L\u00e1togat\u00f3 #%d"
+            ],
+            "typing\u2026": [
+                "g\u00e9pel\u00e9s\u2026"
+            ],
+            "waiting %s": [
+                "%s v\u00e1rakoz\u00e1sban"
+            ],
+            "%d online": [
+                "%d online"
+            ],
+            "Close tab": [
+                "Lap bez\u00e1r\u00e1sa"
+            ],
+            "Back to the list": [
+                "Vissza a list\u00e1hoz"
+            ],
+            "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
+                "\u00cdrjon v\u00e1laszt\u2026 (K\u00fcld\u00e9s az Enterrel, \u00faj sor a Shift+Enterrel)"
+            ],
+            "Ticket #%d": [
+                "#%d. jegy"
+            ],
+            "Take this chat": [
+                "Chat \u00e1tv\u00e9tele"
+            ],
+            "Back to the assistant": [
+                "Vissza az asszisztenshez"
+            ],
+            "Make a ticket": [
+                "Hibajegy l\u00e9trehoz\u00e1sa"
+            ],
+            "The visitor's email address": [
+                "A l\u00e1togat\u00f3 e-mail c\u00edme"
+            ],
+            "The visitor is typing\u2026": [
+                "A l\u00e1togat\u00f3 g\u00e9pel\u2026"
+            ],
+            "New ticket": [
+                "\u00daj jegy"
+            ],
+            "Search subject, email or number": [
+                "T\u00e1rgy, e-mail vagy sz\u00e1m keres\u00e9se"
+            ],
+            "Customer": [
+                "\u00dcgyf\u00e9l"
+            ],
+            "Priority": [
+                "Priorit\u00e1s"
+            ],
+            "Needs attention": [
+                "Figyelmet ig\u00e9nyel"
+            ],
+            "All": [
+                "\u00d6sszes"
+            ],
+            "No tickets.": [
+                "Nincs jegy."
+            ],
+            "Page %1$d of %2$d": [
+                "%1$d. \/ %2$d. oldal"
+            ],
+            "Customer name": [
+                "\u00dcgyf\u00e9ln\u00e9v"
+            ],
+            "Customer email": [
+                "\u00dcgyf\u00e9l e-mail c\u00edme"
+            ],
+            "Create ticket": [
+                "Jegy l\u00e9trehoz\u00e1sa"
+            ],
+            "All tickets": [
+                "\u00d6sszes jegy"
+            ],
+            "Write a reply\u2026": [
+                "V\u00e1lasz \u00edr\u00e1sa\u2026"
+            ],
+            "Internal note (the customer does not see it)": [
+                "Bels\u0151 megjegyz\u00e9s (az \u00fcgyf\u00e9l nem l\u00e1tja)"
+            ],
+            "then: waiting for customer": [
+                "akkor: v\u00e1rakoz\u00e1s az \u00fcgyf\u00e9lre"
+            ],
+            "then: solved": [
+                "akkor: megoldva"
+            ],
+            "then: keep open": [
+                "majd: hagyja nyitva"
+            ],
+            "#%1$d %2$s": [
+                "#%1$d %2$s"
+            ],
+            "by email": [
+                "e-mailben"
+            ],
+            "internal note": [
+                "bels\u0151 jegyzet"
+            ],
+            "Channel": [
+                "Csatorna"
+            ],
+            "Low": [
+                "Alacsony"
+            ],
+            "Normal": [
+                "Norm\u00e1l"
+            ],
+            "High": [
+                "Magas"
+            ],
+            "Urgent": [
+                "S\u00fcrg\u0151s"
+            ],
+            "Nobody": [
+                "Senki"
+            ],
+            "Assigned to": [
+                "Hozz\u00e1rendelve"
+            ],
+            "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
+                "#%1$s. rendel\u00e9s \u00b7 %2$s \u00b7 %3$s"
+            ],
+            "Order": [
+                "Rendel\u00e9s"
+            ],
+            "Delete ticket": [
+                "Jegy t\u00f6rl\u00e9se"
+            ],
+            "Delete this ticket and all its messages?": [
+                "T\u00f6rli ezt a jegyet \u00e9s az \u00f6sszes \u00fczenet\u00e9t?"
+            ],
+            "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
+                "K\u00e9rdezze meg azt, amit a l\u00e1togat\u00f3i k\u00e9rdeznek. L\u00e1thatja a v\u00e1laszt \u00e9s az \u00f6sszes megtal\u00e1lt oldalt, az egyes tal\u00e1latok relevanci\u00e1j\u00e1t, a legut\u00f3bbi friss\u00edt\u00e9s idej\u00e9t, valamint a elavultnak t\u0171n\u0151 oldalak figyelmeztet\u00e9seit. Jav\u00edtson ki egy oldalt, kattintson az \u00dajraolvas\u00e1s gombra, \u00e9s tegye fel a k\u00e9rd\u00e9st \u00fajra."
+            ],
+            "For example: What is your returns policy?": [
+                "P\u00e9ld\u00e1ul: Mi a visszak\u00fcld\u00e9si szab\u00e1lyzata?"
+            ],
+            "Ask": [
+                "K\u00e9rdez\u00e9s"
+            ],
+            "Not updated for over a year": [
+                "T\u00f6bb mint egy \u00e9ve nem friss\u00edtett\u00e9k"
+            ],
+            "A newer page covers the same subject: %s": [
+                "Egy \u00fajabb oldal foglalkozik ugyanezzel a t\u00e9m\u00e1val: %s"
+            ],
+            "Re-read \u2713": [
+                "\u00dajraolvasva \u2713"
+            ],
+            "Asking\u2026": [
+                "Lek\u00e9rdez\u00e9s\u2026"
+            ],
+            "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
+                "Eredm\u00e9ny: %1$s \u00b7 Keres\u00e9s: %2$s \u00b7 Tokenek: %3$d be, %4$d ki"
+            ],
+            "by meaning and words": [
+                "jelent\u00e9s \u00e9s szavak alapj\u00e1n"
+            ],
+            "by words only (no embedding key)": [
+                "csak szavak alapj\u00e1n (be\u00e1gyaz\u00e1si kulcs n\u00e9lk\u00fcl)"
+            ],
+            "nothing indexed": [
+                "nincs indexelve"
+            ],
+            "The AI is not set up yet or could not answer.": [
+                "A mesters\u00e9ges intelligencia m\u00e9g nincs be\u00e1ll\u00edtva, vagy nem tudott v\u00e1laszolni."
+            ],
+            "Sources found (%d)": [
+                "Tal\u00e1lt forr\u00e1sok (%d)"
+            ],
+            "Nothing on the site matched. Add a page that answers this, or check the Site index settings.": [
+                "Nincs tal\u00e1lat az oldalon. Adjon hozz\u00e1 egy ezt megv\u00e1laszol\u00f3 oldalt, vagy ellen\u0151rizze a Webhelyindex be\u00e1ll\u00edt\u00e1sait."
+            ],
+            "Score": [
+                "Pontsz\u00e1m"
+            ],
+            "Last updated": [
+                "Utolj\u00e1ra friss\u00edtve"
+            ],
+            "Passage": [
+                "Jelsz\u00f3"
+            ],
+            "Edit": [
+                "Szerkeszt\u00e9s"
+            ],
+            "Re-read": [
+                "\u00dajraolvas\u00e1s"
+            ],
+            "What the assistant has read": [
+                "Mit olvasott az asszisztens"
+            ],
+            "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
+                "%1$d oldal elolvasva \u00b7 %2$d v\u00e1rakozik \u00b7 %3$d hib\u00e1s \u00b7 %4$d sz\u00f6vegr\u00e9szlet \u00b7 %5$d jelent\u00e9s alapj\u00e1n meg\u00e9rtve"
+            ],
+            "Embedding model: %s": [
+                "Be\u00e1gyaz\u00e1si modell: %s"
+            ],
+            "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
+                "Nincs be\u00e1gyaz\u00e1si modell: a keres\u00e9s csak szavakra t\u00f6rt\u00e9nik. Csatlakoztassa a Google Gemini, OpenAI, Mistral vagy OpenRouter szolg\u00e1ltat\u00e1st a jelent\u00e9s szerinti keres\u00e9shez."
+            ],
+            "Building meanings is paused:": [
+                "Az jelent\u00e9sek \u00e9p\u00edt\u00e9se sz\u00fcnetel:"
+            ],
+            "Re-read the whole site": [
+                "A teljes webhely \u00fajb\u00f3li beolvas\u00e1sa"
+            ],
+            "Rebuild all meanings": [
+                "Minden jelent\u00e9s \u00fajra\u00e9p\u00edt\u00e9se"
+            ],
+            "Filter by title or address": [
+                "Sz\u0171r\u00e9s c\u00edm vagy c\u00edm alapj\u00e1n"
+            ],
+            "Read": [
+                "Olvas\u00e1s"
+            ],
+            "Waiting": [
+                "V\u00e1rakoz\u00e1s"
+            ],
+            "Errors": [
+                "Hib\u00e1k"
+            ],
+            "Passages": [
+                "Bekezd\u00e9sek"
+            ],
+            "by meaning": [
+                "jelent\u00e9s szerint"
+            ],
+            "Rebuild meaning": [
+                "Jelent\u00e9s \u00fajragener\u00e1l\u00e1sa"
+            ],
+            "Done \u2713": [
+                "K\u00e9sz \u2713"
+            ],
+            "Failed": [
+                "Sikertelen"
+            ]
+        }
+    }
+}
