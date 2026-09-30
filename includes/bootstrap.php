@@ -72,6 +72,17 @@ require_once __DIR__ . '/class-zinn-chat-promo.php';
 \ZinnDigital\ZinnChat\Plugin::init();
 add_action( 'plugins_loaded', array( 'Zinn_Chat_Promo', 'register' ) );
 
+// HOSTDISC (docs/894): the hosting-customer Pro discount card, on this plugin's own screens, only
+// on a site Zinn hosts, and never once Zinn® Chat Pro is in use. Generated (`wp/bin/build-promo.php`)
+// and global, so it is required and named by STRING, like the promo panel.
+require_once __DIR__ . '/class-zinn-chat-pro-discount.php';
+add_action(
+	'plugins_loaded',
+	static function (): void {
+		\Zinn_Chat_Pro_Discount::register( 'zinn-chat', '\\ZinnDigital\\ZinnChat\\Plugin::is_pro' );
+	}
+);
+
 register_activation_hook( ZINN_CHAT_FILE, array( '\ZinnDigital\ZinnChat\Plugin', 'activate' ) );
 register_deactivation_hook( ZINN_CHAT_FILE, array( '\ZinnDigital\ZinnChat\Plugin', 'deactivate' ) );
 

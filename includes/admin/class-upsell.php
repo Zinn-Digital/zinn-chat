@@ -25,11 +25,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 final class Upsell {
 
 	/**
-	 * ⛔ False until the Pro edition is released on Freemius (lane CHAT-PRO flips it in the release
-	 * that ships Pro): a card selling features a customer cannot yet receive is a placeholder claim
-	 * (CLAUDE.md §2.41).
+	 * ⭐ True since 2.7.0, the release that ships Zinn® Chat Pro on Freemius (lane CHAT-PRO). While
+	 * it was false the card stayed hidden: selling features a customer could not yet receive is a
+	 * placeholder claim (CLAUDE.md §2.41).
 	 */
-	public const LIVE = false;
+	public const LIVE = true;
 
 	/** Monthly and annual price per plan, in US dollars (see class comment). */
 	public const PRICES = array(

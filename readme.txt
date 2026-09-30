@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.6.0
+Stable tag: 2.7.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -68,7 +68,17 @@ If Zinn Digital® hosts your site you can instead answer chats from the Zinn® a
 
 = Zinn® Chat Pro =
 
-An optional paid edition adds a Cloudflare Turnstile bot check on new chats and ticket forms, and a choice of exactly which pages show the chat. Everything described above is free and stays free.
+An optional paid edition for a team. Everything described above is free and stays free; Pro adds:
+
+* **Support agents** — invite colleagues who answer chats and tickets and use saved replies, and cannot open anything else in wp-admin. Departments and automatic assignment.
+* **A knowledge base** — articles and categories, a help centre on your site, search inside the chat, seven shortcodes that are also blocks and page builder modules, structured data and sitemaps, and import from BetterDocs, Heroic KB, Echo KB, weDocs and others.
+* **Replies by email** — customers and agents answer a ticket by replying to its email (a mailbox or an email service).
+* **Saved replies, AI suggested replies and summaries**, business hours and SLA targets, AI triage, a persona and hand-off rules.
+* **A knowledge-gap report** that drafts the article your site was missing.
+* **An agent app** for phones and computers, with push notifications sent by your own site.
+* **Slack, Microsoft Teams and Telegram alerts**, signed webhooks, proactive messages, reports and customer ratings, your own branding, a Cloudflare Turnstile bot check, and a choice of exactly which pages show the chat.
+
+Personal (1 site), Business (5 sites) and Agency (unlimited sites), monthly or yearly, each with a free trial that needs no card. The full user guide is at [zinnchat.com](https://zinnchat.com/).
 
 == Installation ==
 
@@ -83,6 +93,10 @@ An optional paid edition adds a Cloudflare Turnstile bot check on new chats and 
 **Recommended models list (only if you tick it).** Settings, AI providers can fetch Zinn Digital®'s list of recommended models once a day from `https://api.zinndigital.com/v1/ai-model-catalogue`. The request carries no key, no site address and no content.
 
 **Cloudflare Turnstile (Zinn® Chat Pro only, and only if you add Turnstile keys).** The chat and ticket forms load Cloudflare's Turnstile script, and each answer is checked with Cloudflare. The free edition never loads it. [Terms](https://www.cloudflare.com/website-terms/), [privacy](https://www.cloudflare.com/privacypolicy/).
+
+**Services Zinn® Chat Pro connects to (Pro only, and each only if you set it up).** Slack, Microsoft Teams or Telegram receive alert texts (subject and customer name, never the message) when you paste a webhook URL or bot token: [Slack terms](https://slack.com/terms-of-service), [Microsoft terms](https://www.microsoft.com/servicesagreement), [Telegram terms](https://telegram.org/tos). Webhook URLs you list receive signed event data. Agents' browsers' push services (Google, Mozilla, Apple) receive an empty push when an agent turns notifications on; no message text is sent. An IMAP mailbox you name is read to add email replies to tickets. Pages and sitemaps you list under Site index are fetched daily.
+
+**Hosting-customer Pro discount (only on sites Zinn Digital® hosts).** Zinn® Chat's screens show administrators a card offering hosting customers a personal discount code for Zinn® Chat Pro. Nothing is sent when the page loads. Only when an administrator presses the card's button does the site send one request to Zinn Digital® at `https://api.zinndigital.com/v1/wp/pro-discount/<site id>`, containing the plugin's slug, the word `issue` and the administrator's WordPress language, signed with the site's own key. The site's address and key come from constants the platform writes into wp-config.php on the sites it hosts; the card reuses only the host and site id of the address, which ends in `/v1/wp/plugin-update/<site id>`, and never sends anything to that address itself. On any other site they do not exist and the card is never shown. The answer is the customer's code and a Freemius checkout link, to which the browser is then sent. The card is not shown once Zinn® Chat Pro is active.
 
 **Zinn Digital® chat service (only in "Connect to Zinn Digital®" mode).** Your pages load `https://zinndigital.com/embed/zinn-chat.js` with your public chat key, and visitors' messages go to `https://api.zinndigital.com/v1/public/chat/…` so you can answer them from the Zinn® app. Once a day the plugin fetches your chat's appearance from the same service. [Terms](https://zinndigital.com/legal/terms), [privacy](https://zinndigital.com/legal/privacy).
 
@@ -127,6 +141,14 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.7.1 =
+* Fix: no PHP notice on the first request after a Pro licence is activated (the Support agent role is created at init).
+
+= 2.7.0 =
+* New: Zinn® Chat Pro, the edition for a team: support agents, a knowledge base, replies by email, saved and AI-suggested replies, business hours and SLAs, a knowledge-gap report, an agent app with push notifications, alerts and webhooks, reports and customer ratings, and your own branding. A free trial starts from the Setup screen.
+* New: on a site hosted by Zinn Digital®, the plugin's screens offer hosting customers a personal discount code for their first payment of Zinn® Chat Pro. It is not shown once Pro is in use, or on any site Zinn Digital® does not host.
+* Better: knowledge base search shows only articles that really match.
 
 = 2.6.0 =
 * Fix: every Zinn® Chat module now appears in Beaver Builder. Before, the four modules shared one name and only the last of them (the chat button) was offered.

@@ -4,7 +4,7 @@
  * Plugin Name:       Zinn® Chat
  * Plugin URI:        https://zinndigital.com/wordpress-plugins/zinn-chat
  * Description:       A complete help desk and AI assistant that runs on your own WordPress: an AI that answers from your own pages with links, live chat, and support tickets in wp-admin, on a submit-a-ticket page and in the WooCommerce account area. Under 10 KB on the page and no requests at all until a visitor opens it.
- * Version:           2.6.0
+ * Version:           2.7.1
  * Requires at least: 6.9
  * Requires PHP:      7.4
  * Author:            Neil Lock — CEO, Zinn Digital® Ltd
@@ -24,9 +24,8 @@
  * ⛔ No `Update URI` header and no secret key in this SOURCE. Freemius adds the header to the
  * premium download only. The SDK needs only the PUBLIC key below.
  *
- * ⛔ `has_paid_plans` stays false until the release that SHIPS Pro (lane CHAT-PRO flips it, with
- * `Admin\Upsell::LIVE`): with it true the SDK adds an Upgrade menu and trial notices, which would
- * sell a Pro edition that does not exist yet.
+ * ⭐ `has_paid_plans` is true since 2.7.0, the release that ships Zinn® Chat Pro (lane CHAT-PRO,
+ * together with `Admin\Upsell::LIVE`): the SDK adds the Upgrade menu and the trial offer.
  *
  * ⛔⛔ ACTIVE ONLY WHEN THE SITE OWNER SWITCHES IT ON. It is preinstalled on every site Zinn hosts,
  * so it does NOTHING on the front end until the owner turns the chat on: no script, no markup, no
@@ -37,7 +36,7 @@ if ( function_exists( 'zinn_chat_fs' ) ) {
     zinn_chat_fs()->set_basename( false, __FILE__ );
     return;
 }
-define( 'ZINN_CHAT_VERSION', '2.6.0' );
+define( 'ZINN_CHAT_VERSION', '2.7.1' );
 define( 'ZINN_CHAT_FILE', __FILE__ );
 define( 'ZINN_CHAT_DIR', plugin_dir_path( __FILE__ ) );
 define( 'ZINN_CHAT_URL', plugin_dir_url( __FILE__ ) );
@@ -60,7 +59,7 @@ if ( !function_exists( 'zinn_chat_fs' ) ) {
                 'is_premium'       => false,
                 'premium_suffix'   => 'Pro',
                 'has_addons'       => false,
-                'has_paid_plans'   => false,
+                'has_paid_plans'   => true,
                 'trial'            => array(
                     'days'               => 14,
                     'is_require_payment' => false,
@@ -81,6 +80,10 @@ if ( !function_exists( 'zinn_chat_fs' ) ) {
 
     zinn_chat_fs();
     zinn_chat_fs()->add_action( 'after_uninstall', 'zinn_chat_uninstall' );
+    // The SDK's screens show THIS icon (the WordPress.org one, wp/dotorg-assets/zinn-chat). Without
+    // a local icon the SDK downloads one from the licensing service on a non-hosted install, before
+    // any consent (wp/tests/e2e/zinn-chat/no-http-before-consent.sh).
+    zinn_chat_fs()->add_filter( 'plugin_icon', static fn() => __DIR__ . '/assets/icon-256x256.png' );
     do_action( 'zinn_chat_fs_loaded' );
 }
 require_once __DIR__ . '/includes/bootstrap.php';
