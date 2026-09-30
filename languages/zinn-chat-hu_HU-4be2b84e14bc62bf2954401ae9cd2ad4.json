@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-09-30T01:02:33+00:00",
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,21 @@
             ],
             "Type": [
                 "T\u00edpus"
+            ],
+            "Order": [
+                "Rendel\u00e9s"
+            ],
+            "Low": [
+                "Alacsony"
+            ],
+            "Normal": [
+                "Norm\u00e1l"
+            ],
+            "High": [
+                "Magas"
+            ],
+            "Urgent": [
+                "S\u00fcrg\u0151s"
             ],
             "%ds": [
                 "%ds"
@@ -235,18 +250,6 @@
             "Channel": [
                 "Csatorna"
             ],
-            "Low": [
-                "Alacsony"
-            ],
-            "Normal": [
-                "Norm\u00e1l"
-            ],
-            "High": [
-                "Magas"
-            ],
-            "Urgent": [
-                "S\u00fcrg\u0151s"
-            ],
             "Nobody": [
                 "Senki"
             ],
@@ -255,9 +258,6 @@
             ],
             "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
                 "#%1$s. rendel\u00e9s \u00b7 %2$s \u00b7 %3$s"
-            ],
-            "Order": [
-                "Rendel\u00e9s"
             ],
             "Delete ticket": [
                 "Jegy t\u00f6rl\u00e9se"

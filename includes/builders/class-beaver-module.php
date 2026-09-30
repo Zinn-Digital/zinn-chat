@@ -30,6 +30,9 @@ abstract class Beaver_Module extends \FLBuilderModule {
 		$element = Blocks::elements()[ static::ELEMENT ] ?? array( 'title' => '' );
 		parent::__construct(
 			array(
+				// ⛔ An explicit slug: Beaver otherwise names a module after its FILE, and every
+				// element here shares this file, so only the last one registered (2.5.x fix).
+				'slug'            => 'zinn-chat-' . static::ELEMENT,
 				'name'            => 'Zinn® Chat: ' . $element['title'],
 				'description'     => (string) $element['title'],
 				'category'        => __( 'Zinn® Chat', 'zinn-chat' ),

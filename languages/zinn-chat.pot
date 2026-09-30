@@ -2,14 +2,14 @@
 # This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Zinn® Chat 2.5.0\n"
+"Project-Id-Version: Zinn® Chat 2.6.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zinn-chat\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-30T02:58:07+00:00\n"
+"POT-Creation-Date: 2026-09-30T06:01:47+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: zinn-chat\n"
@@ -17,8 +17,10 @@ msgstr ""
 #. Plugin Name of the plugin
 #: zinn-chat.php
 #: includes/admin/class-admin.php:92
-#: includes/builders/class-beaver-module.php:35
+#: includes/builders/class-beaver-module.php:38
 #: includes/class-front-tickets.php:643
+#: includes/pro__premium_only/class-agents.php:161
+#: includes/pro__premium_only/class-agents.php:252
 msgid "Zinn® Chat"
 msgstr ""
 
@@ -51,6 +53,7 @@ msgstr ""
 #: includes/admin/class-admin.php:58
 #: includes/admin/class-tickets-page.php:32
 #: assets/js/console.js:304
+#: assets/pro__premium_only/admin-pro.js:355
 msgid "Tickets"
 msgstr ""
 
@@ -88,6 +91,9 @@ msgstr ""
 #: includes/admin/class-assistant-page.php:32
 #: includes/admin/class-console-page.php:32
 #: includes/admin/class-tickets-page.php:32
+#: includes/pro__premium_only/class-canned.php:56
+#: includes/pro__premium_only/class-gaps.php:62
+#: includes/pro__premium_only/class-reports.php:55
 msgid "Loading…"
 msgstr ""
 
@@ -729,6 +735,7 @@ msgstr ""
 #: includes/ai-core/class-admin.php:227
 #: includes/freemius-strings.php:202
 #: includes/freemius-strings.php:3187
+#: includes/pro__premium_only/class-kb.php:157
 msgid "Address"
 msgstr ""
 
@@ -949,6 +956,7 @@ msgstr ""
 #: includes/class-tickets.php:448
 #: assets/js/console.js:318
 #: assets/js/console.js:412
+#: assets/pro__premium_only/admin-pro.js:292
 msgid "Open"
 msgstr ""
 
@@ -1258,12 +1266,19 @@ msgstr ""
 msgid "Limits and permissions saved."
 msgstr ""
 
-#: includes/builders/class-beaver-module.php:77
+#: includes/builders/class-beaver-module.php:80
 #: includes/builders/class-elementor-widget.php:77
+#: includes/pro__premium_only/builders/class-beaver-kb.php:54
 msgid "Content"
 msgstr ""
 
 #: includes/class-agent-rest.php:104
+#: includes/pro__premium_only/class-desk-rest.php:170
+#: includes/pro__premium_only/class-desk-rest.php:226
+#: includes/pro__premium_only/class-desk-rest.php:309
+#: includes/pro__premium_only/class-desk-rest.php:326
+#: includes/pro__premium_only/class-desk-rest.php:341
+#: includes/pro__premium_only/class-desk-rest.php:374
 msgid "Not found."
 msgstr ""
 
@@ -1308,6 +1323,7 @@ msgid "Submit a ticket form"
 msgstr ""
 
 #: includes/class-blocks.php:49
+#: includes/pro__premium_only/class-kb-render.php:149
 msgid "Heading"
 msgstr ""
 
@@ -1317,6 +1333,7 @@ msgstr ""
 
 #: includes/class-blocks.php:51
 #: includes/class-blocks.php:66
+#: includes/pro__premium_only/class-kb-render.php:96
 msgid "Button text"
 msgstr ""
 
@@ -1376,6 +1393,7 @@ msgstr ""
 
 #: includes/class-front-tickets.php:124
 #: includes/class-rest.php:123
+#: includes/pro__premium_only/class-kb.php:673
 msgid "You are sending messages too quickly. Please wait a little and try again."
 msgstr ""
 
@@ -1586,7 +1604,9 @@ msgid "From: %s"
 msgstr ""
 
 #. translators: %s: customer name and email.
+#. translators: 1: chat number, 2: visitor.
 #: includes/class-mailer.php:200
+#: includes/pro__premium_only/class-notify.php:338
 msgid "a visitor"
 msgstr ""
 
@@ -1596,6 +1616,9 @@ msgid "Zinn® Chat chats and support tickets"
 msgstr ""
 
 #: includes/class-privacy.php:119
+#: assets/pro__premium_only/admin-pro.js:335
+#: assets/pro__premium_only/admin-pro.js:355
+#: assets/pro__premium_only/admin-pro.js:358
 msgid "Chats"
 msgstr ""
 
@@ -1606,12 +1629,16 @@ msgstr ""
 #: includes/class-privacy.php:127
 #: includes/freemius-strings.php:1496
 #: includes/freemius-strings.php:4524
+#: includes/pro__premium_only/class-agents.php:316
+#: includes/pro__premium_only/class-agents.php:339
 msgid "Name"
 msgstr ""
 
 #: includes/class-privacy.php:131
 #: includes/freemius-strings.php:990
 #: includes/freemius-strings.php:3852
+#: includes/pro__premium_only/class-agents.php:316
+#: includes/pro__premium_only/class-agents.php:340
 msgid "Email"
 msgstr ""
 
@@ -1678,6 +1705,7 @@ msgid "The assistant cannot answer right now. You can ask for a person or leave 
 msgstr ""
 
 #: includes/class-rest.php:324
+#: includes/pro__premium_only/class-persona.php:102
 msgid "We are putting you through to a person. Please stay on this page."
 msgstr ""
 
@@ -1697,6 +1725,10 @@ msgid "Visitor"
 msgstr ""
 
 #: includes/class-rest.php:427
+#: includes/pro__premium_only/class-agents.php:262
+#: includes/pro__premium_only/class-agents.php:303
+#: assets/pro__premium_only/admin-pro.js:227
+#: assets/pro__premium_only/admin-pro.js:356
 msgid "Team"
 msgstr ""
 
@@ -1711,6 +1743,7 @@ msgid "Thank you. Your request is ticket #%d and we will reply by email."
 msgstr ""
 
 #: includes/class-rest.php:510
+#: includes/pro__premium_only/class-agents.php:362
 msgid "Please enter a valid email address."
 msgstr ""
 
@@ -1769,6 +1802,7 @@ msgid "Waiting for customer"
 msgstr ""
 
 #: includes/class-tickets.php:452
+#: includes/pro__premium_only/class-hours.php:367
 #: assets/js/console.js:318
 #: assets/js/console.js:412
 msgid "Solved"
@@ -1795,6 +1829,7 @@ msgid "Type your message…"
 msgstr ""
 
 #: includes/class-widget.php:157
+#: includes/pro__premium_only/class-csat.php:204
 #: assets/js/console.js:206
 msgid "Send"
 msgstr ""
@@ -1853,16 +1888,19 @@ msgstr ""
 #: includes/class-widget.php:174
 #: includes/freemius-strings.php:2816
 #: includes/freemius-strings.php:5848
+#: includes/pro__premium_only/class-kb.php:456
 msgid "Yes"
 msgstr ""
 
 #: includes/class-widget.php:175
 #: includes/freemius-strings.php:1574
 #: includes/freemius-strings.php:4591
+#: includes/pro__premium_only/class-kb.php:456
 msgid "No"
 msgstr ""
 
 #: includes/class-widget.php:176
+#: includes/pro__premium_only/class-kb.php:456
 msgid "Thank you for your feedback."
 msgstr ""
 
@@ -1885,6 +1923,7 @@ msgstr ""
 
 #: includes/class-widget.php:181
 #: assets/js/console.js:54
+#: assets/pro__premium_only/admin-pro.js:18
 msgid "Something went wrong. Please try again."
 msgstr ""
 
@@ -3610,6 +3649,7 @@ msgstr ""
 
 #: includes/freemius-strings.php:1281
 #: includes/freemius-strings.php:4387
+#: includes/pro__premium_only/class-kb.php:198
 msgid "Learn more"
 msgstr ""
 
@@ -5240,6 +5280,7 @@ msgstr ""
 
 #: includes/freemius-strings.php:2540
 #: includes/freemius-strings.php:5520
+#: assets/pro__premium_only/admin-pro.js:253
 msgid "Title"
 msgstr ""
 
@@ -6115,6 +6156,1183 @@ msgstr ""
 msgid "Reading this page used more memory than the site allows, so it was skipped."
 msgstr ""
 
+#: includes/pro__premium_only/class-agents.php:76
+#: includes/pro__premium_only/class-agents.php:319
+msgid "Support agent"
+msgstr ""
+
+#: includes/pro__premium_only/class-agents.php:307
+msgid "Invitation sent. The new agent sets a password from the email and lands in the Inbox."
+msgstr ""
+
+#: includes/pro__premium_only/class-agents.php:309
+msgid "Saved."
+msgstr ""
+
+#: includes/pro__premium_only/class-agents.php:313
+msgid "Support agents answer chats and tickets and use saved replies. They cannot open any other part of wp-admin. Managers (administrators) also change settings."
+msgstr ""
+
+#: includes/pro__premium_only/class-agents.php:316
+msgid "Role"
+msgstr ""
+
+#: includes/pro__premium_only/class-agents.php:316
+#: includes/pro__premium_only/class-agents.php:342
+#: includes/pro__premium_only/class-pro-settings.php:151
+msgid "Departments"
+msgstr ""
+
+#: includes/pro__premium_only/class-agents.php:319
+msgid "Manager"
+msgstr ""
+
+#: includes/pro__premium_only/class-agents.php:324
+msgid "No departments yet (Settings, Team and routing)."
+msgstr ""
+
+#: includes/pro__premium_only/class-agents.php:328
+msgid "Remove from the team"
+msgstr ""
+
+#: includes/pro__premium_only/class-agents.php:333
+msgid "Save departments"
+msgstr ""
+
+#: includes/pro__premium_only/class-agents.php:336
+msgid "Invite an agent"
+msgstr ""
+
+#: includes/pro__premium_only/class-agents.php:340
+msgid "If this person already has an account on the site, it is given the Support agent role instead (their other roles are kept)."
+msgstr ""
+
+#: includes/pro__premium_only/class-agents.php:349
+msgid "Send invitation"
+msgstr ""
+
+#: includes/pro__premium_only/class-agents.php:364
+msgid "That account can already manage the help desk."
+msgstr ""
+
+#: includes/pro__premium_only/class-agents.php:366
+msgid "That did not work. Please try again."
+msgstr ""
+
+#: includes/pro__premium_only/class-agents.php:376
+msgid "You are not allowed to change the team."
+msgstr ""
+
+#: includes/pro__premium_only/class-agents.php:472
+#: assets/pro__premium_only/admin-pro.js:159
+msgid "Department"
+msgstr ""
+
+#: includes/pro__premium_only/class-agents.php:472
+#: includes/pro__premium_only/class-kb-import.php:145
+msgid "— Choose —"
+msgstr ""
+
+#: includes/pro__premium_only/class-ai-desk.php:250
+msgid "Nothing to answer yet."
+msgstr ""
+
+#: includes/pro__premium_only/class-ai-desk.php:284
+msgid "The AI could not draft a reply."
+msgstr ""
+
+#: includes/pro__premium_only/class-ai-desk.php:315
+msgid "The AI could not summarise this."
+msgstr ""
+
+#: includes/pro__premium_only/class-ai-desk.php:371
+msgid "The AI could not draft an article."
+msgstr ""
+
+#: includes/pro__premium_only/class-ai-desk.php:380
+msgid "The AI answered in an unexpected shape. Please try again."
+msgstr ""
+
+#: includes/pro__premium_only/class-canned.php:43
+#: assets/pro__premium_only/admin-pro.js:95
+#: assets/pro__premium_only/admin-pro.js:248
+msgid "Saved replies"
+msgstr ""
+
+#: includes/pro__premium_only/class-canned.php:99
+msgid "A saved reply needs a title and some text."
+msgstr ""
+
+#: includes/pro__premium_only/class-crawl.php:227
+msgid "The sitemap could not be read."
+msgstr ""
+
+#: includes/pro__premium_only/class-crawl.php:317
+msgid "The page could not be read."
+msgstr ""
+
+#: includes/pro__premium_only/class-csat.php:114
+msgid "Very poor"
+msgstr ""
+
+#: includes/pro__premium_only/class-csat.php:115
+msgid "Poor"
+msgstr ""
+
+#: includes/pro__premium_only/class-csat.php:116
+msgid "OK"
+msgstr ""
+
+#: includes/pro__premium_only/class-csat.php:117
+msgid "Good"
+msgstr ""
+
+#: includes/pro__premium_only/class-csat.php:118
+msgid "Excellent"
+msgstr ""
+
+#. translators: 1: ticket number, 2: subject.
+#: includes/pro__premium_only/class-csat.php:124
+#, php-format
+msgid "[#%1$d] How did we do? %2$s"
+msgstr ""
+
+#: includes/pro__premium_only/class-csat.php:127
+msgid "We marked your request as solved. How happy are you with the help you got?"
+msgstr ""
+
+#: includes/pro__premium_only/class-csat.php:128
+msgid "One click is enough. If something is still wrong, just reply to your request and it opens again."
+msgstr ""
+
+#: includes/pro__premium_only/class-csat.php:179
+msgid "This rating link is not valid any more. Thank you all the same."
+msgstr ""
+
+#: includes/pro__premium_only/class-csat.php:184
+msgid "Thank you. Your comment has been passed to the team."
+msgstr ""
+
+#: includes/pro__premium_only/class-csat.php:192
+msgid "How happy are you with the help you got?"
+msgstr ""
+
+#: includes/pro__premium_only/class-csat.php:204
+msgid "Anything you would like to tell us? (optional)"
+msgstr ""
+
+#: includes/pro__premium_only/class-csat.php:205
+msgid "Thank you for your rating."
+msgstr ""
+
+#: includes/pro__premium_only/class-csat.php:217
+msgid "Back to the site"
+msgstr ""
+
+#: includes/pro__premium_only/class-desk-rest.php:355
+msgid "The knowledge base is switched off."
+msgstr ""
+
+#: includes/pro__premium_only/class-gaps.php:49
+#: assets/pro__premium_only/admin-pro.js:288
+msgid "Knowledge gaps"
+msgstr ""
+
+#: includes/pro__premium_only/class-gaps.php:239
+msgid "Nothing selected."
+msgstr ""
+
+#. translators: 1: the usual offline message, 2: day and time the team is back.
+#: includes/pro__premium_only/class-hours.php:183
+#, php-format
+msgid "%1$s We are back %2$s."
+msgstr ""
+
+#: includes/pro__premium_only/class-hours.php:367
+#: assets/pro__premium_only/admin-pro.js:338
+msgid "First reply"
+msgstr ""
+
+#: includes/pro__premium_only/class-inbound.php:115
+msgid "Reply to this email to answer."
+msgstr ""
+
+#. translators: %s: sender email address.
+#: includes/pro__premium_only/class-inbound.php:329
+#, php-format
+msgid "Email from %s (not the customer on this ticket):"
+msgstr ""
+
+#. translators: %d: number of emails.
+#: includes/pro__premium_only/class-inbound.php:448
+#, php-format
+msgid "%d email read."
+msgid_plural "%d emails read."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/pro__premium_only/class-kb-import.php:99
+#: includes/pro__premium_only/class-kb-import.php:101
+#: includes/pro__premium_only/class-kb-import.php:114
+msgid "Import a knowledge base"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-import.php:99
+#: includes/pro__premium_only/class-kb-import.php:151
+msgid "Import"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-import.php:101
+msgid "KB import"
+msgstr ""
+
+#. translators: 1: articles imported, 2: categories imported, 3: status.
+#: includes/pro__premium_only/class-kb-import.php:117
+#, php-format
+msgid "Last import: %1$d articles, %2$d categories. %3$s"
+msgstr ""
+
+#. translators: 1: articles imported, 2: categories imported, 3: status.
+#: includes/pro__premium_only/class-kb-import.php:117
+msgid "Finished."
+msgstr ""
+
+#. translators: 1: articles imported, 2: categories imported, 3: status.
+#: includes/pro__premium_only/class-kb-import.php:117
+msgid "Still running in the background: reload to see progress."
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-import.php:119
+msgid "Copies articles and categories from another knowledge base on this site into the Zinn® Chat knowledge base, keeping the category tree, the order, the slugs and the content. Old addresses redirect to the new ones. Running it again updates instead of duplicating."
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-import.php:122
+msgid "Import from"
+msgstr ""
+
+#. translators: 1: plugin name, 2: number of articles.
+#: includes/pro__premium_only/class-kb-import.php:126
+#, php-format
+msgid "%1$s (%2$d articles)"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-import.php:128
+msgid "Another post type:"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-import.php:134
+msgid "with categories from"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-import.php:134
+msgid "(none)"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-import.php:141
+msgid "The pages under this page:"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-import.php:149
+msgid "The originals"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-import.php:149
+msgid "Set the imported originals to draft (their addresses then redirect to the new articles)"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-import.php:162
+msgid "You are not allowed to import."
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:73
+msgid "yes or no"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:75
+#: includes/pro__premium_only/class-kb.php:406
+msgid "Knowledge base home"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:79
+msgid "Heading (empty: the KB title)"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:80
+msgid "Only these categories (slugs or IDs, comma-separated)"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:81
+#: includes/pro__premium_only/class-kb-render.php:108
+msgid "Leave out these categories"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:82
+#: includes/pro__premium_only/class-kb-render.php:110
+msgid "Columns, 1 to 4"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:83
+msgid "Articles under each category (0 for none)"
+msgstr ""
+
+#. translators: %s: "yes or no".
+#: includes/pro__premium_only/class-kb-render.php:85
+#: includes/pro__premium_only/class-kb-render.php:113
+#, php-format
+msgid "Show article counts (%s)"
+msgstr ""
+
+#. translators: %s: "yes or no".
+#: includes/pro__premium_only/class-kb-render.php:87
+#, php-format
+msgid "Show the search box (%s)"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:91
+msgid "Knowledge base search"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:95
+msgid "Placeholder text"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:97
+msgid "Search only this category (slug or ID)"
+msgstr ""
+
+#. translators: %s: "yes or no".
+#: includes/pro__premium_only/class-kb-render.php:99
+#, php-format
+msgid "Show results while typing (%s)"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:103
+msgid "Knowledge base categories"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:107
+msgid "Only these categories (slugs or IDs)"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:109
+msgid "Sub-categories of (slug or ID; empty: top level)"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:111
+msgid "Articles under each category"
+msgstr ""
+
+#. translators: %s: "yes or no".
+#: includes/pro__premium_only/class-kb-render.php:115
+#, php-format
+msgid "Show descriptions (%s)"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:116
+msgid "Order: order, name or count"
+msgstr ""
+
+#. translators: %s: "yes or no".
+#: includes/pro__premium_only/class-kb-render.php:118
+#, php-format
+msgid "Hide empty categories (%s)"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:122
+#: includes/pro__premium_only/class-kb.php:414
+msgid "Knowledge base category"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:126
+msgid "Category (slug or ID; empty: the category being viewed)"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:127
+msgid "Heading (empty: the category name)"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:128
+msgid "How many articles (empty: all)"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:129
+msgid "Order: order, title, date, modified or helpful"
+msgstr ""
+
+#. translators: %s: "yes or no".
+#: includes/pro__premium_only/class-kb-render.php:131
+#: includes/pro__premium_only/class-kb-render.php:146
+#, php-format
+msgid "Show summaries (%s)"
+msgstr ""
+
+#. translators: %s: "yes or no".
+#: includes/pro__premium_only/class-kb-render.php:133
+#, php-format
+msgid "Show sub-categories (%s)"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:137
+msgid "Knowledge base articles"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:141
+msgid "From this category (slug or ID)"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:142
+msgid "These articles (IDs, in this order)"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:143
+msgid "How many"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:144
+msgid "Order: date, modified, title, order or helpful"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:147
+msgid "Layout: list or grid"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:148
+msgid "Grid columns, 1 to 4"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:153
+msgid "Knowledge base article"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:157
+msgid "Article ID or slug"
+msgstr ""
+
+#. translators: %s: "yes or no".
+#: includes/pro__premium_only/class-kb-render.php:159
+#, php-format
+msgid "Show the title (%s)"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:163
+msgid "Knowledge base breadcrumbs"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:209
+msgid "No articles match."
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:210
+msgid "See all results"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:460
+msgid "Search the help centre…"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:465
+msgid "Search"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:507
+msgid "No categories yet."
+msgstr ""
+
+#. translators: %d: number of articles.
+#: includes/pro__premium_only/class-kb-render.php:515
+#, php-format
+msgid "%d article"
+msgid_plural "%d articles"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of articles.
+#: includes/pro__premium_only/class-kb-render.php:525
+#, php-format
+msgid "All %d articles"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:578
+msgid "No articles in this category yet."
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:631
+#: includes/pro__premium_only/class-kb.php:286
+msgid "No articles yet."
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:713
+msgid "Breadcrumb"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb-render.php:761
+msgid "Related articles"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:121
+msgid "Help centre"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:134
+#: includes/pro__premium_only/class-kb.php:139
+#: includes/pro__premium_only/class-kb.php:276
+#: includes/pro__premium_only/class-kb.php:278
+#: includes/pro__premium_only/class-kb.php:279
+msgid "Knowledge base"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:156
+msgid "Use the knowledge base"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:156
+msgid "Articles and categories under Zinn® Chat, Knowledge base."
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:157
+msgid "The KB lives at your site address followed by this, for example /kb/ or /help/."
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:158
+msgid "Title of the KB home page"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:161
+msgid "Layout of the KB home and category pages"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:164
+msgid "Zinn® Chat layout: search, category cards and article lists"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:165
+msgid "Your theme's archive pages"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:168
+msgid "Category columns"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:169
+msgid "Articles listed under each category on the KB home"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:170
+msgid "Show how many articles each category has"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:171
+msgid "Table of contents on long articles"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:172
+msgid "Ask \"Was this article helpful?\""
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:172
+msgid "\"No\" answers appear in the Knowledge gaps report."
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:173
+msgid "Related articles under each article"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:174
+msgid "Structured data for search engines (Article and breadcrumbs)"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:174
+msgid "Left to your SEO plugin when Yoast, Rank Math, SEOPress or All in One SEO is active."
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:175
+msgid "Show \"Help articles\" search in the chat window"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:176
+msgid "Suggest related articles under the assistant's answers"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:192
+msgid "Write richer articles with Page Builder Sandwich"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:192
+msgid "Tabs, accordions, callouts and step lists right in the block editor. Every KB article and category page can use them."
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:195
+msgid "Publish your KB in every language with Tranzly"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:195
+msgid "Articles, categories, addresses and search results translated automatically, with each language on its own address."
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:254
+#: includes/pro__premium_only/class-kb.php:256
+#: includes/pro__premium_only/class-kb.php:847
+msgid "KB categories"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:255
+msgid "KB category"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:257
+msgid "Add a KB category"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:258
+msgid "Edit KB category"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:259
+msgid "Search KB categories"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:277
+#: assets/pro__premium_only/admin-pro.js:301
+msgid "Article"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:280
+msgid "Add article"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:281
+msgid "Add a new article"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:282
+msgid "Edit article"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:283
+msgid "New article"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:284
+msgid "View article"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:285
+msgid "Search articles"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:287
+msgid "No articles in the bin."
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:407
+msgid "Search, categories and articles."
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:415
+msgid "One category and its articles."
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:456
+msgid "Was this article helpful?"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:491
+msgid "On this page"
+msgstr ""
+
+#. translators: %s: article title.
+#: includes/pro__premium_only/class-kb.php:702
+#, php-format
+msgid "Article not helpful: %s"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:751
+msgid "Help articles"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:752
+msgid "Search help articles…"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:753
+msgid "Popular articles"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:754
+msgid "No articles match. Ask us in the chat instead."
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:755
+msgid "Browse the help centre"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:756
+msgid "Back to the chat"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:834
+msgid "A draft is ready. Check it, fill in anything marked [FILL IN], and publish it: the assistant uses it at once."
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:889
+#: includes/pro__premium_only/class-kb.php:901
+#: assets/js/console.js:424
+msgid "Order"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:889
+msgid "Lower numbers come first."
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:890
+#: includes/pro__premium_only/class-kb.php:902
+msgid "Icon"
+msgstr ""
+
+#: includes/pro__premium_only/class-kb.php:890
+#: includes/pro__premium_only/class-kb.php:902
+msgid "A Dashicons name such as book, cart or admin-users, or one emoji."
+msgstr ""
+
+#. translators: 1: ticket number, 2: subject, 3: customer.
+#: includes/pro__premium_only/class-notify.php:277
+#, php-format
+msgid "New ticket #%1$d: %2$s (from %3$s)"
+msgstr ""
+
+#. translators: 1: ticket number, 2: subject.
+#: includes/pro__premium_only/class-notify.php:297
+#, php-format
+msgid "Customer replied on ticket #%1$d: %2$s"
+msgstr ""
+
+#. translators: 1: chat number, 2: visitor.
+#: includes/pro__premium_only/class-notify.php:338
+#, php-format
+msgid "A visitor is waiting in chat #%1$d (%2$s)"
+msgstr ""
+
+#. translators: 1: ticket number, 2: subject.
+#: includes/pro__premium_only/class-notify.php:370
+#, php-format
+msgid "Ticket #%1$d missed its first-reply target: %2$s"
+msgstr ""
+
+#. translators: 1: ticket number, 2: subject.
+#: includes/pro__premium_only/class-notify.php:372
+#, php-format
+msgid "Ticket #%1$d missed its resolution target: %2$s"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:125
+msgid "Team and routing"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:126
+msgid "Hours and SLAs"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:127
+msgid "Email replies"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:128
+msgid "Alerts and webhooks"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:129
+msgid "Proactive messages"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:130
+msgid "Branding"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:151
+msgid "One per line, for example: Sales. Agents are placed in departments on the Team screen."
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:152
+msgid "Let customers choose a department on the ticket form"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:155
+msgid "Assign new tickets"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:156
+msgid "Only agents in the ticket's department are chosen when it has one."
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:158
+msgid "Do not assign (the first agent to reply takes it)"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:159
+msgid "In turn (round robin)"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:160
+msgid "To the agent with the fewest open tickets"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:165
+msgid "Use business hours"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:165
+msgid "Outside these hours \"Talk to a person\" is not offered, the chat says when you are back, and visitors can leave a message."
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:166
+msgid "Time zone"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:166
+msgid "For example Europe/London. Empty: the site's time zone."
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:168
+msgid "For example 09:00-17:00, or 09:00-12:30, 13:30-17:00. Empty: closed."
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:170
+msgid "Closed on these dates"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:170
+msgid "One date per line, as YYYY-MM-DD."
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:171
+msgid "Track response and resolution targets (SLAs)"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:171
+msgid "Tickets show how long is left, and the team is alerted when a target is missed."
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:172
+msgid "Count only business hours toward the targets"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:173
+msgid "Let the AI set the priority of new tickets from their urgency"
+msgstr ""
+
+#. translators: %s: priority name, e.g. High.
+#: includes/pro__premium_only/class-pro-settings.php:176
+#, php-format
+msgid "First reply within (hours), %s"
+msgstr ""
+
+#. translators: %s: priority name, e.g. High.
+#: includes/pro__premium_only/class-pro-settings.php:180
+#, php-format
+msgid "Solved within (hours), %s"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:186
+msgid "Customers reply to ticket emails"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:187
+msgid "Their reply is added to the ticket, and the team is told."
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:189
+msgid "Off (they reply on the ticket page)"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:190
+msgid "Read a mailbox (IMAP)"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:191
+msgid "An email service forwards messages to this site (webhook)"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:194
+msgid "Support email address"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:194
+msgid "Replies go to this address. It must be the mailbox read below, or the address your email service forwards."
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:195
+msgid "Use plus addresses (support+123@…) so each reply finds its ticket"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:195
+msgid "Only if your mailbox accepts them; the ticket number in the subject works too."
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:196
+msgid "Open a new ticket for other emails to the support address"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:197
+msgid "IMAP server"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:197
+msgid "For example imap.gmail.com."
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:198
+msgid "IMAP port"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:201
+msgid "IMAP security"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:208
+msgid "IMAP user name"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:209
+msgid "IMAP password"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:209
+msgid "An app password where your provider offers one."
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:214
+msgid "Send alerts for"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:217
+msgid "New tickets"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:218
+msgid "Customer replies"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:219
+msgid "Visitors waiting in chat"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:220
+msgid "Missed SLA targets"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:223
+msgid "Push notifications to the agents' phones and computers"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:223
+msgid "Each agent turns them on in the Inbox, on each device."
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:224
+msgid "Slack incoming webhook URL"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:225
+msgid "Microsoft Teams webhook URL"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:226
+msgid "Telegram bot token"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:227
+msgid "Telegram chat ID"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:228
+msgid "Webhook URLs (Zapier, Make, your own)"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:228
+msgid "One https:// address per line. Each event is sent as signed JSON."
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:229
+msgid "Webhook signing secret"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:229
+msgid "Empty: one is made for you. The X-Zinn-Chat-Signature header carries sha256= and the HMAC of the body."
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:232
+msgid "Rules"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:232
+msgid "One per line: page | when | message. Page: * for every page, or part of the address such as /pricing. When: a number of seconds, exit (leaving the page) or 50% (scrolled half way). Example: /pricing | 20 | Questions about our plans? We are here."
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:235
+msgid "Help desk name"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:235
+msgid "Shown in wp-admin, on the agent app and on emails in place of Zinn® Chat."
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:236
+msgid "Logo URL"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:236
+msgid "An https:// image, for emails and the agent app."
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:237
+msgid "Email footer"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:242
+msgid "Tone"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:245
+msgid "Friendly"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:246
+msgid "Professional"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:247
+msgid "Short and to the point"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:248
+msgid "Playful"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:251
+msgid "Persona"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:251
+msgid "Who the assistant is, for example: \"Sam, who has worked in our bakery for ten years.\""
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:252
+msgid "Hand over to a person when a visitor writes"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:252
+msgid "Words or phrases, one per line, for example: refund, complaint, cancel my order."
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:253
+msgid "Hand over at once when the assistant cannot answer and someone is online"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:254
+msgid "Tag, summarise and prioritise new tickets with AI"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:255
+msgid "Keep a list of the questions the assistant could not answer"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:258
+msgid "Also read these pages and sitemaps"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:258
+msgid "One address per line, on this site or another (a help centre, a documentation site). A sitemap adds every page in it. Re-read every day."
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:261
+msgid "Ask customers to rate the help they got when a ticket is solved"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:275
+msgid "Webhook address for your email service (Postmark, Mailgun, SendGrid, Cloudflare Email Routing, or any service that can post the message as JSON):"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:275
+msgid "Keep it private: anyone with it could add replies. Save the settings with a new mode to change it."
+msgstr ""
+
+#. translators: 1: date and time, 2: result.
+#: includes/pro__premium_only/class-pro-settings.php:279
+#, php-format
+msgid "Last check: %1$s. %2$s"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:291
+#: assets/js/console.js:416
+msgid "Low"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:292
+#: assets/js/console.js:416
+msgid "Normal"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:293
+#: assets/js/console.js:416
+msgid "High"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:294
+#: assets/js/console.js:416
+msgid "Urgent"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:306
+msgid "Monday"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:307
+msgid "Tuesday"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:308
+msgid "Wednesday"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:309
+msgid "Thursday"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:310
+msgid "Friday"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:311
+msgid "Saturday"
+msgstr ""
+
+#: includes/pro__premium_only/class-pro-settings.php:312
+msgid "Sunday"
+msgstr ""
+
+#: includes/pro__premium_only/class-proactive.php:100
+msgid "Dismiss"
+msgstr ""
+
+#: includes/pro__premium_only/class-push.php:259
+msgid "Push notifications are not available on this site."
+msgstr ""
+
+#. translators: 1: number of visitors waiting in chat, 2: number of open tickets.
+#: includes/pro__premium_only/class-push.php:327
+#, php-format
+msgid "%1$d waiting in chat · %2$d open tickets"
+msgstr ""
+
+#: includes/pro__premium_only/class-push.php:483
+msgid "Answer chats and tickets."
+msgstr ""
+
+#: includes/pro__premium_only/class-reports.php:42
+#: assets/pro__premium_only/admin-pro.js:329
+msgid "Reports"
+msgstr ""
+
 #: includes/pro__premium_only/class-targeting.php:49
 msgid "Show the chat"
 msgstr ""
@@ -6174,6 +7392,7 @@ msgid "%dh"
 msgstr ""
 
 #: assets/js/console.js:55
+#: assets/pro__premium_only/admin-pro.js:358
 msgid "Agent"
 msgstr ""
 
@@ -6319,6 +7538,7 @@ msgstr ""
 
 #: assets/js/console.js:318
 #: assets/js/console.js:536
+#: assets/pro__premium_only/admin-pro.js:292
 msgid "All"
 msgstr ""
 
@@ -6329,6 +7549,7 @@ msgstr ""
 #. translators: 1: current page, 2: number of pages
 #: assets/js/console.js:348
 #: assets/js/console.js:568
+#: assets/pro__premium_only/admin-pro.js:317
 #, js-format
 msgid "Page %1$d of %2$d"
 msgstr ""
@@ -6387,22 +7608,6 @@ msgstr ""
 msgid "Channel"
 msgstr ""
 
-#: assets/js/console.js:416
-msgid "Low"
-msgstr ""
-
-#: assets/js/console.js:416
-msgid "Normal"
-msgstr ""
-
-#: assets/js/console.js:416
-msgid "High"
-msgstr ""
-
-#: assets/js/console.js:416
-msgid "Urgent"
-msgstr ""
-
 #: assets/js/console.js:419
 msgid "Nobody"
 msgstr ""
@@ -6415,10 +7620,6 @@ msgstr ""
 #: assets/js/console.js:424
 #, js-format
 msgid "Order #%1$s · %2$s · %3$s"
-msgstr ""
-
-#: assets/js/console.js:424
-msgid "Order"
 msgstr ""
 
 #: assets/js/console.js:427
@@ -6506,6 +7707,7 @@ msgstr ""
 
 #: assets/js/console.js:504
 #: assets/js/console.js:555
+#: assets/pro__premium_only/admin-pro.js:274
 msgid "Edit"
 msgstr ""
 
@@ -6581,4 +7783,397 @@ msgstr ""
 
 #: assets/js/console.js:558
 msgid "Failed"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:22
+#, js-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/pro__premium_only/admin-pro.js:23
+#: assets/pro__premium_only/admin-pro.js:27
+#, js-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/pro__premium_only/admin-pro.js:26
+#, js-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/pro__premium_only/admin-pro.js:30
+#, js-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/pro__premium_only/admin-pro.js:43
+msgid "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first."
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:47
+msgid "Notifications are blocked for this site in the browser settings."
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:51
+msgid "Notifications are on for this device."
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:52
+msgid "Send a test notification"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:54
+msgid "Sent. It should appear in a few seconds."
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:54
+msgid "The push service did not accept it."
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:55
+msgid "Could not turn notifications on."
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:60
+msgid "Phone app and notifications"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:64
+msgid "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer."
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:65
+msgid "Turn on notifications on this device"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:86
+msgid "Nothing found."
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:96
+msgid "Search saved replies"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:102
+msgid "Link an article"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:103
+msgid "Search the knowledge base"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:110
+msgid "Suggest a reply"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:111
+#: assets/pro__premium_only/admin-pro.js:236
+#: assets/pro__premium_only/admin-pro.js:296
+msgid "Drafting…"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:112
+msgid "Replace what you have typed with the suggestion?"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:151
+#, js-format
+msgid "%s is writing a reply to this too."
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:152
+#, js-format
+msgid "%s is also looking at this."
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:160
+msgid "No department"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:165
+msgid "Tags, comma-separated"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:165
+msgid "Tags"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:168
+msgid "Upset customer"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:168
+msgid "Unhappy customer"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:175
+msgid "Summarise again"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:175
+msgid "Summarise"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:223
+msgid "met"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:223
+msgid "missed"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:223
+#, js-format
+msgid "overdue by %s"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:223
+#, js-format
+msgid "%s left"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:231
+#, js-format
+msgid "Customer rating: %d of 5"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:235
+#: assets/pro__premium_only/admin-pro.js:237
+msgid "Write a KB article from this ticket"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:235
+#: assets/pro__premium_only/admin-pro.js:237
+msgid "Write a help page from this ticket"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:249
+msgid "Use them from the chat and ticket reply boxes (Saved replies), or type / and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you."
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:254
+msgid "Shortcut (optional, e.g. refund)"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:255
+msgid "Text"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:256
+msgid "Every department"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:259
+msgid "Save"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:259
+msgid "Add saved reply"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:266
+msgid "No saved replies yet."
+msgstr ""
+
+#. translators: %d: how many times the saved reply was used
+#: assets/pro__premium_only/admin-pro.js:272
+#, js-format
+msgid "Used %d times"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:275
+msgid "Delete"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:275
+msgid "Delete this saved reply?"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:289
+msgid "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once."
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:290
+msgid "Recording is off (Settings, AI assistant)."
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:292
+msgid "Drafted"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:292
+msgid "Answered"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:292
+msgid "Ignored"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:296
+msgid "Draft a KB article from the selected"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:296
+msgid "Draft a help page from the selected"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:297
+msgid "Mark answered"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:298
+msgid "Ignore"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:301
+msgid "Question"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:301
+msgid "Asked"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:301
+msgid "Why"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:301
+msgid "Last asked"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:304
+msgid "Not on the site"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:304
+msgid "Needed a person"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:304
+msgid "Answer rated unhelpful"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:305
+msgid "Nothing here. Well done."
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:330
+msgid "Period"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:331
+msgid "Last 7 days"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:331
+msgid "Last 30 days"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:331
+msgid "Last 90 days"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:331
+msgid "Last 12 months"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:335
+#, js-format
+msgid "%s%% answered by the assistant alone"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:336
+msgid "Handed to a person"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:336
+#, js-format
+msgid "median wait %s"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:337
+msgid "Tickets opened"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:337
+#, js-format
+msgid "%d still open"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:338
+#, js-format
+msgid "median · average %s"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:339
+msgid "Time to solve"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:339
+#, js-format
+msgid "median · %d solved"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:340
+msgid "Customer satisfaction"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:340
+#, js-format
+msgid "%d ratings, average %s of 5"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:341
+msgid "SLA first reply met"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:341
+#, js-format
+msgid "%1$d due, %2$d missed"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:342
+msgid "Assistant answers rated"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:342
+msgid "helpful / rated"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:345
+#: assets/pro__premium_only/admin-pro.js:347
+msgid "Chats and tickets per day"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:349
+#, js-format
+msgid "%1$d chats, %2$d tickets"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:358
+msgid "Tickets answered"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:358
+msgid "Replies"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:358
+msgid "Rating"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:363
+msgid "Top topics"
+msgstr ""
+
+#: assets/pro__premium_only/admin-pro.js:364
+msgid "Where tickets came from"
 msgstr ""

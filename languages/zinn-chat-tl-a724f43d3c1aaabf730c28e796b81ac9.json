@@ -1,0 +1,337 @@
+{
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/pro__premium_only\/admin-pro.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "tl",
+                "plural-forms": "nplurals=2; plural=(n != 1 && n != 2 && n != 3 && (n%10 == 4 || n%10 == 6 || n%10 == 9));"
+            },
+            "Tickets": [
+                "Mga Ticket"
+            ],
+            "Open": [
+                "Buksan"
+            ],
+            "Chats": [
+                "Mga Chat"
+            ],
+            "Team": [
+                "Koponan"
+            ],
+            "Something went wrong. Please try again.": [
+                "Mayroong nagawang mali. Mangyaring subukang muli."
+            ],
+            "Title": [
+                "Pamagat"
+            ],
+            "Department": [
+                "Kagawaran"
+            ],
+            "Saved replies": [
+                "Mga naka-save na tugon"
+            ],
+            "Knowledge gaps": [
+                "Mga puwang sa kaalaman"
+            ],
+            "First reply": [
+                "Unang tugon"
+            ],
+            "Article": [
+                "Artikulo"
+            ],
+            "Reports": [
+                "Mga Ulat"
+            ],
+            "Agent": [
+                "Ahente"
+            ],
+            "All": [
+                "Lahat"
+            ],
+            "Page %1$d of %2$d": [
+                "Pahina %1$d ng %2$d"
+            ],
+            "Edit": [
+                "I-edit"
+            ],
+            "%d second": [
+                "%d segundo",
+                "%d segundo"
+            ],
+            "%d minute": [
+                "%d minuto",
+                "%d minuto"
+            ],
+            "%d hour": [
+                "%d na oras",
+                "%d oras"
+            ],
+            "%d day": [
+                "%d araw",
+                "%d na araw"
+            ],
+            "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
+                "Hindi matanggap ng browser na ito ang mga push notification dito. Sa isang iPhone, idagdag muna ang Inbox sa iyong Home Screen."
+            ],
+            "Notifications are blocked for this site in the browser settings.": [
+                "Naka-block ang mga notification para sa site na ito sa mga setting ng browser."
+            ],
+            "Notifications are on for this device.": [
+                "Naka-on ang mga abiso para sa aparatong ito."
+            ],
+            "Send a test notification": [
+                "Magpadala ng notification sa pagsubok"
+            ],
+            "Sent. It should appear in a few seconds.": [
+                "Naipadala na. Lalabas ito sa loob ng ilang segundo."
+            ],
+            "The push service did not accept it.": [
+                "Hindi ito tinanggap ng serbisyo ng push."
+            ],
+            "Could not turn notifications on.": [
+                "Hindi na-on ang mga notification."
+            ],
+            "Phone app and notifications": [
+                "App sa telepono at mga abiso"
+            ],
+            "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
+                "I-install ang Inbox na ito bilang isang app: sa Chrome o Edge piliin ang I-install sa address bar o menu; sa isang iPhone o iPad i-tap ang Ibahagi, pagkatapos ay Idagdag sa Home Screen. Bubukas ito nang buong screen, handang sumagot."
+            ],
+            "Turn on notifications on this device": [
+                "I-on ang mga notification sa aparatong ito"
+            ],
+            "Nothing found.": [
+                "Walang nahanap."
+            ],
+            "Search saved replies": [
+                "Maghanap ng mga naka-save na tugon"
+            ],
+            "Link an article": [
+                "Mag-link ng artikulo"
+            ],
+            "Search the knowledge base": [
+                "Maghanap sa knowledge base"
+            ],
+            "Suggest a reply": [
+                "Magrekomenda ng tugon"
+            ],
+            "Drafting\u2026": [
+                "Nagda-draft\u2026"
+            ],
+            "Replace what you have typed with the suggestion?": [
+                "Palitan ba ng mungkahi ang iyong tinalop?"
+            ],
+            "%s is writing a reply to this too.": [
+                "Sumusulat din si %s ng tugon dito."
+            ],
+            "%s is also looking at this.": [
+                "Tinitingnan din ito ni %s."
+            ],
+            "No department": [
+                "Walang departamento"
+            ],
+            "Tags, comma-separated": [
+                "Mga Tag, pinaghihiwalay ng kuwit"
+            ],
+            "Tags": [
+                "Mga Tag"
+            ],
+            "Upset customer": [
+                "Nagdaramdam na customer"
+            ],
+            "Unhappy customer": [
+                "Hindi nasisiyahang customer"
+            ],
+            "Summarise again": [
+                "Ibuod muli"
+            ],
+            "Summarise": [
+                "Ibuod"
+            ],
+            "met": [
+                "natugunan"
+            ],
+            "missed": [
+                "hindi nakuha"
+            ],
+            "overdue by %s": [
+                "lampas na sa takdang petsa nang %s"
+            ],
+            "%s left": [
+                "May natitirang %s"
+            ],
+            "Customer rating: %d of 5": [
+                "Marka ng customer: %d sa 5"
+            ],
+            "Write a KB article from this ticket": [
+                "Sumulat ng artikulo sa KB mula sa ticket na ito"
+            ],
+            "Write a help page from this ticket": [
+                "Sumulat ng pahina ng tulong mula sa tiket na ito"
+            ],
+            "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
+                "Gamitin ang mga ito mula sa mga kahon ng tugon sa chat at tiket (Mga naka-save na tugon), o i-type ang \/ at ang shortcut, pagkatapos ay isang espasyo. Awtomatikong pinupunan ang {name}, {first_name}, {agent}, {site} at {ticket} para sa iyo."
+            ],
+            "Shortcut (optional, e.g. refund)": [
+                "Shortcut (opsyonal, hal. refund)"
+            ],
+            "Text": [
+                "Text"
+            ],
+            "Every department": [
+                "Bawat departamento"
+            ],
+            "Save": [
+                "I-save"
+            ],
+            "Add saved reply": [
+                "Magdagdag ng naka-save na tugon"
+            ],
+            "No saved replies yet.": [
+                "Wala pang naka-save na tugon."
+            ],
+            "Used %d times": [
+                "Nagamit nang %d beses"
+            ],
+            "Delete": [
+                "Tanggalin"
+            ],
+            "Delete this saved reply?": [
+                "Tanggalin ang naka-save na tugon na ito?"
+            ],
+            "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
+                "Mga tanong ng mga bisita na hindi nasagot ng iyong site, ang pinakamadalas itanong ang una. Pumili ng ilan at hayaang gumawa ang AI ng artikulong sumasagot sa mga ito; i-publish ito at gagamitin ito agad ng assistant."
+            ],
+            "Recording is off (Settings, AI assistant).": [
+                "Naka-off ang pag-record (Mga Setting, AI assistant)."
+            ],
+            "Drafted": [
+                "Naka-draft"
+            ],
+            "Answered": [
+                "Nasagot na"
+            ],
+            "Ignored": [
+                "Hindi pinansin"
+            ],
+            "Draft a KB article from the selected": [
+                "Gumawa ng artikulo sa KB mula sa napili"
+            ],
+            "Draft a help page from the selected": [
+                "Mag-draft ng pahina ng tulong mula sa napili"
+            ],
+            "Mark answered": [
+                "Nilagyan ng sagot"
+            ],
+            "Ignore": [
+                "Huwag pansinin"
+            ],
+            "Question": [
+                "Tanong"
+            ],
+            "Asked": [
+                "Itinanong"
+            ],
+            "Why": [
+                "Bakit"
+            ],
+            "Last asked": [
+                "Huling tinanong"
+            ],
+            "Not on the site": [
+                "Wala sa site"
+            ],
+            "Needed a person": [
+                "Kailangan ng tao"
+            ],
+            "Answer rated unhelpful": [
+                "Na-rate ang sagot bilang hindi kapaki-pakinabang"
+            ],
+            "Nothing here. Well done.": [
+                "Walang anuman dito. Magaling."
+            ],
+            "Period": [
+                "Panahon"
+            ],
+            "Last 7 days": [
+                "Huling 7 na araw"
+            ],
+            "Last 30 days": [
+                "Huling 30 araw"
+            ],
+            "Last 90 days": [
+                "Huling 90 araw"
+            ],
+            "Last 12 months": [
+                "Huling 12 na buwan"
+            ],
+            "%s%% answered by the assistant alone": [
+                "%s%% ay sinagot ng assistant lamang"
+            ],
+            "Handed to a person": [
+                "Ipinasa sa isang tao"
+            ],
+            "median wait %s": [
+                "gitnang oras ng paghihintay %s"
+            ],
+            "Tickets opened": [
+                "Mga tiket na binuksan"
+            ],
+            "%d still open": [
+                "%d ang bukas pa rin"
+            ],
+            "median \u00b7 average %s": [
+                "median \u00b7 average %s"
+            ],
+            "Time to solve": [
+                "Oras para lutasin"
+            ],
+            "median \u00b7 %d solved": [
+                "median \u00b7 %d naayos"
+            ],
+            "Customer satisfaction": [
+                "Kasiyahan ng Kustomer"
+            ],
+            "%d ratings, average %s of 5": [
+                "%d na rating, average na %s sa 5"
+            ],
+            "SLA first reply met": [
+                "Naabot ang unang tugon sa SLA"
+            ],
+            "%1$d due, %2$d missed": [
+                "%1$d ang may utang, %2$d ang lumaktaw"
+            ],
+            "Assistant answers rated": [
+                "Na-rate na mga sagot ng assistant"
+            ],
+            "helpful \/ rated": [
+                "kapaki-pakinabang \/ may rating"
+            ],
+            "Chats and tickets per day": [
+                "Mga chat at tiket kada araw"
+            ],
+            "%1$d chats, %2$d tickets": [
+                "%1$d na chat, %2$d na ticket"
+            ],
+            "Tickets answered": [
+                "Nasagot na ang mga tiket"
+            ],
+            "Replies": [
+                "Mga Tugon"
+            ],
+            "Rating": [
+                "Marka"
+            ],
+            "Top topics": [
+                "Mga pangunahing paksa"
+            ],
+            "Where tickets came from": [
+                "Kung saan nagmula ang mga tiket"
+            ]
+        }
+    }
+}

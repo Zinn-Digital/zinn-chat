@@ -1,0 +1,333 @@
+{
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/pro__premium_only\/admin-pro.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "vi",
+                "plural-forms": "nplurals=1; plural=0;"
+            },
+            "Tickets": [
+                "Y\u00eau c\u1ea7u h\u1ed7 tr\u1ee3"
+            ],
+            "Open": [
+                "M\u1edf"
+            ],
+            "Chats": [
+                "Tr\u00f2 chuy\u1ec7n"
+            ],
+            "Team": [
+                "Nh\u00f3m"
+            ],
+            "Something went wrong. Please try again.": [
+                "\u0110\u00e3 x\u1ea3y ra l\u1ed7i. Vui l\u00f2ng th\u1eed l\u1ea1i."
+            ],
+            "Title": [
+                "Ti\u00eau \u0111\u1ec1"
+            ],
+            "Department": [
+                "Ph\u00f2ng ban"
+            ],
+            "Saved replies": [
+                "C\u00e2u tr\u1ea3 l\u1eddi \u0111\u00e3 l\u01b0u"
+            ],
+            "Knowledge gaps": [
+                "Kho\u1ea3ng tr\u1ed1ng ki\u1ebfn th\u1ee9c"
+            ],
+            "First reply": [
+                "Ph\u1ea3n h\u1ed3i \u0111\u1ea7u ti\u00ean"
+            ],
+            "Article": [
+                "B\u00e0i vi\u1ebft"
+            ],
+            "Reports": [
+                "B\u00e1o c\u00e1o"
+            ],
+            "Agent": [
+                "\u0110\u1ea1i l\u00fd"
+            ],
+            "All": [
+                "T\u1ea5t c\u1ea3"
+            ],
+            "Page %1$d of %2$d": [
+                "Trang %1$d \/ %2$d"
+            ],
+            "Edit": [
+                "Ch\u1ec9nh s\u1eeda"
+            ],
+            "%d second": [
+                "%d gi\u00e2y"
+            ],
+            "%d minute": [
+                "%d ph\u00fat"
+            ],
+            "%d hour": [
+                "%d gi\u1edd"
+            ],
+            "%d day": [
+                "%d ng\u00e0y"
+            ],
+            "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
+                "Tr\u00ecnh duy\u1ec7t n\u00e0y kh\u00f4ng th\u1ec3 nh\u1eadn th\u00f4ng b\u00e1o \u0111\u1ea9y \u1edf \u0111\u00e2y. Tr\u00ean iPhone, tr\u01b0\u1edbc ti\u00ean h\u00e3y th\u00eam H\u1ed9p th\u01b0 \u0111\u1ebfn v\u00e0o M\u00e0n h\u00ecnh ch\u00ednh c\u1ee7a b\u1ea1n."
+            ],
+            "Notifications are blocked for this site in the browser settings.": [
+                "Th\u00f4ng b\u00e1o \u0111ang b\u1ecb ch\u1eb7n \u0111\u1ed1i v\u1edbi trang web n\u00e0y trong c\u00e0i \u0111\u1eb7t tr\u00ecnh duy\u1ec7t."
+            ],
+            "Notifications are on for this device.": [
+                "Th\u00f4ng b\u00e1o \u0111\u00e3 \u0111\u01b0\u1ee3c b\u1eadt cho thi\u1ebft b\u1ecb n\u00e0y."
+            ],
+            "Send a test notification": [
+                "G\u1eedi th\u00f4ng b\u00e1o ki\u1ec3m tra"
+            ],
+            "Sent. It should appear in a few seconds.": [
+                "\u0110\u00e3 g\u1eedi. Thao t\u00e1c n\u00e0y s\u1ebd ho\u00e0n t\u1ea5t sau v\u00e0i gi\u00e2y."
+            ],
+            "The push service did not accept it.": [
+                "D\u1ecbch v\u1ee5 \u0111\u1ea9y kh\u00f4ng ch\u1ea5p nh\u1eadn n\u00f3."
+            ],
+            "Could not turn notifications on.": [
+                "Kh\u00f4ng th\u1ec3 b\u1eadt th\u00f4ng b\u00e1o."
+            ],
+            "Phone app and notifications": [
+                "\u1ee8ng d\u1ee5ng \u0111i\u1ec7n tho\u1ea1i v\u00e0 th\u00f4ng b\u00e1o"
+            ],
+            "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
+                "C\u00e0i \u0111\u1eb7t H\u1ed9p th\u01b0 \u0111\u1ebfn n\u00e0y l\u00e0m \u1ee9ng d\u1ee5ng: trong Chrome ho\u1eb7c Edge, h\u00e3y ch\u1ecdn C\u00e0i \u0111\u1eb7t trong thanh \u0111\u1ecba ch\u1ec9 ho\u1eb7c menu; tr\u00ean iPhone ho\u1eb7c iPad, h\u00e3y nh\u1ea5n v\u00e0o Chia s\u1ebb, sau \u0111\u00f3 ch\u1ecdn Th\u00eam v\u00e0o M\u00e0n h\u00ecnh ch\u00ednh. \u1ee8ng d\u1ee5ng n\u00e0y s\u1ebd m\u1edf \u1edf ch\u1ebf \u0111\u1ed9 to\u00e0n m\u00e0n h\u00ecnh, s\u1eb5n s\u00e0ng ph\u1ea3n h\u1ed3i."
+            ],
+            "Turn on notifications on this device": [
+                "B\u1eadt th\u00f4ng b\u00e1o tr\u00ean thi\u1ebft b\u1ecb n\u00e0y"
+            ],
+            "Nothing found.": [
+                "Kh\u00f4ng t\u00ecm th\u1ea5y k\u1ebft qu\u1ea3 n\u00e0o."
+            ],
+            "Search saved replies": [
+                "T\u00ecm ki\u1ebfm c\u00e2u tr\u1ea3 l\u1eddi \u0111\u00e3 l\u01b0u"
+            ],
+            "Link an article": [
+                "Li\u00ean k\u1ebft b\u00e0i vi\u1ebft"
+            ],
+            "Search the knowledge base": [
+                "T\u00ecm ki\u1ebfm c\u01a1 s\u1edf ki\u1ebfn th\u1ee9c"
+            ],
+            "Suggest a reply": [
+                "\u0110\u1ec1 xu\u1ea5t tr\u1ea3 l\u1eddi"
+            ],
+            "Drafting\u2026": [
+                "\u0110ang so\u1ea1n th\u1ea3o\u2026"
+            ],
+            "Replace what you have typed with the suggestion?": [
+                "Thay th\u1ebf n\u1ed9i dung b\u1ea1n \u0111\u00e3 nh\u1eadp b\u1eb1ng g\u1ee3i \u00fd n\u00e0y kh\u00f4ng?"
+            ],
+            "%s is writing a reply to this too.": [
+                "%s c\u0169ng \u0111ang vi\u1ebft ph\u1ea3n h\u1ed3i cho m\u1ee5c n\u00e0y."
+            ],
+            "%s is also looking at this.": [
+                "%s c\u0169ng \u0111ang xem m\u1ee5c n\u00e0y."
+            ],
+            "No department": [
+                "Kh\u00f4ng c\u00f3 ph\u00f2ng ban"
+            ],
+            "Tags, comma-separated": [
+                "Th\u1ebb, ph\u00e2n t\u00e1ch b\u1eb1ng d\u1ea5u ph\u1ea9y"
+            ],
+            "Tags": [
+                "Th\u1ebb"
+            ],
+            "Upset customer": [
+                "Kh\u00e1ch h\u00e0ng ph\u00e0n n\u00e0n"
+            ],
+            "Unhappy customer": [
+                "Kh\u00e1ch h\u00e0ng kh\u00f4ng h\u00e0i l\u00f2ng"
+            ],
+            "Summarise again": [
+                "T\u00f3m t\u1eaft l\u1ea1i"
+            ],
+            "Summarise": [
+                "T\u00f3m t\u1eaft"
+            ],
+            "met": [
+                "\u0111\u00e3 g\u1eb7p"
+            ],
+            "missed": [
+                "b\u1ecf l\u1ee1"
+            ],
+            "overdue by %s": [
+                "qu\u00e1 h\u1ea1n %s"
+            ],
+            "%s left": [
+                "c\u00f2n l\u1ea1i %s"
+            ],
+            "Customer rating: %d of 5": [
+                "\u0110\u00e1nh gi\u00e1 c\u1ee7a kh\u00e1ch h\u00e0ng: %d tr\u00ean 5"
+            ],
+            "Write a KB article from this ticket": [
+                "Vi\u1ebft m\u1ed9t b\u00e0i vi\u1ebft c\u01a1 s\u1edf ki\u1ebfn th\u1ee9c t\u1eeb phi\u1ebfu h\u1ed7 tr\u1ee3 n\u00e0y"
+            ],
+            "Write a help page from this ticket": [
+                "Vi\u1ebft m\u1ed9t trang tr\u1ee3 gi\u00fap t\u1eeb phi\u1ebfu h\u1ed7 tr\u1ee3 n\u00e0y"
+            ],
+            "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
+                "S\u1eed d\u1ee5ng ch\u00fang t\u1eeb c\u00e1c h\u1ed9p tr\u1ea3 l\u1eddi tr\u00f2 chuy\u1ec7n v\u00e0 phi\u1ebfu h\u1ed7 tr\u1ee3 (C\u00e2u tr\u1ea3 l\u1eddi \u0111\u00e3 l\u01b0u), ho\u1eb7c g\u00f5 \/ v\u00e0 ph\u00edm t\u1eaft, sau \u0111\u00f3 nh\u1ea5n kho\u1ea3ng tr\u1eafng. {name}, {first_name}, {agent}, {site} v\u00e0 {ticket} \u0111\u01b0\u1ee3c \u0111i\u1ec1n t\u1ef1 \u0111\u1ed9ng cho b\u1ea1n."
+            ],
+            "Shortcut (optional, e.g. refund)": [
+                "Ph\u00edm t\u1eaft (t\u00f9y ch\u1ecdn, v\u00ed d\u1ee5: ho\u00e0n ti\u1ec1n)"
+            ],
+            "Text": [
+                "V\u0103n b\u1ea3n"
+            ],
+            "Every department": [
+                "M\u1ecdi ph\u00f2ng ban"
+            ],
+            "Save": [
+                "L\u01b0u"
+            ],
+            "Add saved reply": [
+                "Th\u00eam c\u00e2u tr\u1ea3 l\u1eddi \u0111\u00e3 l\u01b0u"
+            ],
+            "No saved replies yet.": [
+                "Ch\u01b0a c\u00f3 c\u00e2u tr\u1ea3 l\u1eddi n\u00e0o \u0111\u01b0\u1ee3c l\u01b0u."
+            ],
+            "Used %d times": [
+                "\u0110\u00e3 d\u00f9ng %d l\u1ea7n"
+            ],
+            "Delete": [
+                "X\u00f3a"
+            ],
+            "Delete this saved reply?": [
+                "X\u00f3a c\u00e2u tr\u1ea3 l\u1eddi \u0111\u00e3 l\u01b0u n\u00e0y?"
+            ],
+            "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
+                "C\u00e1c c\u00e2u h\u1ecfi c\u1ee7a kh\u00e1ch truy c\u1eadp m\u00e0 trang web c\u1ee7a b\u1ea1n ch\u01b0a tr\u1ea3 l\u1eddi \u0111\u01b0\u1ee3c, s\u1eafp x\u1ebfp theo th\u1ee9 t\u1ef1 c\u00e2u h\u1ecfi \u0111\u01b0\u1ee3c h\u1ecfi nhi\u1ec1u nh\u1ea5t l\u00ean \u0111\u1ea7u. H\u00e3y ch\u1ecdn m\u1ed9t s\u1ed1 c\u00e2u h\u1ecfi v\u00e0 \u0111\u1ec3 AI so\u1ea1n m\u1ed9t b\u00e0i vi\u1ebft gi\u1ea3i \u0111\u00e1p; xu\u1ea5t b\u1ea3n b\u00e0i vi\u1ebft \u0111\u00f3 v\u00e0 tr\u1ee3 l\u00fd s\u1ebd s\u1eed d\u1ee5ng ngay l\u1eadp t\u1ee9c."
+            ],
+            "Recording is off (Settings, AI assistant).": [
+                "Qu\u00e1 tr\u00ecnh ghi \u00e2m \u0111ang t\u1eaft (C\u00e0i \u0111\u1eb7t, Tr\u1ee3 l\u00fd AI)."
+            ],
+            "Drafted": [
+                "B\u1ea3n nh\u00e1p"
+            ],
+            "Answered": [
+                "\u0110\u00e3 tr\u1ea3 l\u1eddi"
+            ],
+            "Ignored": [
+                "\u0110\u00e3 b\u1ecf qua"
+            ],
+            "Draft a KB article from the selected": [
+                "So\u1ea1n m\u1ed9t b\u00e0i vi\u1ebft trong c\u01a1 s\u1edf tri th\u1ee9c t\u1eeb m\u1ee5c \u0111\u00e3 ch\u1ecdn"
+            ],
+            "Draft a help page from the selected": [
+                "So\u1ea1n th\u1ea3o m\u1ed9t trang tr\u1ee3 gi\u00fap t\u1eeb n\u1ed9i dung \u0111\u00e3 ch\u1ecdn"
+            ],
+            "Mark answered": [
+                "\u0110\u00e3 tr\u1ea3 l\u1eddi"
+            ],
+            "Ignore": [
+                "B\u1ecf qua"
+            ],
+            "Question": [
+                "C\u00e2u h\u1ecfi"
+            ],
+            "Asked": [
+                "\u0110\u00e3 h\u1ecfi"
+            ],
+            "Why": [
+                "T\u1ea1i sao"
+            ],
+            "Last asked": [
+                "L\u1ea7n h\u1ecfi g\u1ea7n nh\u1ea5t"
+            ],
+            "Not on the site": [
+                "Kh\u00f4ng c\u00f3 tr\u00ean trang"
+            ],
+            "Needed a person": [
+                "C\u1ea7n ng\u01b0\u1eddi"
+            ],
+            "Answer rated unhelpful": [
+                "C\u00e2u tr\u1ea3 l\u1eddi \u0111\u01b0\u1ee3c \u0111\u00e1nh gi\u00e1 l\u00e0 kh\u00f4ng h\u1eefu \u00edch"
+            ],
+            "Nothing here. Well done.": [
+                "Kh\u00f4ng c\u00f3 g\u00ec \u1edf \u0111\u00e2y c\u1ea3. L\u00e0m t\u1ed1t l\u1eafm."
+            ],
+            "Period": [
+                "Chu k\u1ef3"
+            ],
+            "Last 7 days": [
+                "7 ng\u00e0y qua"
+            ],
+            "Last 30 days": [
+                "30 ng\u00e0y qua"
+            ],
+            "Last 90 days": [
+                "90 ng\u00e0y qua"
+            ],
+            "Last 12 months": [
+                "12 th\u00e1ng qua"
+            ],
+            "%s%% answered by the assistant alone": [
+                "%s%% \u0111\u01b0\u1ee3c tr\u1ea3 l\u1eddi ho\u00e0n to\u00e0n b\u1edfi tr\u1ee3 l\u00fd"
+            ],
+            "Handed to a person": [
+                "\u0110\u00e3 giao cho m\u1ed9t ng\u01b0\u1eddi"
+            ],
+            "median wait %s": [
+                "th\u1eddi gian ch\u1edd trung b\u00ecnh %s"
+            ],
+            "Tickets opened": [
+                "Y\u00eau c\u1ea7u h\u1ed7 tr\u1ee3 \u0111\u00e3 m\u1edf"
+            ],
+            "%d still open": [
+                "C\u00f2n l\u1ea1i %d trang m\u1edf"
+            ],
+            "median \u00b7 average %s": [
+                "s\u1ed1 trung v\u1ecb \u00b7 trung b\u00ecnh %s"
+            ],
+            "Time to solve": [
+                "Th\u1eddi gian gi\u1ea3i quy\u1ebft"
+            ],
+            "median \u00b7 %d solved": [
+                "trung b\u00ecnh \u00b7 %d \u0111\u00e3 gi\u1ea3i quy\u1ebft"
+            ],
+            "Customer satisfaction": [
+                "\u0110\u1ed9 h\u00e0i l\u00f2ng c\u1ee7a kh\u00e1ch h\u00e0ng"
+            ],
+            "%d ratings, average %s of 5": [
+                "%d \u0111\u00e1nh gi\u00e1, trung b\u00ecnh %s tr\u00ean 5"
+            ],
+            "SLA first reply met": [
+                "\u0110\u00e3 \u0111\u1ea1t ph\u1ea3n h\u1ed3i \u0111\u1ea7u ti\u00ean theo SLA"
+            ],
+            "%1$d due, %2$d missed": [
+                "C\u00f2n %1$d h\u1ea1n, b\u1ecf l\u1ee1 %2$d"
+            ],
+            "Assistant answers rated": [
+                "\u0110\u00e3 \u0111\u00e1nh gi\u00e1 c\u00e2u tr\u1ea3 l\u1eddi c\u1ee7a tr\u1ee3 l\u00fd"
+            ],
+            "helpful \/ rated": [
+                "h\u1eefu \u00edch \/ \u0111\u01b0\u1ee3c \u0111\u00e1nh gi\u00e1 cao"
+            ],
+            "Chats and tickets per day": [
+                "\u0110o\u1ea1n chat v\u00e0 phi\u1ebfu h\u1ed7 tr\u1ee3 m\u1ed7i ng\u00e0y"
+            ],
+            "%1$d chats, %2$d tickets": [
+                "%1$d \u0111o\u1ea1n chat, %2$d phi\u1ebfu h\u1ed7 tr\u1ee3"
+            ],
+            "Tickets answered": [
+                "\u0110\u00e3 tr\u1ea3 l\u1eddi phi\u1ebfu h\u1ed7 tr\u1ee3"
+            ],
+            "Replies": [
+                "Tr\u1ea3 l\u1eddi"
+            ],
+            "Rating": [
+                "X\u1ebfp h\u1ea1ng"
+            ],
+            "Top topics": [
+                "Ch\u1ee7 \u0111\u1ec1 ph\u1ed5 bi\u1ebfn"
+            ],
+            "Where tickets came from": [
+                "Ngu\u1ed3n g\u1ed1c phi\u1ebfu h\u1ed7 tr\u1ee3"
+            ]
+        }
+    }
+}

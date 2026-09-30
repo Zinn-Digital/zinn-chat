@@ -1,0 +1,337 @@
+{
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/pro__premium_only\/admin-pro.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "ha",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Tickets": [
+                "Tiketi"
+            ],
+            "Open": [
+                "Bu\u0257e"
+            ],
+            "Chats": [
+                "Tattaunawa"
+            ],
+            "Team": [
+                "\u0198ungiya"
+            ],
+            "Something went wrong. Please try again.": [
+                "Wani abu ya tafi ba daidai ba. Don Allah a sake gwadawa."
+            ],
+            "Title": [
+                "Taken taken taken taken"
+            ],
+            "Department": [
+                "Ma'aikata"
+            ],
+            "Saved replies": [
+                "Ajiye amsoshi"
+            ],
+            "Knowledge gaps": [
+                "Rash thumbnailUrl ko Ilimi"
+            ],
+            "First reply": [
+                "Amsa ta farko"
+            ],
+            "Article": [
+                "Labari"
+            ],
+            "Reports": [
+                "Rahotanni"
+            ],
+            "Agent": [
+                "Wakili"
+            ],
+            "All": [
+                "Duka"
+            ],
+            "Page %1$d of %2$d": [
+                "Shafi %1$d na %2$d"
+            ],
+            "Edit": [
+                "Gyara"
+            ],
+            "%d second": [
+                "%d da\u0199i\u0199a",
+                "da\u0199i\u0199a %d"
+            ],
+            "%d minute": [
+                "minti %d",
+                "minti %d"
+            ],
+            "%d hour": [
+                "awa %d",
+                "awa %d"
+            ],
+            "%d day": [
+                "rana %d",
+                "kwanaki %d"
+            ],
+            "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
+                "Wannan burauza ba za ta iya kar\u0253ar sanarwar turawa a nan ba. A kan iPhone, \u0199ara Inbox \u0257in zuwa Fuskar Gida taka da farko."
+            ],
+            "Notifications are blocked for this site in the browser settings.": [
+                "An hana sanarwa a wannan rukunin yanar gizon a cikin saitunan burauzarka."
+            ],
+            "Notifications are on for this device.": [
+                "An kunna sanarwa a kan wannan na'urar."
+            ],
+            "Send a test notification": [
+                "Aiko da sanarwar gwaji"
+            ],
+            "Sent. It should appear in a few seconds.": [
+                "An tura. Zai bayyana a cikin 'yan da\u0199i\u0199a ka\u0257an."
+            ],
+            "The push service did not accept it.": [
+                "Sabis din turawa bai kar\u0253e shi ba."
+            ],
+            "Could not turn notifications on.": [
+                "Ba a iya kunna sanarwa ba."
+            ],
+            "Phone app and notifications": [
+                "Manhajar waya da sanarwa"
+            ],
+            "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
+                "Sanya wannan Akwatin Sa\u0199on a matsayin aikace-aikace: a cikin Chrome ko Edge za\u0253i Shigar a mashigin adireshi ko menu; a kan iPhone ko iPad danna Raba, sannan Sanya zuwa Allon Gida. Yana bu\u0257e a babban allo, a shirye don amsa."
+            ],
+            "Turn on notifications on this device": [
+                "Kunna sanarwa a kan wannan na'urar"
+            ],
+            "Nothing found.": [
+                "Ba a sami komai ba."
+            ],
+            "Search saved replies": [
+                "Binciko abubuwan da aka adana"
+            ],
+            "Link an article": [
+                "Ha\u0257a wani labari"
+            ],
+            "Search the knowledge base": [
+                "Binciko tushen ilimi"
+            ],
+            "Suggest a reply": [
+                "Ba da shawarar martani"
+            ],
+            "Drafting\u2026": [
+                "Ana rubutawa\u2026"
+            ],
+            "Replace what you have typed with the suggestion?": [
+                "Ka maye gurbin abin da ka buga tare da shawarar?"
+            ],
+            "%s is writing a reply to this too.": [
+                "%s yana rubuta martani ga wannan ma."
+            ],
+            "%s is also looking at this.": [
+                "%s ma yana kallon wannan."
+            ],
+            "No department": [
+                "Babu sashe"
+            ],
+            "Tags, comma-separated": [
+                "Alamomi, an raba su da wa\u0199afi"
+            ],
+            "Tags": [
+                "Alamomi"
+            ],
+            "Upset customer": [
+                "Abokin ciniki da bai gamsu ba"
+            ],
+            "Unhappy customer": [
+                "Abokin ciniki da ba shi da farin ciki"
+            ],
+            "Summarise again": [
+                "Maimaita takaitawa"
+            ],
+            "Summarise": [
+                "Takaita"
+            ],
+            "met": [
+                "hade"
+            ],
+            "missed": [
+                "ba a yi ba"
+            ],
+            "overdue by %s": [
+                "ta da\u0257e da lokacin biya da %s"
+            ],
+            "%s left": [
+                "%s ya rage"
+            ],
+            "Customer rating: %d of 5": [
+                "Matsayin abokin ciniki: %d daga cikin 5"
+            ],
+            "Write a KB article from this ticket": [
+                "Rubuta labarin tushen ilimi daga wannan tikitin"
+            ],
+            "Write a help page from this ticket": [
+                "Rubuta shafin taimako daga wannan tikitin"
+            ],
+            "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
+                "Yi amfani da su daga akwatunan tattaunawa da amsa tikiti (Amsoshin da aka adana), ko ka buga \/ da gajerar hanya, sannan tazara. Ana cika maka {name}, {first_name}, {agent}, {site} da {ticket}."
+            ],
+            "Shortcut (optional, e.g. refund)": [
+                "Gajeren hanya (na za\u0253i, misali. maidawa)"
+            ],
+            "Text": [
+                "Rubutu"
+            ],
+            "Every department": [
+                "Kowane sashe"
+            ],
+            "Save": [
+                "Ajiye"
+            ],
+            "Add saved reply": [
+                "\u0198ara amsar da aka adana"
+            ],
+            "No saved replies yet.": [
+                "Babu ajiyayyen martani tukuna."
+            ],
+            "Used %d times": [
+                "An yi amfani da shi sau %d"
+            ],
+            "Delete": [
+                "Goge"
+            ],
+            "Delete this saved reply?": [
+                "Shin ka share wannan amsar da aka adana?"
+            ],
+            "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
+                "Tambayoyin da ba\u0199i suka yi wa\u0257anda shafinku bai iya amsawa ba, wanda aka fi yi da farko. Za\u0253i wasu kuma bar AI ta tsara wani labari da zai amsa musu; buga shi kuma mataimakin yana amfani da shi lokaci guda."
+            ],
+            "Recording is off (Settings, AI assistant).": [
+                "An cire rikodin (Saitunan, mataimakin AI)."
+            ],
+            "Drafted": [
+                "An rubuta shi"
+            ],
+            "Answered": [
+                "An amsa"
+            ],
+            "Ignored": [
+                "An yi watsi da shi"
+            ],
+            "Draft a KB article from the selected": [
+                "Rubuta labarin KB daga wanda aka za\u0253a"
+            ],
+            "Draft a help page from the selected": [
+                "Yi daftarin shafin taimako daga wanda aka za\u0253a"
+            ],
+            "Mark answered": [
+                "An amsa alamari"
+            ],
+            "Ignore": [
+                "Yi watsi"
+            ],
+            "Question": [
+                "Tambaya"
+            ],
+            "Asked": [
+                "An tambaya"
+            ],
+            "Why": [
+                "Me yasa"
+            ],
+            "Last asked": [
+                "An yi tambaya ta \u0199arshe"
+            ],
+            "Not on the site": [
+                "Ba a kan shafin ba"
+            ],
+            "Needed a person": [
+                "Ana bu\u0199atar mutum"
+            ],
+            "Answer rated unhelpful": [
+                "An amsa da bai da amfani"
+            ],
+            "Nothing here. Well done.": [
+                "Babu komai anan. An yi kokari."
+            ],
+            "Period": [
+                "Lokaci"
+            ],
+            "Last 7 days": [
+                "Kwanaki 7 da suka wuce"
+            ],
+            "Last 30 days": [
+                "Kwanaki 30 da suka wuce"
+            ],
+            "Last 90 days": [
+                "Kwanaki 90 da suka wuce"
+            ],
+            "Last 12 months": [
+                "Watanni 12 da suka gabata"
+            ],
+            "%s%% answered by the assistant alone": [
+                "%s%% wanda mai taimakawa ya amsa shi ka\u0257ai"
+            ],
+            "Handed to a person": [
+                "An mika shi ga mutum"
+            ],
+            "median wait %s": [
+                "tsakiyar lokacin jiran %s"
+            ],
+            "Tickets opened": [
+                "An bu\u0257e tikiti"
+            ],
+            "%d still open": [
+                "%d a bude har yanzu"
+            ],
+            "median \u00b7 average %s": [
+                "matsakaici \u00b7 matsakaicin %s"
+            ],
+            "Time to solve": [
+                "Lokacin magance matsala"
+            ],
+            "median \u00b7 %d solved": [
+                "matsakaita \u00b7 an magance %d"
+            ],
+            "Customer satisfaction": [
+                "Gamsharwar abokin ciniki"
+            ],
+            "%d ratings, average %s of 5": [
+                "%d \u0199ididdiga, matsakaicin %s na 5"
+            ],
+            "SLA first reply met": [
+                "An cika wa'adin amsa na farko na SLA"
+            ],
+            "%1$d due, %2$d missed": [
+                "%1$d da ake bi, %2$d da aka rasa"
+            ],
+            "Assistant answers rated": [
+                "An amsa mataimaki"
+            ],
+            "helpful \/ rated": [
+                "mai amfani \/ an \u0199ima"
+            ],
+            "Chats and tickets per day": [
+                "Hirarraki da tikiti a kowace rana"
+            ],
+            "%1$d chats, %2$d tickets": [
+                "Hirarra %1$d, tikiti %2$d"
+            ],
+            "Tickets answered": [
+                "An amsa tikiti"
+            ],
+            "Replies": [
+                "Martani"
+            ],
+            "Rating": [
+                "Matsayi"
+            ],
+            "Top topics": [
+                "Muhimman batutuwa"
+            ],
+            "Where tickets came from": [
+                "Indar da tikitin suka fito"
+            ]
+        }
+    }
+}

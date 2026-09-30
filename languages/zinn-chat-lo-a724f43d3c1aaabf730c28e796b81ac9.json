@@ -1,0 +1,333 @@
+{
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/pro__premium_only\/admin-pro.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "lo",
+                "plural-forms": "nplurals=1; plural=0;"
+            },
+            "Tickets": [
+                "\u0e9b\u0eb5\u0ec9\u0e8a\u0ec8\u0ea7\u0e8d\u0ec0\u0eab\u0ebc\u0eb7\u0ead"
+            ],
+            "Open": [
+                "\u0ec0\u0e9b\u0eb5\u0e94"
+            ],
+            "Chats": [
+                "\u0e81\u0eb2\u0e99\u0eaa\u0ebb\u0e99\u0e97\u0eb0\u0e99\u0eb2"
+            ],
+            "Team": [
+                "\u0e97\u0eb5\u0ea1"
+            ],
+            "Something went wrong. Please try again.": [
+                "\u0ea1\u0eb5\u0e9a\u0eb2\u0e87\u0ea2\u0ec8\u0eb2\u0e87\u0e9c\u0eb4\u0e94\u0e9e\u0eb2\u0e94. \u0e81\u0eb0\u0ea5\u0eb8\u0e99\u0eb2\u0ea5\u0ead\u0e87\u0ec3\u0edd\u0ec8\u0ead\u0eb5\u0e81\u0e84\u0eb1\u0ec9\u0e87."
+            ],
+            "Title": [
+                "\u0eab\u0ebb\u0ea7\u0e82\u0ecd\u0ec9"
+            ],
+            "Department": [
+                "\u0e9e\u0eb0\u0ec1\u0e99\u0e81"
+            ],
+            "Saved replies": [
+                "\u0e84\u0eb3\u0e95\u0ead\u0e9a\u0e97\u0eb5\u0ec8\u0e9a\u0eb1\u0e99\u0e97\u0eb6\u0e81\u0ec4\u0ea7\u0ec9"
+            ],
+            "Knowledge gaps": [
+                "\u0e8a\u0ec8\u0ead\u0e87\u0eab\u0ea7\u0ec8\u0eb2\u0e87\u0e84\u0ea7\u0eb2\u0ea1\u0eae\u0eb9\u0ec9"
+            ],
+            "First reply": [
+                "\u0e84\u0eb3\u0e95\u0ead\u0e9a\u0e97\u0eb3\u0ead\u0eb4\u0e94"
+            ],
+            "Article": [
+                "\u0e9a\u0ebb\u0e94\u0e84\u0ea7\u0eb2\u0ea1"
+            ],
+            "Reports": [
+                "\u0e9a\u0ebb\u0e94\u0ea5\u0eb2\u0e8d\u0e87\u0eb2\u0e99"
+            ],
+            "Agent": [
+                "\u0e95\u0ebb\u0ea7\u0ec1\u0e97\u0e99"
+            ],
+            "All": [
+                "\u0e97\u0eb1\u0e87\u0edd\u0ebb\u0e94"
+            ],
+            "Page %1$d of %2$d": [
+                "\u0edc\u0ec9\u0eb2 %1$d \u0e88\u0eb2\u0e81 %2$d"
+            ],
+            "Edit": [
+                "\u0ec1\u0e81\u0ec9\u0ec4\u0e82"
+            ],
+            "%d second": [
+                "%d \u0ea7\u0eb4\u0e99\u0eb2\u0e97\u0eb5"
+            ],
+            "%d minute": [
+                "%d \u0e99\u0eb2\u0e97\u0eb5"
+            ],
+            "%d hour": [
+                "%d \u0e8a\u0ebb\u0ec8\u0ea7\u0ec2\u0ea1\u0e87"
+            ],
+            "%d day": [
+                "%d \u0ea7\u0eb1\u0e99"
+            ],
+            "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
+                "\u0ec0\u0e9a\u0ebb\u0eb2\u0ec0\u0e8a\u0eb5\u0e99\u0eb5\u0ec9\u0e9a\u0ecd\u0ec8\u0eaa\u0eb2\u0ea1\u0eb2\u0e94\u0eae\u0eb1\u0e9a\u0e81\u0eb2\u0e99\u0ec1\u0e88\u0ec9\u0e87\u0ec0\u0e95\u0eb7\u0ead\u0e99\u0ec1\u0e9a\u0e9a\u0e9e\u0eb8\u0e94\u0ec3\u0e99\u0e97\u0eb5\u0ec8\u0e99\u0eb5\u0ec9\u0ec4\u0e94\u0ec9. \u0ea2\u0eb9\u0ec8\u0ec3\u0e99 iPhone, \u0ec3\u0eab\u0ec9\u0ec0\u0e9e\u0eb5\u0ec8\u0ea1 Inbox \u0ec3\u0eaa\u0ec8\u0edc\u0ec9\u0eb2\u0e88\u0ecd\u0eab\u0ebc\u0eb1\u0e81\u0e82\u0ead\u0e87\u0e97\u0ec8\u0eb2\u0e99\u0e81\u0ec8\u0ead\u0e99."
+            ],
+            "Notifications are blocked for this site in the browser settings.": [
+                "\u0e81\u0eb2\u0e99\u0ec1\u0e88\u0ec9\u0e87\u0ec0\u0e95\u0eb7\u0ead\u0e99\u0e96\u0eb7\u0e81\u0e9a\u0ea5\u0eb1\u0ead\u0e81\u0ec4\u0ea7\u0ec9\u0eaa\u0eb3\u0ea5\u0eb1\u0e9a\u0ec0\u0ea7\u0eb1\u0e9a\u0ec4\u0e8a\u0e99\u0eb5\u0ec9\u0ec3\u0e99\u0e81\u0eb2\u0e99\u0e95\u0eb1\u0ec9\u0e87\u0e84\u0ec8\u0eb2\u0e82\u0ead\u0e87\u0e9a\u0ea3\u0eb2\u0ea7\u0ec0\u0e8a\u0eb5."
+            ],
+            "Notifications are on for this device.": [
+                "\u0e81\u0eb2\u0e99\u0ec1\u0e88\u0ec9\u0e87\u0ec0\u0e95\u0eb7\u0ead\u0e99\u0ec0\u0e9b\u0eb5\u0e94\u0ea2\u0eb9\u0ec8\u0ec3\u0e99\u0ead\u0eb8\u0e9b\u0eb0\u0e81\u0ead\u0e99\u0e99\u0eb5\u0ec9."
+            ],
+            "Send a test notification": [
+                "\u0eaa\u0ebb\u0ec8\u0e87\u0e81\u0eb2\u0e99\u0ec1\u0e88\u0ec9\u0e87\u0ec0\u0e95\u0eb7\u0ead\u0e99\u0e97\u0ebb\u0e94\u0eaa\u0ead\u0e9a"
+            ],
+            "Sent. It should appear in a few seconds.": [
+                "\u0eaa\u0ebb\u0ec8\u0e87\u0ec1\u0ea5\u0ec9\u0ea7. \u0ea1\u0eb1\u0e99\u0e84\u0ea7\u0e99\u0e88\u0eb0\u0e9b\u0eb0\u0e81\u0ebb\u0e94\u0e82\u0eb6\u0ec9\u0e99\u0ec3\u0e99\u0ead\u0eb5\u0e81\u0eaa\u0ead\u0e87\u0eb2\u0ea1\u0ea7\u0eb4\u0e99\u0eb2\u0e97\u0eb5."
+            ],
+            "The push service did not accept it.": [
+                "\u0e9a\u0ecd\u0ea5\u0eb4\u0e81\u0eb2\u0e99\u0e9e\u0eb9\u0e94\u0e9a\u0ecd\u0ec8\u0e8d\u0ead\u0ea1\u0eae\u0eb1\u0e9a\u0ea1\u0eb1\u0e99."
+            ],
+            "Could not turn notifications on.": [
+                "\u0e9a\u0ecd\u0ec8\u0eaa\u0eb2\u0ea1\u0eb2\u0e94\u0ec0\u0e9b\u0eb5\u0e94\u0ec3\u0e8a\u0ec9\u0e81\u0eb2\u0e99\u0ec1\u0e88\u0ec9\u0e87\u0ec0\u0e95\u0eb7\u0ead\u0e99\u0ec4\u0e94\u0ec9."
+            ],
+            "Phone app and notifications": [
+                "\u0ec1\u0ead\u0eb1\u0e9a\u0ec2\u0e97\u0ea5\u0eb0\u0eaa\u0eb1\u0e9a \u0ec1\u0ea5\u0eb0 \u0e81\u0eb2\u0e99\u0ec1\u0e88\u0ec9\u0e87\u0ec0\u0e95\u0eb7\u0ead\u0e99"
+            ],
+            "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
+                "\u0e95\u0eb4\u0e94\u0e95\u0eb1\u0ec9\u0e87\u0ead\u0eb4\u0e99\u0e9a\u0eb1\u0ead\u0e81\u0e99\u0eb5\u0ec9\u0ec0\u0e9b\u0eb1\u0e99\u0ec1\u0ead\u0eb1\u0e9a: \u0ec3\u0e99 Chrome \u0eab\u0ebc\u0eb7 Edge \u0ec3\u0eab\u0ec9\u0ec0\u0ea5\u0eb7\u0ead\u0e81 \u0e95\u0eb4\u0e94\u0e95\u0eb1\u0ec9\u0e87 \u0ec3\u0e99\u0ec1\u0e96\u0e9a\u0e97\u0eb5\u0ec8\u0ea2\u0eb9\u0ec8 \u0eab\u0ebc\u0eb7 \u0ec0\u0ea1\u0e99\u0eb9; \u0ec3\u0e99 iPhone \u0eab\u0ebc\u0eb7 iPad \u0ec3\u0eab\u0ec9\u0ec1\u0e95\u0eb0 \u0ec1\u0e9a\u0ec8\u0e87\u0e9b\u0eb1\u0e99, \u0e88\u0eb2\u0e81\u0e99\u0eb1\u0ec9\u0e99\u0ec0\u0ea5\u0eb7\u0ead\u0e81 \u0ec0\u0e9e\u0eb5\u0ec8\u0ea1\u0ec3\u0eaa\u0ec8\u0edc\u0ec9\u0eb2\u0e88\u0ecd\u0eab\u0ebc\u0eb1\u0e81. \u0ea1\u0eb1\u0e99\u0e88\u0eb0\u0ec0\u0e9b\u0eb5\u0e94\u0ec1\u0e9a\u0e9a\u0ec0\u0e95\u0eb1\u0ea1\u0edc\u0ec9\u0eb2\u0e88\u0ecd, \u0e9e\u0ec9\u0ead\u0ea1\u0e97\u0eb5\u0ec8\u0e88\u0eb0\u0e95\u0ead\u0e9a\u0e81\u0eb1\u0e9a."
+            ],
+            "Turn on notifications on this device": [
+                "\u0ec0\u0e9b\u0eb5\u0e94\u0ec3\u0e8a\u0ec9\u0e81\u0eb2\u0e99\u0ec1\u0e88\u0ec9\u0e87\u0ec0\u0e95\u0eb7\u0ead\u0e99\u0ec3\u0e99\u0ead\u0eb8\u0e9b\u0eb0\u0e81\u0ead\u0e99\u0e99\u0eb5\u0ec9"
+            ],
+            "Nothing found.": [
+                "\u0e9a\u0ecd\u0ec8\u0e9e\u0ebb\u0e9a\u0eab\u0e8d\u0eb1\u0e87."
+            ],
+            "Search saved replies": [
+                "\u0e84\u0ebb\u0ec9\u0e99\u0eab\u0eb2\u0e84\u0eb3\u0e95\u0ead\u0e9a\u0e97\u0eb5\u0ec8\u0e9a\u0eb1\u0e99\u0e97\u0eb6\u0e81\u0ec4\u0ea7\u0ec9"
+            ],
+            "Link an article": [
+                "\u0ec0\u0e8a\u0eb7\u0ec8\u0ead\u0ea1\u0ec2\u0e8d\u0e87\u0e9a\u0ebb\u0e94\u0e84\u0ea7\u0eb2\u0ea1"
+            ],
+            "Search the knowledge base": [
+                "\u0e84\u0ebb\u0ec9\u0e99\u0eab\u0eb2\u0e96\u0eb2\u0e99\u0e84\u0ea7\u0eb2\u0ea1\u0eae\u0eb9\u0ec9"
+            ],
+            "Suggest a reply": [
+                "\u0ec1\u0e99\u0eb0\u0e99\u0eb3\u0e84\u0eb3\u0e95\u0ead\u0e9a"
+            ],
+            "Drafting\u2026": [
+                "\u0e81\u0eb3\u0ea5\u0eb1\u0e87\u0eae\u0ec8\u0eb2\u0e87..."
+            ],
+            "Replace what you have typed with the suggestion?": [
+                "\u0ec1\u0e97\u0e99\u0e97\u0eb5\u0ec8\u0eaa\u0eb4\u0ec8\u0e87\u0e97\u0eb5\u0ec8\u0e97\u0ec8\u0eb2\u0e99\u0ec4\u0e94\u0ec9\u0e9e\u0eb4\u0ea1\u0e94\u0ec9\u0ea7\u0e8d\u0e84\u0eb3\u0ec1\u0e99\u0eb0\u0e99\u0eb3\u0e9a\u0ecd?"
+            ],
+            "%s is writing a reply to this too.": [
+                "%s \u0e81\u0eb3\u0ea5\u0eb1\u0e87\u0e82\u0ebd\u0e99\u0e84\u0eb3\u0e95\u0ead\u0e9a\u0eaa\u0eb3\u0ea5\u0eb1\u0e9a\u0e82\u0ecd\u0ec9\u0e84\u0ea7\u0eb2\u0ea1\u0e99\u0eb5\u0ec9\u0e84\u0eb7\u0e81\u0eb1\u0e99."
+            ],
+            "%s is also looking at this.": [
+                "%s \u0e81\u0ecd\u0ec8\u0e81\u0eb3\u0ea5\u0eb1\u0e87\u0ec0\u0e9a\u0eb4\u0ec8\u0e87\u0eaa\u0eb4\u0ec8\u0e87\u0e99\u0eb5\u0ec9\u0ea2\u0eb9\u0ec8."
+            ],
+            "No department": [
+                "\u0e9a\u0ecd\u0ec8\u0ea1\u0eb5\u0e9e\u0eb0\u0ec1\u0e99\u0e81"
+            ],
+            "Tags, comma-separated": [
+                "\u0e9b\u0ec9\u0eb2\u0e8d\u0e81\u0eb3\u0e81\u0eb1\u0e9a, \u0e82\u0eb1\u0ec9\u0e99\u0e94\u0ec9\u0ea7\u0e8d\u0e88\u0eb8\u0e94"
+            ],
+            "Tags": [
+                "\u0e9b\u0ec9\u0eb2\u0e8d\u0e81\u0eb3\u0e81\u0eb1\u0e9a"
+            ],
+            "Upset customer": [
+                "\u0ea5\u0eb9\u0e81\u0e84\u0ec9\u0eb2\u0e97\u0eb5\u0ec8\u0e9a\u0ecd\u0ec8\u0e9e\u0ecd\u0ec3\u0e88"
+            ],
+            "Unhappy customer": [
+                "\u0ea5\u0eb9\u0e81\u0e84\u0ec9\u0eb2\u0e97\u0eb5\u0ec8\u0e9a\u0ecd\u0ec8\u0ec0\u0e9e\u0eb4\u0ec8\u0e87\u0e9e\u0ecd\u0ec3\u0e88"
+            ],
+            "Summarise again": [
+                "\u0eaa\u0eb0\u0eab\u0ebc\u0eb8\u0e9a\u0ead\u0eb5\u0e81\u0e84\u0eb1\u0ec9\u0e87"
+            ],
+            "Summarise": [
+                "\u0eaa\u0eb1\u0e87\u0ea5\u0ea7\u0ea1"
+            ],
+            "met": [
+                "\u0ec0\u0ea1\u0e94"
+            ],
+            "missed": [
+                "\u0e9e\u0eb2\u0e94"
+            ],
+            "overdue by %s": [
+                "\u0e81\u0eb2\u0e8d\u0e81\u0eb3\u0e99\u0ebb\u0e94 %s"
+            ],
+            "%s left": [
+                "\u0ec0\u0eab\u0ebc\u0eb7\u0ead\u0ea2\u0eb9\u0ec8 %s"
+            ],
+            "Customer rating: %d of 5": [
+                "\u0e84\u0eb0\u0ec1\u0e99\u0e99\u0e82\u0ead\u0e87\u0ea5\u0eb9\u0e81\u0e84\u0ec9\u0eb2: %d \u0e88\u0eb2\u0e81 5"
+            ],
+            "Write a KB article from this ticket": [
+                "\u0e82\u0ebd\u0e99\u0e9a\u0ebb\u0e94\u0e84\u0ea7\u0eb2\u0ea1\u0e96\u0eb2\u0e99\u0e84\u0ea7\u0eb2\u0ea1\u0eae\u0eb9\u0ec9\u0e88\u0eb2\u0e81\u0e9b\u0eb5\u0ec9\u0ec9\u0e99\u0eb5\u0ec9"
+            ],
+            "Write a help page from this ticket": [
+                "\u0e82\u0ebd\u0e99\u0edc\u0ec9\u0eb2\u0e8a\u0ec8\u0ea7\u0e8d\u0ec0\u0eab\u0ebc\u0eb7\u0ead\u0e88\u0eb2\u0e81\u0e95\u0ecb\u0ebd\u0e81\u0ec0\u0e81\u0eb1\u0e94\u0e99\u0eb5\u0ec9"
+            ],
+            "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
+                "\u0ec3\u0e8a\u0ec9\u0e9e\u0ea7\u0e81\u0ea1\u0eb1\u0e99\u0e88\u0eb2\u0e81\u0e81\u0ec8\u0ead\u0e87\u0eaa\u0ebb\u0e99\u0e97\u0eb0\u0e99\u0eb2 \u0ec1\u0ea5\u0eb0 \u0e95\u0ead\u0e9a\u0e9b\u0eb5\u0ec9 (\u0e84\u0eb3\u0e95\u0ead\u0e9a\u0e97\u0eb5\u0ec8\u0e9a\u0eb1\u0e99\u0e97\u0eb6\u0e81\u0ec4\u0ea7\u0ec9), \u0eab\u0ebc\u0eb7 \u0e9e\u0eb4\u0ea1 \/ \u0ec1\u0ea5\u0eb0 \u0e97\u0eb2\u0e87\u0ea5\u0eb1\u0e94, \u0e88\u0eb2\u0e81\u0e99\u0eb1\u0ec9\u0e99\u0e95\u0eb2\u0ea1\u0e94\u0ec9\u0ea7\u0e8d \u0eab\u0ea7\u0ec8\u0eb2\u0e87. {name}, {first_name}, {agent}, {site} \u0ec1\u0ea5\u0eb0 {ticket} \u0e88\u0eb0\u0e96\u0eb7\u0e81\u0e95\u0eb7\u0ec8\u0ea1\u0ec3\u0eaa\u0ec8\u0ec3\u0eab\u0ec9\u0e97\u0ec8\u0eb2\u0e99."
+            ],
+            "Shortcut (optional, e.g. refund)": [
+                "\u0e97\u0eb2\u0e87\u0ea5\u0eb1\u0e94 (\u0e97\u0eb2\u0e87\u0ec0\u0ea5\u0eb7\u0ead\u0e81, \u0e95\u0ebb\u0ea7\u0ea2\u0ec8\u0eb2\u0e87: \u0eaa\u0ebb\u0ec8\u0e87\u0ec0\u0e87\u0eb4\u0e99\u0e84\u0eb7\u0e99)"
+            ],
+            "Text": [
+                "\u0e82\u0ecd\u0ec9\u0e84\u0ea7\u0eb2\u0ea1"
+            ],
+            "Every department": [
+                "\u0e97\u0eb8\u0e81\u0ec6\u0e9e\u0eb0\u0ec1\u0e99\u0e81"
+            ],
+            "Save": [
+                "\u0e9a\u0eb1\u0e99\u0e97\u0eb6\u0e81"
+            ],
+            "Add saved reply": [
+                "\u0ec0\u0e9e\u0eb5\u0ec8\u0ea1\u0e84\u0eb3\u0e95\u0ead\u0e9a\u0e97\u0eb5\u0ec8\u0e9a\u0eb1\u0e99\u0e97\u0eb6\u0e81\u0ec4\u0ea7\u0ec9"
+            ],
+            "No saved replies yet.": [
+                "\u0e8d\u0eb1\u0e87\u0e9a\u0ecd\u0ec8\u0ea1\u0eb5\u0e84\u0eb3\u0e95\u0ead\u0e9a\u0e97\u0eb5\u0ec8\u0e9a\u0eb1\u0e99\u0e97\u0eb6\u0e81\u0ec4\u0ea7\u0ec9\u0ec0\u0e97\u0eb7\u0ec8\u0ead."
+            ],
+            "Used %d times": [
+                "\u0ec3\u0e8a\u0ec9\u0ec1\u0ea5\u0ec9\u0ea7 %d \u0e84\u0eb1\u0ec9\u0e87"
+            ],
+            "Delete": [
+                "\u0ea5\u0eb6\u0e9a"
+            ],
+            "Delete this saved reply?": [
+                "\u0ea5\u0eb6\u0e9a\u0e84\u0eb3\u0e95\u0ead\u0e9a\u0e97\u0eb5\u0ec8\u0e9a\u0eb1\u0e99\u0e97\u0eb6\u0e81\u0ec4\u0ea7\u0ec9\u0e99\u0eb5\u0ec9\u0e9a\u0ecd?"
+            ],
+            "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
+                "\u0e84\u0eb3\u0e96\u0eb2\u0ea1\u0e97\u0eb5\u0ec8\u0e9c\u0eb9\u0ec9\u0ec0\u0e82\u0ebb\u0ec9\u0eb2\u0e8a\u0ebb\u0ea1\u0e96\u0eb2\u0ea1\u0ea1\u0eb2\u0ec1\u0e95\u0ec8\u0ec0\u0ea7\u0eb1\u0e9a\u0ec4\u0e8a\u0e82\u0ead\u0e87\u0e97\u0ec8\u0eb2\u0e99\u0e9a\u0ecd\u0ec8\u0eaa\u0eb2\u0ea1\u0eb2\u0e94\u0e95\u0ead\u0e9a\u0ec4\u0e94\u0ec9, \u0e88\u0eb1\u0e94\u0ea5\u0ebd\u0e87\u0e88\u0eb2\u0e81\u0e96\u0eb2\u0ea1\u0eab\u0ebc\u0eb2\u0e8d\u0eaa\u0eb8\u0e94\u0e81\u0ec8\u0ead\u0e99. \u0ec0\u0ea5\u0eb7\u0ead\u0e81\u0e9a\u0eb2\u0e87\u0e84\u0eb3\u0e96\u0eb2\u0ea1\u0ec1\u0ea5\u0ec9\u0ea7\u0ec3\u0eab\u0ec9 AI \u0eae\u0ec8\u0eb2\u0e87\u0e9a\u0ebb\u0e94\u0e84\u0ea7\u0eb2\u0ea1\u0ec0\u0e9e\u0eb7\u0ec8\u0ead\u0e95\u0ead\u0e9a\u0e84\u0eb3\u0e96\u0eb2\u0ea1\u0ec0\u0eab\u0ebc\u0ebb\u0ec8\u0eb2\u0e99\u0eb1\u0ec9\u0e99; \u0ec0\u0e9c\u0eb5\u0e8d\u0ec1\u0e9c\u0ec8\u0ea1\u0eb1\u0e99\u0ec1\u0ea5\u0ec9\u0ea7\u0e9c\u0eb9\u0ec9\u0e8a\u0ec8\u0ea7\u0e8d\u0e88\u0eb0\u0e99\u0eb3\u0ec3\u0e8a\u0ec9\u0e97\u0eb1\u0e99\u0e97\u0eb5."
+            ],
+            "Recording is off (Settings, AI assistant).": [
+                "\u0e81\u0eb2\u0e99\u0e9a\u0eb1\u0e99\u0e97\u0eb6\u0e81\u0e96\u0eb7\u0e81\u0e9b\u0eb4\u0e94\u0ec4\u0ea7\u0ec9 (\u0e81\u0eb2\u0e99\u0e95\u0eb1\u0ec9\u0e87\u0e84\u0ec8\u0eb2, \u0e9c\u0eb9\u0ec9\u0e8a\u0ec8\u0ea7\u0e8d AI)."
+            ],
+            "Drafted": [
+                "\u0eae\u0ec8\u0eb2\u0e87\u0ec1\u0ea5\u0ec9\u0ea7"
+            ],
+            "Answered": [
+                "\u0e95\u0ead\u0e9a\u0ec1\u0ea5\u0ec9\u0ea7"
+            ],
+            "Ignored": [
+                "\u0e96\u0eb7\u0e81\u0ea5\u0eb0\u0ec0\u0ea5\u0eb5\u0e8d"
+            ],
+            "Draft a KB article from the selected": [
+                "\u0eae\u0ec8\u0eb2\u0e87\u0e9a\u0ebb\u0e94\u0e84\u0ea7\u0eb2\u0ea1\u0e84\u0ea7\u0eb2\u0ea1\u0eae\u0eb9\u0ec9\u0e88\u0eb2\u0e81\u0e97\u0eb5\u0ec8\u0ec0\u0ea5\u0eb7\u0ead\u0e81\u0ec4\u0ea7\u0ec9"
+            ],
+            "Draft a help page from the selected": [
+                "\u0e8d\u0ec8\u0eb2\u0e87\u0eae\u0ec8\u0eb2\u0e87\u0edc\u0ec9\u0eb2\u0e84\u0ea7\u0eb2\u0ea1\u0e8a\u0ec8\u0ea7\u0e8d\u0ec0\u0eab\u0ebc\u0eb7\u0ead\u0e88\u0eb2\u0e81\u0ea5\u0eb2\u0e8d\u0e81\u0eb2\u0e99\u0e97\u0eb5\u0ec8\u0ec0\u0ea5\u0eb7\u0ead\u0e81"
+            ],
+            "Mark answered": [
+                "\u0e95\u0ead\u0e9a\u0ec1\u0ea5\u0ec9\u0ea7"
+            ],
+            "Ignore": [
+                "\u0e9a\u0ecd\u0ec8\u0eaa\u0ebb\u0e99\u0ec3\u0e88"
+            ],
+            "Question": [
+                "\u0e84\u0eb3\u0e96\u0eb2\u0ea1"
+            ],
+            "Asked": [
+                "\u0e96\u0eb7\u0e81\u0e96\u0eb2\u0ea1\u0ec1\u0ea5\u0ec9\u0ea7"
+            ],
+            "Why": [
+                "\u0ec0\u0e9b\u0eb1\u0e99\u0eab\u0e8d\u0eb1\u0e87"
+            ],
+            "Last asked": [
+                "\u0e96\u0eb2\u0ea1\u0eab\u0ebc\u0ec9\u0eb2\u0eaa\u0eb8\u0e94"
+            ],
+            "Not on the site": [
+                "\u0e9a\u0ecd\u0ec8\u0ea2\u0eb9\u0ec8\u0ec3\u0e99\u0ec0\u0ea7\u0eb1\u0e9a\u0ec4\u0e8a"
+            ],
+            "Needed a person": [
+                "\u0e95\u0ec9\u0ead\u0e87\u0e81\u0eb2\u0e99\u0e9a\u0eb8\u0e81\u0e84\u0ebb\u0e99"
+            ],
+            "Answer rated unhelpful": [
+                "\u0e84\u0eb3\u0e95\u0ead\u0e9a\u0e96\u0eb7\u0e81\u0ec3\u0eab\u0ec9\u0e84\u0eb0\u0ec1\u0e99\u0e99\u0ea7\u0ec8\u0eb2\u0e9a\u0ecd\u0ec8\u0ec0\u0e9b\u0eb1\u0e99\u0e9b\u0eb0\u0ec2\u0eab\u0e8d\u0e94"
+            ],
+            "Nothing here. Well done.": [
+                "\u0e9a\u0ecd\u0ec8\u0ea1\u0eb5\u0eab\u0e8d\u0eb1\u0e87\u0ea2\u0eb9\u0ec8\u0e9a\u0ec8\u0ead\u0e99\u0e99\u0eb5\u0ec9. \u0ec0\u0eae\u0eb1\u0e94\u0ec4\u0e94\u0ec9\u0e94\u0eb5\u0eab\u0ebc\u0eb2\u0e8d."
+            ],
+            "Period": [
+                "\u0ec4\u0ea5\u0e8d\u0eb0\u0ec0\u0ea7\u0ea5\u0eb2"
+            ],
+            "Last 7 days": [
+                "7 \u0ea1\u0eb7\u0ec9\u0e9c\u0ec8\u0eb2\u0e99\u0ea1\u0eb2"
+            ],
+            "Last 30 days": [
+                "30 \u0ea7\u0eb1\u0e99\u0e97\u0eb5\u0ec8\u0e9c\u0ec8\u0eb2\u0e99\u0ea1\u0eb2"
+            ],
+            "Last 90 days": [
+                "90 \u0ea1\u0eb7\u0ec9\u0e9c\u0ec8\u0eb2\u0e99\u0ea1\u0eb2"
+            ],
+            "Last 12 months": [
+                "12 \u0ec0\u0e94\u0eb7\u0ead\u0e99\u0e9c\u0ec8\u0eb2\u0e99\u0ea1\u0eb2"
+            ],
+            "%s%% answered by the assistant alone": [
+                "%s%% \u0e95\u0ead\u0e9a\u0ec2\u0e94\u0e8d\u0e9c\u0eb9\u0ec9\u0e8a\u0ec8\u0ea7\u0e8d\u0e9e\u0ebd\u0e87\u0ea2\u0ec8\u0eb2\u0e87\u0e94\u0ebd\u0ea7"
+            ],
+            "Handed to a person": [
+                "\u0ea1\u0ead\u0e9a\u0ec3\u0eab\u0ec9\u0e9a\u0eb8\u0e81\u0e84\u0ebb\u0e99"
+            ],
+            "median wait %s": [
+                "\u0ec0\u0ea7\u0ea5\u0eb2\u0e99\u0eb1\u0ec8\u0e87\u0e96\u0ec9\u0eb2\u0ec2\u0e94\u0e8d\u0eaa\u0eb0\u0ec0\u0ea5\u0ec8\u0e8d %s"
+            ],
+            "Tickets opened": [
+                "\u0e9a\u0eb1\u0e99\u0e97\u0eb6\u0e81\u0e97\u0eb5\u0ec8\u0ec0\u0e9b\u0eb5\u0e94\u0ec1\u0ea5\u0ec9\u0ea7"
+            ],
+            "%d still open": [
+                "\u0e8d\u0eb1\u0e87\u0ec0\u0e9b\u0eb5\u0e94\u0ea2\u0eb9\u0ec8 %d \u0ead\u0eb1\u0e99"
+            ],
+            "median \u00b7 average %s": [
+                "\u0ea1\u0eb1\u0e94\u0e97\u0eb0\u0e8d\u0eb2\u0e96\u0eb2\u0e99 \u00b7 \u0eaa\u0eb0\u0ec0\u0ea5\u0ec8\u0e8d %s"
+            ],
+            "Time to solve": [
+                "\u0ec0\u0ea7\u0ea5\u0eb2\u0ec3\u0e99\u0e81\u0eb2\u0e99\u0ec1\u0e81\u0ec9\u0ec4\u0e82"
+            ],
+            "median \u00b7 %d solved": [
+                "\u0e84\u0ec8\u0eb2\u0e81\u0eb2\u0e87 \u00b7 \u0ec1\u0e81\u0ec9\u0ec4\u0e82\u0ec1\u0ea5\u0ec9\u0ea7 %d \u0ea5\u0eb2\u0e8d\u0e81\u0eb2\u0e99"
+            ],
+            "Customer satisfaction": [
+                "\u0e84\u0ea7\u0eb2\u0ea1\u0ec0\u0e9e\u0eb4\u0ec8\u0e87\u0e9e\u0ecd\u0ec3\u0e88\u0e82\u0ead\u0e87\u0ea5\u0eb9\u0e81\u0e84\u0ec9\u0eb2"
+            ],
+            "%d ratings, average %s of 5": [
+                "%d \u0e81\u0eb2\u0e99\u0ec3\u0eab\u0ec9\u0e84\u0eb0\u0ec1\u0e99\u0e99, \u0eaa\u0eb0\u0ec0\u0ea5\u0ec8\u0e8d %s \u0e88\u0eb2\u0e81 5"
+            ],
+            "SLA first reply met": [
+                "\u0ec4\u0e94\u0ec9\u0e95\u0ead\u0e9a\u0e81\u0eb1\u0e9a\u0e84\u0eb3\u0eae\u0ec9\u0ead\u0e87\u0e82\u0ecd SLA \u0ec0\u0e9a\u0eb7\u0ec9\u0ead\u0e87\u0e95\u0ebb\u0ec9\u0e99\u0ec1\u0ea5\u0ec9\u0ea7"
+            ],
+            "%1$d due, %2$d missed": [
+                "\u0e84\u0ebb\u0e9a\u0e81\u0ecd\u0eb2\u0e99\u0ebb\u0e94 %1$d, \u0e81\u0eb2\u0e8d\u0e81\u0ecd\u0eb2\u0e99\u0ebb\u0e94 %2$d"
+            ],
+            "Assistant answers rated": [
+                "\u0e84\u0eb3\u0e95\u0ead\u0e9a\u0e82\u0ead\u0e87\u0e9c\u0eb9\u0ec9\u0e8a\u0ec8\u0ea7\u0e8d\u0e97\u0eb5\u0ec8\u0ec4\u0e94\u0ec9\u0eae\u0eb1\u0e9a\u0e84\u0eb0\u0ec1\u0e99\u0e99\u0ec1\u0ea5\u0ec9\u0ea7"
+            ],
+            "helpful \/ rated": [
+                "\u0ec0\u0e9b\u0eb1\u0e99\u0e9b\u0eb0\u0ec2\u0eab\u0e8d\u0e94 \/ \u0ec4\u0e94\u0ec9\u0eae\u0eb1\u0e9a\u0e81\u0eb2\u0e99\u0e88\u0eb1\u0e94\u0ead\u0eb1\u0e99\u0e94\u0eb1\u0e9a"
+            ],
+            "Chats and tickets per day": [
+                "\u0e81\u0eb2\u0e99\u0eaa\u0ebb\u0e99\u0e97\u0eb0\u0e99\u0eb2 \u0ec1\u0ea5\u0eb0 \u0e9b\u0eb5\u0ec9\u0e95\u0ecd\u0ec8\u0ea1\u0eb7\u0ec9"
+            ],
+            "%1$d chats, %2$d tickets": [
+                "%1$d \u0e81\u0eb2\u0e99\u0eaa\u0ebb\u0e99\u0e97\u0eb0\u0e99\u0eb2, %2$d \u0e9b\u0eb5\u0ec9\u0e8a\u0eb1\u0e9a\u0e9e\u0ead\u0e94"
+            ],
+            "Tickets answered": [
+                "\u0e95\u0ead\u0e9a\u0ec1\u0ea5\u0ec9\u0ea7 tickets"
+            ],
+            "Replies": [
+                "\u0e84\u0eb3\u0e95\u0ead\u0e9a"
+            ],
+            "Rating": [
+                "\u0e84\u0eb0\u0ec1\u0e99\u0e99"
+            ],
+            "Top topics": [
+                "\u0eab\u0ebb\u0ea7\u0e82\u0ecd\u0ec9\u0e97\u0eb5\u0ec8\u0e9e\u0ebb\u0e9a\u0eab\u0ebc\u0eb2\u0e8d\u0e97\u0eb5\u0ec8\u0eaa\u0eb8\u0e94"
+            ],
+            "Where tickets came from": [
+                "\u0e9a\u0ec8\u0ead\u0e99\u0e97\u0eb5\u0ec8\u0ea1\u0eb2\u0e82\u0ead\u0e87\u0e9b\u0eb5\u0ec9\u0e8a\u0ec8\u0ea7\u0e8d\u0ec0\u0eab\u0ebc\u0eb7\u0ead"
+            ]
+        }
+    }
+}

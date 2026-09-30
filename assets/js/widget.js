@@ -33,7 +33,7 @@
 		x.send(JSON.stringify(body));
 	}
 
-	var css = ':host{all:initial}*{box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}'
+	var css = ':host{all:initial}[hidden]{display:none!important}*{box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}'
 		+ '.p{position:fixed;bottom:88px;inset-inline-end:20px;z-index:2147483001;width:370px;max-width:calc(100vw - 24px);height:560px;max-height:calc(100vh - 110px);background:#fff;color:#1f2328;border-radius:14px;box-shadow:0 12px 40px rgba(0,0,0,.25);display:flex;flex-direction:column;overflow:hidden;font-size:15px;line-height:1.45}'
 		+ '.p[data-side=left]{inset-inline-end:auto;inset-inline-start:20px}'
 		+ '.hd{background:var(--c);color:var(--t);padding:14px 16px;display:flex;align-items:center;gap:8px}.hd b{flex:1;font-size:16px}.hd small{display:block;font-weight:400;opacity:.9;font-size:12px}'

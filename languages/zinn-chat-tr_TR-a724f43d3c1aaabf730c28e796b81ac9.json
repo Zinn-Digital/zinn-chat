@@ -1,0 +1,337 @@
+{
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/pro__premium_only\/admin-pro.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "tr_TR",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Tickets": [
+                "Destek Talepleri"
+            ],
+            "Open": [
+                "A\u00e7"
+            ],
+            "Chats": [
+                "Sohbetler"
+            ],
+            "Team": [
+                "Tak\u0131m"
+            ],
+            "Something went wrong. Please try again.": [
+                "Bir \u015feyler yanl\u0131\u015f gitti. L\u00fctfen tekrar deneyin."
+            ],
+            "Title": [
+                "Ba\u015fl\u0131k"
+            ],
+            "Department": [
+                "Departman"
+            ],
+            "Saved replies": [
+                "Kay\u0131tl\u0131 yan\u0131tlar"
+            ],
+            "Knowledge gaps": [
+                "Bilgi eksiklikleri"
+            ],
+            "First reply": [
+                "\u0130lk yan\u0131t"
+            ],
+            "Article": [
+                "Makale"
+            ],
+            "Reports": [
+                "Raporlar"
+            ],
+            "Agent": [
+                "Arac\u0131"
+            ],
+            "All": [
+                "T\u00fcm\u00fc"
+            ],
+            "Page %1$d of %2$d": [
+                "Sayfa %1$d \/ %2$d"
+            ],
+            "Edit": [
+                "D\u00fczenle"
+            ],
+            "%d second": [
+                "%d saniye",
+                "%d saniye"
+            ],
+            "%d minute": [
+                "%d dakika",
+                "%d dakika"
+            ],
+            "%d hour": [
+                "%d saat",
+                "%d saat"
+            ],
+            "%d day": [
+                "%d g\u00fcn",
+                "%d g\u00fcn"
+            ],
+            "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
+                "Bu taray\u0131c\u0131 burada anl\u0131k bildirim alamaz. Bir iPhone'da, \u00f6nce Gelen Kutusu'nu Ana Ekran\u0131n\u0131za ekleyin."
+            ],
+            "Notifications are blocked for this site in the browser settings.": [
+                "Taray\u0131c\u0131 ayarlar\u0131nda bu site i\u00e7in bildirimler engellenmi\u015f."
+            ],
+            "Notifications are on for this device.": [
+                "Bu cihaz i\u00e7in bildirimler a\u00e7\u0131k."
+            ],
+            "Send a test notification": [
+                "Test bildirimi g\u00f6nder"
+            ],
+            "Sent. It should appear in a few seconds.": [
+                "G\u00f6nderildi. Birka\u00e7 saniye i\u00e7inde g\u00f6r\u00fcnecektir."
+            ],
+            "The push service did not accept it.": [
+                "Bildirim servisi bunu kabul etmedi."
+            ],
+            "Could not turn notifications on.": [
+                "Bildirimler a\u00e7\u0131lamad\u0131."
+            ],
+            "Phone app and notifications": [
+                "Telefon uygulamas\u0131 ve bildirimler"
+            ],
+            "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
+                "Bu Gelen Kutusu'nu bir uygulama olarak y\u00fckleyin: Chrome veya Edge'de adres \u00e7ubu\u011fundan veya men\u00fcden Y\u00fckle'yi se\u00e7in; iPhone veya iPad'de Payla\u015f'a, ard\u0131ndan Ana Ekrana Ekle'ye dokunun. Yan\u0131tlamaya haz\u0131r \u015fekilde tam ekran a\u00e7\u0131l\u0131r."
+            ],
+            "Turn on notifications on this device": [
+                "Bu cihazda bildirimleri a\u00e7"
+            ],
+            "Nothing found.": [
+                "Hi\u00e7bir \u015fey bulunamad\u0131."
+            ],
+            "Search saved replies": [
+                "Kay\u0131tl\u0131 yan\u0131tlar\u0131 ara"
+            ],
+            "Link an article": [
+                "Bir makale ba\u011fla"
+            ],
+            "Search the knowledge base": [
+                "Bilgi bankas\u0131nda ara"
+            ],
+            "Suggest a reply": [
+                "Yan\u0131t \u00f6ner"
+            ],
+            "Drafting\u2026": [
+                "Taslak olu\u015fturuluyor\u2026"
+            ],
+            "Replace what you have typed with the suggestion?": [
+                "Yazd\u0131\u011f\u0131n\u0131z\u0131n yerine \u00f6nerilen metin yap\u0131ls\u0131n m\u0131?"
+            ],
+            "%s is writing a reply to this too.": [
+                "%s de buna bir yan\u0131t yaz\u0131yor."
+            ],
+            "%s is also looking at this.": [
+                "%s de buna bak\u0131yor."
+            ],
+            "No department": [
+                "Departman yok"
+            ],
+            "Tags, comma-separated": [
+                "Etiketler, virg\u00fclle ayr\u0131lm\u0131\u015f"
+            ],
+            "Tags": [
+                "Etiketler"
+            ],
+            "Upset customer": [
+                "\u00dczg\u00fcn m\u00fc\u015fteri"
+            ],
+            "Unhappy customer": [
+                "Mutsuz m\u00fc\u015fteri"
+            ],
+            "Summarise again": [
+                "Yeniden \u00f6zetle"
+            ],
+            "Summarise": [
+                "\u00d6zetle"
+            ],
+            "met": [
+                "kar\u015f\u0131land\u0131"
+            ],
+            "missed": [
+                "ka\u00e7\u0131r\u0131ld\u0131"
+            ],
+            "overdue by %s": [
+                "%s gecikmi\u015f"
+            ],
+            "%s left": [
+                "%s kald\u0131"
+            ],
+            "Customer rating: %d of 5": [
+                "M\u00fc\u015fteri puan\u0131: 5 \u00fczerinden %d"
+            ],
+            "Write a KB article from this ticket": [
+                "Bu kay\u0131ttan bir KB makalesi yaz\u0131n"
+            ],
+            "Write a help page from this ticket": [
+                "Bu destek biletinden bir yard\u0131m sayfas\u0131 yaz"
+            ],
+            "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
+                "Bunlar\u0131 sohbet ve destek talebi yan\u0131t kutular\u0131ndan (Kay\u0131tl\u0131 yan\u0131tlar) kullan\u0131n veya \/ i\u015faretini ve k\u0131sayolu yaz\u0131p ard\u0131ndan bir bo\u015fluk b\u0131rak\u0131n. {name}, {first_name}, {agent}, {site} ve {ticket} alanlar\u0131 sizin i\u00e7in otomatik olarak doldurulur."
+            ],
+            "Shortcut (optional, e.g. refund)": [
+                "K\u0131sayol (iste\u011fe ba\u011fl\u0131, \u00f6rn. iade)"
+            ],
+            "Text": [
+                "Metin"
+            ],
+            "Every department": [
+                "Her departman"
+            ],
+            "Save": [
+                "Kaydet"
+            ],
+            "Add saved reply": [
+                "Kay\u0131tl\u0131 yan\u0131t ekle"
+            ],
+            "No saved replies yet.": [
+                "Hen\u00fcz kaydedilmi\u015f yan\u0131t yok."
+            ],
+            "Used %d times": [
+                "%d kez kullan\u0131ld\u0131"
+            ],
+            "Delete": [
+                "Sil"
+            ],
+            "Delete this saved reply?": [
+                "Bu kaydedilmi\u015f yan\u0131t silinsin mi?"
+            ],
+            "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
+                "Ziyaret\u00e7ilerin sitenizin yan\u0131tlayamad\u0131\u011f\u0131 sorular\u0131, en \u00e7ok sorulanlar \u00f6nce gelecek \u015fekilde. Baz\u0131lar\u0131n\u0131 se\u00e7in ve yapay zekan\u0131n bunlar\u0131 yan\u0131tlayan bir makale tasla\u011f\u0131 haz\u0131rlamas\u0131n\u0131 sa\u011flay\u0131n; makaleyi yay\u0131nlay\u0131n ve asistan bunu hemen kullans\u0131n."
+            ],
+            "Recording is off (Settings, AI assistant).": [
+                "Kay\u0131t kapal\u0131 (Ayarlar, Yapay zeka asistan\u0131)."
+            ],
+            "Drafted": [
+                "Taslak"
+            ],
+            "Answered": [
+                "Yan\u0131tland\u0131"
+            ],
+            "Ignored": [
+                "Yoksay\u0131ld\u0131"
+            ],
+            "Draft a KB article from the selected": [
+                "Se\u00e7ilenden bir KB makalesi tasla\u011f\u0131 olu\u015ftur"
+            ],
+            "Draft a help page from the selected": [
+                "Se\u00e7ilenden bir yard\u0131m sayfas\u0131 tasla\u011f\u0131 olu\u015fturun"
+            ],
+            "Mark answered": [
+                "\u0130\u015faretlenen yan\u0131tland\u0131"
+            ],
+            "Ignore": [
+                "Yoksay"
+            ],
+            "Question": [
+                "Soru"
+            ],
+            "Asked": [
+                "Soruldu"
+            ],
+            "Why": [
+                "Neden"
+            ],
+            "Last asked": [
+                "Son sorulu\u015f"
+            ],
+            "Not on the site": [
+                "Sitede de\u011fil"
+            ],
+            "Needed a person": [
+                "Ki\u015fi gerekiyor"
+            ],
+            "Answer rated unhelpful": [
+                "Yarars\u0131z olarak derecelendirilen yan\u0131t"
+            ],
+            "Nothing here. Well done.": [
+                "Burada hi\u00e7bir \u015fey yok. Aferin."
+            ],
+            "Period": [
+                "D\u00f6nem"
+            ],
+            "Last 7 days": [
+                "Son 7 g\u00fcn"
+            ],
+            "Last 30 days": [
+                "Son 30 g\u00fcn"
+            ],
+            "Last 90 days": [
+                "Son 90 g\u00fcn"
+            ],
+            "Last 12 months": [
+                "Son 12 ay"
+            ],
+            "%s%% answered by the assistant alone": [
+                "%s%% yaln\u0131z asistan taraf\u0131ndan yan\u0131tland\u0131"
+            ],
+            "Handed to a person": [
+                "Bir ki\u015fiye devredildi"
+            ],
+            "median wait %s": [
+                "ortalama bekleme s\u00fcresi %s"
+            ],
+            "Tickets opened": [
+                "A\u00e7\u0131lan destek talepleri"
+            ],
+            "%d still open": [
+                "%d a\u00e7\u0131k kalmaya devam ediyor"
+            ],
+            "median \u00b7 average %s": [
+                "medyan \u00b7 ortalama %s"
+            ],
+            "Time to solve": [
+                "\u00c7\u00f6z\u00fcm s\u00fcresi"
+            ],
+            "median \u00b7 %d solved": [
+                "ortalama \u00b7 %d \u00e7\u00f6z\u00fcld\u00fc"
+            ],
+            "Customer satisfaction": [
+                "M\u00fc\u015fteri memnuniyeti"
+            ],
+            "%d ratings, average %s of 5": [
+                "%d de\u011ferlendirme, 5 \u00fczerinden ortalama %s"
+            ],
+            "SLA first reply met": [
+                "SLA ilk yan\u0131t kar\u015f\u0131land\u0131"
+            ],
+            "%1$d due, %2$d missed": [
+                "%1$d \u00f6deme tarihi geldi, %2$d ka\u00e7\u0131r\u0131ld\u0131"
+            ],
+            "Assistant answers rated": [
+                "De\u011ferlendirilen yapay zeka yan\u0131tlar\u0131"
+            ],
+            "helpful \/ rated": [
+                "faydal\u0131 \/ oylanm\u0131\u015f"
+            ],
+            "Chats and tickets per day": [
+                "G\u00fcnl\u00fck sohbetler ve biletler"
+            ],
+            "%1$d chats, %2$d tickets": [
+                "%1$d sohbet, %2$d destek talebi"
+            ],
+            "Tickets answered": [
+                "Yan\u0131tlanan destek biletleri"
+            ],
+            "Replies": [
+                "Yan\u0131tlar"
+            ],
+            "Rating": [
+                "De\u011ferlendirme"
+            ],
+            "Top topics": [
+                "En pop\u00fcler konular"
+            ],
+            "Where tickets came from": [
+                "Destek taleplerinin geldi\u011fi yer"
+            ]
+        }
+    }
+}

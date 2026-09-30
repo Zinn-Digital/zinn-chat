@@ -1,0 +1,341 @@
+{
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/pro__premium_only\/admin-pro.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "pl_PL",
+                "plural-forms": "nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);"
+            },
+            "Tickets": [
+                "Zg\u0142oszenia"
+            ],
+            "Open": [
+                "Otw\u00f3rz"
+            ],
+            "Chats": [
+                "Caty"
+            ],
+            "Team": [
+                "Zesp\u00f3\u0142"
+            ],
+            "Something went wrong. Please try again.": [
+                "Co\u015b posz\u0142o nie tak. Spr\u00f3buj ponownie."
+            ],
+            "Title": [
+                "Tytu\u0142"
+            ],
+            "Department": [
+                "Dzia\u0142"
+            ],
+            "Saved replies": [
+                "Zapisane odpowiedzi"
+            ],
+            "Knowledge gaps": [
+                "Brakuj\u0105ce informacje"
+            ],
+            "First reply": [
+                "Pierwsza odpowied\u017a"
+            ],
+            "Article": [
+                "Artyku\u0142"
+            ],
+            "Reports": [
+                "Raporty"
+            ],
+            "Agent": [
+                "Agent"
+            ],
+            "All": [
+                "Wszystkie"
+            ],
+            "Page %1$d of %2$d": [
+                "Strona %1$d z %2$d"
+            ],
+            "Edit": [
+                "Edytuj"
+            ],
+            "%d second": [
+                "%d sekunda",
+                "%d sekund",
+                "%d sekund"
+            ],
+            "%d minute": [
+                "%d minuta",
+                "%d minut",
+                "%d minut"
+            ],
+            "%d hour": [
+                "%d godzina",
+                "%d godzin",
+                "%d godzin"
+            ],
+            "%d day": [
+                "%d dzie\u0144",
+                "%d dni",
+                "%d dni"
+            ],
+            "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
+                "Ta przegl\u0105darka nie mo\u017ce tu otrzymywa\u0107 powiadomie\u0144 wypychanych. Na iPhonie dodaj najpierw Inbox do ekranu pocz\u0105tkowego."
+            ],
+            "Notifications are blocked for this site in the browser settings.": [
+                "Powiadomienia dla tej witryny s\u0105 zablokowane w ustawieniach przegl\u0105darki."
+            ],
+            "Notifications are on for this device.": [
+                "Powiadomienia s\u0105 w\u0142\u0105czone dla tego urz\u0105dzenia."
+            ],
+            "Send a test notification": [
+                "Wy\u015blij powiadomienie testowe"
+            ],
+            "Sent. It should appear in a few seconds.": [
+                "Wys\u0142ano. Powinno pojawi\u0107 si\u0119 za kilka sekund."
+            ],
+            "The push service did not accept it.": [
+                "Us\u0142uga powiadomie\u0144 push nie przyj\u0119\u0142a tego."
+            ],
+            "Could not turn notifications on.": [
+                "Nie uda\u0142o si\u0119 w\u0142\u0105czy\u0107 powiadomie\u0144."
+            ],
+            "Phone app and notifications": [
+                "Aplikacja na telefon i powiadomienia"
+            ],
+            "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
+                "Zainstaluj t\u0119 Skrzynk\u0119 odbiorcz\u0105 jako aplikacj\u0119: w przegl\u0105darce Chrome lub Edge wybierz opcj\u0119 Zainstaluj na pasku adresu lub w menu; na telefonie iPhone lub tablecie iPad stuknij opcj\u0119 Udost\u0119pnij, a nast\u0119pnie Do ekranu pocz\u0105tkowego. Otwiera si\u0119 ona na pe\u0142nym ekranie i jest gotowa do odpowiedzi."
+            ],
+            "Turn on notifications on this device": [
+                "W\u0142\u0105cz powiadomienia na tym urz\u0105dzeniu"
+            ],
+            "Nothing found.": [
+                "Nie znaleziono nic."
+            ],
+            "Search saved replies": [
+                "Wyszukaj zapisane odpowiedzi"
+            ],
+            "Link an article": [
+                "Po\u0142\u0105cz artyku\u0142"
+            ],
+            "Search the knowledge base": [
+                "Przeszukaj baz\u0119 wiedzy"
+            ],
+            "Suggest a reply": [
+                "Zaproponuj odpowied\u017a"
+            ],
+            "Drafting\u2026": [
+                "Wersja robocza..."
+            ],
+            "Replace what you have typed with the suggestion?": [
+                "Czy zast\u0105pi\u0107 wpisany tekst podpowiedzi\u0105?"
+            ],
+            "%s is writing a reply to this too.": [
+                "%s te\u017c pisze odpowied\u017a."
+            ],
+            "%s is also looking at this.": [
+                "%s r\u00f3wnie\u017c to przegl\u0105da."
+            ],
+            "No department": [
+                "Brak dzia\u0142u"
+            ],
+            "Tags, comma-separated": [
+                "Etykiety, rozdzielone przecinkami"
+            ],
+            "Tags": [
+                "Etykiety"
+            ],
+            "Upset customer": [
+                "Niezadowolony klient"
+            ],
+            "Unhappy customer": [
+                "Niezadowolony klient"
+            ],
+            "Summarise again": [
+                "Podsumuj ponownie"
+            ],
+            "Summarise": [
+                "Podsumuj"
+            ],
+            "met": [
+                "spe\u0142nione"
+            ],
+            "missed": [
+                "pomini\u0119te"
+            ],
+            "overdue by %s": [
+                "zaleg\u0142e od %s"
+            ],
+            "%s left": [
+                "pozosta\u0142o %s"
+            ],
+            "Customer rating: %d of 5": [
+                "Ocena klienta: %d z 5"
+            ],
+            "Write a KB article from this ticket": [
+                "Napisz artyku\u0142 bazy wiedzy na podstawie tego zg\u0142oszenia"
+            ],
+            "Write a help page from this ticket": [
+                "Napisz stron\u0119 pomocy na podstawie tego zg\u0142oszenia"
+            ],
+            "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
+                "U\u017cywaj ich z okien czatu i odpowiedzi na zg\u0142oszenia (Zapisane odpowiedzi) lub wpisz \/ i skr\u00f3t, a nast\u0119pnie spacj\u0119. {name}, {first_name}, {agent}, {site} i {ticket} zostan\u0105 wype\u0142nione automatycznie."
+            ],
+            "Shortcut (optional, e.g. refund)": [
+                "Skr\u00f3t (opcjonalnie, np. zwrot koszt\u00f3w)"
+            ],
+            "Text": [
+                "Tekst"
+            ],
+            "Every department": [
+                "Ka\u017cdy dzia\u0142"
+            ],
+            "Save": [
+                "Zapisz"
+            ],
+            "Add saved reply": [
+                "Dodaj zapisan\u0105 odpowied\u017a"
+            ],
+            "No saved replies yet.": [
+                "Brak zapisanych odpowiedzi."
+            ],
+            "Used %d times": [
+                "U\u017cyto %d razy"
+            ],
+            "Delete": [
+                "Usu\u0144"
+            ],
+            "Delete this saved reply?": [
+                "Usun\u0105\u0107 t\u0119 zapisan\u0105 odpowied\u017a?"
+            ],
+            "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
+                "Pytania odwiedzaj\u0105cych, na kt\u00f3re Twoja witryna nie potrafi\u0142a odpowiedzie\u0107, od najcz\u0119\u015bciej zadawanych. Wybierz niekt\u00f3re z nich i pozw\u00f3l sztucznej inteligencji przygotowa\u0107 artyku\u0142 z odpowiedziami; opublikuj go, a asystent natychmiast z niego skorzysta."
+            ],
+            "Recording is off (Settings, AI assistant).": [
+                "Nagrywanie jest wy\u0142\u0105czone (Ustawienia, asystent AI)."
+            ],
+            "Drafted": [
+                "Wersja robocza"
+            ],
+            "Answered": [
+                "Odpowiedziano"
+            ],
+            "Ignored": [
+                "Zignorowane"
+            ],
+            "Draft a KB article from the selected": [
+                "Napisz artyku\u0142 bazy wiedzy na podstawie wybranego elementu"
+            ],
+            "Draft a help page from the selected": [
+                "Napisz stron\u0119 pomocy na podstawie zaznaczonego tekstu"
+            ],
+            "Mark answered": [
+                "Oznaczono jako odebrane"
+            ],
+            "Ignore": [
+                "Ignoruj"
+            ],
+            "Question": [
+                "Pytanie"
+            ],
+            "Asked": [
+                "Zapytano"
+            ],
+            "Why": [
+                "Dlaczego"
+            ],
+            "Last asked": [
+                "Ostatnio zadane"
+            ],
+            "Not on the site": [
+                "Poza witryn\u0105"
+            ],
+            "Needed a person": [
+                "Potrzebna osoba"
+            ],
+            "Answer rated unhelpful": [
+                "Odpowied\u017a oceniona jako nieprzydatna"
+            ],
+            "Nothing here. Well done.": [
+                "Brak element\u00f3w. Dobra robota."
+            ],
+            "Period": [
+                "Okres rozliczeniowy"
+            ],
+            "Last 7 days": [
+                "Ostatnie 7 dni"
+            ],
+            "Last 30 days": [
+                "Ostatnie 30 dni"
+            ],
+            "Last 90 days": [
+                "Ostatnie 90 dni"
+            ],
+            "Last 12 months": [
+                "Ostatnie 12 miesi\u0119cy"
+            ],
+            "%s%% answered by the assistant alone": [
+                "%s%% odpowiedzi udzielonych wy\u0142\u0105cznie przez asystenta"
+            ],
+            "Handed to a person": [
+                "Przekazano osobie"
+            ],
+            "median wait %s": [
+                "\u015bredni czas oczekiwania %s"
+            ],
+            "Tickets opened": [
+                "Otwarte zg\u0142oszenia"
+            ],
+            "%d still open": [
+                "Pozosta\u0142o otwartych: %d"
+            ],
+            "median \u00b7 average %s": [
+                "mediana \u00b7 \u015brednia %s"
+            ],
+            "Time to solve": [
+                "Czas rozwi\u0105zania"
+            ],
+            "median \u00b7 %d solved": [
+                "mediana \u00b7 rozwi\u0105zano: %d"
+            ],
+            "Customer satisfaction": [
+                "Satysfakcja klienta"
+            ],
+            "%d ratings, average %s of 5": [
+                "%d ocen, \u015brednia %s na 5"
+            ],
+            "SLA first reply met": [
+                "Dotrzymano SLA pierwszej odpowiedzi"
+            ],
+            "%1$d due, %2$d missed": [
+                "%1$d op\u0142acona, %2$d zaleg\u0142ych"
+            ],
+            "Assistant answers rated": [
+                "Ocenione odpowiedzi asystenta"
+            ],
+            "helpful \/ rated": [
+                "pomocne \/ ocenione"
+            ],
+            "Chats and tickets per day": [
+                "Czat\u00f3w i zg\u0142osze\u0144 dziennie"
+            ],
+            "%1$d chats, %2$d tickets": [
+                "%1$d czat\u00f3w, %2$d zg\u0142osze\u0144"
+            ],
+            "Tickets answered": [
+                "Odpowiedziane zg\u0142oszenia"
+            ],
+            "Replies": [
+                "Odpowiedzi"
+            ],
+            "Rating": [
+                "Ocena"
+            ],
+            "Top topics": [
+                "Najpopularniejsze tematy"
+            ],
+            "Where tickets came from": [
+                "\u0179r\u00f3d\u0142o zg\u0142osze\u0144"
+            ]
+        }
+    }
+}

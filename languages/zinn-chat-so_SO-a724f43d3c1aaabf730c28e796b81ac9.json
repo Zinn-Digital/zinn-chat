@@ -1,0 +1,337 @@
+{
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/pro__premium_only\/admin-pro.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "so_SO",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Tickets": [
+                "Tikidhada"
+            ],
+            "Open": [
+                "Furo"
+            ],
+            "Chats": [
+                "Sheekooyinka"
+            ],
+            "Team": [
+                "Kooxaha"
+            ],
+            "Something went wrong. Please try again.": [
+                "Waxaa dhacay khalad. Fadlan isku day mar kale."
+            ],
+            "Title": [
+                "Cinwaan"
+            ],
+            "Department": [
+                "Waaxda"
+            ],
+            "Saved replies": [
+                "Jawaabaha la keydiyay"
+            ],
+            "Knowledge gaps": [
+                "Fursadaha aqoonta"
+            ],
+            "First reply": [
+                "Jawaabta koowaad"
+            ],
+            "Article": [
+                "Maqaal"
+            ],
+            "Reports": [
+                "Warbixinaha"
+            ],
+            "Agent": [
+                "Wakiilka"
+            ],
+            "All": [
+                "Dhammaan"
+            ],
+            "Page %1$d of %2$d": [
+                "Bogga %1$d ee %2$d"
+            ],
+            "Edit": [
+                "Wax ka beddel"
+            ],
+            "%d second": [
+                "%d ilbiriqsi",
+                "%d ilbiriqsi"
+            ],
+            "%d minute": [
+                "%d daqiiqad",
+                "%d daqiiqadood"
+            ],
+            "%d hour": [
+                "%d saacad",
+                "%d saacadood"
+            ],
+            "%d day": [
+                "%d maalmood",
+                "%d maalmood"
+            ],
+            "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
+                "Birawsarkani ma heli karo ogeysiisyada riixista halkan. iPhone, marka hore ku dar Inbox-ka Shaashaddaada Guriga."
+            ],
+            "Notifications are blocked for this site in the browser settings.": [
+                "Ogeysiisyada waa la xiray goobtan dejinta biraawsarka."
+            ],
+            "Notifications are on for this device.": [
+                "Ogeysiisyadu waa shaqeeyaan qalabkan."
+            ],
+            "Send a test notification": [
+                "Dir ogeysiis tijaabo ah"
+            ],
+            "Sent. It should appear in a few seconds.": [
+                "La diray. Waxay soo muuqan doontaa dhowr ilbidhiqsi gudahood."
+            ],
+            "The push service did not accept it.": [
+                "Adeegga riixitaanku ma uusan aqbalin."
+            ],
+            "Could not turn notifications on.": [
+                "Waqtiyaha ogeysiinta lama shidi karin."
+            ],
+            "Phone app and notifications": [
+                "App-ka taleefanka iyo ogeysiisyada"
+            ],
+            "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
+                "Sanduuqan Boostada ku rakib sidii abka: Chrome ama Edge ka dooro Ku rakib barka cinwaanka ama menu-ga; iPhone ama iPad-ka taabo Wadaag, dabadeed Ku dar Shaashadda Guriga. Wuxuu furmaa shaashad buuxda, oo diyaar u ah inuu jawaabo."
+            ],
+            "Turn on notifications on this device": [
+                "Daar ogeysiisyada qalabkan"
+            ],
+            "Nothing found.": [
+                "Waxba lama helin."
+            ],
+            "Search saved replies": [
+                "Raadi jawaabaha la keydiyay"
+            ],
+            "Link an article": [
+                "Ku xidh maqaal"
+            ],
+            "Search the knowledge base": [
+                "Raadi saldhigga aqoonta"
+            ],
+            "Suggest a reply": [
+                "So jeedi jawaab"
+            ],
+            "Drafting\u2026": [
+                "Waa la diyaarinayaa\u2026"
+            ],
+            "Replace what you have typed with the suggestion?": [
+                "Ma rabtaa inaad beddesho waxaad qortay adoo isticmaalaya talo-bixinta?"
+            ],
+            "%s is writing a reply to this too.": [
+                "%s ayaa sidoo kale qoraya jawaabtan."
+            ],
+            "%s is also looking at this.": [
+                "%s sido kale wuxuu eegayaa tan."
+            ],
+            "No department": [
+                "Waax ma jiro"
+            ],
+            "Tags, comma-separated": [
+                "Summadaha, oo lagu kala soocay commas"
+            ],
+            "Tags": [
+                "Calaamadaha"
+            ],
+            "Upset customer": [
+                "Macaamiil xanaaqsan"
+            ],
+            "Unhappy customer": [
+                "Macmiil aan ku qanacsanayn"
+            ],
+            "Summarise again": [
+                "Dib u soo koobi"
+            ],
+            "Summarise": [
+                "So koobi"
+            ],
+            "met": [
+                "la kulmay"
+            ],
+            "missed": [
+                "lumin la dhaafay"
+            ],
+            "overdue by %s": [
+                "waqtigiisu dhaafay %s"
+            ],
+            "%s left": [
+                "%s ayaa haray"
+            ],
+            "Customer rating: %d of 5": [
+                "Qiimaynta macaamiisha: %d ka mid ah 5"
+            ],
+            "Write a KB article from this ticket": [
+                "Ka qor maqaal aqooneed tigidhkan"
+            ],
+            "Write a help page from this ticket": [
+                "Ka qor bog caawinaad tigidhkan"
+            ],
+            "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
+                "Ka isticmaal sanduuqyada jawaabta ee wada-sheekaysiga iyo tikidhada (Jawaabaha la keydiyay), ama qor \/ iyo gaabiska, dabadeedna meel bannaan. {name}, {first_name}, {agent}, {site} iyo {ticket} waa laguu buuxin doonaa."
+            ],
+            "Shortcut (optional, e.g. refund)": [
+                "Gaaban (ikhtiyaari ah, tusaale ahaan celinta lacagta)"
+            ],
+            "Text": [
+                "Qoraal"
+            ],
+            "Every department": [
+                "Waax kasta"
+            ],
+            "Save": [
+                "Keydso"
+            ],
+            "Add saved reply": [
+                "Ku dar jawaabta la keydiyay"
+            ],
+            "No saved replies yet.": [
+                "Weli ma jiraan jawaabaha la keydiyay."
+            ],
+            "Used %d times": [
+                "La isticmaalay %d jeer"
+            ],
+            "Delete": [
+                "Tirtir"
+            ],
+            "Delete this saved reply?": [
+                "Mise tirtir jawaabtan la kaydiyay?"
+            ],
+            "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
+                "Su'aalaha ay booqashadayaashu waydiiyeen ee aanu boggaagu ka jawaabi karin, kuwa ugu badan ee la weydiiyay ayaa hortaeya. Dooro qaar ka mid ah oo u oggolow AI-da inay qoraal soo jeedinta ah oo ka jawaabaya ka soo shaqeyso; daabac oo kaaliyaha ayaa isticmaali doona isla markiiba."
+            ],
+            "Recording is off (Settings, AI assistant).": [
+                "Duubitaanku waa dansan (Dejinta, kaaliyaha AI)."
+            ],
+            "Drafted": [
+                "Diyaariyey"
+            ],
+            "Answered": [
+                "La jawaabay"
+            ],
+            "Ignored": [
+                "Waa la iska indhatiray"
+            ],
+            "Draft a KB article from the selected": [
+                "Qoraal qabyo ah ka diyaari aqoonta xarunta ee la xulay"
+            ],
+            "Draft a help page from the selected": [
+                "Qabyo qor bogga caawinta ee la xulay"
+            ],
+            "Mark answered": [
+                "Calaamaddii waa la jawaabay"
+            ],
+            "Ignore": [
+                "Iska indha-tir"
+            ],
+            "Question": [
+                "Su'aal"
+            ],
+            "Asked": [
+                "La waydiiyay"
+            ],
+            "Why": [
+                "Sababta"
+            ],
+            "Last asked": [
+                "Ugu dambeyn la weydiiyay"
+            ],
+            "Not on the site": [
+                "Bogga kuma jiro"
+            ],
+            "Needed a person": [
+                "Loo baahan yahay qof"
+            ],
+            "Answer rated unhelpful": [
+                "Jawaabta waxaa lagu qiimeeyay mid aan waxtar lahayn"
+            ],
+            "Nothing here. Well done.": [
+                "Wax aan jirin halkan. Aad bay u fiican tahay."
+            ],
+            "Period": [
+                "Muddada"
+            ],
+            "Last 7 days": [
+                "7-dkii maalmood ee la soo dhaafay"
+            ],
+            "Last 30 days": [
+                "30-kii maalmood ee la soo dhaafay"
+            ],
+            "Last 90 days": [
+                "90-kii maalmood ee la soo dhaafay"
+            ],
+            "Last 12 months": [
+                "12-kii bilood ee la soo dhaafay"
+            ],
+            "%s%% answered by the assistant alone": [
+                "%s%% oo uu ka jawaabay caawiyaha kaliya"
+            ],
+            "Handed to a person": [
+                "Qof la siiyay"
+            ],
+            "median wait %s": [
+                "Celinta dhexe %s"
+            ],
+            "Tickets opened": [
+                "Tikidhada la furay"
+            ],
+            "%d still open": [
+                "%d oo weli furan"
+            ],
+            "median \u00b7 average %s": [
+                "qiimaha dhexe \u00b7 celceliska %s"
+            ],
+            "Time to solve": [
+                "Waqtiga lagu xalliyo"
+            ],
+            "median \u00b7 %d solved": [
+                "dhakada \u00b7 %d la xalliyay"
+            ],
+            "Customer satisfaction": [
+                "Ku qanacsanaanta macaamiisha"
+            ],
+            "%d ratings, average %s of 5": [
+                "%d qiimeyn, celcelis ahaan %s oo ah 5"
+            ],
+            "SLA first reply met": [
+                "SLA-da jawaabtii ugu horreysay la buuxiyey"
+            ],
+            "%1$d due, %2$d missed": [
+                "%1$d ayaa laga qabtaa, %2$d waa la seegay"
+            ],
+            "Assistant answers rated": [
+                "Jawaabaha Kaaliyaha la qiimeeyay"
+            ],
+            "helpful \/ rated": [
+                "waa la caawiyay \/ la qiimeeyay"
+            ],
+            "Chats and tickets per day": [
+                "Sheekooyinka iyo tikidhada maalintii"
+            ],
+            "%1$d chats, %2$d tickets": [
+                "%1$d wada-sheeko, %2$d tigidh"
+            ],
+            "Tickets answered": [
+                "Tikidhada lagu jawaabay"
+            ],
+            "Replies": [
+                "Jawaabaha"
+            ],
+            "Rating": [
+                "Qiimaynta"
+            ],
+            "Top topics": [
+                "Mowduucyada ugu sarreeya"
+            ],
+            "Where tickets came from": [
+                "Halkee tikidhada ay ka yimaadeen"
+            ]
+        }
+    }
+}

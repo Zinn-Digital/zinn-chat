@@ -1,0 +1,333 @@
+{
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/pro__premium_only\/admin-pro.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "yo",
+                "plural-forms": "nplurals=1; plural=0;"
+            },
+            "Tickets": [
+                "\u00c0w\u1ecdn T\u00edk\u1eb9\u0301t\u00ec"
+            ],
+            "Open": [
+                "\u1e62ii"
+            ],
+            "Chats": [
+                "\u00c0w\u1ecdn \u00ecf\u1ecd\u0300r\u1ecd\u0300w\u00e9r\u1ecd\u0300"
+            ],
+            "Team": [
+                "\u1eb8gb\u1eb9\u0301"
+            ],
+            "Something went wrong. Please try again.": [
+                "Nkan kan ko t\u1ecd. J\u1ecd\u0300\u1ecd\u0301 t\u00fan gbiyanju r\u1eb9\u0300 l\u1eb9\u0301\u1eb9\u0300kan si."
+            ],
+            "Title": [
+                "\u00c0k\u1ecdl\u00e9"
+            ],
+            "Department": [
+                "\u1eb8ka"
+            ],
+            "Saved replies": [
+                "Aw\u1ecdn idahun ti a fipam\u1ecd"
+            ],
+            "Knowledge gaps": [
+                "Aw\u1ecdn oju ti o ku ninu im\u1ecd"
+            ],
+            "First reply": [
+                "\u00ccd\u00e1h\u00f9n \u00e0k\u1ecd\u0301k\u1ecd\u0301"
+            ],
+            "Article": [
+                "\u00c0pil\u1eb9\u0300k\u1ecd"
+            ],
+            "Reports": [
+                "\u00c0w\u1ecdn \u00ecr\u00f2y\u00ecn"
+            ],
+            "Agent": [
+                "A\u1e63oju"
+            ],
+            "All": [
+                "Gbogbo"
+            ],
+            "Page %1$d of %2$d": [
+                "Oj\u00fa-ew\u00e9 %1$d n\u00edn\u00fa %2$d"
+            ],
+            "Edit": [
+                "\u1e62atun\u1e63e"
+            ],
+            "%d second": [
+                "%d aaya-aya"
+            ],
+            "%d minute": [
+                "%d \u00ec\u1e63\u00faju"
+            ],
+            "%d hour": [
+                "wakati %d"
+            ],
+            "%d day": [
+                "\u1eccj\u1ecd %d"
+            ],
+            "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
+                "\u1eb8r\u1ecd a\u1e63\u00e0w\u00e1kiri y\u00ec\u00ed k\u00f2 le gba \u00e0w\u1ecdn \u00ecfit\u00f3nil\u00e9t\u00ed \u00ect\u00ec n\u00edh\u00ecn-\u00edn. Lori iPhone kan, fi Inbox k\u00fan Oj\u00fa-\u00ecw\u00e9 Il\u00e9 r\u1eb9 k\u1ecdk\u1ecd."
+            ],
+            "Notifications are blocked for this site in the browser settings.": [
+                "A k\u00f2 gba \u00e0w\u1ecdn \u00ecfit\u00f3nil\u00e9t\u00ed l\u00e1\u00e0y\u00e8 f\u00fan oj\u00fa \u00f2p\u00f3 w\u1eb9\u0301b\u00f9 y\u00ec\u00ed n\u00edn\u00fa \u00e8t\u00f2 \u00e0\u1e63\u00e0y\u00e0n \u1eb9\u0300r\u1ecd \u00ecw\u00e1kiri (browser) r\u1eb9."
+            ],
+            "Notifications are on for this device.": [
+                "\u00c0w\u1ecdn \u00ecfit\u00f3nil\u00e9t\u00ed ti w\u00e0 n\u00ed t\u00edt\u00f3 s\u00edl\u1eb9\u0300 f\u00fan \u1eb9\u0300r\u1ecd y\u00ec\u00ed."
+            ],
+            "Send a test notification": [
+                "Fi \u00ecm\u1ecd\u0300 \u00ecj\u1eb9\u0301r\u00ec\u00eds\u00ed \u00ecd\u00e1nw\u00f2 r\u00e1n\u1e63\u1eb9\u0301"
+            ],
+            "Sent. It should appear in a few seconds.": [
+                "O ti r\u00e1n\u1e63\u1eb9\u0301. \u00d3 y\u1eb9 k\u00ed \u00f3 h\u00e0n n\u00ed \u00ec\u1e63\u1eb9\u0301j\u00fa d\u00ed\u1eb9\u0300 s\u1eb9\u0301y\u00ecn."
+            ],
+            "The push service did not accept it.": [
+                "I\u1e63\u1eb9 \u00ect\u00ec n\u00e1\u00e0 k\u00f2 gba a."
+            ],
+            "Could not turn notifications on.": [
+                "K\u00f2 le s\u1ecd \u00e0w\u1ecdn \u00ecfit\u00f3nil\u00e9t\u00ed di \u1e63\u00ed\u1e63e."
+            ],
+            "Phone app and notifications": [
+                "Ohun elo foonu ati aw\u1ecdn iwifunni"
+            ],
+            "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
+                "Fi Inbox y\u00ec\u00ed sori \u1eb9r\u1ecd g\u1eb9g\u1eb9bi app: ninu Chrome tabi Edge yan Fi sori \u1eb9r\u1ecd ninu \u1ecdpa adir\u1eb9si tabi akoj\u1ecd a\u1e63yn; lori iPhone tabi iPad t\u1eb9 Pinp\u00edn, l\u1eb9hinna Fi kun si Iboju Ile. O \u1e63ii ni kikun iboju, o \u1e63etan lati dahun."
+            ],
+            "Turn on notifications on this device": [
+                "Tan aw\u1ecdn \u00e0m\u00fa\u1e63\u1eb9\u0301 s\u00edl\u1eb9\u0300 l\u00f3r\u00ed \u1eb9\u0300r\u1ecd y\u00ec\u00ed"
+            ],
+            "Nothing found.": [
+                "K\u00f2 s\u00ed ohun t\u00ed a r\u00ed."
+            ],
+            "Search saved replies": [
+                "Wa aw\u1ecdn idahun ti a fipam\u1ecd"
+            ],
+            "Link an article": [
+                "Sop\u1ecd n\u01f9kan kika kan"
+            ],
+            "Search the knowledge base": [
+                "W\u00e1 ibi \u00ecm\u1ecd\u0300 \u00ecp\u00ecl\u1eb9\u0300 r\u1eb9\u0300"
+            ],
+            "Suggest a reply": [
+                "Daba esi kan"
+            ],
+            "Drafting\u2026": [
+                "N\u00edtor\u00ed p\u00e9 \u00f3 \u0144 k\u1ecd\u2026"
+            ],
+            "Replace what you have typed with the suggestion?": [
+                "\u1e62\u00e9 o f\u1eb9\u0301 r\u1ecd\u0301p\u00f2 ohun t\u00ed o ti t\u1eb9\u0301 p\u1eb9\u0300lu \u00ec\u1e63\u00ed\u1e63\u1eb9\u0301 n\u00e1\u00e0?"
+            ],
+            "%s is writing a reply to this too.": [
+                "%s nko idahun si eyi p\u1eb9lu."
+            ],
+            "%s is also looking at this.": [
+                "%s n\u00e1\u00e0 t\u00fan \u0144 w\u00f2 this."
+            ],
+            "No department": [
+                "K\u00f2 s\u00ed \u1eb9\u0300ka i\u1e63\u1eb9\u0301"
+            ],
+            "Tags, comma-separated": [
+                "\u00c0w\u1ecdn t\u00e1g\u00ec, t\u00ed a p\u00edn p\u1eb9\u0300l\u00fa k\u00f2m\u00e0"
+            ],
+            "Tags": [
+                "\u00c0w\u1ecdn\u00e9"
+            ],
+            "Upset customer": [
+                "Onibara to binu"
+            ],
+            "Unhappy customer": [
+                "Onibara ti ko ni idunnu"
+            ],
+            "Summarise again": [
+                "T\u00fan \u1e63e \u00e0k\u00f3p\u1ecd\u0300 r\u1eb9\u0300"
+            ],
+            "Summarise": [
+                "\u1e62e \u00e0k\u00f3p\u1ecd\u0300 r\u1eb9\u0300"
+            ],
+            "met": [
+                "p\u00e0d\u00e9"
+            ],
+            "missed": [
+                "t\u00ed \u00f3 f\u00f2 s\u00edl\u1eb9\u0300"
+            ],
+            "overdue by %s": [
+                "ti p\u1eb9 ju l\u1ecd nipas\u1eb9 %s"
+            ],
+            "%s left": [
+                "%s k\u00f9"
+            ],
+            "Customer rating: %d of 5": [
+                "\u1eccw\u1ecd alabara: %d ninu 5"
+            ],
+            "Write a KB article from this ticket": [
+                "K\u1ecd \u00e0pil\u1eb9\u0300k\u1ecd \u00ecm\u1ecd\u0300 l\u00e1ti in\u00fa tik\u1eb9\u0301t\u00ec y\u00ec\u00ed"
+            ],
+            "Write a help page from this ticket": [
+                "K\u1ecd oj\u00fa-ew\u00e9 \u00ecr\u00e0nl\u1ecd\u0301w\u1ecd\u0301 kan l\u00e1ti in\u00fa tik\u1eb9\u0301t\u00ec y\u00ec\u00ed"
+            ],
+            "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
+                "Lo w\u1ecdn lati inu i\u1e63\u1eb9 ninu if\u1ecdr\u1ecdw\u1ecdr\u1ecd ati aw\u1ecdn apoti esi tik\u1eb9ti (Aw\u1ecdn esi ti a fipam\u1ecd), tabi t\u1eb9 \/ ati \u1ecdna abuja, l\u1eb9hinna aaye kan. {name}, {first_name}, {agent}, {site} ati {ticket} ni a kun fun \u1ecd."
+            ],
+            "Shortcut (optional, e.g. refund)": [
+                "\u00c0b\u00e1j\u00e1 (a\u1e63\u00e0y\u00e0n, f.ap\u1eb9\u1eb9r\u1eb9 \u00ecpad\u00e0ow\u00f3)"
+            ],
+            "Text": [
+                "\u1eccr\u1ecd"
+            ],
+            "Every department": [
+                "Gbogbo \u1eb9\u0300ka"
+            ],
+            "Save": [
+                "Fi pam\u1ecd\u0301"
+            ],
+            "Add saved reply": [
+                "Fi \u00ecd\u00e1h\u00f9n t\u00ed a fipam\u1ecd\u0301 k\u00fan un"
+            ],
+            "No saved replies yet.": [
+                "K\u00f2 t\u00ed\u00ec s\u00ed \u00ecd\u00e1h\u00f9n t\u00ed a fi pam\u1ecd\u0301."
+            ],
+            "Used %d times": [
+                "\u00c0w\u1ecdn \u00ecgb\u00e0 %d t\u00ed a l\u00f2 \u00f3"
+            ],
+            "Delete": [
+                "Pa kuro"
+            ],
+            "Delete this saved reply?": [
+                "\u1e62e o f\u1eb9\u0301 pa \u00ecd\u00e1h\u00f9n t\u00ed a fi pam\u1ecd\u0301 y\u00ec\u00ed r\u1eb9\u0301?"
+            ],
+            "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
+                "Aw\u1ecdn ibeere ti aw\u1ecdn alejo beere ti aaye r\u1eb9 ko le dahun, eyiti a beere jul\u1ecd k\u1ecdk\u1ecd. Yan di\u1eb9 ninu ki o j\u1eb9 ki AI \u1e63e agbekal\u1eb9 nkan kan ti o dahun w\u1ecdn; t\u1eb9jade r\u1eb9 ati oluranl\u1ecdw\u1ecd yoo lo ni \u1eb9\u1eb9kan."
+            ],
+            "Recording is off (Settings, AI assistant).": [
+                "Fidio kiii se (\u00c8t\u00f2, oluranl\u1ecdw\u1ecd AI)."
+            ],
+            "Drafted": [
+                "Ti a k\u1ecd sil\u1eb9"
+            ],
+            "Answered": [
+                "Ti ni \u00ecd\u00e1h\u00f9n"
+            ],
+            "Ignored": [
+                "A k\u1ecd\u0300 \u1ecd\u0301 s\u00edl\u1eb9\u0300"
+            ],
+            "Draft a KB article from the selected": [
+                "K\u1ecd \u00e0pil\u1eb9\u0300k\u1ecd \u00ecm\u1ecd\u0300 l\u00e1ti in\u00fa \u00e8y\u00ed t\u00ed a y\u00e0n"
+            ],
+            "Draft a help page from the selected": [
+                "Se \u00e0k\u1ecds\u1ecd oj\u00faew\u00e9 \u00ecr\u00e0nl\u1ecd\u0301w\u1ecd\u0301 l\u00e1ti in\u00fa \u00e8y\u00ed t\u00ed a y\u00e0n"
+            ],
+            "Mark answered": [
+                "A ti dahun"
+            ],
+            "Ignore": [
+                "\u1e62e \u00e0\u00eck\u1ecdbi"
+            ],
+            "Question": [
+                "\u00ccb\u00e9\u00e8r\u00e8"
+            ],
+            "Asked": [
+                "Ti a bi\u00e8r\u00e8"
+            ],
+            "Why": [
+                "Kil\u1ecd"
+            ],
+            "Last asked": [
+                "Ti a beere k\u1eb9hin"
+            ],
+            "Not on the site": [
+                "Ko si lori aaye ayelujara naa"
+            ],
+            "Needed a person": [
+                "A nilo eniyan kan"
+            ],
+            "Answer rated unhelpful": [
+                "A\u0300i\u0300se\u0300 si\u0301le\u0300 si\u0301 i\u0300be\u0300ere\u0300 y\u1eb9n"
+            ],
+            "Nothing here. Well done.": [
+                "K\u00f2 s\u00ed ohun kankan n\u00edb\u00ed. \u1eb8 \u1e63e \u00e9 gan-an ni."
+            ],
+            "Period": [
+                "\u00c0k\u00f3k\u00f2"
+            ],
+            "Last 7 days": [
+                "\u1eccj\u1ecd\u0301 m\u00e9je s\u1eb9\u0301y\u00ecn"
+            ],
+            "Last 30 days": [
+                "\u1eccj\u1ecd\u0301 \u1ecdg\u1ecd\u0301ta s\u1eb9\u0301y\u00ecn"
+            ],
+            "Last 90 days": [
+                "\u1eccj\u1ecd\u0301 \u00e0\u00e1d\u1ecd\u0301ta s\u1eb9\u0301y\u00ecn"
+            ],
+            "Last 12 months": [
+                "O\u1e63\u00f9 12 s\u1eb9\u0301y\u00ecn"
+            ],
+            "%s%% answered by the assistant alone": [
+                "%s%% t\u00ed ol\u00f9r\u00e0nl\u1ecd\u0301w\u1ecd\u0301 d\u00e1h\u00f9n n\u00eckan"
+            ],
+            "Handed to a person": [
+                "Fi f\u00fan \u1eb9n\u00eckan"
+            ],
+            "median wait %s": [
+                "\u00e0p\u00ednp\u1ecdn \u00e0k\u00f3k\u00f2 \u00ecd\u00far\u00f3 %s"
+            ],
+            "Tickets opened": [
+                "\u00c0w\u1ecdn t\u00edk\u1eb9\u0301t\u00ec t\u00ed a \u1e63\u00ed"
+            ],
+            "%d still open": [
+                "%d \u1e63i \ud83d\udd13 s\u00edl\u1eb9\u0300"
+            ],
+            "median \u00b7 average %s": [
+                "aarin \u00b7 apap\u1ecd %s"
+            ],
+            "Time to solve": [
+                "\u00c0k\u00f3k\u00f2 l\u00e1ti yanj\u00fa"
+            ],
+            "median \u00b7 %d solved": [
+                "\u00e0\u00e1r\u00edn \u00b7 %d ti yanj\u00fa"
+            ],
+            "Customer satisfaction": [
+                "\u00cct\u1eb9l\u1ecdrun on\u00edb\u00e0\u00e1r\u00e0"
+            ],
+            "%d ratings, average %s of 5": [
+                "Aw\u1ecdn \u00ecw\u1ecd\u0300n %d, \u00e0pap\u1ecd\u0300 %s n\u00edn\u00fa 5"
+            ],
+            "SLA first reply met": [
+                "Wakati idahun ak\u1ecdk\u1ecd ti SLA ti pade"
+            ],
+            "%1$d due, %2$d missed": [
+                "%1$d j\u1eb9, %2$d padanu"
+            ],
+            "Assistant answers rated": [
+                "\u00c0w\u1ecdn \u00ecd\u00e1h\u00f9n ol\u00f9r\u00e0nl\u1ecd\u0301w\u1ecd\u0301 t\u00ed a f\u00fan n\u00ed \u00ecw\u1ecd\u0300n"
+            ],
+            "helpful \/ rated": [
+                "w\u00fal\u00edl\u1eb9\u0300 \/ a ti \u1e63e \u00e0t\u00fany\u1eb9\u0300w\u00f2 r\u1eb9\u0300"
+            ],
+            "Chats and tickets per day": [
+                "Aw\u1ecdn iwiregbe ati aw\u1ecdn tik\u1eb9ti fun \u1ecdj\u1ecd kan"
+            ],
+            "%1$d chats, %2$d tickets": [
+                "%1$d aw\u1ecdn iwiregbe, %2$d aw\u1ecdn tik\u1eb9ti"
+            ],
+            "Tickets answered": [
+                "Aw\u1ecdn tik\u1eb9ti ti a ti dahun"
+            ],
+            "Replies": [
+                "\u00c0w\u1ecdn \u00ecd\u00e1h\u00f9n"
+            ],
+            "Rating": [
+                "\u00ccw\u1ecd\u0300n b\u1eb9\u0301\u1eb9\u0300"
+            ],
+            "Top topics": [
+                "Aw\u1ecdn ak\u1ecdle pataki"
+            ],
+            "Where tickets came from": [
+                "Nibo ni aw\u1ecdn tik\u1eb9ti ti wa"
+            ]
+        }
+    }
+}

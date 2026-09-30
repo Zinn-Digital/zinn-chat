@@ -1,4 +1,5 @@
 {
 	"assets/js/blocks.js": [ "assets/js/blocks.js" ],
-	"assets/js/console.js": [ "assets/js/console.js" ]
+	"assets/js/console.js": [ "assets/js/console.js" ],
+	"assets/pro__premium_only/admin-pro.js": [ "assets/pro__premium_only/admin-pro.js" ]
 }

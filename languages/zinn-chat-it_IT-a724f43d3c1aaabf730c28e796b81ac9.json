@@ -1,0 +1,341 @@
+{
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/pro__premium_only\/admin-pro.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "it_IT",
+                "plural-forms": "nplurals=3; plural=(((((((0 == 0)) && ((((n == 0)) == 0))) && (((n % 1000000) == 0))) && ((0 == 0))) || ((((0 >= 0 && 0 <= 5)) == 0))) ? 1 : (((n == 1)) && ((0 == 0))) ? 0 : 2);"
+            },
+            "Tickets": [
+                "Ticket"
+            ],
+            "Open": [
+                "Apri"
+            ],
+            "Chats": [
+                "Chat"
+            ],
+            "Team": [
+                "Team"
+            ],
+            "Something went wrong. Please try again.": [
+                "Si \u00e8 verificato un errore. Riprova."
+            ],
+            "Title": [
+                "Titolo"
+            ],
+            "Department": [
+                "Reparto"
+            ],
+            "Saved replies": [
+                "Risposte salvate"
+            ],
+            "Knowledge gaps": [
+                "Lacune di conoscenza"
+            ],
+            "First reply": [
+                "Prima risposta"
+            ],
+            "Article": [
+                "Articolo"
+            ],
+            "Reports": [
+                "Report"
+            ],
+            "Agent": [
+                "Agente"
+            ],
+            "All": [
+                "Tutti"
+            ],
+            "Page %1$d of %2$d": [
+                "Pagina %1$d di %2$d"
+            ],
+            "Edit": [
+                "Modifica"
+            ],
+            "%d second": [
+                "%d secondo",
+                "%d secondi",
+                "%d secondi"
+            ],
+            "%d minute": [
+                "%d minuto",
+                "%d minuti",
+                "%d minuti"
+            ],
+            "%d hour": [
+                "%d ora",
+                "%d ore",
+                "%d ore"
+            ],
+            "%d day": [
+                "%d giorno",
+                "%d giorni",
+                "%d giorni"
+            ],
+            "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
+                "Questo browser non pu\u00f2 ricevere notifiche push qui. Su un iPhone, aggiungi prima Inbox alla schermata Home."
+            ],
+            "Notifications are blocked for this site in the browser settings.": [
+                "Le notifiche sono bloccate per questo sito nelle impostazioni del browser."
+            ],
+            "Notifications are on for this device.": [
+                "Le notifiche sono attive per questo dispositivo."
+            ],
+            "Send a test notification": [
+                "Invia una notifica di prova"
+            ],
+            "Sent. It should appear in a few seconds.": [
+                "Inviato. Dovrebbe comparire tra pochi secondi."
+            ],
+            "The push service did not accept it.": [
+                "Il servizio di notifiche push non l'ha accettato."
+            ],
+            "Could not turn notifications on.": [
+                "Impossibile attivare le notifiche."
+            ],
+            "Phone app and notifications": [
+                "App per telefono e notifiche"
+            ],
+            "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
+                "Installa questa casella di posta come app: in Chrome o Edge scegli Installa nella barra degli indirizzi o nel menu; su iPhone o iPad tocca Condividi e poi Aggiungi alla schermata Home. Si apre a schermo intero, pronta per rispondere."
+            ],
+            "Turn on notifications on this device": [
+                "Attiva le notifiche su questo dispositivo"
+            ],
+            "Nothing found.": [
+                "Nessun risultato trovato."
+            ],
+            "Search saved replies": [
+                "Cerca risposte salvate"
+            ],
+            "Link an article": [
+                "Collega un articolo"
+            ],
+            "Search the knowledge base": [
+                "Cerca nella Knowledge Base"
+            ],
+            "Suggest a reply": [
+                "Suggerisci una risposta"
+            ],
+            "Drafting\u2026": [
+                "Bozza in corso..."
+            ],
+            "Replace what you have typed with the suggestion?": [
+                "Vuoi sostituire quello che hai digitato con il suggerimento?"
+            ],
+            "%s is writing a reply to this too.": [
+                "Anche %s sta scrivendo una risposta."
+            ],
+            "%s is also looking at this.": [
+                "Anche %s sta guardando questo elemento."
+            ],
+            "No department": [
+                "Nessun reparto"
+            ],
+            "Tags, comma-separated": [
+                "Tag, separate da virgola"
+            ],
+            "Tags": [
+                "Tag"
+            ],
+            "Upset customer": [
+                "Cliente scontento"
+            ],
+            "Unhappy customer": [
+                "Cliente insoddisfatto"
+            ],
+            "Summarise again": [
+                "Riassumi di nuovo"
+            ],
+            "Summarise": [
+                "Riassumi"
+            ],
+            "met": [
+                "conforme"
+            ],
+            "missed": [
+                "mancata"
+            ],
+            "overdue by %s": [
+                "scaduto da %s"
+            ],
+            "%s left": [
+                "%s rimanenti"
+            ],
+            "Customer rating: %d of 5": [
+                "Valutazione dei clienti: %d su 5"
+            ],
+            "Write a KB article from this ticket": [
+                "Scrivi un articolo della KB da questo ticket"
+            ],
+            "Write a help page from this ticket": [
+                "Scrivi una pagina di aiuto da questo ticket"
+            ],
+            "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
+                "Le utilizzi dalla chat e dai campi di risposta dei ticket (Risposte salvate), oppure digiti \/ e la scorciatoia, quindi uno spazio. {name}, {first_name}, {agent}, {site} e {ticket} vengono compilati automaticamente per Lei."
+            ],
+            "Shortcut (optional, e.g. refund)": [
+                "Scorciatoia (facoltativa, ad es. rimborso)"
+            ],
+            "Text": [
+                "Testo"
+            ],
+            "Every department": [
+                "Ogni reparto"
+            ],
+            "Save": [
+                "Salva"
+            ],
+            "Add saved reply": [
+                "Aggiungi risposta salvata"
+            ],
+            "No saved replies yet.": [
+                "Nessuna risposta salvata."
+            ],
+            "Used %d times": [
+                "Utilizzato %d volte"
+            ],
+            "Delete": [
+                "Elimina"
+            ],
+            "Delete this saved reply?": [
+                "Eliminare questa risposta salvata?"
+            ],
+            "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
+                "Domande poste dai visitatori a cui il Suo sito non ha saputo rispondere, ordinate per frequenza. Ne selezioni alcune e lasci che l'IA rediga una bozza di articolo per rispondere; lo pubblichi e l'assistente lo utilizzer\u00e0 immediatamente."
+            ],
+            "Recording is off (Settings, AI assistant).": [
+                "La registrazione \u00e8 disattivata (Impostazioni, assistente AI)."
+            ],
+            "Drafted": [
+                "Bozza"
+            ],
+            "Answered": [
+                "Risposta"
+            ],
+            "Ignored": [
+                "Ignorato"
+            ],
+            "Draft a KB article from the selected": [
+                "Bozza un articolo della KB dal testo selezionato"
+            ],
+            "Draft a help page from the selected": [
+                "Bozza una pagina di aiuto dalla selezione"
+            ],
+            "Mark answered": [
+                "Segnato come risposto"
+            ],
+            "Ignore": [
+                "Ignora"
+            ],
+            "Question": [
+                "Domanda"
+            ],
+            "Asked": [
+                "Richiesto"
+            ],
+            "Why": [
+                "Perch\u00e9"
+            ],
+            "Last asked": [
+                "Ultima richiesta"
+            ],
+            "Not on the site": [
+                "Non sul sito"
+            ],
+            "Needed a person": [
+                "Persona necessaria"
+            ],
+            "Answer rated unhelpful": [
+                "Risposta valutata come poco utile"
+            ],
+            "Nothing here. Well done.": [
+                "Non c'\u00e8 nulla qui. Ben fatto."
+            ],
+            "Period": [
+                "Periodo"
+            ],
+            "Last 7 days": [
+                "Ultimi 7 giorni"
+            ],
+            "Last 30 days": [
+                "Ultimi 30 giorni"
+            ],
+            "Last 90 days": [
+                "Ultimi 90 giorni"
+            ],
+            "Last 12 months": [
+                "Ultimi 12 mesi"
+            ],
+            "%s%% answered by the assistant alone": [
+                "%s%% risposto solo dall'assistente"
+            ],
+            "Handed to a person": [
+                "Assegnato a una persona"
+            ],
+            "median wait %s": [
+                "attesa media %s"
+            ],
+            "Tickets opened": [
+                "Ticket aperti"
+            ],
+            "%d still open": [
+                "%d ancora aperto"
+            ],
+            "median \u00b7 average %s": [
+                "mediana \u00b7 media %s"
+            ],
+            "Time to solve": [
+                "Tempo di risoluzione"
+            ],
+            "median \u00b7 %d solved": [
+                "mediana \u00b7 %d risolti"
+            ],
+            "Customer satisfaction": [
+                "Soddisfazione del cliente"
+            ],
+            "%d ratings, average %s of 5": [
+                "%d valutazioni, media %s su 5"
+            ],
+            "SLA first reply met": [
+                "Primo riscontro SLA rispettato"
+            ],
+            "%1$d due, %2$d missed": [
+                "%1$d scaduta, %2$d non riscossa"
+            ],
+            "Assistant answers rated": [
+                "Risposte dell'assistente valutate"
+            ],
+            "helpful \/ rated": [
+                "utile \/ valutato"
+            ],
+            "Chats and tickets per day": [
+                "Chat e ticket al giorno"
+            ],
+            "%1$d chats, %2$d tickets": [
+                "%1$d chat, %2$d ticket"
+            ],
+            "Tickets answered": [
+                "Ticket risposti"
+            ],
+            "Replies": [
+                "Risposte"
+            ],
+            "Rating": [
+                "Valutazione"
+            ],
+            "Top topics": [
+                "Argomenti principali"
+            ],
+            "Where tickets came from": [
+                "Origine dei ticket"
+            ]
+        }
+    }
+}

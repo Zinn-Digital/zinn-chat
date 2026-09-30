@@ -1,0 +1,337 @@
+{
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/pro__premium_only\/admin-pro.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "sq",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Tickets": [
+                "Kapacitete mb\u00ebshtetjeje"
+            ],
+            "Open": [
+                "Hape"
+            ],
+            "Chats": [
+                "Biseda"
+            ],
+            "Team": [
+                "Ekipi"
+            ],
+            "Something went wrong. Please try again.": [
+                "Di\u00e7ka shkoi keq. Ju lutemi provoni p\u00ebrs\u00ebri."
+            ],
+            "Title": [
+                "Titulli"
+            ],
+            "Department": [
+                "Departamenti"
+            ],
+            "Saved replies": [
+                "P\u00ebrgjigjet e ruajtura"
+            ],
+            "Knowledge gaps": [
+                "Bboshat e njohurive"
+            ],
+            "First reply": [
+                "P\u00ebrgjigjja e par\u00eb"
+            ],
+            "Article": [
+                "Artikull"
+            ],
+            "Reports": [
+                "Raportet"
+            ],
+            "Agent": [
+                "Agjent"
+            ],
+            "All": [
+                "T\u00eb gjitha"
+            ],
+            "Page %1$d of %2$d": [
+                "Faqja %1$d nga %2$d"
+            ],
+            "Edit": [
+                "Modifiko"
+            ],
+            "%d second": [
+                "%d sekond\u00eb",
+                "%d sekonda"
+            ],
+            "%d minute": [
+                "%d minut\u00eb",
+                "%d minuta"
+            ],
+            "%d hour": [
+                "%d or\u00eb",
+                "%d or\u00eb"
+            ],
+            "%d day": [
+                "%d dit\u00eb",
+                "%d dit\u00eb"
+            ],
+            "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
+                "Ky shfletues nuk mund t\u00eb marr\u00eb njoftime shtyt\u00ebse k\u00ebtu. N\u00eb nj\u00eb iPhone, shtoni fillimisht Inbox n\u00eb ekranin tuaj baz\u00eb."
+            ],
+            "Notifications are blocked for this site in the browser settings.": [
+                "Njoftimet jan\u00eb bllokuar p\u00ebr k\u00ebt\u00eb faqe n\u00eb cil\u00ebsimet e shfletuesit."
+            ],
+            "Notifications are on for this device.": [
+                "Njoftimet jan\u00eb t\u00eb aktivizuara p\u00ebr k\u00ebt\u00eb pajisje."
+            ],
+            "Send a test notification": [
+                "D\u00ebrgo nj\u00eb njoftim testues"
+            ],
+            "Sent. It should appear in a few seconds.": [
+                "U d\u00ebrgua. Duhet t\u00eb shfaqet pas pak sekondash."
+            ],
+            "The push service did not accept it.": [
+                "Sh\u00ebrbimi i shtytjes nuk e pranoi at\u00eb."
+            ],
+            "Could not turn notifications on.": [
+                "Nuk u mund\u00ebsua aktivizimi i njoftimeve."
+            ],
+            "Phone app and notifications": [
+                "Aplikacioni p\u00ebr telefon dhe njoftimet"
+            ],
+            "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
+                "Instaloni k\u00ebt\u00eb Inbox si aplikacion: n\u00eb Chrome ose Edge zgjidhni Instalo n\u00eb shiritin e adresave ose n\u00eb menu; n\u00eb nj\u00eb iPhone ose iPad prekni Ndaj, m\u00eb pas Shto n\u00eb ekranin baz\u00eb. Ai hapet n\u00eb ekran t\u00eb plot\u00eb, gati p\u00ebr t'u p\u00ebrgjigjur."
+            ],
+            "Turn on notifications on this device": [
+                "Aktivizo njoftimet n\u00eb k\u00ebt\u00eb pajisje"
+            ],
+            "Nothing found.": [
+                "Nuk u gjet asgj\u00eb."
+            ],
+            "Search saved replies": [
+                "K\u00ebrko p\u00ebrgjigjet e ruajtura"
+            ],
+            "Link an article": [
+                "Lidh nj\u00eb artikull"
+            ],
+            "Search the knowledge base": [
+                "K\u00ebrko n\u00eb baz\u00ebn e njohurive"
+            ],
+            "Suggest a reply": [
+                "Propozo nj\u00eb p\u00ebrgjigje"
+            ],
+            "Drafting\u2026": [
+                "Duke p\u00ebrgatitur skic\u00ebn..."
+            ],
+            "Replace what you have typed with the suggestion?": [
+                "T\u00eb z\u00ebvend\u00ebsohet ajo q\u00eb keni shkruar me sugjerimin?"
+            ],
+            "%s is writing a reply to this too.": [
+                "Edhe %s po shkruan nj\u00eb p\u00ebrgjigje p\u00ebr k\u00ebt\u00eb."
+            ],
+            "%s is also looking at this.": [
+                "Edhe %s po e shikon k\u00ebt\u00eb."
+            ],
+            "No department": [
+                "Asnj\u00eb departament"
+            ],
+            "Tags, comma-separated": [
+                "Etiketa, t\u00eb ndara me presje"
+            ],
+            "Tags": [
+                "Etiketat"
+            ],
+            "Upset customer": [
+                "Klient i pak\u00ebnaqur"
+            ],
+            "Unhappy customer": [
+                "Klient i pak\u00ebnaqur"
+            ],
+            "Summarise again": [
+                "P\u00ebrmblidh s\u00ebrish"
+            ],
+            "Summarise": [
+                "P\u00ebrmblidh"
+            ],
+            "met": [
+                "u takua"
+            ],
+            "missed": [
+                "e humbur"
+            ],
+            "overdue by %s": [
+                "von\u00eb me %s"
+            ],
+            "%s left": [
+                "%s i\/e l\u00ebn\u00eb"
+            ],
+            "Customer rating: %d of 5": [
+                "Vler\u00ebsimi i klientit: %d nga 5"
+            ],
+            "Write a KB article from this ticket": [
+                "Shkruani nj\u00eb artikull t\u00eb baz\u00ebs s\u00eb njohurive nga ky bilet\u00eb"
+            ],
+            "Write a help page from this ticket": [
+                "Shkruani nj\u00eb faqe ndihme nga kjo k\u00ebrkes\u00eb mb\u00ebshtetjeje"
+            ],
+            "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
+                "P\u00ebrdorni ato nga kutit\u00eb e bised\u00ebs dhe p\u00ebrgjigjes s\u00eb biletave (P\u00ebrgjigjet e ruajtura), ose shkruani \/ dhe shkurtoren, pastaj nj\u00eb hap\u00ebsir\u00eb. {name}, {first_name}, {agent}, {site} dhe {ticket} plot\u00ebsohen automatikisht p\u00ebr ju."
+            ],
+            "Shortcut (optional, e.g. refund)": [
+                "Shkurtorja (opsionale, p.sh. rimbursim)"
+            ],
+            "Text": [
+                "Tekst"
+            ],
+            "Every department": [
+                "\u00c7do departament"
+            ],
+            "Save": [
+                "Ruaj"
+            ],
+            "Add saved reply": [
+                "Shto p\u00ebrgjigjen e ruajtur"
+            ],
+            "No saved replies yet.": [
+                "End kegje t\u00eb ruajtura ende."
+            ],
+            "Used %d times": [
+                "P\u00ebrdorur %d her\u00eb"
+            ],
+            "Delete": [
+                "Fshi"
+            ],
+            "Delete this saved reply?": [
+                "T\u00eb fshihet kjo p\u00ebrgjigje e ruajtur?"
+            ],
+            "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
+                "Pyetjet q\u00eb b\u00ebn\u00eb vizitor\u00ebt t\u00eb cilave faqja juaj nuk mund t'u p\u00ebrgjigjej, m\u00eb t\u00eb k\u00ebrkuarat t\u00eb parat. Zgjidhni disa dhe l\u00ebreni AI t\u00eb skicoj\u00eb nj\u00eb artikull q\u00eb u p\u00ebrgjigjet atyre; publikojeni dhe asistenti e p\u00ebrdor at\u00eb menj\u00ebher\u00eb."
+            ],
+            "Recording is off (Settings, AI assistant).": [
+                "Regjistrimi \u00ebsht\u00eb i fikur (Cil\u00ebsimet, Asistenti i AI)."
+            ],
+            "Drafted": [
+                "Skicuar"
+            ],
+            "Answered": [
+                "P\u00ebrgJigjur"
+            ],
+            "Ignored": [
+                "Ignoruar"
+            ],
+            "Draft a KB article from the selected": [
+                "Krijo nj\u00eb draft t\u00eb nj\u00eb artikulli t\u00eb baz\u00ebs s\u00eb njohurive nga ai i zgjedhuri"
+            ],
+            "Draft a help page from the selected": [
+                "Skico nj\u00eb faqe ndihme nga ajo e zgjedhura"
+            ],
+            "Mark answered": [
+                "Sh\u00ebnuar si e kthyer p\u00ebrgjigje"
+            ],
+            "Ignore": [
+                "Injoro"
+            ],
+            "Question": [
+                "Pyetje"
+            ],
+            "Asked": [
+                "Pyetur"
+            ],
+            "Why": [
+                "Pse"
+            ],
+            "Last asked": [
+                "Pyetur s\u00eb fundmi"
+            ],
+            "Not on the site": [
+                "Nuk \u00ebsht\u00eb n\u00eb sajt"
+            ],
+            "Needed a person": [
+                "Nevojitet nj\u00eb person"
+            ],
+            "Answer rated unhelpful": [
+                "P\u00ebrgjigjja u vler\u00ebsua si e padobishme"
+            ],
+            "Nothing here. Well done.": [
+                "Asgj\u00eb k\u00ebtu. Puna e mbar\u00eb."
+            ],
+            "Period": [
+                "Periudha"
+            ],
+            "Last 7 days": [
+                "7 dit\u00ebt e fundit"
+            ],
+            "Last 30 days": [
+                "30 dit\u00ebt e fundit"
+            ],
+            "Last 90 days": [
+                "90 dit\u00ebt e fundit"
+            ],
+            "Last 12 months": [
+                "12 muajt e fundit"
+            ],
+            "%s%% answered by the assistant alone": [
+                "%s%% e p\u00ebrgjigjur vet\u00ebm nga asistenti"
+            ],
+            "Handed to a person": [
+                "I dor\u00ebzuar nj\u00eb personi"
+            ],
+            "median wait %s": [
+                "koha mesatare e pritjes %s"
+            ],
+            "Tickets opened": [
+                "Konsultimet e hapura"
+            ],
+            "%d still open": [
+                "%d i\/e hapur ende"
+            ],
+            "median \u00b7 average %s": [
+                "mesatarja \u00b7 mesatarja %s"
+            ],
+            "Time to solve": [
+                "Koh\u00eb p\u00ebr zgjidhje"
+            ],
+            "median \u00b7 %d solved": [
+                "mesatarja \u00b7 %d t\u00eb zgjidhura"
+            ],
+            "Customer satisfaction": [
+                "K\u00ebnaq\u00ebsia e klientit"
+            ],
+            "%d ratings, average %s of 5": [
+                "%d vler\u00ebsime, mesatarja %s nga 5"
+            ],
+            "SLA first reply met": [
+                "SLA p\u00ebr p\u00ebrgjigjen e par\u00eb u arrit"
+            ],
+            "%1$d due, %2$d missed": [
+                "%1$d e papaguar, %2$d e humbur"
+            ],
+            "Assistant answers rated": [
+                "P\u00ebrgjigjet e ndihm\u00ebsit u vler\u00ebsuan"
+            ],
+            "helpful \/ rated": [
+                "t\u00eb dobishme \/ t\u00eb vler\u00ebsuara"
+            ],
+            "Chats and tickets per day": [
+                "Biseda dhe bileta n\u00eb dit\u00eb"
+            ],
+            "%1$d chats, %2$d tickets": [
+                "%1$d biseda, %2$d tiketa"
+            ],
+            "Tickets answered": [
+                "Biletat e kthyera"
+            ],
+            "Replies": [
+                "P\u00ebrgjigjet"
+            ],
+            "Rating": [
+                "Vler\u00ebsimi"
+            ],
+            "Top topics": [
+                "Temat kryesore"
+            ],
+            "Where tickets came from": [
+                "Preardhja e k\u00ebrkesave"
+            ]
+        }
+    }
+}

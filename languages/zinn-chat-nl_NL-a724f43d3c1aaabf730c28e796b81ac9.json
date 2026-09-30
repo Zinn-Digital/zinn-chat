@@ -1,0 +1,337 @@
+{
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/pro__premium_only\/admin-pro.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "nl_NL",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Tickets": [
+                "Tickets"
+            ],
+            "Open": [
+                "Open"
+            ],
+            "Chats": [
+                "Chats"
+            ],
+            "Team": [
+                "Team"
+            ],
+            "Something went wrong. Please try again.": [
+                "Er is iets misgegaan. Probeer het alstublieft opnieuw."
+            ],
+            "Title": [
+                "Titel"
+            ],
+            "Department": [
+                "Afdeling"
+            ],
+            "Saved replies": [
+                "Opgeslagen antwoorden"
+            ],
+            "Knowledge gaps": [
+                "Kennisgaten"
+            ],
+            "First reply": [
+                "Eerste antwoord"
+            ],
+            "Article": [
+                "Artikel"
+            ],
+            "Reports": [
+                "Rapporten"
+            ],
+            "Agent": [
+                "Agent"
+            ],
+            "All": [
+                "Alle"
+            ],
+            "Page %1$d of %2$d": [
+                "Pagina %1$d van %2$d"
+            ],
+            "Edit": [
+                "Bewerken"
+            ],
+            "%d second": [
+                "%d seconde",
+                "%d seconden"
+            ],
+            "%d minute": [
+                "%d minuut",
+                "%d minuten"
+            ],
+            "%d hour": [
+                "%d uur",
+                "%d uur"
+            ],
+            "%d day": [
+                "%d dag",
+                "%d dagen"
+            ],
+            "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
+                "Deze browser kan hier geen pushmeldingen ontvangen. Voeg op een iPhone eerst de Inbox toe aan uw beginscherm."
+            ],
+            "Notifications are blocked for this site in the browser settings.": [
+                "Meldingen zijn geblokkeerd voor deze site in de browserinstellingen."
+            ],
+            "Notifications are on for this device.": [
+                "Meldingen staan aan voor dit apparaat."
+            ],
+            "Send a test notification": [
+                "Testmelding versturen"
+            ],
+            "Sent. It should appear in a few seconds.": [
+                "Verzonden. Dit zou binnen een paar seconden moeten verschijnen."
+            ],
+            "The push service did not accept it.": [
+                "De pushservice heeft dit niet geaccepteerd."
+            ],
+            "Could not turn notifications on.": [
+                "Het kon niet lukken om meldingen in te schakelen."
+            ],
+            "Phone app and notifications": [
+                "Telefoon-app en meldingen"
+            ],
+            "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
+                "Installeer deze Inbox als een app: kies in Chrome of Edge voor Installeren in de adresbalk of het menu; tik op een iPhone of iPad op Deel en vervolgens op Zet op beginscherm. De app opent op volledig scherm en staat klaar om te antwoorden."
+            ],
+            "Turn on notifications on this device": [
+                "Schakel meldingen in op dit apparaat"
+            ],
+            "Nothing found.": [
+                "Geen resultaten gevonden."
+            ],
+            "Search saved replies": [
+                "Opgeslagen antwoorden doorzoeken"
+            ],
+            "Link an article": [
+                "Artikel koppelen"
+            ],
+            "Search the knowledge base": [
+                "Doorzoek de kennisbank"
+            ],
+            "Suggest a reply": [
+                "Antwoord voorstellen"
+            ],
+            "Drafting\u2026": [
+                "Wordt opgesteld\u2026"
+            ],
+            "Replace what you have typed with the suggestion?": [
+                "Wilt u de getypte tekst vervangen door de suggestie?"
+            ],
+            "%s is writing a reply to this too.": [
+                "%s schrijft hier ook een antwoord op."
+            ],
+            "%s is also looking at this.": [
+                "%s bekijkt dit ook."
+            ],
+            "No department": [
+                "Geen afdeling"
+            ],
+            "Tags, comma-separated": [
+                "Labels, gescheiden door komma's"
+            ],
+            "Tags": [
+                "Labels"
+            ],
+            "Upset customer": [
+                "Korte metten maken met klant"
+            ],
+            "Unhappy customer": [
+                "Ontevreden klant"
+            ],
+            "Summarise again": [
+                "Samenvatting vernieuwen"
+            ],
+            "Summarise": [
+                "Samenvatten"
+            ],
+            "met": [
+                "met"
+            ],
+            "missed": [
+                "gemist"
+            ],
+            "overdue by %s": [
+                "%s te laat"
+            ],
+            "%s left": [
+                "%s over"
+            ],
+            "Customer rating: %d of 5": [
+                "Klantbeoordeling: %d van de 5"
+            ],
+            "Write a KB article from this ticket": [
+                "Schrijf een KB-artikel op basis van dit ticket"
+            ],
+            "Write a help page from this ticket": [
+                "Schrijf een hulppagina op basis van dit ticket"
+            ],
+            "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
+                "Gebruik ze vanuit de chat- en ticketantwoordboxen (Opgeslagen antwoorden) of typ \/ en de snelkoppeling, gevolgd door een spatie. {name}, {first_name}, {agent}, {site} en {ticket} worden automatisch voor u ingevuld."
+            ],
+            "Shortcut (optional, e.g. refund)": [
+                "Sneltoets (optioneel, bijv. restitutie)"
+            ],
+            "Text": [
+                "Tekst"
+            ],
+            "Every department": [
+                "Elke afdeling"
+            ],
+            "Save": [
+                "Opslaan"
+            ],
+            "Add saved reply": [
+                "Opgeslagen antwoord toevoegen"
+            ],
+            "No saved replies yet.": [
+                "Nog geen opgeslagen antwoorden."
+            ],
+            "Used %d times": [
+                "%d keer gebruikt"
+            ],
+            "Delete": [
+                "Verwijderen"
+            ],
+            "Delete this saved reply?": [
+                "Dit opgeslagen antwoord verwijderen?"
+            ],
+            "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
+                "Vragen van bezoekers die uw website niet kon beantwoorden, meest gestelde eerst. Selecteer er een paar en laat de AI een artikel opstellen dat deze beantwoordt; publiceer het en de assistent gebruikt het direct."
+            ],
+            "Recording is off (Settings, AI assistant).": [
+                "Opname is uitgeschakeld (Instellingen, AI-assistent)."
+            ],
+            "Drafted": [
+                "Conceptueel"
+            ],
+            "Answered": [
+                "Beantwoord"
+            ],
+            "Ignored": [
+                "Genegeerd"
+            ],
+            "Draft a KB article from the selected": [
+                "Stel een kennisbankartikel op aan de hand van de selectie"
+            ],
+            "Draft a help page from the selected": [
+                "Stel een hulppagina op uit de selectie"
+            ],
+            "Mark answered": [
+                "Beantwoord door"
+            ],
+            "Ignore": [
+                "Negeren"
+            ],
+            "Question": [
+                "Vraag"
+            ],
+            "Asked": [
+                "Gesteld"
+            ],
+            "Why": [
+                "Waarom"
+            ],
+            "Last asked": [
+                "Laatst gesteld"
+            ],
+            "Not on the site": [
+                "Niet op de site"
+            ],
+            "Needed a person": [
+                "Persoon vereist"
+            ],
+            "Answer rated unhelpful": [
+                "Antwoord beoordeeld als niet nuttig"
+            ],
+            "Nothing here. Well done.": [
+                "Hier is niets. Goed gedaan."
+            ],
+            "Period": [
+                "Periode"
+            ],
+            "Last 7 days": [
+                "Afgelopen 7 dagen"
+            ],
+            "Last 30 days": [
+                "Afgelopen 30 dagen"
+            ],
+            "Last 90 days": [
+                "Afgelopen 90 dagen"
+            ],
+            "Last 12 months": [
+                "Afgelopen 12 maanden"
+            ],
+            "%s%% answered by the assistant alone": [
+                "%s%% beantwoord door de assistent alleen"
+            ],
+            "Handed to a person": [
+                "Overgedragen aan een persoon"
+            ],
+            "median wait %s": [
+                "gemiddelde wachttijd %s"
+            ],
+            "Tickets opened": [
+                "Geopende tickets"
+            ],
+            "%d still open": [
+                "nog %d open"
+            ],
+            "median \u00b7 average %s": [
+                "mediaan \u00b7 gemiddelde %s"
+            ],
+            "Time to solve": [
+                "Oplostijd"
+            ],
+            "median \u00b7 %d solved": [
+                "mediaan \u00b7 %d opgelost"
+            ],
+            "Customer satisfaction": [
+                "Klanttevredenheid"
+            ],
+            "%d ratings, average %s of 5": [
+                "%d beoordelingen, gemiddeld %s van de 5"
+            ],
+            "SLA first reply met": [
+                "SLA eerste reactie behaald"
+            ],
+            "%1$d due, %2$d missed": [
+                "%1$d openstaand, %2$d gemist"
+            ],
+            "Assistant answers rated": [
+                "Door de assistent gegeven antwoorden beoordeeld"
+            ],
+            "helpful \/ rated": [
+                "nuttig \/ beoordeeld"
+            ],
+            "Chats and tickets per day": [
+                "Chats en tickets per dag"
+            ],
+            "%1$d chats, %2$d tickets": [
+                "%1$d chats, %2$d tickets"
+            ],
+            "Tickets answered": [
+                "Beantwoorde tickets"
+            ],
+            "Replies": [
+                "Reacties"
+            ],
+            "Rating": [
+                "Beoordeling"
+            ],
+            "Top topics": [
+                "Populaire onderwerpen"
+            ],
+            "Where tickets came from": [
+                "Waar tickets vandaan komen"
+            ]
+        }
+    }
+}

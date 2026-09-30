@@ -1,0 +1,337 @@
+{
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/pro__premium_only\/admin-pro.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "de_DE",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Tickets": [
+                "Tickets"
+            ],
+            "Open": [
+                "\u00d6ffnen"
+            ],
+            "Chats": [
+                "Chats"
+            ],
+            "Team": [
+                "Team"
+            ],
+            "Something went wrong. Please try again.": [
+                "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+            ],
+            "Title": [
+                "Titel"
+            ],
+            "Department": [
+                "Abteilung"
+            ],
+            "Saved replies": [
+                "Gespeicherte Antworten"
+            ],
+            "Knowledge gaps": [
+                "Wissensl\u00fccken"
+            ],
+            "First reply": [
+                "Erste Antwort"
+            ],
+            "Article": [
+                "Artikel"
+            ],
+            "Reports": [
+                "Berichte"
+            ],
+            "Agent": [
+                "Agent"
+            ],
+            "All": [
+                "Alle"
+            ],
+            "Page %1$d of %2$d": [
+                "Seite %1$d von %2$d"
+            ],
+            "Edit": [
+                "Bearbeiten"
+            ],
+            "%d second": [
+                "%d Sekunde",
+                "%d Sekunden"
+            ],
+            "%d minute": [
+                "%d Minute",
+                "%d Minuten"
+            ],
+            "%d hour": [
+                "%d Stunde",
+                "%d Stunden"
+            ],
+            "%d day": [
+                "%d Tag",
+                "%d Tage"
+            ],
+            "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
+                "Dieser Browser kann hier keine Push-Benachrichtigungen empfangen. F\u00fcgen Sie die Inbox auf einem iPhone zuerst zu Ihrem Home-Bildschirm hinzu."
+            ],
+            "Notifications are blocked for this site in the browser settings.": [
+                "Benachrichtigungen sind f\u00fcr diese Website in den Browsereinstellungen blockiert."
+            ],
+            "Notifications are on for this device.": [
+                "Benachrichtigungen sind f\u00fcr dieses Ger\u00e4t aktiviert."
+            ],
+            "Send a test notification": [
+                "Testbenachrichtigung senden"
+            ],
+            "Sent. It should appear in a few seconds.": [
+                "Gesendet. Sie sollte in wenigen Sekunden erscheinen."
+            ],
+            "The push service did not accept it.": [
+                "Der Push-Dienst hat dies nicht akzeptiert."
+            ],
+            "Could not turn notifications on.": [
+                "Benachrichtigungen konnten nicht aktiviert werden."
+            ],
+            "Phone app and notifications": [
+                "Telefon-App und Benachrichtigungen"
+            ],
+            "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
+                "Installieren Sie dieses Postfach als App: W\u00e4hlen Sie in Chrome oder Edge in der Adressleiste oder im Men\u00fc \u201eInstallieren\u201c aus; tippen Sie auf einem iPhone oder iPad auf \u201eTeilen\u201c und dann auf \u201eZum Home-Bildschirm\u201c. Sie \u00f6ffnet sich im Vollbildmodus und ist sofort einsatzbereit."
+            ],
+            "Turn on notifications on this device": [
+                "Aktivieren Sie Benachrichtigungen auf diesem Ger\u00e4t"
+            ],
+            "Nothing found.": [
+                "Keine Ergebnisse gefunden."
+            ],
+            "Search saved replies": [
+                "Gespeicherte Antworten durchsuchen"
+            ],
+            "Link an article": [
+                "Artikel verkn\u00fcpfen"
+            ],
+            "Search the knowledge base": [
+                "Wissensdatenbank durchsuchen"
+            ],
+            "Suggest a reply": [
+                "Antwort vorschlagen"
+            ],
+            "Drafting\u2026": [
+                "Als Entwurf speichern\u2026"
+            ],
+            "Replace what you have typed with the suggestion?": [
+                "M\u00f6chten Sie das Getippte durch den Vorschlag ersetzen?"
+            ],
+            "%s is writing a reply to this too.": [
+                "%s schreibt ebenfalls eine Antwort darauf."
+            ],
+            "%s is also looking at this.": [
+                "%s sieht sich das ebenfalls an."
+            ],
+            "No department": [
+                "Keine Abteilung"
+            ],
+            "Tags, comma-separated": [
+                "Tags, kommagetrennt"
+            ],
+            "Tags": [
+                "Tags-Schl\u00fcsselw\u00f6rter"
+            ],
+            "Upset customer": [
+                "Ver\u00e4rgerter Kunde"
+            ],
+            "Unhappy customer": [
+                "Unzufriedener Kunde"
+            ],
+            "Summarise again": [
+                "Nochmal zusammenfassen"
+            ],
+            "Summarise": [
+                "Zusammenfassen"
+            ],
+            "met": [
+                "erf\u00fcllt"
+            ],
+            "missed": [
+                "verpasst"
+            ],
+            "overdue by %s": [
+                "\u00fcberf\u00e4llig seit %s"
+            ],
+            "%s left": [
+                "%s verbleibend"
+            ],
+            "Customer rating: %d of 5": [
+                "Kundenbewertung: %d von 5"
+            ],
+            "Write a KB article from this ticket": [
+                "Einen KB-Artikel aus diesem Ticket erstellen"
+            ],
+            "Write a help page from this ticket": [
+                "Schreibe eine Hilfeseite aus diesem Ticket"
+            ],
+            "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
+                "Verwenden Sie sie in den Chat- und Ticket-Antwortfeldern (Gespeicherte Antworten) oder geben Sie \/ und das K\u00fcrzel gefolgt von einem Leerzeichen ein. {name}, {first_name}, {agent}, {site} und {ticket} werden automatisch f\u00fcr Sie ausgef\u00fcllt."
+            ],
+            "Shortcut (optional, e.g. refund)": [
+                "K\u00fcrzel (optional, z. B. refund)"
+            ],
+            "Text": [
+                "Text"
+            ],
+            "Every department": [
+                "Jede Abteilung"
+            ],
+            "Save": [
+                "Speichern"
+            ],
+            "Add saved reply": [
+                "Gespeicherte Antwort hinzuf\u00fcgen"
+            ],
+            "No saved replies yet.": [
+                "Noch keine gespeicherten Antworten."
+            ],
+            "Used %d times": [
+                "%d-mal verwendet"
+            ],
+            "Delete": [
+                "L\u00f6schen"
+            ],
+            "Delete this saved reply?": [
+                "Diese gespeicherte Antwort l\u00f6schen?"
+            ],
+            "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
+                "Fragen von Besuchern, die Ihre Website nicht beantworten konnte, sortiert nach H\u00e4ufigkeit. W\u00e4hlen Sie einige aus und lassen Sie die KI einen Artikel entwerfen, der sie beantwortet; ver\u00f6ffentlichen Sie ihn, und der Assistent verwendet ihn sofort."
+            ],
+            "Recording is off (Settings, AI assistant).": [
+                "Die Aufnahme ist deaktiviert (Einstellungen, KI-Assistent)."
+            ],
+            "Drafted": [
+                "Entwurf"
+            ],
+            "Answered": [
+                "Beantwortet"
+            ],
+            "Ignored": [
+                "Ignoriert"
+            ],
+            "Draft a KB article from the selected": [
+                "Entwurf f\u00fcr einen KB-Artikel aus dem ausgew\u00e4hlten erstellen"
+            ],
+            "Draft a help page from the selected": [
+                "Hilfeseite aus der Auswahl erstellen"
+            ],
+            "Mark answered": [
+                "Als beantwortet markiert"
+            ],
+            "Ignore": [
+                "Ignorieren"
+            ],
+            "Question": [
+                "Frage"
+            ],
+            "Asked": [
+                "Angefragt"
+            ],
+            "Why": [
+                "Warum"
+            ],
+            "Last asked": [
+                "Zuletzt gefragt"
+            ],
+            "Not on the site": [
+                "Nicht auf der Website"
+            ],
+            "Needed a person": [
+                "Person ben\u00f6tigt"
+            ],
+            "Answer rated unhelpful": [
+                "Antwort als nicht hilfreich bewertet"
+            ],
+            "Nothing here. Well done.": [
+                "Hier gibt es nichts. Gut gemacht."
+            ],
+            "Period": [
+                "Abrechnungszeitraum"
+            ],
+            "Last 7 days": [
+                "Letzte 7 Tage"
+            ],
+            "Last 30 days": [
+                "Letzte 30 Tage"
+            ],
+            "Last 90 days": [
+                "Letzte 90 Tage"
+            ],
+            "Last 12 months": [
+                "Die letzten 12 Monate"
+            ],
+            "%s%% answered by the assistant alone": [
+                "%s%% vom Assistenten allein beantwortet"
+            ],
+            "Handed to a person": [
+                "Einer Person \u00fcbergeben"
+            ],
+            "median wait %s": [
+                "durchschnittliche Wartezeit %s"
+            ],
+            "Tickets opened": [
+                "Ge\u00f6ffnete Tickets"
+            ],
+            "%d still open": [
+                "%d noch offen"
+            ],
+            "median \u00b7 average %s": [
+                "Median \u00b7 Durchschnitt %s"
+            ],
+            "Time to solve": [
+                "L\u00f6sezeit"
+            ],
+            "median \u00b7 %d solved": [
+                "Median \u00b7 %d gel\u00f6st"
+            ],
+            "Customer satisfaction": [
+                "Kundenzufriedenheit"
+            ],
+            "%d ratings, average %s of 5": [
+                "%d Bewertungen, Durchschnitt %s von 5"
+            ],
+            "SLA first reply met": [
+                "Erste SLA-Antwort eingehalten"
+            ],
+            "%1$d due, %2$d missed": [
+                "%1$d f\u00e4llig, %2$d verpasst"
+            ],
+            "Assistant answers rated": [
+                "Bewertete Antworten von Assistenten"
+            ],
+            "helpful \/ rated": [
+                "hilfreich \/ bewertet"
+            ],
+            "Chats and tickets per day": [
+                "Chats und Tickets pro Tag"
+            ],
+            "%1$d chats, %2$d tickets": [
+                "%1$d Chats, %2$d Tickets"
+            ],
+            "Tickets answered": [
+                "Beantwortete Tickets"
+            ],
+            "Replies": [
+                "Antworten"
+            ],
+            "Rating": [
+                "Bewertung"
+            ],
+            "Top topics": [
+                "Beliebteste Themen"
+            ],
+            "Where tickets came from": [
+                "Herkunft der Tickets"
+            ]
+        }
+    }
+}

@@ -1,0 +1,333 @@
+{
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/pro__premium_only\/admin-pro.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "id_ID",
+                "plural-forms": "nplurals=1; plural=0;"
+            },
+            "Tickets": [
+                "Tiket"
+            ],
+            "Open": [
+                "Buka"
+            ],
+            "Chats": [
+                "Obrolan"
+            ],
+            "Team": [
+                "Tim"
+            ],
+            "Something went wrong. Please try again.": [
+                "Terjadi kesalahan. Silakan coba lagi."
+            ],
+            "Title": [
+                "Judul"
+            ],
+            "Department": [
+                "Departemen"
+            ],
+            "Saved replies": [
+                "Balasan tersimpan"
+            ],
+            "Knowledge gaps": [
+                "Kesenjangan pengetahuan"
+            ],
+            "First reply": [
+                "Balasan pertama"
+            ],
+            "Article": [
+                "Artikel"
+            ],
+            "Reports": [
+                "Laporan"
+            ],
+            "Agent": [
+                "Agen"
+            ],
+            "All": [
+                "Semua"
+            ],
+            "Page %1$d of %2$d": [
+                "Halaman %1$d dari %2$d"
+            ],
+            "Edit": [
+                "Ubah"
+            ],
+            "%d second": [
+                "%d detik"
+            ],
+            "%d minute": [
+                "%d menit"
+            ],
+            "%d hour": [
+                "%d jam"
+            ],
+            "%d day": [
+                "%d hari"
+            ],
+            "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
+                "Peramban ini tidak dapat menerima notifikasi push di sini. Di iPhone, tambahkan Kotak Masuk ke Layar Utama Anda terlebih dahulu."
+            ],
+            "Notifications are blocked for this site in the browser settings.": [
+                "Pemberitahuan diblokir untuk situs ini di pengaturan peramban."
+            ],
+            "Notifications are on for this device.": [
+                "Notifikasi diaktifkan untuk perangkat ini."
+            ],
+            "Send a test notification": [
+                "Kirim notifikasi uji coba"
+            ],
+            "Sent. It should appear in a few seconds.": [
+                "Terkirim. Ini akan muncul dalam beberapa detik."
+            ],
+            "The push service did not accept it.": [
+                "Layanan push tidak menerimanya."
+            ],
+            "Could not turn notifications on.": [
+                "Tidak dapat mengaktifkan pemberitahuan."
+            ],
+            "Phone app and notifications": [
+                "Aplikasi ponsel dan pemberitahuan"
+            ],
+            "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
+                "Pasang Kotak Masuk ini sebagai aplikasi: di Chrome atau Edge, pilih Pasang di bilah alamat atau menu; di iPhone atau iPad, ketuk Bagikan, lalu Tambahkan ke Layar Utama. Aplikasi ini terbuka dalam layar penuh, siap digunakan."
+            ],
+            "Turn on notifications on this device": [
+                "Aktifkan notifikasi di perangkat ini"
+            ],
+            "Nothing found.": [
+                "Tidak ada yang ditemukan."
+            ],
+            "Search saved replies": [
+                "Cari balasan tersimpan"
+            ],
+            "Link an article": [
+                "Tautkan artikel"
+            ],
+            "Search the knowledge base": [
+                "Cari basis pengetahuan"
+            ],
+            "Suggest a reply": [
+                "Sarankan balasan"
+            ],
+            "Drafting\u2026": [
+                "Menyusun\u2026"
+            ],
+            "Replace what you have typed with the suggestion?": [
+                "Ganti apa yang telah Anda ketik dengan saran tersebut?"
+            ],
+            "%s is writing a reply to this too.": [
+                "%s juga sedang menulis balasan untuk ini."
+            ],
+            "%s is also looking at this.": [
+                "%s juga sedang melihat ini."
+            ],
+            "No department": [
+                "Tidak ada departemen"
+            ],
+            "Tags, comma-separated": [
+                "Tag, dipisahkan dengan koma"
+            ],
+            "Tags": [
+                "Tag"
+            ],
+            "Upset customer": [
+                "Pelanggan kecewa"
+            ],
+            "Unhappy customer": [
+                "Pelanggan tidak puas"
+            ],
+            "Summarise again": [
+                "Ringkas lagi"
+            ],
+            "Summarise": [
+                "Buat Ringkasan"
+            ],
+            "met": [
+                "terpenuhi"
+            ],
+            "missed": [
+                "terlewatkan"
+            ],
+            "overdue by %s": [
+                "terlambat %s"
+            ],
+            "%s left": [
+                "tersisa %s"
+            ],
+            "Customer rating: %d of 5": [
+                "Peringkat pelanggan: %d dari 5"
+            ],
+            "Write a KB article from this ticket": [
+                "Tulis artikel KB dari tiket ini"
+            ],
+            "Write a help page from this ticket": [
+                "Tulis halaman bantuan dari tiket ini"
+            ],
+            "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
+                "Gunakan dari kotak obrolan dan balasan tiket (Balasan tersimpan), atau ketik \/ dan pintasannya, lalu spasi. {name}, {first_name}, {agent}, {site}, dan {ticket} akan diisi secara otomatis untuk Anda."
+            ],
+            "Shortcut (optional, e.g. refund)": [
+                "Pintasan (opsional, mis. pengembalian dana)"
+            ],
+            "Text": [
+                "Teks"
+            ],
+            "Every department": [
+                "Setiap departemen"
+            ],
+            "Save": [
+                "Simpan"
+            ],
+            "Add saved reply": [
+                "Tambah balasan tersimpan"
+            ],
+            "No saved replies yet.": [
+                "Belum ada balasan tersimpan."
+            ],
+            "Used %d times": [
+                "Digunakan %d kali"
+            ],
+            "Delete": [
+                "Hapus"
+            ],
+            "Delete this saved reply?": [
+                "Hapus balasan tersimpan ini?"
+            ],
+            "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
+                "Pertanyaan dari pengunjung yang tidak dapat dijawab oleh situs Anda, diurutkan dari yang paling sering ditanyakan. Pilih beberapa dan biarkan AI menyusun draf artikel yang menjawabnya; publikasikan dan asisten akan langsung menggunakannya."
+            ],
+            "Recording is off (Settings, AI assistant).": [
+                "Perekaman nonaktif (Pengaturan, Asisten AI)."
+            ],
+            "Drafted": [
+                "Draf"
+            ],
+            "Answered": [
+                "Terjawab"
+            ],
+            "Ignored": [
+                "Diabaikan"
+            ],
+            "Draft a KB article from the selected": [
+                "Buat draf artikel KB dari yang dipilih"
+            ],
+            "Draft a help page from the selected": [
+                "Draf halaman bantuan dari yang dipilih"
+            ],
+            "Mark answered": [
+                "Ditandai sudah dijawab"
+            ],
+            "Ignore": [
+                "Abaikan"
+            ],
+            "Question": [
+                "Pertanyaan"
+            ],
+            "Asked": [
+                "Ditanyakan"
+            ],
+            "Why": [
+                "Mengapa"
+            ],
+            "Last asked": [
+                "Terakhir ditanyakan"
+            ],
+            "Not on the site": [
+                "Tidak di situs"
+            ],
+            "Needed a person": [
+                "Dibutuhkan seseorang"
+            ],
+            "Answer rated unhelpful": [
+                "Jawaban dinilai tidak membantu"
+            ],
+            "Nothing here. Well done.": [
+                "Tidak ada apa-apa di sini. Kerja bagus."
+            ],
+            "Period": [
+                "Periode"
+            ],
+            "Last 7 days": [
+                "7 hari terakhir"
+            ],
+            "Last 30 days": [
+                "30 hari terakhir"
+            ],
+            "Last 90 days": [
+                "90 hari terakhir"
+            ],
+            "Last 12 months": [
+                "12 bulan terakhir"
+            ],
+            "%s%% answered by the assistant alone": [
+                "%s%% dijawab oleh asisten saja"
+            ],
+            "Handed to a person": [
+                "Diserahkan kepada seseorang"
+            ],
+            "median wait %s": [
+                "perkiraan waktu tunggu %s"
+            ],
+            "Tickets opened": [
+                "Tiket dibuka"
+            ],
+            "%d still open": [
+                "%d masih terbuka"
+            ],
+            "median \u00b7 average %s": [
+                "median \u00b7 rata-rata %s"
+            ],
+            "Time to solve": [
+                "Waktu penyelesaian"
+            ],
+            "median \u00b7 %d solved": [
+                "median \u00b7 %d terselesaikan"
+            ],
+            "Customer satisfaction": [
+                "Kepuasan pelanggan"
+            ],
+            "%d ratings, average %s of 5": [
+                "%d penilaian, rata-rata %s dari 5"
+            ],
+            "SLA first reply met": [
+                "Tanggapan pertama SLA terpenuhi"
+            ],
+            "%1$d due, %2$d missed": [
+                "%1$d jatuh tempo, %2$d terlewat"
+            ],
+            "Assistant answers rated": [
+                "Jawaban Asisten Dinilai"
+            ],
+            "helpful \/ rated": [
+                "bermanfaat \/ dinilai"
+            ],
+            "Chats and tickets per day": [
+                "Percakapan dan tiket per hari"
+            ],
+            "%1$d chats, %2$d tickets": [
+                "%1$d obrolan, %2$d tiket"
+            ],
+            "Tickets answered": [
+                "Tiket terjawab"
+            ],
+            "Replies": [
+                "Balasan"
+            ],
+            "Rating": [
+                "Peringkat"
+            ],
+            "Top topics": [
+                "Topik teratas"
+            ],
+            "Where tickets came from": [
+                "Asal tiket"
+            ]
+        }
+    }
+}

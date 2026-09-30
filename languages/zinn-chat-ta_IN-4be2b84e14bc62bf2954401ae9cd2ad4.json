@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-09-30T01:02:32+00:00",
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,21 @@
             ],
             "Type": [
                 "\u0bb5\u0b95\u0bc8"
+            ],
+            "Order": [
+                "\u0b86\u0bb0\u0bcd\u0b9f\u0bb0\u0bcd"
+            ],
+            "Low": [
+                "\u0b95\u0bc1\u0bb1\u0bc8\u0bb5\u0bc1"
+            ],
+            "Normal": [
+                "\u0b9a\u0bbe\u0ba4\u0bbe\u0bb0\u0ba3"
+            ],
+            "High": [
+                "\u0b85\u0ba4\u0bbf\u0b95\u0bae\u0bcd"
+            ],
+            "Urgent": [
+                "\u0b85\u0bb5\u0b9a\u0bb0\u0bae\u0bcd"
             ],
             "%ds": [
                 "%d \u0bb5\u0bbf\u0ba8\u0bbe\u0b9f\u0bbf\u0b95\u0bb3\u0bcd"
@@ -235,18 +250,6 @@
             "Channel": [
                 "\u0b9a\u0bc7\u0ba9\u0bb2\u0bcd"
             ],
-            "Low": [
-                "\u0b95\u0bc1\u0bb1\u0bc8\u0bb5\u0bc1"
-            ],
-            "Normal": [
-                "\u0b9a\u0bbe\u0ba4\u0bbe\u0bb0\u0ba3"
-            ],
-            "High": [
-                "\u0b85\u0ba4\u0bbf\u0b95\u0bae\u0bcd"
-            ],
-            "Urgent": [
-                "\u0b85\u0bb5\u0b9a\u0bb0\u0bae\u0bcd"
-            ],
             "Nobody": [
                 "\u0b8e\u0bb5\u0bb0\u0bc1\u0bae\u0bbf\u0bb2\u0bcd\u0bb2\u0bc8"
             ],
@@ -255,9 +258,6 @@
             ],
             "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
                 "\u0b86\u0bb0\u0bcd\u0b9f\u0bb0\u0bcd #%1$s \u00b7 %2$s \u00b7 %3$s"
-            ],
-            "Order": [
-                "\u0b86\u0bb0\u0bcd\u0b9f\u0bb0\u0bcd"
             ],
             "Delete ticket": [
                 "\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bc6\u0b9f\u0bcd\u0b9f\u0bc8 \u0ba8\u0bc0\u0b95\u0bcd\u0b95\u0bc1"

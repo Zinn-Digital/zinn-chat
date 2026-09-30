@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-09-30T01:02:33+00:00",
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,21 @@
             ],
             "Type": [
                 "\u1794\u17d2\u179a\u1797\u17c1\u1791"
+            ],
+            "Order": [
+                "\u1780\u17b6\u179a\u1794\u1789\u17d2\u1787\u17b6\u1791\u17b7\u1789"
+            ],
+            "Low": [
+                "\u1791\u17b6\u1794"
+            ],
+            "Normal": [
+                "\u1792\u1798\u17d2\u1798\u178f\u17b6"
+            ],
+            "High": [
+                "\u1781\u17d2\u1796\u179f\u17cb"
+            ],
+            "Urgent": [
+                "\u1794\u1793\u17d2\u1791\u17b6\u1793\u17cb"
             ],
             "%ds": [
                 "%d\u179c\u17b7\u1793\u17b6\u1791\u17b8"
@@ -235,18 +250,6 @@
             "Channel": [
                 "\u1786\u17b6\u1793\u17c2\u179b"
             ],
-            "Low": [
-                "\u1791\u17b6\u1794"
-            ],
-            "Normal": [
-                "\u1792\u1798\u17d2\u1798\u178f\u17b6"
-            ],
-            "High": [
-                "\u1781\u17d2\u1796\u179f\u17cb"
-            ],
-            "Urgent": [
-                "\u1794\u1793\u17d2\u1791\u17b6\u1793\u17cb"
-            ],
             "Nobody": [
                 "\u1782\u17d2\u1798\u17b6\u1793\u1793\u179a\u178e\u17b6\u1798\u17d2\u1793\u17b6\u1780\u17cb"
             ],
@@ -255,9 +258,6 @@
             ],
             "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
                 "\u1780\u1798\u17d2\u1798\u1784\u17cb\u179b\u17c1\u1781 #%1$s \u00b7 %2$s \u00b7 %3$s"
-            ],
-            "Order": [
-                "\u1780\u17b6\u179a\u1794\u1789\u17d2\u1787\u17b6\u1791\u17b7\u1789"
             ],
             "Delete ticket": [
                 "\u179b\u17bb\u1794\u179f\u17c6\u1794\u17bb\u178f\u17d2\u179a\u179f\u17c6\u178e\u17bc\u1798\u1796\u179a"

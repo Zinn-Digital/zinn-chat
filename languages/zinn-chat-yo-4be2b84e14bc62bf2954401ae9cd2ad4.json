@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-09-30T01:02:32+00:00",
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,21 @@
             ],
             "Type": [
                 "Iru"
+            ],
+            "Order": [
+                "\u00c8t\u00f2"
+            ],
+            "Low": [
+                "K\u00e9ker\u00e9"
+            ],
+            "Normal": [
+                "Deede"
+            ],
+            "High": [
+                "Giga"
+            ],
+            "Urgent": [
+                "Kakanju"
             ],
             "%ds": [
                 "%ds"
@@ -235,18 +250,6 @@
             "Channel": [
                 "Ikanni"
             ],
-            "Low": [
-                "K\u00e9ker\u00e9"
-            ],
-            "Normal": [
-                "Deede"
-            ],
-            "High": [
-                "Giga"
-            ],
-            "Urgent": [
-                "Kakanju"
-            ],
             "Nobody": [
                 "K\u00f2 s\u00ed \u1eb9nik\u1eb9ni"
             ],
@@ -255,9 +258,6 @@
             ],
             "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
                 "\u00c0\u1e63\u1eb9 #%1$s \u00b7 %2$s \u00b7 %3$s"
-            ],
-            "Order": [
-                "\u00c8t\u00f2"
             ],
             "Delete ticket": [
                 "Pa tik\u1eb9ti r\u1eb9"

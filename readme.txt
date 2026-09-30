@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.5.0
+Stable tag: 2.6.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -127,6 +127,10 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.6.0 =
+* Fix: every Zinn® Chat module now appears in Beaver Builder. Before, the four modules shared one name and only the last of them (the chat button) was offered.
+* Fix: when the chat window shows a form (leave a message, email me this chat), the message box and its buttons are hidden underneath it as intended; the window's own styles had kept them on screen.
 
 = 2.5.0 =
 * For developers: new extension points. Page scripts can listen for events on the Inbox, Tickets and chat window, ticket forms accept extra fields (`zinn_chat_ticket_form_fields`), and the chat button can show an optional short message after a delay, on leaving the page or past a scroll depth, still with no request until it is clicked. Nothing changes on a site that does not use them.

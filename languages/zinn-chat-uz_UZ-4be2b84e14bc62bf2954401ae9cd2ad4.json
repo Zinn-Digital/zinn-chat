@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-09-30T01:02:33+00:00",
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,21 @@
             ],
             "Type": [
                 "Turi"
+            ],
+            "Order": [
+                "Buyurtma"
+            ],
+            "Low": [
+                "Past past"
+            ],
+            "Normal": [
+                "Normal"
+            ],
+            "High": [
+                "Yuqori"
+            ],
+            "Urgent": [
+                "Shoshilinch"
             ],
             "%ds": [
                 "%ds"
@@ -235,18 +250,6 @@
             "Channel": [
                 "Kanal"
             ],
-            "Low": [
-                "Past past"
-            ],
-            "Normal": [
-                "Normal"
-            ],
-            "High": [
-                "Yuqori"
-            ],
-            "Urgent": [
-                "Shoshilinch"
-            ],
             "Nobody": [
                 "Hech kim"
             ],
@@ -255,9 +258,6 @@
             ],
             "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
                 "Buyurtma \u2116%1$s \u00b7 %2$s \u00b7 %3$s"
-            ],
-            "Order": [
-                "Buyurtma"
             ],
             "Delete ticket": [
                 "Chiptani o'chirish"

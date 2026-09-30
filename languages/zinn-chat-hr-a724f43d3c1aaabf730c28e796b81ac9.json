@@ -1,0 +1,341 @@
+{
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/pro__premium_only\/admin-pro.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "hr",
+                "plural-forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+            },
+            "Tickets": [
+                "Zahtjevi"
+            ],
+            "Open": [
+                "Otvori"
+            ],
+            "Chats": [
+                "Razgovori"
+            ],
+            "Team": [
+                "Tim"
+            ],
+            "Something went wrong. Please try again.": [
+                "Ne\u0161to je po\u0161lo po zlu. Molimo poku\u0161ajte ponovno."
+            ],
+            "Title": [
+                "Naslov"
+            ],
+            "Department": [
+                "Odjel"
+            ],
+            "Saved replies": [
+                "Spremljeni odgovori"
+            ],
+            "Knowledge gaps": [
+                "Praznine u znanjima"
+            ],
+            "First reply": [
+                "Prvi odgovor"
+            ],
+            "Article": [
+                "\u010clanak"
+            ],
+            "Reports": [
+                "Izvje\u0161taji"
+            ],
+            "Agent": [
+                "Agent"
+            ],
+            "All": [
+                "Sve"
+            ],
+            "Page %1$d of %2$d": [
+                "Stranica %1$d od %2$d"
+            ],
+            "Edit": [
+                "Uredi"
+            ],
+            "%d second": [
+                "%d sekunda",
+                "%d sekundi",
+                "%d sekundi"
+            ],
+            "%d minute": [
+                "%d minuta",
+                "%d minuta",
+                "%d minuta"
+            ],
+            "%d hour": [
+                "%d sat",
+                "%d sati",
+                "%d sati"
+            ],
+            "%d day": [
+                "%d dan",
+                "%d dana",
+                "%d dana"
+            ],
+            "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
+                "Ovaj preglednik ovdje ne mo\u017ee primati push obavijesti. Na iPhoneu najprije dodajte pretinac pristigle po\u0161te na svoj po\u010detni zaslon."
+            ],
+            "Notifications are blocked for this site in the browser settings.": [
+                "Obavijesti su blokirane za ovu stranicu u postavkama preglednika."
+            ],
+            "Notifications are on for this device.": [
+                "Obavijesti su uklju\u010dene za ovaj ure\u0111aj."
+            ],
+            "Send a test notification": [
+                "Po\u0161alji testnu obavijest"
+            ],
+            "Sent. It should appear in a few seconds.": [
+                "Poslano. Pojavit \u0107e se za nekoliko sekundi."
+            ],
+            "The push service did not accept it.": [
+                "Usluga push obavijesti to nije prihvatila."
+            ],
+            "Could not turn notifications on.": [
+                "Nije bilo mogu\u0107e uklju\u010diti obavijesti."
+            ],
+            "Phone app and notifications": [
+                "Telefonska aplikacija i obavijesti"
+            ],
+            "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
+                "Instalirajte ovaj pretinac kao aplikaciju: u pregledniku Chrome ili Edge odaberite Instaliraj u adresnoj traci ili izborniku; na iPhoneu ili iPadu dodirnite Dijeli, a zatim Dodaj na po\u010detni zaslon. Otvara se preko cijelog zaslona, spreman za odgovor."
+            ],
+            "Turn on notifications on this device": [
+                "Uklju\u010dite obavijesti na ovom ure\u0111aju"
+            ],
+            "Nothing found.": [
+                "Nema rezultata."
+            ],
+            "Search saved replies": [
+                "Pretra\u017ei spremljene odgovore"
+            ],
+            "Link an article": [
+                "Pove\u017ei \u010dlanak"
+            ],
+            "Search the knowledge base": [
+                "Pretra\u017ei bazu znanja"
+            ],
+            "Suggest a reply": [
+                "Predlo\u017ei odgovor"
+            ],
+            "Drafting\u2026": [
+                "Izrada u tijeku\u2026"
+            ],
+            "Replace what you have typed with the suggestion?": [
+                "\u017delite li zamijeniti ono \u0161to ste upisali s prijedlogom?"
+            ],
+            "%s is writing a reply to this too.": [
+                "%s tako\u0111er pi\u0161e odgovor na ovo."
+            ],
+            "%s is also looking at this.": [
+                "%s tako\u0111er gleda ovo."
+            ],
+            "No department": [
+                "Nema odjela"
+            ],
+            "Tags, comma-separated": [
+                "Oznake, odvojene zarezom"
+            ],
+            "Tags": [
+                "Oznake"
+            ],
+            "Upset customer": [
+                "Nezadovoljan korisnik"
+            ],
+            "Unhappy customer": [
+                "Nezadovoljan korisnik"
+            ],
+            "Summarise again": [
+                "Ponovno sa\u017emi"
+            ],
+            "Summarise": [
+                "Sa\u017emi"
+            ],
+            "met": [
+                "upoznao"
+            ],
+            "missed": [
+                "propu\u0161teno"
+            ],
+            "overdue by %s": [
+                "kasni %s"
+            ],
+            "%s left": [
+                "%s preostalo"
+            ],
+            "Customer rating: %d of 5": [
+                "Ocjena korisnika: %d od 5"
+            ],
+            "Write a KB article from this ticket": [
+                "Napi\u0161ite \u010dlanak za bazu znanja iz ovog tiketa"
+            ],
+            "Write a help page from this ticket": [
+                "Napi\u0161i stranicu pomo\u0107i iz ovog tiketa"
+            ],
+            "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
+                "Koristite ih iz okvira za razgovor i odgovore na tikete (Spremljeni odgovori) ili upi\u0161ite \/ i pre\u010dac, a zatim razmak. {name}, {first_name}, {agent}, {site} i {ticket} automatski se popunjavaju za vas."
+            ],
+            "Shortcut (optional, e.g. refund)": [
+                "Pre\u010dac (neobavezno, npr. povrat)"
+            ],
+            "Text": [
+                "Tekst"
+            ],
+            "Every department": [
+                "Svaki odjel"
+            ],
+            "Save": [
+                "Spremi"
+            ],
+            "Add saved reply": [
+                "Dodaj spremljeni odgovor"
+            ],
+            "No saved replies yet.": [
+                "Jo\u0161 nema spremljenih odgovora."
+            ],
+            "Used %d times": [
+                "Upotrijebljeno %d puta"
+            ],
+            "Delete": [
+                "Izbri\u0161i"
+            ],
+            "Delete this saved reply?": [
+                "Izbrisati ovaj spremljeni odgovor?"
+            ],
+            "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
+                "Pitanja posjetitelja na koja va\u0161a stranica nije mogla odgovoriti, naj\u010de\u0161\u0107a na vrhu. Odaberite neka od njih i prepustite umjetnoj inteligenciji da sastavi \u010dlanak koji na njih odgovara; objavite ga i pomo\u0107nik \u0107e ga odmah po\u010deti koristiti."
+            ],
+            "Recording is off (Settings, AI assistant).": [
+                "Snimanje je isklju\u010deno (Postavke, AI pomo\u0107nik)."
+            ],
+            "Drafted": [
+                "Skicirano"
+            ],
+            "Answered": [
+                "Odgovoreno"
+            ],
+            "Ignored": [
+                "Zanemareno"
+            ],
+            "Draft a KB article from the selected": [
+                "Izradi \u010dlanak iz baze znanja od odabranoga"
+            ],
+            "Draft a help page from the selected": [
+                "Izradite stranicu pomo\u0107i od odabranog"
+            ],
+            "Mark answered": [
+                "Ozna\u010deno kao odgovoreno"
+            ],
+            "Ignore": [
+                "Zanemari"
+            ],
+            "Question": [
+                "Pitanje"
+            ],
+            "Asked": [
+                "Upitno"
+            ],
+            "Why": [
+                "Za\u0161to"
+            ],
+            "Last asked": [
+                "Posljednje pitanje"
+            ],
+            "Not on the site": [
+                "Nije na stranici"
+            ],
+            "Needed a person": [
+                "Potrebna osoba"
+            ],
+            "Answer rated unhelpful": [
+                "Ocijenjeno kao nekorisno"
+            ],
+            "Nothing here. Well done.": [
+                "Nema ni\u010dega ovdje. Dobro obavljeno."
+            ],
+            "Period": [
+                "Razdoblje"
+            ],
+            "Last 7 days": [
+                "Posljednjih 7 dana"
+            ],
+            "Last 30 days": [
+                "Posljednjih 30 dana"
+            ],
+            "Last 90 days": [
+                "Posljednjih 90 dana"
+            ],
+            "Last 12 months": [
+                "Posljednjih 12 mjeseci"
+            ],
+            "%s%% answered by the assistant alone": [
+                "%s%% odgovorio je sam pomo\u0107nik"
+            ],
+            "Handed to a person": [
+                "Predano osobi"
+            ],
+            "median wait %s": [
+                "srednje vrijeme \u010dekanja %s"
+            ],
+            "Tickets opened": [
+                "Otvoreni zahtjevi"
+            ],
+            "%d still open": [
+                "%d jo\u0161 uvijek otvorenih"
+            ],
+            "median \u00b7 average %s": [
+                "medijan \u00b7 prosjek %s"
+            ],
+            "Time to solve": [
+                "Vrijeme za rje\u0161avanje"
+            ],
+            "median \u00b7 %d solved": [
+                "srednje \u00b7 %d rije\u0161eno"
+            ],
+            "Customer satisfaction": [
+                "Zadovoljstvo korisnika"
+            ],
+            "%d ratings, average %s of 5": [
+                "%d ocjena, prosjek %s od 5"
+            ],
+            "SLA first reply met": [
+                "SLA za prvi odgovor ispunjen"
+            ],
+            "%1$d due, %2$d missed": [
+                "%1$d dospijeva, %2$d propu\u0161teno"
+            ],
+            "Assistant answers rated": [
+                "Ocijenjeni odgovori pomo\u0107nika"
+            ],
+            "helpful \/ rated": [
+                "korisno \/ ocijenjeno"
+            ],
+            "Chats and tickets per day": [
+                "Razgovori i tiketi dnevno"
+            ],
+            "%1$d chats, %2$d tickets": [
+                "%1$d razgovora, %2$d zahtjeva"
+            ],
+            "Tickets answered": [
+                "Odgovoreni zahtjevi"
+            ],
+            "Replies": [
+                "Odgovori"
+            ],
+            "Rating": [
+                "Ocjena"
+            ],
+            "Top topics": [
+                "Naj\u010de\u0161\u0107e teme"
+            ],
+            "Where tickets came from": [
+                "Izvor kartica"
+            ]
+        }
+    }
+}

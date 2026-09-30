@@ -1,0 +1,337 @@
+{
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/pro__premium_only\/admin-pro.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "ps",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Tickets": [
+                "\u067c\u06a9\u067c\u0648\u0646\u0647"
+            ],
+            "Open": [
+                "\u067e\u0631 \u062e\u0644\u0627\u0635 \u06a9\u0693\u0626"
+            ],
+            "Chats": [
+                "\u0686\u06cc\u067c\u0648\u0646\u0647"
+            ],
+            "Team": [
+                "\u067c\u06cc\u0645"
+            ],
+            "Something went wrong. Please try again.": [
+                "\u06cc\u0648\u0647 \u062a\u06d0\u0631\u0648\u062a\u0646\u0647 \u0648\u0634\u0648\u0647. \u0645\u0647\u0631\u0628\u0627\u0646\u064a \u0648\u06a9\u0693\u0626 \u0628\u064a\u0627 \u0647\u0685\u0647 \u0648\u06a9\u0693\u0626."
+            ],
+            "Title": [
+                "\u0633\u0631\u0644\u06cc\u06a9"
+            ],
+            "Department": [
+                "\u0685\u0627\u0646\u06ab\u0647"
+            ],
+            "Saved replies": [
+                "\u062e\u067e\u0631\u0647 \u0634\u0648\u064a \u0681\u0648\u0627\u0628\u0648\u0646\u0647"
+            ],
+            "Knowledge gaps": [
+                "\u062f \u067e\u0648\u0647\u06d0 \u062a\u0634\u06d0"
+            ],
+            "First reply": [
+                "\u0644\u0648\u0645\u0693\u06cc \u0681\u0648\u0627\u0628"
+            ],
+            "Article": [
+                "\u0645\u0642\u0627\u0644\u0647"
+            ],
+            "Reports": [
+                "\u0631\u0627\u067e\u0648\u0631\u0648\u0646\u0647"
+            ],
+            "Agent": [
+                "\u0627\u0633\u062a\u0627\u0632\u06cc"
+            ],
+            "All": [
+                "\u067c\u0648\u0644"
+            ],
+            "Page %1$d of %2$d": [
+                "\u062f %1$d \u0645\u062e \u062f %2$d \u0685\u062e\u0647"
+            ],
+            "Edit": [
+                "\u0633\u0645\u0648\u0644"
+            ],
+            "%d second": [
+                "%d \u062b\u0627\u0646\u06cc\u0647",
+                "%d \u062b\u0627\u0646\u06cc\u06d0"
+            ],
+            "%d minute": [
+                "%d \u062f\u0642\u06cc\u0642\u0647",
+                "%d \u062f\u0642\u06d0"
+            ],
+            "%d hour": [
+                "%d \u0633\u0627\u0639\u062a",
+                "%d \u0633\u0627\u0639\u062a\u0648\u0646\u0647"
+            ],
+            "%d day": [
+                "%d \u0648\u0631\u0681",
+                "%d \u0648\u0631\u0681\u06d0"
+            ],
+            "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
+                "\u062f\u0627 \u0628\u0631\u0627\u0648\u0632\u0631 \u062f\u0644\u062a\u0647 \u062f \u067e\u0634 \u062e\u0628\u0631\u062a\u06cc\u0627\u0648\u06d0 \u0646\u0647 \u0634\u064a \u062a\u0631\u0644\u0627\u0633\u0647 \u06a9\u0648\u0644\u06cc. \u067e\u0647 \u0622\u06cc \u0641\u0648\u0646 \u06a9\u06d0\u060c \u0644\u0648\u0645\u0693\u06cc \u0627\u0646 \u0628\u0627\u06a9\u0633 \u062f \u062e\u067e\u0644 \u06a9\u0648\u0631 \u0633\u06a9\u0631\u06cc\u0646 \u062a\u0647 \u0627\u0636\u0627\u0641\u0647 \u06a9\u0693\u0626."
+            ],
+            "Notifications are blocked for this site in the browser settings.": [
+                "\u062f \u0644\u067c\u0648\u0646\u06ab\u0631 \u067e\u0647 \u062a\u0631\u062a\u06cc\u0628\u0627\u062a\u0648 \u06a9\u06d0 \u062f \u062f\u06d0 \u0633\u0627\u06cc\u067c \u0644\u067e\u0627\u0631\u0647 \u062e\u0628\u0631\u062a\u06cc\u0627\u0648\u06d0 \u0628\u0644\u0627\u06a9 \u0634\u0648\u064a \u062f\u064a."
+            ],
+            "Notifications are on for this device.": [
+                "\u067e\u062f\u06d0 \u0648\u0633\u06cc\u0644\u0647 \u06a9\u06d0 \u062e\u0628\u0631\u062a\u06cc\u0627\u0648\u06d0 \u0641\u0639\u0627\u0644\u06d0 \u062f\u064a."
+            ],
+            "Send a test notification": [
+                "\u062f \u0627\u0632\u0645\u0648\u06cc\u0646\u06d0 \u062e\u0628\u0631\u062a\u06cc\u0627 \u0648\u0627\u0633\u062a\u0648\u0626"
+            ],
+            "Sent. It should appear in a few seconds.": [
+                "\u0648\u0644\u06d0\u0696\u0644 \u0634\u0648. \u062f\u0627 \u0628\u0627\u06cc\u062f \u067e\u0647 \u0685\u0648 \u062b\u0627\u0646\u06cc\u0648 \u06a9\u06d0 \u0685\u0631\u06ab\u0646\u062f \u0634\u064a."
+            ],
+            "The push service did not accept it.": [
+                "\u062f \u067e\u0634 \u062e\u062f\u0645\u062a \u062f\u0627 \u0648\u0646\u0647 \u0645\u0646\u0644\u0647."
+            ],
+            "Could not turn notifications on.": [
+                "\u062e\u0628\u0631\u062a\u06cc\u0627\u0648\u06d0 \u0646\u0647 \u0634\u0648\u06d0 \u0641\u0639\u0627\u0644\u06d0\u062f\u0644\u0627\u06cc."
+            ],
+            "Phone app and notifications": [
+                "\u062f \u067c\u06cc\u0644\u06cc\u0641\u0648\u0646 \u0627\u067e\u0644\u06cc\u06a9\u06cc\u0634\u0646 \u0627\u0648 \u062e\u0628\u0631\u062a\u06cc\u0627\u0648\u06d0"
+            ],
+            "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
+                "\u062f\u0627 \u0627\u0646 \u0628\u0627\u06a9\u0633 \u062f \u0627\u067e\u0644\u06cc\u06a9\u06cc\u0634\u0646 \u067e\u0647 \u062a\u0648\u06ab\u0647 \u0648\u0644\u06ab\u0648\u0626: \u067e\u0647 \u06a9\u0631\u0648\u0645 \u06cc\u0627 \u0627\u06cc\u062c \u06a9\u06d0 \u062f \u067e\u062a\u0647 \u067e\u0647 \u067e\u067c\u0647 \u06cc\u0627 \u0645\u06cc\u0646\u0648 \u06a9\u06d0 \u0644\u06ab\u0648\u0644 (Install) \u0648\u067c\u0627\u06a9\u0626\u061b \u067e\u0647 \u0622\u06cc \u0641\u0648\u0646 \u06cc\u0627 \u0622\u06cc \u067e\u06cc\u0689 \u06a9\u06d0 \u00ab\u0634\u06cc\u0631\u00bb (Share) \u0627\u0648 \u0628\u06cc\u0627 \u00ab\u06a9\u0648\u0631 \u0633\u06a9\u0631\u06cc\u0646 \u062a\u0647 \u0627\u0636\u0627\u0641\u0647 \u06a9\u0648\u0644\u00bb (Add to Home Screen) \u06a9\u069a\u06cc\u06a9\u0627\u0696\u0626. \u062f\u0627 \u067e\u0647 \u067e\u0648\u0631\u0647 \u0633\u06a9\u0631\u06cc\u0646 \u067e\u0631\u0627\u0646\u06cc\u0633\u062a\u0644 \u06a9\u06cc\u0696\u064a\u060c \u0686\u06d0 \u062f \u0681\u0648\u0627\u0628 \u0648\u06cc\u0644\u0648 \u0644\u067e\u0627\u0631\u0647 \u0686\u0645\u062a\u0648 \u0648\u064a."
+            ],
+            "Turn on notifications on this device": [
+                "\u067e\u0647 \u062f\u06d0 \u0648\u0633\u06cc\u0644\u0647 \u06a9\u06d0 \u062e\u0628\u0631\u062a\u06cc\u0627\u0648\u06d0 \u0641\u0639\u0627\u0644\u06d0 \u06a9\u0693\u0626"
+            ],
+            "Nothing found.": [
+                "\u0647\u06cc\u0685 \u0634\u06cc \u0648\u0646\u0647 \u0645\u0648\u0646\u062f\u0644 \u0634\u0648."
+            ],
+            "Search saved replies": [
+                "\u062f \u062e\u0648\u0646\u062f\u064a \u0634\u0648\u06cc\u0648 \u0681\u0648\u0627\u0628\u0648\u0646\u0648 \u0644\u067c\u0648\u0646"
+            ],
+            "Link an article": [
+                "\u0645\u0642\u0627\u0644\u0647 \u0648\u0635\u0644 \u06a9\u0693\u0626"
+            ],
+            "Search the knowledge base": [
+                "\u062f \u067e\u0648\u0647\u06d0 \u067e\u0647 \u0628\u0646\u0633\u067c \u06a9\u06d0 \u0644\u067c\u0648\u0646 \u0648\u06a9\u0693\u0626"
+            ],
+            "Suggest a reply": [
+                "\u062f \u0681\u0648\u0627\u0628 \u0648\u0693\u0627\u0646\u062f\u06cc\u0632 \u06a9\u0648\u0644"
+            ],
+            "Drafting\u2026": [
+                "\u0645\u0633\u0648\u062f\u0647 \u062c\u0648\u0693\u06cc\u0696\u064a\u2026"
+            ],
+            "Replace what you have typed with the suggestion?": [
+                "\u0627\u06cc\u0627 \u0647\u063a\u0647 \u0685\u0647 \u0686\u06d0 \u0645\u0648 \u0644\u06cc\u06a9\u0644\u064a \u062f \u0648\u0693\u0627\u0646\u062f\u06cc\u0632 \u0633\u0631\u0647 \u0628\u062f\u0644 \u06a9\u0693\u0626\u061f"
+            ],
+            "%s is writing a reply to this too.": [
+                "%s \u0647\u0645 \u062f \u062f\u06d0 \u067e\u0647 \u0681\u0648\u0627\u0628 \u06a9\u06d0 \u0644\u06cc\u06a9\u064a."
+            ],
+            "%s is also looking at this.": [
+                "%s \u0647\u0645 \u062f\u06d0 \u062a\u0647 \u06ab\u0648\u0631\u064a."
+            ],
+            "No department": [
+                "\u0647\u06cc\u0685 \u0685\u0627\u0646\u06ab\u0647 \u0646\u0634\u062a\u0647"
+            ],
+            "Tags, comma-separated": [
+                "\u0628\u0631\u0686\u0633\u0628\u0648\u0646\u0647\u060c \u062f \u06a9\u0627\u0645\u0627 \u067e\u0647 \u0648\u0627\u0633\u0637\u0647 \u062c\u0644\u0627 \u0634\u0648\u064a"
+            ],
+            "Tags": [
+                "\u062a\u06ab\u0644\u0627\u0631\u0647"
+            ],
+            "Upset customer": [
+                "\u062e\u067e\u0647 \u0634\u0648\u06cc \u067e\u06cc\u0631\u0648\u062f\u0648\u0646\u06a9\u06cc"
+            ],
+            "Unhappy customer": [
+                "\u062e\u0641\u0647 \u067e\u06cc\u0631\u0648\u062f\u0648\u0646\u06a9\u06cc"
+            ],
+            "Summarise again": [
+                "\u0628\u06cc\u0627 \u0644\u0646\u0689\u06cc\u0632 \u06a9\u0693\u0626"
+            ],
+            "Summarise": [
+                "\u062e\u0644\u0627\u0635\u0647 \u06a9\u0693\u0626"
+            ],
+            "met": [
+                "\u0644\u06cc\u062f\u0644 \u0634\u0648\u06cc"
+            ],
+            "missed": [
+                "\u067e\u0627\u062a\u06d0 \u0634\u0648\u06cc"
+            ],
+            "overdue by %s": [
+                "\u062f %s \u0644\u0647 \u062e\u0648\u0627 \u0648\u0681\u064a"
+            ],
+            "%s left": [
+                "%s \u067e\u0627\u062a\u06d0 \u062f\u064a"
+            ],
+            "Customer rating: %d of 5": [
+                "\u062f \u067e\u06cc\u0631\u0648\u062f\u0648\u0646\u06a9\u064a \u062f\u0631\u062c\u0647 \u0628\u0646\u062f\u064a: \u0644\u0647 \u06f5 \u0685\u062e\u0647 %d"
+            ],
+            "Write a KB article from this ticket": [
+                "\u0644\u0647 \u062f\u06d0 \u067c\u06a9\u067c \u0685\u062e\u0647 \u062f \u067e\u0648\u0647\u06d0 \u0627\u0689\u06d0 (KB) \u06cc\u0648\u0647 \u0645\u0642\u0627\u0644\u0647 \u0648\u0644\u06cc\u06a9\u0626"
+            ],
+            "Write a help page from this ticket": [
+                "\u062f \u062f\u06d0 \u067c\u06cc\u06a9\u067c \u0685\u062e\u0647 \u062f \u0645\u0631\u0633\u062a\u06d0 \u067e\u0627\u06bc\u0647 \u0648\u0644\u06cc\u06a9\u0626"
+            ],
+            "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
+                "\u0647\u063a\u0648\u06cc \u062f \u062e\u0628\u0631\u0648 \u0627\u062a\u0631\u0648 (\u0686\u067c) \u0627\u0648 \u062f \u067c\u06a9\u067c \u062f \u0681\u0648\u0627\u0628 \u0648\u0631\u06a9\u0648\u0644\u0648 \u0644\u0647 \u0628\u06a9\u0633\u0648\u0646\u0648 (\u0633\u0627\u062a\u0644 \u0634\u0648\u064a \u0681\u0648\u0627\u0628\u0648\u0646\u0647) \u0685\u062e\u0647 \u0648\u06a9\u0627\u0631\u0648\u0626\u060c \u06cc\u0627 \/ \u0627\u0648 \u0644\u0646\u0689\u0644\u0627\u0631 \u0648\u067c\u0627\u064a\u067e \u06a9\u0693\u0626\u060c \u0627\u0648 \u0628\u06cc\u0627 \u0641\u0627\u0635\u0644\u064a \u062a\u06bc\u06cd \u06a9\u06d0\u06a9\u0627\u0696\u0626. {name}\u060c {first_name}\u060c {agent}\u060c {site} \u0627\u0648 {ticket} \u0633\u062a\u0627\u0633\u0648 \u0644\u067e\u0627\u0631\u0647 \u067e\u0647 \u0627\u0648\u062a\u0648\u0645\u0627\u062a \u0689\u0648\u0644 \u0689\u06a9\u06d0\u0696\u064a."
+            ],
+            "Shortcut (optional, e.g. refund)": [
+                "\u0644\u0646\u0689\u0644\u0627\u0631\u0647 (\u0627\u062e\u062a\u064a\u0627\u0631\u064a\u060c \u062f \u0628\u06d0\u0644\u06ab\u06d0 \u067e\u0647 \u062a\u0648\u06ab\u0647 refund)"
+            ],
+            "Text": [
+                "\u0645\u062a\u0646"
+            ],
+            "Every department": [
+                "\u0647\u0631 \u0685\u0627\u0646\u06ab\u0647"
+            ],
+            "Save": [
+                "\u062e\u067e\u0644\u0648\u0644"
+            ],
+            "Add saved reply": [
+                "\u062e\u067e\u0644 \u0634\u0648\u06cc \u0681\u0648\u0627\u0628 \u0627\u0636\u0627\u0641\u0647 \u06a9\u0693\u0626"
+            ],
+            "No saved replies yet.": [
+                "\u062a\u0631 \u0627\u0648\u0633\u0647 \u067e\u0648\u0631\u06d0 \u062e\u0648\u0646\u062f\u064a \u0634\u0648\u064a \u0681\u0648\u0627\u0628\u0648\u0646\u0647 \u0646\u0634\u062a\u0647."
+            ],
+            "Used %d times": [
+                "%d \u0681\u0644\u0647 \u06a9\u0627\u0631\u0648\u0644 \u0634\u0648\u06cc"
+            ],
+            "Delete": [
+                "\u062d\u0630\u0641\u0648\u0644"
+            ],
+            "Delete this saved reply?": [
+                "\u0622\u06cc\u0627 \u062f\u0627 \u062e\u0648\u0646\u062f\u064a \u0634\u0648\u06cc \u0681\u0648\u0627\u0628 \u062d\u0630\u0641 \u06a9\u0693\u0626\u061f"
+            ],
+            "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
+                "\u0647\u063a\u0647 \u067e\u0648\u069a\u062a\u0646\u06d0 \u0686\u06d0 \u0644\u06cc\u062f\u0648\u0646\u06a9\u0648 \u06a9\u0693\u06d0 \u062f\u064a \u0627\u0648 \u0633\u062a\u0627\u0633\u0648 \u0633\u0627\u06cc\u067c \u06cc\u06d0 \u0681\u0648\u0627\u0628 \u0646\u0634\u0648\u0627\u06cc \u06a9\u0648\u0644\u06cc\u060c \u062a\u0631 \u067c\u0648\u0644\u0648 \u0632\u06cc\u0627\u062a\u06d0 \u067e\u0648\u069a\u062a\u0644 \u0634\u0648\u06d0 \u0644\u0648\u0645\u0693\u06cc. \u0681\u06cc\u0646\u06d0 \u200b\u200b\u0648\u067c\u0627\u06a9\u0626 \u0627\u0648 AI \u062a\u0647 \u0627\u062c\u0627\u0632\u0647 \u0648\u0631\u06a9\u0693\u0626 \u0686\u06d0 \u06cc\u0648\u0647 \u0645\u0642\u0627\u0644\u0647 \u0686\u0645\u062a\u0648 \u06a9\u0693\u064a \u0686\u06d0 \u0647\u063a\u0648\u06cc \u062a\u0647 \u0681\u0648\u0627\u0628 \u0648\u0648\u0627\u06cc\u06cc\u061b \u0647\u063a\u0647 \u062e\u067e\u0631\u0647 \u06a9\u0693\u0626 \u0627\u0648 \u0645\u0631\u0633\u062a\u06cc\u0627\u0644 \u06cc\u06d0 \u0633\u0645\u062f\u0644\u0627\u0633\u0647 \u06a9\u0627\u0631\u0648\u064a."
+            ],
+            "Recording is off (Settings, AI assistant).": [
+                "\u062f \u062b\u0628\u062a\u0648\u0644\u0648 \u0686\u0627\u0631\u06d0 \u0628\u0646\u062f\u0647 \u062f\u064a (\u062a\u0646\u0638\u06cc\u0645\u0627\u062a\u060c \u062f \u0645\u0635\u0646\u0648\u0639\u064a \u0681\u064a\u0631\u06a9\u062a\u06cc\u0627 \u0645\u0631\u0633\u062a\u06cc\u0627\u0644)."
+            ],
+            "Drafted": [
+                "\u0645\u0633\u0648\u062f\u0647 \u0634\u0648\u06cc"
+            ],
+            "Answered": [
+                "\u0681\u0648\u0627\u0628 \u0634\u0648\u06cc"
+            ],
+            "Ignored": [
+                "\u0633\u062a\u0631\u06ab\u200c\u067e\u0648\u069a\u0644\u06cc"
+            ],
+            "Draft a KB article from the selected": [
+                "\u062f \u067c\u0627\u06a9\u0644 \u0634\u0648\u064a \u0685\u062e\u0647 \u062f \u067e\u0648\u0647\u06d0 \u0627\u0689\u06d0 (KB) \u06cc\u0648\u0647 \u0645\u0642\u0627\u0644\u0647 \u0645\u0633\u0648\u062f\u0647 \u06a9\u0693\u0626"
+            ],
+            "Draft a help page from the selected": [
+                "\u062f \u067c\u0627\u06a9\u0644 \u0634\u0648\u064a \u0685\u062e\u0647 \u062f \u0645\u0631\u0633\u062a\u06d0 \u067e\u0627\u06bc\u0647 \u0645\u0633\u0648\u062f\u0647 \u06a9\u0693\u0626"
+            ],
+            "Mark answered": [
+                "\u0681\u0648\u0627\u0628 \u0648\u0631\u06a9\u0693 \u0634\u0648\u06cc"
+            ],
+            "Ignore": [
+                "\u062c\u0627\u0647\u0644 \u06a9\u0693\u0647"
+            ],
+            "Question": [
+                "\u067e\u0648\u069a\u062a\u0646\u0647"
+            ],
+            "Asked": [
+                "\u067e\u0648\u069a\u062a\u0644 \u0634\u0648\u06cc"
+            ],
+            "Why": [
+                "\u0648\u0644\u06d0"
+            ],
+            "Last asked": [
+                "\u0648\u0631\u0648\u0633\u062a\u06cc \u067e\u0648\u069a\u062a\u0644 \u0634\u0648\u06cc"
+            ],
+            "Not on the site": [
+                "\u067e\u0647 \u0633\u0627\u06cc\u067c \u06a9\u06d0 \u0646\u0634\u062a\u0647"
+            ],
+            "Needed a person": [
+                "\u06cc\u0648 \u0634\u062e\u0635 \u062a\u0647 \u0627\u0693\u062a\u06cc\u0627 \u062f\u0647"
+            ],
+            "Answer rated unhelpful": [
+                "\u0681\u0648\u0627\u0628 \u062f \u06ab\u067c\u0648\u0631 \u0646\u0647 \u0628\u0644\u0644\u0648 \u067e\u0647 \u062a\u0648\u06ab\u0647 \u0627\u0631\u0632\u0648\u0644 \u0634\u0648\u06cc"
+            ],
+            "Nothing here. Well done.": [
+                "\u062f\u0644\u062a\u0647 \u0685\u0647 \u0646\u0634\u062a\u0647. \u069a\u0647 \u06a9\u0627\u0631."
+            ],
+            "Period": [
+                "\u0645\u0648\u062f\u0647"
+            ],
+            "Last 7 days": [
+                "\u062a\u06d0\u0631 \u06f7 \u0648\u0631\u0681\u06d0"
+            ],
+            "Last 30 days": [
+                "\u062a\u06d0\u0631\u06d0 \u06f3\u06f0 \u0648\u0631\u0681\u06d0"
+            ],
+            "Last 90 days": [
+                "\u0648\u0631\u0648\u0633\u062a\u064a \u06f9\u06f0 \u0648\u0631\u0681\u06d0"
+            ],
+            "Last 12 months": [
+                "\u062a\u06d0\u0631 \u06f1\u06f2 \u0645\u06cc\u0627\u0634\u062a\u06d0"
+            ],
+            "%s%% answered by the assistant alone": [
+                "%s%% \u06cc\u0648\u0627\u0632\u06d0 \u062f \u0645\u0631\u0633\u062a\u064a\u0627\u0644 \u0644\u0647 \u062e\u0648\u0627 \u0681\u0648\u0627\u0628 \u0634\u0648\u06d0"
+            ],
+            "Handed to a person": [
+                "\u06cc\u0648 \u06a9\u0633 \u062a\u0647 \u0648\u0633\u067e\u0627\u0631\u0644 \u0634\u0648"
+            ],
+            "median wait %s": [
+                "\u062f \u062a\u0645\u06d0 \u0645\u0646\u0681\u0646\u06cd \u0645\u0648\u062f\u0647 %s"
+            ],
+            "Tickets opened": [
+                "\u067e\u0631 \u062e\u0644\u0627\u0635 \u0634\u0648\u064a \u067c\u06a9\u067c\u0648\u0646\u0647"
+            ],
+            "%d still open": [
+                "%d \u0644\u0627 \u0647\u0645 \u067e\u0631\u0627\u0646\u06cc\u0633\u062a\u06cc \u062f\u06cc"
+            ],
+            "median \u00b7 average %s": [
+                "\u0645\u0646\u0681\u0646\u06cc \u00b7 \u0627\u0648\u0633\u0637 %s"
+            ],
+            "Time to solve": [
+                "\u062f \u062d\u0644 \u06a9\u0648\u0644\u0648 \u0644\u067e\u0627\u0631\u0647 \u0648\u062e\u062a"
+            ],
+            "median \u00b7 %d solved": [
+                "\u0645\u0646\u0681\u0646\u06cc \u00b7 %d \u062d\u0644 \u0634\u0648\u06d0"
+            ],
+            "Customer satisfaction": [
+                "\u062f \u067e\u06cc\u0631\u0648\u062f\u0648\u0646\u06a9\u064a \u0631\u0636\u0627\u06cc\u062a"
+            ],
+            "%d ratings, average %s of 5": [
+                "%d \u062f\u0631\u062c\u0647 \u0628\u0646\u062f\u06cd\u060c \u062f \u06f5 \u0685\u062e\u0647 \u067e\u0647 \u0627\u0648\u0633\u0637 \u0689\u0648\u0644 %s"
+            ],
+            "SLA first reply met": [
+                "\u062f SLA \u0644\u0648\u0645\u0693\u06cc \u0681\u0648\u0627\u0628 \u067e\u0648\u0631\u0647 \u0634\u0648"
+            ],
+            "%1$d due, %2$d missed": [
+                "%1$d \u067e\u0627\u062a\u06d0 \u062f\u06cc\u060c %2$d \u0644\u0647 \u0644\u0627\u0633\u0647 \u062a\u0644\u0644\u064a \u062f\u064a"
+            ],
+            "Assistant answers rated": [
+                "\u062f \u0645\u0631\u0633\u062a\u06cc\u0627\u0644 \u0681\u0648\u0627\u0628\u0648\u0646\u0647 \u062f\u0631\u062c\u0647 \u0634\u0648\u064a \u062f\u064a"
+            ],
+            "helpful \/ rated": [
+                "\u06ab\u067c\u0648\u0631 \/ \u0627\u0631\u0632\u0648\u0644 \u0634\u0648\u06cc"
+            ],
+            "Chats and tickets per day": [
+                "\u0631\u0647\u0646\u0689\u0648\u0646\u0647 \u0627\u0648 \u067c\u06a9\u067c\u0648\u0646\u0647 \u067e\u0647 \u0648\u0631\u0681 \u06a9\u06d0"
+            ],
+            "%1$d chats, %2$d tickets": [
+                "%1$d \u0686\u06cc\u067c\u0648\u0646\u0647\u060c %2$d \u067c\u06a9\u067c\u0648\u0646\u0647"
+            ],
+            "Tickets answered": [
+                "\u0681\u0648\u0627\u0628 \u0634\u0648\u064a \u067c\u06a9\u067c\u0648\u0646\u0647"
+            ],
+            "Replies": [
+                "\u0681\u0648\u0627\u0628\u0648\u0646\u0647"
+            ],
+            "Rating": [
+                "\u0627\u0645\u062a\u06cc\u0627\u0632"
+            ],
+            "Top topics": [
+                "\u0644\u0648\u0693\u06d0 \u0645\u0648\u0636\u0648\u0639\u0627\u062a"
+            ],
+            "Where tickets came from": [
+                "\u067c\u06a9\u067c\u0648\u0646\u0647 \u0644\u0647 \u06a9\u0648\u0645 \u0681\u0627\u06cc \u0685\u062e\u0647 \u0631\u0627\u063a\u0644\u064a \u062f\u064a"
+            ]
+        }
+    }
+}

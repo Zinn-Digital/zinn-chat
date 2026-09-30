@@ -1,0 +1,337 @@
+{
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/pro__premium_only\/admin-pro.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "sw",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Tickets": [
+                "Tiketi"
+            ],
+            "Open": [
+                "Fungua"
+            ],
+            "Chats": [
+                "Mazungumzo"
+            ],
+            "Team": [
+                "Timu"
+            ],
+            "Something went wrong. Please try again.": [
+                "Kuna kitu kimeenda vibaya. Tafadhali jaribu tena."
+            ],
+            "Title": [
+                "Kichwa cha habari"
+            ],
+            "Department": [
+                "Idara"
+            ],
+            "Saved replies": [
+                "Majibu yaliyohifadhiwa"
+            ],
+            "Knowledge gaps": [
+                "Mapengo ya maarifa"
+            ],
+            "First reply": [
+                "Jibu la kwanza"
+            ],
+            "Article": [
+                "Makala"
+            ],
+            "Reports": [
+                "Ripoti"
+            ],
+            "Agent": [
+                "Wakala"
+            ],
+            "All": [
+                "Zote"
+            ],
+            "Page %1$d of %2$d": [
+                "Ukurasa %1$d kati ya %2$d"
+            ],
+            "Edit": [
+                "Hariri"
+            ],
+            "%d second": [
+                "sekunde %d",
+                "sekunde %d"
+            ],
+            "%d minute": [
+                "Dakika %d",
+                "Dakika %d"
+            ],
+            "%d hour": [
+                "saa %d",
+                "Saa %d"
+            ],
+            "%d day": [
+                "siku %d",
+                "siku %d"
+            ],
+            "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
+                "Kivinjari hiki hakiwezi kupokea arifa za papo hapo hapa. Kwenye iPhone, ongeza Inbox kwenye Skrini yako ya Nyumbani kwanza."
+            ],
+            "Notifications are blocked for this site in the browser settings.": [
+                "Arifa zimezuiwa kwa tovuti hii katika mipangilio ya kivinjari."
+            ],
+            "Notifications are on for this device.": [
+                "Arifa zimewashwa kwa kifaa hiki."
+            ],
+            "Send a test notification": [
+                "Tuma taarifa ya jaribio"
+            ],
+            "Sent. It should appear in a few seconds.": [
+                "Imetumwa. Inapaswa kuonekana baada ya sekunde chache."
+            ],
+            "The push service did not accept it.": [
+                "Huduma ya kusukuma haikukubali."
+            ],
+            "Could not turn notifications on.": [
+                "Imeshindikana kuwasha arifa."
+            ],
+            "Phone app and notifications": [
+                "Programu ya simu na arifa"
+            ],
+            "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
+                "Weka Kikasha hiki kama programu: kwenye Chrome au Edge chagua Weka kwenye upau wa anwani au menyu; kwenye iPhone au iPad gusa Shiriki, kisha Ongeza kwenye Skrini ya Nyumbani. Inafunguka kwa skrini nzima, tayari kujibu."
+            ],
+            "Turn on notifications on this device": [
+                "Washa arifa kwenye kifaa hiki"
+            ],
+            "Nothing found.": [
+                "Hakuna kilichopatikana."
+            ],
+            "Search saved replies": [
+                "Tafuta majibu yaliyohifadhiwa"
+            ],
+            "Link an article": [
+                "Unganisha makala"
+            ],
+            "Search the knowledge base": [
+                "Tafuta kwenye kituo cha maarifa"
+            ],
+            "Suggest a reply": [
+                "Pendekeza jibu"
+            ],
+            "Drafting\u2026": [
+                "Inatayarisha rasimu\u2026"
+            ],
+            "Replace what you have typed with the suggestion?": [
+                "Badilisha ulichoandika kwa pendekezo hili?"
+            ],
+            "%s is writing a reply to this too.": [
+                "%s anaandika jibu kwa hili pia."
+            ],
+            "%s is also looking at this.": [
+                "%s naye anatazama hili."
+            ],
+            "No department": [
+                "Hakuna idara"
+            ],
+            "Tags, comma-separated": [
+                "Lebo, zilizotenganishwa kwa koma"
+            ],
+            "Tags": [
+                "Lebo"
+            ],
+            "Upset customer": [
+                "Mteja aliyekasirika"
+            ],
+            "Unhappy customer": [
+                "Mteja ambaye hajaridhika"
+            ],
+            "Summarise again": [
+                "Fupisha tena"
+            ],
+            "Summarise": [
+                "Muhtasari"
+            ],
+            "met": [
+                "imetekezwa"
+            ],
+            "missed": [
+                "haikutekana"
+            ],
+            "overdue by %s": [
+                "imepitwa na siku %s"
+            ],
+            "%s left": [
+                "%s imesalia"
+            ],
+            "Customer rating: %d of 5": [
+                "Ukadiriaji wa mteja: %d kati ya 5"
+            ],
+            "Write a KB article from this ticket": [
+                "Andika nakala ya msingi wa maarifa kutoka kwa tiketi hii"
+            ],
+            "Write a help page from this ticket": [
+                "Andika ukurasa wa usaidizi kutoka kwa tikiti hii"
+            ],
+            "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
+                "Zitumie kutoka kwenye visanduku vya majibu ya gumzo na tikiti (Majibu yaliyohifadhiwa), au chapa \/ na njia ya mkato, kisha nafasi. {name}, {first_name}, {agent}, {site} na {ticket} zinajazwa kwa ajili yako."
+            ],
+            "Shortcut (optional, e.g. refund)": [
+                "Njia ya mkato (si lazima, mf. kurejesha pesa)"
+            ],
+            "Text": [
+                "Maandishi"
+            ],
+            "Every department": [
+                "Kila idara"
+            ],
+            "Save": [
+                "Hifadhi"
+            ],
+            "Add saved reply": [
+                "Ongeza jibu lililohifadhiwa"
+            ],
+            "No saved replies yet.": [
+                "Hakuna majibu yaliyohifadhiwa bado."
+            ],
+            "Used %d times": [
+                "Imetumika mara %d"
+            ],
+            "Delete": [
+                "Futa"
+            ],
+            "Delete this saved reply?": [
+                "Je, ufute jibu hili lililohifadhiwa?"
+            ],
+            "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
+                "Maswali ambayo wageni waliuliza ambayo tovuti yako haikuweza kuyajibu, yale yaliyoulizwa zaidi yamewekwa kwanza. Chagua baadhi na uruhusu AI iandae makala inayoyajibu; ichapishe na msaidizi ataitumia mara moja."
+            ],
+            "Recording is off (Settings, AI assistant).": [
+                "Kurekodi kumezimwa (Mipangilio, Msaidizi wa AI)."
+            ],
+            "Drafted": [
+                "Iliyoundwa"
+            ],
+            "Answered": [
+                "Imejibiwa"
+            ],
+            "Ignored": [
+                "Imepuuzwa"
+            ],
+            "Draft a KB article from the selected": [
+                "Andika rasimu ya makala ya msingi wa maarifa kutoka kwa iliyochaguliwa"
+            ],
+            "Draft a help page from the selected": [
+                "Andika rasimu ya ukurasa wa msaada kutoka kwa ulioteuliwa"
+            ],
+            "Mark answered": [
+                "Imejibiwa na Mark"
+            ],
+            "Ignore": [
+                "Puuzilia matokeo"
+            ],
+            "Question": [
+                "Swali"
+            ],
+            "Asked": [
+                "Imeulizwa"
+            ],
+            "Why": [
+                "Kwa nini"
+            ],
+            "Last asked": [
+                "Iliyoulizwa mwisho"
+            ],
+            "Not on the site": [
+                "Haipo kwenye tovuti"
+            ],
+            "Needed a person": [
+                "Anahitajika mtu"
+            ],
+            "Answer rated unhelpful": [
+                "Jibu limekadiriwa kuwa halina msaada"
+            ],
+            "Nothing here. Well done.": [
+                "Hakuna kitu hapa. Umeona vizuri."
+            ],
+            "Period": [
+                "Kipindi"
+            ],
+            "Last 7 days": [
+                "Siku 7 zilizopita"
+            ],
+            "Last 30 days": [
+                "Siku 30 zilizopita"
+            ],
+            "Last 90 days": [
+                "Siku 90 zilizopita"
+            ],
+            "Last 12 months": [
+                "Miezi 12 iliyopita"
+            ],
+            "%s%% answered by the assistant alone": [
+                "%s%% ilijibiwa na msaidizi pekee"
+            ],
+            "Handed to a person": [
+                "Imekabidhiwa kwa mtu"
+            ],
+            "median wait %s": [
+                "wastani wa muda wa kusubiri %s"
+            ],
+            "Tickets opened": [
+                "Tiketi zilizofunguliwa"
+            ],
+            "%d still open": [
+                "%d imesabaki wazi"
+            ],
+            "median \u00b7 average %s": [
+                "wastani \u00b7 wastani %s"
+            ],
+            "Time to solve": [
+                "Muda wa kutatua"
+            ],
+            "median \u00b7 %d solved": [
+                "wastani \u00b7 %d imetatuliwa"
+            ],
+            "Customer satisfaction": [
+                "Kuridhika kwa wateja"
+            ],
+            "%d ratings, average %s of 5": [
+                "Ukadiriaji %d, wastani wa %s kati ya 5"
+            ],
+            "SLA first reply met": [
+                "Jibu la kwanza la SLA limetimizwa"
+            ],
+            "%1$d due, %2$d missed": [
+                "%1$d inayodaiwa, %2$d imekosa"
+            ],
+            "Assistant answers rated": [
+                "Majibu ya msaidizi yametathminiwa"
+            ],
+            "helpful \/ rated": [
+                "yenye msaada \/ iliyokadiriwa"
+            ],
+            "Chats and tickets per day": [
+                "Mazungumzo na tiketi kwa siku"
+            ],
+            "%1$d chats, %2$d tickets": [
+                "%1$d soga, %2$d tiketi"
+            ],
+            "Tickets answered": [
+                "Tiketi zilizojibiwa"
+            ],
+            "Replies": [
+                "Majibu"
+            ],
+            "Rating": [
+                "Ukadiriaji"
+            ],
+            "Top topics": [
+                "Mada kuu"
+            ],
+            "Where tickets came from": [
+                "Mahali tiketi zilikotokea"
+            ]
+        }
+    }
+}

@@ -1,0 +1,341 @@
+{
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/pro__premium_only\/admin-pro.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "ro_RO",
+                "plural-forms": "nplurals=3; plural=(n==1 ? 0 : n==0 || (n%100>0 && n%100<20) ? 1 : 2);"
+            },
+            "Tickets": [
+                "Tichete"
+            ],
+            "Open": [
+                "Deschidere"
+            ],
+            "Chats": [
+                "Discu\u021bii"
+            ],
+            "Team": [
+                "Echip\u0103"
+            ],
+            "Something went wrong. Please try again.": [
+                "Ceva nu a func\u021bionat corect. V\u0103 rug\u0103m s\u0103 \u00eencerca\u021bi din nou."
+            ],
+            "Title": [
+                "Titlu"
+            ],
+            "Department": [
+                "Departament"
+            ],
+            "Saved replies": [
+                "R\u0103spunsuri salvate"
+            ],
+            "Knowledge gaps": [
+                "Lipsuri de cuno\u0219tin\u021be"
+            ],
+            "First reply": [
+                "Prima \u00eenregistrare"
+            ],
+            "Article": [
+                "Articol"
+            ],
+            "Reports": [
+                "Rapoarte"
+            ],
+            "Agent": [
+                "Agent"
+            ],
+            "All": [
+                "Toate"
+            ],
+            "Page %1$d of %2$d": [
+                "Pagina %1$d din %2$d"
+            ],
+            "Edit": [
+                "Editeaz\u0103"
+            ],
+            "%d second": [
+                "%d secund\u0103",
+                "%d secunde",
+                "%d secunde"
+            ],
+            "%d minute": [
+                "%d minut",
+                "%d minute",
+                "%d minute"
+            ],
+            "%d hour": [
+                "%d or\u0103",
+                "%d ore",
+                "%d ore"
+            ],
+            "%d day": [
+                "%d zi",
+                "%d zile",
+                "%d zile"
+            ],
+            "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
+                "Acest browser nu poate primi notific\u0103ri push aici. Pe un iPhone, ad\u0103uga\u021bi mai \u00eent\u00e2i Inbox pe ecranul principal."
+            ],
+            "Notifications are blocked for this site in the browser settings.": [
+                "Notific\u0103rile sunt blocate pentru acest site \u00een set\u0103rile browserului."
+            ],
+            "Notifications are on for this device.": [
+                "Notific\u0103rile sunt activate pentru acest dispozitiv."
+            ],
+            "Send a test notification": [
+                "Trimite\u021bi o notificare de test"
+            ],
+            "Sent. It should appear in a few seconds.": [
+                "Trimis. Ar trebui s\u0103 apar\u0103 \u00een c\u00e2teva secunde."
+            ],
+            "The push service did not accept it.": [
+                "Serviciul de notific\u0103ri push nu a acceptat-o."
+            ],
+            "Could not turn notifications on.": [
+                "Nu s-au putut activa notific\u0103rile."
+            ],
+            "Phone app and notifications": [
+                "Aplica\u021bie telefon \u0219i notific\u0103ri"
+            ],
+            "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
+                "Instala\u021bi aceast\u0103 C\u0103su\u021b\u0103 de e-mail ca aplica\u021bie: \u00een Chrome sau Edge, alege\u021bi \u201eInstalare\u201d din bara de adrese sau din meniu; pe un iPhone sau iPad, ap\u0103sa\u021bi pe Partajare, apoi pe Ad\u0103ugare la ecranul principal. Se deschide pe tot ecranul, preg\u0103tit\u0103 s\u0103 r\u0103spund\u0103."
+            ],
+            "Turn on notifications on this device": [
+                "Activeaz\u0103 notific\u0103rile pe acest dispozitiv"
+            ],
+            "Nothing found.": [
+                "Nu s-a g\u0103sit nimic."
+            ],
+            "Search saved replies": [
+                "C\u0103uta\u021bi r\u0103spunsurile salvate"
+            ],
+            "Link an article": [
+                "Conecteaz\u0103 un articol"
+            ],
+            "Search the knowledge base": [
+                "C\u0103uta\u021bi \u00een baza de cuno\u0219tin\u021be"
+            ],
+            "Suggest a reply": [
+                "Sugera\u021bi un r\u0103spuns"
+            ],
+            "Drafting\u2026": [
+                "Se redacteaz\u0103..."
+            ],
+            "Replace what you have typed with the suggestion?": [
+                "\u00cenlocui\u021bi ceea ce a\u021bi tastat cu sugestia?"
+            ],
+            "%s is writing a reply to this too.": [
+                "%s scrie \u0219i el o replic\u0103 la aceasta."
+            ],
+            "%s is also looking at this.": [
+                "\u0218i %s se uit\u0103 la asta."
+            ],
+            "No department": [
+                "Niciun departament"
+            ],
+            "Tags, comma-separated": [
+                "Etichete, separate prin virgul\u0103"
+            ],
+            "Tags": [
+                "Etichete"
+            ],
+            "Upset customer": [
+                "Client nemul\u021bumit"
+            ],
+            "Unhappy customer": [
+                "Client nemul\u021bumit"
+            ],
+            "Summarise again": [
+                "Rezum\u0103 din nou"
+            ],
+            "Summarise": [
+                "Rezumat"
+            ],
+            "met": [
+                "\u00eendeplinit"
+            ],
+            "missed": [
+                "ratat"
+            ],
+            "overdue by %s": [
+                "dep\u0103\u0219it de %s"
+            ],
+            "%s left": [
+                "%s r\u0103mas"
+            ],
+            "Customer rating: %d of 5": [
+                "Evaluarea clien\u021bilor: %d din 5"
+            ],
+            "Write a KB article from this ticket": [
+                "Scrie un articol pentru Baza de cuno\u0219tin\u021be din acest tichet"
+            ],
+            "Write a help page from this ticket": [
+                "Scrie o pagin\u0103 de ajutor din acest tichet"
+            ],
+            "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
+                "Folosi\u021bi-le din c\u0103su\u021bele de chat \u0219i de r\u0103spuns la tichete (R\u0103spunsuri salvate) sau tasta\u021bi \/ \u0219i comanda rapid\u0103, apoi un spa\u021biu. {name}, {first_name}, {agent}, {site} \u0219i {ticket} sunt completate automat pentru dumneavoastr\u0103."
+            ],
+            "Shortcut (optional, e.g. refund)": [
+                "Scurt\u0103tur\u0103 (op\u021bional, de ex. rambursare)"
+            ],
+            "Text": [
+                "Text"
+            ],
+            "Every department": [
+                "Fiecare departament"
+            ],
+            "Save": [
+                "Salveaz\u0103"
+            ],
+            "Add saved reply": [
+                "Ad\u0103uga\u021bi un r\u0103spuns salvat"
+            ],
+            "No saved replies yet.": [
+                "Nu exist\u0103 \u00eenc\u0103 r\u0103spunsuri salvate."
+            ],
+            "Used %d times": [
+                "Folosit de %d ori"
+            ],
+            "Delete": [
+                "\u0218terge\u021bi"
+            ],
+            "Delete this saved reply?": [
+                "\u0218terge\u021bi acest r\u0103spuns salvat?"
+            ],
+            "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
+                "\u00centreb\u0103ri adresate de vizitatori la care site-ul dvs. nu a putut r\u0103spunde, cele mai frecvente fiind primele. Selecta\u021bi c\u00e2teva \u0219i l\u0103sa\u021bi inteligen\u021ba artificial\u0103 s\u0103 schi\u021beze un articol care s\u0103 le r\u0103spund\u0103; publica\u021bi-l, iar asistentul \u00eel va folosi imediat."
+            ],
+            "Recording is off (Settings, AI assistant).": [
+                "\u00cenregistrarea este oprit\u0103 (Set\u0103ri, asistent AI)."
+            ],
+            "Drafted": [
+                "Ciorn\u0103"
+            ],
+            "Answered": [
+                "R\u0103spuns"
+            ],
+            "Ignored": [
+                "Ignorat"
+            ],
+            "Draft a KB article from the selected": [
+                "Redacta\u021bi un articol din Baza de Cuno\u0219tin\u021be pe baza celor selectate"
+            ],
+            "Draft a help page from the selected": [
+                "Redacta\u021bi o pagin\u0103 de ajutor din cele selectate"
+            ],
+            "Mark answered": [
+                "Marcat ca r\u0103spuns"
+            ],
+            "Ignore": [
+                "Ignor\u0103"
+            ],
+            "Question": [
+                "\u00centrebare"
+            ],
+            "Asked": [
+                "\u00centrebat"
+            ],
+            "Why": [
+                "De ce"
+            ],
+            "Last asked": [
+                "Ultima \u00eentrebare"
+            ],
+            "Not on the site": [
+                "Nu este pe site"
+            ],
+            "Needed a person": [
+                "Persoan\u0103 necesar\u0103"
+            ],
+            "Answer rated unhelpful": [
+                "R\u0103spuns evaluat ca nefiind util"
+            ],
+            "Nothing here. Well done.": [
+                "Nimic aici. Felicit\u0103ri."
+            ],
+            "Period": [
+                "Perioad\u0103"
+            ],
+            "Last 7 days": [
+                "Ultimele 7 zile"
+            ],
+            "Last 30 days": [
+                "Ultimele 30 de zile"
+            ],
+            "Last 90 days": [
+                "Ultimele 90 de zile"
+            ],
+            "Last 12 months": [
+                "Ultimele 12 luni"
+            ],
+            "%s%% answered by the assistant alone": [
+                "%s%% r\u0103spunsuri oferite exclusiv de asistent"
+            ],
+            "Handed to a person": [
+                "Predat unei persoane"
+            ],
+            "median wait %s": [
+                "timp de a\u0219teptare mediu %s"
+            ],
+            "Tickets opened": [
+                "Tichet deschis"
+            ],
+            "%d still open": [
+                "%d \u00eenc\u0103 deschis"
+            ],
+            "median \u00b7 average %s": [
+                "median\u0103 \u00b7 medie %s"
+            ],
+            "Time to solve": [
+                "Timp de rezolvare"
+            ],
+            "median \u00b7 %d solved": [
+                "median \u00b7 %d rezolvate"
+            ],
+            "Customer satisfaction": [
+                "Satisfac\u021bia clien\u021bilor"
+            ],
+            "%d ratings, average %s of 5": [
+                "%d evalu\u0103ri, medie de %s din 5"
+            ],
+            "SLA first reply met": [
+                "Primul r\u0103spuns respect\u0103 SLA"
+            ],
+            "%1$d due, %2$d missed": [
+                "%1$d scadente, %2$d ratate"
+            ],
+            "Assistant answers rated": [
+                "R\u0103spunsuri de la asistent evaluate"
+            ],
+            "helpful \/ rated": [
+                "util \/ evaluat"
+            ],
+            "Chats and tickets per day": [
+                "Discu\u021bii \u0219i tichete pe zi"
+            ],
+            "%1$d chats, %2$d tickets": [
+                "%1$d chaturi, %2$d tichete"
+            ],
+            "Tickets answered": [
+                "Tichete cu r\u0103spuns"
+            ],
+            "Replies": [
+                "R\u0103spunsuri"
+            ],
+            "Rating": [
+                "Evaluare"
+            ],
+            "Top topics": [
+                "Subiecte principale"
+            ],
+            "Where tickets came from": [
+                "Originea tichetelor"
+            ]
+        }
+    }
+}

@@ -1,0 +1,333 @@
+{
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/pro__premium_only\/admin-pro.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "ko_KR",
+                "plural-forms": "nplurals=1; plural=0;"
+            },
+            "Tickets": [
+                "\ud2f0\ucf13"
+            ],
+            "Open": [
+                "\uc5f4\uae30"
+            ],
+            "Chats": [
+                "\ucc44\ud305"
+            ],
+            "Team": [
+                "\ud300"
+            ],
+            "Something went wrong. Please try again.": [
+                "\ubb38\uc81c\uac00 \ubc1c\uc0dd\ud588\uc2b5\ub2c8\ub2e4. \ub2e4\uc2dc \uc2dc\ub3c4\ud574 \uc8fc\uc138\uc694."
+            ],
+            "Title": [
+                "\uc81c\ubaa9"
+            ],
+            "Department": [
+                "\ubd80\uc11c"
+            ],
+            "Saved replies": [
+                "\uc800\uc7a5\ub41c \ub2f5\ubcc0"
+            ],
+            "Knowledge gaps": [
+                "\uc9c0\uc2dd \uaca9\ucc28"
+            ],
+            "First reply": [
+                "\uccab \ubc88\uc9f8 \ub2f5\ubcc0"
+            ],
+            "Article": [
+                "\ubb38\uc11c"
+            ],
+            "Reports": [
+                "\ubcf4\uace0\uc11c"
+            ],
+            "Agent": [
+                "\uc5d0\uc774\uc804\ud2b8"
+            ],
+            "All": [
+                "\uc804\uccb4"
+            ],
+            "Page %1$d of %2$d": [
+                "%1$d\ud398\uc774\uc9c0 (\uc804\uccb4 %2$d\ud398\uc774\uc9c0 \uc911)"
+            ],
+            "Edit": [
+                "\ud3b8\uc9d1"
+            ],
+            "%d second": [
+                "%d\ucd08"
+            ],
+            "%d minute": [
+                "%d\ubd84"
+            ],
+            "%d hour": [
+                "%d\uc2dc\uac04"
+            ],
+            "%d day": [
+                "%d\uc77c"
+            ],
+            "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
+                "\uc774 \ube0c\ub77c\uc6b0\uc800\ub294 \uc5ec\uae30\uc5d0\uc11c \ud478\uc2dc \uc54c\ub9bc\uc744 \ubc1b\uc744 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4. iPhone\uc758 \uacbd\uc6b0, \uba3c\uc800 \ud648 \ud654\uba74\uc5d0 \ubc1b\uc740\ud3b8\uc9c0\ud568\uc744 \ucd94\uac00\ud558\uc138\uc694."
+            ],
+            "Notifications are blocked for this site in the browser settings.": [
+                "\ube0c\ub77c\uc6b0\uc800 \uc124\uc815\uc5d0\uc11c \uc774 \uc0ac\uc774\ud2b8\uc758 \uc54c\ub9bc\uc774 \ucc28\ub2e8\ub418\uc5b4 \uc788\uc2b5\ub2c8\ub2e4."
+            ],
+            "Notifications are on for this device.": [
+                "\uc774 \uae30\uae30\uc5d0\uc11c \uc54c\ub9bc\uc774 \ucf1c\uc838 \uc788\uc2b5\ub2c8\ub2e4."
+            ],
+            "Send a test notification": [
+                "\ud14c\uc2a4\ud2b8 \uc54c\ub9bc \uc804\uc1a1"
+            ],
+            "Sent. It should appear in a few seconds.": [
+                "\uc804\uc1a1\ub418\uc5c8\uc2b5\ub2c8\ub2e4. \uba87 \ucd08 \ub0b4\ub85c \ud45c\uc2dc\ub420 \uac83\uc785\ub2c8\ub2e4."
+            ],
+            "The push service did not accept it.": [
+                "\ud478\uc2dc \uc11c\ube44\uc2a4\uc5d0\uc11c \uc774\ub97c \uac70\ubd80\ud588\uc2b5\ub2c8\ub2e4."
+            ],
+            "Could not turn notifications on.": [
+                "\uc54c\ub9bc\uc744 \ucf24 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4."
+            ],
+            "Phone app and notifications": [
+                "\ud734\ub300\ud3f0 \uc571 \ubc0f \uc54c\ub9bc"
+            ],
+            "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
+                "\uc774 \ubc1b\uc740\ud3b8\uc9c0\ud568\uc744 \uc571\uc73c\ub85c \uc124\uce58\ud558\uc138\uc694: Chrome \ub610\ub294 Edge\uc5d0\uc11c\ub294 \uc8fc\uc18c \ud45c\uc2dc\uc904\uc774\ub098 \uba54\ub274\uc5d0\uc11c \uc124\uce58\ub97c \uc120\ud0dd\ud558\uace0, iPhone \ub610\ub294 iPad\uc5d0\uc11c\ub294 \uacf5\uc720\ub97c \ub204\ub978 \ub2e4\uc74c \ud648 \ud654\uba74\uc5d0 \ucd94\uac00\ub97c \uc120\ud0dd\ud558\uc138\uc694. \uc804\uccb4 \ud654\uba74\uc73c\ub85c \uc5f4\ub9ac\uba70 \ubc14\ub85c \ub2f5\ubcc0\ud560 \uc900\ube44\uac00 \ub429\ub2c8\ub2e4."
+            ],
+            "Turn on notifications on this device": [
+                "\uc774 \uae30\uae30\uc5d0\uc11c \uc54c\ub9bc \ucf1c\uae30"
+            ],
+            "Nothing found.": [
+                "\uac80\uc0c9 \uacb0\uacfc\uac00 \uc5c6\uc2b5\ub2c8\ub2e4."
+            ],
+            "Search saved replies": [
+                "\uc800\uc7a5\ub41c \ub2f5\ubcc0 \uac80\uc0c9"
+            ],
+            "Link an article": [
+                "\ubb38\uc11c \uc5f0\uacb0\ud558\uae30"
+            ],
+            "Search the knowledge base": [
+                "\uc9c0\uc2dd \ubca0\uc774\uc2a4 \uac80\uc0c9"
+            ],
+            "Suggest a reply": [
+                "\ub2f5\ubcc0 \uc81c\uc548"
+            ],
+            "Drafting\u2026": [
+                "\uc791\uc131 \uc911\u2026"
+            ],
+            "Replace what you have typed with the suggestion?": [
+                "\uc785\ub825\ud558\uc2e0 \ub0b4\uc6a9\uc744 \ucd94\ucc9c \ud56d\ubaa9\uc73c\ub85c \ub300\uccb4\ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?"
+            ],
+            "%s is writing a reply to this too.": [
+                "%s\ub2d8\ub3c4 \uc774\uc5d0 \ub300\ud55c \ub2f5\uc7a5\uc744 \uc791\uc131 \uc911\uc785\ub2c8\ub2e4."
+            ],
+            "%s is also looking at this.": [
+                "%s\ub2d8\ub3c4 \uc774 \ud398\uc774\uc9c0\ub97c \ubcf4\uace0 \uc788\uc2b5\ub2c8\ub2e4."
+            ],
+            "No department": [
+                "\ubd80\uc11c \uc5c6\uc74c"
+            ],
+            "Tags, comma-separated": [
+                "\ud0dc\uadf8, \uc27c\ud45c\ub85c \uad6c\ubd84"
+            ],
+            "Tags": [
+                "\ud0dc\uadf8"
+            ],
+            "Upset customer": [
+                "\ubd88\ub9cc \uace0\uac1d"
+            ],
+            "Unhappy customer": [
+                "\ubd88\ub9cc\uc871 \uace0\uac1d"
+            ],
+            "Summarise again": [
+                "\ub2e4\uc2dc \uc694\uc57d"
+            ],
+            "Summarise": [
+                "\uc694\uc57d"
+            ],
+            "met": [
+                "\ucda9\uc871\ub428"
+            ],
+            "missed": [
+                "\ub204\ub77d\ub428"
+            ],
+            "overdue by %s": [
+                "%s \uc5f0\uccb4\ub428"
+            ],
+            "%s left": [
+                "%s \ub0a8\uc74c"
+            ],
+            "Customer rating: %d of 5": [
+                "\uace0\uac1d \ud3c9\uc810: 5\uc810 \ub9cc\uc810\uc5d0 %d\uc810"
+            ],
+            "Write a KB article from this ticket": [
+                "\uc774 \ud2f0\ucf13\uc744 \ubc14\ud0d5\uc73c\ub85c \uc9c0\uc2dd\ubca0\uc774\uc2a4(KB) \ubb38\uc11c\ub97c \uc791\uc131\ud558\uc138\uc694"
+            ],
+            "Write a help page from this ticket": [
+                "\uc774 \ud2f0\ucf13\uc5d0\uc11c \ub3c4\uc6c0\ub9d0 \ud398\uc774\uc9c0 \uc791\uc131\ud558\uae30"
+            ],
+            "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
+                "\ucc44\ud305 \ubc0f \ud2f0\ucf13 \ud68c\uc2e0 \uc0c1\uc790(\uc800\uc7a5\ub41c \ud68c\uc2e0)\uc5d0\uc11c \uc0ac\uc6a9\ud558\uac70\ub098, \/\uacfc \ub2e8\ucd95\ud0a4\ub97c \uc785\ub825\ud55c \ub2e4\uc74c \uc2a4\ud398\uc774\uc2a4\ubc14\ub97c \ub204\ub974\uc138\uc694. {name}, {first_name}, {agent}, {site}, {ticket}\uc740(\ub294) \uc790\ub3d9\uc73c\ub85c \ucc44\uc6cc\uc9d1\ub2c8\ub2e4."
+            ],
+            "Shortcut (optional, e.g. refund)": [
+                "\ub2e8\ucd95\uc5b4 (\uc120\ud0dd \uc0ac\ud56d, \uc608: \ud658\ubd88)"
+            ],
+            "Text": [
+                "\ud14d\uc2a4\ud2b8"
+            ],
+            "Every department": [
+                "\ubaa8\ub4e0 \ubd80\uc11c"
+            ],
+            "Save": [
+                "\uc800\uc7a5"
+            ],
+            "Add saved reply": [
+                "\uc800\uc7a5\ub41c \ub2f5\uc7a5 \ucd94\uac00"
+            ],
+            "No saved replies yet.": [
+                "\uc800\uc7a5\ub41c \ub2f5\ubcc0\uc774 \uc5c6\uc2b5\ub2c8\ub2e4."
+            ],
+            "Used %d times": [
+                "%d\ud68c \uc0ac\uc6a9\ub428"
+            ],
+            "Delete": [
+                "\uc0ad\uc81c"
+            ],
+            "Delete this saved reply?": [
+                "\uc774 \uc800\uc7a5\ub41c \ub2f5\ubcc0\uc744 \uc0ad\uc81c\ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?"
+            ],
+            "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
+                "\ubc29\ubb38\uc790\ub4e4\uc774 \uc9c8\ubb38\ud588\uc73c\ub098 \uc0ac\uc774\ud2b8\uc5d0\uc11c \ub2f5\ubcc0\ud558\uc9c0 \ubabb\ud55c \uc9c8\ubb38\ub4e4\ub85c, \uac00\uc7a5 \ub9ce\uc774 \uc9c8\ubb38\ub41c \uc21c\uc11c\uc785\ub2c8\ub2e4. \uc77c\ubd80\ub97c \uc120\ud0dd\ud558\uc5ec AI\uac00 \ub2f5\ubcc0\uc744 \uc791\uc131\ud558\ub3c4\ub85d \ud558\uc138\uc694. \uac8c\uc2dc\ud558\uba74 \uc5b4\uc2dc\uc2a4\ud134\ud2b8\uac00 \uc989\uc2dc \uc774\ub97c \uc0ac\uc6a9\ud569\ub2c8\ub2e4."
+            ],
+            "Recording is off (Settings, AI assistant).": [
+                "\ub179\ud654\uac00 \uaebc\uc838 \uc788\uc2b5\ub2c8\ub2e4 (\uc124\uc815, AI \uc5b4\uc2dc\uc2a4\ud134\ud2b8)."
+            ],
+            "Drafted": [
+                "\uc784\uc2dc\uc800\uc7a5\ub428"
+            ],
+            "Answered": [
+                "\ub2f5\ubcc0\ub428"
+            ],
+            "Ignored": [
+                "\ubb34\uc2dc\ub428"
+            ],
+            "Draft a KB article from the selected": [
+                "\uc120\ud0dd\ud55c \ud56d\ubaa9\uc744 \ubc14\ud0d5\uc73c\ub85c \uc9c0\uc2dd\ubca0\uc774\uc2a4 \ubb38\uc11c \ucd08\uc548 \uc791\uc131"
+            ],
+            "Draft a help page from the selected": [
+                "\uc120\ud0dd\ub41c \ud56d\ubaa9\uc73c\ub85c \ub3c4\uc6c0\ub9d0 \ud398\uc774\uc9c0 \ucd08\uc548 \uc791\uc131"
+            ],
+            "Mark answered": [
+                "\ub2f5\ubcc0 \uc644\ub8cc\ub428"
+            ],
+            "Ignore": [
+                "\ubb34\uc2dc"
+            ],
+            "Question": [
+                "\uc9c8\ubb38"
+            ],
+            "Asked": [
+                "\uc694\uccad\ub428"
+            ],
+            "Why": [
+                "\uc774\uc720"
+            ],
+            "Last asked": [
+                "\ub9c8\uc9c0\ub9c9 \uc9c8\ubb38\uc77c\uc2dc"
+            ],
+            "Not on the site": [
+                "\uc0ac\uc774\ud2b8\uc5d0 \uc5c6\uc74c"
+            ],
+            "Needed a person": [
+                "\uc0ac\ub78c \ud544\uc694\ud568"
+            ],
+            "Answer rated unhelpful": [
+                "\ub2f5\ubcc0\uc774 \ub3c4\uc6c0\uc774 \ub418\uc9c0 \uc54a\uc74c\uc73c\ub85c \ud3c9\uac00\ub428"
+            ],
+            "Nothing here. Well done.": [
+                "\uc5ec\uae30\uc5d0 \uc544\ubb34\uac83\ub3c4 \uc5c6\uc2b5\ub2c8\ub2e4. \uc798\ud558\uc168\uc2b5\ub2c8\ub2e4."
+            ],
+            "Period": [
+                "\uae30\uac04"
+            ],
+            "Last 7 days": [
+                "\uc9c0\ub09c 7\uc77c"
+            ],
+            "Last 30 days": [
+                "\ucd5c\uadfc 30\uc77c"
+            ],
+            "Last 90 days": [
+                "\ucd5c\uadfc 90\uc77c"
+            ],
+            "Last 12 months": [
+                "\uc9c0\ub09c 12\uac1c\uc6d4"
+            ],
+            "%s%% answered by the assistant alone": [
+                "%s%%\uac00 \uc5b4\uc2dc\uc2a4\ud134\ud2b8 \ub2e8\ub3c5\uc73c\ub85c \ub2f5\ubcc0\ub428"
+            ],
+            "Handed to a person": [
+                "\ub2f4\ub2f9\uc790 \uc9c0\uc815\ub428"
+            ],
+            "median wait %s": [
+                "\ud3c9\uade0 \ub300\uae30 \uc2dc\uac04 %s"
+            ],
+            "Tickets opened": [
+                "\uc811\uc218\ub41c \ubb38\uc758"
+            ],
+            "%d still open": [
+                "%d\uac1c \uc5ec\uc11d \uc5f4\ub9bc \uc720\uc9c0 \uc911"
+            ],
+            "median \u00b7 average %s": [
+                "\uc911\uc559\uac12 \u00b7 \ud3c9\uade0 %s"
+            ],
+            "Time to solve": [
+                "\ud574\uacb0 \uc18c\uc694 \uc2dc\uac04"
+            ],
+            "median \u00b7 %d solved": [
+                "\uc911\uac04\uac12 \u00b7 \ud574\uacb0\ub428 %d\uac1c"
+            ],
+            "Customer satisfaction": [
+                "\uace0\uac1d \ub9cc\uc871\ub3c4"
+            ],
+            "%d ratings, average %s of 5": [
+                "%d\uac1c\uc758 \ud3c9\uac00, 5\uc810 \ub9cc\uc810\uc5d0 \ud3c9\uade0 %s\uc810"
+            ],
+            "SLA first reply met": [
+                "SLA \uccab \ub2f5\ubcc0 \ucda9\uc871\ub428"
+            ],
+            "%1$d due, %2$d missed": [
+                "%1$d\uac74 \uccad\uad6c\ub428, %2$d\uac74 \ubbf8\ub0a9\ub428"
+            ],
+            "Assistant answers rated": [
+                "\ud3c9\uac00\ub41c \uc5b4\uc2dc\uc2a4\ud134\ud2b8 \ub2f5\ubcc0"
+            ],
+            "helpful \/ rated": [
+                "\uc720\uc6a9\ud568 \/ \ud3c9\uac00\ub428"
+            ],
+            "Chats and tickets per day": [
+                "\uc77c\uc77c \ucc44\ud305 \ubc0f \ud2f0\ucf13 \uc218"
+            ],
+            "%1$d chats, %2$d tickets": [
+                "%1$d\uac1c\uc758 \ucc44\ud305, %2$d\uac1c\uc758 \ud2f0\ucf13"
+            ],
+            "Tickets answered": [
+                "\ub2f5\ubcc0 \uc644\ub8cc\ub41c \ud2f0\ucf13"
+            ],
+            "Replies": [
+                "\ub2f5\ubcc0"
+            ],
+            "Rating": [
+                "\ud3c9\uc810"
+            ],
+            "Top topics": [
+                "\uc778\uae30 \uc8fc\uc81c"
+            ],
+            "Where tickets came from": [
+                "\ud2f0\ucf13 \uc720\uc785 \uacbd\ub85c"
+            ]
+        }
+    }
+}

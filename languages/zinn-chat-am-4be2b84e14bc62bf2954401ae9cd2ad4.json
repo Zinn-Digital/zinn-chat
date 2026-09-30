@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-09-30T01:02:32+00:00",
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,21 @@
             ],
             "Type": [
                 "\u12a0\u12ed\u1290\u1275"
+            ],
+            "Order": [
+                "\u1275\u12d5\u12db\u12dd"
+            ],
+            "Low": [
+                "\u12dd\u1245\u1270\u129b"
+            ],
+            "Normal": [
+                "\u1218\u12f0\u1260\u129b"
+            ],
+            "High": [
+                "\u12a8\u134d\u1270\u129b"
+            ],
+            "Urgent": [
+                "\u12a0\u1235\u1278\u12b3\u12ed"
             ],
             "%ds": [
                 "%ds"
@@ -235,18 +250,6 @@
             "Channel": [
                 "\u1230\u122d\u1325"
             ],
-            "Low": [
-                "\u12dd\u1245\u1270\u129b"
-            ],
-            "Normal": [
-                "\u1218\u12f0\u1260\u129b"
-            ],
-            "High": [
-                "\u12a8\u134d\u1270\u129b"
-            ],
-            "Urgent": [
-                "\u12a0\u1235\u1278\u12b3\u12ed"
-            ],
             "Nobody": [
                 "\u121b\u1295\u121d \u12e8\u1208\u121d"
             ],
@@ -255,9 +258,6 @@
             ],
             "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
                 "\u1275\u12d5\u12db\u12dd #%1$s \u00b7 %2$s \u00b7 %3$s"
-            ],
-            "Order": [
-                "\u1275\u12d5\u12db\u12dd"
             ],
             "Delete ticket": [
                 "\u1272\u12ac\u1275\u1295 \u12ed\u1230\u122d\u12d9"

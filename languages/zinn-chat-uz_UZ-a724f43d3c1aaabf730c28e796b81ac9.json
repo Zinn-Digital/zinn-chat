@@ -1,0 +1,337 @@
+{
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/pro__premium_only\/admin-pro.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "uz_UZ",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Tickets": [
+                "Chiptalar"
+            ],
+            "Open": [
+                "Ochish"
+            ],
+            "Chats": [
+                "Chatlar"
+            ],
+            "Team": [
+                "Jamoa"
+            ],
+            "Something went wrong. Please try again.": [
+                "Xatolik yuz berdi. Iltimos, qaytadan urinib ko'ring."
+            ],
+            "Title": [
+                "Sarlavha"
+            ],
+            "Department": [
+                "Bo'lim"
+            ],
+            "Saved replies": [
+                "Saqlangan javoblar"
+            ],
+            "Knowledge gaps": [
+                "Bilim bo\u2018shliqlari"
+            ],
+            "First reply": [
+                "Birinchi javob"
+            ],
+            "Article": [
+                "Maqola"
+            ],
+            "Reports": [
+                "Hisobotlar"
+            ],
+            "Agent": [
+                "Agent"
+            ],
+            "All": [
+                "Barchasi"
+            ],
+            "Page %1$d of %2$d": [
+                "%1$d-sahifa (%2$d tadan)"
+            ],
+            "Edit": [
+                "Tahrirlash"
+            ],
+            "%d second": [
+                "%d soniya",
+                "%d soniya"
+            ],
+            "%d minute": [
+                "%d daqiqa",
+                "%d daqiqa"
+            ],
+            "%d hour": [
+                "%d soat",
+                "%d soat"
+            ],
+            "%d day": [
+                "%d kun",
+                "%d kun"
+            ],
+            "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
+                "Bu brauzer bu yerda push bildirishnomalarni qabul qila olmaydi. IPhone'da avval Kirish qutisini Bosh ekranga qo'shing."
+            ],
+            "Notifications are blocked for this site in the browser settings.": [
+                "Brauzer sozlamalarida ushbu sayt uchun bildirishnomalar bloklangan."
+            ],
+            "Notifications are on for this device.": [
+                "Ushbu qurilma uchun bildirishnomalar yoqilgan."
+            ],
+            "Send a test notification": [
+                "Sinov bildirishnomasini yuborish"
+            ],
+            "Sent. It should appear in a few seconds.": [
+                "Yuborildi. Bir necha soniyada paydo bo'lishi kerak."
+            ],
+            "The push service did not accept it.": [
+                "Push xizmati buni qabul qilmadi."
+            ],
+            "Could not turn notifications on.": [
+                "Bildirishnomalarni yoqib bo\u2018lmadi."
+            ],
+            "Phone app and notifications": [
+                "Telefon ilovasi va bildirishnomalar"
+            ],
+            "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
+                "Bu Xabarlar qutisini ilova sifatida o\u2018rnating: Chrome yoki Edge brauzerlarida manzil satridan yoki menyudan \"O\u2018rnatish\"ni tanlang; iPhone yoki iPad'da \"Ulashish\" tugmasini, so\u2018ngra \"Bosh ekranga qo\u2018shish\"ni bosing. U butun ekran rejimida ochiladi va javob berishga tayyor bo\u2018ladi."
+            ],
+            "Turn on notifications on this device": [
+                "Ushbu qurilmada bildirishnomalarni yoqing"
+            ],
+            "Nothing found.": [
+                "Hech narsa topilmadi."
+            ],
+            "Search saved replies": [
+                "Saqlangan javoblarni qidirish"
+            ],
+            "Link an article": [
+                "Maqolani ulash"
+            ],
+            "Search the knowledge base": [
+                "Bilimlar bazasidan qidirish"
+            ],
+            "Suggest a reply": [
+                "Javobni tavsiya qilish"
+            ],
+            "Drafting\u2026": [
+                "Qoralama tayyorlanmoqda\u2026"
+            ],
+            "Replace what you have typed with the suggestion?": [
+                "Kiritgan narsangizni tavsiya bilan almashtirasizmi?"
+            ],
+            "%s is writing a reply to this too.": [
+                "%s ham bunga javob yozmoqda."
+            ],
+            "%s is also looking at this.": [
+                "%s ham buni ko\u2018rib chiqmoqda."
+            ],
+            "No department": [
+                "Bo'lim yo'q"
+            ],
+            "Tags, comma-separated": [
+                "Teglar, vergul bilan ajratilgan"
+            ],
+            "Tags": [
+                "Teglar"
+            ],
+            "Upset customer": [
+                "Noroziy mijoz"
+            ],
+            "Unhappy customer": [
+                "NorozI mijoz"
+            ],
+            "Summarise again": [
+                "Qayta xulosa qilish"
+            ],
+            "Summarise": [
+                "Xulosa qilish"
+            ],
+            "met": [
+                "bajarildi"
+            ],
+            "missed": [
+                "o'tkazib yuborilgan"
+            ],
+            "overdue by %s": [
+                "%s kun kechikkan"
+            ],
+            "%s left": [
+                "%s qoldi"
+            ],
+            "Customer rating: %d of 5": [
+                "Mijozlar reytingi: 5 dan %d"
+            ],
+            "Write a KB article from this ticket": [
+                "Ushbu murojaat asosida bilimlar bazasi maqolasini yozing"
+            ],
+            "Write a help page from this ticket": [
+                "Ushbu arizadan yordam sahifasini yozing"
+            ],
+            "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
+                "Ularni chat va tiketga javob berish maydonlaridan (Saqlangan javoblar) foydalaning yoki \/ va yorliqni, so'ngra bo'sh joyni kiriting. {name}, {first_name}, {agent}, {site} va {ticket} siz uchun to'ldiriladi."
+            ],
+            "Shortcut (optional, e.g. refund)": [
+                "Qisqa yo\u2018l (ixtiyoriy, masalan: qaytarish)"
+            ],
+            "Text": [
+                "Matn"
+            ],
+            "Every department": [
+                "Har bir bo'lim"
+            ],
+            "Save": [
+                "Saqlash"
+            ],
+            "Add saved reply": [
+                "Saqlangan javobni qo\u02bbshish"
+            ],
+            "No saved replies yet.": [
+                "Hali saqlangan javoblar yo'q."
+            ],
+            "Used %d times": [
+                "%d marta ishlatilgan"
+            ],
+            "Delete": [
+                "O'chirish"
+            ],
+            "Delete this saved reply?": [
+                "Saqlangan bu javobni o\u2018chirasizmi?"
+            ],
+            "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
+                "Tashrif buyuruvchilar bergan va saytingiz javob bera olmagan savollar, eng ko'p berilganlari boshida. Ayrimlarini tanlang va sun'iy intellektga ularga javob beruvchi maqola qoralashiga ruxsat bering; uni chop eting va yordamchi undan darhol foydalanadi."
+            ],
+            "Recording is off (Settings, AI assistant).": [
+                "Yozib olish o'chirilgan (Sozlamalar, sun'iy intellekt yordamchisi)."
+            ],
+            "Drafted": [
+                "Qoralovom"
+            ],
+            "Answered": [
+                "Javob berilgan"
+            ],
+            "Ignored": [
+                "E'tiborga olinmagan"
+            ],
+            "Draft a KB article from the selected": [
+                "Tanlangan maqoladan KB maqolasini tayyorlang"
+            ],
+            "Draft a help page from the selected": [
+                "Tanlangan asosida yordam sahifasini tayyorlang"
+            ],
+            "Mark answered": [
+                "Javob berildi"
+            ],
+            "Ignore": [
+                "E'tibor bermaslik"
+            ],
+            "Question": [
+                "Savol"
+            ],
+            "Asked": [
+                "So'ralgan"
+            ],
+            "Why": [
+                "Nima uchun"
+            ],
+            "Last asked": [
+                "Oxirgi so\u02bbralgan"
+            ],
+            "Not on the site": [
+                "Saytda emas"
+            ],
+            "Needed a person": [
+                "Kerakli shaxs"
+            ],
+            "Answer rated unhelpful": [
+                "Javob foydasiz deb baholandi"
+            ],
+            "Nothing here. Well done.": [
+                "Bu yerda hech narsa yo'q. Barakalla."
+            ],
+            "Period": [
+                "Davr"
+            ],
+            "Last 7 days": [
+                "Oxirgi 7 kun"
+            ],
+            "Last 30 days": [
+                "Oxirgi 30 kun"
+            ],
+            "Last 90 days": [
+                "Oxirgi 90 kun"
+            ],
+            "Last 12 months": [
+                "Oxirgi 12 oy"
+            ],
+            "%s%% answered by the assistant alone": [
+                "%s%% faqat yordamchining o'zi tomonidan javob berildi"
+            ],
+            "Handed to a person": [
+                "Shaxsga topshirilgan"
+            ],
+            "median wait %s": [
+                "o'rtacha kutish vaqti %s"
+            ],
+            "Tickets opened": [
+                "Ochilgan murojaatlar"
+            ],
+            "%d still open": [
+                "%d ta ochiq qoldi"
+            ],
+            "median \u00b7 average %s": [
+                "o\u2018rta qiymat \u00b7 o\u2018rtacha %s"
+            ],
+            "Time to solve": [
+                "Yechim vaqti"
+            ],
+            "median \u00b7 %d solved": [
+                "o\u02bbrtacha \u00b7 %d ta hal qilingan"
+            ],
+            "Customer satisfaction": [
+                "Mijozlar mamnuniyati"
+            ],
+            "%d ratings, average %s of 5": [
+                "%d ta baho, o'rtacha 5 dan %s"
+            ],
+            "SLA first reply met": [
+                "SLA bo'yicha birinchi javob bajarildi"
+            ],
+            "%1$d due, %2$d missed": [
+                "%1$d ta to'lov muddati kelgan, %2$d ta o'tkazib yuborilgan"
+            ],
+            "Assistant answers rated": [
+                "Yordamchi javoblari baholandi"
+            ],
+            "helpful \/ rated": [
+                "foydali \/ baholangan"
+            ],
+            "Chats and tickets per day": [
+                "Kuniga chatlar va tiqetlar"
+            ],
+            "%1$d chats, %2$d tickets": [
+                "%1$d ta chat, %2$d ta tiket"
+            ],
+            "Tickets answered": [
+                "Javob berilgan bayonnomalar"
+            ],
+            "Replies": [
+                "Javoblar"
+            ],
+            "Rating": [
+                "Reyting"
+            ],
+            "Top topics": [
+                "Asosiy mavzular"
+            ],
+            "Where tickets came from": [
+                "Ticketlar qayerdan kelgani"
+            ]
+        }
+    }
+}

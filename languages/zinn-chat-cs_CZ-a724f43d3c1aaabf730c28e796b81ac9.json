@@ -1,0 +1,345 @@
+{
+    "translation-revision-date": "2026-09-30T06:05:17+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/pro__premium_only\/admin-pro.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "cs_CZ",
+                "plural-forms": "nplurals=4; plural=((((n >= 2 && n <= 4)) && ((0 == 0))) ? 1 : ((((0 == 0)) == 0)) ? 2 : (((n == 1)) && ((0 == 0))) ? 0 : 3);"
+            },
+            "Tickets": [
+                "Po\u017eadavky"
+            ],
+            "Open": [
+                "Otev\u0159\u00edt"
+            ],
+            "Chats": [
+                "Chaty"
+            ],
+            "Team": [
+                "T\u00fdm"
+            ],
+            "Something went wrong. Please try again.": [
+                "N\u011bco se pokazilo. Zkuste to pros\u00edm znovu."
+            ],
+            "Title": [
+                "N\u00e1zev"
+            ],
+            "Department": [
+                "Odd\u011blen\u00ed"
+            ],
+            "Saved replies": [
+                "Ulo\u017een\u00e9 odpov\u011bdi"
+            ],
+            "Knowledge gaps": [
+                "Znalostn\u00ed mezery"
+            ],
+            "First reply": [
+                "Prvn\u00ed odpov\u011b\u010f"
+            ],
+            "Article": [
+                "\u010cl\u00e1nek"
+            ],
+            "Reports": [
+                "P\u0159ehledy"
+            ],
+            "Agent": [
+                "Agent"
+            ],
+            "All": [
+                "V\u0161e"
+            ],
+            "Page %1$d of %2$d": [
+                "Strana %1$d z %2$d"
+            ],
+            "Edit": [
+                "Upravit"
+            ],
+            "%d second": [
+                "%d sekunda",
+                "%d sekund",
+                "%d sekund",
+                "%d sekund"
+            ],
+            "%d minute": [
+                "%d minuta",
+                "%d minut",
+                "%d minut",
+                "%d minut"
+            ],
+            "%d hour": [
+                "%d hodina",
+                "%d hodin",
+                "%d hodin",
+                "%d hodin"
+            ],
+            "%d day": [
+                "%d den",
+                "%d dn\u00ed",
+                "%d dn\u00ed",
+                "%d dn\u00ed"
+            ],
+            "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
+                "Tento prohl\u00ed\u017ee\u010d zde nem\u016f\u017ee p\u0159ij\u00edmat nab\u00edzen\u00e1 ozn\u00e1men\u00ed. Na iPhonu si nejd\u0159\u00edve p\u0159idejte schr\u00e1nku na plochu."
+            ],
+            "Notifications are blocked for this site in the browser settings.": [
+                "Ozn\u00e1men\u00ed jsou pro tento web v nastaven\u00ed prohl\u00ed\u017ee\u010de zablokov\u00e1na."
+            ],
+            "Notifications are on for this device.": [
+                "Ozn\u00e1men\u00ed jsou pro toto za\u0159\u00edzen\u00ed zapnuta."
+            ],
+            "Send a test notification": [
+                "Odeslat testovac\u00ed ozn\u00e1men\u00ed"
+            ],
+            "Sent. It should appear in a few seconds.": [
+                "Odesl\u00e1no. M\u011blo by se zobrazit b\u011bhem n\u011bkolika sekund."
+            ],
+            "The push service did not accept it.": [
+                "Slu\u017eba pro zas\u00edl\u00e1n\u00ed ozn\u00e1men\u00ed to nep\u0159ijala."
+            ],
+            "Could not turn notifications on.": [
+                "Nepoda\u0159ilo se zapnout ozn\u00e1men\u00ed."
+            ],
+            "Phone app and notifications": [
+                "Telefonn\u00ed aplikace a ozn\u00e1men\u00ed"
+            ],
+            "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
+                "Nainstalujte tuto schr\u00e1nku p\u0159\u00edchoz\u00edch zpr\u00e1v jako aplikaci: v prohl\u00ed\u017ee\u010di Chrome nebo Edge vyberte v adresn\u00edm \u0159\u00e1dku nebo v nab\u00eddce mo\u017enost Instalovat; na iPhonu nebo iPadu klepn\u011bte na Sd\u00edlet a pot\u00e9 na P\u0159idat na plochu. Otev\u0159e se na cel\u00e9 obrazovce a bude p\u0159ipravena k odpov\u011bdi."
+            ],
+            "Turn on notifications on this device": [
+                "Zapnout ozn\u00e1mn\u011bn\u00ed na tomto za\u0159\u00edzen\u00ed"
+            ],
+            "Nothing found.": [
+                "Nebylo nalezeno nic."
+            ],
+            "Search saved replies": [
+                "Vyhledat ulo\u017een\u00e9 odpov\u011bdi"
+            ],
+            "Link an article": [
+                "Propojit \u010dl\u00e1nek"
+            ],
+            "Search the knowledge base": [
+                "Prohledat znalostn\u00ed b\u00e1zi"
+            ],
+            "Suggest a reply": [
+                "Navrhnout odpov\u011b\u010f"
+            ],
+            "Drafting\u2026": [
+                "Koncept\u2026"
+            ],
+            "Replace what you have typed with the suggestion?": [
+                "Nahradit to, co jste napsali, t\u00edmto n\u00e1vrhem?"
+            ],
+            "%s is writing a reply to this too.": [
+                "%s na toto tak\u00e9 p\u00ed\u0161e odpov\u011b\u010f."
+            ],
+            "%s is also looking at this.": [
+                "%s se na to tak\u00e9 d\u00edv\u00e1."
+            ],
+            "No department": [
+                "\u017d\u00e1dn\u00e9 odd\u011blen\u00ed"
+            ],
+            "Tags, comma-separated": [
+                "\u0160t\u00edtky odd\u011blen\u00e9 \u010d\u00e1rkou"
+            ],
+            "Tags": [
+                "\u0160t\u00edtky"
+            ],
+            "Upset customer": [
+                "Nespokojen\u00fd z\u00e1kazn\u00edk"
+            ],
+            "Unhappy customer": [
+                "Nespokojen\u00fd z\u00e1kazn\u00edk"
+            ],
+            "Summarise again": [
+                "Shrnout znovu"
+            ],
+            "Summarise": [
+                "Shrnout"
+            ],
+            "met": [
+                "spln\u011bno"
+            ],
+            "missed": [
+                "Zme\u0161k\u00e1no"
+            ],
+            "overdue by %s": [
+                "po splatnosti %s"
+            ],
+            "%s left": [
+                "zb\u00fdv\u00e1 %s"
+            ],
+            "Customer rating: %d of 5": [
+                "Hodnocen\u00ed z\u00e1kazn\u00edk\u016f: %d z 5"
+            ],
+            "Write a KB article from this ticket": [
+                "Napi\u0161te \u010dl\u00e1nek znalostn\u00ed b\u00e1ze z tohoto ticketu"
+            ],
+            "Write a help page from this ticket": [
+                "Napsat n\u00e1pov\u011bdu z tohoto po\u017eadavku"
+            ],
+            "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
+                "Pou\u017eijte je z pol\u00ed pro odpov\u011bdi v chatu a tiketech (Ulo\u017een\u00e9 odpov\u011bdi) nebo napi\u0161te \/ a z\u00e1stupce n\u00e1sledovan\u00fd mezerou. {name}, {first_name}, {agent}, {site} a {ticket} se vypln\u00ed za v\u00e1s."
+            ],
+            "Shortcut (optional, e.g. refund)": [
+                "Zkratka (voliteln\u00e1, nap\u0159. refundace)"
+            ],
+            "Text": [
+                "Text"
+            ],
+            "Every department": [
+                "Ka\u017ed\u00e9 odd\u011blen\u00ed"
+            ],
+            "Save": [
+                "Ulo\u017eit"
+            ],
+            "Add saved reply": [
+                "P\u0159idat ulo\u017eenou odpov\u011b\u010f"
+            ],
+            "No saved replies yet.": [
+                "Zat\u00edm \u017e\u00e1dn\u00e9 ulo\u017een\u00e9 odpov\u011bdi."
+            ],
+            "Used %d times": [
+                "Pou\u017eito %dkr\u00e1t"
+            ],
+            "Delete": [
+                "Smazat"
+            ],
+            "Delete this saved reply?": [
+                "Smazat tuto ulo\u017eenou odpov\u011b\u010f?"
+            ],
+            "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
+                "Ot\u00e1zky n\u00e1v\u0161t\u011bvn\u00edk\u016f, na kter\u00e9 v\u00e1\u0161 web nedok\u00e1zal odpov\u011bd\u011bt, se\u0159azen\u00e9 od nej\u010dast\u011bj\u0161\u00edch. Vyberte n\u011bkter\u00e9 z nich a nechte um\u011blou inteligenci vytvo\u0159it koncept \u010dl\u00e1nku, kter\u00fd na n\u011b odpov\u00ed. Zve\u0159ejn\u011bte jej a asistent jej okam\u017eit\u011b za\u010dne pou\u017e\u00edvat."
+            ],
+            "Recording is off (Settings, AI assistant).": [
+                "Nahr\u00e1v\u00e1n\u00ed je vypnuto (Nastaven\u00ed, AI asistent)."
+            ],
+            "Drafted": [
+                "Koncept"
+            ],
+            "Answered": [
+                "Vy\u0159\u00edzeno"
+            ],
+            "Ignored": [
+                "Ignorov\u00e1no"
+            ],
+            "Draft a KB article from the selected": [
+                "Napsat \u010dl\u00e1nek znalostn\u00ed b\u00e1ze z vybran\u00e9ho"
+            ],
+            "Draft a help page from the selected": [
+                "N\u00e1\u010drt str\u00e1nky n\u00e1pov\u011bdy z vybran\u00e9ho"
+            ],
+            "Mark answered": [
+                "Ozna\u010deno jako zodpov\u011bzen\u00e9"
+            ],
+            "Ignore": [
+                "Ignorovat"
+            ],
+            "Question": [
+                "Dotaz"
+            ],
+            "Asked": [
+                "Polo\u017eeno"
+            ],
+            "Why": [
+                "Pro\u010d"
+            ],
+            "Last asked": [
+                "Posledn\u00ed dotaz"
+            ],
+            "Not on the site": [
+                "Nen\u00ed na webu"
+            ],
+            "Needed a person": [
+                "Osoba je vy\u017eadov\u00e1na"
+            ],
+            "Answer rated unhelpful": [
+                "Odpov\u011b\u010f ozna\u010dena jako neu\u017eite\u010dn\u00e1"
+            ],
+            "Nothing here. Well done.": [
+                "Nic tu nen\u00ed. Dobr\u00e1 pr\u00e1ce."
+            ],
+            "Period": [
+                "Fakturura\u010dn\u00ed obdob\u00ed"
+            ],
+            "Last 7 days": [
+                "Posledn\u00edch 7 dn\u00ed"
+            ],
+            "Last 30 days": [
+                "Posledn\u00edch 30 dn\u00ed"
+            ],
+            "Last 90 days": [
+                "Posledn\u00edch 90 dn\u016f"
+            ],
+            "Last 12 months": [
+                "Posledn\u00edch 12 m\u011bs\u00edc\u016f"
+            ],
+            "%s%% answered by the assistant alone": [
+                "%s%% zodpov\u011bzeno samotn\u00fdm asistentem"
+            ],
+            "Handed to a person": [
+                "P\u0159ed\u00e1no osob\u011b"
+            ],
+            "median wait %s": [
+                "pr\u016fm\u011brn\u00e1 doba \u010dek\u00e1n\u00ed %s"
+            ],
+            "Tickets opened": [
+                "Otev\u0159en\u00e9 tikety"
+            ],
+            "%d still open": [
+                "%d st\u00e1le otev\u0159eno"
+            ],
+            "median \u00b7 average %s": [
+                "medi\u00e1n \u00b7 pr\u016fm\u011br %s"
+            ],
+            "Time to solve": [
+                "\u010cas na vy\u0159e\u0161en\u00ed"
+            ],
+            "median \u00b7 %d solved": [
+                "medi\u00e1n \u00b7 vy\u0159e\u0161eno %d"
+            ],
+            "Customer satisfaction": [
+                "Spokojenost z\u00e1kazn\u00edk\u016f"
+            ],
+            "%d ratings, average %s of 5": [
+                "%d hodnocen\u00ed, pr\u016fm\u011br %s z 5"
+            ],
+            "SLA first reply met": [
+                "Spln\u011bna prvn\u00ed odpov\u011b\u010f SLA"
+            ],
+            "%1$d due, %2$d missed": [
+                "%1$d splatno, %2$d zme\u0161k\u00e1no"
+            ],
+            "Assistant answers rated": [
+                "Hodnocen\u00e9 odpov\u011bdi asistenta"
+            ],
+            "helpful \/ rated": [
+                "u\u017eite\u010dn\u00e9 \/ hodnocen\u00e9"
+            ],
+            "Chats and tickets per day": [
+                "Chaty a tikety za den"
+            ],
+            "%1$d chats, %2$d tickets": [
+                "%1$d chat\u016f, %2$d ticket\u016f"
+            ],
+            "Tickets answered": [
+                "Zodpov\u011bzen\u00e9 tikety"
+            ],
+            "Replies": [
+                "Odpov\u011bdi"
+            ],
+            "Rating": [
+                "Hodnocen\u00ed"
+            ],
+            "Top topics": [
+                "Nej\u010dast\u011bj\u0161\u00ed t\u00e9mata"
+            ],
+            "Where tickets came from": [
+                "Odkud poch\u00e1zej\u00ed tikety"
+            ]
+        }
+    }
+}
