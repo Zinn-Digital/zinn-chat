@@ -9,7 +9,6 @@ declare( strict_types = 1 );
 
 namespace ZinnDigital\ZinnChat\Index;
 
-use ZinnDigital\ZinnChat\Schema;
 use ZinnDigital\ZinnChat\Settings;
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -33,6 +32,14 @@ if ( ! defined( 'ABSPATH' ) ) {
  *    however long it takes; the only bounds are per-action time budgets that protect the site's
  *    PHP workers and the provider's rate limits, and each action resumes where the last stopped
  *    (a cursor for discovery, `attempted_at` for work) — CLAUDE.md §2.10.
+ *
+ * 3. ONLY WHEN SOMEBODY USES IT (2.4.0). Nothing above runs unless the chat is ON in local mode, or
+ *    the owner asked for a re-read in the last day (`manual()`). Reading a page renders it through
+ *    its builder, and a site that never turned the chat on must not pay for that: 2.3.0 re-read
+ *    every page after its upgrade on sites with the chat OFF and ran two hosted sites out of
+ *    memory (a 160 MB queue-runner request on a heavy builder). Work already queued by 2.3.0 is
+ *    dropped the first time a request sees the index parked. A work run also stops early when the
+ *    PHP process nears its memory limit, and an item that killed the previous run is set aside.
  */
 final class Queue {
 
@@ -40,6 +47,48 @@ final class Queue {
 
 	/** Seconds one work action may spend before handing over to the next. */
 	private const BUDGET = 20;
+
+	/** A work run hands over once PHP holds this share of `memory_limit`. */
+	private const MEMORY_SHARE = 0.6;
+
+	/** Option: until when an owner-asked re-read may run with the chat off (a timestamp). */
+	private const MANUAL = 'zinn_chat_index_manual';
+
+	/** Option: set while the index is parked and its queued actions are gone. */
+	private const PARKED = 'zinn_chat_index_parked';
+
+	/** Option: the item a work run is reading now (still set next time = that run died on it). */
+	private const INFLIGHT = 'zinn_chat_index_inflight';
+
+	/** Every action this class queues. */
+	private const HOOKS = array( 'zinn_chat_index_sweep', 'zinn_chat_index_discover', 'zinn_chat_index_prune', 'zinn_chat_index_work', 'zinn_chat_index_object' );
+
+	/**
+	 * May the index do background work now? The chat is ON in local mode (connected mode keeps no
+	 * local index), or the owner asked for a re-read in the last day.
+	 *
+	 * @return bool
+	 */
+	public static function allowed(): bool {
+		if ( Settings::connected() ) {
+			return false;
+		}
+		if ( Settings::get( 'enabled', false ) ) {
+			return true;
+		}
+		return (int) get_option( self::MANUAL, 0 ) > time();
+	}
+
+	/**
+	 * The owner asked for a re-read (a button, a changed index setting, the API): let it run for a
+	 * day even with the chat off.
+	 *
+	 * @return void
+	 */
+	public static function manual(): void {
+		update_option( self::MANUAL, time() + DAY_IN_SECONDS, false );
+		delete_option( self::PARKED );
+	}
 
 	/** Hooks. */
 	public static function init(): void {
@@ -79,6 +128,11 @@ final class Queue {
 	 * @return void
 	 */
 	public static function ensure_schedule(): void {
+		if ( ! self::allowed() ) {
+			self::park();
+			return;
+		}
+		delete_option( self::PARKED );
 		// Checked at most hourly (a transient), not on every page view: it is a database query.
 		if ( ! function_exists( 'as_has_scheduled_action' ) || Settings::connected() || get_transient( 'zinn_chat_sweep_scheduled' ) ) {
 			return;
@@ -96,10 +150,34 @@ final class Queue {
 	 */
 	public static function unschedule(): void {
 		if ( function_exists( 'as_unschedule_all_actions' ) ) {
-			foreach ( array( 'zinn_chat_index_sweep', 'zinn_chat_index_discover', 'zinn_chat_index_prune', 'zinn_chat_index_work', 'zinn_chat_index_object' ) as $hook ) {
+			foreach ( self::HOOKS as $hook ) {
 				as_unschedule_all_actions( $hook, null, self::GROUP );
 			}
 		}
+		delete_transient( 'zinn_chat_sweep_scheduled' );
+	}
+
+	/**
+	 * A new version is running: check again whether queued work must be dropped (work an older
+	 * version queued with the chat off is dropped on this request, before a runner can take it).
+	 *
+	 * @return void
+	 */
+	public static function upgraded(): void {
+		delete_option( self::PARKED );
+	}
+
+	/**
+	 * The index may not run: drop whatever is queued, once (an option read on later requests).
+	 *
+	 * @return void
+	 */
+	private static function park(): void {
+		if ( get_option( self::PARKED ) || ! function_exists( 'as_unschedule_all_actions' ) || ! did_action( 'action_scheduler_init' ) ) {
+			return;
+		}
+		self::unschedule();
+		update_option( self::PARKED, 1, true );
 	}
 
 	/**
@@ -110,7 +188,7 @@ final class Queue {
 	 * @return void
 	 */
 	public static function enqueue( string $type, int $id ): void {
-		if ( Settings::connected() ) {
+		if ( ! self::allowed() ) {
 			return;
 		}
 		$args = array( $type, $id );
@@ -132,6 +210,9 @@ final class Queue {
 	 * @return void
 	 */
 	public static function start_sweep(): void {
+		if ( ! self::allowed() ) {
+			return;
+		}
 		if ( function_exists( 'as_enqueue_async_action' ) && did_action( 'action_scheduler_init' ) && ! as_has_scheduled_action( 'zinn_chat_index_discover', null, self::GROUP ) ) {
 			delete_option( 'zinn_chat_index_cursor' );
 			as_enqueue_async_action( 'zinn_chat_index_discover', array( 0 ), self::GROUP );
@@ -146,6 +227,9 @@ final class Queue {
 	 * @return void
 	 */
 	public static function run_object( $type, $id ): void {
+		if ( ! self::allowed() ) {
+			return;
+		}
 		Index::index_object( (string) $type, (int) $id );
 	}
 
@@ -166,6 +250,9 @@ final class Queue {
 	 */
 	public static function discover( $after = 0 ): void {
 		global $wpdb;
+		if ( ! self::allowed() ) {
+			return;
+		}
 		$after = (int) $after;
 		$types = Extractor::post_types();
 		$next  = 0;
@@ -232,6 +319,9 @@ final class Queue {
 	 */
 	public static function prune( int $after = 0 ): void {
 		global $wpdb;
+		if ( ! self::allowed() ) {
+			return;
+		}
 		$after = max( 0, $after );
 		$items = $wpdb->prefix . 'zinn_chat_items';
 		$types = Extractor::post_types();
@@ -257,6 +347,9 @@ final class Queue {
 	 * @return void
 	 */
 	public static function kick_work(): void {
+		if ( ! self::allowed() ) {
+			return;
+		}
 		if ( function_exists( 'as_enqueue_async_action' ) && did_action( 'action_scheduler_init' ) && ! as_has_scheduled_action( 'zinn_chat_index_work', null, self::GROUP ) ) {
 			as_enqueue_async_action( 'zinn_chat_index_work', array(), self::GROUP );
 		}
@@ -269,16 +362,22 @@ final class Queue {
 	 * @return void
 	 */
 	public static function work(): void {
+		if ( ! self::allowed() ) {
+			return;
+		}
+		self::set_aside_crashed();
 		$start = microtime( true );
 		do {
 			$batch = self::next_batch();
 			foreach ( $batch as $row ) {
+				update_option( self::INFLIGHT, (int) $row['id'], false );
 				if ( 'reembed' === $row['job'] ) {
 					Index::reembed( (int) $row['id'] );
 				} else {
 					Index::index_object( (string) $row['object_type'], (int) $row['object_id'] );
 				}
-				if ( microtime( true ) - $start > self::BUDGET ) {
+				delete_option( self::INFLIGHT );
+				if ( microtime( true ) - $start > self::BUDGET || self::memory_high() ) {
 					break 2;
 				}
 			}
@@ -286,6 +385,41 @@ final class Queue {
 		if ( self::remaining() > 0 && function_exists( 'as_enqueue_async_action' ) ) {
 			as_enqueue_async_action( 'zinn_chat_index_work', array(), self::GROUP );
 		}
+	}
+
+	/**
+	 * Does this process hold more than its share of `memory_limit`? A fresh request starts the
+	 * next item with an empty heap, so handing over here keeps one heavy page from following
+	 * nine others into the limit.
+	 *
+	 * @return bool
+	 */
+	public static function memory_high(): bool {
+		$limit = wp_convert_hr_to_bytes( (string) ini_get( 'memory_limit' ) );
+		return $limit > 0 && memory_get_usage( true ) > $limit * self::MEMORY_SHARE;
+	}
+
+	/**
+	 * The last run died while reading an item (still marked in flight): set it aside as an error
+	 * that is not retried by itself, so one page too heavy to read cannot kill every run after it.
+	 * A re-read the owner asks for tries it again.
+	 *
+	 * @return void
+	 */
+	private static function set_aside_crashed(): void {
+		$item = (int) get_option( self::INFLIGHT, 0 );
+		if ( $item <= 0 ) {
+			return;
+		}
+		delete_option( self::INFLIGHT );
+		Index::update_item(
+			$item,
+			array(
+				'status'       => 'error',
+				'error'        => __( 'Reading this page used more memory than the site allows, so it was skipped.', 'zinn-chat' ),
+				'attempted_at' => '9999-12-31 00:00:00',
+			)
+		);
 	}
 
 	/**

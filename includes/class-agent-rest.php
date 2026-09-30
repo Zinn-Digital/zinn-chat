@@ -649,6 +649,7 @@ final class Agent_Rest {
 	 */
 	public static function reindex( \WP_REST_Request $request ): \WP_REST_Response {
 		if ( $request->get_param( 'all' ) ) {
+			Queue::manual();
 			Index::mark_all_stale();
 			Queue::start_sweep();
 			Queue::kick_work();
@@ -681,6 +682,7 @@ final class Agent_Rest {
 	 */
 	public static function reembed( \WP_REST_Request $request ): \WP_REST_Response {
 		if ( $request->get_param( 'all' ) ) {
+			Queue::manual();
 			Index::mark_all_reembed();
 			Queue::kick_work();
 			return new \WP_REST_Response(

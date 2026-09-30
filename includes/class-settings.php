@@ -312,8 +312,14 @@ final class Settings {
 		 */
 		$clean = (array) apply_filters( 'zinn_chat_save_settings', $clean, $input );
 
+		$was_indexing = ! empty( $current['enabled'] ) && 'connected' !== $current['mode'];
 		update_option( self::OPTION, $clean, true );
 		self::$cache = null;
+		// The chat just came ON in local mode: the index starts reading the site now (it does
+		// nothing while the chat is off — Queue::allowed(), 2.4.0).
+		if ( ! $was_indexing && ! empty( $clean['enabled'] ) && 'connected' !== $clean['mode'] ) {
+			\ZinnDigital\ZinnChat\Index\Queue::start_sweep();
+		}
 		return self::all();
 	}
 

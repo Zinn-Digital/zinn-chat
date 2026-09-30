@@ -57,10 +57,14 @@ final class Plugin {
 		load_plugin_textdomain( 'zinn-chat', false, dirname( plugin_basename( ZINN_CHAT_FILE ) ) . '/languages' );
 		Schema::maybe_upgrade();
 		// A new version may read content differently (a new builder, a new exclusion): re-read the
-		// site once. Unchanged text is not embedded again, so this costs nothing but PHP time.
+		// site once. Unchanged text is not embedded again. ⛔ Only where the index may run
+		// (`Queue::allowed()`, checked in start_sweep): reading renders every page through its
+		// builder, and 2.3.0 doing it with the chat OFF ran hosted sites out of memory. Marking is
+		// one UPDATE, so a site that turns the chat on later still re-reads with this version.
 		if ( get_option( 'zinn_chat_version' ) !== ZINN_CHAT_VERSION ) {
 			update_option( 'zinn_chat_version', ZINN_CHAT_VERSION, true );
 			\ZinnDigital\ZinnChat\Index\Index::mark_all_stale();
+			Queue::upgraded();
 			add_action( 'init', array( Queue::class, 'start_sweep' ), 30 );
 		}
 

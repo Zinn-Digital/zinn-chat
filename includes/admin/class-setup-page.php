@@ -161,6 +161,7 @@ final class Setup_Page {
 				}
 				break;
 			case 'index':
+				Queue::manual();
 				Index::mark_all_stale();
 				Queue::start_sweep();
 				Queue::kick_work();

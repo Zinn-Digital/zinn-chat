@@ -308,6 +308,7 @@ final class Settings_Page {
 		// What the assistant reads changed: go through the site again.
 		foreach ( array( 'index_types', 'index_woo', 'index_forums', 'index_fetch', 'index_exclude' ) as $key ) {
 			if ( ( $before[ $key ] ?? null ) !== ( $after[ $key ] ?? null ) ) {
+				Queue::manual();
 				Index::mark_all_stale();
 				Queue::start_sweep();
 				Queue::kick_work();
