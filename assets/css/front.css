@@ -1,4 +1,4 @@
-/* Zinn® Chat ticket forms and threads. Loaded only on pages that show one. Logical properties only (RTL). */
+/* Support forms and threads. Printed only on pages that show one. Logical properties only (RTL). */
 .zc{max-inline-size:760px}
 .zc-form p{margin-block:0 14px}
 .zc-form label{display:block;font-weight:600;margin-block-end:4px}
@@ -15,4 +15,4 @@
 .zc-thread li{padding:12px 16px;border:1px solid #e6e8eb;border-radius:8px;margin-block-end:10px;background:#fff}
 .zc-thread li.zc-agent{border-inline-start:4px solid #1f6feb}
 .zc-meta{font-size:.85em;color:#57606a;margin-block-end:6px}
-.zinn-chat-order-help{margin-block-start:16px}
+.zc-order-help{margin-block-start:16px}

@@ -27,6 +27,9 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 final class Front_Tickets {
 
+	/** The form styles' handle: neutral on purpose (it is printed into the page). */
+	private const STYLE = 'zc-front';
+
 	/**
 	 * Hooks.
 	 *
@@ -51,7 +54,10 @@ final class Front_Tickets {
 	 * @return void
 	 */
 	public static function register_assets(): void {
-		wp_register_style( 'zinn-chat-front', ZINN_CHAT_URL . 'assets/css/front.css', array(), ZINN_CHAT_VERSION );
+		// ⛔ Inline under a neutral handle, never a file from the plugin's directory: a link to
+		// /wp-content/plugins/<this plugin>/ on a page tells every visitor (and every crawler)
+		// what the site runs, and the file is 1.3 KB — smaller than the request it would cost.
+		wp_register_style( self::STYLE, false, array(), ZINN_CHAT_VERSION );
 	}
 
 	/**
@@ -98,10 +104,16 @@ final class Front_Tickets {
 	 * @return void
 	 */
 	private static function assets(): void {
-		if ( ! wp_style_is( 'zinn-chat-front', 'registered' ) ) {
+		static $added = false;
+		if ( ! wp_style_is( self::STYLE, 'registered' ) ) {
 			self::register_assets();
 		}
-		wp_enqueue_style( 'zinn-chat-front' );
+		if ( ! $added ) {
+			$added = true;
+			// phpcs:ignore WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents -- a local file shipped with the plugin.
+			wp_add_inline_style( self::STYLE, (string) file_get_contents( ZINN_CHAT_DIR . 'assets/css/front.css' ) );
+		}
+		wp_enqueue_style( self::STYLE );
 	}
 
 	/**
@@ -245,7 +257,7 @@ final class Front_Tickets {
 		}
 		$user  = wp_get_current_user();
 		$draft = self::draft();
-		$out   = '<form class="zc-form" id="zinn-chat-new" method="post" action="' . esc_url( admin_url( 'admin-post.php' ) ) . '">';
+		$out   = '<form class="zc-form" id="zc-new" method="post" action="' . esc_url( admin_url( 'admin-post.php' ) ) . '">';
 		if ( ! empty( $atts['title'] ) ) {
 			$out .= '<h3>' . esc_html( $atts['title'] ) . '</h3>';
 		}

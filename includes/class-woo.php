@@ -121,8 +121,8 @@ final class Woo {
 		if ( ! is_object( $order ) || ! is_user_logged_in() || (int) $order->get_customer_id() !== get_current_user_id() ) {
 			return;
 		}
-		$url = add_query_arg( 'order', (int) $order->get_id(), wc_get_account_endpoint_url( self::ENDPOINT ) ) . '#zinn-chat-new';
-		echo '<p class="zinn-chat-order-help"><a class="button" href="' . esc_url( $url ) . '">' . esc_html__( 'Get help with this order', 'zinn-chat' ) . '</a></p>';
+		$url = add_query_arg( 'order', (int) $order->get_id(), wc_get_account_endpoint_url( self::ENDPOINT ) ) . '#zc-new';
+		echo '<p class="zc-order-help"><a class="button" href="' . esc_url( $url ) . '">' . esc_html__( 'Get help with this order', 'zinn-chat' ) . '</a></p>';
 	}
 
 	/**

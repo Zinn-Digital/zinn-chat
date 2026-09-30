@@ -46,32 +46,67 @@ final class Rest {
 	 * @return void
 	 */
 	public static function routes(): void {
+		// ⛔ A visitor has no WordPress account, so these cannot ask for a capability. Each route
+		// names the check that stands in for one: `null` is a route anybody may call (starting a
+		// chat, sending the ticket form, asking for a fresh link: guarded by the honeypot, the
+		// block list and per-address rate limits in guard(), and listed with its reason in
+		// wp/tests/wp-integration/access-allowlist.json); the others are refused by WordPress
+		// itself unless the request carries the secret that owns the conversation or the ticket.
 		$public = array(
-			'chat/status'     => 'status',
-			'chat/message'    => 'message',
-			'chat/poll'       => 'poll',
-			'chat/human'      => 'human',
-			'chat/typing'     => 'typing',
-			'chat/ticket'     => 'chat_ticket',
-			'chat/close'      => 'close',
-			'chat/rate'       => 'rate',
-			'chat/transcript' => 'transcript',
-			'tickets'         => 'ticket_create',
-			'tickets/view'    => 'ticket_view',
-			'tickets/reply'   => 'ticket_reply',
-			'tickets/link'    => 'ticket_link',
+			'chat/status'     => array( 'status', null ),
+			'chat/message'    => array( 'message', null ),
+			'chat/ticket'     => array( 'chat_ticket', null ),
+			'tickets'         => array( 'ticket_create', null ),
+			'tickets/link'    => array( 'ticket_link', null ),
+			'chat/poll'       => array( 'poll', 'owns_conversation' ),
+			'chat/human'      => array( 'human', 'owns_conversation' ),
+			'chat/typing'     => array( 'typing', 'owns_conversation' ),
+			'chat/close'      => array( 'close', 'owns_conversation' ),
+			'chat/rate'       => array( 'rate', 'owns_conversation' ),
+			'chat/transcript' => array( 'transcript', 'owns_conversation' ),
+			'tickets/view'    => array( 'ticket_view', 'may_see_ticket' ),
+			'tickets/reply'   => array( 'ticket_reply', 'may_see_ticket' ),
 		);
-		foreach ( $public as $route => $method ) {
+		foreach ( $public as $route => $handler ) {
 			register_rest_route(
 				self::NS,
 				'/' . $route,
 				array(
 					'methods'             => 'POST',
-					'callback'            => array( self::class, $method ),
-					'permission_callback' => '__return_true',
+					'callback'            => array( self::class, $handler[0] ),
+					'permission_callback' => null === $handler[1] ? '__return_true' : array( self::class, $handler[1] ),
 				)
 			);
 		}
+	}
+
+	/**
+	 * Permission: the request carries the token of a conversation (the visitor's own chat).
+	 *
+	 * @param \WP_REST_Request $request Request.
+	 * @return true|\WP_Error
+	 */
+	public static function owns_conversation( \WP_REST_Request $request ) {
+		if ( self::conversation( $request ) ) {
+			return true;
+		}
+		return new \WP_Error( 'unknown', __( 'This chat has ended.', 'zinn-chat' ), array( 'status' => 404 ) );
+	}
+
+	/**
+	 * Permission: the request may see the ticket it names (its private link's token, or its
+	 * signed-in owner). The same answers as before, now given by WordPress before the handler.
+	 *
+	 * @param \WP_REST_Request $request Request.
+	 * @return true|\WP_Error
+	 */
+	public static function may_see_ticket( \WP_REST_Request $request ) {
+		$ticket = self::visible_ticket( $request );
+		if ( $ticket instanceof \WP_REST_Response ) {
+			$data = (array) $ticket->get_data();
+			return new \WP_Error( (string) $data['code'], (string) $data['message'], array( 'status' => $ticket->get_status() ) );
+		}
+		return true;
 	}
 
 	/**
