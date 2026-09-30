@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.7.0
+Stable tag: 2.7.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -141,6 +141,9 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.7.1 =
+* Fix: no PHP notice on the first request after a Pro licence is activated (the Support agent role is created at init).
 
 = 2.7.0 =
 * New: Zinn® Chat Pro, the edition for a team: support agents, a knowledge base, replies by email, saved and AI-suggested replies, business hours and SLAs, a knowledge-gap report, an agent app with push notifications, alerts and webhooks, reports and customer ratings, and your own branding. A free trial starts from the Setup screen.
