@@ -163,6 +163,19 @@
 			b.appendChild(fb);
 		}
 		el.msgs.appendChild(b);
+		emit('zinn-chat:message', { message: m, node: b });
+	}
+
+	// Extension events for add-ons (Pro): fired on the host element, so a listener on `document`
+	// hears them. They change nothing on their own.
+	function emit(name, detail) {
+		try { host.dispatchEvent(new CustomEvent(name, { bubbles: true, detail: detail })); } catch (e) {}
+	}
+
+	// Show an add-on's own view in the panel body (a knowledge base search…); back() returns.
+	function view(node) {
+		el.form.textContent = ''; el.form.hidden = false; el.msgs.hidden = true; el.foot.hidden = true; el.actions.hidden = true; el.consent.hidden = true;
+		el.form.appendChild(node);
 	}
 
 	function apply(r) {
@@ -289,7 +302,8 @@
 
 	function greet() {
 		if (token) { return; }
-		note(S.ai || S.online ? t.greeting : t.offline);
+		// A proactive message the visitor clicked (Pro) opens the chat with its own words.
+		note(host.zcProactive || (S.ai || S.online ? t.greeting : t.offline));
 		if (!S.ai && !S.online && S.tickets) { actions(true); }
 	}
 
@@ -320,6 +334,13 @@
 		greet();
 		if (token) { poll(); }
 		if (host.zcOpen) { open(); }
+		// Add-on scripts (Pro) are named by chat/status, so they too load only once the chat is
+		// opened. Each finds the chat's parts on host.zcApi; the event says they are ready.
+		host.zcApi = { config: c, status: S, i18n: t, root: root, el: el, api: api, note: note, view: view, back: back, button: button, send: function (text) { el.input.value = text; send(); } };
+		var ext = (S.scripts || []).filter(function (u) { return typeof u === 'string' && /^https?:\/\//.test(u); }), left = ext.length;
+		function ready() { emit('zinn-chat:widget', host.zcApi); }
+		if (!left) { ready(); }
+		ext.forEach(function (u) { var s = d.createElement('script'); s.src = u; s.async = true; s.onload = s.onerror = function () { if (!--left) { ready(); } }; d.head.appendChild(s); });
 	});
 	d.addEventListener('visibilitychange', schedule);
 }());

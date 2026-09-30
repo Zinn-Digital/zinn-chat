@@ -90,10 +90,12 @@ final class Tickets {
 		/**
 		 * A ticket was opened. Mailer sends the confirmation and the team alert from here.
 		 *
-		 * @param int    $id    Ticket id.
-		 * @param string $token The guest link token.
+		 * @param int                  $id     Ticket id.
+		 * @param string               $token  The guest link token.
+		 * @param array<string, mixed> $fields What the ticket was opened with, including `extra`
+		 *                                     (fields added by `zinn_chat_ticket_form_fields`).
 		 */
-		do_action( 'zinn_chat_ticket_created', $id, $token );
+		do_action( 'zinn_chat_ticket_created', $id, $token, $fields );
 		return array(
 			'id'    => $id,
 			'token' => $token,

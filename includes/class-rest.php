@@ -556,6 +556,7 @@ final class Rest {
 				'channel'  => 'account' === $request->get_param( 'channel' ) ? 'account' : 'form',
 				'language' => Util::language_tag( (string) $request->get_param( 'language' ) ),
 				'ip'       => $ip,
+				'extra'    => is_array( $request->get_param( 'extra' ) ) ? map_deep( (array) $request->get_param( 'extra' ), 'sanitize_text_field' ) : array(),
 			)
 		);
 		if ( is_wp_error( $made ) ) {

@@ -41,6 +41,16 @@
 		return new Date(iso).toLocaleDateString();
 	}
 	function when(iso) { return iso ? new Date(iso).toLocaleString() : ''; }
+	// Extension events for add-ons (Pro), fired on `document`; they change nothing on their own.
+	// `detail.insert(text)` puts text into that reply box at the cursor.
+	function emit(name, detail) { try { document.dispatchEvent(new CustomEvent(name, { detail: detail })); } catch (e) {} }
+	function inserter(input) {
+		return function (text) {
+			var a = input.selectionStart || 0, b = input.selectionEnd || 0;
+			input.value = input.value.slice(0, a) + text + input.value.slice(b);
+			input.focus(); input.selectionStart = input.selectionEnd = a + text.length;
+		};
+	}
 	function fail(e) { window.alert((e && e.message) || __('Something went wrong. Please try again.', 'zinn-chat')); }
 	var roleName = { visitor: __('Visitor', 'zinn-chat'), ai: __('Assistant', 'zinn-chat'), agent: __('Agent', 'zinn-chat'), system: '', note: __('Internal note', 'zinn-chat') };
 	var statusName = { bot: __('With the assistant', 'zinn-chat'), waiting: __('Waiting for a person', 'zinn-chat'), staff: __('With an agent', 'zinn-chat'), offline: __('Left a message', 'zinn-chat'), closed: __('Closed', 'zinn-chat') };
@@ -119,6 +129,7 @@
 				li.addEventListener('click', function () { openChat(r.id); });
 				li.addEventListener('keydown', function (e) { if (e.key === 'Enter') { openChat(r.id); } });
 				list.appendChild(li);
+				emit('zinn-chat:row', { row: r, node: li });
 			});
 		}
 
@@ -172,7 +183,7 @@
 		function closeTab(id) {
 			state.open = state.open.filter(function (o) { return o !== id; });
 			var t = tabs.querySelector('[data-id="' + id + '"]'); if (t) { t.remove(); }
-			if (state.panes[id]) { state.panes[id].stop(); state.panes[id].el.remove(); delete state.panes[id]; }
+			if (state.panes[id]) { state.panes[id].stop(); state.panes[id].el.remove(); delete state.panes[id]; emit('zinn-chat:pane-close', { id: id }); }
 			if (state.open.length) { activate(state.open[state.open.length - 1]); } else { state.active = null; empty.hidden = false; root.classList.remove('has-chat'); renderList(); }
 		}
 
@@ -195,6 +206,7 @@
 			var send = btn(__('Send', 'zinn-chat'), 'button-primary');
 			form.appendChild(input); form.appendChild(noteBox); form.appendChild(send);
 			el.appendChild(head); el.appendChild(info); el.appendChild(msgs); el.appendChild(typing); el.appendChild(form);
+			emit('zinn-chat:pane-init', { id: id, pane: el, form: form, input: input, insert: inserter(input) });
 
 			function render(d) {
 				p.data = d;
@@ -215,6 +227,7 @@
 				if (!d.ticket_id) { actions.appendChild(btn(__('Make a ticket', 'zinn-chat'), '', function () { var email = d.email || window.prompt(__('The visitor\'s email address', 'zinn-chat')); if (email) { post('agent/chat/' + id + '/ticket', { email: email }).then(apply).catch(fail); } })); }
 				if (d.status !== 'closed') { actions.appendChild(btn(__('End chat', 'zinn-chat'), 'zc-danger', function () { post('agent/chat/' + id + '/close').then(apply).catch(fail); })); }
 				typing.textContent = d.visitor_typing ? __('The visitor is typing…', 'zinn-chat') : '';
+				emit('zinn-chat:pane', { id: id, data: d, info: info, actions: actions, insert: inserter(input), refresh: p.load });
 			}
 
 			function bubble(m) {
@@ -325,6 +338,7 @@
 						row.appendChild(h('td', '', t.priority));
 						row.appendChild(h('td', '', ago(t.updated_at)));
 						tbody.appendChild(row);
+						emit('zinn-chat:ticket-row', { ticket: t, node: row, subject: sub });
 					});
 					pager.textContent = '';
 					var pages = Math.ceil(r.total / 25);
@@ -374,6 +388,7 @@
 			var send = btn(__('Send reply', 'zinn-chat'), 'button-primary');
 			reply.appendChild(input); reply.appendChild(noteBox); reply.appendChild(after); reply.appendChild(send);
 			main.appendChild(reply);
+			emit('zinn-chat:ticket-init', { id: id, form: reply, input: input, insert: inserter(input) });
 
 			function draw(r) {
 				var t = r.ticket;
@@ -411,6 +426,7 @@
 				if (cfg.manage) {
 					side.appendChild(btn(__('Delete ticket', 'zinn-chat'), 'zc-danger', function () { if (window.confirm(__('Delete this ticket and all its messages?', 'zinn-chat'))) { api('agent/tickets/' + t.id, { method: 'DELETE' }).then(listView).catch(fail); } }));
 				}
+				emit('zinn-chat:ticket', { id: t.id, data: r, side: side, thread: thread, insert: inserter(input), redraw: draw });
 			}
 			send.addEventListener('click', function () {
 				if (!input.value.trim()) { return; }

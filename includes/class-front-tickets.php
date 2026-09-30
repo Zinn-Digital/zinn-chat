@@ -270,6 +270,14 @@ final class Front_Tickets {
 			}
 			$out .= '</select></p>';
 		}
+		/**
+		 * Filters extra fields shown above the message on every ticket form (Pro: a department
+		 * choice). Name them `zinn_chat_extra[<key>]`; they reach `zinn_chat_ticket_created` as
+		 * `$fields['extra']`, unsanitised, for whoever added them to validate.
+		 *
+		 * @param string $html Markup (already escaped by whoever adds it).
+		 */
+		$out .= (string) apply_filters( 'zinn_chat_ticket_form_fields', '' );
 		$out .= '<p><label for="zc-body">' . esc_html__( 'How can we help?', 'zinn-chat' ) . '</label><textarea id="zc-body" name="body" rows="6" required maxlength="' . (int) Settings::get( 'max_chars', 2000 ) * 5 . '">' . esc_textarea( $draft['body'] ) . '</textarea></p>';
 		$out .= '<p class="zc-hp" aria-hidden="true"><label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label></p>';
 		if ( ! $user->exists() && Settings::get( 'consent_required', true ) ) {
@@ -552,6 +560,8 @@ final class Front_Tickets {
 				'channel'  => $user->exists() ? 'account' : 'form',
 				'language' => sanitize_text_field( wp_unslash( $_POST['language'] ?? '' ) ),
 				'ip'       => Util::client_ip(),
+				// Extra form fields (see `zinn_chat_ticket_form_fields`); validated by their owner.
+				'extra'    => isset( $_POST['zinn_chat_extra'] ) && is_array( $_POST['zinn_chat_extra'] ) ? map_deep( wp_unslash( $_POST['zinn_chat_extra'] ), 'sanitize_text_field' ) : array(),
 			)
 		);
 		if ( is_wp_error( $made ) ) {
