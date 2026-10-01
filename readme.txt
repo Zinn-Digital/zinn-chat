@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.8.0
+Stable tag: 2.9.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -141,6 +141,9 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.9.0 =
+* AI agents (MCP) and REST: answer chats and tickets, run the assistant and its index, change the chat settings, and in Pro the help desk (saved replies, AI reply drafts and summaries, the knowledge base, bulk ticket changes, statistics) — from Claude, Cursor, VS Code and other MCP-compatible AI apps, with your WordPress permissions. On by default for people who answer chats; switch under Settings → AI agents (MCP).
 
 = 2.8.0 =
 * Translations: version numbers and other figures (6.9, 7.4, 0.95) are now written in the same digits as the English in every language, instead of native digits in some (for example Marathi, Persian and Bengali), so they match what WordPress and PHP report.

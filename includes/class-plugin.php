@@ -45,7 +45,13 @@ final class Plugin {
 			return false;
 		}
 		$fs = zinn_chat_fs();
-		return is_object( $fs ) && method_exists( $fs, 'can_use_premium_code' ) && (bool) $fs->can_use_premium_code();
+		/**
+		 * Filters whether the Pro features run (a bought licence or a trial, from Freemius). The Pro
+		 * code ships only in the premium package, so this cannot add what the free one lacks.
+		 *
+		 * @param bool $pro What Freemius says.
+		 */
+		return (bool) apply_filters( 'zinn_chat_is_pro', is_object( $fs ) && method_exists( $fs, 'can_use_premium_code' ) && (bool) $fs->can_use_premium_code() );
 	}
 
 	/**

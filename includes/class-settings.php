@@ -93,6 +93,8 @@ final class Settings {
 			'rate_tickets'      => 5,
 			'max_chars'         => 2000,
 			'blocked'           => '',
+			// AI agents (MCP): on by default for signed-in users who may answer (owner Q2, 2026-09-30).
+			'mcp'               => true,
 			// Site index.
 			'index_types'       => array(),
 			'index_woo'         => true,
@@ -213,7 +215,7 @@ final class Settings {
 	public static function save( array $input ): array {
 		$current = self::all();
 		$clean   = $current;
-		$bools   = array( 'enabled', 'consent_required', 'branding', 'hide_for_admins', 'ai_enabled', 'human_enabled', 'tickets_enabled', 'woo_tab', 'woo_orders', 'keep_ip', 'index_woo', 'index_forums', 'index_fetch' );
+		$bools   = array( 'enabled', 'consent_required', 'branding', 'hide_for_admins', 'ai_enabled', 'human_enabled', 'tickets_enabled', 'woo_tab', 'woo_orders', 'keep_ip', 'index_woo', 'index_forums', 'index_fetch', 'mcp' );
 		foreach ( $bools as $key ) {
 			if ( array_key_exists( $key, $input ) ) {
 				$clean[ $key ] = ! empty( $input[ $key ] ) && 'false' !== $input[ $key ] && '0' !== $input[ $key ];

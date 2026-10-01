@@ -47,6 +47,11 @@ require_once __DIR__ . '/class-front-tickets.php';
 require_once __DIR__ . '/class-blocks.php';
 require_once __DIR__ . '/class-plugin.php';
 require_once __DIR__ . '/admin/class-admin.php';
+// AI agents (MCP, lane PLUGIN-MCP, docs/901): every staff action as a WordPress ability, through
+// the shared MCP kit (wp/packages/zinn-mcp-kit) and the bundled WordPress MCP adapter.
+require_once __DIR__ . '/mcp-kit/load.php';
+require_once __DIR__ . '/mcp/class-abilities.php';
+\ZinnDigital\ZinnChat\Mcp\Abilities::boot();
 require_once __DIR__ . '/admin/class-settings-page.php';
 require_once __DIR__ . '/admin/class-console-page.php';
 require_once __DIR__ . '/admin/class-tickets-page.php';
