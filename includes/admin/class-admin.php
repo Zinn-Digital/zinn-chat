@@ -89,7 +89,7 @@ final class Admin {
 			unset( $pages[ self::MENU ], $pages['zinn-chat-tickets'], $pages['zinn-chat-assistant'] );
 		}
 		$top = (string) array_key_first( $pages );
-		add_menu_page( __( 'Zinn® Chat', 'zinn-chat' ), __( 'Zinn® Chat', 'zinn-chat' ) . $badge, (string) $pages[ $top ][1], $top, $pages[ $top ][2], 'dashicons-format-chat', 26 );
+		add_menu_page( __( 'Zinn® Chat', 'zinn-chat' ), __( 'Zinn® Chat', 'zinn-chat' ) . $badge, (string) $pages[ $top ][1], $top, $pages[ $top ][2], self::menu_icon(), 26 );
 		foreach ( $pages as $slug => $page ) {
 			add_submenu_page( $top, (string) $page[0], (string) $page[0], (string) $page[1], (string) $slug, $page[2] );
 		}
@@ -212,5 +212,20 @@ final class Admin {
 			echo ' <a href="' . esc_url( (string) $failure['link'] ) . '" target="_blank" rel="noopener">' . esc_html__( 'Fix it', 'zinn-chat' ) . '</a>';
 		}
 		echo '</p></div>';
+	}
+
+	/**
+	 * The admin menu icon: the product's own pictogram as a monochrome SVG data URI (PLUGIN-ICONS,
+	 * 2026-10-01 — the owner asked for the product icons "to be used everywhere", and a dashicon
+	 * is nobody's icon). Fill-only on purpose: WordPress's svg-painter recolours `fill` to the
+	 * admin colour scheme and leaves strokes alone. Source:
+	 * `ui/src/brand/product-icons/menu/zinn-chat.svg`; `node scripts/product-icons.mjs --check`
+	 * fails when this copy drifts from it.
+	 *
+	 * @return string
+	 */
+	private static function menu_icon(): string {
+		$menu_svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="black"><path d="M6 1h11a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-1v3l-2.5-2.5V7.5A2.5 2.5 0 0 0 11 5H6z"/><path fill-rule="evenodd" d="M3 7h8a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H7l-3 3v-3H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2zM3.6 11.5a.9.9 0 1 0 1.8 0 .9.9 0 0 0-1.8 0zm2.5 0a.9.9 0 1 0 1.8 0 .9.9 0 0 0-1.8 0zm2.5 0a.9.9 0 1 0 1.8 0 .9.9 0 0 0-1.8 0z"/></svg>';
+		return 'data:image/svg+xml;base64,' . base64_encode( $menu_svg ); // phpcs:ignore WordPress.PHP.DiscouragedPHPFunctions.obfuscation_base64_encode -- a data URI is the documented form for a menu icon.
 	}
 }

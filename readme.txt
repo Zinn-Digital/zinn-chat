@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.9.2
+Stable tag: 2.9.3
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -141,6 +141,9 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.9.3 =
+* New: Zinn® Chat has its own icon in the WordPress admin menu, on WordPress.org and on the licensing screens, instead of a generic chat icon.
 
 = 2.9.2 =
 * Developers: the `zinn_chat_console_config` filter and the `zinn_chat_rated` action are documented where they run.
