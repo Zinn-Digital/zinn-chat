@@ -2,14 +2,14 @@
 # This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Zinn® Chat 2.9.1\n"
+"Project-Id-Version: Zinn® Chat 2.9.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zinn-chat\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-01T09:20:55+00:00\n"
+"POT-Creation-Date: 2026-10-01T11:31:34+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: zinn-chat\n"
@@ -66,7 +66,7 @@ msgid "Assistant"
 msgstr ""
 
 #: includes/admin/class-admin.php:60
-#: includes/admin/class-admin.php:156
+#: includes/admin/class-admin.php:163
 #: includes/admin/class-setup-page.php:98
 #: assets/js/blocks.js:34
 msgid "Settings"
@@ -76,15 +76,15 @@ msgstr ""
 msgid "Setup"
 msgstr ""
 
-#: includes/admin/class-admin.php:197
+#: includes/admin/class-admin.php:204
 msgid "Zinn® Chat could not create its database tables:"
 msgstr ""
 
-#: includes/admin/class-admin.php:203
+#: includes/admin/class-admin.php:210
 msgid "The AI assistant could not answer a visitor:"
 msgstr ""
 
-#: includes/admin/class-admin.php:205
+#: includes/admin/class-admin.php:212
 #: assets/js/console.js:479
 msgid "Fix it"
 msgstr ""
@@ -1384,7 +1384,7 @@ msgstr ""
 
 #. translators: %d: ticket number.
 #: includes/class-front-tickets.php:131
-#: includes/class-rest.php:605
+#: includes/class-rest.php:611
 #, php-format
 msgid "Thank you. Your request is ticket #%d. We have emailed you a link to follow it."
 msgstr ""
@@ -1394,7 +1394,7 @@ msgid "Your reply has been sent."
 msgstr ""
 
 #: includes/class-front-tickets.php:133
-#: includes/class-rest.php:719
+#: includes/class-rest.php:725
 msgid "If there is a request under that address, we have emailed you a new link."
 msgstr ""
 
@@ -1415,13 +1415,13 @@ msgid "You are sending messages too quickly. Please wait a little and try again.
 msgstr ""
 
 #: includes/class-front-tickets.php:137
-#: includes/class-rest.php:577
+#: includes/class-rest.php:583
 msgid "Please agree to the privacy notice to send your request."
 msgstr ""
 
 #: includes/class-front-tickets.php:138
 #: includes/class-rest.php:258
-#: includes/class-rest.php:574
+#: includes/class-rest.php:580
 msgid "Please complete the check to show you are not a robot."
 msgstr ""
 
@@ -1733,7 +1733,7 @@ msgid "We are putting you through to a person. Please stay on this page."
 msgstr ""
 
 #: includes/class-rest.php:449
-#: includes/class-rest.php:563
+#: includes/class-rest.php:569
 msgid "Tickets are not available right now."
 msgstr ""
 
@@ -1760,20 +1760,20 @@ msgstr ""
 msgid "Thank you. Your request is ticket #%d and we will reply by email."
 msgstr ""
 
-#: includes/class-rest.php:545
+#: includes/class-rest.php:551
 #: includes/pro__premium_only/class-agents.php:364
 msgid "Please enter a valid email address."
 msgstr ""
 
-#: includes/class-rest.php:621
+#: includes/class-rest.php:627
 msgid "This link is not valid."
 msgstr ""
 
-#: includes/class-rest.php:624
+#: includes/class-rest.php:630
 msgid "This link has expired. We can email you a new one."
 msgstr ""
 
-#: includes/class-rest.php:630
+#: includes/class-rest.php:636
 msgid "You cannot see this ticket."
 msgstr ""
 

@@ -125,6 +125,13 @@ final class Admin {
 		if ( in_array( $slug, array( self::MENU, 'zinn-chat-tickets', 'zinn-chat-assistant' ), true ) ) {
 			wp_enqueue_script( 'zinn-chat-console', ZINN_CHAT_URL . 'assets/js/console.js', array( 'wp-api-fetch', 'wp-i18n' ), ZINN_CHAT_VERSION, true );
 			wp_set_script_translations( 'zinn-chat-console', 'zinn-chat', ZINN_CHAT_DIR . 'languages' );
+			/**
+			 * Filters the extra configuration handed to the operator console's script. Zinn® Chat Pro
+			 * adds its features here.
+			 *
+			 * @param array<string, mixed> $config Extra console configuration (empty in the free plugin).
+			 */
+			$extension = (array) apply_filters( 'zinn_chat_console_config', array() );
 			wp_add_inline_script(
 				'zinn-chat-console',
 				'window.zinnChatConsole = ' . wp_json_encode(
@@ -133,7 +140,7 @@ final class Admin {
 						'manage'    => Capabilities::can_manage(),
 						'aiUrl'     => Core::settings_url(),
 						'adminUrl'  => admin_url( 'admin.php' ),
-						'extension' => (array) apply_filters( 'zinn_chat_console_config', array() ),
+						'extension' => $extension,
 					)
 				) . ';',
 				'before'

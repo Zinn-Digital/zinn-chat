@@ -527,6 +527,12 @@ final class Rest {
 		if ( $conversation ) {
 			$rating = (int) $request->get_param( 'rating' ) > 0 ? 1 : -1;
 			Conversations::update( (int) $conversation['id'], array( 'rating' => $rating ) );
+			/**
+			 * Fires after a visitor rates a conversation.
+			 *
+			 * @param int $conversation_id Conversation id.
+			 * @param int $rating          1 for helpful, -1 for not.
+			 */
 			do_action( 'zinn_chat_rated', (int) $conversation['id'], $rating );
 		}
 		return new \WP_REST_Response( array( 'ok' => true ) );
