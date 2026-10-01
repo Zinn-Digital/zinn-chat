@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.7.2
+Stable tag: 2.8.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -141,6 +141,9 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.8.0 =
+* Translations: version numbers and other figures (6.9, 7.4, 0.95) are now written in the same digits as the English in every language, instead of native digits in some (for example Marathi, Persian and Bengali), so they match what WordPress and PHP report.
 
 = 2.7.2 =
 * Security hardening: the visitor routes that read or change a chat or a ticket are now refused by WordPress itself unless the request carries that chat's or ticket's own secret. The ticket form's styles are printed inline under a neutral name instead of loading a file from the plugin's folder.
