@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-01T07:02:21+00:00",
+    "translation-revision-date": "2026-10-02T00:17:14+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/pro__premium_only\/admin-pro.js",
     "domain": "messages",
@@ -23,7 +23,7 @@
                 "Equipo"
             ],
             "Something went wrong. Please try again.": [
-                "Algo ha salido mal. Por favor, int\u00e9ntelo de nuevo."
+                "Algo sali\u00f3 mal. Por favor, int\u00e9ntalo de nuevo."
             ],
             "Title": [
                 "T\u00edtulo"
@@ -79,10 +79,10 @@
                 "%d d\u00edas"
             ],
             "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
-                "Este navegador no puede recibir notificaciones push aqu\u00ed. En un iPhone, a\u00f1ada primero Inbox a su pantalla de inicio."
+                "Este navegador no puede recibir notificaciones push aqu\u00ed. En un iPhone, a\u00f1ade primero la Bandeja de entrada a tu pantalla de inicio."
             ],
             "Notifications are blocked for this site in the browser settings.": [
-                "Las notificaciones est\u00e1n bloqueadas para este sitio en la configuraci\u00f3n del navegador."
+                "Las notificaciones est\u00e1n bloqueadas para este sitio en los ajustes del navegador."
             ],
             "Notifications are on for this device.": [
                 "Las notificaciones est\u00e1n activadas para este dispositivo."
@@ -94,40 +94,40 @@
                 "Enviado. Deber\u00eda aparecer en unos segundos."
             ],
             "The push service did not accept it.": [
-                "El servicio de notificaciones push no lo acept\u00f3."
+                "El servicio push no lo acept\u00f3."
             ],
             "Could not turn notifications on.": [
-                "No se pudieron activar las notificaciones."
+                "No se han podido activar las notificaciones."
             ],
             "Phone app and notifications": [
-                "Aplicaci\u00f3n m\u00f3vil y notificaciones"
+                "App de tel\u00e9fono y notificaciones"
             ],
             "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
-                "Instala este Inbox como una aplicaci\u00f3n: en Chrome o Edge elige Instalar en la barra de direcciones o en el men\u00fa; en un iPhone o iPad toca Compartir y luego A\u00f1adir a la pantalla de inicio. Se abre a pantalla completa, listo para responder."
+                "Instala esta bandeja de entrada como una app: en Chrome o Edge elige Instalar en la barra de direcciones o en el men\u00fa; en un iPhone o iPad pulsa Compartir y, a continuaci\u00f3n, A\u00f1adir a la pantalla de inicio. Se abre a pantalla completa, lista para responder."
             ],
             "Turn on notifications on this device": [
-                "Active las notificaciones en este dispositivo"
+                "Activa las notificaciones en este dispositivo"
             ],
             "Nothing found.": [
-                "No se han encontrado resultados."
+                "No se ha encontrado nada."
             ],
             "Search saved replies": [
                 "Buscar respuestas guardadas"
             ],
             "Link an article": [
-                "Vincular un art\u00edculo"
+                "Enlaza un art\u00edculo"
             ],
             "Search the knowledge base": [
-                "Buscar en la base de conocimientos"
+                "Busca en la base de conocimiento"
             ],
             "Suggest a reply": [
-                "Sugerir una respuesta"
+                "Sugiere una respuesta"
             ],
             "Drafting\u2026": [
-                "Borrador\u2026"
+                "Borrando\u2026"
             ],
             "Replace what you have typed with the suggestion?": [
-                "\u00bfDesea reemplazar lo que ha escrito con la sugerencia?"
+                "\u00bfReemplazar lo que has escrito con la sugerencia?"
             ],
             "%s is writing a reply to this too.": [
                 "%s tambi\u00e9n est\u00e1 escribiendo una respuesta a esto."
@@ -136,7 +136,7 @@
                 "%s tambi\u00e9n est\u00e1 viendo esto."
             ],
             "No department": [
-                "Ning\u00fan departamento"
+                "Sin departamento"
             ],
             "Tags, comma-separated": [
                 "Etiquetas, separadas por comas"
@@ -145,22 +145,22 @@
                 "Etiquetas"
             ],
             "Upset customer": [
-                "Cliente molesto"
+                "Cliente disgustado"
             ],
             "Unhappy customer": [
                 "Cliente insatisfecho"
             ],
             "Summarise again": [
-                "Volver a resumir"
+                "Resumir de nuevo"
             ],
             "Summarise": [
                 "Resumir"
             ],
             "met": [
-                "reuni\u00f3n"
+                "Cumplido"
             ],
             "missed": [
-                "perdida"
+                "Perdido"
             ],
             "overdue by %s": [
                 "vencido por %s"
@@ -172,13 +172,13 @@
                 "Valoraci\u00f3n de los clientes: %d de 5"
             ],
             "Write a KB article from this ticket": [
-                "Escribir un art\u00edculo de la base de conocimiento a partir de este ticket"
+                "Escribe un art\u00edculo de la base de conocimientos a partir de este ticket"
             ],
             "Write a help page from this ticket": [
-                "Redactar una p\u00e1gina de ayuda a partir de este ticket"
+                "Escribe una p\u00e1gina de ayuda a partir de este ticket"
             ],
             "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
-                "\u00daselas desde los cuadros de chat y de respuesta de tickets (Respuestas guardadas), o escriba \/ y el atajo, seguido de un espacio. {name}, {first_name}, {agent}, {site} y {ticket} se completan autom\u00e1ticamente por usted."
+                "\u00dasalas desde los cuadros de respuesta del chat y de los tickets (Respuestas guardadas), o escribe \/ y el atajo, seguido de un espacio. {name}, {first_name}, {agent}, {site} y {ticket} se completan autom\u00e1ticamente para ti."
             ],
             "Shortcut (optional, e.g. refund)": [
                 "Atajo (opcional, p. ej. reembolso)"
@@ -196,40 +196,40 @@
                 "A\u00f1adir respuesta guardada"
             ],
             "No saved replies yet.": [
-                "No hay respuestas guardadas todav\u00eda."
+                "A\u00fan no hay respuestas guardadas."
             ],
             "Used %d times": [
-                "Utilizado %d veces"
+                "Usado %d veces"
             ],
             "Delete": [
-                "Eliminar"
+                "Borrar"
             ],
             "Delete this saved reply?": [
                 "\u00bfEliminar esta respuesta guardada?"
             ],
             "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
-                "Preguntas de los visitantes que su sitio no pudo responder, ordenadas de m\u00e1s a menos frecuentes. Seleccione algunas y deje que la IA redacte un art\u00edculo que las responda; publ\u00edquelo y el asistente lo usar\u00e1 de inmediato."
+                "Preguntas que hicieron los visitantes y que tu sitio no pudo responder, las m\u00e1s frecuentes primero. Selecciona algunas y deja que la IA redacte un art\u00edculo que las responda; publ\u00edcalo y el asistente lo usar\u00e1 de inmediato."
             ],
             "Recording is off (Settings, AI assistant).": [
-                "La grabaci\u00f3n est\u00e1 desactivada (Configuraci\u00f3n, asistente de IA)."
+                "La grabaci\u00f3n est\u00e1 desactivada (Ajustes, Asistente de IA)."
             ],
             "Drafted": [
-                "Borrador"
+                "Borrador guardado"
             ],
             "Answered": [
-                "Respondida"
+                "Respondido"
             ],
             "Ignored": [
                 "Ignorado"
             ],
             "Draft a KB article from the selected": [
-                "Redactar un art\u00edculo de la base de conocimientos a partir de la selecci\u00f3n"
+                "Crear un borrador de art\u00edculo de la base de conocimiento a partir de lo seleccionado"
             ],
             "Draft a help page from the selected": [
-                "Redactar una p\u00e1gina de ayuda a partir de la seleccionada"
+                "Crea un borrador de p\u00e1gina de ayuda a partir de lo seleccionado"
             ],
             "Mark answered": [
-                "Marcado como respondido"
+                "Marcar como respondido"
             ],
             "Ignore": [
                 "Ignorar"
@@ -244,19 +244,19 @@
                 "Por qu\u00e9"
             ],
             "Last asked": [
-                "\u00daltima pregunta"
+                "\u00daltima vez preguntado"
             ],
             "Not on the site": [
                 "No est\u00e1 en el sitio"
             ],
             "Needed a person": [
-                "Se necesita una persona"
+                "Necesitaba una persona"
             ],
             "Answer rated unhelpful": [
-                "Respuesta calificada como poco \u00fatil"
+                "Respuesta valorada como no \u00fatil"
             ],
             "Nothing here. Well done.": [
-                "Aqu\u00ed no hay nada. Bien hecho."
+                "No hay nada aqu\u00ed. \u00a1Bien hecho!"
             ],
             "Period": [
                 "Periodo"
@@ -274,19 +274,19 @@
                 "\u00daltimos 12 meses"
             ],
             "%s%% answered by the assistant alone": [
-                "%s%% respondidas por el asistente \u00fanicamente"
+                "%s%% respondido solo por el asistente"
             ],
             "Handed to a person": [
                 "Entregado a una persona"
             ],
             "median wait %s": [
-                "tiempo de espera medio %s"
+                "mediana de espera %s"
             ],
             "Tickets opened": [
                 "Tickets abiertos"
             ],
             "%d still open": [
-                "Quedan %d abiertos"
+                "%d a\u00fan abierto(s)"
             ],
             "median \u00b7 average %s": [
                 "mediana \u00b7 promedio %s"
@@ -301,13 +301,13 @@
                 "Satisfacci\u00f3n del cliente"
             ],
             "%d ratings, average %s of 5": [
-                "%d valoraciones, media de %s de 5"
+                "%d valoraciones, promedio %s de 5"
             ],
             "SLA first reply met": [
-                "Primeras respuestas del SLA cumplidas"
+                "Primera respuesta de SLA cumplida"
             ],
             "%1$d due, %2$d missed": [
-                "%1$d pendiente, %2$d omitido"
+                "%1$d pendientes, %2$d perdidas"
             ],
             "Assistant answers rated": [
                 "Respuestas del asistente valoradas"
@@ -316,7 +316,7 @@
                 "\u00fatil \/ valorado"
             ],
             "Chats and tickets per day": [
-                "Chats y tickets por d\u00eda"
+                "Chats y tiques por d\u00eda"
             ],
             "%1$d chats, %2$d tickets": [
                 "%1$d chats, %2$d tickets"
@@ -328,13 +328,13 @@
                 "Respuestas"
             ],
             "Rating": [
-                "Calificaci\u00f3n"
+                "Valoraci\u00f3n"
             ],
             "Top topics": [
                 "Temas principales"
             ],
             "Where tickets came from": [
-                "Origen de los tickets"
+                "De d\u00f3nde vinieron los tickets"
             ]
         }
     }

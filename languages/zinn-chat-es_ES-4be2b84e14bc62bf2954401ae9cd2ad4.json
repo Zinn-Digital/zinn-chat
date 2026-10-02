@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-01T07:02:21+00:00",
+    "translation-revision-date": "2026-10-02T00:17:14+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -20,13 +20,13 @@
                 "Asistente"
             ],
             "Fix it": [
-                "Corregir"
+                "Soluci\u00f3nalo"
             ],
             "AI providers": [
                 "Proveedores de IA"
             ],
             "Test the assistant": [
-                "Probar el asistente"
+                "Prueba el asistente"
             ],
             "Status": [
                 "Estado"
@@ -68,10 +68,10 @@
                 "Cancelar"
             ],
             "End chat": [
-                "Finalizar chat"
+                "Terminar chat"
             ],
             "Something went wrong. Please try again.": [
-                "Algo ha salido mal. Por favor, int\u00e9ntelo de nuevo."
+                "Algo sali\u00f3 mal. Por favor, int\u00e9ntalo de nuevo."
             ],
             "Details": [
                 "Detalles"
@@ -83,7 +83,7 @@
                 "Tipo"
             ],
             "Order": [
-                "Pedido"
+                "Orden"
             ],
             "Low": [
                 "Bajo"
@@ -116,7 +116,7 @@
                 "Con el asistente"
             ],
             "Waiting for a person": [
-                "Esperando una persona"
+                "Esperando a una persona"
             ],
             "With an agent": [
                 "Con un agente"
@@ -134,10 +134,10 @@
                 "Alertas de escritorio"
             ],
             "Needs a person": [
-                "Necesita una persona"
+                "Requiere una persona"
             ],
             "Choose a chat on the left. You can open several; each keeps its own draft.": [
-                "Elija un chat a la izquierda. Puede abrir varios; cada uno conserva su propio borrador."
+                "Elige un chat de la izquierda. Puedes abrir varios; cada uno conserva su propio borrador."
             ],
             "A visitor is waiting": [
                 "Un visitante est\u00e1 esperando"
@@ -149,13 +149,13 @@
                 "No hay nada aqu\u00ed en este momento."
             ],
             "Visitor #%d": [
-                "Visitante n.\u00ba %d"
+                "Visitante #%d"
             ],
             "typing\u2026": [
                 "escribiendo\u2026"
             ],
             "waiting %s": [
-                "esperando a %s"
+                "esperando %s"
             ],
             "%d online": [
                 "%d en l\u00ednea"
@@ -167,7 +167,7 @@
                 "Volver a la lista"
             ],
             "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
-                "Escribe una respuesta... (Pulsa Intro para enviar, May\u00fas+Intro para una nueva l\u00ednea)"
+                "Escribe una respuesta\u2026 (Enter para enviar, Shift+Enter para una nueva l\u00ednea)"
             ],
             "Ticket #%d": [
                 "Ticket #%d"
@@ -182,7 +182,7 @@
                 "Crear un ticket"
             ],
             "The visitor's email address": [
-                "Direcci\u00f3n de correo electr\u00f3nico del visitante"
+                "El correo electr\u00f3nico del visitante"
             ],
             "The visitor is typing\u2026": [
                 "El visitante est\u00e1 escribiendo\u2026"
@@ -206,7 +206,7 @@
                 "Todos"
             ],
             "No tickets.": [
-                "No hay tickets."
+                "No hay tiques."
             ],
             "Page %1$d of %2$d": [
                 "P\u00e1gina %1$d de %2$d"
@@ -224,16 +224,16 @@
                 "Todos los tickets"
             ],
             "Write a reply\u2026": [
-                "Escribir una respuesta\u2026"
+                "Escribe una respuesta\u2026"
             ],
             "Internal note (the customer does not see it)": [
                 "Nota interna (el cliente no la ve)"
             ],
             "then: waiting for customer": [
-                "entonces: esperando al cliente"
+                "luego: esperando al cliente"
             ],
             "then: solved": [
-                "resuelto"
+                "entonces: resuelto"
             ],
             "then: keep open": [
                 "entonces: mantener abierto"
@@ -245,7 +245,7 @@
                 "por correo electr\u00f3nico"
             ],
             "internal note": [
-                "nota interna"
+                "Nota interna"
             ],
             "Channel": [
                 "Canal"
@@ -266,22 +266,22 @@
                 "\u00bfEliminar este ticket y todos sus mensajes?"
             ],
             "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
-                "Pregunte lo que sus visitantes preguntan. Vea la respuesta y cada p\u00e1gina que encontr\u00f3, con el nivel de coincidencia de cada una, cu\u00e1ndo se actualiz\u00f3 por \u00faltima vez y advertencias para las p\u00e1ginas que parezcan desactualizadas. Corrija una p\u00e1gina, presione Volver a leer y vuelva a preguntar."
+                "Pregunta lo que preguntan tus visitantes. Ver\u00e1s la respuesta y cada p\u00e1gina que encontr\u00f3, con qu\u00e9 precisi\u00f3n coincidi\u00f3 cada una, cu\u00e1ndo se actualiz\u00f3 por \u00faltima vez y advertencias para las p\u00e1ginas que parezcan desactualizadas. Corrige una p\u00e1gina, pulsa \u00abVolver a leer\u00bb y vuelve a preguntar."
             ],
             "For example: What is your returns policy?": [
-                "Por ejemplo: \u00bfCu\u00e1l es su pol\u00edtica de devoluciones?"
+                "Por ejemplo: \u00bfCu\u00e1l es tu pol\u00edtica de devoluciones?"
             ],
             "Ask": [
-                "Preguntar"
+                "Pregunta"
             ],
             "Not updated for over a year": [
                 "No actualizado desde hace m\u00e1s de un a\u00f1o"
             ],
             "A newer page covers the same subject: %s": [
-                "Una p\u00e1gina m\u00e1s reciente trata el mismo tema: %s"
+                "Una p\u00e1gina m\u00e1s nueva trata el mismo tema: %s"
             ],
             "Re-read \u2713": [
-                "Rele\u00eddo \u2713"
+                "Volver a leer \u2713"
             ],
             "Asking\u2026": [
                 "Preguntando\u2026"
@@ -290,22 +290,22 @@
                 "Resultado: %1$s \u00b7 B\u00fasqueda: %2$s \u00b7 Tokens: %3$d de entrada, %4$d de salida"
             ],
             "by meaning and words": [
-                "por significado y palabras"
+                "Por significado y palabras"
             ],
             "by words only (no embedding key)": [
                 "solo por palabras (sin clave de incrustaci\u00f3n)"
             ],
             "nothing indexed": [
-                "ning\u00fan elemento indexado"
+                "nada indexado"
             ],
             "The AI is not set up yet or could not answer.": [
                 "La IA a\u00fan no est\u00e1 configurada o no ha podido responder."
             ],
             "Sources found (%d)": [
-                "Or\u00edgenes encontrados (%d)"
+                "Fuentes encontradas (%d)"
             ],
             "Nothing on the site matched. Add a page that answers this, or check the Site index settings.": [
-                "No hay coincidencias en el sitio. A\u00f1ade una p\u00e1gina que responda a esto o comprueba la configuraci\u00f3n del \u00edndice del sitio."
+                "No se ha encontrado nada en el sitio. A\u00f1ade una p\u00e1gina que responda a esto o comprueba los ajustes del \u00edndice del sitio."
             ],
             "Score": [
                 "Puntuaci\u00f3n"
@@ -314,7 +314,7 @@
                 "\u00daltima actualizaci\u00f3n"
             ],
             "Passage": [
-                "Contrase\u00f1a"
+                "Pasaje"
             ],
             "Edit": [
                 "Editar"
@@ -323,22 +323,22 @@
                 "Volver a leer"
             ],
             "What the assistant has read": [
-                "Lo que el asistente ha le\u00eddo"
+                "Lo que ha le\u00eddo el asistente"
             ],
             "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
-                "%1$d p\u00e1ginas le\u00eddas \u00b7 %2$d en espera \u00b7 %3$d con errores \u00b7 %4$d pasajes \u00b7 %5$d comprendidas por significado"
+                "%1$d p\u00e1ginas le\u00eddas \u00b7 %2$d en espera \u00b7 %3$d con errores \u00b7 %4$d pasajes \u00b7 %5$d entendidos por significado"
             ],
             "Embedding model: %s": [
-                "Modelo de inserci\u00f3n: %s"
+                "Modelo de incrustaci\u00f3n: %s"
             ],
             "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
-                "Sin modelo de incrustaci\u00f3n: la b\u00fasqueda es solo por palabras. Conecta Google Gemini, OpenAI, Mistral o OpenRouter para buscar por significado."
+                "No hay modelo de incrustaci\u00f3n: la b\u00fasqueda es solo por palabras. Conecta Google Gemini, OpenAI, Mistral u OpenRouter para buscar por significado."
             ],
             "Building meanings is paused:": [
-                "La creaci\u00f3n de significados est\u00e1 pausada:"
+                "La creaci\u00f3n de significados est\u00e1 en pausa:"
             ],
             "Re-read the whole site": [
-                "Volver a leer todo el sitio"
+                "Vuelve a leer todo el sitio"
             ],
             "Rebuild all meanings": [
                 "Reconstruir todos los significados"
@@ -350,7 +350,7 @@
                 "Leer"
             ],
             "Waiting": [
-                "En espera"
+                "Esperando"
             ],
             "Errors": [
                 "Errores"
@@ -359,7 +359,7 @@
                 "Pasajes"
             ],
             "by meaning": [
-                "por significado"
+                "Por significado"
             ],
             "Rebuild meaning": [
                 "Reconstruir significado"

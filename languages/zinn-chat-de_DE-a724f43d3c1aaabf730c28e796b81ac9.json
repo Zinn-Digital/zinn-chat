@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-01T07:02:21+00:00",
+    "translation-revision-date": "2026-10-02T00:17:14+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/pro__premium_only\/admin-pro.js",
     "domain": "messages",
@@ -23,7 +23,7 @@
                 "Team"
             ],
             "Something went wrong. Please try again.": [
-                "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+                "Etwas ist schiefgelaufen. Bitte versuche es noch einmal."
             ],
             "Title": [
                 "Titel"
@@ -75,7 +75,7 @@
                 "%d Tage"
             ],
             "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
-                "Dieser Browser kann hier keine Push-Benachrichtigungen empfangen. F\u00fcgen Sie die Inbox auf einem iPhone zuerst zu Ihrem Home-Bildschirm hinzu."
+                "Dieser Browser kann hier keine Push-Benachrichtigungen empfangen. F\u00fcge den Posteingang auf einem iPhone zuerst zu deinem Startbildschirm hinzu."
             ],
             "Notifications are blocked for this site in the browser settings.": [
                 "Benachrichtigungen sind f\u00fcr diese Website in den Browsereinstellungen blockiert."
@@ -87,10 +87,10 @@
                 "Testbenachrichtigung senden"
             ],
             "Sent. It should appear in a few seconds.": [
-                "Gesendet. Sie sollte in wenigen Sekunden erscheinen."
+                "Gesendet. Es sollte in wenigen Sekunden erscheinen."
             ],
             "The push service did not accept it.": [
-                "Der Push-Dienst hat dies nicht akzeptiert."
+                "Der Push-Dienst hat es nicht akzeptiert."
             ],
             "Could not turn notifications on.": [
                 "Benachrichtigungen konnten nicht aktiviert werden."
@@ -99,46 +99,46 @@
                 "Telefon-App und Benachrichtigungen"
             ],
             "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
-                "Installieren Sie dieses Postfach als App: W\u00e4hlen Sie in Chrome oder Edge in der Adressleiste oder im Men\u00fc \u201eInstallieren\u201c aus; tippen Sie auf einem iPhone oder iPad auf \u201eTeilen\u201c und dann auf \u201eZum Home-Bildschirm\u201c. Sie \u00f6ffnet sich im Vollbildmodus und ist sofort einsatzbereit."
+                "Installiere diesen Posteingang als App: W\u00e4hle in Chrome oder Edge in der Adressleiste oder im Men\u00fc \u201eInstallieren\u201c; tippe auf einem iPhone oder iPad auf \u201eTeilen\u201c und dann auf \u201eZum Home-Bildschirm\u201c. Sie \u00f6ffnet sich im Vollbildmodus, bereit zum Antworten."
             ],
             "Turn on notifications on this device": [
-                "Aktivieren Sie Benachrichtigungen auf diesem Ger\u00e4t"
+                "Benachrichtigungen auf diesem Ger\u00e4t aktivieren"
             ],
             "Nothing found.": [
-                "Keine Ergebnisse gefunden."
+                "Nichts gefunden."
             ],
             "Search saved replies": [
                 "Gespeicherte Antworten durchsuchen"
             ],
             "Link an article": [
-                "Artikel verkn\u00fcpfen"
+                "Artikel verlinken"
             ],
             "Search the knowledge base": [
                 "Wissensdatenbank durchsuchen"
             ],
             "Suggest a reply": [
-                "Antwort vorschlagen"
+                "Schlag eine Antwort vor"
             ],
             "Drafting\u2026": [
-                "Als Entwurf speichern\u2026"
+                "Entwurf wird erstellt\u2026"
             ],
             "Replace what you have typed with the suggestion?": [
-                "M\u00f6chten Sie das Getippte durch den Vorschlag ersetzen?"
+                "M\u00f6chtest du deine Eingabe durch den Vorschlag ersetzen?"
             ],
             "%s is writing a reply to this too.": [
                 "%s schreibt ebenfalls eine Antwort darauf."
             ],
             "%s is also looking at this.": [
-                "%s sieht sich das ebenfalls an."
+                "%s sieht sich das auch gerade an."
             ],
             "No department": [
                 "Keine Abteilung"
             ],
             "Tags, comma-separated": [
-                "Tags, kommagetrennt"
+                "Schlagw\u00f6rter, kommagetrennt"
             ],
             "Tags": [
-                "Tags-Schl\u00fcsselw\u00f6rter"
+                "Schlagw\u00f6rter"
             ],
             "Upset customer": [
                 "Ver\u00e4rgerter Kunde"
@@ -147,37 +147,37 @@
                 "Unzufriedener Kunde"
             ],
             "Summarise again": [
-                "Nochmal zusammenfassen"
+                "Fasse erneut zusammen"
             ],
             "Summarise": [
                 "Zusammenfassen"
             ],
             "met": [
-                "erf\u00fcllt"
+                "Erf\u00fcllt"
             ],
             "missed": [
-                "verpasst"
+                "Verpasst"
             ],
             "overdue by %s": [
-                "\u00fcberf\u00e4llig seit %s"
+                "\u00fcberf\u00e4llig um %s"
             ],
             "%s left": [
-                "%s verbleibend"
+                "Noch %s \u00fcbrig"
             ],
             "Customer rating: %d of 5": [
                 "Kundenbewertung: %d von 5"
             ],
             "Write a KB article from this ticket": [
-                "Einen KB-Artikel aus diesem Ticket erstellen"
+                "Schreibe einen KB-Artikel aus diesem Ticket"
             ],
             "Write a help page from this ticket": [
                 "Schreibe eine Hilfeseite aus diesem Ticket"
             ],
             "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
-                "Verwenden Sie sie in den Chat- und Ticket-Antwortfeldern (Gespeicherte Antworten) oder geben Sie \/ und das K\u00fcrzel gefolgt von einem Leerzeichen ein. {name}, {first_name}, {agent}, {site} und {ticket} werden automatisch f\u00fcr Sie ausgef\u00fcllt."
+                "Verwende sie in den Antwortfeldern f\u00fcr Chat und Tickets (Gespeicherte Antworten) oder tippe \/ und das Tastaturk\u00fcrzel gefolgt von einem Leerzeichen ein. {name}, {first_name}, {agent}, {site} und {ticket} werden f\u00fcr dich ausgef\u00fcllt."
             ],
             "Shortcut (optional, e.g. refund)": [
-                "K\u00fcrzel (optional, z. B. refund)"
+                "Tastenkombination (optional, z. B. R\u00fcckerstattung)"
             ],
             "Text": [
                 "Text"
@@ -195,7 +195,7 @@
                 "Noch keine gespeicherten Antworten."
             ],
             "Used %d times": [
-                "%d-mal verwendet"
+                "%d Mal verwendet"
             ],
             "Delete": [
                 "L\u00f6schen"
@@ -204,13 +204,13 @@
                 "Diese gespeicherte Antwort l\u00f6schen?"
             ],
             "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
-                "Fragen von Besuchern, die Ihre Website nicht beantworten konnte, sortiert nach H\u00e4ufigkeit. W\u00e4hlen Sie einige aus und lassen Sie die KI einen Artikel entwerfen, der sie beantwortet; ver\u00f6ffentlichen Sie ihn, und der Assistent verwendet ihn sofort."
+                "Fragen von Besuchern, die deine Website nicht beantworten konnte, die meistgestellten zuerst. W\u00e4hle einige aus und lass die KI einen Artikel verfassen, der sie beantwortet; ver\u00f6ffentliche ihn und der Assistent verwendet ihn sofort."
             ],
             "Recording is off (Settings, AI assistant).": [
-                "Die Aufnahme ist deaktiviert (Einstellungen, KI-Assistent)."
+                "Aufnahme ist deaktiviert (Einstellungen, KI-Assistent)."
             ],
             "Drafted": [
-                "Entwurf"
+                "Entworfen"
             ],
             "Answered": [
                 "Beantwortet"
@@ -219,13 +219,13 @@
                 "Ignoriert"
             ],
             "Draft a KB article from the selected": [
-                "Entwurf f\u00fcr einen KB-Artikel aus dem ausgew\u00e4hlten erstellen"
+                "Aus der Auswahl einen Entwurf f\u00fcr einen KB-Artikel erstellen"
             ],
             "Draft a help page from the selected": [
-                "Hilfeseite aus der Auswahl erstellen"
+                "Erstelle aus der Auswahl einen Entwurf f\u00fcr eine Hilfeseite"
             ],
             "Mark answered": [
-                "Als beantwortet markiert"
+                "Als beantwortet markieren"
             ],
             "Ignore": [
                 "Ignorieren"
@@ -234,7 +234,7 @@
                 "Frage"
             ],
             "Asked": [
-                "Angefragt"
+                "Gefragt"
             ],
             "Why": [
                 "Warum"
@@ -246,16 +246,16 @@
                 "Nicht auf der Website"
             ],
             "Needed a person": [
-                "Person ben\u00f6tigt"
+                "Brauchte eine Person"
             ],
             "Answer rated unhelpful": [
                 "Antwort als nicht hilfreich bewertet"
             ],
             "Nothing here. Well done.": [
-                "Hier gibt es nichts. Gut gemacht."
+                "Hier ist nichts. Gut gemacht."
             ],
             "Period": [
-                "Abrechnungszeitraum"
+                "Zeitraum"
             ],
             "Last 7 days": [
                 "Letzte 7 Tage"
@@ -267,16 +267,16 @@
                 "Letzte 90 Tage"
             ],
             "Last 12 months": [
-                "Die letzten 12 Monate"
+                "Letzte 12 Monate"
             ],
             "%s%% answered by the assistant alone": [
-                "%s%% vom Assistenten allein beantwortet"
+                "%s%% nur vom Assistenten beantwortet"
             ],
             "Handed to a person": [
-                "Einer Person \u00fcbergeben"
+                "An eine Person \u00fcbergeben"
             ],
             "median wait %s": [
-                "durchschnittliche Wartezeit %s"
+                "Median der Wartezeit %s"
             ],
             "Tickets opened": [
                 "Ge\u00f6ffnete Tickets"
@@ -288,7 +288,7 @@
                 "Median \u00b7 Durchschnitt %s"
             ],
             "Time to solve": [
-                "L\u00f6sezeit"
+                "L\u00f6sungszeit"
             ],
             "median \u00b7 %d solved": [
                 "Median \u00b7 %d gel\u00f6st"
@@ -300,13 +300,13 @@
                 "%d Bewertungen, Durchschnitt %s von 5"
             ],
             "SLA first reply met": [
-                "Erste SLA-Antwort eingehalten"
+                "SLA f\u00fcr erste Antwort erf\u00fcllt"
             ],
             "%1$d due, %2$d missed": [
                 "%1$d f\u00e4llig, %2$d verpasst"
             ],
             "Assistant answers rated": [
-                "Bewertete Antworten von Assistenten"
+                "Bewertete Assistenten-Antworten"
             ],
             "helpful \/ rated": [
                 "hilfreich \/ bewertet"
@@ -327,10 +327,10 @@
                 "Bewertung"
             ],
             "Top topics": [
-                "Beliebteste Themen"
+                "Top-Themen"
             ],
             "Where tickets came from": [
-                "Herkunft der Tickets"
+                "Woher Tickets kamen"
             ]
         }
     }

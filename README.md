@@ -23,7 +23,7 @@ Everything in Zinn® Chat keeps working without it.
 
 | | |
 |---|---|
-| Version | `2.9.3` |
+| Version | `2.9.4` |
 | Requires WordPress | 6.9 or later |
 | Tested up to | WordPress **7.1** |
 | Requires PHP | 7.4 or later |

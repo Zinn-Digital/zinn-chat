@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-01T07:02:21+00:00",
+    "translation-revision-date": "2026-10-02T00:17:14+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/pro__premium_only\/admin-pro.js",
     "domain": "messages",
@@ -178,7 +178,7 @@
                 "Scrie o pagin\u0103 de ajutor din acest tichet"
             ],
             "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
-                "Folosi\u021bi-le din c\u0103su\u021bele de chat \u0219i de r\u0103spuns la tichete (R\u0103spunsuri salvate) sau tasta\u021bi \/ \u0219i comanda rapid\u0103, apoi un spa\u021biu. {name}, {first_name}, {agent}, {site} \u0219i {ticket} sunt completate automat pentru dumneavoastr\u0103."
+                "Folose\u0219te-le din c\u0103su\u021bele de r\u0103spuns pentru chat \u0219i tichet (R\u0103spunsuri salvate) sau tasteaz\u0103 \/ \u0219i scurt\u0103tura, apoi un spa\u021biu. {name}, {first_name}, {agent}, {site} \u0219i {ticket} sunt completate automat pentru tine."
             ],
             "Shortcut (optional, e.g. refund)": [
                 "Scurt\u0103tur\u0103 (op\u021bional, de ex. rambursare)"
@@ -208,7 +208,7 @@
                 "\u0218terge\u021bi acest r\u0103spuns salvat?"
             ],
             "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
-                "\u00centreb\u0103ri adresate de vizitatori la care site-ul dvs. nu a putut r\u0103spunde, cele mai frecvente fiind primele. Selecta\u021bi c\u00e2teva \u0219i l\u0103sa\u021bi inteligen\u021ba artificial\u0103 s\u0103 schi\u021beze un articol care s\u0103 le r\u0103spund\u0103; publica\u021bi-l, iar asistentul \u00eel va folosi imediat."
+                "\u00centreb\u0103ri pe care le-au adresat vizitatorii \u0219i la care site-ul t\u0103u nu a putut r\u0103spunde, ordonate dup\u0103 cele mai frecvente. Selecteaz\u0103 c\u00e2teva \u0219i las\u0103 IA s\u0103 redacteze un articol care s\u0103 r\u0103spund\u0103 la ele; public\u0103-l, iar asistentul \u00eel va folosi imediat."
             ],
             "Recording is off (Settings, AI assistant).": [
                 "\u00cenregistrarea este oprit\u0103 (Set\u0103ri, asistent AI)."

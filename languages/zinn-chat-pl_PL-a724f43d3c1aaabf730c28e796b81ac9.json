@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-01T07:02:21+00:00",
+    "translation-revision-date": "2026-10-02T00:17:14+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/pro__premium_only\/admin-pro.js",
     "domain": "messages",
@@ -17,7 +17,7 @@
                 "Otw\u00f3rz"
             ],
             "Chats": [
-                "Caty"
+                "Czat"
             ],
             "Team": [
                 "Zesp\u00f3\u0142"
@@ -35,7 +35,7 @@
                 "Zapisane odpowiedzi"
             ],
             "Knowledge gaps": [
-                "Brakuj\u0105ce informacje"
+                "Luki w wiedzy"
             ],
             "First reply": [
                 "Pierwsza odpowied\u017a"
@@ -65,13 +65,13 @@
             ],
             "%d minute": [
                 "%d minuta",
-                "%d minut",
-                "%d minut"
+                "%d min",
+                "%d min"
             ],
             "%d hour": [
                 "%d godzina",
-                "%d godzin",
-                "%d godzin"
+                "%d godz.",
+                "%d godz."
             ],
             "%d day": [
                 "%d dzie\u0144",
@@ -79,10 +79,10 @@
                 "%d dni"
             ],
             "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
-                "Ta przegl\u0105darka nie mo\u017ce tu otrzymywa\u0107 powiadomie\u0144 wypychanych. Na iPhonie dodaj najpierw Inbox do ekranu pocz\u0105tkowego."
+                "Ta przegl\u0105darka nie mo\u017ce tutaj odbiera\u0107 powiadomie\u0144 push. Na iPhonie najpierw dodaj Skrzynk\u0119 odbiorcz\u0105 do ekranu pocz\u0105tkowego."
             ],
             "Notifications are blocked for this site in the browser settings.": [
-                "Powiadomienia dla tej witryny s\u0105 zablokowane w ustawieniach przegl\u0105darki."
+                "Powiadomienia s\u0105 zablokowane dla tej witryny w ustawieniach przegl\u0105darki."
             ],
             "Notifications are on for this device.": [
                 "Powiadomienia s\u0105 w\u0142\u0105czone dla tego urz\u0105dzenia."
@@ -91,10 +91,10 @@
                 "Wy\u015blij powiadomienie testowe"
             ],
             "Sent. It should appear in a few seconds.": [
-                "Wys\u0142ano. Powinno pojawi\u0107 si\u0119 za kilka sekund."
+                "Wys\u0142ano. Powinno si\u0119 pojawi\u0107 za kilka sekund."
             ],
             "The push service did not accept it.": [
-                "Us\u0142uga powiadomie\u0144 push nie przyj\u0119\u0142a tego."
+                "Us\u0142uga push nie zaakceptowa\u0142a tego."
             ],
             "Could not turn notifications on.": [
                 "Nie uda\u0142o si\u0119 w\u0142\u0105czy\u0107 powiadomie\u0144."
@@ -103,16 +103,16 @@
                 "Aplikacja na telefon i powiadomienia"
             ],
             "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
-                "Zainstaluj t\u0119 Skrzynk\u0119 odbiorcz\u0105 jako aplikacj\u0119: w przegl\u0105darce Chrome lub Edge wybierz opcj\u0119 Zainstaluj na pasku adresu lub w menu; na telefonie iPhone lub tablecie iPad stuknij opcj\u0119 Udost\u0119pnij, a nast\u0119pnie Do ekranu pocz\u0105tkowego. Otwiera si\u0119 ona na pe\u0142nym ekranie i jest gotowa do odpowiedzi."
+                "Zainstaluj t\u0119 skrzynk\u0119 odbiorcz\u0105 jako aplikacj\u0119: w przegl\u0105darce Chrome lub Edge wybierz opcj\u0119 Zainstaluj na pasku adresu lub w menu; na iPhonie lub iPadzie dotknij Udost\u0119pnij, a nast\u0119pnie Do ekranu pocz\u0105tkowego. Otwiera si\u0119 na pe\u0142nym ekranie, gotowa do odpowiedzi."
             ],
             "Turn on notifications on this device": [
                 "W\u0142\u0105cz powiadomienia na tym urz\u0105dzeniu"
             ],
             "Nothing found.": [
-                "Nie znaleziono nic."
+                "Nic nie znaleziono."
             ],
             "Search saved replies": [
-                "Wyszukaj zapisane odpowiedzi"
+                "Szukaj zapisanych odpowiedzi"
             ],
             "Link an article": [
                 "Po\u0142\u0105cz artyku\u0142"
@@ -124,25 +124,25 @@
                 "Zaproponuj odpowied\u017a"
             ],
             "Drafting\u2026": [
-                "Wersja robocza..."
+                "Tworzenie szkicu\u2026"
             ],
             "Replace what you have typed with the suggestion?": [
-                "Czy zast\u0105pi\u0107 wpisany tekst podpowiedzi\u0105?"
+                "Zast\u0105pi\u0107 wpisany tekst sugesti\u0105?"
             ],
             "%s is writing a reply to this too.": [
-                "%s te\u017c pisze odpowied\u017a."
+                "%s r\u00f3wnie\u017c pisze na to odpowied\u017a."
             ],
             "%s is also looking at this.": [
-                "%s r\u00f3wnie\u017c to przegl\u0105da."
+                "%s te\u017c to przegl\u0105da."
             ],
             "No department": [
                 "Brak dzia\u0142u"
             ],
             "Tags, comma-separated": [
-                "Etykiety, rozdzielone przecinkami"
+                "Tagi, oddzielone przecinkami"
             ],
             "Tags": [
-                "Etykiety"
+                "Tagi"
             ],
             "Upset customer": [
                 "Niezadowolony klient"
@@ -157,31 +157,31 @@
                 "Podsumuj"
             ],
             "met": [
-                "spe\u0142nione"
+                "Spe\u0142niono"
             ],
             "missed": [
-                "pomini\u0119te"
+                "Nieodebrane"
             ],
             "overdue by %s": [
-                "zaleg\u0142e od %s"
+                "op\u00f3\u017anione o %s"
             ],
             "%s left": [
-                "pozosta\u0142o %s"
+                "Pozosta\u0142o: %s"
             ],
             "Customer rating: %d of 5": [
                 "Ocena klienta: %d z 5"
             ],
             "Write a KB article from this ticket": [
-                "Napisz artyku\u0142 bazy wiedzy na podstawie tego zg\u0142oszenia"
+                "Napisz artyku\u0142 do bazy wiedzy na podstawie tego zg\u0142oszenia"
             ],
             "Write a help page from this ticket": [
                 "Napisz stron\u0119 pomocy na podstawie tego zg\u0142oszenia"
             ],
             "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
-                "U\u017cywaj ich z okien czatu i odpowiedzi na zg\u0142oszenia (Zapisane odpowiedzi) lub wpisz \/ i skr\u00f3t, a nast\u0119pnie spacj\u0119. {name}, {first_name}, {agent}, {site} i {ticket} zostan\u0105 wype\u0142nione automatycznie."
+                "U\u017cyj ich z p\u00f3l odpowiedzi na czacie i w zg\u0142oszeniach (Zapisane odpowiedzi) lub wpisz \/ oraz skr\u00f3t, a nast\u0119pnie spacj\u0119. {name}, {first_name}, {agent}, {site} i {ticket} zostan\u0105 uzupe\u0142nione za Ciebie."
             ],
             "Shortcut (optional, e.g. refund)": [
-                "Skr\u00f3t (opcjonalnie, np. zwrot koszt\u00f3w)"
+                "Skr\u00f3t (opcjonalnie, np. zwrot \u015brodk\u00f3w)"
             ],
             "Text": [
                 "Tekst"
@@ -208,28 +208,28 @@
                 "Usun\u0105\u0107 t\u0119 zapisan\u0105 odpowied\u017a?"
             ],
             "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
-                "Pytania odwiedzaj\u0105cych, na kt\u00f3re Twoja witryna nie potrafi\u0142a odpowiedzie\u0107, od najcz\u0119\u015bciej zadawanych. Wybierz niekt\u00f3re z nich i pozw\u00f3l sztucznej inteligencji przygotowa\u0107 artyku\u0142 z odpowiedziami; opublikuj go, a asystent natychmiast z niego skorzysta."
+                "Pytania zadane przez u\u017cytkownik\u00f3w, na kt\u00f3re Twoja witryna nie mog\u0142a odpowiedzie\u0107, najcz\u0119stsze na pocz\u0105tku. Zaznacz wybrane i pozw\u00f3l sztucznej inteligencji przygotowa\u0107 szkic artyku\u0142u, kt\u00f3ry na nie odpowiada; opublikuj go, a asystent od razu z niego skorzysta."
             ],
             "Recording is off (Settings, AI assistant).": [
-                "Nagrywanie jest wy\u0142\u0105czone (Ustawienia, asystent AI)."
+                "Nagrywanie jest wy\u0142\u0105czone (Ustawienia, Asystent AI)."
             ],
             "Drafted": [
-                "Wersja robocza"
+                "Zapisano jako szkic"
             ],
             "Answered": [
-                "Odpowiedziano"
+                "Otrzymano odpowied\u017a"
             ],
             "Ignored": [
                 "Zignorowane"
             ],
             "Draft a KB article from the selected": [
-                "Napisz artyku\u0142 bazy wiedzy na podstawie wybranego elementu"
+                "Utw\u00f3rz szkic artyku\u0142u bazy wiedzy z zaznaczenia"
             ],
             "Draft a help page from the selected": [
-                "Napisz stron\u0119 pomocy na podstawie zaznaczonego tekstu"
+                "Utw\u00f3rz szkic strony pomocy z zaznaczonych"
             ],
             "Mark answered": [
-                "Oznaczono jako odebrane"
+                "Oznacz jako z odpowiedzi\u0105"
             ],
             "Ignore": [
                 "Ignoruj"
@@ -238,28 +238,28 @@
                 "Pytanie"
             ],
             "Asked": [
-                "Zapytano"
+                "Zadano"
             ],
             "Why": [
                 "Dlaczego"
             ],
             "Last asked": [
-                "Ostatnio zadane"
+                "Ostatnio zapytano"
             ],
             "Not on the site": [
-                "Poza witryn\u0105"
+                "Brak na stronie"
             ],
             "Needed a person": [
-                "Potrzebna osoba"
+                "Wymaga\u0142o osoby"
             ],
             "Answer rated unhelpful": [
                 "Odpowied\u017a oceniona jako nieprzydatna"
             ],
             "Nothing here. Well done.": [
-                "Brak element\u00f3w. Dobra robota."
+                "Nic tu nie ma. Dobra robota."
             ],
             "Period": [
-                "Okres rozliczeniowy"
+                "Okres"
             ],
             "Last 7 days": [
                 "Ostatnie 7 dni"
@@ -274,19 +274,19 @@
                 "Ostatnie 12 miesi\u0119cy"
             ],
             "%s%% answered by the assistant alone": [
-                "%s%% odpowiedzi udzielonych wy\u0142\u0105cznie przez asystenta"
+                "%s%% z odpowiedzi\u0105 wy\u0142\u0105cznie od asystenta"
             ],
             "Handed to a person": [
                 "Przekazano osobie"
             ],
             "median wait %s": [
-                "\u015bredni czas oczekiwania %s"
+                "mediana oczekiwania %s"
             ],
             "Tickets opened": [
                 "Otwarte zg\u0142oszenia"
             ],
             "%d still open": [
-                "Pozosta\u0142o otwartych: %d"
+                "%d nadal otwarte"
             ],
             "median \u00b7 average %s": [
                 "mediana \u00b7 \u015brednia %s"
@@ -295,19 +295,19 @@
                 "Czas rozwi\u0105zania"
             ],
             "median \u00b7 %d solved": [
-                "mediana \u00b7 rozwi\u0105zano: %d"
+                "mediana \u00b7 %d rozwi\u0105zanych"
             ],
             "Customer satisfaction": [
-                "Satysfakcja klienta"
+                "Zadowolenie klient\u00f3w"
             ],
             "%d ratings, average %s of 5": [
-                "%d ocen, \u015brednia %s na 5"
+                "%d ocen, \u015brednia %s z 5"
             ],
             "SLA first reply met": [
-                "Dotrzymano SLA pierwszej odpowiedzi"
+                "Warunek pierwszego kontaktu SLA spe\u0142niony"
             ],
             "%1$d due, %2$d missed": [
-                "%1$d op\u0142acona, %2$d zaleg\u0142ych"
+                "%1$d zaleg\u0142e, %2$d pomini\u0119te"
             ],
             "Assistant answers rated": [
                 "Ocenione odpowiedzi asystenta"
@@ -334,7 +334,7 @@
                 "Najpopularniejsze tematy"
             ],
             "Where tickets came from": [
-                "\u0179r\u00f3d\u0142o zg\u0142osze\u0144"
+                "Sk\u0105d pochodz\u0105 zg\u0142oszenia"
             ]
         }
     }

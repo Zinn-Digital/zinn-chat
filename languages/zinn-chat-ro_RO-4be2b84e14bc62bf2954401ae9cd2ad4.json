@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-01T07:02:21+00:00",
+    "translation-revision-date": "2026-10-02T00:17:14+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -266,10 +266,10 @@
                 "\u0218terge\u021bi acest tichet \u0219i toate mesajele sale?"
             ],
             "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
-                "\u00centreba\u021bi ceea ce \u00eentreab\u0103 vizitatorii dvs. Vede\u021bi r\u0103spunsul \u0219i fiecare pagin\u0103 pe care a g\u0103sit-o, cu gradul de potrivire al fiec\u0103reia, data ultimei actualiz\u0103ri \u0219i avertismente pentru paginile care par dep\u0103\u0219ite. Corecta\u021bi o pagin\u0103, ap\u0103sa\u021bi Re-read \u0219i \u00eentreba\u021bi din nou."
+                "\u00centreab\u0103 ce \u00eentreab\u0103 vizitatorii t\u0103i. Vezi r\u0103spunsul \u0219i fiecare pagin\u0103 g\u0103sit\u0103, \u00eempreun\u0103 cu gradul de potrivire, data ultimei actualiz\u0103ri \u0219i avertismente pentru paginile care par neactualizate. Corecteaz\u0103 o pagin\u0103, apas\u0103 pe Recite\u0219te \u0219i \u00eentreab\u0103 din nou."
             ],
             "For example: What is your returns policy?": [
-                "De exemplu: Care este politica dvs. de retur?"
+                "De exemplu: Care este politica ta de returnare?"
             ],
             "Ask": [
                 "Solicit\u0103"

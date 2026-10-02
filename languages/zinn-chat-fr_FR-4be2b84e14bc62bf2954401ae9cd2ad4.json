@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-01T07:02:21+00:00",
+    "translation-revision-date": "2026-10-02T00:17:15+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -68,10 +68,10 @@
                 "Annuler"
             ],
             "End chat": [
-                "Terminer la conversation"
+                "Mettre fin \u00e0 la discussion"
             ],
             "Something went wrong. Please try again.": [
-                "Une erreur s'est produite. Veuillez r\u00e9essayer."
+                "Un probl\u00e8me est survenu. Veuillez r\u00e9essayer."
             ],
             "Details": [
                 "D\u00e9tails"
@@ -83,7 +83,7 @@
                 "Type"
             ],
             "Order": [
-                "Commander"
+                "Ordre"
             ],
             "Low": [
                 "Faible"
@@ -119,16 +119,16 @@
                 "En attente d'une personne"
             ],
             "With an agent": [
-                "Avec un agent"
+                "Avec un conseiller"
             ],
             "Left a message": [
-                "Message laiss\u00e9"
+                "A laiss\u00e9 un message"
             ],
             "Away": [
                 "Absent"
             ],
             "Focus mode": [
-                "Mode focus"
+                "Mode concentration"
             ],
             "Desktop alerts": [
                 "Alertes de bureau"
@@ -146,43 +146,43 @@
                 "Discussion n\u00b0%d"
             ],
             "Nothing here right now.": [
-                "Rien pour le moment."
+                "Rien ici pour le moment."
             ],
             "Visitor #%d": [
-                "Visiteur n\u00b0%d"
+                "Visiteur n\u00b0 %d"
             ],
             "typing\u2026": [
-                "en train d'\u00e9crire..."
+                "\u00e9crit\u2026"
             ],
             "waiting %s": [
-                "en attente %s"
+                "en attente de %s"
             ],
             "%d online": [
                 "%d en ligne"
             ],
             "Close tab": [
-                "Fermer l'onglet"
+                "Fermer l\u2019onglet"
             ],
             "Back to the list": [
                 "Retour \u00e0 la liste"
             ],
             "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
-                "Tapez une r\u00e9ponse\u2026 (Entr\u00e9e pour envoyer, Maj+Entr\u00e9e pour une nouvelle ligne)"
+                "Saisissez une r\u00e9ponse\u2026 (Entr\u00e9e pour envoyer, Maj+Entr\u00e9e pour une nouvelle ligne)"
             ],
             "Ticket #%d": [
-                "Ticket n\u00b0%d"
+                "Ticket #%d"
             ],
             "Take this chat": [
-                "Reprendre cette discussion"
+                "Prendre cette discussion"
             ],
             "Back to the assistant": [
-                "Retour \u00e0 l'assistant"
+                "Retour \u00e0 l\u2019assistant"
             ],
             "Make a ticket": [
                 "Cr\u00e9er un ticket"
             ],
             "The visitor's email address": [
-                "Adresse e-mail du visiteur"
+                "L'adresse e-mail du visiteur"
             ],
             "The visitor is typing\u2026": [
                 "Le visiteur est en train d'\u00e9crire\u2026"
@@ -191,7 +191,7 @@
                 "Nouveau ticket"
             ],
             "Search subject, email or number": [
-                "Rechercher par objet, e-mail ou num\u00e9ro"
+                "Rechercher un objet, un e-mail ou un num\u00e9ro"
             ],
             "Customer": [
                 "Client"
@@ -200,7 +200,7 @@
                 "Priorit\u00e9"
             ],
             "Needs attention": [
-                "\u00c0 traiter"
+                "N\u00e9cessite une attention"
             ],
             "All": [
                 "Tous"
@@ -215,7 +215,7 @@
                 "Nom du client"
             ],
             "Customer email": [
-                "E-mail client"
+                "E-mail du client"
             ],
             "Create ticket": [
                 "Cr\u00e9er un ticket"
@@ -224,19 +224,19 @@
                 "Tous les tickets"
             ],
             "Write a reply\u2026": [
-                "\u00c9crire une r\u00e9ponse..."
+                "\u00c9crire une r\u00e9ponse\u2026"
             ],
             "Internal note (the customer does not see it)": [
-                "Note interne (le client ne le voit pas)"
+                "Note interne (le client ne la voit pas)"
             ],
             "then: waiting for customer": [
-                "alors : en attente du client"
+                "ensuite : en attente du client"
             ],
             "then: solved": [
-                "r\u00e9solu : alors"
+                "alors : r\u00e9solu"
             ],
             "then: keep open": [
-                "alors : garder ouvert"
+                "ensuite : laisser ouvert"
             ],
             "#%1$d %2$s": [
                 "#%1$d %2$s"
@@ -245,58 +245,58 @@
                 "par e-mail"
             ],
             "internal note": [
-                "note interne"
+                "Note interne"
             ],
             "Channel": [
                 "Canal"
             ],
             "Nobody": [
-                "Aucun"
+                "Personne"
             ],
             "Assigned to": [
-                "Assign\u00e9 \u00e0"
+                "Attribu\u00e9 \u00e0"
             ],
             "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
-                "Commande n\u00b0%1$s \u00b7 %2$s \u00b7 %3$s"
+                "Commande #%1$s \u00b7 %2$s \u00b7 %3$s"
             ],
             "Delete ticket": [
                 "Supprimer le ticket"
             ],
             "Delete this ticket and all its messages?": [
-                "Supprimer ce ticket et tous ses messages ?"
+                "Supprimer ce ticket et tous ses messages\u00a0?"
             ],
             "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
-                "Demandez ce que vos visiteurs demandent. Vous voyez la r\u00e9ponse et chaque page trouv\u00e9e, avec le degr\u00e9 de correspondance de chacune, la date de sa derni\u00e8re mise \u00e0 jour et des avertissements pour les pages qui semblent obsol\u00e8tes. Corrigez une page, appuyez sur Relire et posez la question \u00e0 nouveau."
+                "Demandez ce que vos visiteurs demandent. Vous voyez la r\u00e9ponse et chaque page trouv\u00e9e, avec le niveau de correspondance de chacune, la date de leur derni\u00e8re mise \u00e0 jour, ainsi que des avertissements pour les pages semblant obsol\u00e8tes. Corrigez une page, cliquez sur \u00ab Relire \u00bb, puis posez de nouveau la question."
             ],
             "For example: What is your returns policy?": [
-                "Par exemple : Quelle est votre politique de retour ?"
+                "Par exemple : quelle est votre politique de retour ?"
             ],
             "Ask": [
-                "Poser une question"
+                "Demander"
             ],
             "Not updated for over a year": [
-                "Pas mis \u00e0 jour depuis plus d'un an"
+                "Non mis \u00e0 jour depuis plus d\u2019un an"
             ],
             "A newer page covers the same subject: %s": [
-                "Une page plus r\u00e9cente traite du m\u00eame sujet : %s"
+                "Une page plus r\u00e9cente traite du m\u00eame sujet\u00a0: %s"
             ],
             "Re-read \u2713": [
                 "Relire \u2713"
             ],
             "Asking\u2026": [
-                "En cours de demande\u2026"
+                "Demande en cours\u2026"
             ],
             "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
                 "R\u00e9sultat : %1$s \u00b7 Recherche : %2$s \u00b7 Jetons : %3$d en entr\u00e9e, %4$d en sortie"
             ],
             "by meaning and words": [
-                "selon le sens et les mots"
+                "Par signification et par mots"
             ],
             "by words only (no embedding key)": [
-                "par mots seulement (sans cl\u00e9 d'int\u00e9gration)"
+                "par mots uniquement (aucune cl\u00e9 d'int\u00e9gration)"
             ],
             "nothing indexed": [
-                "aucun index\u00e9"
+                "rien d'index\u00e9"
             ],
             "The AI is not set up yet or could not answer.": [
                 "L'IA n'est pas encore configur\u00e9e ou n'a pas pu r\u00e9pondre."
@@ -305,7 +305,7 @@
                 "Sources trouv\u00e9es (%d)"
             ],
             "Nothing on the site matched. Add a page that answers this, or check the Site index settings.": [
-                "Rien sur le site ne correspond. Ajoutez une page qui r\u00e9pond \u00e0 cette question ou v\u00e9rifiez les param\u00e8tres de l'index du site."
+                "Aucun r\u00e9sultat trouv\u00e9 sur le site. Ajoutez une page qui r\u00e9pond \u00e0 cela, ou v\u00e9rifiez les r\u00e9glages de l\u2019index du site."
             ],
             "Score": [
                 "Score"
@@ -326,25 +326,25 @@
                 "Ce que l'assistant a lu"
             ],
             "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
-                "%1$d pages lues \u00b7 %2$d en attente \u00b7 %3$d avec des erreurs \u00b7 %4$d passages \u00b7 %5$d compris par signification"
+                "%1$d pages lues \u00b7 %2$d en attente \u00b7 %3$d avec des erreurs \u00b7 %4$d passages \u00b7 %5$d compris par le sens"
             ],
             "Embedding model: %s": [
-                "Mod\u00e8le d'incorporation : %s"
+                "Mod\u00e8le d'int\u00e9gration : %s"
             ],
             "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
-                "Aucun mod\u00e8le d'embedding : la recherche s'effectue uniquement par mots. Connectez Google Gemini, OpenAI, Mistral ou OpenRouter pour effectuer des recherches par le sens."
+                "Aucun mod\u00e8le d'int\u00e9gration : la recherche s'effectue uniquement par mots. Connectez Google Gemini, OpenAI, Mistral ou OpenRouter pour effectuer des recherches par sens."
             ],
             "Building meanings is paused:": [
-                "La construction des significations est en pause :"
+                "La construction des significations est en pause\u00a0:"
             ],
             "Re-read the whole site": [
-                "R\u00e9analyser tout le site"
+                "Relire tout le site"
             ],
             "Rebuild all meanings": [
                 "Reconstruire toutes les significations"
             ],
             "Filter by title or address": [
-                "Filtrer par titre ou adresse"
+                "Filtrer par titre ou par adresse"
             ],
             "Read": [
                 "Lire"
@@ -359,7 +359,7 @@
                 "Passages"
             ],
             "by meaning": [
-                "par signification"
+                "Par signification"
             ],
             "Rebuild meaning": [
                 "Reconstruire la signification"

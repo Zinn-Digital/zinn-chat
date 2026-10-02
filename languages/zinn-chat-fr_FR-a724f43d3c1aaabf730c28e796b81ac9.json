@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-01T07:02:21+00:00",
+    "translation-revision-date": "2026-10-02T00:17:15+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/pro__premium_only\/admin-pro.js",
     "domain": "messages",
@@ -23,7 +23,7 @@
                 "\u00c9quipe"
             ],
             "Something went wrong. Please try again.": [
-                "Une erreur s'est produite. Veuillez r\u00e9essayer."
+                "Un probl\u00e8me est survenu. Veuillez r\u00e9essayer."
             ],
             "Title": [
                 "Titre"
@@ -35,7 +35,7 @@
                 "R\u00e9ponses enregistr\u00e9es"
             ],
             "Knowledge gaps": [
-                "Lacunes de connaissances"
+                "Lacunes dans les connaissances"
             ],
             "First reply": [
                 "Premi\u00e8re r\u00e9ponse"
@@ -79,7 +79,7 @@
                 "%d jours"
             ],
             "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
-                "Ce navigateur ne peut pas recevoir de notifications push ici. Sur un iPhone, ajoutez d'abord Inbox \u00e0 votre \u00e9cran d'accueil."
+                "Ce navigateur ne peut pas recevoir de notifications push ici. Sur un iPhone, ajoutez d'abord la bo\u00eete de r\u00e9ception \u00e0 votre \u00e9cran d'accueil."
             ],
             "Notifications are blocked for this site in the browser settings.": [
                 "Les notifications sont bloqu\u00e9es pour ce site dans les param\u00e8tres du navigateur."
@@ -91,25 +91,25 @@
                 "Envoyer une notification de test"
             ],
             "Sent. It should appear in a few seconds.": [
-                "Envoy\u00e9. Cela devrait s'afficher dans quelques secondes."
+                "Envoy\u00e9. Cela devrait appara\u00eetre dans quelques secondes."
             ],
             "The push service did not accept it.": [
-                "Le service de notification push l'a refus\u00e9."
+                "Le service push ne l\u2019a pas accept\u00e9."
             ],
             "Could not turn notifications on.": [
-                "Impossible d'activer les notifications."
+                "Impossible d\u2019activer les notifications."
             ],
             "Phone app and notifications": [
-                "Application mobile et notifications"
+                "Application pour t\u00e9l\u00e9phone et notifications"
             ],
             "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
-                "Installez cette bo\u00eete de r\u00e9ception comme une application : dans Chrome ou Edge, choisissez Installer dans la barre d'adresse ou le menu ; sur un iPhone ou un iPad, touchez Partager, puis Sur l'\u00e9cran d'accueil. Elle s'ouvre en plein \u00e9cran, pr\u00eate \u00e0 r\u00e9pondre."
+                "Installez cette bo\u00eete de r\u00e9ception sous forme d'application : dans Chrome ou Edge, choisissez Installer dans la barre d'adresse ou le menu ; sur un iPhone ou un iPad, appuyez sur Partager, puis sur Sur l'\u00e9cran d'accueil. Elle s'ouvre en plein \u00e9cran, pr\u00eate pour r\u00e9pondre."
             ],
             "Turn on notifications on this device": [
                 "Activer les notifications sur cet appareil"
             ],
             "Nothing found.": [
-                "Aucun r\u00e9sultat."
+                "Rien n\u2019a \u00e9t\u00e9 trouv\u00e9."
             ],
             "Search saved replies": [
                 "Rechercher dans les r\u00e9ponses enregistr\u00e9es"
@@ -124,16 +124,16 @@
                 "Sugg\u00e9rer une r\u00e9ponse"
             ],
             "Drafting\u2026": [
-                "En cours de r\u00e9daction..."
+                "R\u00e9daction du brouillon\u2026"
             ],
             "Replace what you have typed with the suggestion?": [
-                "Voulez-vous remplacer ce que vous avez tap\u00e9 par la suggestion ?"
+                "Voulez-vous remplacer ce que vous avez saisi par la suggestion\u00a0?"
             ],
             "%s is writing a reply to this too.": [
-                "%s r\u00e9dige \u00e9galement une r\u00e9ponse \u00e0 ceci."
+                "%s est \u00e9galement en train de r\u00e9diger une r\u00e9ponse \u00e0 ceci."
             ],
             "%s is also looking at this.": [
-                "%s regarde \u00e9galement ceci."
+                "%s consulte \u00e9galement cet \u00e9l\u00e9ment."
             ],
             "No department": [
                 "Aucun d\u00e9partement"
@@ -148,16 +148,16 @@
                 "Client m\u00e9content"
             ],
             "Unhappy customer": [
-                "Client m\u00e9content"
+                "Client insatisfait"
             ],
             "Summarise again": [
-                "R\u00e9capituler \u00e0 nouveau"
+                "R\u00e9sumer \u00e0 nouveau"
             ],
             "Summarise": [
                 "R\u00e9sumer"
             ],
             "met": [
-                "mettez"
+                "Rempli"
             ],
             "missed": [
                 "Manqu\u00e9"
@@ -166,28 +166,28 @@
                 "en retard de %s"
             ],
             "%s left": [
-                "%s restant"
+                "%s restant(s)"
             ],
             "Customer rating: %d of 5": [
-                "\u00c9valuation client : %d sur 5"
+                "Note des clients\u00a0: %d sur 5"
             ],
             "Write a KB article from this ticket": [
-                "R\u00e9diger un article de la base de connaissances \u00e0 partir de ce ticket"
+                "R\u00e9digez un article de base de connaissances \u00e0 partir de ce ticket"
             ],
             "Write a help page from this ticket": [
-                "R\u00e9diger une page d'aide \u00e0 partir de ce ticket"
+                "R\u00e9digez une page d'aide \u00e0 partir de ce ticket"
             ],
             "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
-                "Utilisez-les depuis les zones de texte du chat et de r\u00e9ponse aux tickets (R\u00e9ponses enregistr\u00e9es), ou tapez \/ et le raccourci, puis un espace. {name}, {first_name}, {agent}, {site} et {ticket} sont remplis automatiquement pour vous."
+                "Utilisez-les depuis les zones de r\u00e9ponse du chat et des tickets (R\u00e9ponses enregistr\u00e9es), ou tapez \/ ainsi que le raccourci, suivi d'un espace. {name}, {first_name}, {agent}, {site} et {ticket} sont automatiquement renseign\u00e9s pour vous."
             ],
             "Shortcut (optional, e.g. refund)": [
-                "Raccourci (facultatif, par ex. remboursement)"
+                "Raccourci (facultatif, ex. remboursement)"
             ],
             "Text": [
                 "Texte"
             ],
             "Every department": [
-                "Tous les services"
+                "Chaque d\u00e9partement"
             ],
             "Save": [
                 "Enregistrer"
@@ -196,7 +196,7 @@
                 "Ajouter une r\u00e9ponse enregistr\u00e9e"
             ],
             "No saved replies yet.": [
-                "Aucune r\u00e9ponse enregistr\u00e9e pour le moment."
+                "Aucune r\u00e9ponse enregistr\u00e9e pour l\u2019instant."
             ],
             "Used %d times": [
                 "Utilis\u00e9 %d fois"
@@ -205,16 +205,16 @@
                 "Supprimer"
             ],
             "Delete this saved reply?": [
-                "Supprimer cette r\u00e9ponse enregistr\u00e9e ?"
+                "Supprimer cette r\u00e9ponse enregistr\u00e9e\u00a0?"
             ],
             "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
-                "Questions pos\u00e9es par les visiteurs auxquelles votre site n'a pas su r\u00e9pondre, class\u00e9es par ordre de fr\u00e9quence. S\u00e9lectionnez-en quelques-unes et laissez l'IA r\u00e9diger un article pour y r\u00e9pondre ; publiez-le et l'assistant l'utilisera imm\u00e9diatement."
+                "Questions pos\u00e9es par les visiteurs auxquelles votre site n'a pas pu r\u00e9pondre, les plus fr\u00e9quentes en premier. S\u00e9lectionnez-en quelques-unes et laissez l'IA r\u00e9diger un article qui y r\u00e9pond ; publiez-le et l'assistant l'utilisera imm\u00e9diatement."
             ],
             "Recording is off (Settings, AI assistant).": [
-                "L'enregistrement est d\u00e9sactiv\u00e9 (Param\u00e8tres, Assistant IA)."
+                "L'enregistrement est d\u00e9sactiv\u00e9 (R\u00e9glages, Assistant IA)."
             ],
             "Drafted": [
-                "Brouillon"
+                "Brouillon enregistr\u00e9"
             ],
             "Answered": [
                 "R\u00e9pondu"
@@ -223,13 +223,13 @@
                 "Ignor\u00e9"
             ],
             "Draft a KB article from the selected": [
-                "R\u00e9diger un article de la base de connaissances \u00e0 partir de la s\u00e9lection"
+                "R\u00e9diger un brouillon d'article de base de connaissances \u00e0 partir de la s\u00e9lection"
             ],
             "Draft a help page from the selected": [
-                "R\u00e9diger une page d'aide \u00e0 partir de la s\u00e9lection"
+                "R\u00e9diger un brouillon de page d'aide \u00e0 partir de la s\u00e9lection"
             ],
             "Mark answered": [
-                "Marqu\u00e9 comme r\u00e9pondu"
+                "Marquer comme r\u00e9solu"
             ],
             "Ignore": [
                 "Ignorer"
@@ -247,13 +247,13 @@
                 "Derni\u00e8re demande"
             ],
             "Not on the site": [
-                "Absent du site"
+                "Pas sur le site"
             ],
             "Needed a person": [
-                "Personne requise"
+                "N\u00e9cessitait une personne"
             ],
             "Answer rated unhelpful": [
-                "R\u00e9ponse \u00e9valu\u00e9e comme peu utile"
+                "R\u00e9ponse jug\u00e9e inutile"
             ],
             "Nothing here. Well done.": [
                 "Rien ici. Bien jou\u00e9."
@@ -268,52 +268,52 @@
                 "30 derniers jours"
             ],
             "Last 90 days": [
-                "Les 90 derniers jours"
+                "90 derniers jours"
             ],
             "Last 12 months": [
                 "12 derniers mois"
             ],
             "%s%% answered by the assistant alone": [
-                "%s%% r\u00e9pondu par l'assistant seul"
+                "%s%% r\u00e9pondu uniquement par l'assistant"
             ],
             "Handed to a person": [
-                "Attribu\u00e9 \u00e0 une personne"
+                "Remis en main propre"
             ],
             "median wait %s": [
-                "temps d'attente moyen %s"
+                "temps d'attente m\u00e9dian %s"
             ],
             "Tickets opened": [
                 "Tickets ouverts"
             ],
             "%d still open": [
-                "%d encore ouvert"
+                "%d toujours ouvert(s)"
             ],
             "median \u00b7 average %s": [
                 "m\u00e9diane \u00b7 moyenne %s"
             ],
             "Time to solve": [
-                "Temps de r\u00e9solution"
+                "D\u00e9lai de r\u00e9solution"
             ],
             "median \u00b7 %d solved": [
-                "m\u00e9dian \u00b7 %d r\u00e9solu"
+                "m\u00e9diane \u00b7 %d r\u00e9solus"
             ],
             "Customer satisfaction": [
                 "Satisfaction client"
             ],
             "%d ratings, average %s of 5": [
-                "%d \u00e9valuations, moyenne de %s sur 5"
+                "%d \u00e9valuations, moyenne %s sur 5"
             ],
             "SLA first reply met": [
-                "Premier temps de r\u00e9ponse au SLA respect\u00e9"
+                "Premier temps de r\u00e9ponse du SLA respect\u00e9"
             ],
             "%1$d due, %2$d missed": [
-                "%1$d \u00e9chue, %2$d manqu\u00e9e"
+                "%1$d \u00e0 \u00e9ch\u00e9ance, %2$d manqu\u00e9(s)"
             ],
             "Assistant answers rated": [
                 "R\u00e9ponses de l'assistant \u00e9valu\u00e9es"
             ],
             "helpful \/ rated": [
-                "utile \/ \u00e9valu\u00e9"
+                "utile \/ not\u00e9"
             ],
             "Chats and tickets per day": [
                 "Discussions et tickets par jour"
@@ -328,13 +328,13 @@
                 "R\u00e9ponses"
             ],
             "Rating": [
-                "\u00c9valuation"
+                "Note"
             ],
             "Top topics": [
-                "Principaux sujets"
+                "Sujets principaux"
             ],
             "Where tickets came from": [
-                "Origine des tickets"
+                "D'o\u00f9 proviennent les tickets"
             ]
         }
     }

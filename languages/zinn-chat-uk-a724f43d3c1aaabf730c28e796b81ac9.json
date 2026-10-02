@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-01T07:02:21+00:00",
+    "translation-revision-date": "2026-10-02T00:17:15+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/pro__premium_only\/admin-pro.js",
     "domain": "messages",
@@ -286,7 +286,7 @@
                 "\u0412\u0456\u0434\u043a\u0440\u0438\u0442\u0456 \u0442\u0456\u043a\u0435\u0442\u0438"
             ],
             "%d still open": [
-                "\u0429e \u0432\u0456\u0434\u043a\u0440\u0438\u0442\u043e: %d"
+                "%d \u0449\u0435 \u0432\u0456\u0434\u043a\u0440\u0438\u0442\u043e"
             ],
             "median \u00b7 average %s": [
                 "\u043c\u0435\u0434\u0456\u0430\u043d\u0430 \u00b7 \u0441\u0435\u0440\u0435\u0434\u043d\u0454 %s"

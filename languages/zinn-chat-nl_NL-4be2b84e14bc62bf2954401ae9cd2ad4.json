@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-01T07:02:21+00:00",
+    "translation-revision-date": "2026-10-02T00:17:15+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -11,7 +11,7 @@
                 "plural-forms": "nplurals=2; plural=(n != 1);"
             },
             "Inbox": [
-                "Postvak in"
+                "Postvak IN"
             ],
             "Tickets": [
                 "Tickets"
@@ -20,19 +20,19 @@
                 "Assistent"
             ],
             "Fix it": [
-                "Oplossen"
+                "Los het op"
             ],
             "AI providers": [
                 "AI-providers"
             ],
             "Test the assistant": [
-                "De assistent testen"
+                "Test de assistent"
             ],
             "Status": [
                 "Status"
             ],
             "Open": [
-                "Open"
+                "Openen"
             ],
             "Subject": [
                 "Onderwerp"
@@ -71,10 +71,10 @@
                 "Chat be\u00ebindigen"
             ],
             "Something went wrong. Please try again.": [
-                "Er is iets misgegaan. Probeer het alstublieft opnieuw."
+                "Er is iets misgegaan. Probeer het opnieuw."
             ],
             "Details": [
-                "Gegevens"
+                "Details"
             ],
             "Message": [
                 "Bericht"
@@ -83,7 +83,7 @@
                 "Type"
             ],
             "Order": [
-                "Bestellen"
+                "Volgorde"
             ],
             "Low": [
                 "Laag"
@@ -95,7 +95,7 @@
                 "Hoog"
             ],
             "Urgent": [
-                "Dringend"
+                "Urgent"
             ],
             "%ds": [
                 "%ds"
@@ -119,7 +119,7 @@
                 "Wachten op een persoon"
             ],
             "With an agent": [
-                "Met een agent"
+                "Met een medewerker"
             ],
             "Left a message": [
                 "Bericht achtergelaten"
@@ -128,16 +128,16 @@
                 "Afwezig"
             ],
             "Focus mode": [
-                "Focus-modus"
+                "Focusmodus"
             ],
             "Desktop alerts": [
                 "Bureaubladmeldingen"
             ],
             "Needs a person": [
-                "Persoon vereist"
+                "Vereist een persoon"
             ],
             "Choose a chat on the left. You can open several; each keeps its own draft.": [
-                "Kies links een chat. U kunt er meerdere openen; elk behoudt een eigen concept."
+                "Kies links een chat. Je kunt er meerdere openen; elk behoudt zijn eigen concept."
             ],
             "A visitor is waiting": [
                 "Een bezoeker wacht"
@@ -146,13 +146,13 @@
                 "Chat #%d"
             ],
             "Nothing here right now.": [
-                "Hier is momenteel niets te vinden."
+                "Er is hier momenteel niets."
             ],
             "Visitor #%d": [
                 "Bezoeker #%d"
             ],
             "typing\u2026": [
-                "aan het typen..."
+                "aan het typen\u2026"
             ],
             "waiting %s": [
                 "wachten op %s"
@@ -161,25 +161,25 @@
                 "%d online"
             ],
             "Close tab": [
-                "Tab sluiten"
+                "Tabblad sluiten"
             ],
             "Back to the list": [
                 "Terug naar de lijst"
             ],
             "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
-                "Typ een antwoord\u2026 (Druk op Enter om te verzenden, Shift+Enter voor een nieuwe regel)"
+                "Typ een antwoord\u2026 (Enter om te verzenden, Shift+Enter voor een nieuwe regel)"
             ],
             "Ticket #%d": [
                 "Ticket #%d"
             ],
             "Take this chat": [
-                "Neem deze chat"
+                "Neem deze chat over"
             ],
             "Back to the assistant": [
                 "Terug naar de assistent"
             ],
             "Make a ticket": [
-                "Ticket aanmaken"
+                "Maak een ticket aan"
             ],
             "The visitor's email address": [
                 "Het e-mailadres van de bezoeker"
@@ -191,7 +191,7 @@
                 "Nieuw ticket"
             ],
             "Search subject, email or number": [
-                "Onderwerp, e-mail of nummer zoeken"
+                "Onderwerp, e-mailadres of nummer zoeken"
             ],
             "Customer": [
                 "Klant"
@@ -200,7 +200,7 @@
                 "Prioriteit"
             ],
             "Needs attention": [
-                "Vereist aandacht"
+                "Aandacht vereist"
             ],
             "All": [
                 "Alle"
@@ -215,7 +215,7 @@
                 "Klantnaam"
             ],
             "Customer email": [
-                "Klanten-e-mail"
+                "E-mailadres van klant"
             ],
             "Create ticket": [
                 "Ticket aanmaken"
@@ -224,16 +224,16 @@
                 "Alle tickets"
             ],
             "Write a reply\u2026": [
-                "Schrijf een antwoord..."
+                "Schrijf een reactie\u2026"
             ],
             "Internal note (the customer does not see it)": [
                 "Interne notitie (de klant ziet dit niet)"
             ],
             "then: waiting for customer": [
-                "daarna: wachten op klant"
+                "vervolgens: wachten op klant"
             ],
             "then: solved": [
-                "daarna: opgelost"
+                "dan: opgelost"
             ],
             "then: keep open": [
                 "vervolgens: open houden"
@@ -242,10 +242,10 @@
                 "#%1$d %2$s"
             ],
             "by email": [
-                "per e-mail"
+                "via e-mail"
             ],
             "internal note": [
-                "interne notitie"
+                "Interne notitie"
             ],
             "Channel": [
                 "Kanaal"
@@ -263,16 +263,16 @@
                 "Ticket verwijderen"
             ],
             "Delete this ticket and all its messages?": [
-                "Wilt u dit ticket en al de bijbehorende berichten verwijderen?"
+                "Dit ticket en alle bijbehorende berichten verwijderen?"
             ],
             "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
-                "Vraag wat uw bezoekers vragen. U ziet het antwoord en elke pagina die is gevonden, inclusief hoe goed elke pagina overeenkwam, wanneer deze voor het laatst is bijgewerkt en waarschuwingen voor pagina's die verouderd lijken. Pas een pagina aan, druk op Opnieuw lezen en stel de vraag opnieuw."
+                "Vraag wat je bezoekers vragen. Je ziet het antwoord en elke gevonden pagina, inclusief hoe goed ze overeenkwamen, wanneer ze voor het laatst zijn bijgewerkt en waarschuwingen voor pagina's die verouderd lijken. Pas een pagina aan, druk op 'Opnieuw lezen' en vraag het opnieuw."
             ],
             "For example: What is your returns policy?": [
-                "Bijvoorbeeld: Wat is uw retourbeleid?"
+                "Bijvoorbeeld: Wat is je retourbeleid?"
             ],
             "Ask": [
-                "Vragen"
+                "Vraag"
             ],
             "Not updated for over a year": [
                 "Al meer dan een jaar niet bijgewerkt"
@@ -281,19 +281,19 @@
                 "Een nieuwere pagina behandelt hetzelfde onderwerp: %s"
             ],
             "Re-read \u2713": [
-                "Opnieuw gelezen \u2713"
+                "Opnieuw lezen \u2713"
             ],
             "Asking\u2026": [
-                "Bezig met vragen\u2026"
+                "Vragen\u2026"
             ],
             "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
-                "Resultaat: %1$s \u00b7 Zoekopdracht: %2$s \u00b7 Tokens: %3$d in, %4$d uit"
+                "Resultaat: %1$s \u00b7 Zoeken: %2$s \u00b7 Tokens: %3$d in, %4$d uit"
             ],
             "by meaning and words": [
-                "op betekenis en woorden"
+                "Op betekenis en woorden"
             ],
             "by words only (no embedding key)": [
-                "op basis van woorden (geen insluitingssleutel)"
+                "alleen op woorden (geen insluitingssleutel)"
             ],
             "nothing indexed": [
                 "niets ge\u00efndexeerd"
@@ -305,7 +305,7 @@
                 "Gevonden bronnen (%d)"
             ],
             "Nothing on the site matched. Add a page that answers this, or check the Site index settings.": [
-                "Er kwam geen overeenkomst op de site gevonden. Voeg een pagina toe die hierop antwoord geeft, of controleer de instellingen van de site-index."
+                "Niets op de site kwam overeen. Voeg een pagina toe die dit beantwoordt, of controleer de instellingen van de site-index."
             ],
             "Score": [
                 "Score"
@@ -314,34 +314,34 @@
                 "Laatst bijgewerkt"
             ],
             "Passage": [
-                "Wachtwoord"
+                "Doorgang"
             ],
             "Edit": [
                 "Bewerken"
             ],
             "Re-read": [
-                "Opnieuw inlezen"
+                "Opnieuw lezen"
             ],
             "What the assistant has read": [
                 "Wat de assistent heeft gelezen"
             ],
             "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
-                "%1$d pagina's gelezen \u00b7 %2$d in wachtrij \u00b7 %3$d met fouten \u00b7 %4$d passages \u00b7 %5$d begrepen op betekenis"
+                "%1$d pagina's gelezen \u00b7 %2$d wachtend \u00b7 %3$d met fouten \u00b7 %4$d fragmenten \u00b7 %5$d begrepen op betekenis"
             ],
             "Embedding model: %s": [
-                "Inbeddingsmodel: %s"
+                "Insluitmodel: %s"
             ],
             "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
-                "Geen embedding-model: zoeken gebeurt alleen op trefwoord. Verbind Google Gemini, OpenAI, Mistral of OpenRouter om op betekenis te zoeken."
+                "Geen embeddingmodel: er wordt alleen op woorden gezocht. Verbind Google Gemini, OpenAI, Mistral of OpenRouter om op betekenis te zoeken."
             ],
             "Building meanings is paused:": [
-                "Het opbouwen van betekenissen is gepauzeerd:"
+                "Betekenissen opbouwen is gepauzeerd:"
             ],
             "Re-read the whole site": [
-                "Hele site opnieuw inlezen"
+                "Lees de hele site opnieuw"
             ],
             "Rebuild all meanings": [
-                "Alle betekenissen opnieuw opbouwen"
+                "Herbouw alle betekenissen"
             ],
             "Filter by title or address": [
                 "Filter op titel of adres"
@@ -350,7 +350,7 @@
                 "Lezen"
             ],
             "Waiting": [
-                "In afwachting"
+                "Wachten"
             ],
             "Errors": [
                 "Fouten"
@@ -359,13 +359,13 @@
                 "Passages"
             ],
             "by meaning": [
-                "op betekenis"
+                "Op betekenis"
             ],
             "Rebuild meaning": [
                 "Betekenis opnieuw opbouwen"
             ],
             "Done \u2713": [
-                "Gereed \u2713"
+                "Klaar \u2713"
             ],
             "Failed": [
                 "Mislukt"

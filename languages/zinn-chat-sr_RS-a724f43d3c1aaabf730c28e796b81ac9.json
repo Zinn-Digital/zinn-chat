@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-01T07:02:21+00:00",
+    "translation-revision-date": "2026-10-02T00:17:15+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/pro__premium_only\/admin-pro.js",
     "domain": "messages",
@@ -14,22 +14,22 @@
                 "\u0422\u0438\u043a\u0435\u0442\u0438"
             ],
             "Open": [
-                "Otvori"
+                "\u041e\u0442\u0432\u043e\u0440\u0438"
             ],
             "Chats": [
-                "Razgovori"
+                "\u040b\u0430\u0441\u043a\u0430\u045a\u0430"
             ],
             "Team": [
-                "Tim"
+                "\u0422\u0438\u043c"
             ],
             "Something went wrong. Please try again.": [
-                "Ne\u0161to je po\u0161lo po zlu. Poku\u0161ajte ponovo."
+                "\u041d\u0435\u0448\u0442\u043e \u043d\u0438\u0458\u0435 \u0443 \u0440\u0435\u0434\u0443. \u041f\u043e\u043a\u0443\u0448\u0430\u0458\u0442\u0435 \u043f\u043e\u043d\u043e\u0432\u043e."
             ],
             "Title": [
-                "Naslov"
+                "\u041d\u0430\u0441\u043b\u043e\u0432"
             ],
             "Department": [
-                "Odeljenje"
+                "\u041e\u0434\u0435\u0459\u0435\u045a\u0435"
             ],
             "Saved replies": [
                 "\u0421\u0430\u0447\u0443\u0432\u0430\u043d\u0438 \u043e\u0434\u0433\u043e\u0432\u043e\u0440\u0438"
@@ -38,303 +38,303 @@
                 "\u041f\u0440\u0430\u0437\u043d\u0438\u043d\u0438 \u0443 \u0437\u043d\u0430\u045a\u0443"
             ],
             "First reply": [
-                "Prvi odgovor"
+                "\u041f\u0440\u0432\u0438 \u043e\u0434\u0433\u043e\u0432\u043e\u0440"
             ],
             "Article": [
-                "\u010clanak"
+                "\u0427\u043b\u0430\u043d\u0430\u043a"
             ],
             "Reports": [
-                "Izve\u0161taji"
+                "\u0418\u0437\u0432\u0435\u0448\u0442\u0430\u0458\u0438"
             ],
             "Agent": [
                 "Agent"
             ],
             "All": [
-                "Svi"
+                "\u0421\u0432\u0435"
             ],
             "Page %1$d of %2$d": [
-                "Strana %1$d od %2$d"
+                "\u0421\u0442\u0440\u0430\u043d\u0438\u0446\u0430 %1$d \u043e\u0434 %2$d"
             ],
             "Edit": [
-                "Izmeni"
+                "\u0423\u0440\u0435\u0434\u0438"
             ],
             "%d second": [
-                "%d sekunda",
-                "%d sekundi",
-                "%d sekundi"
+                "%d \u0441\u0435\u043a\u0443\u043d\u0434\u0430",
+                "%d \u0441\u0435\u043a\u0443\u043d\u0434\u0438",
+                "%d \u0441\u0435\u043a\u0443\u043d\u0434\u0438"
             ],
             "%d minute": [
-                "%d minut",
-                "%d minuta",
-                "%d minuta"
+                "%d \u043c\u0438\u043d\u0443\u0442",
+                "%d \u043c\u0438\u043d\u0443\u0442\u0430",
+                "%d \u043c\u0438\u043d\u0443\u0442\u0430"
             ],
             "%d hour": [
-                "%d sat",
-                "%d sati",
-                "%d sati"
+                "%d \u0441\u0430\u0442",
+                "%d \u0441\u0430\u0442\u0438",
+                "%d \u0441\u0430\u0442\u0438"
             ],
             "%d day": [
-                "%d dan",
-                "%d dana",
-                "%d dana"
+                "%d \u0434\u0430\u043d",
+                "%d \u0434\u0430\u043d\u0430",
+                "%d \u0434\u0430\u043d\u0430"
             ],
             "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
-                "Ovaj pretra\u017eiva\u010d ovde ne mo\u017ee da prima push obave\u0161tenja. Na iPhone ure\u0111aju, prvo dodajte Inbox na po\u010detni ekran."
+                "\u041e\u0432\u0430\u0458 \u043f\u0440\u0435\u0433\u043b\u0435\u0434\u0430\u0447 \u043d\u0435 \u043c\u043e\u0436\u0435 \u0434\u0430 \u043f\u0440\u0438\u043c\u0430 \u0438\u0441\u043a\u0430\u0447\u0443\u045b\u0430 \u043e\u0431\u0430\u0432\u0435\u0448\u0442\u0435\u045a\u0430 \u043e\u0432\u0434\u0435. \u041d\u0430 iPhone \u0443\u0440\u0435\u0452\u0430\u0458\u0443, \u043f\u0440\u0432\u043e \u0434\u043e\u0434\u0430\u0458\u0442\u0435 \u0421\u0430\u043d\u0434\u0443\u0447\u0435 \u043d\u0430 \u0441\u0432\u043e\u0458 \u043f\u043e\u0447\u0435\u0442\u043d\u0438 \u0435\u043a\u0440\u0430\u043d."
             ],
             "Notifications are blocked for this site in the browser settings.": [
-                "Obave\u0161tenja su blokirana za ovaj sajt u pode\u0161avanjima pretra\u017eiva\u010da."
+                "\u041e\u0431\u0430\u0432\u0435\u0448\u0442\u0435\u045a\u0430 \u0441\u0443 \u0431\u043b\u043e\u043a\u0438\u0440\u0430\u043d\u0430 \u0437\u0430 \u043e\u0432\u043e \u0432\u0435\u0431-\u043c\u0435\u0441\u0442\u043e \u0443 \u043f\u043e\u0434\u0435\u0448\u0430\u0432\u0430\u045a\u0438\u043c\u0430 \u043f\u0440\u0435\u0433\u043b\u0435\u0434\u0430\u0447\u0430."
             ],
             "Notifications are on for this device.": [
-                "Obave\u0161tenja su uklju\u010dena za ovaj ure\u0111aj."
+                "\u041e\u0431\u0430\u0432\u0435\u0448\u0442\u0435\u045a\u0430 \u0441\u0443 \u0443\u043a\u0459\u0443\u0447\u0435\u043d\u0430 \u0437\u0430 \u043e\u0432\u0430\u0458 \u0443\u0440\u0435\u0452\u0430\u0458."
             ],
             "Send a test notification": [
-                "Po\u0161alji testno obave\u0161tenje"
+                "\u041f\u043e\u0448\u0430\u0459\u0438\u0442\u0435 \u043f\u0440\u043e\u0431\u043d\u043e \u043e\u0431\u0430\u0432\u0435\u0448\u0442\u0435\u045a\u0435"
             ],
             "Sent. It should appear in a few seconds.": [
-                "Poslato. Trebalo bi da se pojavi za nekoliko sekundi."
+                "\u041f\u043e\u0441\u043b\u0430\u0442\u043e. \u0422\u0440\u0435\u0431\u0430\u043b\u043e \u0431\u0438 \u0434\u0430 \u0441\u0435 \u043f\u043e\u0458\u0430\u0432\u0438 \u0437\u0430 \u043d\u0435\u043a\u043e\u043b\u0438\u043a\u043e \u0441\u0435\u043a\u0443\u043d\u0434\u0438."
             ],
             "The push service did not accept it.": [
-                "Push servis to nije prihvatio."
+                "\u0423\u0441\u043b\u0443\u0433\u0430 \u0437\u0430 \u043f\u0440\u043e\u0441\u043b\u0435\u0452\u0438\u0432\u0430\u045a\u0435 \u043e\u0431\u0430\u0432\u0435\u0448\u0442\u0435\u045a\u0430 \u043d\u0438\u0458\u0435 \u0442\u043e \u043f\u0440\u0438\u0445\u0432\u0430\u0442\u0438\u043b\u0430."
             ],
             "Could not turn notifications on.": [
-                "Nije bilo mogu\u0107e uklju\u010diti obave\u0161tenja."
+                "\u041d\u0438\u0458\u0435 \u0431\u0438\u043b\u043e \u043c\u043e\u0433\u0443\u045b\u0435 \u0443\u043a\u0459\u0443\u0447\u0438\u0442\u0438 \u043e\u0431\u0430\u0432\u0435\u0448\u0442\u0435\u045a\u0430."
             ],
             "Phone app and notifications": [
-                "Mobilna aplikacija i obave\u0161tenja"
+                "\u0410\u043f\u043b\u0438\u043a\u0430\u0446\u0438\u0458\u0430 \u0437\u0430 \u0442\u0435\u043b\u0435\u0444\u043e\u043d \u0438 \u043e\u0431\u0430\u0432\u0435\u0448\u0442\u0435\u045a\u0430"
             ],
             "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
-                "Instalirajte ovo prijemno sandu\u010de kao aplikaciju: u pretra\u017eiva\u010du Chrome ili Edge izaberite \u201eInstaliraj\u201c u adresnoj traci ili meniju; na iPhone ili iPad ure\u0111aju tapnite na \u201ePodeli\u201c (Share), pa na \u201eDodaj na po\u010detni ekran\u201c (Add to Home Screen). Otvara se preko celog ekrana, spremno za odgovor."
+                "\u0418\u043d\u0441\u0442\u0430\u043b\u0438\u0440\u0430\u0458\u0442\u0435 \u043e\u0432\u043e \u043f\u0440\u0438\u0458\u0435\u043c\u043d\u043e \u0441\u0430\u043d\u0434\u0443\u0447\u0435 \u043a\u0430\u043e \u0430\u043f\u043b\u0438\u043a\u0430\u0446\u0438\u0458\u0443: \u0443 \u043f\u0440\u0435\u0433\u043b\u0435\u0434\u0430\u0447\u0438\u043c\u0430 Chrome \u0438\u043b\u0438 Edge \u0438\u0437\u0430\u0431\u0435\u0440\u0438\u0442\u0435 \u201e\u0418\u043d\u0441\u0442\u0430\u043b\u0438\u0440\u0430\u0458\u201c \u0443 \u0442\u0440\u0430\u0446\u0438 \u0437\u0430 \u0430\u0434\u0440\u0435\u0441\u0443 \u0438\u043b\u0438 \u043c\u0435\u043d\u0438\u0458\u0443; \u043d\u0430 \u0443\u0440\u0435\u0452\u0430\u0458\u0438\u043c\u0430 iPhone \u0438\u043b\u0438 iPad \u0434\u043e\u0434\u0438\u0440\u043d\u0438\u0442\u0435 \u201e\u0414\u0435\u043b\u0438\u201c, \u0430 \u0437\u0430\u0442\u0438\u043c \u201e\u0414\u043e\u0434\u0430\u0458 \u043d\u0430 \u043f\u043e\u0447\u0435\u0442\u043d\u0438 \u0435\u043a\u0440\u0430\u043d\u201c. \u041e\u0442\u0432\u0430\u0440\u0430 \u0441\u0435 \u043f\u0440\u0435\u043a\u043e \u0446\u0435\u043b\u043e\u0433 \u0435\u043a\u0440\u0430\u043d\u0430, \u0441\u043f\u0440\u0435\u043c\u043d\u043e \u0437\u0430 \u043e\u0434\u0433\u043e\u0432\u0430\u0440\u0430\u045a\u0435."
             ],
             "Turn on notifications on this device": [
-                "Uklju\u010dite obave\u0161tenja na ovom ure\u0111aju"
+                "\u0423\u043a\u0459\u0443\u0447\u0438\u0442\u0435 \u043e\u0431\u0430\u0432\u0435\u0448\u0442\u0435\u045a\u0430 \u043d\u0430 \u043e\u0432\u043e\u043c \u0443\u0440\u0435\u0452\u0430\u0458\u0443"
             ],
             "Nothing found.": [
                 "\u041d\u0438\u0448\u0442\u0430 \u043d\u0438\u0458\u0435 \u043f\u0440\u043e\u043d\u0430\u0452\u0435\u043d\u043e."
             ],
             "Search saved replies": [
-                "Pretra\u017ei sa\u010duvane odgovore"
+                "\u041f\u0440\u0435\u0442\u0440\u0430\u0436\u0438\u0442\u0435 \u0441\u0430\u0447\u0443\u0432\u0430\u043d\u0435 \u043e\u0434\u0433\u043e\u0432\u043e\u0440\u0435"
             ],
             "Link an article": [
-                "Pove\u017eite \u010dlanak"
+                "\u041f\u043e\u0432\u0435\u0436\u0438\u0442\u0435 \u0447\u043b\u0430\u043d\u0430\u043a"
             ],
             "Search the knowledge base": [
-                "Pretra\u017eite bazu znanja"
+                "\u041f\u0440\u0435\u0442\u0440\u0430\u0436\u0438\u0442\u0435 \u0431\u0430\u0437\u0443 \u0437\u043d\u0430\u045a\u0430"
             ],
             "Suggest a reply": [
                 "\u041f\u0440\u0435\u0434\u043b\u043e\u0436\u0438 \u043e\u0434\u0433\u043e\u0432\u043e\u0440"
             ],
             "Drafting\u2026": [
-                "Izrada nacrta\u2026"
+                "\u041f\u0440\u0430\u0432\u0459\u0435\u045a\u0435 \u043d\u0430\u0446\u0440\u0442\u0430\u2026"
             ],
             "Replace what you have typed with the suggestion?": [
-                "Da li \u017eelite da zamenite ono \u0161to ste otkucali predlogom?"
+                "\u0416\u0435\u043b\u0438\u0442\u0435 \u043b\u0438 \u0434\u0430 \u0437\u0430\u043c\u0435\u043d\u0438\u0442\u0435 \u043e\u043d\u043e \u0448\u0442\u043e \u0441\u0442\u0435 \u0443\u043a\u0443\u0446\u0430\u043b\u0438 \u043f\u0440\u0435\u0434\u043b\u043e\u0433\u043e\u043c?"
             ],
             "%s is writing a reply to this too.": [
-                "%s tako\u0111e pi\u0161e odgovor na ovo."
+                "%s \u0442\u0430\u043a\u043e\u0452\u0435 \u043f\u0438\u0448\u0435 \u043e\u0434\u0433\u043e\u0432\u043e\u0440 \u043d\u0430 \u043e\u0432\u043e."
             ],
             "%s is also looking at this.": [
-                "%s tako\u0111e gleda ovo."
+                "%s \u0442\u0430\u043a\u043e\u0452\u0435 \u043e\u0432\u043e \u0433\u043b\u0435\u0434\u0430."
             ],
             "No department": [
-                "Nema odeljenja"
+                "\u0411\u0435\u0437 \u043e\u0434\u0435\u0459\u0435\u045a\u0430"
             ],
             "Tags, comma-separated": [
-                "Oznake, razdvojene zarezom"
+                "\u041e\u0437\u043d\u0430\u043a\u0435, \u043e\u0434\u0432\u043e\u0458\u0435\u043d\u0435 \u0437\u0430\u0440\u0435\u0437\u043e\u043c"
             ],
             "Tags": [
-                "Oznake"
+                "\u041e\u0437\u043d\u0430\u043a\u0435"
             ],
             "Upset customer": [
-                "Nezadovoljan korisnik"
+                "\u041d\u0435\u0437\u0434\u043e\u0432\u043e\u0459\u0430\u043d \u043a\u043e\u0440\u0438\u0441\u043d\u0438\u043a"
             ],
             "Unhappy customer": [
-                "Nezadovoljan korisnik"
+                "\u041d\u0435\u0437\u0434\u043e\u0432\u043e\u0459\u0430\u043d \u043a\u043e\u0440\u0438\u0441\u043d\u0438\u043a"
             ],
             "Summarise again": [
-                "Rezimiraj ponovo"
+                "\u0420\u0435\u0437\u0438\u043c\u0438\u0440\u0430\u0458\u0442\u0435 \u043f\u043e\u043d\u043e\u0432\u043e"
             ],
             "Summarise": [
-                "Sumiraj"
+                "\u0421\u0430\u0436\u043c\u0438"
             ],
             "met": [
-                "upoznat"
+                "\u0438\u0441\u043f\u0443\u045a\u0435\u043d\u043e"
             ],
             "missed": [
-                "propu\u0161teno"
+                "\u041f\u0440\u043e\u043f\u0443\u0448\u0442\u0435\u043d\u043e"
             ],
             "overdue by %s": [
-                "prekoraseno za %s"
+                "\u043a\u0430\u0441\u043d\u0438 %s"
             ],
             "%s left": [
-                "preostalo %s"
+                "\u041f\u0440\u0435\u043e\u0441\u0442\u0430\u043b\u043e: %s"
             ],
             "Customer rating: %d of 5": [
-                "Ocena korisnika: %d od 5"
+                "\u041e\u0446\u0435\u043d\u0430 \u043a\u0443\u043f\u0430\u0446\u0430: %d \u043e\u0434 5"
             ],
             "Write a KB article from this ticket": [
-                "Napi\u0161ite KB \u010dlanak iz ovog tiketa"
+                "\u041d\u0430\u043f\u0438\u0448\u0438\u0442\u0435 \u0447\u043b\u0430\u043d\u0430\u043a \u0431\u0430\u0437\u0435 \u0437\u043d\u0430\u045a\u0430 \u0438\u0437 \u043e\u0432\u043e\u0433 \u0442\u0438\u043a\u0435\u0442\u0430"
             ],
             "Write a help page from this ticket": [
-                "Napi\u0161ite stranicu pomo\u0107i na osnovu ovog tiketa"
+                "\u041d\u0430\u043f\u0438\u0448\u0438\u0442\u0435 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443 \u043f\u043e\u043c\u043e\u045b\u0438 \u0438\u0437 \u043e\u0432\u043e\u0433 \u0442\u0438\u043a\u0435\u0442\u0430"
             ],
             "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
-                "Koristite ih iz polja za \u0107askanje i odgovore na tikete (Sa\u010duvani odgovori) ili otkucajte \/ i pre\u010dicu, a zatim razmak. {name}, {first_name}, {agent}, {site} i {ticket} se automatski popunjavaju umesto vas."
+                "\u041a\u043e\u0440\u0438\u0441\u0442\u0438\u0442\u0435 \u0438\u0445 \u0438\u0437 \u043f\u043e\u0459\u0430 \u0437\u0430 \u043e\u0434\u0433\u043e\u0432\u043e\u0440 \u0443 \u045b\u0430\u0441\u043a\u0430\u045a\u0443 \u0438 \u0442\u0438\u043a\u0435\u0442\u0438\u043c\u0430 (\u0421\u0430\u0447\u0443\u0432\u0430\u043d\u0438 \u043e\u0434\u0433\u043e\u0432\u043e\u0440\u0438) \u0438\u043b\u0438 \u0443\u043a\u0443\u0446\u0430\u0458\u0442\u0435 \/ \u0438 \u043f\u0440\u0435\u0447\u0438\u0446\u0443, \u043f\u0430 \u0440\u0430\u0437\u043c\u0430\u043a. {name}, {first_name}, {agent}, {site} \u0438 {ticket} \u0441\u0443 \u043f\u043e\u043f\u0443\u045a\u0435\u043d\u0438 \u0437\u0430 \u0432\u0430\u0441."
             ],
             "Shortcut (optional, e.g. refund)": [
-                "Pre\u010dica (opcionalno, npr. refundacija)"
+                "\u041f\u0440\u0435\u0447\u0438\u0446\u0430 (\u043e\u043f\u0446\u0438\u043e\u043d\u043e, \u043d\u043f\u0440. refund)"
             ],
             "Text": [
-                "Tekst"
+                "\u0422\u0435\u043a\u0441\u0442"
             ],
             "Every department": [
-                "Svako odeljenje"
+                "\u0421\u0432\u0430\u043a\u043e \u043e\u0434\u0435\u0459\u0435\u045a\u0435"
             ],
             "Save": [
-                "Sa\u010duvaj"
+                "\u0421\u0430\u0447\u0443\u0432\u0430\u0458"
             ],
             "Add saved reply": [
-                "Dodaj sa\u010duvani odgovor"
+                "\u0414\u043e\u0434\u0430\u0458\u0442\u0435 \u0441\u0430\u0447\u0443\u0432\u0430\u043d\u0438 \u043e\u0434\u0433\u043e\u0432\u043e\u0440"
             ],
             "No saved replies yet.": [
-                "Jo\u0161 uvek nema sa\u010duvanih odgovora."
+                "\u041d\u0435\u043c\u0430 \u0458\u043e\u0448 \u0441\u0430\u0447\u0443\u0432\u0430\u043d\u0438\u0445 \u043e\u0434\u0433\u043e\u0432\u043e\u0440\u0430."
             ],
             "Used %d times": [
-                "Kori\u0161\u0107eno %d puta"
+                "\u0418\u0441\u043a\u043e\u0440\u0438\u0448\u045b\u0435\u043d\u043e %d \u043f\u0443\u0442\u0430"
             ],
             "Delete": [
-                "Obri\u0161i"
+                "\u041e\u0431\u0440\u0438\u0448\u0438"
             ],
             "Delete this saved reply?": [
-                "Obrisati ovaj sa\u010duvani odgovor?"
+                "\u0416\u0435\u043b\u0438\u0442\u0435 \u043b\u0438 \u0434\u0430 \u043e\u0431\u0440\u0438\u0448\u0435\u0442\u0435 \u043e\u0432\u0430\u0458 \u0441\u0430\u0447\u0443\u0432\u0430\u043d\u0438 \u043e\u0434\u0433\u043e\u0432\u043e\u0440?"
             ],
             "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
-                "Pitanja koja su posetioci postavljali na koja va\u0161 sajt nije mogao da odgovori, sa naj\u010de\u0161\u0107ima na vrhu. Izaberite neka i dozvolite ve\u0161ta\u010dkoj inteligenciji da napi\u0161e nacrt \u010dlanka koji na njih odgovara; objavite ga i asistent \u0107e ga odmah upotrebiti."
+                "\u041f\u0438\u0442\u0430\u045a\u0430 \u043a\u043e\u0458\u0430 \u0441\u0443 \u043f\u043e\u0441\u0435\u0442\u0438\u043e\u0446\u0438 \u043f\u043e\u0441\u0442\u0430\u0432\u0438\u043b\u0438, \u0430 \u043d\u0430 \u043a\u043e\u0458\u0430 \u0432\u0430\u0448 \u0432\u0435\u0431-\u0441\u0430\u0458\u0442 \u043d\u0438\u0458\u0435 \u043c\u043e\u0433\u0430\u043e \u0434\u0430 \u043e\u0434\u0433\u043e\u0432\u043e\u0440\u0438, \u043f\u043e\u0440\u0435\u0452\u0430\u043d\u0430 \u043f\u043e \u0443\u0447\u0435\u0441\u0442\u0430\u043b\u043e\u0441\u0442\u0438. \u0418\u0437\u0430\u0431\u0435\u0440\u0438\u0442\u0435 \u043d\u0435\u043a\u0430 \u043e\u0434 \u045a\u0438\u0445 \u0438 \u043f\u0443\u0441\u0442\u0438\u0442\u0435 \u0432\u0435\u0448\u0442\u0430\u0447\u043a\u0443 \u0438\u043d\u0442\u0435\u043b\u0438\u0433\u0435\u043d\u0446\u0438\u0458\u0443 \u0434\u0430 \u0441\u0430\u0441\u0442\u0430\u0432\u0438 \u043d\u0430\u0446\u0440\u0442 \u0447\u043b\u0430\u043d\u043a\u0430 \u043a\u043e\u0458\u0438 \u0434\u0430\u0458\u0435 \u043e\u0434\u0433\u043e\u0432\u043e\u0440\u0435 \u043d\u0430 \u045a\u0438\u0445; \u043e\u0431\u0458\u0430\u0432\u0438\u0442\u0435 \u0433\u0430 \u0438 \u043f\u043e\u043c\u043e\u045b\u043d\u0438\u043a \u045b\u0435 \u0433\u0430 \u043e\u0434\u043c\u0430\u0445 \u043a\u043e\u0440\u0438\u0441\u0442\u0438\u0442\u0438."
             ],
             "Recording is off (Settings, AI assistant).": [
-                "Snimanje je isklju\u010deno (Pode\u0161avanja, AI asistent)."
+                "\u0421\u043d\u0438\u043c\u0430\u045a\u0435 \u0458\u0435 \u0438\u0441\u043a\u0459\u0443\u0447\u0435\u043d\u043e (\u041f\u043e\u0434\u0435\u0448\u0430\u0432\u0430\u045a\u0430, AI \u0430\u0441\u0438\u0441\u0442\u0435\u043d\u0442)."
             ],
             "Drafted": [
-                "Koncept"
+                "\u0421\u0430\u0441\u0442\u0430\u0432\u0459\u0435\u043d\u043e \u043a\u0430\u043e \u043d\u0430\u0446\u0440\u0442"
             ],
             "Answered": [
-                "Odgovoreno"
+                "\u041e\u0434\u0433\u043e\u0432\u043e\u0440\u0435\u043d\u043e"
             ],
             "Ignored": [
-                "Ignorisano"
+                "\u0417\u0430\u043d\u0435\u043c\u0430\u0440\u0435\u043d\u043e"
             ],
             "Draft a KB article from the selected": [
-                "Napravite nacrt \u010dlanka u bazi znanja od izabranog"
+                "\u041d\u0430\u043f\u0440\u0430\u0432\u0438\u0442\u0435 \u043d\u0430\u0446\u0440\u0442 \u0447\u043b\u0430\u043d\u043a\u0430 \u0431\u0430\u0437\u0435 \u0437\u043d\u0430\u045a\u0430 \u043e\u0434 \u0438\u0437\u0430\u0431\u0440\u0430\u043d\u043e\u0433"
             ],
             "Draft a help page from the selected": [
-                "Nacrtajte stranicu pomo\u0107i od izabranog"
+                "\u041d\u0430\u043f\u0440\u0430\u0432\u0438\u0442\u0435 \u043d\u0430\u0446\u0440\u0442 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435 \u043f\u043e\u043c\u043e\u045b\u0438 \u043e\u0434 \u0438\u0437\u0430\u0431\u0440\u0430\u043d\u043e\u0433"
             ],
             "Mark answered": [
-                "Ozna\u010deno kao odgovoreno"
+                "\u041e\u0437\u043d\u0430\u0447\u0438\u0442\u0435 \u043a\u0430\u043e \u043e\u0434\u0433\u043e\u0432\u043e\u0440\u0435\u043d\u043e"
             ],
             "Ignore": [
-                "Ignori\u0161i"
+                "\u0418\u0433\u043d\u043e\u0440\u0438\u0448\u0438"
             ],
             "Question": [
-                "Pitanje"
+                "\u041f\u0438\u0442\u0430\u045a\u0435"
             ],
             "Asked": [
-                "Upitano"
+                "\u041f\u043e\u0441\u0442\u0430\u0432\u0459\u0435\u043d\u043e"
             ],
             "Why": [
-                "Za\u0161to"
+                "\u0417\u0430\u0448\u0442\u043e"
             ],
             "Last asked": [
-                "Poslednji put pitano"
+                "\u041f\u043e\u0441\u043b\u0435\u0434\u045a\u0438 \u043f\u0443\u0442 \u0443\u043f\u0438\u0442\u0430\u043d\u043e"
             ],
             "Not on the site": [
-                "Nije na sajtu"
+                "\u041d\u0438\u0458\u0435 \u043d\u0430 \u0441\u0430\u0458\u0442\u0443"
             ],
             "Needed a person": [
-                "Potrebna osoba"
+                "\u041f\u043e\u0442\u0440\u0435\u0431\u043d\u0430 \u043e\u0441\u043e\u0431\u0430"
             ],
             "Answer rated unhelpful": [
-                "Odgovor ocenjen kao nekoristan"
+                "\u041e\u0434\u0433\u043e\u0432\u043e\u0440 \u0458\u0435 \u043e\u0446\u0435\u045a\u0435\u043d \u043a\u0430\u043e \u043d\u0435\u043a\u043e\u0440\u0438\u0441\u0442\u0430\u043d"
             ],
             "Nothing here. Well done.": [
-                "Nema ni\u010dega ovde. Odli\u010dno ura\u0111eno."
+                "\u041e\u0432\u0434\u0435 \u043d\u0435\u043c\u0430 \u043d\u0438\u0447\u0435\u0433\u0430. \u0421\u0432\u0430\u043a\u0430 \u0447\u0430\u0441\u0442."
             ],
             "Period": [
                 "\u041f\u0435\u0440\u0438\u043e\u0434"
             ],
             "Last 7 days": [
-                "Poslednjih 7 dana"
+                "\u041f\u043e\u0441\u043b\u0435\u0434\u045a\u0438\u0445 7 \u0434\u0430\u043d\u0430"
             ],
             "Last 30 days": [
-                "Poslednjih 30 dana"
+                "\u041f\u043e\u0441\u043b\u0435\u0434\u045a\u0438\u0445 30 \u0434\u0430\u043d\u0430"
             ],
             "Last 90 days": [
-                "Poslednjih 90 dana"
+                "\u041f\u043e\u0441\u043b\u0435\u0434\u045a\u0438\u0445 90 \u0434\u0430\u043d\u0430"
             ],
             "Last 12 months": [
-                "Poslednjih 12 meseci"
+                "\u041f\u043e\u0441\u043b\u0435\u0434\u045a\u0438\u0445 12 \u043c\u0435\u0441\u0435\u0446\u0438"
             ],
             "%s%% answered by the assistant alone": [
-                "%s%% je odgovorio samo asistent"
+                "%s%% \u043e\u0434\u0433\u043e\u0432\u043e\u0440\u0435\u043d\u043e \u0441\u0430\u043c\u043e \u043e\u0434 \u0441\u0442\u0440\u0430\u043d\u0435 \u0430\u0441\u0438\u0441\u0442\u0435\u043d\u0442\u0430"
             ],
             "Handed to a person": [
-                "Dodeljeno osobi"
+                "\u0423\u0440\u0443\u0447\u0435\u043d\u043e \u043e\u0441\u043e\u0431\u0438"
             ],
             "median wait %s": [
-                "srednje vreme \u010dekanja %s"
+                "\u043c\u0435\u0434\u0438\u0458\u0430\u043b\u043d\u043e \u0432\u0440\u0435\u043c\u0435 \u0447\u0435\u043a\u0430\u045a\u0430: %s"
             ],
             "Tickets opened": [
-                "Otvoreni tiketi"
+                "\u041e\u0442\u0432\u043e\u0440\u0435\u043d\u0438 \u0442\u0438\u043a\u0435\u0442\u0438"
             ],
             "%d still open": [
                 "%d \u0458\u043e\u0448 \u0443\u0432\u0435\u043a \u043e\u0442\u0432\u043e\u0440\u0435\u043d\u043e"
             ],
             "median \u00b7 average %s": [
-                "medijana \u00b7 prosek %s"
+                "\u043c\u0435\u0434\u0438\u0458\u0430\u043d\u0430 \u00b7 \u043f\u0440\u043e\u0441\u0435\u043a %s"
             ],
             "Time to solve": [
-                "Vreme za re\u0161avanje"
+                "\u0412\u0440\u0435\u043c\u0435 \u0437\u0430 \u0440\u0435\u0448\u0430\u0432\u0430\u045a\u0435"
             ],
             "median \u00b7 %d solved": [
                 "\u043c\u0435\u0434\u0438\u0458\u0430\u043d\u0430 \u00b7 %d \u0440\u0435\u0448\u0435\u043d\u043e"
             ],
             "Customer satisfaction": [
-                "Zadovoljstvo kupaca"
+                "\u0417\u0430\u0434\u043e\u0432\u043e\u0459\u0441\u0442\u0432\u043e \u043a\u043e\u0440\u0438\u0441\u043d\u0438\u043a\u0430"
             ],
             "%d ratings, average %s of 5": [
-                "%d ocena, prose\u010dno %s od 5"
+                "%d \u043e\u0446\u0435\u043d\u0430, \u043f\u0440\u043e\u0441\u0435\u043a %s \u043e\u0434 5"
             ],
             "SLA first reply met": [
-                "Ispunjeni uslovi za prvi odgovor SLA"
+                "SLA \u0440\u043e\u043a \u0437\u0430 \u043f\u0440\u0432\u0438 \u043e\u0434\u0433\u043e\u0432\u043e\u0440 \u0458\u0435 \u0438\u0441\u043f\u0443\u045a\u0435\u043d"
             ],
             "%1$d due, %2$d missed": [
-                "%1$d na dospelosti, %2$d propu\u0161teno"
+                "%1$d \u0434\u043e\u0441\u043f\u0435\u0432\u0430, %2$d \u043f\u0440\u043e\u043f\u0443\u0448\u0442\u0435\u043d\u043e"
             ],
             "Assistant answers rated": [
-                "Ocenjeni odgovori asistenta"
+                "\u041e\u0446\u0435\u045a\u0435\u043d\u0438 \u043e\u0434\u0433\u043e\u0432\u043e\u0440\u0438 \u0430\u0441\u0438\u0441\u0442\u0435\u043d\u0442\u0430"
             ],
             "helpful \/ rated": [
-                "korisno \/ ocenjeno"
+                "\u043a\u043e\u0440\u0438\u0441\u043d\u043e \/ \u043e\u0446\u0435\u045a\u0435\u043d\u043e"
             ],
             "Chats and tickets per day": [
-                "Razgovori i tiketi dnevno"
+                "\u040b\u0430\u0441\u043a\u0430\u045a\u0430 \u0438 \u0442\u0438\u043a\u0435\u0442\u0438 \u0434\u043d\u0435\u0432\u043d\u043e"
             ],
             "%1$d chats, %2$d tickets": [
                 "%1$d \u045b\u0430\u0441\u043a\u0430\u045a\u0430, %2$d \u0442\u0438\u043a\u0435\u0442\u0430"
             ],
             "Tickets answered": [
-                "Odgovoreni tiketi"
+                "\u041e\u0434\u0433\u043e\u0432\u043e\u0440\u0435\u043d\u0438 \u0442\u0438\u043a\u0435\u0442\u0438"
             ],
             "Replies": [
-                "Odgovori"
+                "\u041e\u0434\u0433\u043e\u0432\u043e\u0440\u0438"
             ],
             "Rating": [
                 "\u041e\u0446\u0435\u043d\u0430"
             ],
             "Top topics": [
-                "Najva\u017enije teme"
+                "\u041d\u0430\u0458\u043f\u043e\u043f\u0443\u043b\u0430\u0440\u043d\u0438\u0458\u0435 \u0442\u0435\u043c\u0435"
             ],
             "Where tickets came from": [
-                "Odakle poti\u010du tiketi"
+                "\u041e\u0434\u0430\u043a\u043b\u0435 \u0441\u0443 \u0442\u0438\u043a\u0435\u0442\u0438 \u0441\u0442\u0438\u0433\u043b\u0438"
             ]
         }
     }

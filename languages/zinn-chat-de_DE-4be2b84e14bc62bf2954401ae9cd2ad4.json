@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-01T07:02:21+00:00",
+    "translation-revision-date": "2026-10-02T00:17:14+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -20,13 +20,13 @@
                 "Assistent"
             ],
             "Fix it": [
-                "Beheben"
+                "Reparieren"
             ],
             "AI providers": [
                 "KI-Anbieter"
             ],
             "Test the assistant": [
-                "Assistenten testen"
+                "Teste den Assistenten"
             ],
             "Status": [
                 "Status"
@@ -53,7 +53,7 @@
                 "Besucher"
             ],
             "Waiting for customer": [
-                "Auf Kunden warten"
+                "Warten auf Kunden"
             ],
             "Solved": [
                 "Gel\u00f6st"
@@ -71,7 +71,7 @@
                 "Chat beenden"
             ],
             "Something went wrong. Please try again.": [
-                "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+                "Etwas ist schiefgelaufen. Bitte versuche es noch einmal."
             ],
             "Details": [
                 "Details"
@@ -83,7 +83,7 @@
                 "Typ"
             ],
             "Order": [
-                "Bestellung"
+                "Reihenfolge"
             ],
             "Low": [
                 "Niedrig"
@@ -128,16 +128,16 @@
                 "Abwesend"
             ],
             "Focus mode": [
-                "Fokusmodus"
+                "Fokus-Modus"
             ],
             "Desktop alerts": [
                 "Desktop-Benachrichtigungen"
             ],
             "Needs a person": [
-                "Person erforderlich"
+                "Erfordert eine Person"
             ],
             "Choose a chat on the left. You can open several; each keeps its own draft.": [
-                "W\u00e4hlen Sie links einen Chat aus. Sie k\u00f6nnen mehrere \u00f6ffnen; jeder beh\u00e4lt seinen eigenen Entwurf."
+                "W\u00e4hle links einen Chat aus. Du kannst mehrere \u00f6ffnen; jeder beh\u00e4lt seinen eigenen Entwurf."
             ],
             "A visitor is waiting": [
                 "Ein Besucher wartet"
@@ -146,16 +146,16 @@
                 "Chat #%d"
             ],
             "Nothing here right now.": [
-                "Hier ist zurzeit nichts vorhanden."
+                "Im Moment ist hier nichts."
             ],
             "Visitor #%d": [
-                "Besucher Nr. %d"
+                "Besucher #%d"
             ],
             "typing\u2026": [
-                "schreibt\u2026"
+                "tippt\u2026"
             ],
             "waiting %s": [
-                "warten auf %s"
+                "Warte auf %s"
             ],
             "%d online": [
                 "%d online"
@@ -167,7 +167,7 @@
                 "Zur\u00fcck zur Liste"
             ],
             "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
-                "Antworten\u2026 (Enter zum Senden, Shift+Enter f\u00fcr eine neue Zeile)"
+                "Schreibe eine Antwort\u2026 (Eingabetaste zum Senden, Umschalttaste+Eingabetaste f\u00fcr eine neue Zeile)"
             ],
             "Ticket #%d": [
                 "Ticket #%d"
@@ -182,10 +182,10 @@
                 "Ticket erstellen"
             ],
             "The visitor's email address": [
-                "E-Mail-Adresse des Besuchers"
+                "Die E-Mail-Adresse des Besuchers"
             ],
             "The visitor is typing\u2026": [
-                "Besucher schreibt\u2026"
+                "Der Besucher schreibt\u2026"
             ],
             "New ticket": [
                 "Neues Ticket"
@@ -200,7 +200,7 @@
                 "Priorit\u00e4t"
             ],
             "Needs attention": [
-                "Handlungsbedarf erforderlich"
+                "Erfordert Aufmerksamkeit"
             ],
             "All": [
                 "Alle"
@@ -224,19 +224,19 @@
                 "Alle Tickets"
             ],
             "Write a reply\u2026": [
-                "Antworten\u2026"
+                "Schreib eine Antwort \u2026"
             ],
             "Internal note (the customer does not see it)": [
                 "Interne Notiz (f\u00fcr den Kunden nicht sichtbar)"
             ],
             "then: waiting for customer": [
-                "danach: auf Kunden wird gewartet"
+                "danach: Warten auf Kunden"
             ],
             "then: solved": [
                 "dann: gel\u00f6st"
             ],
             "then: keep open": [
-                "dann: ge\u00f6ffnet halten"
+                "dann: ge\u00f6ffnet lassen"
             ],
             "#%1$d %2$s": [
                 "#%1$d %2$s"
@@ -257,19 +257,19 @@
                 "Zugewiesen an"
             ],
             "Order #%1$s \u00b7 %2$s \u00b7 %3$s": [
-                "Bestellung Nr. %1$s \u00b7 %2$s \u00b7 %3$s"
+                "Bestellung #%1$s \u00b7 %2$s \u00b7 %3$s"
             ],
             "Delete ticket": [
                 "Ticket l\u00f6schen"
             ],
             "Delete this ticket and all its messages?": [
-                "Dieses Ticket und alle dazugeh\u00f6rigen Nachrichten l\u00f6schen?"
+                "Dieses Ticket und alle zugeh\u00f6rigen Nachrichten l\u00f6schen?"
             ],
             "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
-                "Fragen Sie, was Ihre Besucher fragen. Sie sehen die Antwort und jede gefundene Seite samt \u00dcbereinstimmungsgrad, Datum der letzten Aktualisierung sowie Warnhinweisen f\u00fcr veraltet wirkende Seiten. Korrigieren Sie eine Seite, klicken Sie auf \u201eErneut lesen\u201c und fragen Sie noch einmal."
+                "Frag, was deine Besucher fragen. Du siehst die Antwort und jede gefundene Seite, einschlie\u00dflich der \u00dcbereinstimmungsgenauigkeit, des Datums der letzten Aktualisierung und Warnungen f\u00fcr Seiten, die veraltet wirken. Korrigiere eine Seite, klicke auf \u201eErneut lesen\u201c und frag noch einmal."
             ],
             "For example: What is your returns policy?": [
-                "Zum Beispiel: Wie lautet Ihre R\u00fcckgaberichtlinie?"
+                "Zum Beispiel: Was sind deine R\u00fcckgabebedingungen?"
             ],
             "Ask": [
                 "Fragen"
@@ -281,16 +281,16 @@
                 "Eine neuere Seite behandelt dasselbe Thema: %s"
             ],
             "Re-read \u2713": [
-                "Erneut gelesen \u2713"
+                "Erneut lesen \u2713"
             ],
             "Asking\u2026": [
-                "Wird gefragt\u2026"
+                "Frage an\u2026"
             ],
             "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
-                "Ergebnis: %1$s \u00b7 Suche: %2$s \u00b7 Token: %3$d ein, %4$d aus"
+                "Ergebnis: %1$s \u00b7 Suche: %2$s \u00b7 Token: %3$d rein, %4$d raus"
             ],
             "by meaning and words": [
-                "nach Bedeutung und W\u00f6rtern"
+                "Nach Bedeutung und W\u00f6rtern"
             ],
             "by words only (no embedding key)": [
                 "nur nach W\u00f6rtern (kein Einbettungsschl\u00fcssel)"
@@ -305,16 +305,16 @@
                 "Gefundene Quellen (%d)"
             ],
             "Nothing on the site matched. Add a page that answers this, or check the Site index settings.": [
-                "Auf der Website wurde nichts Passendes gefunden. F\u00fcgen Sie eine Seite hinzu, die diese Frage beantwortet, oder \u00fcberpr\u00fcfen Sie die Einstellungen des Website-Index."
+                "Auf der Website wurde nichts Passendes gefunden. F\u00fcge eine Seite hinzu, die dies beantwortet, oder \u00fcberpr\u00fcfe die Website-Index-Einstellungen."
             ],
             "Score": [
                 "Punktzahl"
             ],
             "Last updated": [
-                "Letzte Aktualisierung"
+                "Zuletzt aktualisiert"
             ],
             "Passage": [
-                "Passage"
+                "Durchgang"
             ],
             "Edit": [
                 "Bearbeiten"
@@ -326,22 +326,22 @@
                 "Was der Assistent gelesen hat"
             ],
             "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
-                "%1$d Seiten gelesen \u00b7 %2$d wartend \u00b7 %3$d mit Fehlern \u00b7 %4$d Passagen \u00b7 %5$d nach Bedeutung verstanden"
+                "%1$d Seiten gelesen \u00b7 %2$d wartend \u00b7 %3$d mit Fehlern \u00b7 %4$d Abschnitte \u00b7 %5$d nach Bedeutung verstanden"
             ],
             "Embedding model: %s": [
-                "Einbettungsmodell: %s"
+                "Embedding-Modell: %s"
             ],
             "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
-                "Kein Einbettungsmodell: Die Suche erfolgt nur nach W\u00f6rtern. Verbinden Sie Google Gemini, OpenAI, Mistral oder OpenRouter, um nach Bedeutung zu suchen."
+                "Kein Embedding-Modell: Die Suche erfolgt nur nach W\u00f6rtern. Verbinde Google Gemini, OpenAI, Mistral oder OpenRouter, um nach Bedeutung zu suchen."
             ],
             "Building meanings is paused:": [
-                "Die Erstellung von Bedeutungen ist pausiert:"
+                "Bedeutungen erstellen ist pausiert:"
             ],
             "Re-read the whole site": [
-                "Gesamte Website neu einlesen"
+                "Lies die gesamte Website neu ein"
             ],
             "Rebuild all meanings": [
-                "Alle Bedeutungen neu erstellen"
+                "Alle Bedeutungen neu aufbauen"
             ],
             "Filter by title or address": [
                 "Nach Titel oder Adresse filtern"
@@ -359,10 +359,10 @@
                 "Passagen"
             ],
             "by meaning": [
-                "nach Bedeutung"
+                "Nach Bedeutung"
             ],
             "Rebuild meaning": [
-                "Bedeutung neu erstellen"
+                "Bedeutung neu aufbauen"
             ],
             "Done \u2713": [
                 "Fertig \u2713"
