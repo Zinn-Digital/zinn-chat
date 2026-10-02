@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.10.1
+Stable tag: 2.10.2
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -141,6 +141,9 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.10.2 =
+* New: two wp-config.php switches for the Zinn Digital® panel. define( 'ZINN_CHAT_PROMO', false ); removes the panel (dashboard widget, settings block and footer), and define( 'ZINN_CHAT_PROMO_HOSTING_URL', 'https://…' ); points its hosting offer at another https address.
 
 = 2.10.1 =
 * Security: the AI-app sign-in (MCP OAuth) checks a client's metadata address more strictly before fetching it (a public web address only, a limit per address, and a refused address remembered).
