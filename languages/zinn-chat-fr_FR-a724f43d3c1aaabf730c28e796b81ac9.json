@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-02T02:20:48+00:00",
+    "translation-revision-date": "2026-10-02T10:31:26+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/pro__premium_only\/admin-pro.js",
     "domain": "messages",
@@ -79,7 +79,7 @@
                 "%d jours"
             ],
             "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
-                "Ce navigateur ne peut pas recevoir de notifications push ici. Sur un iPhone, ajoutez d'abord la bo\u00eete de r\u00e9ception \u00e0 votre \u00e9cran d'accueil."
+                "Ce navigateur ne peut pas recevoir de notifications push ici. Sur un iPhone, ajoutez d\u2019abord la bo\u00eete de r\u00e9ception \u00e0 votre \u00e9cran d\u2019accueil."
             ],
             "Notifications are blocked for this site in the browser settings.": [
                 "Les notifications sont bloqu\u00e9es pour ce site dans les param\u00e8tres du navigateur."
@@ -103,7 +103,7 @@
                 "Application pour t\u00e9l\u00e9phone et notifications"
             ],
             "Install this Inbox as an app: in Chrome or Edge choose Install in the address bar or menu; on an iPhone or iPad tap Share, then Add to Home Screen. It opens full screen, ready to answer.": [
-                "Installez cette bo\u00eete de r\u00e9ception sous forme d'application : dans Chrome ou Edge, choisissez Installer dans la barre d'adresse ou le menu ; sur un iPhone ou un iPad, appuyez sur Partager, puis sur Sur l'\u00e9cran d'accueil. Elle s'ouvre en plein \u00e9cran, pr\u00eate pour r\u00e9pondre."
+                "Installez cette bo\u00eete de r\u00e9ception sous forme d\u2019application\u00a0: dans Chrome ou Edge, choisissez Installer dans la barre d\u2019adresse ou le menu\u00a0; sur un iPhone ou un iPad, appuyez sur Partager, puis sur Sur l\u2019\u00e9cran d\u2019accueil. Elle s\u2019ouvre en plein \u00e9cran, pr\u00eate pour r\u00e9pondre."
             ],
             "Turn on notifications on this device": [
                 "Activer les notifications sur cet appareil"
@@ -175,10 +175,10 @@
                 "R\u00e9digez un article de base de connaissances \u00e0 partir de ce ticket"
             ],
             "Write a help page from this ticket": [
-                "R\u00e9digez une page d'aide \u00e0 partir de ce ticket"
+                "R\u00e9digez une page d\u2019aide \u00e0 partir de ce ticket"
             ],
             "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
-                "Utilisez-les depuis les zones de r\u00e9ponse du chat et des tickets (R\u00e9ponses enregistr\u00e9es), ou tapez \/ ainsi que le raccourci, suivi d'un espace. {name}, {first_name}, {agent}, {site} et {ticket} sont automatiquement renseign\u00e9s pour vous."
+                "Utilisez-les depuis les zones de r\u00e9ponse du chat et des tickets (R\u00e9ponses enregistr\u00e9es), ou tapez \/ ainsi que le raccourci, suivi d\u2019un espace. {name}, {first_name}, {agent}, {site} et {ticket} sont automatiquement renseign\u00e9s pour vous."
             ],
             "Shortcut (optional, e.g. refund)": [
                 "Raccourci (facultatif, ex. remboursement)"
@@ -208,10 +208,10 @@
                 "Supprimer cette r\u00e9ponse enregistr\u00e9e\u00a0?"
             ],
             "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
-                "Questions pos\u00e9es par les visiteurs auxquelles votre site n'a pas pu r\u00e9pondre, les plus fr\u00e9quentes en premier. S\u00e9lectionnez-en quelques-unes et laissez l'IA r\u00e9diger un article qui y r\u00e9pond ; publiez-le et l'assistant l'utilisera imm\u00e9diatement."
+                "Questions pos\u00e9es par les visiteurs auxquelles votre site n\u2019a pas pu r\u00e9pondre, les plus fr\u00e9quentes en premier. S\u00e9lectionnez-en quelques-unes et laissez l\u2019IA r\u00e9diger un article qui y r\u00e9pond\u00a0; publiez-le et l\u2019assistant l\u2019utilisera imm\u00e9diatement."
             ],
             "Recording is off (Settings, AI assistant).": [
-                "L'enregistrement est d\u00e9sactiv\u00e9 (R\u00e9glages, Assistant IA)."
+                "L\u2019enregistrement est d\u00e9sactiv\u00e9 (R\u00e9glages, Assistant IA)."
             ],
             "Drafted": [
                 "Brouillon enregistr\u00e9"
@@ -223,10 +223,10 @@
                 "Ignor\u00e9"
             ],
             "Draft a KB article from the selected": [
-                "R\u00e9diger un brouillon d'article de base de connaissances \u00e0 partir de la s\u00e9lection"
+                "R\u00e9diger un brouillon d\u2019article de base de connaissances \u00e0 partir de la s\u00e9lection"
             ],
             "Draft a help page from the selected": [
-                "R\u00e9diger un brouillon de page d'aide \u00e0 partir de la s\u00e9lection"
+                "R\u00e9diger un brouillon de page d\u2019aide \u00e0 partir de la s\u00e9lection"
             ],
             "Mark answered": [
                 "Marquer comme r\u00e9solu"
@@ -274,13 +274,13 @@
                 "12 derniers mois"
             ],
             "%s%% answered by the assistant alone": [
-                "%s%% r\u00e9pondu uniquement par l'assistant"
+                "%s%% r\u00e9pondu uniquement par l\u2019assistant"
             ],
             "Handed to a person": [
                 "Remis en main propre"
             ],
             "median wait %s": [
-                "temps d'attente m\u00e9dian %s"
+                "temps d\u2019attente m\u00e9dian %s"
             ],
             "Tickets opened": [
                 "Tickets ouverts"
@@ -310,7 +310,7 @@
                 "%1$d \u00e0 \u00e9ch\u00e9ance, %2$d manqu\u00e9(s)"
             ],
             "Assistant answers rated": [
-                "R\u00e9ponses de l'assistant \u00e9valu\u00e9es"
+                "R\u00e9ponses de l\u2019assistant \u00e9valu\u00e9es"
             ],
             "helpful \/ rated": [
                 "utile \/ not\u00e9"
@@ -334,7 +334,7 @@
                 "Sujets principaux"
             ],
             "Where tickets came from": [
-                "D'o\u00f9 proviennent les tickets"
+                "D\u2019o\u00f9 proviennent les tickets"
             ]
         }
     }

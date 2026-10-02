@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-02T02:20:48+00:00",
+    "translation-revision-date": "2026-10-02T10:31:26+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -23,10 +23,10 @@
                 "Corriger"
             ],
             "AI providers": [
-                "Fournisseurs d'IA"
+                "Fournisseurs d\u2019IA"
             ],
             "Test the assistant": [
-                "Tester l'assistant"
+                "Tester l\u2019assistant"
             ],
             "Status": [
                 "\u00c9tat"
@@ -113,10 +113,10 @@
                 "Note interne"
             ],
             "With the assistant": [
-                "Avec l'assistant"
+                "Avec l\u2019assistant"
             ],
             "Waiting for a person": [
-                "En attente d'une personne"
+                "En attente d\u2019une personne"
             ],
             "With an agent": [
                 "Avec un conseiller"
@@ -137,7 +137,7 @@
                 "N\u00e9cessite une personne"
             ],
             "Choose a chat on the left. You can open several; each keeps its own draft.": [
-                "Choisissez une discussion sur la gauche. Vous pouvez en ouvrir plusieurs ; chacune conserve son propre brouillon."
+                "Choisissez une discussion sur la gauche. Vous pouvez en ouvrir plusieurs\u00a0; chacune conserve son propre brouillon."
             ],
             "A visitor is waiting": [
                 "Un visiteur attend"
@@ -182,10 +182,10 @@
                 "Cr\u00e9er un ticket"
             ],
             "The visitor's email address": [
-                "L'adresse e-mail du visiteur"
+                "L\u2019adresse e-mail du visiteur"
             ],
             "The visitor is typing\u2026": [
-                "Le visiteur est en train d'\u00e9crire\u2026"
+                "Le visiteur est en train d\u2019\u00e9crire\u2026"
             ],
             "New ticket": [
                 "Nouveau ticket"
@@ -230,13 +230,13 @@
                 "Note interne (le client ne la voit pas)"
             ],
             "then: waiting for customer": [
-                "ensuite : en attente du client"
+                "ensuite\u00a0: en attente du client"
             ],
             "then: solved": [
-                "alors : r\u00e9solu"
+                "alors\u00a0: r\u00e9solu"
             ],
             "then: keep open": [
-                "ensuite : laisser ouvert"
+                "ensuite\u00a0: laisser ouvert"
             ],
             "#%1$d %2$s": [
                 "#%1$d %2$s"
@@ -266,10 +266,10 @@
                 "Supprimer ce ticket et tous ses messages\u00a0?"
             ],
             "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
-                "Demandez ce que vos visiteurs demandent. Vous voyez la r\u00e9ponse et chaque page trouv\u00e9e, avec le niveau de correspondance de chacune, la date de leur derni\u00e8re mise \u00e0 jour, ainsi que des avertissements pour les pages semblant obsol\u00e8tes. Corrigez une page, cliquez sur \u00ab Relire \u00bb, puis posez de nouveau la question."
+                "Demandez ce que vos visiteurs demandent. Vous voyez la r\u00e9ponse et chaque page trouv\u00e9e, avec le niveau de correspondance de chacune, la date de leur derni\u00e8re mise \u00e0 jour, ainsi que des avertissements pour les pages semblant obsol\u00e8tes. Corrigez une page, cliquez sur \u00ab\u00a0Relire\u00a0\u00bb, puis posez de nouveau la question."
             ],
             "For example: What is your returns policy?": [
-                "Par exemple : quelle est votre politique de retour ?"
+                "Par exemple\u00a0: quelle est votre politique de retour\u00a0?"
             ],
             "Ask": [
                 "Demander"
@@ -287,19 +287,19 @@
                 "Demande en cours\u2026"
             ],
             "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
-                "R\u00e9sultat : %1$s \u00b7 Recherche : %2$s \u00b7 Jetons : %3$d en entr\u00e9e, %4$d en sortie"
+                "R\u00e9sultat\u00a0: %1$s \u00b7 Recherche\u00a0: %2$s \u00b7 Jetons\u00a0: %3$d en entr\u00e9e, %4$d en sortie"
             ],
             "by meaning and words": [
                 "Par signification et par mots"
             ],
             "by words only (no embedding key)": [
-                "par mots uniquement (aucune cl\u00e9 d'int\u00e9gration)"
+                "par mots uniquement (aucune cl\u00e9 d\u2019int\u00e9gration)"
             ],
             "nothing indexed": [
-                "rien d'index\u00e9"
+                "rien d\u2019index\u00e9"
             ],
             "The AI is not set up yet or could not answer.": [
-                "L'IA n'est pas encore configur\u00e9e ou n'a pas pu r\u00e9pondre."
+                "L\u2019IA n\u2019est pas encore configur\u00e9e ou n\u2019a pas pu r\u00e9pondre."
             ],
             "Sources found (%d)": [
                 "Sources trouv\u00e9es (%d)"
@@ -323,16 +323,16 @@
                 "Relire"
             ],
             "What the assistant has read": [
-                "Ce que l'assistant a lu"
+                "Ce que l\u2019assistant a lu"
             ],
             "%1$d pages read \u00b7 %2$d waiting \u00b7 %3$d with errors \u00b7 %4$d passages \u00b7 %5$d understood by meaning": [
                 "%1$d pages lues \u00b7 %2$d en attente \u00b7 %3$d avec des erreurs \u00b7 %4$d passages \u00b7 %5$d compris par le sens"
             ],
             "Embedding model: %s": [
-                "Mod\u00e8le d'int\u00e9gration : %s"
+                "Mod\u00e8le d\u2019int\u00e9gration\u00a0: %s"
             ],
             "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
-                "Aucun mod\u00e8le d'int\u00e9gration : la recherche s'effectue uniquement par mots. Connectez Google Gemini, OpenAI, Mistral ou OpenRouter pour effectuer des recherches par sens."
+                "Aucun mod\u00e8le d\u2019int\u00e9gration\u00a0: la recherche s\u2019effectue uniquement par mots. Connectez Google Gemini, OpenAI, Mistral ou OpenRouter pour effectuer des recherches par sens."
             ],
             "Building meanings is paused:": [
                 "La construction des significations est en pause\u00a0:"

@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-02T02:20:47+00:00",
+    "translation-revision-date": "2026-10-02T10:31:26+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -269,7 +269,7 @@
                 "Zapytaj o to, o co pytaj\u0105 twoi go\u015bcie. Zobaczysz odpowied\u017a i ka\u017cd\u0105 znalezion\u0105 stron\u0119 wraz z informacj\u0105, jak dobrze pasowa\u0142a, kiedy by\u0142a ostatnio aktualizowana, oraz ostrze\u017ceniami dotycz\u0105cymi stron, kt\u00f3re wygl\u0105daj\u0105 na nieaktualne. Popraw stron\u0119, naci\u015bnij \u201ePrzeczytaj ponownie\u201d i zapytaj jeszcze raz."
             ],
             "For example: What is your returns policy?": [
-                "Na przyk\u0142ad: Jakie s\u0105 Twoje zasady zwrot\u00f3w?"
+                "Na przyk\u0142ad: Jakie s\u0105 twoje zasady zwrot\u00f3w?"
             ],
             "Ask": [
                 "Zapytaj"

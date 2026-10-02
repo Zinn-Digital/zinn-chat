@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-02T02:20:47+00:00",
+    "translation-revision-date": "2026-10-02T10:31:26+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -185,7 +185,7 @@
                 "Adresa de e-mail a vizitatorului"
             ],
             "The visitor is typing\u2026": [
-                "Vizitatorul scrie..."
+                "Vizitatorul scrie\u2026"
             ],
             "New ticket": [
                 "Ticket nou"

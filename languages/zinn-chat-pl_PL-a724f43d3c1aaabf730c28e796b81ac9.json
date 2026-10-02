@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-02T02:20:47+00:00",
+    "translation-revision-date": "2026-10-02T10:31:26+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/pro__premium_only\/admin-pro.js",
     "domain": "messages",
@@ -178,7 +178,7 @@
                 "Napisz stron\u0119 pomocy na podstawie tego zg\u0142oszenia"
             ],
             "Use them from the chat and ticket reply boxes (Saved replies), or type \/ and the shortcut, then a space. {name}, {first_name}, {agent}, {site} and {ticket} are filled in for you.": [
-                "U\u017cyj ich z p\u00f3l odpowiedzi na czacie i w zg\u0142oszeniach (Zapisane odpowiedzi) lub wpisz \/ oraz skr\u00f3t, a nast\u0119pnie spacj\u0119. {name}, {first_name}, {agent}, {site} i {ticket} zostan\u0105 uzupe\u0142nione za Ciebie."
+                "U\u017cyj ich z p\u00f3l odpowiedzi na czacie i w zg\u0142oszeniach (Zapisane odpowiedzi) lub wpisz \/ oraz skr\u00f3t, a nast\u0119pnie spacj\u0119. {name}, {first_name}, {agent}, {site} i {ticket} zostan\u0105 uzupe\u0142nione za ciebie."
             ],
             "Shortcut (optional, e.g. refund)": [
                 "Skr\u00f3t (opcjonalnie, np. zwrot \u015brodk\u00f3w)"
@@ -208,7 +208,7 @@
                 "Usun\u0105\u0107 t\u0119 zapisan\u0105 odpowied\u017a?"
             ],
             "Questions visitors asked that your site could not answer, most asked first. Select some and let the AI draft an article that answers them; publish it and the assistant uses it at once.": [
-                "Pytania zadane przez u\u017cytkownik\u00f3w, na kt\u00f3re Twoja witryna nie mog\u0142a odpowiedzie\u0107, najcz\u0119stsze na pocz\u0105tku. Zaznacz wybrane i pozw\u00f3l sztucznej inteligencji przygotowa\u0107 szkic artyku\u0142u, kt\u00f3ry na nie odpowiada; opublikuj go, a asystent od razu z niego skorzysta."
+                "Pytania zadane przez u\u017cytkownik\u00f3w, na kt\u00f3re twoja witryna nie mog\u0142a odpowiedzie\u0107, najcz\u0119stsze na pocz\u0105tku. Zaznacz wybrane i pozw\u00f3l sztucznej inteligencji przygotowa\u0107 szkic artyku\u0142u, kt\u00f3ry na nie odpowiada; opublikuj go, a asystent od razu z niego skorzysta."
             ],
             "Recording is off (Settings, AI assistant).": [
                 "Nagrywanie jest wy\u0142\u0105czone (Ustawienia, Asystent AI)."

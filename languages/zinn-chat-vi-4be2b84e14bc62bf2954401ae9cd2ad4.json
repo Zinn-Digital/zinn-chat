@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-02T02:20:48+00:00",
+    "translation-revision-date": "2026-10-02T10:31:26+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -185,7 +185,7 @@
                 "\u0110\u1ecba ch\u1ec9 email c\u1ee7a kh\u00e1ch truy c\u1eadp"
             ],
             "The visitor is typing\u2026": [
-                "Kh\u00e1ch truy c\u1eadp \u0111ang nh\u1eadp..."
+                "Kh\u00e1ch truy c\u1eadp \u0111ang nh\u1eadp\u2026"
             ],
             "New ticket": [
                 "Y\u00eau c\u1ea7u h\u1ed7 tr\u1ee3 m\u1edbi"
@@ -284,7 +284,7 @@
                 "\u0110\u1ecdc l\u1ea1i \u2713"
             ],
             "Asking\u2026": [
-                "\u0110ang h\u1ecfi..."
+                "\u0110ang h\u1ecfi\u2026"
             ],
             "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
                 "K\u1ebft qu\u1ea3: %1$s \u00b7 T\u00ecm ki\u1ebfm: %2$s \u00b7 Token: %3$d \u0111\u1ea7u v\u00e0o, %4$d \u0111\u1ea7u ra"

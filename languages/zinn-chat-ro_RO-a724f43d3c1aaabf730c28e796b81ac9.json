@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-02T02:20:47+00:00",
+    "translation-revision-date": "2026-10-02T10:31:26+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/pro__premium_only\/admin-pro.js",
     "domain": "messages",
@@ -124,7 +124,7 @@
                 "Sugera\u021bi un r\u0103spuns"
             ],
             "Drafting\u2026": [
-                "Se redacteaz\u0103..."
+                "Se redacteaz\u0103\u2026"
             ],
             "Replace what you have typed with the suggestion?": [
                 "\u00cenlocui\u021bi ceea ce a\u021bi tastat cu sugestia?"
