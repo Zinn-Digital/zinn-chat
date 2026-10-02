@@ -62,7 +62,19 @@
       "input_schema": {
         "type": "object",
         "additionalProperties": true,
-        "default": {}
+        "properties": {
+          "question": {
+            "type": "string",
+            "description": "The question, as a visitor would ask it (up to 2,000 characters)."
+          },
+          "language": {
+            "type": "string",
+            "description": "Language code of the answer, e.g. de; the site language when omitted."
+          }
+        },
+        "required": [
+          "question"
+        ]
       },
       "output_schema": {},
       "rest": {
@@ -207,7 +219,29 @@
       "input_schema": {
         "type": "object",
         "additionalProperties": true,
-        "default": {}
+        "properties": {
+          "email": {
+            "type": "string",
+            "description": "The customer's email address; replies go there."
+          },
+          "subject": {
+            "type": "string",
+            "description": "The ticket subject."
+          },
+          "body": {
+            "type": "string",
+            "description": "The first message of the ticket."
+          },
+          "name": {
+            "type": "string",
+            "description": "The customer's name."
+          }
+        },
+        "required": [
+          "email",
+          "subject",
+          "body"
+        ]
       },
       "output_schema": {},
       "rest": {
@@ -292,7 +326,15 @@
       "input_schema": {
         "type": "object",
         "additionalProperties": true,
-        "default": {}
+        "properties": {
+          "ticket": {
+            "type": "integer",
+            "description": "ID of the solved ticket the article is drafted from."
+          }
+        },
+        "required": [
+          "ticket"
+        ]
       },
       "output_schema": {},
       "rest": {
@@ -315,7 +357,18 @@
       "input_schema": {
         "type": "object",
         "additionalProperties": true,
-        "default": {}
+        "properties": {
+          "ids": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            },
+            "description": "IDs of the knowledge gaps to cover in one draft."
+          }
+        },
+        "required": [
+          "ids"
+        ]
       },
       "output_schema": {},
       "rest": {
@@ -466,6 +519,14 @@
       "input_schema": {
         "type": "object",
         "additionalProperties": true,
+        "properties": {
+          "days": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 365,
+            "description": "How many days back the report covers; 30 when omitted."
+          }
+        },
         "default": {}
       },
       "output_schema": {},
@@ -574,6 +635,18 @@
       "input_schema": {
         "type": "object",
         "additionalProperties": true,
+        "properties": {
+          "view": {
+            "type": "string",
+            "enum": [
+              "active",
+              "bot",
+              "closed",
+              "all"
+            ],
+            "description": "Which chats: active (default), with the AI assistant, closed, or all."
+          }
+        },
         "default": {}
       },
       "output_schema": {},
@@ -597,6 +670,26 @@
       "input_schema": {
         "type": "object",
         "additionalProperties": true,
+        "properties": {
+          "search": {
+            "type": "string",
+            "description": "Words in the title or URL."
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "indexed",
+              "pending",
+              "error"
+            ],
+            "description": "Only items in this state; every state when omitted."
+          },
+          "page": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Page number, from 1."
+          }
+        },
         "default": {}
       },
       "output_schema": {},
@@ -620,6 +713,24 @@
       "input_schema": {
         "type": "object",
         "additionalProperties": true,
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "open",
+              "drafted",
+              "answered",
+              "ignored",
+              "all"
+            ],
+            "description": "Which gaps: open (default), drafted, answered, ignored or all."
+          },
+          "page": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Page number, from 1."
+          }
+        },
         "default": {}
       },
       "output_schema": {},
@@ -643,6 +754,29 @@
       "input_schema": {
         "type": "object",
         "additionalProperties": true,
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "active",
+              "open",
+              "pending",
+              "solved",
+              "closed",
+              "all"
+            ],
+            "description": "Which tickets: active (open and pending, the default), one status, or all."
+          },
+          "search": {
+            "type": "string",
+            "description": "Words in the subject, the customer's name or email."
+          },
+          "page": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Page number, from 1."
+          }
+        },
         "default": {}
       },
       "output_schema": {},
@@ -666,6 +800,16 @@
       "input_schema": {
         "type": "object",
         "additionalProperties": true,
+        "properties": {
+          "all": {
+            "type": "boolean",
+            "description": "True: every indexed item; otherwise only item_id."
+          },
+          "item_id": {
+            "type": "integer",
+            "description": "ID of one indexed item."
+          }
+        },
         "default": {}
       },
       "output_schema": {},
@@ -689,6 +833,16 @@
       "input_schema": {
         "type": "object",
         "additionalProperties": true,
+        "properties": {
+          "all": {
+            "type": "boolean",
+            "description": "True: the whole site; otherwise only item_id."
+          },
+          "item_id": {
+            "type": "integer",
+            "description": "ID of one indexed item."
+          }
+        },
         "default": {}
       },
       "output_schema": {},
@@ -743,7 +897,32 @@
       "input_schema": {
         "type": "object",
         "additionalProperties": true,
-        "default": {}
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "ID of the saved reply to change; a new one when omitted."
+          },
+          "title": {
+            "type": "string",
+            "description": "The saved reply's title."
+          },
+          "body": {
+            "type": "string",
+            "description": "The reply text."
+          },
+          "shortcut": {
+            "type": "string",
+            "description": "Short code agents type to insert it (letters, digits, - and _)."
+          },
+          "department": {
+            "type": "string",
+            "description": "Department it belongs to; every department when empty."
+          }
+        },
+        "required": [
+          "title",
+          "body"
+        ]
       },
       "output_schema": {},
       "rest": {
@@ -822,7 +1001,15 @@
       "input_schema": {
         "type": "object",
         "additionalProperties": true,
-        "default": {}
+        "properties": {
+          "q": {
+            "type": "string",
+            "description": "Words to search the help articles for."
+          }
+        },
+        "required": [
+          "q"
+        ]
       },
       "output_schema": {},
       "rest": {
@@ -845,7 +1032,34 @@
       "input_schema": {
         "type": "object",
         "additionalProperties": true,
-        "default": {}
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "ticket",
+              "chat"
+            ],
+            "description": "Whether id is a ticket (default) or a chat."
+          },
+          "id": {
+            "type": "integer",
+            "description": "ID of the ticket or chat."
+          },
+          "department": {
+            "type": "string",
+            "description": "Department name; empty clears it."
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Tags, replacing the current ones."
+          }
+        },
+        "required": [
+          "id"
+        ]
       },
       "output_schema": {},
       "rest": {
@@ -868,7 +1082,29 @@
       "input_schema": {
         "type": "object",
         "additionalProperties": true,
-        "default": {}
+        "properties": {
+          "ids": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            },
+            "description": "IDs of the knowledge gaps."
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "open",
+              "drafted",
+              "answered",
+              "ignored"
+            ],
+            "description": "The new state of the gaps."
+          }
+        },
+        "required": [
+          "ids",
+          "status"
+        ]
       },
       "output_schema": {},
       "rest": {
@@ -891,6 +1127,12 @@
       "input_schema": {
         "type": "object",
         "additionalProperties": true,
+        "properties": {
+          "away": {
+            "type": "boolean",
+            "description": "True marks the agent away; False (default) available."
+          }
+        },
         "default": {}
       },
       "output_schema": {},
@@ -914,7 +1156,23 @@
       "input_schema": {
         "type": "object",
         "additionalProperties": true,
-        "default": {}
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "ticket",
+              "chat"
+            ],
+            "description": "Whether id is a ticket (default) or a chat."
+          },
+          "id": {
+            "type": "integer",
+            "description": "ID of the ticket or chat."
+          }
+        },
+        "required": [
+          "id"
+        ]
       },
       "output_schema": {},
       "rest": {
@@ -937,7 +1195,23 @@
       "input_schema": {
         "type": "object",
         "additionalProperties": true,
-        "default": {}
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "ticket",
+              "chat"
+            ],
+            "description": "Whether id is a ticket (default) or a chat."
+          },
+          "id": {
+            "type": "integer",
+            "description": "ID of the ticket or chat."
+          }
+        },
+        "required": [
+          "id"
+        ]
       },
       "output_schema": {},
       "rest": {

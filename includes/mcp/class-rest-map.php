@@ -26,7 +26,7 @@ final class Rest_Map {
 	/**
 	 * The entries. Called on `wp_abilities_api_init`, when translations are loaded.
 	 *
-	 * @return array<int, array<string, string>>
+	 * @return array<int, array<string, mixed>>
 	 */
 	public static function entries(): array {
 		return array(
@@ -38,6 +38,17 @@ final class Rest_Map {
 				'description' => __( 'Asks the site\'s AI assistant a question and returns its answer with every source it found.', 'zinn-chat' ),
 				'edition'     => 'free',
 				'capability'  => 'the REST route\'s own per-item permission check',
+				'args'        => array(
+					'question' => array(
+						'type'        => 'string',
+						'required'    => true,
+						'description' => __( 'The question, as a visitor would ask it (up to 2,000 characters).', 'zinn-chat' ),
+					),
+					'language' => array(
+						'type'        => 'string',
+						'description' => __( 'Language code of the answer, e.g. de; the site language when omitted.', 'zinn-chat' ),
+					),
+				),
 			),
 			array(
 				'method'      => 'GET',
@@ -106,6 +117,13 @@ final class Rest_Map {
 				'description' => __( 'Lists the chats waiting, in progress and recently closed, with who is handling each.', 'zinn-chat' ),
 				'edition'     => 'free',
 				'capability'  => 'the REST route\'s own per-item permission check',
+				'args'        => array(
+					'view' => array(
+						'type'        => 'string',
+						'enum'        => array( 'active', 'bot', 'closed', 'all' ),
+						'description' => __( 'Which chats: active (default), with the AI assistant, closed, or all.', 'zinn-chat' ),
+					),
+				),
 			),
 			array(
 				'method'      => 'GET',
@@ -115,6 +133,22 @@ final class Rest_Map {
 				'description' => __( 'Lists the content the assistant answers from, with its index status, a page at a time.', 'zinn-chat' ),
 				'edition'     => 'free',
 				'capability'  => 'the REST route\'s own per-item permission check',
+				'args'        => array(
+					'search' => array(
+						'type'        => 'string',
+						'description' => __( 'Words in the title or URL.', 'zinn-chat' ),
+					),
+					'status' => array(
+						'type'        => 'string',
+						'enum'        => array( 'indexed', 'pending', 'error' ),
+						'description' => __( 'Only items in this state; every state when omitted.', 'zinn-chat' ),
+					),
+					'page'   => array(
+						'type'        => 'integer',
+						'minimum'     => 1,
+						'description' => __( 'Page number, from 1.', 'zinn-chat' ),
+					),
+				),
 			),
 			array(
 				'method'      => 'POST',
@@ -124,6 +158,16 @@ final class Rest_Map {
 				'description' => __( 'Rebuilds the search vectors for one item (item_id) or everything (all: true) (managers only).', 'zinn-chat' ),
 				'edition'     => 'free',
 				'capability'  => 'the REST route\'s own per-item permission check',
+				'args'        => array(
+					'all'     => array(
+						'type'        => 'boolean',
+						'description' => __( 'True: every indexed item; otherwise only item_id.', 'zinn-chat' ),
+					),
+					'item_id' => array(
+						'type'        => 'integer',
+						'description' => __( 'ID of one indexed item.', 'zinn-chat' ),
+					),
+				),
 			),
 			array(
 				'method'      => 'POST',
@@ -133,6 +177,16 @@ final class Rest_Map {
 				'description' => __( 'Re-reads one item (item_id) or everything (all: true) into the assistant\'s index (managers only).', 'zinn-chat' ),
 				'edition'     => 'free',
 				'capability'  => 'the REST route\'s own per-item permission check',
+				'args'        => array(
+					'all'     => array(
+						'type'        => 'boolean',
+						'description' => __( 'True: the whole site; otherwise only item_id.', 'zinn-chat' ),
+					),
+					'item_id' => array(
+						'type'        => 'integer',
+						'description' => __( 'ID of one indexed item.', 'zinn-chat' ),
+					),
+				),
 			),
 			array(
 				'method'      => 'POST',
@@ -142,6 +196,12 @@ final class Rest_Map {
 				'description' => __( 'Marks the signed-in agent available or away for new chats (away: true or false).', 'zinn-chat' ),
 				'edition'     => 'free',
 				'capability'  => 'the REST route\'s own per-item permission check',
+				'args'        => array(
+					'away' => array(
+						'type'        => 'boolean',
+						'description' => __( 'True marks the agent away; False (default) available.', 'zinn-chat' ),
+					),
+				),
 			),
 			array(
 				'method'      => 'GET',
@@ -151,6 +211,22 @@ final class Rest_Map {
 				'description' => __( 'Lists support tickets, filtered by status or a search, a page at a time.', 'zinn-chat' ),
 				'edition'     => 'free',
 				'capability'  => 'the REST route\'s own per-item permission check',
+				'args'        => array(
+					'status' => array(
+						'type'        => 'string',
+						'enum'        => array( 'active', 'open', 'pending', 'solved', 'closed', 'all' ),
+						'description' => __( 'Which tickets: active (open and pending, the default), one status, or all.', 'zinn-chat' ),
+					),
+					'search' => array(
+						'type'        => 'string',
+						'description' => __( 'Words in the subject, the customer\'s name or email.', 'zinn-chat' ),
+					),
+					'page'   => array(
+						'type'        => 'integer',
+						'minimum'     => 1,
+						'description' => __( 'Page number, from 1.', 'zinn-chat' ),
+					),
+				),
 			),
 			array(
 				'method'      => 'POST',
@@ -160,6 +236,27 @@ final class Rest_Map {
 				'description' => __( 'Opens a ticket on a customer\'s behalf (their email, a subject and the first message).', 'zinn-chat' ),
 				'edition'     => 'free',
 				'capability'  => 'the REST route\'s own per-item permission check',
+				'args'        => array(
+					'email'   => array(
+						'type'        => 'string',
+						'required'    => true,
+						'description' => __( 'The customer\'s email address; replies go there.', 'zinn-chat' ),
+					),
+					'subject' => array(
+						'type'        => 'string',
+						'required'    => true,
+						'description' => __( 'The ticket subject.', 'zinn-chat' ),
+					),
+					'body'    => array(
+						'type'        => 'string',
+						'required'    => true,
+						'description' => __( 'The first message of the ticket.', 'zinn-chat' ),
+					),
+					'name'    => array(
+						'type'        => 'string',
+						'description' => __( 'The customer\'s name.', 'zinn-chat' ),
+					),
+				),
 			),
 			array(
 				'method'      => 'DELETE',
@@ -269,6 +366,30 @@ final class Rest_Map {
 				'description' => __( 'Creates or changes a saved reply (title, shortcut, body, department; id to change one).', 'zinn-chat' ),
 				'edition'     => 'pro',
 				'capability'  => 'the REST route\'s own per-item permission check',
+				'args'        => array(
+					'id'         => array(
+						'type'        => 'integer',
+						'description' => __( 'ID of the saved reply to change; a new one when omitted.', 'zinn-chat' ),
+					),
+					'title'      => array(
+						'type'        => 'string',
+						'required'    => true,
+						'description' => __( 'The saved reply\'s title.', 'zinn-chat' ),
+					),
+					'body'       => array(
+						'type'        => 'string',
+						'required'    => true,
+						'description' => __( 'The reply text.', 'zinn-chat' ),
+					),
+					'shortcut'   => array(
+						'type'        => 'string',
+						'description' => __( 'Short code agents type to insert it (letters, digits, - and _).', 'zinn-chat' ),
+					),
+					'department' => array(
+						'type'        => 'string',
+						'description' => __( 'Department it belongs to; every department when empty.', 'zinn-chat' ),
+					),
+				),
 			),
 			array(
 				'method'      => 'DELETE',
@@ -296,6 +417,27 @@ final class Rest_Map {
 				'description' => __( 'Sets the department and tags of a chat or ticket (kind: chat or ticket; id).', 'zinn-chat' ),
 				'edition'     => 'pro',
 				'capability'  => 'the REST route\'s own per-item permission check',
+				'args'        => array(
+					'kind'       => array(
+						'type'        => 'string',
+						'enum'        => array( 'ticket', 'chat' ),
+						'description' => __( 'Whether id is a ticket (default) or a chat.', 'zinn-chat' ),
+					),
+					'id'         => array(
+						'type'        => 'integer',
+						'required'    => true,
+						'description' => __( 'ID of the ticket or chat.', 'zinn-chat' ),
+					),
+					'department' => array(
+						'type'        => 'string',
+						'description' => __( 'Department name; empty clears it.', 'zinn-chat' ),
+					),
+					'tags'       => array(
+						'type'        => 'array',
+						'items'       => array( 'type' => 'string' ),
+						'description' => __( 'Tags, replacing the current ones.', 'zinn-chat' ),
+					),
+				),
 			),
 			array(
 				'method'      => 'GET',
@@ -305,6 +447,18 @@ final class Rest_Map {
 				'description' => __( 'Lists the questions visitors asked that the knowledge base could not answer.', 'zinn-chat' ),
 				'edition'     => 'pro',
 				'capability'  => 'the REST route\'s own per-item permission check',
+				'args'        => array(
+					'status' => array(
+						'type'        => 'string',
+						'enum'        => array( 'open', 'drafted', 'answered', 'ignored', 'all' ),
+						'description' => __( 'Which gaps: open (default), drafted, answered, ignored or all.', 'zinn-chat' ),
+					),
+					'page'   => array(
+						'type'        => 'integer',
+						'minimum'     => 1,
+						'description' => __( 'Page number, from 1.', 'zinn-chat' ),
+					),
+				),
 			),
 			array(
 				'method'      => 'POST',
@@ -314,6 +468,14 @@ final class Rest_Map {
 				'description' => __( 'Writes draft knowledge-base articles answering the chosen questions (ids); they stay drafts.', 'zinn-chat' ),
 				'edition'     => 'pro',
 				'capability'  => 'edit_posts (the REST route\'s own check)',
+				'args'        => array(
+					'ids' => array(
+						'type'        => 'array',
+						'items'       => array( 'type' => 'integer' ),
+						'required'    => true,
+						'description' => __( 'IDs of the knowledge gaps to cover in one draft.', 'zinn-chat' ),
+					),
+				),
 			),
 			array(
 				'method'      => 'POST',
@@ -323,6 +485,20 @@ final class Rest_Map {
 				'description' => __( 'Marks unanswered questions as open, planned or dismissed (ids, status).', 'zinn-chat' ),
 				'edition'     => 'pro',
 				'capability'  => 'the REST route\'s own per-item permission check',
+				'args'        => array(
+					'ids'    => array(
+						'type'        => 'array',
+						'items'       => array( 'type' => 'integer' ),
+						'required'    => true,
+						'description' => __( 'IDs of the knowledge gaps.', 'zinn-chat' ),
+					),
+					'status' => array(
+						'type'        => 'string',
+						'enum'        => array( 'open', 'drafted', 'answered', 'ignored' ),
+						'required'    => true,
+						'description' => __( 'The new state of the gaps.', 'zinn-chat' ),
+					),
+				),
 			),
 			array(
 				'method' => 'POST',
@@ -337,6 +513,13 @@ final class Rest_Map {
 				'description' => __( 'Writes a draft knowledge-base article from a solved ticket; it stays a draft until a person publishes it.', 'zinn-chat' ),
 				'edition'     => 'pro',
 				'capability'  => 'edit_posts (the REST route\'s own check)',
+				'args'        => array(
+					'ticket' => array(
+						'type'        => 'integer',
+						'required'    => true,
+						'description' => __( 'ID of the solved ticket the article is drafted from.', 'zinn-chat' ),
+					),
+				),
 			),
 			array(
 				'method'      => 'GET',
@@ -346,6 +529,13 @@ final class Rest_Map {
 				'description' => __( 'Finds help articles to link in a reply (q: the search).', 'zinn-chat' ),
 				'edition'     => 'pro',
 				'capability'  => 'the REST route\'s own per-item permission check',
+				'args'        => array(
+					'q' => array(
+						'type'        => 'string',
+						'required'    => true,
+						'description' => __( 'Words to search the help articles for.', 'zinn-chat' ),
+					),
+				),
 			),
 			array(
 				'method' => 'POST',
@@ -375,6 +565,14 @@ final class Rest_Map {
 				'description' => __( 'Returns chat and ticket numbers, response times and ratings for the last N days (days).', 'zinn-chat' ),
 				'edition'     => 'pro',
 				'capability'  => 'the REST route\'s own per-item permission check',
+				'args'        => array(
+					'days' => array(
+						'type'        => 'integer',
+						'minimum'     => 1,
+						'maximum'     => 365,
+						'description' => __( 'How many days back the report covers; 30 when omitted.', 'zinn-chat' ),
+					),
+				),
 			),
 			array(
 				'method'      => 'POST',
@@ -384,6 +582,18 @@ final class Rest_Map {
 				'description' => __( 'Drafts a reply to a chat or ticket from the site\'s content; nothing is sent.', 'zinn-chat' ),
 				'edition'     => 'pro',
 				'capability'  => 'the REST route\'s own per-item permission check',
+				'args'        => array(
+					'kind' => array(
+						'type'        => 'string',
+						'enum'        => array( 'ticket', 'chat' ),
+						'description' => __( 'Whether id is a ticket (default) or a chat.', 'zinn-chat' ),
+					),
+					'id'   => array(
+						'type'        => 'integer',
+						'required'    => true,
+						'description' => __( 'ID of the ticket or chat.', 'zinn-chat' ),
+					),
+				),
 			),
 			array(
 				'method'      => 'POST',
@@ -393,6 +603,18 @@ final class Rest_Map {
 				'description' => __( 'Summarises a chat or ticket in a few lines.', 'zinn-chat' ),
 				'edition'     => 'pro',
 				'capability'  => 'the REST route\'s own per-item permission check',
+				'args'        => array(
+					'kind' => array(
+						'type'        => 'string',
+						'enum'        => array( 'ticket', 'chat' ),
+						'description' => __( 'Whether id is a ticket (default) or a chat.', 'zinn-chat' ),
+					),
+					'id'   => array(
+						'type'        => 'integer',
+						'required'    => true,
+						'description' => __( 'ID of the ticket or chat.', 'zinn-chat' ),
+					),
+				),
 			),
 			array(
 				'method' => 'POST',

@@ -2,14 +2,14 @@
 # This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Zinn® Chat 2.10.5\n"
+"Project-Id-Version: Zinn® Chat 2.10.6\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zinn-chat\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-02T12:57:33+00:00\n"
+"POT-Creation-Date: 2026-10-02T18:01:23+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: zinn-chat\n"
@@ -129,7 +129,7 @@ msgid "Connect to Zinn Digital®"
 msgstr ""
 
 #: includes/admin/class-settings-page.php:54
-#: includes/mcp-kit/class-server.php:237
+#: includes/mcp-kit/class-server.php:314
 msgid "AI agents (MCP)"
 msgstr ""
 
@@ -400,12 +400,12 @@ msgid "From the Zinn® app: Live chat, then your widget. Starts with zc_."
 msgstr ""
 
 #: includes/admin/class-settings-page.php:149
-#: includes/mcp-kit/class-server.php:246
+#: includes/mcp-kit/class-server.php:323
 msgid "Allow AI agents (MCP)"
 msgstr ""
 
 #: includes/admin/class-settings-page.php:149
-#: includes/mcp-kit/class-server.php:248
+#: includes/mcp-kit/class-server.php:325
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr ""
 
@@ -3165,7 +3165,7 @@ msgstr ""
 
 #: includes/freemius-strings.php:868
 #: includes/freemius-strings.php:3745
-#: includes/mcp-kit/class-server.php:269
+#: includes/mcp-kit/class-server.php:346
 msgid "Disconnect"
 msgstr ""
 
@@ -6209,114 +6209,118 @@ msgstr ""
 msgid "The action could not be completed. Try again, and if it keeps failing, contact the site administrator."
 msgstr ""
 
-#: includes/mcp-kit/class-oauth.php:657
-#: includes/mcp-kit/class-oauth.php:668
+#: includes/mcp-kit/class-oauth.php:697
+#: includes/mcp-kit/class-oauth.php:708
 msgid "Connect an AI app"
 msgstr ""
 
-#: includes/mcp-kit/class-oauth.php:670
-#: includes/mcp-kit/class-oauth.php:676
-#: includes/mcp-kit/class-oauth.php:717
+#: includes/mcp-kit/class-oauth.php:710
+#: includes/mcp-kit/class-oauth.php:716
+#: includes/mcp-kit/class-oauth.php:757
 msgid "This connection request has expired. Go back to the app and start connecting again."
 msgstr ""
 
 #. translators: 1: the AI app's name, 2: the plugin's MCP server name, 3: the WordPress user's display name.
-#: includes/mcp-kit/class-oauth.php:684
+#: includes/mcp-kit/class-oauth.php:724
 #, php-format
 msgid "%1$s is asking to use %2$s on this site as %3$s. It can do only what your WordPress account is allowed to do, and you can disconnect it at any time from the AI agents (MCP) settings."
 msgstr ""
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:687
+#: includes/mcp-kit/class-oauth.php:727
 #, php-format
 msgid "%1$s identified itself from %2$s."
 msgstr ""
 
 #. translators: 1: the AI app's name, 2: a domain name.
-#: includes/mcp-kit/class-oauth.php:690
+#: includes/mcp-kit/class-oauth.php:730
 #, php-format
 msgid "%1$s registered itself automatically. Only continue if you started this from %2$s."
 msgstr ""
 
-#: includes/mcp-kit/class-oauth.php:694
+#: includes/mcp-kit/class-oauth.php:734
 msgid "Your account cannot use these tools on this site. Ask an administrator."
 msgstr ""
 
 #. translators: %s: a domain name.
-#: includes/mcp-kit/class-oauth.php:697
+#: includes/mcp-kit/class-oauth.php:737
 #, php-format
 msgid "After you answer you will go back to %s."
 msgstr ""
 
 #. translators: %s: the AI app's name.
-#: includes/mcp-kit/class-oauth.php:702
+#: includes/mcp-kit/class-oauth.php:742
 #, php-format
 msgid "Allow %s"
 msgstr ""
 
-#: includes/mcp-kit/class-oauth.php:703
+#: includes/mcp-kit/class-oauth.php:743
 msgid "Do not allow"
 msgstr ""
 
-#: includes/mcp-kit/class-rest-bridge.php:322
+#: includes/mcp-kit/class-rest-bridge.php:325
 msgid "A required value is missing or has the wrong form. Check the ability's input schema."
 msgstr ""
 
-#: includes/mcp-kit/class-rest-bridge.php:355
+#: includes/mcp-kit/class-rest-bridge.php:358
 msgid "The site refused the request."
 msgstr ""
 
-#: includes/mcp-kit/class-server.php:238
+#: includes/mcp-kit/class-server.php:118
+msgid "Unknown tool."
+msgstr ""
+
+#: includes/mcp-kit/class-server.php:315
 msgid "Let AI assistants such as Claude, Cursor or VS Code work on this site for you through MCP (Model Context Protocol). They sign in as a WordPress user (Claude and ChatGPT by approving them here, others with an application password) and can do only what that user is allowed to do."
 msgstr ""
 
-#: includes/mcp-kit/class-server.php:240
+#: includes/mcp-kit/class-server.php:317
 msgid "AI agents need WordPress 6.9 or later. Update WordPress to use them."
 msgstr ""
 
-#: includes/mcp-kit/class-server.php:253
+#: includes/mcp-kit/class-server.php:330
 msgid "Connection address (MCP endpoint)"
 msgstr ""
 
-#: includes/mcp-kit/class-server.php:257
+#: includes/mcp-kit/class-server.php:334
 msgid "Claude and ChatGPT: sign in instead"
 msgstr ""
 
-#: includes/mcp-kit/class-server.php:258
+#: includes/mcp-kit/class-server.php:335
 msgid "Add the connection address as a custom connector in Claude, or as an app in ChatGPT developer mode. They open this site so you can approve them; no password to copy."
 msgstr ""
 
-#: includes/mcp-kit/class-server.php:260
+#: includes/mcp-kit/class-server.php:337
 msgid "AI apps connected to your account:"
 msgstr ""
 
-#: includes/mcp-kit/class-server.php:275
+#: includes/mcp-kit/class-server.php:352
 msgid "Other AI apps: an application password"
 msgstr ""
 
-#: includes/mcp-kit/class-server.php:277
+#: includes/mcp-kit/class-server.php:354
 msgid "Create an application password for your user"
 msgstr ""
 
-#: includes/mcp-kit/class-server.php:278
+#: includes/mcp-kit/class-server.php:355
 msgid "Add this to your AI app’s MCP settings, with your username and that password:"
 msgstr ""
 
-#: includes/mcp-kit/class-server.php:280
+#: includes/mcp-kit/class-server.php:357
 msgid "VS Code: put the same entry under \"servers\" in .vscode/mcp.json, not under \"mcpServers\"."
 msgstr ""
 
 #. translators: %d: how many tools an AI agent can use.
-#: includes/mcp-kit/class-server.php:284
+#: includes/mcp-kit/class-server.php:361
 #, php-format
 msgid "Tools an AI agent can use here (%d):"
 msgstr ""
 
-#: includes/mcp-kit/class-server.php:295
+#: includes/mcp-kit/class-server.php:372
 msgid "User guide: AI agents and MCP"
 msgstr ""
 
-#: includes/mcp-kit/class-server.php:298
+#: includes/mcp-kit/class-server.php:375
 msgid "Developer docs: abilities, REST and MCP"
 msgstr ""
 
@@ -6366,243 +6370,378 @@ msgstr ""
 msgid "Asks the site's AI assistant a question and returns its answer with every source it found."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:46
+#: includes/mcp/class-rest-map.php:45
+msgid "The question, as a visitor would ask it (up to 2,000 characters)."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:49
+msgid "Language code of the answer, e.g. de; the site language when omitted."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:57
 msgid "Read a chat"
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:47
+#: includes/mcp/class-rest-map.php:58
 msgid "Returns one chat's messages and visitor details (after: only messages newer than this id)."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:55
+#: includes/mcp/class-rest-map.php:66
 msgid "Hand a chat back to the assistant"
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:56
+#: includes/mcp/class-rest-map.php:67
 msgid "Returns a chat to the AI assistant, which answers the visitor from the site's content."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:64
+#: includes/mcp/class-rest-map.php:75
 msgid "Close a chat"
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:65
+#: includes/mcp/class-rest-map.php:76
 msgid "Ends a chat; the visitor can still ask for the transcript."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:73
+#: includes/mcp/class-rest-map.php:84
 msgid "Reply in a chat"
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:74
+#: includes/mcp/class-rest-map.php:85
 msgid "Sends a message to the visitor (text), or adds an internal note only agents see (note: true)."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:82
+#: includes/mcp/class-rest-map.php:93
 msgid "Take a chat"
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:83
+#: includes/mcp/class-rest-map.php:94
 msgid "Assigns a waiting chat to the signed-in agent, so the visitor talks to a person."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:91
+#: includes/mcp/class-rest-map.php:102
 msgid "Turn a chat into a ticket"
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:92
+#: includes/mcp/class-rest-map.php:103
 msgid "Opens a ticket from a chat so it can be answered by email (needs the visitor's email address)."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:105
+#: includes/mcp/class-rest-map.php:116
 msgid "List live chats"
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:106
+#: includes/mcp/class-rest-map.php:117
 msgid "Lists the chats waiting, in progress and recently closed, with who is handling each."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:114
-msgid "List what the assistant knows"
-msgstr ""
-
-#: includes/mcp/class-rest-map.php:115
-msgid "Lists the content the assistant answers from, with its index status, a page at a time."
-msgstr ""
-
-#: includes/mcp/class-rest-map.php:123
-msgid "Rebuild the assistant's search index"
-msgstr ""
-
 #: includes/mcp/class-rest-map.php:124
-msgid "Rebuilds the search vectors for one item (item_id) or everything (all: true) (managers only)."
+msgid "Which chats: active (default), with the AI assistant, closed, or all."
 msgstr ""
 
 #: includes/mcp/class-rest-map.php:132
-msgid "Re-read content into the assistant"
+msgid "List what the assistant knows"
 msgstr ""
 
 #: includes/mcp/class-rest-map.php:133
-msgid "Re-reads one item (item_id) or everything (all: true) into the assistant's index (managers only)."
+msgid "Lists the content the assistant answers from, with its index status, a page at a time."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:141
-msgid "Set your availability"
+#: includes/mcp/class-rest-map.php:139
+msgid "Words in the title or URL."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:142
-msgid "Marks the signed-in agent available or away for new chats (away: true or false)."
+#: includes/mcp/class-rest-map.php:144
+msgid "Only items in this state; every state when omitted."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:150
-msgid "List tickets"
+#: includes/mcp/class-rest-map.php:149
+#: includes/mcp/class-rest-map.php:227
+#: includes/mcp/class-rest-map.php:459
+msgid "Page number, from 1."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:151
-msgid "Lists support tickets, filtered by status or a search, a page at a time."
+#: includes/mcp/class-rest-map.php:157
+msgid "Rebuild the assistant's search index"
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:159
-msgid "Open a ticket"
+#: includes/mcp/class-rest-map.php:158
+msgid "Rebuilds the search vectors for one item (item_id) or everything (all: true) (managers only)."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:160
-msgid "Opens a ticket on a customer's behalf (their email, a subject and the first message)."
+#: includes/mcp/class-rest-map.php:164
+msgid "True: every indexed item; otherwise only item_id."
 msgstr ""
 
 #: includes/mcp/class-rest-map.php:168
-msgid "Delete a ticket"
+#: includes/mcp/class-rest-map.php:187
+msgid "ID of one indexed item."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:169
-msgid "Deletes a ticket and its conversation for good (managers only)."
+#: includes/mcp/class-rest-map.php:176
+msgid "Re-read content into the assistant"
 msgstr ""
 
 #: includes/mcp/class-rest-map.php:177
-msgid "Read a ticket"
+msgid "Re-reads one item (item_id) or everything (all: true) into the assistant's index (managers only)."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:178
-msgid "Returns one ticket with its whole conversation, status, priority and assignee."
-msgstr ""
-
-#: includes/mcp/class-rest-map.php:186
-msgid "Answer a ticket"
-msgstr ""
-
-#: includes/mcp/class-rest-map.php:187
-msgid "Replies to the customer by email (text), or adds an internal note (note: true); status optionally changes the ticket's status."
+#: includes/mcp/class-rest-map.php:183
+msgid "True: the whole site; otherwise only item_id."
 msgstr ""
 
 #: includes/mcp/class-rest-map.php:195
-msgid "Change a ticket"
+msgid "Set your availability"
 msgstr ""
 
 #: includes/mcp/class-rest-map.php:196
+msgid "Marks the signed-in agent available or away for new chats (away: true or false)."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:202
+msgid "True marks the agent away; False (default) available."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:210
+msgid "List tickets"
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:211
+msgid "Lists support tickets, filtered by status or a search, a page at a time."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:218
+msgid "Which tickets: active (open and pending, the default), one status, or all."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:222
+msgid "Words in the subject, the customer's name or email."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:235
+msgid "Open a ticket"
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:236
+msgid "Opens a ticket on a customer's behalf (their email, a subject and the first message)."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:243
+msgid "The customer's email address; replies go there."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:248
+msgid "The ticket subject."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:253
+msgid "The first message of the ticket."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:257
+msgid "The customer's name."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:265
+msgid "Delete a ticket"
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:266
+msgid "Deletes a ticket and its conversation for good (managers only)."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:274
+msgid "Read a ticket"
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:275
+msgid "Returns one ticket with its whole conversation, status, priority and assignee."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:283
+msgid "Answer a ticket"
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:284
+msgid "Replies to the customer by email (text), or adds an internal note (note: true); status optionally changes the ticket's status."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:292
+msgid "Change a ticket"
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:293
 msgid "Changes a ticket's status, priority or assignee."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:259
+#: includes/mcp/class-rest-map.php:356
 msgid "List saved replies (Pro)"
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:260
+#: includes/mcp/class-rest-map.php:357
 msgid "Lists the saved replies agents can insert, with their shortcuts."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:268
+#: includes/mcp/class-rest-map.php:365
 msgid "Save a saved reply (Pro)"
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:269
+#: includes/mcp/class-rest-map.php:366
 msgid "Creates or changes a saved reply (title, shortcut, body, department; id to change one)."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:277
+#: includes/mcp/class-rest-map.php:372
+msgid "ID of the saved reply to change; a new one when omitted."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:377
+msgid "The saved reply's title."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:382
+msgid "The reply text."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:386
+msgid "Short code agents type to insert it (letters, digits, - and _)."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:390
+msgid "Department it belongs to; every department when empty."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:398
 msgid "Delete a saved reply (Pro)"
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:278
+#: includes/mcp/class-rest-map.php:399
 msgid "Deletes a saved reply."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:286
+#: includes/mcp/class-rest-map.php:407
 msgid "Fill in a saved reply (Pro)"
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:287
+#: includes/mcp/class-rest-map.php:408
 msgid "Returns a saved reply's text with its placeholders filled for one chat or ticket."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:295
+#: includes/mcp/class-rest-map.php:416
 msgid "Set a conversation's department and tags (Pro)"
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:296
+#: includes/mcp/class-rest-map.php:417
 msgid "Sets the department and tags of a chat or ticket (kind: chat or ticket; id)."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:304
+#: includes/mcp/class-rest-map.php:424
+#: includes/mcp/class-rest-map.php:589
+#: includes/mcp/class-rest-map.php:610
+msgid "Whether id is a ticket (default) or a chat."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:429
+#: includes/mcp/class-rest-map.php:594
+#: includes/mcp/class-rest-map.php:615
+msgid "ID of the ticket or chat."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:433
+msgid "Department name; empty clears it."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:438
+msgid "Tags, replacing the current ones."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:446
 msgid "List unanswered questions (Pro)"
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:305
+#: includes/mcp/class-rest-map.php:447
 msgid "Lists the questions visitors asked that the knowledge base could not answer."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:313
+#: includes/mcp/class-rest-map.php:454
+msgid "Which gaps: open (default), drafted, answered, ignored or all."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:467
 msgid "Draft help articles for unanswered questions (Pro)"
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:314
+#: includes/mcp/class-rest-map.php:468
 msgid "Writes draft knowledge-base articles answering the chosen questions (ids); they stay drafts."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:322
+#: includes/mcp/class-rest-map.php:476
+msgid "IDs of the knowledge gaps to cover in one draft."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:484
 msgid "Mark unanswered questions (Pro)"
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:323
+#: includes/mcp/class-rest-map.php:485
 msgid "Marks unanswered questions as open, planned or dismissed (ids, status)."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:336
+#: includes/mcp/class-rest-map.php:493
+msgid "IDs of the knowledge gaps."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:499
+msgid "The new state of the gaps."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:512
 msgid "Draft a help article from a ticket (Pro)"
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:337
+#: includes/mcp/class-rest-map.php:513
 msgid "Writes a draft knowledge-base article from a solved ticket; it stays a draft until a person publishes it."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:345
+#: includes/mcp/class-rest-map.php:520
+msgid "ID of the solved ticket the article is drafted from."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:528
 msgid "Search the knowledge base (Pro)"
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:346
+#: includes/mcp/class-rest-map.php:529
 msgid "Finds help articles to link in a reply (q: the search)."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:374
+#: includes/mcp/class-rest-map.php:536
+msgid "Words to search the help articles for."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:564
 msgid "Read support statistics (Pro)"
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:375
+#: includes/mcp/class-rest-map.php:565
 msgid "Returns chat and ticket numbers, response times and ratings for the last N days (days)."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:383
+#: includes/mcp/class-rest-map.php:573
+msgid "How many days back the report covers; 30 when omitted."
+msgstr ""
+
+#: includes/mcp/class-rest-map.php:581
 msgid "Draft a reply with AI (Pro)"
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:384
+#: includes/mcp/class-rest-map.php:582
 msgid "Drafts a reply to a chat or ticket from the site's content; nothing is sent."
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:392
+#: includes/mcp/class-rest-map.php:602
 msgid "Summarise a conversation with AI (Pro)"
 msgstr ""
 
-#: includes/mcp/class-rest-map.php:393
+#: includes/mcp/class-rest-map.php:603
 msgid "Summarises a chat or ticket in a few lines."
 msgstr ""
 
