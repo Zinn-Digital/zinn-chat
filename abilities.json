@@ -79,7 +79,7 @@
       "capability": "zinn_chat_answer",
       "annotations": {
         "readonly": false,
-        "destructive": false,
+        "destructive": true,
         "idempotent": true
       },
       "input_schema": {
@@ -760,7 +760,7 @@
       "capability": "edit_posts",
       "annotations": {
         "readonly": false,
-        "destructive": false,
+        "destructive": true,
         "idempotent": false
       },
       "input_schema": {
@@ -985,7 +985,7 @@
       "capability": "zinn_chat_manage",
       "annotations": {
         "readonly": false,
-        "destructive": false,
+        "destructive": true,
         "idempotent": true
       },
       "input_schema": {

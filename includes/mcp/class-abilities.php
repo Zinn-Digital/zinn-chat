@@ -167,7 +167,8 @@ final class Abilities {
 					return Capabilities::can_manage();
 				},
 				'annotations'         => array(
-					'idempotent' => true,
+					'destructive' => true,
+					'idempotent'  => true,
 				),
 			)
 		);
