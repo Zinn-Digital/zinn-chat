@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.10.2
+Stable tag: 2.10.3
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -141,6 +141,9 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.10.3 =
+* Japanese follows the WordPress.org Japanese team's style guide: a half-width space around Latin text, half-width colons and question marks.
 
 = 2.10.2 =
 * New: two wp-config.php switches for the Zinn Digital® panel. define( 'ZINN_CHAT_PROMO', false ); removes the panel (dashboard widget, settings block and footer), and define( 'ZINN_CHAT_PROMO_HOSTING_URL', 'https://…' ); points its hosting offer at another https address.

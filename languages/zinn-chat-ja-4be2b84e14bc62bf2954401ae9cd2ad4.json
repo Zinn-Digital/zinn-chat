@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-02T02:20:48+00:00",
+    "translation-revision-date": "2026-10-02T07:46:07+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -23,7 +23,7 @@
                 "\u4fee\u6b63\u3059\u308b"
             ],
             "AI providers": [
-                "AI\u30d7\u30ed\u30d0\u30a4\u30c0\u30fc"
+                "AI \u30d7\u30ed\u30d0\u30a4\u30c0\u30fc"
             ],
             "Test the assistant": [
                 "\u30a2\u30b7\u30b9\u30bf\u30f3\u30c8\u3092\u30c6\u30b9\u30c8"
@@ -167,7 +167,7 @@
                 "\u30ea\u30b9\u30c8\u306b\u623b\u308b"
             ],
             "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
-                "\u8fd4\u4fe1\u3092\u5165\u529b\u2026\uff08Enter\u3067\u9001\u4fe1\u3001Shift+Enter\u3067\u6539\u884c\uff09"
+                "\u8fd4\u4fe1\u3092\u5165\u529b\u2026\uff08Enter \u3067\u9001\u4fe1\u3001Shift+Enter \u3067\u6539\u884c\uff09"
             ],
             "Ticket #%d": [
                 "\u30c1\u30b1\u30c3\u30c8 #%d"
@@ -236,7 +236,7 @@
                 "\u89e3\u6c7a\u6e08\u307f:"
             ],
             "then: keep open": [
-                "\u305d\u308c\u304b\u3089\uff1a\u958b\u3044\u305f\u307e\u307e\u306b\u3059\u308b"
+                "\u305d\u308c\u304b\u3089: \u958b\u3044\u305f\u307e\u307e\u306b\u3059\u308b"
             ],
             "#%1$d %2$s": [
                 "#%1$d %2$s"
@@ -263,13 +263,13 @@
                 "\u30c1\u30b1\u30c3\u30c8\u3092\u524a\u9664"
             ],
             "Delete this ticket and all its messages?": [
-                "\u3053\u306e\u30c1\u30b1\u30c3\u30c8\u3068\u3059\u3079\u3066\u306e\u30e1\u30c3\u30bb\u30fc\u30b8\u3092\u524a\u9664\u3057\u307e\u3059\u304b\uff1f"
+                "\u3053\u306e\u30c1\u30b1\u30c3\u30c8\u3068\u3059\u3079\u3066\u306e\u30e1\u30c3\u30bb\u30fc\u30b8\u3092\u524a\u9664\u3057\u307e\u3059\u304b ?"
             ],
             "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again.": [
                 "\u8a2a\u554f\u8005\u304c\u8cea\u554f\u3059\u308b\u5185\u5bb9\u3092\u305d\u306e\u307e\u307e\u8cea\u554f\u3057\u3066\u307f\u307e\u3057\u3087\u3046\u3002\u7b54\u3048\u3068\u3001\u305d\u308c\u304c\u30d2\u30c3\u30c8\u3057\u305f\u3059\u3079\u3066\u306e\u30da\u30fc\u30b8\u3001\u305d\u308c\u305e\u308c\u306e\u30de\u30c3\u30c1\u5ea6\u3001\u6700\u7d42\u66f4\u65b0\u65e5\u3001\u304a\u3088\u3073\u53e4\u304f\u306a\u3063\u3066\u3044\u308b\u3068\u601d\u308f\u308c\u308b\u30da\u30fc\u30b8\u306e\u8b66\u544a\u304c\u8868\u793a\u3055\u308c\u307e\u3059\u3002\u30da\u30fc\u30b8\u3092\u4fee\u6b63\u3057\u3001\u300c\u518d\u8aad\u307f\u8fbc\u307f\u300d\u3092\u62bc\u3057\u3066\u3001\u3082\u3046\u4e00\u5ea6\u8cea\u554f\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
             ],
             "For example: What is your returns policy?": [
-                "\u4f8b\uff1a\u8fd4\u54c1\u30dd\u30ea\u30b7\u30fc\u306f\u4f55\u3067\u3059\u304b\uff1f"
+                "\u4f8b: \u8fd4\u54c1\u30dd\u30ea\u30b7\u30fc\u306f\u4f55\u3067\u3059\u304b ?"
             ],
             "Ask": [
                 "\u8cea\u554f\u3059\u308b"
@@ -287,7 +287,7 @@
                 "\u554f\u3044\u5408\u308f\u305b\u4e2d\u2026"
             ],
             "Outcome: %1$s \u00b7 Search: %2$s \u00b7 Tokens: %3$d in, %4$d out": [
-                "\u7d50\u679c\uff1a%1$s \u00b7 \u691c\u7d22\uff1a%2$s \u00b7 \u30c8\u30fc\u30af\u30f3\uff1a\u5165\u529b %3$d\u3001\u51fa\u529b %4$d"
+                "\u7d50\u679c: %1$s \u00b7 \u691c\u7d22: %2$s \u00b7 \u30c8\u30fc\u30af\u30f3: \u5165\u529b %3$d\u3001\u51fa\u529b %4$d"
             ],
             "by meaning and words": [
                 "\u610f\u5473\u3068\u5358\u8a9e\u5225"
@@ -299,7 +299,7 @@
                 "\u30a4\u30f3\u30c7\u30c3\u30af\u30b9\u306a\u3057"
             ],
             "The AI is not set up yet or could not answer.": [
-                "AI\u304c\u307e\u3060\u8a2d\u5b9a\u3055\u308c\u3066\u3044\u306a\u3044\u304b\u3001\u56de\u7b54\u3092\u53d6\u5f97\u3067\u304d\u307e\u305b\u3093\u3067\u3057\u305f\u3002"
+                "AI \u304c\u307e\u3060\u8a2d\u5b9a\u3055\u308c\u3066\u3044\u306a\u3044\u304b\u3001\u56de\u7b54\u3092\u53d6\u5f97\u3067\u304d\u307e\u305b\u3093\u3067\u3057\u305f\u3002"
             ],
             "Sources found (%d)": [
                 "\u898b\u3064\u304b\u3063\u305f\u30bd\u30fc\u30b9 (%d)"
@@ -332,7 +332,7 @@
                 "\u57cb\u3081\u8fbc\u307f\u30e2\u30c7\u30eb: %s"
             ],
             "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning.": [
-                "\u57cb\u3081\u8fbc\u307f\u30e2\u30c7\u30eb\u304c\u3042\u308a\u307e\u305b\u3093\uff1a\u691c\u7d22\u306f\u5358\u8a9e\u306e\u307f\u3067\u884c\u308f\u308c\u307e\u3059\u3002\u610f\u5473\u306b\u3088\u308b\u691c\u7d22\u3092\u884c\u3046\u306b\u306f\u3001Google Gemini\u3001OpenAI\u3001Mistral\u3001\u307e\u305f\u306fOpenRouter\u3092\u63a5\u7d9a\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
+                "\u57cb\u3081\u8fbc\u307f\u30e2\u30c7\u30eb\u304c\u3042\u308a\u307e\u305b\u3093: \u691c\u7d22\u306f\u5358\u8a9e\u306e\u307f\u3067\u884c\u308f\u308c\u307e\u3059\u3002\u610f\u5473\u306b\u3088\u308b\u691c\u7d22\u3092\u884c\u3046\u306b\u306f\u3001Google Gemini\u3001OpenAI\u3001Mistral\u3001\u307e\u305f\u306f OpenRouter \u3092\u63a5\u7d9a\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
             ],
             "Building meanings is paused:": [
                 "\u69cb\u7bc9\u306e\u610f\u5473\u306f\u4e00\u6642\u505c\u6b62\u4e2d\u3067\u3059:"
