@@ -36,7 +36,7 @@ final class Client {
 	 * Generate.
 	 *
 	 * @param array<int, array{role: string, content: string|array<int, array<string, string>>}> $messages Conversation. Content may be a list of parts: `{type: text, text}` and `{type: image, mime, data}` (base64), for models that read images (1.1.0).
-	 * @param array<string, mixed>                                                               $options `task`, `purpose` (for the usage log), `provider`, `model`, `schema`, `schema_name`, `max_tokens`, `temperature`, `system` (1.2.0: made by the site, not a person).
+	 * @param array<string, mixed>                                                               $options `task`, `purpose` (for the usage log), `provider`, `model`, `schema`, `schema_name`, `max_tokens`, `temperature`, `system` (1.2.0: made by the site, not a person), `thinking` (1.3.0: `minimal` asks for the least reasoning the model accepts; adapters without the notion ignore it).
 	 * @return Result
 	 */
 	public static function generate( array $messages, array $options = array() ): Result {
@@ -92,7 +92,7 @@ final class Client {
 		}
 
 		$generate = array();
-		foreach ( array( 'schema', 'schema_name', 'max_tokens', 'temperature' ) as $name ) {
+		foreach ( array( 'schema', 'schema_name', 'max_tokens', 'temperature', 'thinking' ) as $name ) {
 			if ( isset( $options[ $name ] ) ) {
 				$generate[ $name ] = $options[ $name ];
 			}

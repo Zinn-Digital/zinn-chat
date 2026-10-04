@@ -34,7 +34,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 final class Core {
 
 	/** The core's version. Bump on every change: the newest copy on a site wins the election. */
-	public const VERSION = '1.2.0';
+	public const VERSION = '1.3.0';
 
 	/** Marks the classes of this family, so the election never mistakes another plugin's class. */
 	public const FAMILY = 'zinn-ai-core';

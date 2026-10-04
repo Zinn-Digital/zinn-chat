@@ -87,6 +87,10 @@ final class Gemini extends Provider {
 		if ( isset( $options['temperature'] ) ) {
 			$config['temperature'] = (float) $options['temperature'];
 		}
+		$level = self::thinking_level( $model, (string) ( $options['thinking'] ?? '' ) );
+		if ( '' !== $level ) {
+			$config['thinkingConfig'] = array( 'thinkingLevel' => $level );
+		}
 		if ( null !== $schema ) {
 			$config['responseMimeType'] = 'application/json';
 			$config[ (string) ( $this->spec['schema_field'] ?? 'responseJsonSchema' ) ] = $schema;
@@ -126,6 +130,31 @@ final class Gemini extends Provider {
 		}
 
 		return $result;
+	}
+
+	/**
+	 * The `thinkingLevel` to send (1.3.0). Unasked, nothing is sent and the model thinks as it
+	 * likes, which on a mechanical task is most of the bill: measured 2026-10-04 on
+	 * gemini-3.8-flash, one German translation billed 2,528 thought tokens for 719 answer tokens
+	 * by default and 0 thought tokens at `low`, with the same answer length. `minimal` is the
+	 * documented floor, but the 3.7/3.8 flash models refuse it (HTTP 400 "Thinking level MINIMAL is
+	 * not supported for this model"), so they get `low`, their floor; the 2.x models predate
+	 * `thinkingLevel` and reject it, so they get nothing. Mirrors the platform's
+	 * engine/engine/drivers/vendors/gemini.py `thinking_level_for`.
+	 *
+	 * @param string $model Model id.
+	 * @param string $asked `minimal`, `low`, `medium`, `high` or '' (the model's default).
+	 * @return string
+	 */
+	public static function thinking_level( string $model, string $asked ): string {
+		if ( ! in_array( $asked, array( 'minimal', 'low', 'medium', 'high' ), true ) || str_starts_with( $model, 'gemini-2.' ) ) {
+			return '';
+		}
+		if ( 'minimal' === $asked && in_array( $model, array( 'gemini-3.7-flash', 'gemini-3.8-flash' ), true ) ) {
+			return 'low';
+		}
+
+		return $asked;
 	}
 
 	/**
