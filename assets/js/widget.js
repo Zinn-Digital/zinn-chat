@@ -30,6 +30,7 @@
 		x.onerror = function () { cb({ ok: false, message: t.error }, 0); };
 		body = body || {};
 		if (token) { body.token = token; }
+		if (c.lang) { body.page_lang = c.lang; }
 		x.send(JSON.stringify(body));
 	}
 

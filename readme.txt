@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.10.10
+Stable tag: 2.10.11
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -141,6 +141,9 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.10.11 =
+* On a translated site the chat speaks the language of the page it is open on: its messages ("The assistant cannot answer right now…", hand-over and ticket notes) and its refusals were in the site's language.
 
 = 2.10.10 =
 * On a translated site the assistant cites pages in the visitor's own language, not the same page in other languages.

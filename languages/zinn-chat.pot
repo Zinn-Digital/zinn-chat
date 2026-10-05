@@ -2,14 +2,14 @@
 # This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Zinn® Chat 2.10.10\n"
+"Project-Id-Version: Zinn® Chat 2.10.11\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zinn-chat\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-05T01:52:20+00:00\n"
+"POT-Creation-Date: 2026-10-05T14:18:13+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: zinn-chat\n"
@@ -1384,7 +1384,7 @@ msgstr ""
 
 #. translators: %d: ticket number.
 #: includes/class-front-tickets.php:131
-#: includes/class-rest.php:611
+#: includes/class-rest.php:671
 #, php-format
 msgid "Thank you. Your request is ticket #%d. We have emailed you a link to follow it."
 msgstr ""
@@ -1394,7 +1394,7 @@ msgid "Your reply has been sent."
 msgstr ""
 
 #: includes/class-front-tickets.php:133
-#: includes/class-rest.php:725
+#: includes/class-rest.php:785
 msgid "If there is a request under that address, we have emailed you a new link."
 msgstr ""
 
@@ -1403,25 +1403,25 @@ msgid "Something went wrong. Please check the form and try again."
 msgstr ""
 
 #: includes/class-front-tickets.php:135
-#: includes/class-rest.php:152
-#: includes/class-rest.php:155
+#: includes/class-rest.php:212
+#: includes/class-rest.php:215
 msgid "Your message could not be sent."
 msgstr ""
 
 #: includes/class-front-tickets.php:136
-#: includes/class-rest.php:158
+#: includes/class-rest.php:218
 #: includes/pro__premium_only/class-kb.php:681
 msgid "You are sending messages too quickly. Please wait a little and try again."
 msgstr ""
 
 #: includes/class-front-tickets.php:137
-#: includes/class-rest.php:583
+#: includes/class-rest.php:643
 msgid "Please agree to the privacy notice to send your request."
 msgstr ""
 
 #: includes/class-front-tickets.php:138
-#: includes/class-rest.php:258
-#: includes/class-rest.php:580
+#: includes/class-rest.php:318
+#: includes/class-rest.php:640
 msgid "Please complete the check to show you are not a robot."
 msgstr ""
 
@@ -1691,58 +1691,58 @@ msgstr ""
 msgid "If our AI assistant answers you, your message and passages from this website are sent to the AI provider we use to produce the answer."
 msgstr ""
 
-#: includes/class-rest.php:93
-#: includes/class-rest.php:393
-#: includes/class-rest.php:407
+#: includes/class-rest.php:153
+#: includes/class-rest.php:453
+#: includes/class-rest.php:467
 msgid "This chat has ended."
 msgstr ""
 
-#: includes/class-rest.php:224
-#: includes/class-rest.php:239
+#: includes/class-rest.php:284
+#: includes/class-rest.php:299
 msgid "The chat is not available right now."
 msgstr ""
 
-#: includes/class-rest.php:243
+#: includes/class-rest.php:303
 msgid "Please type a message."
 msgstr ""
 
-#: includes/class-rest.php:254
+#: includes/class-rest.php:314
 msgid "Please agree to the privacy notice to start the chat."
 msgstr ""
 
-#: includes/class-rest.php:261
+#: includes/class-rest.php:321
 msgid "You have started too many chats today. Please try again tomorrow or send us a ticket."
 msgstr ""
 
-#: includes/class-rest.php:280
+#: includes/class-rest.php:340
 msgid "The chat could not be started. Please try again."
 msgstr ""
 
-#: includes/class-rest.php:296
-#: includes/class-rest.php:415
+#: includes/class-rest.php:356
+#: includes/class-rest.php:475
 msgid "Nobody can answer in chat right now. Leave your email address and we will reply by email."
 msgstr ""
 
-#: includes/class-rest.php:326
+#: includes/class-rest.php:386
 msgid "The assistant cannot answer right now. You can ask for a person or leave us a message."
 msgstr ""
 
-#: includes/class-rest.php:359
+#: includes/class-rest.php:419
 #: includes/pro__premium_only/class-persona.php:102
 msgid "We are putting you through to a person. Please stay on this page."
 msgstr ""
 
-#: includes/class-rest.php:449
-#: includes/class-rest.php:569
+#: includes/class-rest.php:509
+#: includes/class-rest.php:629
 msgid "Tickets are not available right now."
 msgstr ""
 
-#: includes/class-rest.php:462
+#: includes/class-rest.php:522
 #: assets/js/console.js:67
 msgid "Visitor"
 msgstr ""
 
-#: includes/class-rest.php:462
+#: includes/class-rest.php:522
 #: includes/pro__premium_only/class-agents.php:264
 #: includes/pro__premium_only/class-agents.php:305
 #: assets/pro__premium_only/admin-pro.js:227
@@ -1750,30 +1750,30 @@ msgstr ""
 msgid "Team"
 msgstr ""
 
-#: includes/class-rest.php:467
+#: includes/class-rest.php:527
 msgid "Chat so far:"
 msgstr ""
 
 #. translators: %d: ticket number.
-#: includes/class-rest.php:494
+#: includes/class-rest.php:554
 #, php-format
 msgid "Thank you. Your request is ticket #%d and we will reply by email."
 msgstr ""
 
-#: includes/class-rest.php:551
+#: includes/class-rest.php:611
 #: includes/pro__premium_only/class-agents.php:364
 msgid "Please enter a valid email address."
 msgstr ""
 
-#: includes/class-rest.php:627
+#: includes/class-rest.php:687
 msgid "This link is not valid."
 msgstr ""
 
-#: includes/class-rest.php:630
+#: includes/class-rest.php:690
 msgid "This link has expired. We can email you a new one."
 msgstr ""
 
-#: includes/class-rest.php:636
+#: includes/class-rest.php:696
 msgid "You cannot see this ticket."
 msgstr ""
 

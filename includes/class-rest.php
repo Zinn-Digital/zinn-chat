@@ -73,11 +73,71 @@ final class Rest {
 				'/' . $route,
 				array(
 					'methods'             => 'POST',
-					'callback'            => array( self::class, $handler[0] ),
+					'callback'            => static fn( \WP_REST_Request $request ) => self::in_page_language( $request, array( self::class, $handler[0] ) ),
 					'permission_callback' => null === $handler[1] ? '__return_true' : array( self::class, $handler[1] ),
 				)
 			);
 		}
+	}
+
+	/**
+	 * Run a visitor route in the language of the page the chat is open on.
+	 *
+	 * ⛔ A REST request has no page, so WordPress answers it in the site's language: on a translated
+	 * site (`/ar/`, `/de/`) every word the chat stored or returned — "The assistant cannot answer
+	 * right now…", "We are putting you through to a person…", a refusal — was English under an
+	 * Arabic or German page, although every one of them is translated (seen on demo.zinnchat.com,
+	 * 2026-10-05). The widget sends the page's language (`page_lang`, the launcher's `lang`); when
+	 * this plugin ships that language, its words are loaded in it for this request only.
+	 *
+	 * @param \WP_REST_Request $request Request.
+	 * @param callable         $handler The route's handler.
+	 * @return mixed
+	 */
+	public static function in_page_language( \WP_REST_Request $request, callable $handler ) {
+		$locale = self::page_locale( (string) $request->get_param( 'page_lang' ) );
+		if ( '' === $locale || determine_locale() === $locale ) {
+			return $handler( $request );
+		}
+		// ⛔ Both halves, or nothing changes: the file loaded for that locale (load_plugin_textdomain()
+		// only registers a path for a just-in-time load in the CURRENT locale), and the translation
+		// controller's locale set, because a word is looked up in that locale. switch_to_locale()
+		// would do the second, but it refuses a locale WordPress itself has no language pack for,
+		// which is the usual case on a Tranzly site.
+		$controller = \WP_Translation_Controller::get_instance();
+		$previous   = $controller->get_locale();
+		unload_textdomain( 'zinn-chat', true );
+		load_textdomain( 'zinn-chat', ZINN_CHAT_DIR . 'languages/zinn-chat-' . $locale . '.mo', $locale );
+		$controller->set_locale( $locale );
+		try {
+			return $handler( $request );
+		} finally {
+			$controller->set_locale( $previous );
+			unload_textdomain( 'zinn-chat', true );
+			load_plugin_textdomain( 'zinn-chat', false, dirname( plugin_basename( ZINN_CHAT_FILE ) ) . '/languages' );
+		}
+	}
+
+	/**
+	 * The WordPress locale of a page language (`ar`, `de-DE`), or '' when this plugin has no
+	 * translation for it. Only a name this plugin ships a file for is ever used.
+	 *
+	 * @param string $lang The page's language tag.
+	 * @return string
+	 */
+	public static function page_locale( string $lang ): string {
+		$lang = str_replace( '-', '_', trim( $lang ) );
+		if ( 1 !== preg_match( '/^([a-z]{2,3})(?:_([A-Za-z]{2}))?$/', $lang, $m ) ) {
+			return '';
+		}
+		$dir   = ZINN_CHAT_DIR . 'languages/zinn-chat-';
+		$names = array( $m[1] . ( isset( $m[2] ) ? '_' . strtoupper( $m[2] ) : '' ), $m[1] );
+		foreach ( $names as $name ) {
+			if ( is_readable( $dir . $name . '.mo' ) || is_readable( $dir . $name . '.l10n.php' ) ) {
+				return $name;
+			}
+		}
+		return '';
 	}
 
 	/**
