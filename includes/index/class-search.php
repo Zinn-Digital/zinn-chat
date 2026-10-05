@@ -103,6 +103,7 @@ final class Search {
 
 		$per_item = array();
 		$language = (string) ( $args['language'] ?? '' );
+		$scored   = self::in_language( $scored, $language );
 		foreach ( $scored as $pair ) {
 			list( $score, $chunk ) = $pair;
 			$item_id               = (int) $chunk['item_id'];
@@ -128,6 +129,33 @@ final class Search {
 		self::flag( $out['sources'] );
 		$out['mode'] = $vector ? 'semantic' : 'keyword';
 		return $out;
+	}
+
+	/**
+	 * On a multilingual site, the visitor's own language only — when the index has anything in it.
+	 *
+	 * A translated page is the same page 57 more times. Ranking other languages a little lower was
+	 * not enough: an English question about subscriptions cited the English article AND its
+	 * Filipino copy (demo.zinnchat.com, 2026-10-05). So when any candidate is in the visitor's
+	 * language, the others are dropped; when none is, every language stays (the model still answers
+	 * in the visitor's language), so a site translated only partly never goes blind.
+	 *
+	 * @param array<int, array{0: float, 1: array<string, mixed>}> $scored   [score, chunk] pairs.
+	 * @param string                                               $language The visitor's locale.
+	 * @return array<int, array{0: float, 1: array<string, mixed>}>
+	 */
+	public static function in_language( array $scored, string $language ): array {
+		$want = strtolower( substr( $language, 0, 2 ) );
+		if ( '' === $want ) {
+			return $scored;
+		}
+		$lang_of = static fn( array $pair ): string => strtolower( (string) ( $pair[1]['language'] ?? '' ) );
+		$matches = array_filter( $scored, static fn( array $pair ): bool => 0 === strpos( $lang_of( $pair ), $want ) );
+		if ( ! $matches ) {
+			return $scored;
+		}
+		// Content with no recorded language (a monolingual part of the site) stays either way.
+		return array_values( array_filter( $scored, static fn( array $pair ): bool => '' === $lang_of( $pair ) || 0 === strpos( $lang_of( $pair ), $want ) ) );
 	}
 
 	/**
