@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.10.8
+Stable tag: 2.10.9
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -141,6 +141,9 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.10.9 =
+* AI answers show emphasis as bold text instead of showing the asterisks (chat window and the test console).
 
 = 2.10.8 =
 * AI apps (Claude, ChatGPT) can now sign in with OAuth on a site where this is the only Zinn® plugin with an AI-agent server; the sign-in did not start there.

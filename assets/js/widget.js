@@ -134,9 +134,21 @@
 	function linkify(parent, text) {
 		var re = /\[([^\]\n]{1,300})\]\((https?:\/\/[^\s)]{1,700})\)|(https?:\/\/[^\s<>()]{4,700})/g, last = 0, m;
 		while ((m = re.exec(text))) {
-			parent.appendChild(d.createTextNode(text.slice(last, m.index)));
+			strong(parent, text.slice(last, m.index));
 			var a = h('a', '', m[1] || m[3]); a.href = m[2] || m[3]; a.target = '_blank'; a.rel = 'noopener';
 			parent.appendChild(a); last = re.lastIndex;
+		}
+		strong(parent, text.slice(last));
+	}
+	// AI answers mark emphasis as **this** (Gemini, OpenAI and Claude all do, whatever the prompt
+	// says): shown as bold, never as asterisks (found on the live demo, 2026-10-05). Text nodes
+	// only, so nothing the model writes can become markup.
+	function strong(parent, text) {
+		var re = /\*\*([^*\n]{1,300}?)\*\*/g, last = 0, m;
+		while ((m = re.exec(text))) {
+			parent.appendChild(d.createTextNode(text.slice(last, m.index)));
+			parent.appendChild(h('strong', '', m[1]));
+			last = re.lastIndex;
 		}
 		parent.appendChild(d.createTextNode(text.slice(last)));
 	}
