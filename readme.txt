@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.10.12
+Stable tag: 2.10.13
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -146,6 +146,11 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.10.13 =
+* On a translated site whose pages name only a language (de, pt, zh), the chat finds that language's translation (de_DE, pt_BR, zh_CN) for your own texts and for its own words. Brazilian and European Portuguese, and Simplified and Traditional Chinese, never stand in for each other.
+* With a Gemini 3 model an answer could stop mid-sentence ("Your order #42 … is"), because the model's reasoning used up the answer's length. The assistant and the Pro help-desk tools now ask for little reasoning, so answers arrive whole.
+* In the Inbox a long chat now scrolls inside its own pane. Before, the pane grew with the chat, so the reply box and the Send button ended up far down the screen, under WordPress's footer.
 
 = 2.10.12 =
 * On a multilingual site your own chat texts (the greeting, the message shown when nobody is online, the chat title, the agreement text, the assistant's name, and Pro's proactive messages) are shown in the visitor's language. They are listed for translation in Tranzly, WPML ("Zinn® Chat") and Polylang ("Zinn® Chat"), and you can also write your own version for each language in Settings, Chat. Until now they were shown as typed on every language of the site.

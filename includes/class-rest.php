@@ -138,25 +138,37 @@ final class Rest {
 	}
 
 	/**
-	 * The WordPress locale of a page language (`ar`, `de-DE`), or '' when this plugin has no
-	 * translation for it. Only a name this plugin ships a file for is ever used.
+	 * The WordPress locale of a page language (`ar`, `de`, `de-DE`, `zh-Hant-TW`), or '' when
+	 * this plugin has no translation for it. Only a name this plugin ships a file for is ever
+	 * used, matched as Site_Strings::best_match() matches (a bare `de` page gets `de_DE`; a
+	 * Traditional Chinese page never gets the Simplified file).
 	 *
 	 * @param string $lang The page's language tag.
 	 * @return string
 	 */
 	public static function page_locale( string $lang ): string {
-		$lang = str_replace( '-', '_', trim( $lang ) );
-		if ( 1 !== preg_match( '/^([a-z]{2,3})(?:_([A-Za-z]{2}))?$/', $lang, $m ) ) {
-			return '';
-		}
-		$dir   = ZINN_CHAT_DIR . 'languages/zinn-chat-';
-		$names = array( $m[1] . ( isset( $m[2] ) ? '_' . strtoupper( $m[2] ) : '' ), $m[1] );
-		foreach ( $names as $name ) {
-			if ( is_readable( $dir . $name . '.mo' ) || is_readable( $dir . $name . '.l10n.php' ) ) {
-				return $name;
+		return Site_Strings::best_match( $lang, self::shipped_locales() );
+	}
+
+	/**
+	 * The locales this plugin ships its words in (`languages/zinn-chat-<locale>.mo|.l10n.php`).
+	 *
+	 * @return array<int, string>
+	 */
+	private static function shipped_locales(): array {
+		static $names = null;
+		if ( null === $names ) {
+			$names = array();
+			// ⛔ Not GLOB_BRACE: musl-based PHP builds (Alpine) do not have it.
+			$files = array_merge( (array) glob( ZINN_CHAT_DIR . 'languages/zinn-chat-*.mo' ), (array) glob( ZINN_CHAT_DIR . 'languages/zinn-chat-*.l10n.php' ) );
+			foreach ( $files as $file ) {
+				if ( 1 === preg_match( '/zinn-chat-([A-Za-z]{2,3}(?:_[A-Za-z0-9]{2,8}){0,2})\.(?:mo|l10n\.php)$/', (string) $file, $m ) ) {
+					$names[ $m[1] ] = $m[1];
+				}
 			}
+			$names = array_values( $names );
 		}
-		return '';
+		return $names;
 	}
 
 	/**

@@ -218,8 +218,7 @@ final class Site_Strings {
 		if ( '' === $text || '' === $lang ) {
 			return $text;
 		}
-		foreach ( self::candidates( $lang ) as $tag ) {
-			$code = str_replace( '_', '-', $tag );
+		foreach ( self::multilingual_codes( $lang ) as $code ) {
 			$wpml = apply_filters( 'wpml_translate_single_string', $text, self::CONTEXT, $name, $code ); // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound -- WPML's own hook (Polylang answers it too).
 			if ( is_string( $wpml ) && '' !== trim( $wpml ) && $wpml !== $text ) {
 				return $wpml;
@@ -247,13 +246,9 @@ final class Site_Strings {
 		if ( ! is_array( $texts ) ) {
 			return '';
 		}
-		foreach ( self::candidates( self::normalise( $lang ) ) as $tag ) {
-			$value = $texts[ $tag ][ $name ] ?? '';
-			if ( is_string( $value ) && '' !== trim( $value ) ) {
-				return trim( $value );
-			}
-		}
-		return '';
+		$with = array_keys( array_filter( $texts, static fn( $row ): bool => is_array( $row ) && is_string( $row[ $name ] ?? null ) && '' !== trim( $row[ $name ] ) ) );
+		$tag  = self::best_match( $lang, array_map( 'strval', $with ) );
+		return '' === $tag ? '' : trim( (string) $texts[ $tag ][ $name ] );
 	}
 
 	/**
@@ -310,17 +305,159 @@ final class Site_Strings {
 	}
 
 	/**
-	 * The tags to try for a language: itself, then its language alone (`de_de`, `de`).
+	 * The tag in `$available` that best serves a reader of `$lang`, in its own spelling, or ''.
+	 *
+	 * Page tags, WordPress locales and multilingual plugins spell one language several ways: a
+	 * page says `de` where Tranzly lists `de_DE`, or `de-AT` where the site has German only as
+	 * `de_DE`. In this order:
+	 *
+	 * 1. the same tag, in any spelling (`de-DE` = `de_DE` = `DE_de`);
+	 * 2. the language alone (`de` for `de-AT`);
+	 * 3. the language's usual form (`de` → `de_DE`, `en` → `en_US`, `pt` → `pt_BR`, `zh` → `zh_CN`);
+	 * 4. any other form of it, alphabetically (so the answer never depends on list order).
+	 *
+	 * ⛔ Never across a separate written standard: Traditional Chinese (`zh_TW`, `zh_HK`, `zh_MO`,
+	 * `zh_Hant…`) and Simplified (`zh`, `zh_CN`, `zh_SG`, `zh_Hans…`) never stand in for each
+	 * other, and neither do Brazilian (`pt_BR`) and European Portuguese (`pt_PT` and every other
+	 * region). Only a BARE `pt` may be served by either (Brazilian first, as CLDR's likely subtags
+	 * say), because a page that says only "Portuguese" names no standard. The text as typed is a
+	 * better answer than the other standard.
+	 *
+	 * @param string            $lang      A language tag (`de`, `de-DE`, `zh_Hant_TW`).
+	 * @param array<int, mixed> $available Tags to choose from, in any spelling.
+	 * @return string One of `$available` as given, or '' when none serves this reader.
+	 */
+	public static function best_match( string $lang, array $available ): string {
+		$want = self::normalise( $lang );
+		if ( '' === $want ) {
+			return '';
+		}
+		$spelled = array();
+		foreach ( $available as $tag ) {
+			$key = is_string( $tag ) ? self::normalise( $tag ) : '';
+			if ( '' !== $key && ! isset( $spelled[ $key ] ) ) {
+				$spelled[ $key ] = $tag;
+			}
+		}
+		if ( isset( $spelled[ $want ] ) ) {
+			return $spelled[ $want ];
+		}
+		$same = array_values( array_filter( array_keys( $spelled ), static fn( string $tag ): bool => self::serves( $tag, $want ) ) );
+		if ( array() === $same ) {
+			return '';
+		}
+		$primary = explode( '_', $want )[0];
+		foreach ( array( $primary, self::usual_form( $want ) ) as $preferred ) {
+			if ( in_array( $preferred, $same, true ) ) {
+				return $spelled[ $preferred ];
+			}
+		}
+		sort( $same, SORT_STRING );
+		return $spelled[ $same[0] ];
+	}
+
+	/**
+	 * May a text in `$tag` be shown to a reader of `$want` (both normalised, not equal)?
+	 *
+	 * @param string $tag  A tag the site has.
+	 * @param string $want The reader's tag.
+	 * @return bool
+	 */
+	private static function serves( string $tag, string $want ): bool {
+		$primary = explode( '_', $want )[0];
+		if ( explode( '_', $tag )[0] !== $primary ) {
+			return false;
+		}
+		if ( 'zh' !== $primary && ( $tag === $primary || $want === $primary ) ) {
+			return true; // The language alone, either way round (never for Chinese: bare `zh` is Simplified).
+		}
+		return self::standard( $tag ) === self::standard( $want );
+	}
+
+	/**
+	 * The written standard of a tag: `zh_hant` / `zh_hans`, `pt_br` / `pt_pt`, else the language.
+	 *
+	 * @param string $tag A normalised tag.
+	 * @return string
+	 */
+	private static function standard( string $tag ): string {
+		$parts   = explode( '_', $tag );
+		$primary = array_shift( $parts );
+		if ( 'zh' === $primary ) {
+			return array() !== array_intersect( $parts, array( 'hant', 'tw', 'hk', 'mo' ) ) ? 'zh_hant' : 'zh_hans';
+		}
+		if ( 'pt' === $primary && array() !== $parts ) {
+			return in_array( 'br', $parts, true ) ? 'pt_br' : 'pt_pt';
+		}
+		return $primary;
+	}
+
+	/**
+	 * A language's usual form (CLDR likely subtags, as WordPress spells locales): `de_de`,
+	 * `en_us`, `pt_br` (`pt_pt` for a European reader), `zh_cn` / `zh_tw`.
+	 *
+	 * @param string $want A normalised tag.
+	 * @return string
+	 */
+	private static function usual_form( string $want ): string {
+		$standard = self::standard( $want );
+		$usual    = array(
+			'zh_hans' => 'zh_cn',
+			'zh_hant' => 'zh_tw',
+			'pt'      => 'pt_br',
+			'pt_br'   => 'pt_br',
+			'pt_pt'   => 'pt_pt',
+			'en'      => 'en_us',
+			'ar'      => 'ar_sa',
+			'bn'      => 'bn_bd',
+			'cs'      => 'cs_cz',
+			'da'      => 'da_dk',
+			'el'      => 'el_gr',
+			'fa'      => 'fa_ir',
+			'he'      => 'he_il',
+			'hi'      => 'hi_in',
+			'ja'      => 'ja_jp',
+			'ka'      => 'ka_ge',
+			'ko'      => 'ko_kr',
+			'ms'      => 'ms_my',
+			'nb'      => 'nb_no',
+			'sr'      => 'sr_rs',
+			'sv'      => 'sv_se',
+			'uk'      => 'uk_ua',
+			'vi'      => 'vi_vn',
+		);
+		return $usual[ $standard ] ?? $standard . '_' . $standard;
+	}
+
+	/**
+	 * The codes to ask WPML / Polylang for a language: the best of the languages they list
+	 * (`wpml_active_languages`, which Polylang answers too, by code and by locale), else the tag
+	 * and its language alone, as they spell codes (`de-de`, `de`).
 	 *
 	 * @param string $lang A normalised tag.
 	 * @return array<int, string>
 	 */
-	private static function candidates( string $lang ): array {
-		if ( '' === $lang ) {
-			return array();
+	private static function multilingual_codes( string $lang ): array {
+		$active = apply_filters( 'wpml_active_languages', null, array( 'skip_missing' => 0 ) ); // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound -- WPML's own hook (Polylang answers it too).
+		if ( is_array( $active ) && array() !== $active ) {
+			$by = array();
+			foreach ( $active as $key => $language ) {
+				$code        = (string) ( is_array( $language ) ? ( $language['code'] ?? $key ) : $key );
+				$by[ $code ] = $code;
+				$locale      = is_array( $language ) ? (string) ( $language['default_locale'] ?? '' ) : '';
+				if ( '' !== $locale && ! isset( $by[ $locale ] ) ) {
+					$by[ $locale ] = $code;
+				}
+			}
+			$best = self::best_match( $lang, array_map( 'strval', array_keys( $by ) ) );
+			return '' === $best ? array() : array( $by[ $best ] );
 		}
 		$primary = explode( '_', $lang )[0];
-		return array_values( array_unique( array( $lang, $primary ) ) );
+		$tags    = array( $lang );
+		if ( self::serves( $primary, $lang ) ) {
+			$tags[] = $primary;
+		}
+		return array_map( static fn( string $tag ): string => str_replace( '_', '-', $tag ), array_values( array_unique( $tags ) ) );
 	}
 
 	/**
@@ -334,15 +471,13 @@ final class Site_Strings {
 		if ( ! class_exists( '\ZinnDigital\Tranzly\Core\Strings' ) || ! class_exists( '\ZinnDigital\Tranzly\Languages' ) ) {
 			return '';
 		}
-		foreach ( self::candidates( $lang ) as $tag ) {
-			$code = \ZinnDigital\Tranzly\Languages::resolve( $tag );
-			if ( null === $code ) {
-				continue;
-			}
-			$value = \ZinnDigital\Tranzly\Core\Strings::all( $code )[ self::tranzly_key( $text ) ] ?? '';
-			if ( is_string( $value ) && '' !== trim( $value ) ) {
-				return $value;
-			}
+		$code = self::best_match( $lang, array_column( \ZinnDigital\Tranzly\Languages::all(), 'code' ) );
+		if ( '' === $code ) {
+			return '';
+		}
+		$value = \ZinnDigital\Tranzly\Core\Strings::all( $code )[ self::tranzly_key( $text ) ] ?? '';
+		if ( is_string( $value ) && '' !== trim( $value ) ) {
+			return $value;
 		}
 		return '';
 	}

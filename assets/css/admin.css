@@ -11,7 +11,10 @@
 .zc-badge{display:inline-block;min-inline-size:18px;padding-inline:5px;border-radius:9px;background:#d63638;color:#fff;font-size:11px;line-height:18px;text-align:center}
 .zc-badge:empty{display:none}
 /* Inbox */
-.zc-body{display:grid;grid-template-columns:320px 1fr;gap:12px;block-size:calc(100vh - 170px);min-block-size:480px}
+/* minmax(0,1fr) rows + min-block-size:0: a long chat scrolls inside its pane. With the grid's
+   default auto row the pane took the chat's full height, so the reply box sat thousands of pixels
+   down, under the admin footer (W39 2026-10-05). */
+.zc-body{display:grid;grid-template-columns:320px 1fr;grid-template-rows:minmax(0,1fr);gap:12px;block-size:calc(100vh - 170px);min-block-size:480px}
 .zc-list{background:#fff;border:1px solid #dcdcde;border-radius:6px;display:flex;flex-direction:column;overflow:hidden}
 .zc-list .zc-filters{padding:8px;margin:0;border-block-end:1px solid #dcdcde}
 .zc-rows{list-style:none;margin:0;padding:0;overflow-y:auto;flex:1}
@@ -23,12 +26,12 @@
 .zc-row-last{color:#3c434a;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-block:2px}
 .zc-row-meta{font-size:12px;color:#646970}
 .zc-none,.zc-empty{padding:16px;color:#646970}
-.zc-work{display:flex;flex-direction:column;min-inline-size:0}
+.zc-work{display:flex;flex-direction:column;min-inline-size:0;min-block-size:0}
 .zc-tabs{display:flex;gap:4px;overflow-x:auto;padding-block-end:4px}
 .zc-tab{display:flex;align-items:center;gap:4px;background:#f0f0f1;border:1px solid #dcdcde;border-radius:6px 6px 0 0;padding:2px 4px}
 .zc-tab.is-active{background:#fff;border-block-end-color:#fff}
 .zc-tab button{background:none;border:0;cursor:pointer;padding:4px}
-.zc-panes{flex:1;display:grid;gap:10px;min-block-size:0}
+.zc-panes{flex:1;display:grid;grid-template-rows:minmax(0,1fr);gap:10px;min-block-size:0}
 .zc-panes[data-count="2"]{grid-template-columns:1fr 1fr}
 .zc-panes[data-count="3"]{grid-template-columns:1fr 1fr 1fr}
 .zc-pane{background:#fff;border:1px solid #dcdcde;border-radius:6px;display:flex;flex-direction:column;min-block-size:0;min-inline-size:0}

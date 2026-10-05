@@ -116,6 +116,13 @@ final class Assistant {
 				'task'        => 'general',
 				'purpose'     => (string) ( $context['purpose'] ?? 'zinn-chat-answer' ),
 				'max_tokens'  => (int) Settings::get( 'max_answer_tokens', 900 ),
+				// ⛔ A thinking model spends its reasoning out of the SAME output budget: on
+				// gemini-3.8-flash with no level asked, 2 of 6 "Where is my order?" answers used
+				// ~860 of the 900 tokens thinking and were cut mid-sentence ("Your Order #42 … is"),
+				// shown to the visitor as if whole (finishReason MAX_TOKENS; W39 2026-10-05).
+				// `low` measured 0 thought tokens and 6/6 whole answers. The answer is written
+				// from the passages given, so it needs no long reasoning.
+				'thinking'    => 'low',
 				'temperature' => 0.2,
 				'system'      => true,
 			)
