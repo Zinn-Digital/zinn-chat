@@ -75,6 +75,7 @@ final class Plugin {
 		}
 
 		Capabilities::init();
+		Site_Strings::init();
 		Mailer::init();
 		Rest::init();
 		Agent_Rest::init();

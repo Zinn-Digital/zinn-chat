@@ -16,6 +16,7 @@ use ZinnDigital\ZinnChat\Index\Extractor;
 use ZinnDigital\ZinnChat\Index\Index;
 use ZinnDigital\ZinnChat\Index\Queue;
 use ZinnDigital\ZinnChat\Settings;
+use ZinnDigital\ZinnChat\Site_Strings;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
@@ -94,6 +95,7 @@ final class Settings_Page {
 				'human_enabled'    => array( 'checkbox', __( 'Offer "Talk to a person"', 'zinn-chat' ), __( 'Shown while somebody has the Inbox open and is not set to away.', 'zinn-chat' ) ),
 				'hide_for_admins'  => array( 'checkbox', __( 'Hide the chat from your support team while they are signed in', 'zinn-chat' ), '' ),
 				'branding'         => array( 'checkbox', __( 'Show "Powered by Zinn® Chat" under the chat', 'zinn-chat' ), __( 'Optional. Off unless you turn it on.', 'zinn-chat' ) ),
+				'texts'            => array( 'texts', __( 'Your chat texts in other languages', 'zinn-chat' ), __( 'With Tranzly, WPML or Polylang you do not need this: your texts are listed there with your other site texts (Tranzly: Menus and shared text, then "Site title, tagline and widgets"; WPML: String Translation, in the Zinn® Chat context; Polylang: Strings translations, in the Zinn® Chat group), and visitors see them in their own language. Without a multilingual plugin, write your own version for each language here, with its code (for example de, ar or pt_BR). A field left empty shows your main text.', 'zinn-chat' ) ),
 			),
 			'assistant' => array(
 				'ai_enabled'        => array( 'checkbox', __( 'Let the AI assistant answer visitors', 'zinn-chat' ), '' ),
@@ -265,6 +267,9 @@ final class Settings_Page {
 					)
 				);
 				break;
+			case 'texts':
+				self::texts_field( $name, is_array( $value ) ? $value : array() );
+				break;
 			case 'secret':
 				echo '<input type="password" class="regular-text" autocomplete="new-password" id="' . esc_attr( $id ) . '" name="' . esc_attr( $name ) . '" value="" placeholder="' . esc_attr( '' !== (string) $value ? __( 'Saved — leave empty to keep', 'zinn-chat' ) : '' ) . '">';
 				if ( '' !== (string) $value ) {
@@ -278,6 +283,38 @@ final class Settings_Page {
 			echo '<p class="description">' . esc_html( $help ) . '</p>';
 		}
 		echo '</td></tr>';
+	}
+
+	/**
+	 * The owner's own versions of the visitor texts: one group per language, and an empty one to
+	 * add a language. Emptying a language's code (or all its fields) removes it.
+	 *
+	 * @param string                               $name  Field name.
+	 * @param array<string, array<string, string>> $value Language => name => text.
+	 * @return void
+	 */
+	private static function texts_field( string $name, array $value ): void {
+		$value[''] = array();
+		$row       = 0;
+		foreach ( $value as $lang => $texts ) {
+			$base = $name . '[' . $row . ']';
+			$id   = 'zc-texts-' . $row;
+			echo '<fieldset class="zc-texts" style="margin-block-end:16px;padding:8px 12px;border:1px solid #dcdcde"><legend>' . esc_html( '' === $lang ? __( 'Add a language', 'zinn-chat' ) : (string) $lang ) . '</legend>';
+			echo '<p><label for="' . esc_attr( $id . '-lang' ) . '">' . esc_html__( 'Language code', 'zinn-chat' ) . '</label> <input type="text" class="small-text" id="' . esc_attr( $id . '-lang' ) . '" name="' . esc_attr( $base . '[lang]' ) . '" value="' . esc_attr( (string) $lang ) . '" pattern="[A-Za-z]{2,3}([_\-][A-Za-z0-9]{2,8}){0,2}"></p>';
+			foreach ( Site_Strings::fields() as $key => $label ) {
+				$field = $id . '-' . $key;
+				$text  = (string) ( $texts[ $key ] ?? '' );
+				echo '<p><label for="' . esc_attr( $field ) . '">' . esc_html( $label ) . '</label><br>';
+				if ( in_array( $key, array( 'greeting', 'offline_greeting', 'consent_text' ), true ) ) {
+					echo '<textarea class="large-text" rows="2" id="' . esc_attr( $field ) . '" name="' . esc_attr( $base . '[' . $key . ']' ) . '">' . esc_textarea( $text ) . '</textarea>';
+				} else {
+					echo '<input type="text" class="regular-text" id="' . esc_attr( $field ) . '" name="' . esc_attr( $base . '[' . $key . ']' ) . '" value="' . esc_attr( $text ) . '">';
+				}
+				echo '</p>';
+			}
+			echo '</fieldset>';
+			++$row;
+		}
 	}
 
 	/**

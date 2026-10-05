@@ -95,6 +95,25 @@ final class Rest {
 	 * @return mixed
 	 */
 	public static function in_page_language( \WP_REST_Request $request, callable $handler ) {
+		// The owner's own texts (greeting, offline message…) in the page's language too, from the
+		// multilingual plugin or the owner's own versions, even where this plugin ships no file for
+		// that language (2.10.12, Site_Strings).
+		Site_Strings::use_language( (string) $request->get_param( 'page_lang' ) );
+		try {
+			return self::with_plugin_words( $request, $handler );
+		} finally {
+			Site_Strings::use_language( null );
+		}
+	}
+
+	/**
+	 * Run a handler with this plugin's words loaded in the page's language, when it ships them.
+	 *
+	 * @param \WP_REST_Request $request Request.
+	 * @param callable         $handler The route's handler.
+	 * @return mixed
+	 */
+	private static function with_plugin_words( \WP_REST_Request $request, callable $handler ) {
 		$locale = self::page_locale( (string) $request->get_param( 'page_lang' ) );
 		if ( '' === $locale || determine_locale() === $locale ) {
 			return $handler( $request );

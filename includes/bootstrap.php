@@ -21,6 +21,7 @@ require_once dirname( __DIR__ ) . '/vendor/woocommerce/action-scheduler/action-s
 require_once __DIR__ . '/ai-core/load.php';
 
 require_once __DIR__ . '/class-settings.php';
+require_once __DIR__ . '/class-site-strings.php';
 require_once __DIR__ . '/class-capabilities.php';
 require_once __DIR__ . '/class-schema.php';
 require_once __DIR__ . '/class-util.php';

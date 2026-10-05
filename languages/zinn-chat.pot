@@ -2,14 +2,14 @@
 # This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Zinn® Chat 2.10.11\n"
+"Project-Id-Version: Zinn® Chat 2.10.12\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zinn-chat\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-05T14:18:13+00:00\n"
+"POT-Creation-Date: 2026-10-05T16:51:34+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: zinn-chat\n"
@@ -60,7 +60,7 @@ msgstr ""
 
 #: includes/admin/class-admin.php:59
 #: includes/admin/class-assistant-page.php:32
-#: includes/class-settings.php:195
+#: includes/class-settings.php:210
 #: assets/js/console.js:67
 msgid "Assistant"
 msgstr ""
@@ -104,340 +104,361 @@ msgstr ""
 msgid "This screen needs JavaScript."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:48
+#: includes/admin/class-settings-page.php:49
 msgid "Chat"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:49
+#: includes/admin/class-settings-page.php:50
 msgid "AI assistant"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:50
+#: includes/admin/class-settings-page.php:51
 msgid "Tickets and email"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:51
+#: includes/admin/class-settings-page.php:52
 msgid "Site index"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:52
+#: includes/admin/class-settings-page.php:53
 msgid "Privacy and spam"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:53
+#: includes/admin/class-settings-page.php:54
 msgid "Connect to Zinn Digital®"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:54
+#: includes/admin/class-settings-page.php:55
 #: includes/mcp-kit/class-server.php:314
 msgid "AI agents (MCP)"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:79
+#: includes/admin/class-settings-page.php:80
 msgid "Show the chat on the site"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:79
+#: includes/admin/class-settings-page.php:80
 msgid "Nothing appears on the site, and nothing is loaded, until this is ticked."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:80
+#: includes/admin/class-settings-page.php:81
+#: includes/class-site-strings.php:78
 msgid "Chat title"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:81
+#: includes/admin/class-settings-page.php:82
+#: includes/class-site-strings.php:79
 msgid "Greeting"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:81
+#: includes/admin/class-settings-page.php:82
 msgid "The first thing a visitor sees."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:82
+#: includes/admin/class-settings-page.php:83
+#: includes/class-site-strings.php:80
 msgid "Greeting when nobody can answer"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:83
+#: includes/admin/class-settings-page.php:84
 msgid "Colour"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:84
+#: includes/admin/class-settings-page.php:85
 msgid "Text colour on the colour"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:87
+#: includes/admin/class-settings-page.php:88
 msgid "Position"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:90
+#: includes/admin/class-settings-page.php:91
 msgid "Bottom, end side (right in left-to-right languages)"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:91
+#: includes/admin/class-settings-page.php:92
 msgid "Bottom, start side"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:94
+#: includes/admin/class-settings-page.php:95
 msgid "Offer \"Talk to a person\""
 msgstr ""
 
-#: includes/admin/class-settings-page.php:94
+#: includes/admin/class-settings-page.php:95
 msgid "Shown while somebody has the Inbox open and is not set to away."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:95
+#: includes/admin/class-settings-page.php:96
 msgid "Hide the chat from your support team while they are signed in"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:96
+#: includes/admin/class-settings-page.php:97
 msgid "Show \"Powered by Zinn® Chat\" under the chat"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:96
+#: includes/admin/class-settings-page.php:97
 msgid "Optional. Off unless you turn it on."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:99
+#: includes/admin/class-settings-page.php:98
+msgid "Your chat texts in other languages"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:98
+msgid "With Tranzly, WPML or Polylang you do not need this: your texts are listed there with your other site texts (Tranzly: Menus and shared text, then \"Site title, tagline and widgets\"; WPML: String Translation, in the Zinn® Chat context; Polylang: Strings translations, in the Zinn® Chat group), and visitors see them in their own language. Without a multilingual plugin, write your own version for each language here, with its code (for example de, ar or pt_BR). A field left empty shows your main text."
+msgstr ""
+
+#: includes/admin/class-settings-page.php:101
 msgid "Let the AI assistant answer visitors"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:100
+#: includes/admin/class-settings-page.php:102
+#: includes/class-site-strings.php:81
 msgid "Assistant name"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:101
+#: includes/admin/class-settings-page.php:103
 msgid "Extra instructions for the assistant"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:101
+#: includes/admin/class-settings-page.php:103
 msgid "For example: \"Always mention our 30-day returns.\" They cannot override the safety rules."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:102
+#: includes/admin/class-settings-page.php:104
 msgid "Answer language"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:102
+#: includes/admin/class-settings-page.php:104
 msgid "\"auto\" answers in the visitor's own language; or a locale such as en_GB or de_DE to always answer in one language."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:103
+#: includes/admin/class-settings-page.php:105
 msgid "Minimum relevance"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:103
+#: includes/admin/class-settings-page.php:105
 msgid "Passages scoring below this (0 to 0.95) are not used, and the assistant says it does not know. Check scores in the test console."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:104
+#: includes/admin/class-settings-page.php:106
 msgid "Offer a person after this many unanswered questions"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:105
+#: includes/admin/class-settings-page.php:107
 msgid "Longest answer (tokens)"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:108
+#: includes/admin/class-settings-page.php:110
 msgid "Accept support tickets"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:109
+#: includes/admin/class-settings-page.php:111
 #: includes/class-blocks.php:39
 msgid "Support page"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:109
+#: includes/admin/class-settings-page.php:111
 msgid "The page with the [zinn_chat_support] shortcode or the Support page block. Ticket links in emails open this page."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:110
+#: includes/admin/class-settings-page.php:112
 msgid "Send team alerts to"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:110
+#: includes/admin/class-settings-page.php:112
 msgid "One or more email addresses, separated by commas. Empty: the site admin email."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:111
+#: includes/admin/class-settings-page.php:113
 msgid "Sender name on emails"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:112
+#: includes/admin/class-settings-page.php:114
 msgid "Email the team when a visitor waits for a person longer than (minutes)"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:113
+#: includes/admin/class-settings-page.php:115
 msgid "Private ticket links work for (days after the last message)"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:113
+#: includes/admin/class-settings-page.php:115
 msgid "After that the page offers to email a new link."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:114
+#: includes/admin/class-settings-page.php:116
 msgid "Add a Support tab to the WooCommerce account area"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:115
+#: includes/admin/class-settings-page.php:117
 msgid "Let the assistant tell signed-in customers about their own orders"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:115
+#: includes/admin/class-settings-page.php:117
 msgid "Answers \"where is my order?\" from the order status and tracking."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:118
+#: includes/admin/class-settings-page.php:120
 msgid "Content the assistant reads"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:118
+#: includes/admin/class-settings-page.php:120
 msgid "None ticked means every public type."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:119
+#: includes/admin/class-settings-page.php:121
 msgid "WooCommerce products, prices, stock, shipping and payment methods"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:120
+#: includes/admin/class-settings-page.php:122
 msgid "Forums (bbPress, BuddyBoss, wpForo)"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:121
+#: includes/admin/class-settings-page.php:123
 msgid "Read pages as visitors see them when a page builder's content cannot be read directly"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:121
+#: includes/admin/class-settings-page.php:123
 msgid "Fetches the page from your own site in the background."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:122
+#: includes/admin/class-settings-page.php:124
 msgid "Never read these posts or pages (IDs)"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:122
+#: includes/admin/class-settings-page.php:124
 #: includes/pro__premium_only/class-targeting.php:57
 msgid "Comma-separated."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:125
+#: includes/admin/class-settings-page.php:127
 msgid "Ask visitors to agree before a chat or ticket"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:126
+#: includes/admin/class-settings-page.php:128
+#: includes/class-site-strings.php:82
 msgid "Agreement text"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:127
+#: includes/admin/class-settings-page.php:129
 msgid "Privacy policy link"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:127
+#: includes/admin/class-settings-page.php:129
 msgid "Empty: the site's privacy policy page."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:128
+#: includes/admin/class-settings-page.php:130
 msgid "Delete finished chats and tickets after (days)"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:128
+#: includes/admin/class-settings-page.php:130
 msgid "0 keeps them."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:129
+#: includes/admin/class-settings-page.php:131
 msgid "Store visitors' IP addresses"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:129
+#: includes/admin/class-settings-page.php:131
 msgid "Off: only a coded form is kept, enough for spam limits."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:130
+#: includes/admin/class-settings-page.php:132
 msgid "Messages per visitor per hour"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:131
+#: includes/admin/class-settings-page.php:133
 msgid "Chats per visitor per day"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:132
+#: includes/admin/class-settings-page.php:134
 msgid "Tickets per visitor per day"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:133
+#: includes/admin/class-settings-page.php:135
 msgid "Longest chat message (characters)"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:134
+#: includes/admin/class-settings-page.php:136
 msgid "Block list"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:134
+#: includes/admin/class-settings-page.php:136
 msgid "One per line: an IP address, an email address, @domain.com, or a word."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:139
+#: includes/admin/class-settings-page.php:141
 msgid "Where chats are answered"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:140
+#: includes/admin/class-settings-page.php:142
 msgid "\"This site\" keeps everything in this site's database and uses your own AI key. \"Zinn Digital®\" uses the hosted inbox in the Zinn® app (for Zinn® hosting customers)."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:142
+#: includes/admin/class-settings-page.php:144
 msgid "This site (recommended)"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:143
+#: includes/admin/class-settings-page.php:145
 msgid "Zinn Digital® app"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:146
+#: includes/admin/class-settings-page.php:148
 msgid "Zinn® widget key"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:146
+#: includes/admin/class-settings-page.php:148
 msgid "From the Zinn® app: Live chat, then your widget. Starts with zc_."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:149
+#: includes/admin/class-settings-page.php:151
 #: includes/mcp-kit/class-server.php:323
 msgid "Allow AI agents (MCP)"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:149
+#: includes/admin/class-settings-page.php:151
 #: includes/mcp-kit/class-server.php:325
 msgid "Off: the tools below and their REST routes are not registered at all."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:177
+#: includes/admin/class-settings-page.php:179
 msgid "Zinn® Chat settings"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:180
+#: includes/admin/class-settings-page.php:182
 msgid "Settings saved."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:188
+#: includes/admin/class-settings-page.php:190
 msgid "The assistant uses your own AI key."
 msgstr ""
 
-#: includes/admin/class-settings-page.php:188
+#: includes/admin/class-settings-page.php:190
 msgid "AI providers and models"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:263
+#: includes/admin/class-settings-page.php:265
 msgid "— None —"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:269
+#: includes/admin/class-settings-page.php:274
 msgid "Saved — leave empty to keep"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:271
+#: includes/admin/class-settings-page.php:276
 msgid "Remove the saved key"
 msgstr ""
 
-#: includes/admin/class-settings-page.php:290
+#: includes/admin/class-settings-page.php:302
+msgid "Add a language"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:303
+msgid "Language code"
+msgstr ""
+
+#: includes/admin/class-settings-page.php:327
 msgid "You are not allowed to change these settings."
 msgstr ""
 
@@ -1369,7 +1390,7 @@ msgstr ""
 #: includes/class-blocks.php:66
 #: includes/class-front-tickets.php:206
 #: includes/class-front-tickets.php:669
-#: includes/class-settings.php:182
+#: includes/class-settings.php:196
 msgid "Chat with us"
 msgstr ""
 
@@ -1384,7 +1405,7 @@ msgstr ""
 
 #. translators: %d: ticket number.
 #: includes/class-front-tickets.php:131
-#: includes/class-rest.php:671
+#: includes/class-rest.php:690
 #, php-format
 msgid "Thank you. Your request is ticket #%d. We have emailed you a link to follow it."
 msgstr ""
@@ -1394,7 +1415,7 @@ msgid "Your reply has been sent."
 msgstr ""
 
 #: includes/class-front-tickets.php:133
-#: includes/class-rest.php:785
+#: includes/class-rest.php:804
 msgid "If there is a request under that address, we have emailed you a new link."
 msgstr ""
 
@@ -1403,25 +1424,25 @@ msgid "Something went wrong. Please check the form and try again."
 msgstr ""
 
 #: includes/class-front-tickets.php:135
-#: includes/class-rest.php:212
-#: includes/class-rest.php:215
+#: includes/class-rest.php:231
+#: includes/class-rest.php:234
 msgid "Your message could not be sent."
 msgstr ""
 
 #: includes/class-front-tickets.php:136
-#: includes/class-rest.php:218
+#: includes/class-rest.php:237
 #: includes/pro__premium_only/class-kb.php:681
 msgid "You are sending messages too quickly. Please wait a little and try again."
 msgstr ""
 
 #: includes/class-front-tickets.php:137
-#: includes/class-rest.php:643
+#: includes/class-rest.php:662
 msgid "Please agree to the privacy notice to send your request."
 msgstr ""
 
 #: includes/class-front-tickets.php:138
-#: includes/class-rest.php:318
-#: includes/class-rest.php:640
+#: includes/class-rest.php:337
+#: includes/class-rest.php:659
 msgid "Please complete the check to show you are not a robot."
 msgstr ""
 
@@ -1691,58 +1712,58 @@ msgstr ""
 msgid "If our AI assistant answers you, your message and passages from this website are sent to the AI provider we use to produce the answer."
 msgstr ""
 
-#: includes/class-rest.php:153
-#: includes/class-rest.php:453
-#: includes/class-rest.php:467
+#: includes/class-rest.php:172
+#: includes/class-rest.php:472
+#: includes/class-rest.php:486
 msgid "This chat has ended."
 msgstr ""
 
-#: includes/class-rest.php:284
-#: includes/class-rest.php:299
+#: includes/class-rest.php:303
+#: includes/class-rest.php:318
 msgid "The chat is not available right now."
 msgstr ""
 
-#: includes/class-rest.php:303
+#: includes/class-rest.php:322
 msgid "Please type a message."
 msgstr ""
 
-#: includes/class-rest.php:314
+#: includes/class-rest.php:333
 msgid "Please agree to the privacy notice to start the chat."
 msgstr ""
 
-#: includes/class-rest.php:321
+#: includes/class-rest.php:340
 msgid "You have started too many chats today. Please try again tomorrow or send us a ticket."
 msgstr ""
 
-#: includes/class-rest.php:340
+#: includes/class-rest.php:359
 msgid "The chat could not be started. Please try again."
 msgstr ""
 
-#: includes/class-rest.php:356
-#: includes/class-rest.php:475
+#: includes/class-rest.php:375
+#: includes/class-rest.php:494
 msgid "Nobody can answer in chat right now. Leave your email address and we will reply by email."
 msgstr ""
 
-#: includes/class-rest.php:386
+#: includes/class-rest.php:405
 msgid "The assistant cannot answer right now. You can ask for a person or leave us a message."
 msgstr ""
 
-#: includes/class-rest.php:419
+#: includes/class-rest.php:438
 #: includes/pro__premium_only/class-persona.php:102
 msgid "We are putting you through to a person. Please stay on this page."
 msgstr ""
 
-#: includes/class-rest.php:509
-#: includes/class-rest.php:629
+#: includes/class-rest.php:528
+#: includes/class-rest.php:648
 msgid "Tickets are not available right now."
 msgstr ""
 
-#: includes/class-rest.php:522
+#: includes/class-rest.php:541
 #: assets/js/console.js:67
 msgid "Visitor"
 msgstr ""
 
-#: includes/class-rest.php:522
+#: includes/class-rest.php:541
 #: includes/pro__premium_only/class-agents.php:264
 #: includes/pro__premium_only/class-agents.php:305
 #: assets/pro__premium_only/admin-pro.js:227
@@ -1750,46 +1771,46 @@ msgstr ""
 msgid "Team"
 msgstr ""
 
-#: includes/class-rest.php:527
+#: includes/class-rest.php:546
 msgid "Chat so far:"
 msgstr ""
 
 #. translators: %d: ticket number.
-#: includes/class-rest.php:554
+#: includes/class-rest.php:573
 #, php-format
 msgid "Thank you. Your request is ticket #%d and we will reply by email."
 msgstr ""
 
-#: includes/class-rest.php:611
+#: includes/class-rest.php:630
 #: includes/pro__premium_only/class-agents.php:364
 msgid "Please enter a valid email address."
 msgstr ""
 
-#: includes/class-rest.php:687
+#: includes/class-rest.php:706
 msgid "This link is not valid."
 msgstr ""
 
-#: includes/class-rest.php:690
+#: includes/class-rest.php:709
 msgid "This link has expired. We can email you a new one."
 msgstr ""
 
-#: includes/class-rest.php:696
+#: includes/class-rest.php:715
 msgid "You cannot see this ticket."
 msgstr ""
 
-#: includes/class-settings.php:184
+#: includes/class-settings.php:198
 msgid "Hi! Ask me anything about this site. I answer from its own pages, and I can put you through to a person."
 msgstr ""
 
-#: includes/class-settings.php:189
+#: includes/class-settings.php:204
 msgid "Hi! How can we help? Send us a message and we will get back to you."
 msgstr ""
 
-#: includes/class-settings.php:191
+#: includes/class-settings.php:206
 msgid "Nobody is online right now. Leave your question and email address and we will reply by email."
 msgstr ""
 
-#: includes/class-settings.php:193
+#: includes/class-settings.php:208
 msgid "We keep this conversation so we can answer you."
 msgstr ""
 
@@ -7923,7 +7944,7 @@ msgstr ""
 msgid "Sunday"
 msgstr ""
 
-#: includes/pro__premium_only/class-proactive.php:100
+#: includes/pro__premium_only/class-proactive.php:126
 msgid "Dismiss"
 msgstr ""
 

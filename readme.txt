@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.10.11
+Stable tag: 2.10.12
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,7 @@ Everything runs on your own site and stays in your own database. The AI uses you
 * **Keeps itself up to date:** new, edited and deleted content is picked up automatically, and a background check goes through the whole site every hour, however large it is.
 * **Honest answers with links:** answers only from your pages, links the page it used, and says "I could not find that" instead of guessing, then offers a person or a ticket.
 * **Answers in the visitor's language.**
+* **Your own words in every language:** on a multilingual site the greeting, the message shown when nobody is online, the chat title, the agreement text, the assistant's name and Pro's proactive messages appear in the visitor's language. They are listed for translation in Tranzly, WPML and Polylang with your other site texts, and without a multilingual plugin you can write your own version for each language in the chat settings.
 * **"Where is my order?":** signed-in WooCommerce customers can ask about their own orders.
 * **Bring your own AI key:** Google Gemini, OpenAI, Anthropic Claude, Mistral, OpenRouter, DeepSeek or any OpenAI-compatible service. The newest model is chosen automatically from the provider's own model list, and you can pick another.
 
@@ -128,6 +129,10 @@ Yes. It reads your products, prices, stock, variations, shipping and payment met
 
 Return `false` from the `zinn_chat_should_render` filter.
 
+= My site is in several languages. How do I translate my greeting? =
+
+With Tranzly, your chat texts (greeting, offline message, chat title, agreement text and assistant name) appear in Tranzly, Menus and shared text, under "Site title, tagline and widgets": translate them there, or let Tranzly translate them with the rest of your site. With WPML, open String Translation and pick the "Zinn® Chat" context; with Polylang, open Languages, Strings translations and pick the "Zinn® Chat" group. Each visitor then sees them in the language of the page. Without a multilingual plugin, open Zinn® Chat, Settings, Chat, and write your own version under "Your chat texts in other languages", with the language's code (for example de or ar). A text you do not translate is shown as you typed it.
+
 = Will it slow my site down? =
 
 No request is made on the chat's behalf until a visitor opens it, and the launcher cannot move your layout.
@@ -141,6 +146,9 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.10.12 =
+* On a multilingual site your own chat texts (the greeting, the message shown when nobody is online, the chat title, the agreement text, the assistant's name, and Pro's proactive messages) are shown in the visitor's language. They are listed for translation in Tranzly, WPML ("Zinn® Chat") and Polylang ("Zinn® Chat"), and you can also write your own version for each language in Settings, Chat. Until now they were shown as typed on every language of the site.
 
 = 2.10.11 =
 * On a translated site the chat speaks the language of the page it is open on: its messages ("The assistant cannot answer right now…", hand-over and ticket notes) and its refusals were in the site's language.

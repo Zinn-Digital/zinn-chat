@@ -62,6 +62,8 @@ final class Settings {
 			'consent_required'  => true,
 			'consent_text'      => '',
 			'privacy_url'       => '',
+			// The owner's own versions of those texts per language (Site_Strings::SETTING, 2.10.12).
+			'texts'             => array(),
 			// Off unless the owner opts in: a credit link on the public site needs permission (WordPress.org guideline 10).
 			'branding'          => false,
 			'hide_for_admins'   => false,
@@ -174,6 +176,18 @@ final class Settings {
 	 */
 	public static function text( string $key ): string {
 		$value = trim( (string) self::get( $key, '' ) );
+		// ⭐ An owner text a visitor reads comes back in the visitor's language (2.10.12): the
+		// owner's own version for it, or the multilingual plugin's translation (Site_Strings).
+		if ( in_array( $key, Site_Strings::NAMES, true ) ) {
+			if ( '' === $value ) {
+				$own = Site_Strings::own( $key, Site_Strings::language() );
+				if ( '' !== $own ) {
+					return $own;
+				}
+			} else {
+				return Site_Strings::translate( $key, $value );
+			}
+		}
 		if ( '' !== $value ) {
 			return $value;
 		}
@@ -186,6 +200,7 @@ final class Settings {
 				// ⛔ Without an AI key there is no assistant, so the default greeting must not promise
 				// one (2.0.1). An owner's own greeting (the `greeting` field) still wins.
 				$own = trim( (string) self::get( 'greeting', '' ) );
+				$own = '' !== $own ? Site_Strings::translate( 'greeting', $own ) : Site_Strings::own( 'greeting', Site_Strings::language() );
 				return '' !== $own ? $own : __( 'Hi! How can we help? Send us a message and we will get back to you.', 'zinn-chat' );
 			case 'offline_greeting':
 				return __( 'Nobody is online right now. Leave your question and email address and we will reply by email.', 'zinn-chat' );
@@ -247,6 +262,9 @@ final class Settings {
 		if ( isset( $input['language'] ) ) {
 			$lang              = sanitize_text_field( (string) $input['language'] );
 			$clean['language'] = ( 'auto' === $lang || preg_match( '/^[a-z]{2,3}(_[A-Z]{2})?$/', $lang ) ) ? $lang : 'auto';
+		}
+		if ( array_key_exists( Site_Strings::SETTING, $input ) ) {
+			$clean[ Site_Strings::SETTING ] = Site_Strings::clean( $input[ Site_Strings::SETTING ] );
 		}
 		if ( isset( $input['privacy_url'] ) ) {
 			$clean['privacy_url'] = esc_url_raw( trim( (string) $input['privacy_url'] ) );
