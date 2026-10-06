@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.10.13
+Stable tag: 2.10.14
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -146,6 +146,9 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.10.14 =
+* Security-scan annotation on the AI agents (MCP) sign-in screen (no behaviour change): every value on its Allow button is escaped.
 
 = 2.10.13 =
 * On a translated site whose pages name only a language (de, pt, zh), the chat finds that language's translation (de_DE, pt_BR, zh_CN) for your own texts and for its own words. Brazilian and European Portuguese, and Simplified and Traditional Chinese, never stand in for each other.
