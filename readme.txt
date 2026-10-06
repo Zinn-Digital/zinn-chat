@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.10.14
+Stable tag: 2.10.15
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -89,6 +89,13 @@ Personal (1 site), Business (5 sites) and Agency (unlimited sites), monthly or y
 
 == External services ==
 
+= AI apps you connect (MCP sign-in) =
+
+Only when an AI app such as Claude or ChatGPT starts connecting to the site's MCP server does the site fetch that app's public OAuth client metadata from the address the app gives, for example `https://claude.ai/oauth/mcp-oauth-client-metadata` or `https://chatgpt.com/oauth/client.json`. No site content is sent.
+
+* Claude: terms https://www.anthropic.com/legal/consumer-terms, privacy policy https://www.anthropic.com/legal/privacy
+* ChatGPT: terms https://openai.com/policies/terms-of-use/, privacy policy https://openai.com/policies/privacy-policy/
+
 **Your AI provider (only if you add a key).** When the assistant answers a visitor, the visitor's message, the recent conversation and the passages of your site that match it are sent to the AI provider you chose, with your key. When the site index is built or updated, the text of your published pages is sent to that provider to build the search index. Nothing is sent to any provider until you add its key. Providers and their terms: Google Gemini ([terms](https://ai.google.dev/gemini-api/terms), [privacy](https://policies.google.com/privacy)), OpenAI ([terms](https://openai.com/policies/services-agreement/), [privacy](https://openai.com/policies/privacy-policy/)), Anthropic ([terms](https://www.anthropic.com/legal/commercial-terms), [privacy](https://www.anthropic.com/legal/privacy)), Mistral ([terms](https://legal.mistral.ai/terms/commercial-terms-of-service/), [privacy](https://legal.mistral.ai/terms/privacy-policy/)), OpenRouter ([terms](https://openrouter.ai/terms), [privacy](https://openrouter.ai/privacy)), DeepSeek ([terms](https://cdn.deepseek.com/policies/en-US/deepseek-open-platform-terms-of-service.html), [privacy](https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html)), or a service you name yourself.
 
 **Recommended models list (only if you tick it).** Settings, AI providers can fetch Zinn Digital®'s list of recommended models once a day from `https://api.zinndigital.com/v1/ai-model-catalogue`. The request carries no key, no site address and no content.
@@ -146,6 +153,9 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.10.15 =
+* The readme's External services section now lists the request made when an AI app signs in to the site's MCP server (its public OAuth client metadata); no behaviour change.
 
 = 2.10.14 =
 * Security-scan annotation on the AI agents (MCP) sign-in screen (no behaviour change): every value on its Allow button is escaped.
