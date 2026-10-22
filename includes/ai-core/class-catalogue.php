@@ -28,8 +28,10 @@ if ( ! defined( 'ABSPATH' ) ) {
  * ⛔ And a valid catalogue OLDER than the one in use is refused too: a correctly signed but stale
  * file replayed from a cache must not roll a site back to last year's recommendations.
  *
- * The remote fetch is OFF until the site owner ticks the box (consent), sends nothing but a
- * plain GET with our own User-Agent, and runs at most once a day.
+ * The remote fetch is OFF until the site owner ticks the box (consent) — or, in Pro only, connects
+ * the site to Zinn® (`Policy::fetches_when_connected()`, Q209) — sends nothing but a plain GET
+ * with our own User-Agent, and runs at most once a day. A newer catalogue moves saved choices off
+ * retiring models (`migrate()`, AIM1).
  */
 final class Catalogue {
 
@@ -140,6 +142,18 @@ final class Catalogue {
 	}
 
 	/**
+	 * Use this decoded catalogue for the rest of the request (tests only, like `bundle()`): the
+	 * lifecycle rules are tested on a catalogue the test writes, which no trusted key signed.
+	 * Never persisted; `reset()` drops it.
+	 *
+	 * @param array<string, mixed> $catalogue Decoded catalogue.
+	 * @return void
+	 */
+	public static function assume( array $catalogue ): void {
+		self::$current = $catalogue;
+	}
+
+	/**
 	 * Forget the per-request copy (after a fetch, and in tests).
 	 *
 	 * @return void
@@ -204,13 +218,146 @@ final class Catalogue {
 	}
 
 	/**
+	 * A provider's image models (the catalogue's `image_models`, AIM1). Kept apart from
+	 * `models()` so an older reader listing `models` never offers an image model for text.
+	 *
+	 * @param string $provider Provider id.
+	 * @return array<int, array<string, mixed>>
+	 */
+	public static function image_models( string $provider ): array {
+		$row = self::current()['providers'][ $provider ] ?? array();
+		return is_array( $row ) && is_array( $row['image_models'] ?? null ) ? array_values( array_filter( $row['image_models'], 'is_array' ) ) : array();
+	}
+
+	/**
+	 * One model's catalogue row (text or image), or null when the catalogue does not list it.
+	 *
+	 * @param string $provider Provider id.
+	 * @param string $model    Model id.
+	 * @return array<string, mixed>|null
+	 */
+	public static function row( string $provider, string $model ): ?array {
+		if ( '' === $model ) {
+			return null;
+		}
+		foreach ( array_merge( self::models( $provider ), self::image_models( $provider ) ) as $row ) {
+			if ( ( $row['id'] ?? null ) === $model ) {
+				return $row;
+			}
+		}
+		return null;
+	}
+
+	/**
+	 * Is this model retiring? The catalogue keeps the newest two of each family on offer; an
+	 * older one (or one its provider deprecated or withdrew) is listed as `retiring` until every
+	 * site has moved off it, and is never offered for a new choice.
+	 *
+	 * @param string $provider Provider id.
+	 * @param string $model    Model id.
+	 * @return bool
+	 */
+	public static function retiring( string $provider, string $model ): bool {
+		return 'retiring' === (string) ( self::row( $provider, $model )['status'] ?? '' );
+	}
+
+	/**
+	 * Where a saved choice on a retiring model moves: the newest model of the same family ('' when
+	 * the model is not retiring, or the catalogue names nothing it still offers).
+	 *
+	 * @param string $provider Provider id.
+	 * @param string $model    Model id.
+	 * @return string
+	 */
+	public static function successor( string $provider, string $model ): string {
+		$row = self::row( $provider, $model );
+		if ( null === $row || 'retiring' !== (string) ( $row['status'] ?? '' ) ) {
+			return '';
+		}
+		$next = (string) ( $row['successor'] ?? '' );
+		$to   = self::row( $provider, $next );
+		return null !== $to && 'retiring' !== (string) ( $to['status'] ?? '' ) ? $next : '';
+	}
+
+	/**
+	 * Move the site's saved model choices off retiring models (AIM1, owner 2026-10-13: "when a new
+	 * model is released its added and the oldest one removed"). Once per catalogue: the default
+	 * model of each task, the image default and the embeddings default each move to the newest
+	 * model of the same family. What moved is kept (the last 20) so the host plugin can say so.
+	 *
+	 * @return array<int, array{provider: string, from: string, to: string, at: int}> What moved now.
+	 */
+	public static function migrate(): array {
+		$published = self::published();
+		$record    = (array) ( Store::get()['catalogue'] ?? array() );
+		if ( 0 === $published || (int) ( $record['migrated_for'] ?? 0 ) === $published ) {
+			return array();
+		}
+		$moved = array();
+		$move  = static function ( $row ) use ( &$moved ) {
+			if ( ! is_array( $row ) ) {
+				return $row;
+			}
+			$provider = (string) ( $row['provider'] ?? '' );
+			$model    = (string) ( $row['model'] ?? '' );
+			$next     = self::successor( $provider, $model );
+			if ( '' !== $next ) {
+				$moved[]      = array(
+					'provider' => $provider,
+					'from'     => $model,
+					'to'       => $next,
+					'at'       => time(),
+				);
+				$row['model'] = $next;
+			}
+			return $row;
+		};
+		Store::update(
+			static function ( array $store ) use ( $move, $published, &$moved ): array {
+				if ( is_array( $store['defaults'] ?? null ) ) {
+					foreach ( $store['defaults'] as $task => $row ) {
+						$store['defaults'][ $task ] = $move( $row );
+					}
+				}
+				foreach ( array( 'images', 'embeddings' ) as $slot ) {
+					if ( is_array( $store[ $slot ] ?? null ) ) {
+						$store[ $slot ] = $move( $store[ $slot ] );
+					}
+				}
+				$row                 = is_array( $store['catalogue'] ?? null ) ? $store['catalogue'] : array();
+				$row['migrated_for'] = $published;
+				if ( array() !== $moved ) {
+					$row['moved'] = array_slice( array_merge( (array) ( $row['moved'] ?? array() ), $moved ), -20 );
+				}
+				$store['catalogue'] = $row;
+				return $store;
+			}
+		);
+		return $moved;
+	}
+
+	/**
+	 * Whether this site fetches the newer catalogue: the owner ticked the box. In Pro, a site
+	 * connected to Zinn® fetches too; in the free edition (WordPress.org) connecting is consent to
+	 * the credits service only, never to this separate daily call (Q209).
+	 *
+	 * @return bool
+	 */
+	public static function fetches(): bool {
+		$record = (array) ( Store::get()['catalogue'] ?? array() );
+		if ( ! empty( $record['remote'] ) ) {
+			return true;
+		}
+		return Core::policy()->fetches_when_connected() && ! empty( Zinn::state()['connected'] );
+	}
+
+	/**
 	 * Fetch the catalogue from Zinn Digital, if the site owner agreed to it.
 	 *
 	 * @return string `off` (no consent), `updated`, `unchanged` (valid but not newer), `refused` (did not verify) or `failed` (no answer).
 	 */
 	public static function refresh(): string {
-		$record = (array) ( Store::get()['catalogue'] ?? array() );
-		if ( empty( $record['remote'] ) ) {
+		if ( ! self::fetches() ) {
 			return 'off';
 		}
 		$response = Http::send( 'GET', self::URL, array( 'Accept' => 'application/json' ) );
@@ -240,6 +387,9 @@ final class Catalogue {
 			}
 		);
 		self::reset();
+		if ( 'updated' === $status ) {
+			self::migrate();
+		}
 
 		return $status;
 	}

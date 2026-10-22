@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-05T16:57:09+00:00",
+    "translation-revision-date": "2026-10-18T03:49:45+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/pro__premium_only\/admin-pro.js",
     "domain": "messages",
@@ -61,22 +61,22 @@
             "%d second": [
                 "%d secund\u0103",
                 "%d secunde",
-                "%d secunde"
+                "%d de secunde"
             ],
             "%d minute": [
                 "%d minut",
                 "%d minute",
-                "%d minute"
+                "%d de minute"
             ],
             "%d hour": [
                 "%d or\u0103",
                 "%d ore",
-                "%d ore"
+                "%d de ore"
             ],
             "%d day": [
                 "%d zi",
                 "%d zile",
-                "%d zile"
+                "%d de zile"
             ],
             "This browser cannot receive push notifications here. On an iPhone, add the Inbox to your Home Screen first.": [
                 "Acest browser nu poate primi notific\u0103ri push aici. Pe un iPhone, ad\u0103uga\u021bi mai \u00eent\u00e2i Inbox pe ecranul principal."

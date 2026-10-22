@@ -85,6 +85,22 @@ final class Result {
 	public array $vectors = array();
 
 	/**
+	 * What the request cost, in micro-dollars, when the provider SAID so (1.4.0): Zinn® credits
+	 * report the exact debit. Zero means "not reported" — the usage log then prices the tokens
+	 * from the catalogue, as before.
+	 *
+	 * @var int
+	 */
+	public int $cost_micro_usd = 0;
+
+	/**
+	 * The caller's id for this request in a batch (1.4.0, `Client::generate_many()`), echoed back.
+	 *
+	 * @var string
+	 */
+	public string $id = '';
+
+	/**
 	 * A failed result.
 	 *
 	 * @param Failure $failure Why.

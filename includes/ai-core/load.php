@@ -27,6 +27,7 @@ require_once __DIR__ . '/class-provider.php';
 require_once __DIR__ . '/class-openai-compatible.php';
 require_once __DIR__ . '/class-anthropic.php';
 require_once __DIR__ . '/class-gemini.php';
+require_once __DIR__ . '/class-zinn.php';
 require_once __DIR__ . '/class-crypto.php';
 require_once __DIR__ . '/class-store.php';
 require_once __DIR__ . '/class-catalogue.php';

@@ -34,7 +34,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 final class Core {
 
 	/** The core's version. Bump on every change: the newest copy on a site wins the election. */
-	public const VERSION = '1.3.0';
+	public const VERSION = '1.4.0';
 
 	/** Marks the classes of this family, so the election never mistakes another plugin's class. */
 	public const FAMILY = 'zinn-ai-core';
@@ -46,9 +46,9 @@ final class Core {
 	public const CRON = 'zinn_ai_core_catalogue_refresh';
 
 	/**
-	 * The host plugin: `slug`, `name`, `pro` (bool).
+	 * The host plugin: `slug`, `name`, `pro` (bool), and its optional callbacks.
 	 *
-	 * @var array{slug: string, name: string, pro: bool}|null
+	 * @var array<string, mixed>|null
 	 */
 	private static ?array $host = null;
 
@@ -69,9 +69,15 @@ final class Core {
 	/**
 	 * Start the core. Called once by the host plugin's bootstrap.
 	 *
-	 * @param array{slug: string, name: string, pro?: callable(): bool, messages?: callable} $host The host plugin. `messages`, optional:
-	 *        `fn( array $messages, array $context ): array`, called on every request THIS copy sends
-	 *        (the host's own hook point — each host names its own, prefixed, filter).
+	 * @param array<string, mixed> $host The host plugin: `slug`, `name`, `pro` (callable(): bool). Optional:
+	 *        `messages` — `fn( array $messages, array $context ): array`, called on every request THIS
+	 *        copy sends (the host's own hook point — each host names its own, prefixed, filter);
+	 *        `credits` (1.4.0) — the door to Zinn® credits, offered by a host that holds a Zinn®
+	 *        connection: `array{ complete: callable, state: callable }` (see `Zinn`);
+	 *        `choose` (1.4.0) — `fn( string $task ): ?array{provider: string, model: string}`, the
+	 *        host's own choice of provider for a request THIS copy sends with none named (a host
+	 *        whose owner chose "pay with Zinn® credits" answers `zinn`); null falls back to the
+	 *        shared default.
 	 * @return void
 	 */
 	public static function boot( array $host ): void {
@@ -91,6 +97,8 @@ final class Core {
 			'name'     => (string) $host['name'],
 			'pro'      => $pro_loaded,
 			'messages' => isset( $host['messages'] ) && is_callable( $host['messages'] ) ? $host['messages'] : null,
+			'credits'  => self::door_shape( $host['credits'] ?? null ),
+			'choose'   => isset( $host['choose'] ) && is_callable( $host['choose'] ) ? $host['choose'] : null,
 		);
 
 		add_action( 'plugins_loaded', array( self::class, 'wire' ), 20 );
@@ -122,7 +130,9 @@ final class Core {
 	public static function maintain(): void {
 		Store::remember_hosts( array_map( static fn( array $copy ): string => $copy['host'], self::copies() ) );
 
-		$wants = ! empty( ( (array) ( Store::get()['catalogue'] ?? array() ) )['remote'] );
+		// A catalogue that arrived with a plugin update moves saved choices too (once per catalogue).
+		Catalogue::migrate();
+		$wants = Catalogue::fetches();
 		$next  = wp_next_scheduled( self::CRON );
 		if ( $wants && false === $next ) {
 			wp_schedule_event( time() + HOUR_IN_SECONDS, 'daily', self::CRON );
@@ -237,6 +247,79 @@ final class Core {
 		$out = $callback( $messages, $context );
 
 		return is_array( $out ) ? $out : $messages;
+	}
+
+	/**
+	 * A credits door as given by a host, kept only when both callables are there.
+	 *
+	 * @param mixed $door What the host passed.
+	 * @return array{complete: callable, state: callable}|null
+	 */
+	private static function door_shape( $door ): ?array {
+		if ( ! is_array( $door ) || ! isset( $door['complete'], $door['state'] ) || ! is_callable( $door['complete'] ) || ! is_callable( $door['state'] ) ) {
+			return null;
+		}
+
+		return array(
+			'complete' => $door['complete'],
+			'state'    => $door['state'],
+		);
+	}
+
+	/**
+	 * THIS copy's host's door to Zinn® credits, if it offered one (1.4.0).
+	 *
+	 * @return array{complete: callable, state: callable}|null
+	 */
+	public static function own_door(): ?array {
+		$door = self::$host['credits'] ?? null;
+
+		return is_array( $door ) ? $door : null;
+	}
+
+	/**
+	 * The door to Zinn® credits on this site: the first copy, in election order, whose host
+	 * offers one (1.4.0). Found the same way the copies find each other — by the classes PHP has
+	 * declared — so Tranzly's copy can use the credits Zinn® SEO's connection pays from, and a
+	 * site with no host that offers credits sees no Zinn® credits provider at all.
+	 *
+	 * @return array{complete: callable, state: callable}|null
+	 */
+	public static function door(): ?array {
+		foreach ( self::copies() as $copy ) {
+			$class = (string) $copy['class'];
+			if ( ! is_callable( array( $class, 'own_door' ) ) ) {
+				continue; // A copy older than 1.4.0 offers no door.
+			}
+			$door = call_user_func( array( $class, 'own_door' ) );
+			if ( is_array( $door ) && isset( $door['complete'], $door['state'] ) && is_callable( $door['complete'] ) && is_callable( $door['state'] ) ) {
+				return $door;
+			}
+		}
+
+		return null;
+	}
+
+	/**
+	 * The host's own choice of provider and model for a task, when it made one (1.4.0).
+	 *
+	 * @param string $task Task id.
+	 * @return array{provider: string, model: string}|null
+	 */
+	public static function choose( string $task ): ?array {
+		$callback = self::$host['choose'] ?? null;
+		if ( ! is_callable( $callback ) ) {
+			return null;
+		}
+		$choice = $callback( $task );
+		if ( ! is_array( $choice ) || '' === (string) ( $choice['provider'] ?? '' ) ) {
+			return null;
+		}
+
+		return array(
+			'provider' => (string) $choice['provider'],
+			'model'    => (string) ( $choice['model'] ?? '' ),
+		);
 	}
 
 	/**

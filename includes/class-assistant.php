@@ -86,6 +86,10 @@ final class Assistant {
 			)
 		);
 
+		// What the site says about itself (who runs it, how to reach them, its main pages) is given
+		// with every question, after the passages found for it.
+		$usable = array_merge( $usable, self::site_facts( $context ) );
+
 		$messages = array(
 			array(
 				'role'    => 'system',
@@ -152,6 +156,52 @@ final class Assistant {
 		 * @param array<string, mixed> $context  Context.
 		 */
 		return (array) apply_filters( 'zinn_chat_answer', $out, $question, $context );
+	}
+
+	/**
+	 * Facts about the site that are true whatever the question: handed to the assistant as
+	 * sources of their own, so it can say who runs the site, give the phone number or the opening
+	 * hours and point at the right page even when no passage found for the question says so.
+	 *
+	 * Nothing by default. Zinn® SEO, when it is active, answers with what it tells search engines
+	 * (the site's knowledge graph) and AI assistants (llms.txt), so the chat never says otherwise.
+	 *
+	 * @param array<string, mixed> $context Context (`language`).
+	 * @return array<int, array{title: string, url: string, text: string, modified: string, score: float}>
+	 */
+	public static function site_facts( array $context ): array {
+		/**
+		 * Filters the facts about the site given to the assistant with every question. Each is
+		 * `title`, `url` (on this site) and `text` (plain text, at most 3,000 characters); at most
+		 * four are used.
+		 *
+		 * @param array<int, array<string, mixed>> $facts    Facts.
+		 * @param string                           $language The visitor's language (a locale), or ''.
+		 */
+		$given = apply_filters( 'zinn_chat_site_facts', array(), (string) ( $context['language'] ?? '' ) );
+		$out   = array();
+		$host  = strtolower( (string) wp_parse_url( home_url( '/' ), PHP_URL_HOST ) );
+		foreach ( is_array( $given ) ? $given : array() as $fact ) {
+			if ( count( $out ) >= 4 || ! is_array( $fact ) ) {
+				continue;
+			}
+			$title = trim( wp_strip_all_tags( (string) ( $fact['title'] ?? '' ) ) );
+			$text  = trim( wp_strip_all_tags( (string) ( $fact['text'] ?? '' ) ) );
+			$url   = esc_url_raw( (string) ( $fact['url'] ?? '' ) );
+			// A link the assistant may give must be one of this site's own.
+			if ( '' === $title || '' === $text || '' === $url || strtolower( (string) wp_parse_url( $url, PHP_URL_HOST ) ) !== $host ) {
+				continue;
+			}
+			$out[] = array(
+				'title'    => mb_substr( $title, 0, 200 ),
+				'url'      => $url,
+				'text'     => mb_substr( $text, 0, 3000 ),
+				'modified' => '',
+				'score'    => 1.0,
+			);
+		}
+
+		return $out;
 	}
 
 	/**

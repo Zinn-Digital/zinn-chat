@@ -81,10 +81,25 @@ final class Models {
 	 * @return array<int, array{id: string, label: string, source: string}> `source` is `catalogue`, `live` or `added`.
 	 */
 	public static function choices( string $provider ): array {
+		if ( Zinn::ID === $provider ) {
+			// One choice, known without asking anyone: Zinn® picks the model for each job.
+			return Zinn::available() ? array(
+				array(
+					'id'     => Zinn::MODEL,
+					'label'  => __( 'Chosen by Zinn® for each job', 'zinn-chat' ),
+					'source' => 'live',
+				),
+			) : array();
+		}
 		$out  = array();
 		$seen = array();
 		foreach ( Catalogue::models( $provider ) as $row ) {
 			$id = (string) ( $row['id'] ?? '' );
+			if ( 'retiring' === (string) ( $row['status'] ?? '' ) ) {
+				// Retiring (the oldest of its family): never offered for a new choice (AIM1).
+				$seen[ $id ] = true;
+				continue;
+			}
 			if ( '' !== $id && ! isset( $seen[ $id ] ) ) {
 				$seen[ $id ] = true;
 				$out[]       = array(

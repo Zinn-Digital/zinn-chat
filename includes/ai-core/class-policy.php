@@ -64,6 +64,22 @@ class Policy {
 	}
 
 	/**
+	 * Does connecting the site to Zinn® also turn on the daily recommended-models check?
+	 *
+	 * ⛔ Never in the free edition. It is the build WordPress.org reviews, and its rules (Detailed
+	 * Plugin Guidelines 6 and 7) allow an external call only with the user's explicit consent to
+	 * THAT call. Connecting is consent to the credits service the connect screens describe, not to
+	 * a separate daily download they never mention, so the free edition fetches only when the
+	 * owner ticks the box (Q209). Pro answers yes: it ships through Freemius, where the owner ruled
+	 * the directory's rules do not apply (2026-10-13), and the request carries nothing about the site.
+	 *
+	 * @return bool
+	 */
+	public function fetches_when_connected(): bool {
+		return false;
+	}
+
+	/**
 	 * Remove Pro data when the last plugin carrying the core is uninstalled.
 	 *
 	 * @return void

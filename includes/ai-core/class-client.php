@@ -40,10 +40,118 @@ final class Client {
 	 * @return Result
 	 */
 	public static function generate( array $messages, array $options = array() ): Result {
+		$prepared = self::prepare( $options );
+		if ( $prepared instanceof Result ) {
+			return $prepared;
+		}
+		list( $provider, $model, $context, $adapter ) = $prepared;
+
+		// The host's own hook point (Core::boot `messages`): Page Builder Sandwich adds the site's
+		// brand kit here. Each copy calls only its own host, so no plugin changes another's requests.
+		$messages = Core::messages( $messages, $context );
+
+		$result = $adapter->generate( (string) Store::key( $provider ), $model, $messages, self::pass( $options, $context ) );
+		Core::policy()->record( $context, $result );
+
+		return $result;
+	}
+
+	/**
+	 * Many independent requests with the same options (1.4.0): a bulk job's items.
+	 *
+	 * ⭐ Zinn® credits send them `Zinn::MAX_BATCH` per call; a provider with the site owner's own
+	 * key answers each in turn. Either way every item is checked against the policy (limits,
+	 * roles) and recorded in the usage log, exactly as `generate()` would. A refusal before
+	 * anything is sent fails every item with the same reason, and spends nothing.
+	 *
+	 * @param array<int, array{id?: string, messages: array}> $items   Requests, in order.
+	 * @param array<string, mixed>                            $options As `generate()`.
+	 * @return array<int, Result> One per item, in input order, each with its `id`.
+	 */
+	public static function generate_many( array $items, array $options = array() ): array {
+		$items    = array_values( $items );
+		$prepared = self::prepare( $options );
+		if ( $prepared instanceof Result ) {
+			$out = array();
+			foreach ( $items as $index => $item ) {
+				$copy     = clone $prepared;
+				$copy->id = (string) ( $item['id'] ?? (string) $index );
+				$out[]    = $copy;
+			}
+			return $out;
+		}
+		list( $provider, $model, $context, $adapter ) = $prepared;
+		$pass = self::pass( $options, $context );
+		$out  = array();
+		if ( $adapter instanceof Zinn ) {
+			$batch = array();
+			foreach ( $items as $index => $item ) {
+				$batch[] = array(
+					'id'       => (string) ( $item['id'] ?? (string) $index ),
+					'messages' => Core::messages( is_array( $item['messages'] ?? null ) ? $item['messages'] : array(), $context ),
+					'options'  => $pass,
+				);
+			}
+			foreach ( $adapter->generate_batch( $batch, (string) $context['purpose'] ) as $result ) {
+				Core::policy()->record( $context, $result );
+				$out[] = $result;
+			}
+			return $out;
+		}
+		foreach ( $items as $index => $item ) {
+			$refusal = $index > 0 ? Core::policy()->check( $context ) : null;
+			if ( null !== $refusal ) {
+				$result = Result::failed( $refusal, $provider, $model );
+			} else {
+				$result = $adapter->generate( (string) Store::key( $provider ), $model, Core::messages( is_array( $item['messages'] ?? null ) ? $item['messages'] : array(), $context ), $pass );
+			}
+			Core::policy()->record( $context, $result );
+			$result->id = (string) ( $item['id'] ?? (string) $index );
+			$out[]      = $result;
+		}
+
+		return $out;
+	}
+
+	/**
+	 * Which provider and model a text request goes to (1.4.0): the caller's, then the host's own
+	 * choice (Core::boot `choose`), then the site owner's default for the task.
+	 *
+	 * @param string               $task    Task id.
+	 * @param array<string, mixed> $options `provider`, `model`.
+	 * @return array{provider: string, model: string}
+	 */
+	public static function choice( string $task, array $options = array() ): array {
+		$choice = Core::choose( $task ) ?? Store::default_for( $task );
+		if ( isset( $options['provider'] ) ) {
+			$provider = (string) $options['provider'];
+			$model    = (string) ( $options['model'] ?? ( $provider === $choice['provider'] ? $choice['model'] : '' ) );
+		} else {
+			$provider = $choice['provider'];
+			$model    = (string) ( $options['model'] ?? $choice['model'] );
+		}
+		if ( Zinn::ID === $provider ) {
+			$model = Zinn::MODEL;
+		}
+
+		return array(
+			'provider' => $provider,
+			'model'    => $model,
+		);
+	}
+
+	/**
+	 * Resolve and check a text request: the provider, model, context and adapter, or the Result
+	 * that refuses it (recorded).
+	 *
+	 * @param array<string, mixed> $options See generate().
+	 * @return Result|array{0: string, 1: string, 2: array<string, mixed>, 3: Provider}
+	 */
+	private static function prepare( array $options ) {
 		$task     = in_array( $options['task'] ?? '', Store::TASKS, true ) ? (string) $options['task'] : 'general';
-		$choice   = Store::default_for( $task );
-		$provider = (string) ( $options['provider'] ?? $choice['provider'] );
-		$model    = (string) ( $options['model'] ?? ( $provider === $choice['provider'] ? $choice['model'] : '' ) );
+		$choice   = self::choice( $task, $options );
+		$provider = $choice['provider'];
+		$model    = $choice['model'];
 
 		// Before the "not set up" test: a key that exists but cannot be opened IS set up, and the
 		// site owner needs to hear why it stopped working, not that it was never there.
@@ -55,6 +163,9 @@ final class Client {
 			return Result::failed( Failure::refused( $message, Core::settings_url() ), $provider );
 		}
 
+		if ( Zinn::ID === $provider && ! Zinn::ready() ) {
+			return Result::failed( Zinn::not_ready(), $provider, $model );
+		}
 		if ( '' === $provider || ! Store::configured( $provider ) ) {
 			return Result::failed( Failure::refused( __( 'AI is not set up yet. Add a key for an AI provider in the AI settings.', 'zinn-chat' ), Core::settings_url() ) );
 		}
@@ -82,25 +193,46 @@ final class Client {
 			return Result::failed( $refusal, $provider, $model );
 		}
 
-		// The host's own hook point (Core::boot `messages`): Page Builder Sandwich adds the site's
-		// brand kit here. Each copy calls only its own host, so no plugin changes another's requests.
-		$messages = Core::messages( $messages, $context );
-
 		$adapter = Registry::adapter( $provider, Store::provider( $provider ) );
 		if ( null === $adapter ) {
 			return Result::failed( Failure::refused( __( 'That AI provider is not supported by this version of the plugin.', 'zinn-chat' ) ), $provider, $model );
 		}
 
+		return array( $provider, $model, $context, $adapter );
+	}
+
+	/**
+	 * The generation options an adapter receives.
+	 *
+	 * @param array<string, mixed> $options The caller's options.
+	 * @param array<string, mixed> $context The request context.
+	 * @return array<string, mixed>
+	 */
+	private static function pass( array $options, array $context ): array {
 		$generate = array();
 		foreach ( array( 'schema', 'schema_name', 'max_tokens', 'temperature', 'thinking' ) as $name ) {
 			if ( isset( $options[ $name ] ) ) {
 				$generate[ $name ] = $options[ $name ];
 			}
 		}
-		$result = $adapter->generate( (string) Store::key( $provider ), $model, $messages, $generate );
-		Core::policy()->record( $context, $result );
+		if ( Zinn::ID === $context['provider'] ) {
+			// For the Zinn® account's own usage log; a vendor adapter never sees it.
+			$generate['purpose'] = (string) $context['purpose'];
+		}
 
-		return $result;
+		return $generate;
+	}
+
+	/**
+	 * Will text requests for this task be paid with Zinn® credits (1.4.0)? Features that read
+	 * images ask, because credits read text only.
+	 *
+	 * @param string               $task    Task id.
+	 * @param array<string, mixed> $options `provider`.
+	 * @return bool
+	 */
+	public static function on_credits( string $task = 'general', array $options = array() ): bool {
+		return Zinn::ID === self::choice( in_array( $task, Store::TASKS, true ) ? $task : 'general', $options )['provider'];
 	}
 
 	/**

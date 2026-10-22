@@ -86,6 +86,8 @@ final class Admin {
 				return __( 'One key for models from many different providers.', 'zinn-chat' );
 			case Registry::CUSTOM:
 				return __( 'Any service that works like OpenAI\'s API, including a model running on your own computer or server.', 'zinn-chat' );
+			case Zinn::ID:
+				return __( 'No key needed: pay as you go from your Zinn® account\'s credit. We pick a good, inexpensive model for each job.', 'zinn-chat' );
 		}
 
 		return '';
@@ -179,6 +181,12 @@ final class Admin {
 				(string) ( $spec['label'] ?? $provider )
 			)
 		) . '</h2>';
+		if ( Zinn::ID === $provider ) {
+			self::zinn_status();
+			echo '<p><a href="' . esc_url( Core::settings_url() ) . '">' . esc_html__( '← Choose a different provider', 'zinn-chat' ) . '</a></p>';
+			echo '</div>';
+			return;
+		}
 		if ( Registry::CUSTOM === $provider ) {
 			echo '<p>' . esc_html__( 'Enter the address of your OpenAI-compatible service, ending in /v1. A key is only needed if the service asks for one.', 'zinn-chat' ) . '</p>';
 		} else {
@@ -243,9 +251,16 @@ final class Admin {
 	 */
 	private static function render_providers(): void {
 		echo '<h2>' . esc_html__( 'Providers', 'zinn-chat' ) . '</h2>';
-		echo '<table class="widefat striped"><thead><tr><th>' . esc_html__( 'Provider', 'zinn-chat' ) . '</th><th>' . esc_html__( 'Status', 'zinn-chat' ) . '</th><th>' . esc_html__( 'Key', 'zinn-chat' ) . '</th></tr></thead><tbody>';
+		// Fits a 360 px screen (CONSENT1): WordPress's fixed table layout, long model ids wrap.
+		echo '<table class="widefat striped fixed" style="overflow-wrap:anywhere"><thead><tr><th>' . esc_html__( 'Provider', 'zinn-chat' ) . '</th><th>' . esc_html__( 'Status', 'zinn-chat' ) . '</th><th>' . esc_html__( 'Key', 'zinn-chat' ) . '</th></tr></thead><tbody>';
 		foreach ( Registry::all() as $id => $spec ) {
 			$saved = Store::provider( $id );
+			if ( Zinn::ID === $id ) {
+				echo '<tr><td><strong>' . esc_html( (string) ( $spec['label'] ?? $id ) ) . '</strong><br><span class="description">' . esc_html( self::describe( $id ) ) . '</span></td><td colspan="2">';
+				self::zinn_status();
+				echo '</td></tr>';
+				continue;
+			}
 			echo '<tr><td><strong>' . esc_html( (string) ( $spec['label'] ?? $id ) ) . '</strong><br><span class="description">' . esc_html( self::describe( $id ) ) . '</span>';
 			if ( '' !== (string) ( $spec['key_url'] ?? '' ) ) {
 				echo '<br><a href="' . esc_url( (string) $spec['key_url'] ) . '" target="_blank" rel="noopener noreferrer">' . esc_html__( 'Get a key', 'zinn-chat' ) . '</a>';
@@ -261,6 +276,43 @@ final class Admin {
 			echo '</td></tr>';
 		}
 		echo '</tbody></table>';
+	}
+
+	/**
+	 * Zinn® credits' state and the one action that changes it (connect, or add credit). There is no
+	 * key to save: the plugin that offers the credits holds the connection.
+	 *
+	 * @return void
+	 */
+	private static function zinn_status(): void {
+		$state = Zinn::state();
+		if ( ! $state['connected'] ) {
+			echo '<p>' . esc_html__( 'Not connected. Connect this site to a Zinn® account (free) and pay only for what you use.', 'zinn-chat' ) . '</p>';
+			if ( '' !== $state['connect_url'] ) {
+				echo '<p><a class="button button-primary" href="' . esc_url( $state['connect_url'] ) . '">' . esc_html__( 'Connect to Zinn®', 'zinn-chat' ) . '</a></p>';
+			}
+			return;
+		}
+		if ( ! $state['can_spend'] ) {
+			echo '<p>' . esc_html__( 'Connected for viewing only: this site cannot spend credit. The account\'s owner can allow it.', 'zinn-chat' ) . '</p>';
+			return;
+		}
+		$line = sprintf(
+			/* translators: %s: the name of a Zinn account. */
+			__( 'Connected to %s.', 'zinn-chat' ),
+			'' !== $state['account'] ? $state['account'] : __( 'your Zinn® account', 'zinn-chat' )
+		);
+		if ( null !== $state['balance_micros'] ) {
+			$line .= ' ' . sprintf(
+				/* translators: %s: an amount of money in US dollars, e.g. "$4.20". */
+				__( 'Credit: %s.', 'zinn-chat' ),
+				'$' . number_format_i18n( max( 0, $state['balance_micros'] ) / 1000000, 2 )
+			);
+		}
+		echo '<p>' . esc_html( $line ) . '</p>';
+		if ( '' !== $state['buy_url'] ) {
+			echo '<p><a class="button" href="' . esc_url( $state['buy_url'] ) . '" target="_blank" rel="noopener noreferrer">' . esc_html__( 'Add credit', 'zinn-chat' ) . '</a></p>';
+		}
 	}
 
 	/**
@@ -490,6 +542,10 @@ final class Admin {
 		echo '<input type="hidden" name="action" value="zinn_ai_catalogue">';
 		echo '<p><label><input type="checkbox" name="remote" value="1"' . checked( ! empty( $record['remote'] ), true, false ) . '> ' . esc_html__( 'Also check Zinn Digital® once a day for an updated list.', 'zinn-chat' ) . '</label></p>';
 		echo '<p class="description">' . esc_html__( 'Only a plain download request is sent: no key, no site address, nothing about your content. The list is signed, and a list that fails the signature check is ignored.', 'zinn-chat' ) . '</p>';
+		if ( empty( $record['remote'] ) && Catalogue::fetches() ) {
+			// Pro only (Q209): the connection keeps the list current, so say so beside the box.
+			echo '<p class="description">' . esc_html__( 'This site is connected to Zinn®, so the list is also checked once a day while it stays connected.', 'zinn-chat' ) . '</p>';
+		}
 		if ( isset( $record['checked_at'] ) ) {
 			echo '<p class="description">' . esc_html(
 				sprintf(
@@ -646,7 +702,8 @@ final class Admin {
 	public static function handle_save_key(): void {
 		self::guard( 'save_key' );
 		$provider = self::posted_provider();
-		if ( '' === $provider ) {
+		if ( '' === $provider || Zinn::ID === $provider ) {
+			// Zinn® credits have no key to save: the connection is the plugin's that offers them.
 			self::done( false, __( 'Unknown provider.', 'zinn-chat' ) );
 		}
 		// phpcs:disable WordPress.Security.NonceVerification.Missing -- guard() verified the nonce.

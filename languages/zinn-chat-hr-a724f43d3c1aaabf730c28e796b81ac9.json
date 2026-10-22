@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-05T16:57:10+00:00",
+    "translation-revision-date": "2026-10-18T03:49:46+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/pro__premium_only\/admin-pro.js",
     "domain": "messages",
@@ -60,17 +60,17 @@
             ],
             "%d second": [
                 "%d sekunda",
-                "%d sekundi",
+                "%d sekunde",
                 "%d sekundi"
             ],
             "%d minute": [
                 "%d minuta",
-                "%d minuta",
+                "%d minute",
                 "%d minuta"
             ],
             "%d hour": [
                 "%d sat",
-                "%d sati",
+                "%d sata",
                 "%d sati"
             ],
             "%d day": [

@@ -58,6 +58,12 @@ final class Registry {
 				self::$presets[ self::CUSTOM ]['label'] = __( 'Custom (OpenAI-compatible)', 'zinn-chat' );
 			}
 		}
+		// 1.4.0: Zinn® credits are a provider only on a site where a plugin offers the door to
+		// them (Zinn® SEO, when installed). Decided on every read, never cached: a site without
+		// such a plugin lists exactly the providers it always did.
+		if ( Zinn::available() ) {
+			return self::$presets + array( Zinn::ID => Zinn::preset() );
+		}
 
 		return self::$presets;
 	}
@@ -99,6 +105,8 @@ final class Registry {
 		}
 
 		switch ( (string) ( $spec['adapter'] ?? '' ) ) {
+			case 'zinn':
+				return new Zinn( $id, $spec );
 			case 'anthropic':
 				return new Anthropic( $id, $spec );
 			case 'gemini':

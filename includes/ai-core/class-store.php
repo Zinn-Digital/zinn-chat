@@ -172,6 +172,10 @@ final class Store {
 		if ( Registry::CUSTOM === $provider ) {
 			return '' !== (string) ( self::provider( $provider )['base_url'] ?? '' );
 		}
+		if ( Zinn::ID === $provider ) {
+			// No key: ready when the site is connected to a Zinn® account that lets it spend.
+			return Zinn::ready();
+		}
 
 		return 'ok' === self::key_state( $provider ) || ! empty( $spec['key_optional'] );
 	}

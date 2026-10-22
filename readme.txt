@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.10.15
+Stable tag: 2.12.13
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -98,7 +98,7 @@ Only when an AI app such as Claude or ChatGPT starts connecting to the site's MC
 
 **Your AI provider (only if you add a key).** When the assistant answers a visitor, the visitor's message, the recent conversation and the passages of your site that match it are sent to the AI provider you chose, with your key. When the site index is built or updated, the text of your published pages is sent to that provider to build the search index. Nothing is sent to any provider until you add its key. Providers and their terms: Google Gemini ([terms](https://ai.google.dev/gemini-api/terms), [privacy](https://policies.google.com/privacy)), OpenAI ([terms](https://openai.com/policies/services-agreement/), [privacy](https://openai.com/policies/privacy-policy/)), Anthropic ([terms](https://www.anthropic.com/legal/commercial-terms), [privacy](https://www.anthropic.com/legal/privacy)), Mistral ([terms](https://legal.mistral.ai/terms/commercial-terms-of-service/), [privacy](https://legal.mistral.ai/terms/privacy-policy/)), OpenRouter ([terms](https://openrouter.ai/terms), [privacy](https://openrouter.ai/privacy)), DeepSeek ([terms](https://cdn.deepseek.com/policies/en-US/deepseek-open-platform-terms-of-service.html), [privacy](https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html)), or a service you name yourself.
 
-**Recommended models list (only if you tick it).** Settings, AI providers can fetch Zinn Digital®'s list of recommended models once a day from `https://api.zinndigital.com/v1/ai-model-catalogue`. The request carries no key, no site address and no content.
+**Recommended models list (only if you tick it).** Settings, AI providers can fetch Zinn Digital®'s list of recommended models once a day from `https://api.zinndigital.com/v1/ai-model-catalogue`. Connecting to Zinn® does not turn it on; only the tick does (in Zinn® Chat Pro, a site connected to Zinn® checks too). The request carries no key, no site address and no content, and the list is signed. [Terms](https://zinndigital.com/legal/terms), [privacy](https://zinndigital.com/legal/privacy).
 
 **Cloudflare Turnstile (Zinn® Chat Pro only, and only if you add Turnstile keys).** The chat and ticket forms load Cloudflare's Turnstile script, and each answer is checked with Cloudflare. The free edition never loads it. [Terms](https://www.cloudflare.com/website-terms/), [privacy](https://www.cloudflare.com/privacypolicy/).
 
@@ -153,6 +153,57 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.12.13 =
+* WordPress MCP adapter updated to 0.7.1 (MCP protocol 2026-07-28, session-storage security fix); no deprecation notice from the bundled copy.
+
+= 2.12.12 =
+* Plural forms in every language now follow that language's own plural rules (Russian, Polish, Czech, Croatian, Serbian, Arabic, Hebrew, French and others), re-filled by the translator with a human check on the forms it could not tell apart.
+
+= 2.12.11 =
+* AI agents (MCP): this plugin's tools now always appear to your AI app, even when another Zinn® plugin on the same site is an older version.
+
+= 2.12.10 =
+* The built-in AI model catalogue is refreshed to the latest signed list.
+
+= 2.12.9 =
+* Maintenance release: comes with the latest list of recommended AI models.
+
+= 2.12.8 =
+* More dependable AI app sign-in (MCP): Claude, ChatGPT and other AI apps connect to your site the same way whether a visitor, a scheduled task or a WP-CLI command started WordPress.
+
+= 2.12.7 =
+* Privacy: the recommended AI models list is downloaded only when you tick its daily check under Settings → AI providers; connecting to Zinn® credits no longer turns it on. In the Pro edition, a site connected to Zinn® keeps its list current, and the screen says so.
+
+= 2.12.6 =
+* Faster and lighter on servers: WP-CLI commands, scheduled tasks and AI agents (MCP) on your site now start with far less memory, so they keep working beside large plugins such as WooCommerce.
+
+= 2.12.5 =
+* Translation template refreshed so every language stays complete.
+
+= 2.12.4 =
+* AI agent (MCP) tools load faster and use less memory.
+
+= 2.12.3 =
+* The MCP connection's sign-in response no longer switches off JSON escaping.
+
+= 2.12.2 =
+* AI model lists keep themselves current: retired models leave every picker and saved choices move to the newest model of the same family.
+
+= 2.12.1 =
+* Lighter start for WP-CLI commands: works within a 128 MB memory limit beside WooCommerce and other large plugins.
+
+= 2.12.0 =
+* Pay for AI with Zinn® credits when Zinn® SEO is on the same site — no AI key of your own needed — and faster batched AI requests.
+
+= 2.11.0 =
+* New: with Zinn® SEO active, the assistant knows who runs the site, the phone number, the address, the opening hours and the main pages, and answers from the same facts search engines are given.
+
+= 2.10.17 =
+* The Zinn® panel now appears only on this plugin's own screens, never on the WordPress dashboard (WordPress.org guideline 11).
+
+= 2.10.16 =
+* Updated Freemius SDK to the latest version.
 
 = 2.10.15 =
 * The readme's External services section now lists the request made when an AI app signs in to the site's MCP server (its public OAuth client metadata); no behaviour change.
