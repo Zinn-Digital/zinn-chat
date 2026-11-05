@@ -4,7 +4,7 @@
  * Plugin Name:       Zinn® Chat
  * Plugin URI:        https://zinndigital.com/wordpress-plugins/zinn-chat
  * Description:       A complete help desk and AI assistant that runs on your own WordPress: an AI that answers from your own pages with links, live chat, and support tickets in wp-admin, on a submit-a-ticket page and in the WooCommerce account area. Under 10 KB on the page and no requests at all until a visitor opens it.
- * Version:           2.12.15
+ * Version:           2.12.16
  * Requires at least: 6.9
  * Requires PHP:      7.4
  * Author:            Neil Lock — CEO, Zinn Digital® Ltd
@@ -36,7 +36,7 @@ if ( function_exists( 'zinn_chat_fs' ) ) {
     zinn_chat_fs()->set_basename( false, __FILE__ );
     return;
 }
-define( 'ZINN_CHAT_VERSION', '2.12.15' );
+define( 'ZINN_CHAT_VERSION', '2.12.16' );
 define( 'ZINN_CHAT_FILE', __FILE__ );
 define( 'ZINN_CHAT_DIR', plugin_dir_path( __FILE__ ) );
 define( 'ZINN_CHAT_URL', plugin_dir_url( __FILE__ ) );
@@ -86,4 +86,5 @@ if ( !function_exists( 'zinn_chat_fs' ) ) {
     zinn_chat_fs()->add_filter( 'plugin_icon', static fn() => __DIR__ . '/assets/icon-256x256.png' );
     do_action( 'zinn_chat_fs_loaded' );
 }
+require_once __DIR__ . '/includes/php-functions-guard.php'; // Before anything that may call a host-disableable function.
 require_once __DIR__ . '/includes/bootstrap.php';
