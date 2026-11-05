@@ -14,6 +14,7 @@ return array(
 	'ZinnDigital\\ZinnChat\\Admin\\Admin' => 'includes/admin/class-admin.php',
 	'ZinnDigital\\ZinnChat\\Admin\\Assistant_Page' => 'includes/admin/class-assistant-page.php',
 	'ZinnDigital\\ZinnChat\\Admin\\Console_Page' => 'includes/admin/class-console-page.php',
+	'ZinnDigital\\ZinnChat\\Admin\\Sdk_Notices' => 'includes/admin/class-sdk-notices.php',
 	'ZinnDigital\\ZinnChat\\Admin\\Settings_Page' => 'includes/admin/class-settings-page.php',
 	'ZinnDigital\\ZinnChat\\Admin\\Setup_Page' => 'includes/admin/class-setup-page.php',
 	'ZinnDigital\\ZinnChat\\Admin\\Tickets_Page' => 'includes/admin/class-tickets-page.php',

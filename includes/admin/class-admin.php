@@ -45,6 +45,7 @@ final class Admin {
 		Settings_Page::init();
 		Setup_Page::init();
 		Upsell::init();
+		Sdk_Notices::register();
 	}
 
 	/**

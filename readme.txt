@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.12.14
+Stable tag: 2.12.15
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -153,6 +153,9 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.12.15 =
+* Fixed: the trial and other offers from the licensing SDK now show only on Zinn® Chat's own screens, never on another plugin's page or elsewhere in wp-admin.
 
 = 2.12.14 =
 * Security: inviting a team member who has no WordPress account now needs the create_users capability; the AI-app "Disconnect" action checks a capability as well as the nonce.
