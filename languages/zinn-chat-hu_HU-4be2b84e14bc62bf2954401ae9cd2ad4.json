@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-18T03:49:46+00:00",
+    "translation-revision-date": "2026-11-06T09:35:07+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,9 @@
             ],
             "Type": [
                 "T\u00edpus"
+            ],
+            "Open a ticket": [
+                "Jegynyit\u00e1s"
             ],
             "Order": [
                 "Rendel\u00e9s"
@@ -169,8 +172,17 @@
             "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
                 "\u00cdrjon v\u00e1laszt\u2026 (K\u00fcld\u00e9s az Enterrel, \u00faj sor a Shift+Enterrel)"
             ],
+            "Send in the visitor's language": [
+                "K\u00fcld\u00e9s a l\u00e1togat\u00f3 nyelv\u00e9n"
+            ],
             "Ticket #%d": [
                 "#%d. jegy"
+            ],
+            "Show original": [
+                "Eredeti megjelen\u00edt\u00e9se"
+            ],
+            "Translate chat": [
+                "Cseveg\u00e9s leford\u00edt\u00e1sa"
             ],
             "Take this chat": [
                 "Chat \u00e1tv\u00e9tele"
@@ -186,6 +198,21 @@
             ],
             "The visitor is typing\u2026": [
                 "A l\u00e1togat\u00f3 g\u00e9pel\u2026"
+            ],
+            "E-mail them": [
+                "E-mail k\u00fcld\u00e9se nekik"
+            ],
+            "Subject of the new ticket": [
+                "Az \u00faj hibajegy t\u00e1rgya"
+            ],
+            "Earlier chats (%d)": [
+                "Kor\u00e1bbi besz\u00e9lget\u00e9sek (%d)"
+            ],
+            "Tickets (%d)": [
+                "Hibajegyek (%d)"
+            ],
+            "No earlier chats, tickets or orders.": [
+                "Nincsenek kor\u00e1bbi cseveg\u00e9sek, hibajegyek vagy rendel\u00e9sek."
             ],
             "New ticket": [
                 "\u00daj jegy"

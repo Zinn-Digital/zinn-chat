@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-18T03:49:45+00:00",
+    "translation-revision-date": "2026-11-06T09:35:07+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,9 @@
             ],
             "Type": [
                 "T\u00fcr"
+            ],
+            "Open a ticket": [
+                "Destek talebi a\u00e7"
             ],
             "Order": [
                 "Sipari\u015f"
@@ -169,8 +172,17 @@
             "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
                 "Bir yan\u0131t yaz\u0131n\u2026 (G\u00f6ndermek i\u00e7in Enter, yeni sat\u0131r i\u00e7in Shift+Enter)"
             ],
+            "Send in the visitor's language": [
+                "Ziyaret\u00e7inin dilinde g\u00f6nderin"
+            ],
             "Ticket #%d": [
                 "Destek Talebi #%d"
+            ],
+            "Show original": [
+                "Orijinali g\u00f6ster"
+            ],
+            "Translate chat": [
+                "Sohbeti \u00e7evir"
             ],
             "Take this chat": [
                 "Bu sohbeti al"
@@ -186,6 +198,21 @@
             ],
             "The visitor is typing\u2026": [
                 "Ziyaret\u00e7i yaz\u0131yor\u2026"
+            ],
+            "E-mail them": [
+                "Onlara e-posta g\u00f6nderin"
+            ],
+            "Subject of the new ticket": [
+                "Yeni talebin konusu"
+            ],
+            "Earlier chats (%d)": [
+                "\u00d6nceki sohbetler (%d)"
+            ],
+            "Tickets (%d)": [
+                "Destek Talepleri (%d)"
+            ],
+            "No earlier chats, tickets or orders.": [
+                "Daha \u00f6nceki sohbet, bilet veya sipari\u015f yok."
             ],
             "New ticket": [
                 "Yeni talep"

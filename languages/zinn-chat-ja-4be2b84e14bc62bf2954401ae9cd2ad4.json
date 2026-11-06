@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-18T03:49:46+00:00",
+    "translation-revision-date": "2026-11-06T09:35:07+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,9 @@
             ],
             "Type": [
                 "\u7a2e\u985e"
+            ],
+            "Open a ticket": [
+                "\u30c1\u30b1\u30c3\u30c8\u3092\u958b\u304f"
             ],
             "Order": [
                 "\u6ce8\u6587"
@@ -169,8 +172,17 @@
             "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
                 "\u8fd4\u4fe1\u3092\u5165\u529b\u2026 (Enter \u3067\u9001\u4fe1\u3001Shift+Enter \u3067\u6539\u884c)"
             ],
+            "Send in the visitor's language": [
+                "\u8a2a\u554f\u8005\u306e\u8a00\u8a9e\u3067\u9001\u4fe1"
+            ],
             "Ticket #%d": [
                 "\u30c1\u30b1\u30c3\u30c8 #%d"
+            ],
+            "Show original": [
+                "\u539f\u6587\u3092\u8868\u793a"
+            ],
+            "Translate chat": [
+                "\u30c1\u30e3\u30c3\u30c8\u3092\u7ffb\u8a33"
             ],
             "Take this chat": [
                 "\u3053\u306e\u30c1\u30e3\u30c3\u30c8\u3092\u5f15\u304d\u53d6\u308b"
@@ -186,6 +198,21 @@
             ],
             "The visitor is typing\u2026": [
                 "\u8a2a\u554f\u8005\u304c\u5165\u529b\u4e2d\u2026"
+            ],
+            "E-mail them": [
+                "\u76f8\u624b\u306b\u30e1\u30fc\u30eb\u3092\u9001\u4fe1"
+            ],
+            "Subject of the new ticket": [
+                "\u65b0\u3057\u3044\u30c1\u30b1\u30c3\u30c8\u306e\u4ef6\u540d"
+            ],
+            "Earlier chats (%d)": [
+                "\u4ee5\u524d\u306e\u30c1\u30e3\u30c3\u30c8 (%d)"
+            ],
+            "Tickets (%d)": [
+                "\u30c1\u30b1\u30c3\u30c8 (%d)"
+            ],
+            "No earlier chats, tickets or orders.": [
+                "\u4ee5\u524d\u306e\u30c1\u30e3\u30c3\u30c8\u3001\u30c1\u30b1\u30c3\u30c8\u3001\u6ce8\u6587\u306f\u3042\u308a\u307e\u305b\u3093\u3002"
             ],
             "New ticket": [
                 "\u65b0\u898f\u30c1\u30b1\u30c3\u30c8"

@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-18T03:49:46+00:00",
+    "translation-revision-date": "2026-11-06T09:35:07+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,9 @@
             ],
             "Type": [
                 "\u1794\u17d2\u179a\u1797\u17c1\u1791"
+            ],
+            "Open a ticket": [
+                "\u1794\u17be\u1780\u179f\u17c6\u1794\u17bb\u178f\u17d2\u179a\u179f\u17c6\u178e\u17bc\u1798\u1796\u179a"
             ],
             "Order": [
                 "\u1780\u17b6\u179a\u1794\u1789\u17d2\u1787\u17b6\u1791\u17b7\u1789"
@@ -169,8 +172,17 @@
             "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
                 "\u179c\u17b6\u1799\u179f\u17b6\u179a\u1786\u17d2\u179b\u17be\u1799\u178f\u1794... (\u1785\u17bb\u1785 Enter \u178a\u17be\u1798\u17d2\u1794\u17b8\u1795\u17d2\u1789\u17be, Shift+Enter \u178a\u17be\u1798\u17d2\u1794\u17b8\u1785\u17bb\u17c7\u1794\u1793\u17d2\u1791\u17b6\u178f\u17cb\u1790\u17d2\u1798\u17b8)"
             ],
+            "Send in the visitor's language": [
+                "\u1795\u17d2\u1789\u17be\u1787\u17b6\u1797\u17b6\u179f\u17b6\u179a\u1794\u179f\u17cb\u17a2\u17d2\u1793\u1780\u1791\u179f\u17d2\u179f\u1793\u17b6"
+            ],
             "Ticket #%d": [
                 "\u179f\u17c6\u178e\u17bc\u1798\u1796\u179a\u179b\u17c1\u1781 #%d"
+            ],
+            "Show original": [
+                "\u1794\u1784\u17d2\u17a0\u17b6\u1789\u1785\u17d2\u1794\u17b6\u1794\u17cb\u178a\u17be\u1798"
+            ],
+            "Translate chat": [
+                "\u1794\u1780\u1794\u17d2\u179a\u17c2\u1780\u17b6\u179a\u1787\u1787\u17c2\u1780"
             ],
             "Take this chat": [
                 "\u1799\u1780\u1780\u17b6\u179a\u1787\u1787\u17c2\u1780\u1793\u17c1\u17c7"
@@ -186,6 +198,21 @@
             ],
             "The visitor is typing\u2026": [
                 "\u17a2\u17d2\u1793\u1780\u1785\u17bc\u179b\u1798\u17be\u179b\u1780\u17c6\u1796\u17bb\u1784\u179c\u17b6\u1799\u2026"
+            ],
+            "E-mail them": [
+                "\u1795\u17d2\u1789\u17be\u17a2\u17ca\u17b8\u1798\u17c2\u179b\u1791\u17c5\u1796\u17bd\u1780\u1782\u17c1"
+            ],
+            "Subject of the new ticket": [
+                "\u1794\u17d2\u179a\u1792\u17b6\u1793\u1794\u1791\u1793\u17c3\u179f\u17c6\u1794\u17bb\u178f\u17d2\u179a\u1790\u17d2\u1798\u17b8"
+            ],
+            "Earlier chats (%d)": [
+                "\u1780\u17b6\u179a\u1787\u1787\u17c2\u1780\u1798\u17bb\u1793\u17d7 (%d)"
+            ],
+            "Tickets (%d)": [
+                "\u179f\u17c6\u1794\u17bb\u178f\u17d2\u179a (%d)"
+            ],
+            "No earlier chats, tickets or orders.": [
+                "\u1798\u17b7\u1793\u1798\u17b6\u1793\u1780\u17b6\u179a\u1787\u1787\u17c2\u1780 \u179f\u17c6\u1794\u17bb\u178f\u17d2\u179a \u17ac\u1780\u17b6\u179a\u1794\u1789\u17d2\u1787\u17b6\u1791\u17b7\u1789\u1796\u17b8\u1798\u17bb\u1793\u1798\u1780\u1791\u17c1\u17d4"
             ],
             "New ticket": [
                 "\u179f\u17c6\u1794\u17bb\u178f\u17d2\u179a\u179f\u17c6\u178e\u17bd\u179a\u1790\u17d2\u1798\u17b8"

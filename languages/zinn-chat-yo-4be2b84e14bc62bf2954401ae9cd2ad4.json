@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-18T03:49:45+00:00",
+    "translation-revision-date": "2026-11-06T09:35:07+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,9 @@
             ],
             "Type": [
                 "Iru"
+            ],
+            "Open a ticket": [
+                "\u1e62\u00ed t\u00edt\u00ecki\u0300 kan"
             ],
             "Order": [
                 "\u00c8t\u00f2"
@@ -169,8 +172,17 @@
             "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
                 "T\u1eb9 esi... (T\u1eb9 b\u1ecdtini Enter lati firan\u1e63\u1eb9, Shift+Enter fun ila titun)"
             ],
+            "Send in the visitor's language": [
+                "Firan\u1e63\u1eb9 ni ede alejo"
+            ],
             "Ticket #%d": [
                 "Tiketi #%d"
+            ],
+            "Show original": [
+                "\u1e62e afihan atil\u1eb9ba"
+            ],
+            "Translate chat": [
+                "\u1e62e itum\u1ecd if\u1ecdr\u1ecdwer\u1ecd"
             ],
             "Take this chat": [
                 "Gba iwiregbe yii"
@@ -186,6 +198,21 @@
             ],
             "The visitor is typing\u2026": [
                 "Ol\u1eb9\u0300w\u00f2 n\u00e1\u00e0 \u0144 t\u1eb9\u0300..."
+            ],
+            "E-mail them": [
+                "K\u1ecd imeeli si w\u1ecdn"
+            ],
+            "Subject of the new ticket": [
+                "K\u00f3k\u00f3-\u1ecd\u0300r\u1ecd\u0300 t\u00edk\u1eb9\u0301\u1eb9\u0300t\u00ec tuntun"
+            ],
+            "Earlier chats (%d)": [
+                "Aw\u1ecdn ibara\u1eb9nis\u1ecdr\u1ecd i\u1e63aaju (%d)"
+            ],
+            "Tickets (%d)": [
+                "\u00c0w\u1ecdn T\u00edk\u1eb9\u0301\u1eb9\u0300t\u00ec (%d)"
+            ],
+            "No earlier chats, tickets or orders.": [
+                "K\u00f2 s\u00ed \u00e0w\u1ecdn \u00ecf\u1ecd\u0300r\u1ecd\u0300w\u00e9r\u1ecd\u0300, tik\u1eb9\u0301\u1eb9\u0300t\u00ec t\u00e0b\u00ed \u00e0w\u1ecdn \u00e0\u1e63\u1eb9 t\u1eb9\u0301l\u1eb9\u0300."
             ],
             "New ticket": [
                 "Tiki ti o tun"

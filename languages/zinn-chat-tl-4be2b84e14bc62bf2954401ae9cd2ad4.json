@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-18T03:49:46+00:00",
+    "translation-revision-date": "2026-11-06T09:35:07+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,9 @@
             ],
             "Type": [
                 "Uri"
+            ],
+            "Open a ticket": [
+                "Magbukas ng tiket"
             ],
             "Order": [
                 "Mag-order"
@@ -169,8 +172,17 @@
             "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
                 "Mag-type ng tugon\u2026 (Enter para ipadala, Shift+Enter para sa bagong linya)"
             ],
+            "Send in the visitor's language": [
+                "Ipadala sa wika ng bisita"
+            ],
             "Ticket #%d": [
                 "Ticket #%d"
+            ],
+            "Show original": [
+                "Ipakita ang orihinal"
+            ],
+            "Translate chat": [
+                "Isalin ang chat"
             ],
             "Take this chat": [
                 "Kunin ang chat na ito"
@@ -186,6 +198,21 @@
             ],
             "The visitor is typing\u2026": [
                 "Nagta-type ang bisita\u2026"
+            ],
+            "E-mail them": [
+                "I-email sila"
+            ],
+            "Subject of the new ticket": [
+                "Paksa ng bagong tiket"
+            ],
+            "Earlier chats (%d)": [
+                "Mga naunang chat (%d)"
+            ],
+            "Tickets (%d)": [
+                "Mga Ticket (%d)"
+            ],
+            "No earlier chats, tickets or orders.": [
+                "Walang mga naunang chat, ticket, o order."
             ],
             "New ticket": [
                 "Bagong tiket"

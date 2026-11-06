@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-18T03:49:46+00:00",
+    "translation-revision-date": "2026-11-06T09:35:07+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,9 @@
             ],
             "Type": [
                 "\u7c7b\u578b"
+            ],
+            "Open a ticket": [
+                "\u63d0\u4ea4\u5de5\u5355"
             ],
             "Order": [
                 "\u8ba2\u5355"
@@ -169,8 +172,17 @@
             "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
                 "\u8f93\u5165\u56de\u590d\u2026\uff08\u6309\u56de\u8f66\u952e\u53d1\u9001\uff0c\u6309 Shift+\u56de\u8f66\u952e\u6362\u884c\uff09"
             ],
+            "Send in the visitor's language": [
+                "\u4ee5\u8bbf\u5ba2\u7684\u8bed\u8a00\u53d1\u9001"
+            ],
             "Ticket #%d": [
                 "\u5de5\u5355 #%d"
+            ],
+            "Show original": [
+                "\u663e\u793a\u539f\u6587"
+            ],
+            "Translate chat": [
+                "\u7ffb\u8bd1\u804a\u5929"
             ],
             "Take this chat": [
                 "\u8f6c\u79fb\u6b64\u804a\u5929"
@@ -186,6 +198,21 @@
             ],
             "The visitor is typing\u2026": [
                 "\u8bbf\u5ba2\u6b63\u5728\u8f93\u5165\u2026\u2026"
+            ],
+            "E-mail them": [
+                "\u7ed9\u4ed6\u4eec\u53d1\u9001\u7535\u5b50\u90ae\u4ef6"
+            ],
+            "Subject of the new ticket": [
+                "\u65b0\u5de5\u5355\u7684\u4e3b\u9898"
+            ],
+            "Earlier chats (%d)": [
+                "\u8f83\u65e9\u7684\u804a\u5929 (%d)"
+            ],
+            "Tickets (%d)": [
+                "\u5de5\u5355 (%d)"
+            ],
+            "No earlier chats, tickets or orders.": [
+                "\u6ca1\u6709\u65e9\u524d\u7684\u804a\u5929\u3001\u5de5\u5355\u6216\u8ba2\u5355\u3002"
             ],
             "New ticket": [
                 "\u65b0\u5efa\u5de5\u5355"

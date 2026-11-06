@@ -9,6 +9,7 @@ declare( strict_types = 1 );
 
 namespace ZinnDigital\ZinnChat;
 
+use ZinnDigital\ZinnChat\AiCore\Client;
 use ZinnDigital\ZinnChat\Index\Index;
 use ZinnDigital\ZinnChat\Index\Queue;
 
@@ -67,6 +68,7 @@ final class Agent_Rest {
 			array( 'agent/chat/(?P<id>\d+)/close', 'POST', 'close', $answer ),
 			array( 'agent/chat/(?P<id>\d+)/bot', 'POST', 'to_bot', $answer ),
 			array( 'agent/chat/(?P<id>\d+)/ticket', 'POST', 'to_ticket', $answer ),
+			array( 'agent/chat/(?P<id>\d+)/translate', 'POST', 'translate', $answer ),
 			array( 'agent/tickets', 'GET', 'tickets', $answer ),
 			array( 'agent/tickets', 'POST', 'ticket_new', $answer ),
 			array( 'agent/tickets/(?P<id>\d+)', 'GET', 'ticket', $answer ),
@@ -199,6 +201,15 @@ final class Agent_Rest {
 		$data['messages'] = $messages;
 		$data['user_id']  = (int) $row['user_id'];
 		$data['orders']   = (int) $row['user_id'] && function_exists( 'wc_get_orders' ) ? Woo::order_choices( (int) $row['user_id'] ) : array();
+		// The customer profile once per opening (the console polls with `after` and keeps it).
+		if ( 0 === $after ) {
+			$data['profile'] = Profile::for_conversation( $row );
+		}
+		$data['translate'] = array(
+			'available' => Client::ready(),
+			'agent'     => Translate::tag( get_user_locale() ),
+			'visitor'   => Translate::tag( (string) $row['language'] ),
+		);
 		/**
 		 * Filters the chat payload for the agent console (Pro adds visitor details, notes, KB suggestions).
 		 *
@@ -257,9 +268,62 @@ final class Agent_Rest {
 			if ( in_array( $row['status'], array( 'bot', 'waiting', 'offline', 'closed' ), true ) ) {
 				Conversations::set_status( $id, 'staff', array( 'agent_id' => $row['agent_id'] ? (int) $row['agent_id'] : $user ) );
 			}
+			// 2.13.0: "Send in the visitor's language" — the reply is translated before it is
+			// sent; when the translation fails nothing is sent, so the agent can retry or send it as written.
+			$to = Translate::tag( (string) $row['language'] );
+			if ( $request->get_param( 'translate' ) && '' !== $to && ! Translate::same_language( $to, get_user_locale() ) ) {
+				$done = Translate::one( $text, $to );
+				if ( ! $done['ok'] ) {
+					return new \WP_REST_Response(
+						array(
+							'ok'      => false,
+							'code'    => 'translate_failed',
+							'message' => (string) ( $done['failure']['message'] ?? __( 'The reply could not be translated, so it was not sent. Try again, or send it without translating.', 'zinn-chat' ) ),
+							'failure' => $done['failure'],
+						),
+						502
+					);
+				}
+				$text = Util::clean_text( $done['text'], 10000 );
+			}
 			Conversations::add_message( $id, 'agent', $text, $user );
 		}
 		return self::chat( $request );
+	}
+
+	/**
+	 * POST agent/chat/{id}/translate {to?}: the chat's messages in the agent's language (or `to`),
+	 * in one AI request for all that are not cached yet. Internal notes and system lines are not sent.
+	 *
+	 * @param \WP_REST_Request $request Request.
+	 * @return \WP_REST_Response
+	 */
+	public static function translate( \WP_REST_Request $request ): \WP_REST_Response {
+		$id  = (int) $request['id'];
+		$row = Conversations::get( $id );
+		if ( ! $row ) {
+			return self::missing();
+		}
+		$to    = (string) $request->get_param( 'to' );
+		$to    = '' !== Translate::tag( $to ) ? $to : get_user_locale();
+		$texts = array();
+		foreach ( Conversations::messages( $id, 0, false ) as $message ) {
+			if ( in_array( (string) $message['role'], array( 'visitor', 'agent', 'ai' ), true ) ) {
+				$texts[ (int) $message['id'] ] = (string) $message['body'];
+			}
+		}
+		$texts = array_slice( $texts, -Translate::MAX_ITEMS, null, true );
+		$done  = Translate::many( $texts, $to );
+		return new \WP_REST_Response(
+			array(
+				'ok'           => $done['ok'],
+				'to'           => $done['to'],
+				'translations' => (object) $done['translations'],
+				'failure'      => $done['failure'],
+				'message'      => $done['ok'] ? '' : (string) ( $done['failure']['message'] ?? '' ),
+			),
+			$done['ok'] ? 200 : 502
+		);
 	}
 
 	/**

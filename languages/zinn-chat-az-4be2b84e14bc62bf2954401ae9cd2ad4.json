@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-18T03:49:46+00:00",
+    "translation-revision-date": "2026-11-06T09:35:08+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,9 @@
             ],
             "Type": [
                 "Tip"
+            ],
+            "Open a ticket": [
+                "Bilet a\u00e7\u0131n"
             ],
             "Order": [
                 "Sifari\u015f"
@@ -169,8 +172,17 @@
             "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
                 "Cavab yaz\u0131n... (G\u00f6nd\u0259rm\u0259k \u00fc\u00e7\u00fcn Enter, yeni s\u0259tr \u00fc\u00e7\u00fcn Shift+Enter)"
             ],
+            "Send in the visitor's language": [
+                "Ziyar\u0259t\u00e7inin dilind\u0259 g\u00f6nd\u0259rin"
+            ],
             "Ticket #%d": [
                 "Bilet #%d"
+            ],
+            "Show original": [
+                "Orijinal\u0131 g\u00f6st\u0259r"
+            ],
+            "Translate chat": [
+                "S\u00f6hb\u0259ti t\u0259rc\u00fcm\u0259 edin"
             ],
             "Take this chat": [
                 "Bu s\u00f6hb\u0259ti g\u00f6t\u00fcr"
@@ -186,6 +198,21 @@
             ],
             "The visitor is typing\u2026": [
                 "Ziyar\u0259t\u00e7i yaz\u0131r\u2026"
+            ],
+            "E-mail them": [
+                "Onlara e-po\u00e7t g\u00f6nd\u0259rin"
+            ],
+            "Subject of the new ticket": [
+                "Yeni sor\u011funun m\u00f6vzusu"
+            ],
+            "Earlier chats (%d)": [
+                "\u018fvv\u0259lki s\u00f6hb\u0259tl\u0259r (%d)"
+            ],
+            "Tickets (%d)": [
+                "Biletl\u0259r (%d)"
+            ],
+            "No earlier chats, tickets or orders.": [
+                "\u018fvv\u0259lki s\u00f6hb\u0259tl\u0259r, biletl\u0259r v\u0259 ya sifari\u015fl\u0259r yoxdur."
             ],
             "New ticket": [
                 "Yeni m\u00fcraci\u0259t"

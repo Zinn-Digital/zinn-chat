@@ -200,7 +200,7 @@
 		}
 
 		function pane(id, tabLabel) {
-			var p = { after: 0, timer: 0, data: null };
+			var p = { after: 0, timer: 0, data: null, profile: null, tr: null, trBusy: false, trSeen: 0 };
 			var el = p.el = h('article', 'zc-pane');
 			var head = h('header', 'zc-pane-head');
 			var back = btn('←', 'zc-back', function () { root.classList.remove('has-chat'); });
@@ -209,6 +209,7 @@
 			var actions = h('div', 'zc-actions');
 			head.appendChild(back); head.appendChild(who); head.appendChild(actions);
 			var info = h('div', 'zc-info');
+			var profileEl = h('div', 'zc-profile'); profileEl.hidden = true;
 			var msgs = h('div', 'zc-msgs'); msgs.setAttribute('aria-live', 'polite');
 			var typing = h('div', 'zc-typing');
 			var form = h('div', 'zc-reply');
@@ -216,8 +217,11 @@
 			var noteBox = h('label', 'zc-note'); var noteCb = h('input'); noteCb.type = 'checkbox';
 			noteBox.appendChild(noteCb); noteBox.appendChild(document.createTextNode(' ' + __('Internal note', 'zinn-chat')));
 			var send = btn(__('Send', 'zinn-chat'), 'button-primary');
-			form.appendChild(input); form.appendChild(noteBox); form.appendChild(send);
-			el.appendChild(head); el.appendChild(info); el.appendChild(msgs); el.appendChild(typing); el.appendChild(form);
+			// 2.13.0: send the reply in the visitor's language (shown only when theirs differs from the agent's).
+			var trBox = h('label', 'zc-note'); var trCb = h('input'); trCb.type = 'checkbox'; trBox.hidden = true;
+			trBox.appendChild(trCb); trBox.appendChild(document.createTextNode(' ' + __('Send in the visitor\'s language', 'zinn-chat')));
+			form.appendChild(input); form.appendChild(noteBox); form.appendChild(trBox); form.appendChild(send);
+			el.appendChild(head); el.appendChild(info); el.appendChild(profileEl); el.appendChild(msgs); el.appendChild(typing); el.appendChild(form);
 			emit('zinn-chat:pane-init', { id: id, pane: el, form: form, input: input, insert: inserter(input) });
 
 			function render(d) {
@@ -233,7 +237,14 @@
 				/* translators: %d: ticket number */
 				if (d.ticket_id) { var tk = h('a', '', sprintf(__('Ticket #%d', 'zinn-chat'), d.ticket_id)); tk.href = cfg.adminUrl + '?page=zinn-chat-tickets&ticket=' + d.ticket_id; info.appendChild(tk); }
 				Object.keys(d.orders || {}).forEach(function (oid) { info.appendChild(h('span', 'zc-order', d.orders[oid])); });
+				if (d.profile) { p.profile = d.profile; }
+				drawProfile(d);
+				var tr = d.translate || {};
+				var differs = tr.available && tr.visitor && tr.agent && tr.visitor.split('-')[0] !== tr.agent.split('-')[0];
+				trBox.hidden = !differs;
+				if (!differs) { trCb.checked = false; }
 				actions.textContent = '';
+				if (tr.available) { actions.appendChild(btn(p.tr ? __('Show original', 'zinn-chat') : __('Translate chat', 'zinn-chat'), '', function () { if (p.tr) { p.tr = null; showTr(); render(p.data); } else { translateChat(true); } })); }
 				if (d.status === 'waiting' || (d.status === 'bot')) { actions.appendChild(btn(__('Take this chat', 'zinn-chat'), 'button-primary', function () { post('agent/chat/' + id + '/take').then(apply).catch(fail); })); }
 				if (d.status === 'staff' || d.status === 'waiting') { actions.appendChild(btn(__('Back to the assistant', 'zinn-chat'), '', function () { post('agent/chat/' + id + '/bot').then(apply).catch(fail); })); }
 				if (!d.ticket_id) { actions.appendChild(btn(__('Make a ticket', 'zinn-chat'), '', function () { var email = d.email || window.prompt(__('The visitor\'s email address', 'zinn-chat')); if (email) { post('agent/chat/' + id + '/ticket', { email: email }).then(apply).catch(fail); } })); }
@@ -242,9 +253,49 @@
 				emit('zinn-chat:pane', { id: id, data: d, info: info, actions: actions, insert: inserter(input), refresh: p.load });
 			}
 
+			function drawProfile(d) {
+				var pr = p.profile;
+				profileEl.textContent = '';
+				profileEl.hidden = !pr;
+				if (!pr) { return; }
+				var acts = h('div', 'zc-profile-actions');
+				if (pr.can_email) { var mail = h('a', 'button', __('E-mail them', 'zinn-chat')); mail.href = 'mailto:' + encodeURIComponent(pr.email); acts.appendChild(mail); }
+				if (pr.can_ticket) {
+					acts.appendChild(btn(__('Open a ticket', 'zinn-chat'), '', function () {
+						if (!d.ticket_id) { post('agent/chat/' + id + '/ticket', { email: pr.email }).then(apply).catch(fail); return; }
+						var subject = window.prompt(__('Subject of the new ticket', 'zinn-chat'));
+						if (subject) { post('agent/tickets', { email: pr.email, name: d.name || '', subject: subject, body: subject }).then(function (r) { window.location.href = cfg.adminUrl + '?page=zinn-chat-tickets&ticket=' + r.id; }).catch(fail); }
+					}));
+				}
+				profileEl.appendChild(acts);
+				/* translators: %d: how many earlier chats */
+				var chats = h('div', 'zc-profile-list'); chats.appendChild(h('strong', '', sprintf(__('Earlier chats (%d)', 'zinn-chat'), pr.chats_total)));
+				pr.chats.forEach(function (c) { var b = btn('#' + c.id + ' · ' + (statusName[c.status] || c.status) + ' · ' + when(c.at), 'button-link', function () { openChat(c.id); }); chats.appendChild(b); });
+				profileEl.appendChild(chats);
+				/* translators: %d: how many tickets */
+				var tks = h('div', 'zc-profile-list'); tks.appendChild(h('strong', '', sprintf(__('Tickets (%d)', 'zinn-chat'), pr.tickets_total)));
+				pr.tickets.forEach(function (t) { var a = h('a', '', '#' + t.id + ' ' + t.subject + ' · ' + t.status_label); a.href = cfg.adminUrl + '?page=zinn-chat-tickets&ticket=' + t.id; tks.appendChild(a); });
+				profileEl.appendChild(tks);
+				if (!pr.chats.length && !pr.tickets.length && !Object.keys(d.orders || {}).length) { profileEl.appendChild(h('span', '', __('No earlier chats, tickets or orders.', 'zinn-chat'))); }
+			}
+
+			// Translations sit under each message; the original is never replaced.
+			function showTr() {
+				Array.prototype.forEach.call(msgs.querySelectorAll('.zc-msg'), function (b) {
+					var old = b.querySelector('.zc-msg-tr'); if (old) { old.remove(); }
+					var t = p.tr && p.tr[b.getAttribute('data-id')];
+					if (t && t !== b.getAttribute('data-text')) { var n = h('div', 'zc-msg-tr'); linkify(n, t); b.appendChild(n); }
+				});
+			}
+			function translateChat(asked) {
+				if (p.trBusy) { return; }
+				p.trBusy = true; p.trSeen = p.after;
+				post('agent/chat/' + id + '/translate', {}).then(function (r) { p.tr = r.translations || {}; showTr(); render(p.data); }).catch(function (e) { if (asked) { fail(e); } }).then(function () { p.trBusy = false; });
+			}
+
 			function bubble(m) {
 				if (msgs.querySelector('[data-id="' + m.id + '"]')) { return; }
-				var b = h('div', 'zc-msg zc-' + m.role); b.setAttribute('data-id', m.id);
+				var b = h('div', 'zc-msg zc-' + m.role); b.setAttribute('data-id', m.id); b.setAttribute('data-text', m.text);
 				var meta = h('div', 'zc-msg-meta', (m.role === 'agent' ? (m.name || roleName.agent) : roleName[m.role]) + ' · ' + when(m.at));
 				if (m.role !== 'system') { b.appendChild(meta); }
 				var t = h('div', 'zc-msg-text'); linkify(t, m.text); b.appendChild(t);
@@ -261,6 +312,8 @@
 				var stick = msgs.scrollHeight - msgs.scrollTop - msgs.clientHeight < 60;
 				(d.messages || []).forEach(function (m) { bubble(m); p.after = Math.max(p.after, m.id); });
 				render(d);
+				// Translation on: a new message is translated too (one request; the rest is cached).
+				if (p.tr && p.after > p.trSeen) { translateChat(false); }
 				if (stick) { msgs.scrollTop = msgs.scrollHeight; }
 			}
 
@@ -281,7 +334,7 @@
 				var text = input.value.trim();
 				if (!text) { return; }
 				send.disabled = true;
-				post('agent/chat/' + id + '/reply', { text: text, note: noteCb.checked }).then(function (d) { input.value = ''; noteCb.checked = false; apply(d); }).catch(fail).then(function () { send.disabled = false; input.focus(); });
+				post('agent/chat/' + id + '/reply', { text: text, note: noteCb.checked, translate: !noteCb.checked && trCb.checked }).then(function (d) { input.value = ''; noteCb.checked = false; apply(d); }).catch(fail).then(function () { send.disabled = false; input.focus(); });
 			}
 			send.addEventListener('click', doSend);
 			input.addEventListener('keydown', function (e) {

@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-18T03:49:46+00:00",
+    "translation-revision-date": "2026-11-06T09:35:07+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,9 @@
             ],
             "Type": [
                 "Typ"
+            ],
+            "Open a ticket": [
+                "Zalo\u017eit tiket"
             ],
             "Order": [
                 "Objednat"
@@ -169,8 +172,17 @@
             "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
                 "Napi\u0161te odpov\u011b\u010f\u2026 (Odeslat stisknut\u00edm kl\u00e1vesy Enter, nov\u00fd \u0159\u00e1dek pomoc\u00ed Shift+Enter)"
             ],
+            "Send in the visitor's language": [
+                "Odeslat v jazyce n\u00e1v\u0161t\u011bvn\u00edka"
+            ],
             "Ticket #%d": [
                 "Po\u017eadavek \u010d. %d"
+            ],
+            "Show original": [
+                "Zobrazit p\u016fvodn\u00ed"
+            ],
+            "Translate chat": [
+                "P\u0159elo\u017eit chat"
             ],
             "Take this chat": [
                 "P\u0159evz\u00edt tento chat"
@@ -186,6 +198,21 @@
             ],
             "The visitor is typing\u2026": [
                 "N\u00e1v\u0161t\u011bvn\u00edk p\u00ed\u0161e..."
+            ],
+            "E-mail them": [
+                "Napi\u0161te jim e-mail"
+            ],
+            "Subject of the new ticket": [
+                "P\u0159edm\u011bt nov\u00e9ho po\u017eadavku"
+            ],
+            "Earlier chats (%d)": [
+                "D\u0159\u00edv\u011bj\u0161\u00ed konverzace (%d)"
+            ],
+            "Tickets (%d)": [
+                "Tikety (%d)"
+            ],
+            "No earlier chats, tickets or orders.": [
+                "\u017d\u00e1dn\u00e9 d\u0159\u00edv\u011bj\u0161\u00ed chaty, tikety ani objedn\u00e1vky."
             ],
             "New ticket": [
                 "Nov\u00fd tiket"

@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-18T03:49:46+00:00",
+    "translation-revision-date": "2026-11-06T09:35:07+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,9 @@
             ],
             "Type": [
                 "Turi"
+            ],
+            "Open a ticket": [
+                "Ticket ochish"
             ],
             "Order": [
                 "Buyurtma"
@@ -169,8 +172,17 @@
             "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
                 "Javob yozing\u2026 (Yuborish uchun Enter, yangi qator uchun Shift+Enter)"
             ],
+            "Send in the visitor's language": [
+                "Tashrif buyuruvchining tilida yuborish"
+            ],
             "Ticket #%d": [
                 "Murojaat \u2116%d"
+            ],
+            "Show original": [
+                "Aslini ko\u02bbrsatish"
+            ],
+            "Translate chat": [
+                "Chatni tarjima qilish"
             ],
             "Take this chat": [
                 "Ushbu chatni olish"
@@ -186,6 +198,21 @@
             ],
             "The visitor is typing\u2026": [
                 "Tashrif buyuruvchi yozmoqda\u2026"
+            ],
+            "E-mail them": [
+                "Ularga elektron xat yuboring"
+            ],
+            "Subject of the new ticket": [
+                "Yangi chipta mavzusi"
+            ],
+            "Earlier chats (%d)": [
+                "Oldingi suhbatlar (%d)"
+            ],
+            "Tickets (%d)": [
+                "Chiptalar (%d)"
+            ],
+            "No earlier chats, tickets or orders.": [
+                "Oldingi suhbatlar, chiptalar yoki buyurtmalar yo\u02bbq."
             ],
             "New ticket": [
                 "Yangi so'rov"

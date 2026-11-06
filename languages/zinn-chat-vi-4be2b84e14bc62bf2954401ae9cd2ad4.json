@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-18T03:49:45+00:00",
+    "translation-revision-date": "2026-11-06T09:35:07+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,9 @@
             ],
             "Type": [
                 "Lo\u1ea1i"
+            ],
+            "Open a ticket": [
+                "G\u1eedi y\u00eau c\u1ea7u h\u1ed7 tr\u1ee3"
             ],
             "Order": [
                 "\u0110\u01a1n h\u00e0ng"
@@ -169,8 +172,17 @@
             "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
                 "Nh\u1eadp tin nh\u1eafn tr\u1ea3 l\u1eddi\u2026 (Nh\u1ea5n Enter \u0111\u1ec3 g\u1eedi, Shift+Enter \u0111\u1ec3 xu\u1ed1ng d\u00f2ng)"
             ],
+            "Send in the visitor's language": [
+                "G\u1eedi b\u1eb1ng ng\u00f4n ng\u1eef c\u1ee7a kh\u00e1ch truy c\u1eadp"
+            ],
             "Ticket #%d": [
                 "Y\u00eau c\u1ea7u h\u1ed7 tr\u1ee3 #%d"
+            ],
+            "Show original": [
+                "Hi\u1ec3n th\u1ecb b\u1ea3n g\u1ed1c"
+            ],
+            "Translate chat": [
+                "D\u1ecbch cu\u1ed9c tr\u00f2 chuy\u1ec7n"
             ],
             "Take this chat": [
                 "Nh\u1eadn cu\u1ed9c tr\u00f2 chuy\u1ec7n n\u00e0y"
@@ -186,6 +198,21 @@
             ],
             "The visitor is typing\u2026": [
                 "Kh\u00e1ch truy c\u1eadp \u0111ang nh\u1eadp\u2026"
+            ],
+            "E-mail them": [
+                "G\u1eedi email cho h\u1ecd"
+            ],
+            "Subject of the new ticket": [
+                "Ch\u1ee7 \u0111\u1ec1 c\u1ee7a phi\u1ebfu h\u1ed7 tr\u1ee3 m\u1edbi"
+            ],
+            "Earlier chats (%d)": [
+                "C\u00e1c cu\u1ed9c tr\u00f2 chuy\u1ec7n tr\u01b0\u1edbc (%d)"
+            ],
+            "Tickets (%d)": [
+                "Y\u00eau c\u1ea7u h\u1ed7 tr\u1ee3 (%d)"
+            ],
+            "No earlier chats, tickets or orders.": [
+                "Kh\u00f4ng c\u00f3 \u0111o\u1ea1n tr\u00f2 chuy\u1ec7n, y\u00eau c\u1ea7u h\u1ed7 tr\u1ee3 ho\u1eb7c \u0111\u01a1n h\u00e0ng n\u00e0o tr\u01b0\u1edbc \u0111\u00f3."
             ],
             "New ticket": [
                 "Y\u00eau c\u1ea7u h\u1ed7 tr\u1ee3 m\u1edbi"

@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-18T03:49:45+00:00",
+    "translation-revision-date": "2026-11-06T09:35:07+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,9 @@
             ],
             "Type": [
                 "Lloji"
+            ],
+            "Open a ticket": [
+                "Hape nj\u00eb k\u00ebrkes\u00eb"
             ],
             "Order": [
                 "Porosit"
@@ -169,8 +172,17 @@
             "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
                 "Shkruani nj\u00eb p\u00ebrgjigje\u2026 (Shtypni Enter p\u00ebr ta d\u00ebrguar, Shift+Enter p\u00ebr nj\u00eb rresht t\u00eb ri)"
             ],
+            "Send in the visitor's language": [
+                "D\u00ebrgoje n\u00eb gjuh\u00ebn e vizitorit"
+            ],
             "Ticket #%d": [
                 "Bilet\u00eb #%d"
+            ],
+            "Show original": [
+                "Shfaq origjinalin"
+            ],
+            "Translate chat": [
+                "P\u00ebrkthe bised\u00ebn"
             ],
             "Take this chat": [
                 "Merr k\u00ebt\u00eb bised\u00eb"
@@ -186,6 +198,21 @@
             ],
             "The visitor is typing\u2026": [
                 "Vizitori po shkruan\u2026"
+            ],
+            "E-mail them": [
+                "D\u00ebrgojuni email"
+            ],
+            "Subject of the new ticket": [
+                "Subjekti i bilet\u00ebs s\u00eb re"
+            ],
+            "Earlier chats (%d)": [
+                "Bisedat e m\u00ebparshme (%d)"
+            ],
+            "Tickets (%d)": [
+                "Bileta (%d)"
+            ],
+            "No earlier chats, tickets or orders.": [
+                "Nuk ka biseda, bileta ose porosi t\u00eb m\u00ebparshme."
             ],
             "New ticket": [
                 "Tiket\u00eb e re"

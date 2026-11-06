@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-18T03:49:46+00:00",
+    "translation-revision-date": "2026-11-06T09:35:07+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,9 @@
             ],
             "Type": [
                 "\u12a0\u12ed\u1290\u1275"
+            ],
+            "Open a ticket": [
+                "\u1272\u12ac\u1275 \u12ad\u1348\u1275"
             ],
             "Order": [
                 "\u1275\u12d5\u12db\u12dd"
@@ -169,8 +172,17 @@
             "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
                 "\u121d\u120b\u123d \u12ed\u133b\u1349... (\u1208\u1218\u120b\u12ad Enter\u1295 \u12ed\u132b\u1291\u1363 \u12a0\u12f2\u1235 \u1218\u1235\u1218\u122d \u1208\u121b\u1235\u1308\u1263\u1275 Shift+Enter\u1295 \u12ed\u1320\u1240\u1219)"
             ],
+            "Send in the visitor's language": [
+                "\u1260\u130e\u1265\u129a\u12cd \u124b\u1295\u124b \u12ed\u120b\u12a9"
+            ],
             "Ticket #%d": [
                 "\u1272\u12ac\u1275 #%d"
+            ],
+            "Show original": [
+                "\u12cb\u1293\u12cd\u1295 \u12a0\u1233\u12ed"
+            ],
+            "Translate chat": [
+                "\u12cd\u12ed\u12ed\u1275\u1295 \u12ed\u1270\u122d\u1309\u1219"
             ],
             "Take this chat": [
                 "\u12ed\u1205\u1295\u1295 \u12cd\u12ed\u12ed\u1275 \u12ed\u12cd\u1230\u12f1"
@@ -186,6 +198,21 @@
             ],
             "The visitor is typing\u2026": [
                 "\u130e\u1265\u129a\u12cd \u1260\u1218\u1343\u134d \u120b\u12ed \u1290\u12cd\u2026"
+            ],
+            "E-mail them": [
+                "\u12a2\u121c\u12ed\u120d \u12ed\u120b\u12a9\u120b\u1278\u12cd"
+            ],
+            "Subject of the new ticket": [
+                "\u12e8\u12a0\u12f2\u1231 \u1275\u12ac\u1275 \u122d\u12d5\u1230 \u1309\u12f3\u12ed"
+            ],
+            "Earlier chats (%d)": [
+                "\u1240\u12f0\u121d \u12eb\u1209 \u132d\u12cd\u12cd\u1276\u127d (%d)"
+            ],
+            "Tickets (%d)": [
+                "\u1275\u12ac\u1276\u127d (%d)"
+            ],
+            "No earlier chats, tickets or orders.": [
+                "\u121d\u1295\u121d \u12e8\u1240\u12f0\u1219 \u132d\u12cd\u12cd\u1276\u127d\u1363 \u1272\u12ac\u1276\u127d \u12c8\u12ed\u121d \u1275\u12d5\u12db\u12de\u127d \u12e8\u1209\u121d\u1362"
             ],
             "New ticket": [
                 "\u12a0\u12f2\u1235 \u1272\u12ac\u1275"

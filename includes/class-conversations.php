@@ -83,6 +83,38 @@ final class Conversations {
 	}
 
 	/**
+	 * The same person's other conversations, newest first (2.13.0, the agent's customer profile):
+	 * the same signed-in user, or the same e-mail address.
+	 *
+	 * ⛔ Each condition only when it is set: `user_id = 0` or `email = ''` would match every guest.
+	 *
+	 * @param string $email   E-mail address ('' for none).
+	 * @param int    $user_id WordPress user (0 for none).
+	 * @param int    $exclude This conversation.
+	 * @param int    $limit   How many.
+	 * @return array{rows: array<int, array<string, mixed>>, total: int}
+	 */
+	public static function by_person( string $email, int $user_id, int $exclude, int $limit = 10 ): array {
+		global $wpdb;
+		$email = trim( $email );
+		if ( '' === $email && $user_id <= 0 ) {
+			return array(
+				'rows'  => array(),
+				'total' => 0,
+			);
+		}
+		$table = $wpdb->prefix . 'zinn_chat_conversations';
+		// phpcs:disable WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching -- the plugin's own table; live data.
+		$total = (int) $wpdb->get_var( $wpdb->prepare( "SELECT COUNT(*) FROM %i WHERE id <> %d AND ( ( %d > 0 AND user_id = %d ) OR ( %s <> '' AND email = %s ) )", $table, $exclude, $user_id, $user_id, $email, $email ) );
+		$rows  = $wpdb->get_results( $wpdb->prepare( "SELECT * FROM %i WHERE id <> %d AND ( ( %d > 0 AND user_id = %d ) OR ( %s <> '' AND email = %s ) ) ORDER BY updated_at DESC LIMIT %d", $table, $exclude, $user_id, $user_id, $email, $email, max( 1, min( 50, $limit ) ) ), ARRAY_A );
+		// phpcs:enable
+		return array(
+			'rows'  => is_array( $rows ) ? $rows : array(),
+			'total' => $total,
+		);
+	}
+
+	/**
 	 * The conversation a visitor token belongs to.
 	 *
 	 * @param string $token Token the widget holds.

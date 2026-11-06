@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-18T03:49:45+00:00",
+    "translation-revision-date": "2026-11-06T09:35:07+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,9 @@
             ],
             "Type": [
                 "Tip"
+            ],
+            "Open a ticket": [
+                "Deschide un tichet"
             ],
             "Order": [
                 "Comand\u0103"
@@ -169,8 +172,17 @@
             "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
                 "Scrie\u021bi un r\u0103spuns\u2026 (Enter pentru trimitere, Shift+Enter pentru r\u00e2nd nou)"
             ],
+            "Send in the visitor's language": [
+                "Trimite \u00een limba vizitatorului"
+            ],
             "Ticket #%d": [
                 "Tichetele #%d"
+            ],
+            "Show original": [
+                "Arat\u0103 originalul"
+            ],
+            "Translate chat": [
+                "Tradu conversa\u021bia"
             ],
             "Take this chat": [
                 "Preia acest chat"
@@ -186,6 +198,21 @@
             ],
             "The visitor is typing\u2026": [
                 "Vizitatorul scrie\u2026"
+            ],
+            "E-mail them": [
+                "Trimite-le un e-mail"
+            ],
+            "Subject of the new ticket": [
+                "Subiectul noului tichet"
+            ],
+            "Earlier chats (%d)": [
+                "Conversa\u021bii anterioare (%d)"
+            ],
+            "Tickets (%d)": [
+                "Tichete (%d)"
+            ],
+            "No earlier chats, tickets or orders.": [
+                "Nu exist\u0103 conversa\u021bii, tichete sau comenzi anterioare."
             ],
             "New ticket": [
                 "Ticket nou"

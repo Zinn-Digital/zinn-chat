@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-18T03:49:46+00:00",
+    "translation-revision-date": "2026-11-06T09:35:07+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,9 @@
             ],
             "Type": [
                 "\u0a15\u0a3f\u0a38\u0a2e"
+            ],
+            "Open a ticket": [
+                "\u0a07\u0a15 \u0a1f\u0a3f\u0a15\u0a1f \u0a16\u0a4b\u0a32\u0a4d\u0a39\u0a4b"
             ],
             "Order": [
                 "\u0a06\u0a30\u0a21\u0a30"
@@ -169,8 +172,17 @@
             "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
                 "\u0a1c\u0a35\u0a3e\u0a2c \u0a1f\u0a3e\u0a08\u0a2a \u0a15\u0a30\u0a4b\u2026 (\u0a2d\u0a47\u0a1c\u0a23 \u0a32\u0a08 Enter, \u0a28\u0a35\u0a40\u0a02 \u0a32\u0a3e\u0a08\u0a28 \u0a32\u0a08 Shift+Enter)"
             ],
+            "Send in the visitor's language": [
+                "\u0a2e\u0a41\u0a32\u0a3e\u0a15\u0a3e\u0a24\u0a40 \u0a26\u0a40 \u0a2d\u0a3e\u0a38\u0a3c\u0a3e \u0a35\u0a3f\u0a71\u0a1a \u0a2d\u0a47\u0a1c\u0a4b"
+            ],
             "Ticket #%d": [
                 "\u0a1f\u0a3f\u0a15\u0a1f #%d"
+            ],
+            "Show original": [
+                "\u0a05\u0a38\u0a32 \u0a26\u0a3f\u0a16\u0a3e\u0a13"
+            ],
+            "Translate chat": [
+                "\u0a17\u0a71\u0a32\u0a2c\u0a3e\u0a24 \u0a26\u0a3e \u0a05\u0a28\u0a41\u0a35\u0a3e\u0a26 \u0a15\u0a30\u0a4b"
             ],
             "Take this chat": [
                 "\u0a07\u0a39 \u0a1a\u0a48\u0a24 \u0a32\u0a13"
@@ -186,6 +198,21 @@
             ],
             "The visitor is typing\u2026": [
                 "\u0a35\u0a3f\u0a1c\u0a3c\u0a3f\u0a1f\u0a30 \u0a1f\u0a3e\u0a08\u0a2a \u0a15\u0a30 \u0a30\u0a3f\u0a39\u0a3e \u0a39\u0a48\u2026"
+            ],
+            "E-mail them": [
+                "\u0a09\u0a39\u0a28\u0a3e\u0a02 \u0a28\u0a42\u0a70 \u0a08\u0a2e\u0a47\u0a32 \u0a15\u0a30\u0a4b"
+            ],
+            "Subject of the new ticket": [
+                "\u0a28\u0a35\u0a40\u0a02 \u0a1f\u0a3f\u0a15\u0a1f \u0a26\u0a3e \u0a35\u0a3f\u0a36\u0a3e"
+            ],
+            "Earlier chats (%d)": [
+                "\u0a2a\u0a3f\u0a1b\u0a32\u0a40\u0a06\u0a02 \u0a17\u0a71\u0a32\u0a2c\u0a3e\u0a24\u0a3e\u0a02 (%d)"
+            ],
+            "Tickets (%d)": [
+                "\u0a1f\u0a3f\u0a15\u0a1f\u0a3e\u0a02 (%d)"
+            ],
+            "No earlier chats, tickets or orders.": [
+                "\u0a15\u0a4b\u0a08 \u0a2a\u0a3f\u0a1b\u0a32\u0a40\u0a06\u0a02 \u0a17\u0a71\u0a32\u0a2c\u0a3e\u0a24\u0a3e\u0a02, \u0a1f\u0a3f\u0a15\u0a1f\u0a3e\u0a02 \u0a1c\u0a3e\u0a02 \u0a06\u0a30\u0a21\u0a30 \u0a28\u0a39\u0a40\u0a02 \u0a39\u0a28\u0964"
             ],
             "New ticket": [
                 "\u0a28\u0a35\u0a40\u0a02 \u0a1f\u0a3f\u0a15\u0a1f"

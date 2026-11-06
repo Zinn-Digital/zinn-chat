@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.12.17
+Stable tag: 2.13.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,6 +39,8 @@ Ask the assistant questions in wp-admin and see the answer with every page it fo
 * **Multi-chat inbox:** open several chats at once as tabs, side by side on a wide screen, each with its own draft. Waiting visitors go to the top with how long they have waited.
 * **Phone and tablet view:** the inbox becomes one chat at a time, full screen, with a Focus mode that hides the rest of wp-admin.
 * Internal notes, hand a chat back to the assistant, turn a chat into a ticket, email the visitor a copy.
+* **Customer profile beside every chat:** the visitor's earlier chats, their tickets and their WooCommerce orders, matched on their account or email address, with one-click "E-mail them" and "Open a ticket".
+* **Chat in any language:** "Translate chat" shows every message in your language under the original, and "Send in the visitor's language" translates your reply before it is sent. It uses your AI key; the whole chat is one request, and each translation is kept so it is never paid for twice.
 * Sound and desktop alerts when somebody is waiting, and an email if nobody answers.
 
 = Support tickets =
@@ -96,7 +98,7 @@ Only when an AI app such as Claude or ChatGPT starts connecting to the site's MC
 * Claude: terms https://www.anthropic.com/legal/consumer-terms, privacy policy https://www.anthropic.com/legal/privacy
 * ChatGPT: terms https://openai.com/policies/terms-of-use/, privacy policy https://openai.com/policies/privacy-policy/
 
-**Your AI provider (only if you add a key).** When the assistant answers a visitor, the visitor's message, the recent conversation and the passages of your site that match it are sent to the AI provider you chose, with your key. When the site index is built or updated, the text of your published pages is sent to that provider to build the search index. Nothing is sent to any provider until you add its key. Providers and their terms: Google Gemini ([terms](https://ai.google.dev/gemini-api/terms), [privacy](https://policies.google.com/privacy)), OpenAI ([terms](https://openai.com/policies/services-agreement/), [privacy](https://openai.com/policies/privacy-policy/)), Anthropic ([terms](https://www.anthropic.com/legal/commercial-terms), [privacy](https://www.anthropic.com/legal/privacy)), Mistral ([terms](https://legal.mistral.ai/terms/commercial-terms-of-service/), [privacy](https://legal.mistral.ai/terms/privacy-policy/)), OpenRouter ([terms](https://openrouter.ai/terms), [privacy](https://openrouter.ai/privacy)), DeepSeek ([terms](https://cdn.deepseek.com/policies/en-US/deepseek-open-platform-terms-of-service.html), [privacy](https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html)), or a service you name yourself.
+**Your AI provider (only if you add a key).** When the assistant answers a visitor, the visitor's message, the recent conversation and the passages of your site that match it are sent to the AI provider you chose, with your key. When the site index is built or updated, the text of your published pages is sent to that provider to build the search index. When an agent presses "Translate chat" or sends a reply in the visitor's language, the chat's messages (or the reply) are sent to that provider to be translated. Nothing is sent to any provider until you add its key. Providers and their terms: Google Gemini ([terms](https://ai.google.dev/gemini-api/terms), [privacy](https://policies.google.com/privacy)), OpenAI ([terms](https://openai.com/policies/services-agreement/), [privacy](https://openai.com/policies/privacy-policy/)), Anthropic ([terms](https://www.anthropic.com/legal/commercial-terms), [privacy](https://www.anthropic.com/legal/privacy)), Mistral ([terms](https://legal.mistral.ai/terms/commercial-terms-of-service/), [privacy](https://legal.mistral.ai/terms/privacy-policy/)), OpenRouter ([terms](https://openrouter.ai/terms), [privacy](https://openrouter.ai/privacy)), DeepSeek ([terms](https://cdn.deepseek.com/policies/en-US/deepseek-open-platform-terms-of-service.html), [privacy](https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html)), or a service you name yourself.
 
 **Recommended models list (only if you tick it).** Settings, AI providers can fetch Zinn Digital®'s list of recommended models once a day from `https://api.zinndigital.com/v1/ai-model-catalogue`. Connecting to Zinn® does not turn it on; only the tick does (in Zinn® Chat Pro, a site connected to Zinn® checks too). The request carries no key, no site address and no content, and the list is signed. [Terms](https://zinndigital.com/legal/terms), [privacy](https://zinndigital.com/legal/privacy).
 
@@ -153,6 +155,10 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.13.0 =
+* New: a customer profile beside every chat in the inbox: the visitor's earlier chats, tickets and WooCommerce orders, with "E-mail them" and "Open a ticket".
+* New: live translation for agents. "Translate chat" shows the visitor's messages in your language, and "Send in the visitor's language" translates your reply before it is sent, with your own AI key.
 
 = 2.12.17 =
 * Maintenance: packaging fix for the update channel; no change in behaviour.

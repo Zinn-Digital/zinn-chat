@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-10-18T03:49:46+00:00",
+    "translation-revision-date": "2026-11-06T09:35:07+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -81,6 +81,9 @@
             ],
             "Type": [
                 "\uc720\ud615"
+            ],
+            "Open a ticket": [
+                "\ud2f0\ucf13 \uc5f4\uae30"
             ],
             "Order": [
                 "\uc8fc\ubb38"
@@ -169,8 +172,17 @@
             "Type a reply\u2026 (Enter to send, Shift+Enter for a new line)": [
                 "\ub2f5\uc7a5 \uc785\ub825\u2026 (\ubcf4\ub0b4\ub824\uba74 Enter, \uc904\ubc14\uafc8\uc740 Shift+Enter)"
             ],
+            "Send in the visitor's language": [
+                "\ubc29\ubb38\uc790\uc758 \uc5b8\uc5b4\ub85c \ubcf4\ub0b4\uae30"
+            ],
             "Ticket #%d": [
                 "\ud2f0\ucf13 #%d"
+            ],
+            "Show original": [
+                "\uc6d0\ubcf8 \ubcf4\uae30"
+            ],
+            "Translate chat": [
+                "\ucc44\ud305 \ubc88\uc5ed"
             ],
             "Take this chat": [
                 "\uc774 \ucc44\ud305 \ubc1b\uae30"
@@ -186,6 +198,21 @@
             ],
             "The visitor is typing\u2026": [
                 "\ubc29\ubb38\uc790\uac00 \uc785\ub825 \uc911\uc785\ub2c8\ub2e4\u2026"
+            ],
+            "E-mail them": [
+                "\uc774\uba54\uc77c \ubcf4\ub0b4\uae30"
+            ],
+            "Subject of the new ticket": [
+                "\uc0c8 \ud2f0\ucf13\uc758 \uc81c\ubaa9"
+            ],
+            "Earlier chats (%d)": [
+                "\uc774\uc804 \ucc44\ud305 (%d)"
+            ],
+            "Tickets (%d)": [
+                "\ud2f0\ucf13 (%d)"
+            ],
+            "No earlier chats, tickets or orders.": [
+                "\uc774\uc804 \ucc44\ud305, \ud2f0\ucf13 \ub610\ub294 \uc8fc\ubb38\uc774 \uc5c6\uc2b5\ub2c8\ub2e4."
             ],
             "New ticket": [
                 "\uc0c8 \ubb38\uc758 \ud2f0\ucf13"
