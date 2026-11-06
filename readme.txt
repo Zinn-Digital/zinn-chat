@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.12.16
+Stable tag: 2.12.17
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -153,6 +153,9 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.12.17 =
+* Maintenance: packaging fix for the update channel; no change in behaviour.
 
 = 2.12.16 =
 * Fix: no longer crashes on hosts that disable PHP functions such as disk_free_space, getmypid, ignore_user_abort, gzopen or stream_socket_client; each call is checked first and falls back safely.
