@@ -1,0 +1,92 @@
+{
+    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/discuss.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "ro_RO",
+                "plural-forms": "nplurals=3; plural=(n==1 ? 0 : n==0 || (n%100>0 && n%100<20) ? 1 : 2);"
+            },
+            "Chat": [
+                "Chat"
+            ],
+            "Ticket": [
+                "Tichet"
+            ],
+            "Cancel": [
+                "Anulare"
+            ],
+            "Something went wrong. Please try again.": [
+                "Ceva nu a func\u021bionat corect. V\u0103 rug\u0103m s\u0103 \u00eencerca\u021bi din nou."
+            ],
+            "Contact": [
+                "Contact"
+            ],
+            "Article": [
+                "Articol"
+            ],
+            "%s mentioned you": [
+                "%s te-a men\u021bionat"
+            ],
+            "%s replied in a discussion": [
+                "%s a r\u0103spuns \u00eentr-o discu\u021bie"
+            ],
+            "%s reacted to your message": [
+                "%s a reac\u021bionat la mesajul t\u0103u"
+            ],
+            "%s assigned a ticket to you": [
+                "%s \u021bi-a atribuit un tichet"
+            ],
+            "Notifications": [
+                "Notific\u0103ri"
+            ],
+            "Notifications, %d unread": [
+                "Notific\u0103ri, %d necitite",
+                "Notific\u0103ri, %d necitite",
+                "Notific\u0103ri, %d necitite"
+            ],
+            "Mark all read": [
+                "Marcheaz\u0103 totul ca citit"
+            ],
+            "Mentions, replies, reactions and assignments show here.": [
+                "Men\u021biunile, r\u0103spunsurile, reac\u021biile \u0219i atribuirile apar aici."
+            ],
+            "Someone": [
+                "Cineva"
+            ],
+            "Discuss with your team\u2026 type @ and a name to mention someone": [
+                "Discut\u0103 cu echipa ta\u2026 tasteaz\u0103 @ \u0219i un nume pentru a men\u021biona pe cineva"
+            ],
+            "Message to your team": [
+                "Mesaj c\u0103tre echipa ta"
+            ],
+            "Post": [
+                "Public\u0103"
+            ],
+            "No discussion yet. Only your team sees what is written here.": [
+                "Nu exist\u0103 \u00eenc\u0103 nicio discu\u021bie. Doar echipa ta vede ce este scris aici."
+            ],
+            "In reply to %s": [
+                "Ca r\u0103spuns la %s"
+            ],
+            "Reply": [
+                "R\u0103spunde"
+            ],
+            "Replying to %s": [
+                "R\u0103spuns c\u0103tre %s"
+            ],
+            "About this chat": [
+                "Despre acest chat"
+            ],
+            "About this contact": [
+                "Despre acest contact"
+            ],
+            "Discuss": [
+                "Discut\u0103"
+            ]
+        }
+    }
+}

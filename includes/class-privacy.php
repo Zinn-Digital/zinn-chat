@@ -196,6 +196,8 @@ final class Privacy {
 		// phpcs:enable
 		self::delete_conversations( array_map( 'intval', (array) $chats ) );
 		self::delete_tickets( array_map( 'intval', (array) $tickets ) );
+		// 2.14.0: the team's discussion about this contact goes with them.
+		Discuss::store()->delete_thread( 'contact', strtolower( trim( $email ) ) );
 		$removed = count( (array) $chats ) + count( (array) $tickets );
 		return array(
 			'items_removed'  => $removed,
@@ -222,6 +224,13 @@ final class Privacy {
 		// phpcs:disable WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching, WordPress.DB.PreparedSQL.InterpolatedNotPrepared -- the plugin's own tables; ids cast to int.
 		$wpdb->query( $wpdb->prepare( "DELETE FROM %i WHERE conversation_id IN ({$list})", $m ) );
 		$wpdb->query( $wpdb->prepare( "DELETE FROM %i WHERE id IN ({$list})", $c ) );
+		// 2.14.0: each chat's team discussion and the notifications that point into it.
+		// object_key is a string column, so each id is bound as a %s placeholder (no quoting by hand).
+		$keys = array_map( 'strval', array_map( 'intval', $ids ) );
+		$in   = implode( ',', array_fill( 0, count( $keys ), '%s' ) );
+		foreach ( array( 'zinn_chat_discussions', 'zinn_chat_notifications' ) as $table ) {
+			$wpdb->query( $wpdb->prepare( "DELETE FROM %i WHERE object_type = 'chat' AND object_key IN ({$in})", array_merge( array( $wpdb->prefix . $table ), $keys ) ) );
+		}
 		// phpcs:enable
 	}
 

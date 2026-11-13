@@ -1,0 +1,91 @@
+{
+    "translation-revision-date": "2026-11-12T11:42:23+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/discuss.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "uz_UZ",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Chat": [
+                "Chat"
+            ],
+            "Ticket": [
+                "Murojaat"
+            ],
+            "Cancel": [
+                "Bekor qilish"
+            ],
+            "Something went wrong. Please try again.": [
+                "Xatolik yuz berdi. Iltimos, qaytadan urinib ko'ring."
+            ],
+            "Contact": [
+                "Aloqa"
+            ],
+            "Article": [
+                "Maqola"
+            ],
+            "%s mentioned you": [
+                "%s sizni eslatib o\u2018tdi"
+            ],
+            "%s replied in a discussion": [
+                "%s munozarada javob berdi"
+            ],
+            "%s reacted to your message": [
+                "%s xabaringizga munosabat bildirdi"
+            ],
+            "%s assigned a ticket to you": [
+                "%s sizga chipta biriktirdi"
+            ],
+            "Notifications": [
+                "Bildirishnomalar"
+            ],
+            "Notifications, %d unread": [
+                "Bildirishnomalar, %d ta o\u02bbqilmagan",
+                "Bildirishnomalar, %d ta o\u02bbqilmagan"
+            ],
+            "Mark all read": [
+                "Barchasini o\u02bbqilgan deb belgilash"
+            ],
+            "Mentions, replies, reactions and assignments show here.": [
+                "Eslatmalar, javoblar, munosabatlar va tayinlovlar shu yerda ko\u02bbrsatiladi."
+            ],
+            "Someone": [
+                "Kimdir"
+            ],
+            "Discuss with your team\u2026 type @ and a name to mention someone": [
+                "Jamoangiz bilan muhokama qiling\u2026 kimnidir belgilash uchun @ va ismni yozing"
+            ],
+            "Message to your team": [
+                "Jamoangizga xabar"
+            ],
+            "Post": [
+                "Chop etish"
+            ],
+            "No discussion yet. Only your team sees what is written here.": [
+                "Hozircha hech qanday muhokama yo\u02bbq. Bu yerda yozilganlarni faqat sizning jamoangiz ko\u02bbradi."
+            ],
+            "In reply to %s": [
+                "%s ga javoban"
+            ],
+            "Reply": [
+                "Javob berish"
+            ],
+            "Replying to %s": [
+                "%s foydalanuvchisiga javob berilmoqda"
+            ],
+            "About this chat": [
+                "Ushbu chat haqida"
+            ],
+            "About this contact": [
+                "Ushbu kontakt haqida"
+            ],
+            "Discuss": [
+                "Muhokama qiling"
+            ]
+        }
+    }
+}

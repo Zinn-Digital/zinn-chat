@@ -1,0 +1,91 @@
+{
+    "translation-revision-date": "2026-11-12T11:42:23+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/discuss.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "mn",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Chat": [
+                "\u0427\u0430\u0433"
+            ],
+            "Ticket": [
+                "\u0422\u0430\u0441\u0430\u043b\u0431\u0430\u0440"
+            ],
+            "Cancel": [
+                "\u0426\u0443\u0446\u043b\u0430\u0445"
+            ],
+            "Something went wrong. Please try again.": [
+                "\u042e\u043c \u0431\u0443\u0440\u0443\u0443 \u0431\u043e\u043b\u043b\u043e\u043e. \u0414\u0430\u0445\u0438\u043d \u043e\u0440\u043e\u043b\u0434\u043e\u043d\u043e \u0443\u0443."
+            ],
+            "Contact": [
+                "\u0425\u043e\u043b\u0431\u043e\u043e \u0431\u0430\u0440\u0438\u0445"
+            ],
+            "Article": [
+                "\u041d\u0438\u0439\u0442\u043b\u044d\u043b"
+            ],
+            "%s mentioned you": [
+                "%s \u0442\u0430\u043d\u044b\u0433 \u0434\u0443\u0440\u0434\u0441\u0430\u043d"
+            ],
+            "%s replied in a discussion": [
+                "%s \u0445\u044d\u043b\u044d\u043b\u0446\u04af\u04af\u043b\u044d\u0433\u0442 \u0445\u0430\u0440\u0438\u0443 \u0431\u0438\u0447\u0441\u044d\u043d"
+            ],
+            "%s reacted to your message": [
+                "%s \u0442\u0430\u043d\u044b \u0437\u0443\u0440\u0432\u0430\u0441\u0442 \u0445\u0430\u0440\u0438\u0443 \u04af\u0439\u043b\u0434\u044d\u043b \u04af\u0437\u04af\u04af\u043b\u043b\u044d\u044d"
+            ],
+            "%s assigned a ticket to you": [
+                "%s \u0442\u0430\u043d\u0434 \u0442\u0430\u0441\u0430\u043b\u0431\u0430\u0440 \u043e\u043d\u043e\u043e\u0441\u043e\u043d \u0431\u0430\u0439\u043d\u0430"
+            ],
+            "Notifications": [
+                "\u041c\u044d\u0434\u044d\u0433\u0434\u044d\u043b"
+            ],
+            "Notifications, %d unread": [
+                "\u041c\u044d\u0434\u044d\u0433\u0434\u044d\u043b, %d \u0443\u043d\u0448\u0430\u0430\u0433\u04af\u0439",
+                "\u041c\u044d\u0434\u044d\u0433\u0434\u044d\u043b, %d \u0443\u043d\u0448\u0430\u0430\u0433\u04af\u0439"
+            ],
+            "Mark all read": [
+                "\u0411\u04af\u0433\u0434\u0438\u0439\u0433 \u0443\u043d\u0448\u0441\u0430\u043d\u0430\u0430\u0440 \u0442\u044d\u043c\u0434\u044d\u0433\u043b\u044d\u0445"
+            ],
+            "Mentions, replies, reactions and assignments show here.": [
+                "\u0414\u0443\u0440\u0434\u0441\u0430\u043d \u0442\u044d\u043c\u0434\u044d\u0433\u043b\u044d\u043b, \u0445\u0430\u0440\u0438\u0443\u043b\u0442, \u0441\u044d\u0442\u0433\u044d\u0433\u0434\u044d\u043b \u0431\u043e\u043b\u043e\u043d \u043e\u043d\u043e\u043e\u043b\u0442\u0443\u0443\u0434 \u044d\u043d\u0434 \u0445\u0430\u0440\u0430\u0433\u0434\u0430\u043d\u0430."
+            ],
+            "Someone": [
+                "\u0425\u044d\u043d \u043d\u044d\u0433\u044d\u043d"
+            ],
+            "Discuss with your team\u2026 type @ and a name to mention someone": [
+                "\u0411\u0430\u0433\u0442\u0430\u0439\u0433\u0430\u0430 \u044f\u0440\u0438\u043b\u0446\u0430\u0445\u2026 \u0445\u044d\u043d \u043d\u044d\u0433\u043d\u0438\u0439\u0433 \u0434\u0443\u0440\u0434\u0430\u0445\u044b\u043d \u0442\u0443\u043b\u0434 @ \u0431\u043e\u043b\u043e\u043d \u043d\u044d\u0440\u0438\u0439\u0433 \u0431\u0438\u0447\u043d\u044d \u04af\u04af"
+            ],
+            "Message to your team": [
+                "\u0411\u0430\u0433\u0442 \u0442\u0430\u043d\u044c \u0438\u043b\u0433\u044d\u044d\u0445 \u0437\u0443\u0440\u0432\u0430\u0441"
+            ],
+            "Post": [
+                "\u041d\u0438\u0439\u0442\u043b\u044d\u0445"
+            ],
+            "No discussion yet. Only your team sees what is written here.": [
+                "\u041e\u0434\u043e\u043e\u0433\u043e\u043e\u0440 \u0445\u044d\u043b\u044d\u043b\u0446\u04af\u04af\u043b\u044d\u0433 \u0430\u043b\u0433\u0430 \u0431\u0430\u0439\u043d\u0430. \u042d\u043d\u0434 \u0431\u0438\u0447\u0441\u044d\u043d \u0437\u04af\u0439\u043b\u0438\u0439\u0433 \u0437\u04e9\u0432\u0445\u04e9\u043d \u0442\u0430\u043d\u0430\u0439 \u0431\u0430\u0433 \u0445\u0430\u0440\u043d\u0430."
+            ],
+            "In reply to %s": [
+                "%s-\u0434 \u0445\u0430\u0440\u0438\u0443\u043b\u0430\u0445"
+            ],
+            "Reply": [
+                "\u0425\u0430\u0440\u0438\u0443\u043b\u0430\u0445"
+            ],
+            "Replying to %s": [
+                "%s-\u0434 \u0445\u0430\u0440\u0438\u0443\u043b\u0436 \u0431\u0430\u0439\u043d\u0430"
+            ],
+            "About this chat": [
+                "\u042d\u043d\u044d \u0447\u0430\u0442\u044b\u043d \u0442\u0443\u0445\u0430\u0439"
+            ],
+            "About this contact": [
+                "\u042d\u043d\u044d \u0445\u0430\u0440\u0438\u043b\u0446\u0430\u0433\u0447\u0438\u0439\u043d \u0442\u0443\u0445\u0430\u0439"
+            ],
+            "Discuss": [
+                "\u0425\u044d\u043b\u044d\u043b\u0446\u044d\u0445"
+            ]
+        }
+    }
+}

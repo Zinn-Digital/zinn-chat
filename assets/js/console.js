@@ -100,6 +100,9 @@
 		body.appendChild(side); body.appendChild(work);
 		root.appendChild(body);
 		app.appendChild(root);
+		// 2.14.0: the notification centre's bell joins the bar; a notification can open a chat.
+		emit('zinn-chat:bar', { bar: bar });
+		document.addEventListener('zinn-chat:open', function (e) { if (e.detail && e.detail.id) { openChat(+e.detail.id); } });
 
 		awayBox.addEventListener('change', function () { state.away = awayBox.checked; post('agent/presence', { away: state.away }); });
 

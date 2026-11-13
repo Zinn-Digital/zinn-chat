@@ -26,14 +26,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 final class Schema {
 
 	/** Bump with any change to the statements below or a new migrate() step. */
-	public const DB_VERSION = 1;
+	public const DB_VERSION = 2;
 
 	private const OPTION = 'zinn_chat_db';
 
 	/**
 	 * A table name with the site prefix.
 	 *
-	 * @param string $name Short name: conversations, messages, tickets, replies, items, chunks.
+	 * @param string $name Short name: conversations, messages, tickets, replies, items, chunks, discussions, notifications.
 	 * @return string
 	 */
 	public static function table( string $name ): string {
@@ -47,7 +47,7 @@ final class Schema {
 	 * @return array<int, string>
 	 */
 	public static function names(): array {
-		return array( 'conversations', 'messages', 'tickets', 'replies', 'items', 'chunks' );
+		return array( 'conversations', 'messages', 'tickets', 'replies', 'items', 'chunks', 'discussions', 'notifications' );
 	}
 
 	/**
@@ -108,6 +108,8 @@ final class Schema {
 		$r       = $wpdb->prefix . 'zinn_chat_replies';
 		$i       = $wpdb->prefix . 'zinn_chat_items';
 		$k       = $wpdb->prefix . 'zinn_chat_chunks';
+		$d       = $wpdb->prefix . 'zinn_chat_discussions';
+		$n       = $wpdb->prefix . 'zinn_chat_notifications';
 
 		// dbDelta's own format: two spaces after PRIMARY KEY, one key per line, no backticks.
 		$sql = array(
@@ -228,6 +230,33 @@ final class Schema {
   PRIMARY KEY  (id),
   KEY item (item_id,seq),
   FULLTEXT KEY body_ft (body)
+) {$charset};",
+			"CREATE TABLE {$d} (
+  id bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  object_type varchar(10) NOT NULL,
+  object_key varchar(191) NOT NULL,
+  parent_id bigint(20) unsigned NOT NULL DEFAULT 0,
+  user_id bigint(20) unsigned NOT NULL,
+  body text NOT NULL,
+  reactions text DEFAULT NULL,
+  created_at datetime NOT NULL,
+  PRIMARY KEY  (id),
+  KEY thread (object_type,object_key,id)
+) {$charset};",
+			"CREATE TABLE {$n} (
+  id bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  user_id bigint(20) unsigned NOT NULL,
+  kind varchar(12) NOT NULL,
+  object_type varchar(10) NOT NULL,
+  object_key varchar(191) NOT NULL,
+  message_id bigint(20) unsigned NOT NULL DEFAULT 0,
+  actor_id bigint(20) unsigned NOT NULL DEFAULT 0,
+  excerpt varchar(200) NOT NULL DEFAULT '',
+  read_at datetime DEFAULT NULL,
+  created_at datetime NOT NULL,
+  PRIMARY KEY  (id),
+  KEY user_read (user_id,read_at,id),
+  KEY object (object_type,object_key)
 ) {$charset};",
 		);
 		foreach ( $sql as $statement ) {

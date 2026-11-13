@@ -594,7 +594,18 @@ final class Agent_Rest {
 			}
 		}
 		if ( $fields ) {
+			$before = Tickets::get( $id );
 			Tickets::update( $id, $fields );
+			if ( isset( $fields['assignee_id'] ) && $fields['assignee_id'] && (int) ( $before['assignee_id'] ?? 0 ) !== $fields['assignee_id'] ) {
+				/**
+				 * An agent assigned a ticket to an agent (2.14.0: the notification centre tells them).
+				 *
+				 * @param int $id       Ticket.
+				 * @param int $assignee New assignee.
+				 * @param int $by       The agent who assigned it.
+				 */
+				do_action( 'zinn_chat_ticket_assigned', $id, $fields['assignee_id'], get_current_user_id() );
+			}
 		}
 		return self::ticket( $request );
 	}

@@ -1,0 +1,91 @@
+{
+    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/discuss.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "sw",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Chat": [
+                "Mazungumzo"
+            ],
+            "Ticket": [
+                "Tiketi"
+            ],
+            "Cancel": [
+                "Ghairi"
+            ],
+            "Something went wrong. Please try again.": [
+                "Kuna kitu kimeenda vibaya. Tafadhali jaribu tena."
+            ],
+            "Contact": [
+                "Wasiliana Nasi"
+            ],
+            "Article": [
+                "Makala"
+            ],
+            "%s mentioned you": [
+                "%s alikutaja"
+            ],
+            "%s replied in a discussion": [
+                "%s alijibu katika mjadala"
+            ],
+            "%s reacted to your message": [
+                "%s ameitikia ujumbe wako"
+            ],
+            "%s assigned a ticket to you": [
+                "%s amekukabidhi tiketi"
+            ],
+            "Notifications": [
+                "Arifa"
+            ],
+            "Notifications, %d unread": [
+                "Arifa, %d ambazo hazijasomwa",
+                "Arifa, %d ambazo hazijasomwa"
+            ],
+            "Mark all read": [
+                "Weka alama zote kuwa zimesomwa"
+            ],
+            "Mentions, replies, reactions and assignments show here.": [
+                "Mitajo, majibu, miitikio na migawo huonyeshwa hapa."
+            ],
+            "Someone": [
+                "Mtu"
+            ],
+            "Discuss with your team\u2026 type @ and a name to mention someone": [
+                "Jadili na timu yako\u2026 andika @ na jina ili kumtaja mtu"
+            ],
+            "Message to your team": [
+                "Ujumbe kwa timu yako"
+            ],
+            "Post": [
+                "Chapisha"
+            ],
+            "No discussion yet. Only your team sees what is written here.": [
+                "Bado hakuna majadiliano. Timu yako pekee ndiyo inayoona kilichoandikwa hapa."
+            ],
+            "In reply to %s": [
+                "Kujibu kwa %s"
+            ],
+            "Reply": [
+                "Jibu"
+            ],
+            "Replying to %s": [
+                "Inajibu kwa %s"
+            ],
+            "About this chat": [
+                "Kuhusu gumzo hili"
+            ],
+            "About this contact": [
+                "Kuhusu mwasiliani huyu"
+            ],
+            "Discuss": [
+                "Jadili"
+            ]
+        }
+    }
+}

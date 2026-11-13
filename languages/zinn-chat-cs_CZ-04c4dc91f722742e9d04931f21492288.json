@@ -1,0 +1,93 @@
+{
+    "translation-revision-date": "2026-11-12T11:42:23+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/discuss.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "cs_CZ",
+                "plural-forms": "nplurals=4; plural=((((n >= 2 && n <= 4)) && ((0 == 0))) ? 1 : ((((0 == 0)) == 0)) ? 2 : (((n == 1)) && ((0 == 0))) ? 0 : 3);"
+            },
+            "Chat": [
+                "Chat"
+            ],
+            "Ticket": [
+                "Ticket"
+            ],
+            "Cancel": [
+                "Zru\u0161it"
+            ],
+            "Something went wrong. Please try again.": [
+                "N\u011bco se pokazilo. Zkuste to pros\u00edm znovu."
+            ],
+            "Contact": [
+                "Kontakt"
+            ],
+            "Article": [
+                "\u010cl\u00e1nek"
+            ],
+            "%s mentioned you": [
+                "%s v\u00e1s zm\u00ednil"
+            ],
+            "%s replied in a discussion": [
+                "U\u017eivatel %s odpov\u011bd\u011bl v diskuzi"
+            ],
+            "%s reacted to your message": [
+                "U\u017eivatel %s reagoval na va\u0161i zpr\u00e1vu"
+            ],
+            "%s assigned a ticket to you": [
+                "%s v\u00e1m p\u0159i\u0159adil(a) tiket"
+            ],
+            "Notifications": [
+                "Ozn\u00e1men\u00ed"
+            ],
+            "Notifications, %d unread": [
+                "Ozn\u00e1men\u00ed, %d nep\u0159e\u010dten\u00fdch",
+                "Ozn\u00e1men\u00ed, %d nep\u0159e\u010dten\u00e1",
+                "Ozn\u00e1men\u00ed, %d nep\u0159e\u010dten\u00fdch",
+                "Ozn\u00e1men\u00ed, %d nep\u0159e\u010dten\u00fdch"
+            ],
+            "Mark all read": [
+                "Ozna\u010dit v\u0161e jako p\u0159e\u010dten\u00e9"
+            ],
+            "Mentions, replies, reactions and assignments show here.": [
+                "Zde se zobrazuj\u00ed zm\u00ednky, odpov\u011bdi, reakce a p\u0159i\u0159azen\u00ed."
+            ],
+            "Someone": [
+                "N\u011bkdo"
+            ],
+            "Discuss with your team\u2026 type @ and a name to mention someone": [
+                "Diskutujte se sv\u00fdm t\u00fdmem\u2026 zadejte @ a jm\u00e9no pro zm\u00edn\u011bn\u00ed n\u011bkoho"
+            ],
+            "Message to your team": [
+                "Zpr\u00e1va va\u0161emu t\u00fdmu"
+            ],
+            "Post": [
+                "Publikovat"
+            ],
+            "No discussion yet. Only your team sees what is written here.": [
+                "Zat\u00edm \u017e\u00e1dn\u00e1 diskuse. To, co je zde naps\u00e1no, vid\u00ed pouze v\u00e1\u0161 t\u00fdm."
+            ],
+            "In reply to %s": [
+                "V odpov\u011bdi na %s"
+            ],
+            "Reply": [
+                "Odpov\u011bd\u011bt"
+            ],
+            "Replying to %s": [
+                "Odpov\u00edd\u00e1n\u00ed u\u017eivateli %s"
+            ],
+            "About this chat": [
+                "O tomto chatu"
+            ],
+            "About this contact": [
+                "O tomto kontaktu"
+            ],
+            "Discuss": [
+                "Diskutovat"
+            ]
+        }
+    }
+}

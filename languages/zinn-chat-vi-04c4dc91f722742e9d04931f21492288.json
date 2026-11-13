@@ -1,0 +1,90 @@
+{
+    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/discuss.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "vi",
+                "plural-forms": "nplurals=1; plural=0;"
+            },
+            "Chat": [
+                "Tr\u00f2 chuy\u1ec7n"
+            ],
+            "Ticket": [
+                "Y\u00eau c\u1ea7u h\u1ed7 tr\u1ee3"
+            ],
+            "Cancel": [
+                "H\u1ee7y"
+            ],
+            "Something went wrong. Please try again.": [
+                "\u0110\u00e3 x\u1ea3y ra l\u1ed7i. Vui l\u00f2ng th\u1eed l\u1ea1i."
+            ],
+            "Contact": [
+                "Li\u00ean h\u1ec7"
+            ],
+            "Article": [
+                "B\u00e0i vi\u1ebft"
+            ],
+            "%s mentioned you": [
+                "%s \u0111\u00e3 nh\u1eafc \u0111\u1ebfn b\u1ea1n"
+            ],
+            "%s replied in a discussion": [
+                "%s \u0111\u00e3 tr\u1ea3 l\u1eddi trong m\u1ed9t cu\u1ed9c th\u1ea3o lu\u1eadn"
+            ],
+            "%s reacted to your message": [
+                "%s \u0111\u00e3 b\u00e0y t\u1ecf c\u1ea3m x\u00fac v\u1ec1 tin nh\u1eafn c\u1ee7a b\u1ea1n"
+            ],
+            "%s assigned a ticket to you": [
+                "%s \u0111\u00e3 ch\u1ec9 \u0111\u1ecbnh m\u1ed9t y\u00eau c\u1ea7u cho b\u1ea1n"
+            ],
+            "Notifications": [
+                "Th\u00f4ng b\u00e1o"
+            ],
+            "Notifications, %d unread": [
+                "Th\u00f4ng b\u00e1o, %d ch\u01b0a \u0111\u1ecdc"
+            ],
+            "Mark all read": [
+                "\u0110\u00e1nh d\u1ea5u t\u1ea5t c\u1ea3 l\u00e0 \u0111\u00e3 \u0111\u1ecdc"
+            ],
+            "Mentions, replies, reactions and assignments show here.": [
+                "L\u01b0\u1ee3t nh\u1eafc \u0111\u1ebfn, c\u00e2u tr\u1ea3 l\u1eddi, l\u01b0\u1ee3t t\u01b0\u01a1ng t\u00e1c v\u00e0 vi\u1ec7c ph\u00e2n c\u00f4ng hi\u1ec3n th\u1ecb \u1edf \u0111\u00e2y."
+            ],
+            "Someone": [
+                "Ai \u0111\u00f3"
+            ],
+            "Discuss with your team\u2026 type @ and a name to mention someone": [
+                "Th\u1ea3o lu\u1eadn v\u1edbi nh\u00f3m c\u1ee7a b\u1ea1n\u2026 g\u00f5 @ v\u00e0 t\u00ean \u0111\u1ec3 nh\u1eafc \u0111\u1ebfn ai \u0111\u00f3"
+            ],
+            "Message to your team": [
+                "Tin nh\u1eafn g\u1eedi \u0111\u1ebfn nh\u00f3m c\u1ee7a b\u1ea1n"
+            ],
+            "Post": [
+                "\u0110\u0103ng"
+            ],
+            "No discussion yet. Only your team sees what is written here.": [
+                "Ch\u01b0a c\u00f3 th\u1ea3o lu\u1eadn n\u00e0o. Ch\u1ec9 nh\u00f3m c\u1ee7a b\u1ea1n m\u1edbi th\u1ea5y n\u1ed9i dung \u0111\u01b0\u1ee3c vi\u1ebft \u1edf \u0111\u00e2y."
+            ],
+            "In reply to %s": [
+                "Tr\u1ea3 l\u1eddi %s"
+            ],
+            "Reply": [
+                "Tr\u1ea3 l\u1eddi"
+            ],
+            "Replying to %s": [
+                "\u0110ang tr\u1ea3 l\u1eddi %s"
+            ],
+            "About this chat": [
+                "Gi\u1edbi thi\u1ec7u v\u1ec1 cu\u1ed9c tr\u00f2 chuy\u1ec7n n\u00e0y"
+            ],
+            "About this contact": [
+                "Gi\u1edbi thi\u1ec7u v\u1ec1 li\u00ean h\u1ec7 n\u00e0y"
+            ],
+            "Discuss": [
+                "Th\u1ea3o lu\u1eadn"
+            ]
+        }
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/discuss.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "so_SO",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Chat": [
+                "Sheeko"
+            ],
+            "Ticket": [
+                "Tikidhada"
+            ],
+            "Cancel": [
+                "Jooji"
+            ],
+            "Something went wrong. Please try again.": [
+                "Waxaa dhacay khalad. Fadlan isku day mar kale."
+            ],
+            "Contact": [
+                "La xiriir"
+            ],
+            "Article": [
+                "Maqaal"
+            ],
+            "%s mentioned you": [
+                "%s wuu ku xusay"
+            ],
+            "%s replied in a discussion": [
+                "%s wuxuu ku jawaabay dood"
+            ],
+            "%s reacted to your message": [
+                "%s wuxuu ka falceliyay fariintaada"
+            ],
+            "%s assigned a ticket to you": [
+                "%s wuxuu kuu qoondeeyay tigidh"
+            ],
+            "Notifications": [
+                "Ogeysiisyada"
+            ],
+            "Notifications, %d unread": [
+                "Ogeysiisyada, %d aan la aqrin",
+                "Ogeysiisyada, %d aan la aqrin"
+            ],
+            "Mark all read": [
+                "Calaamadee dhammaan la aqriyey"
+            ],
+            "Mentions, replies, reactions and assignments show here.": [
+                "Xusitaannada, jawaabaha, falcelinta iyo xilalka la dhiibay halkan ayaa lagu soo bandhigayaa."
+            ],
+            "Someone": [
+                "Qof"
+            ],
+            "Discuss with your team\u2026 type @ and a name to mention someone": [
+                "Kooxdaada kala hadal\u2026 qor @ iyo magac si aad qof u xusto"
+            ],
+            "Message to your team": [
+                "Farriinta kooxdaada"
+            ],
+            "Post": [
+                "Daapic"
+            ],
+            "No discussion yet. Only your team sees what is written here.": [
+                "Weli ma jirto dood. Kooxdaada kaliya ayaa aragta waxa halkan ku qoran."
+            ],
+            "In reply to %s": [
+                "Jawaab ahaan %s"
+            ],
+            "Reply": [
+                "Ka jawaab"
+            ],
+            "Replying to %s": [
+                "U jawaabista %s"
+            ],
+            "About this chat": [
+                "Ku saabsan wadahadalkan"
+            ],
+            "About this contact": [
+                "Ku saabsan xiriirkan"
+            ],
+            "Discuss": [
+                "Ka wadahadal"
+            ]
+        }
+    }
+}

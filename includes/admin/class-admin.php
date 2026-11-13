@@ -124,7 +124,10 @@ final class Admin {
 		}
 		wp_enqueue_style( 'zinn-chat-admin', ZINN_CHAT_URL . 'assets/css/admin.css', array(), ZINN_CHAT_VERSION );
 		if ( in_array( $slug, array( self::MENU, 'zinn-chat-tickets', 'zinn-chat-assistant' ), true ) ) {
-			wp_enqueue_script( 'zinn-chat-console', ZINN_CHAT_URL . 'assets/js/console.js', array( 'wp-api-fetch', 'wp-i18n' ), ZINN_CHAT_VERSION, true );
+			// 2.14.0: discussions and the notification centre load first, so they hear the console's events.
+			wp_enqueue_script( 'zinn-chat-discuss', ZINN_CHAT_URL . 'assets/js/discuss.js', array( 'wp-api-fetch', 'wp-i18n' ), ZINN_CHAT_VERSION, true );
+			wp_set_script_translations( 'zinn-chat-discuss', 'zinn-chat', ZINN_CHAT_DIR . 'languages' );
+			wp_enqueue_script( 'zinn-chat-console', ZINN_CHAT_URL . 'assets/js/console.js', array( 'wp-api-fetch', 'wp-i18n', 'zinn-chat-discuss' ), ZINN_CHAT_VERSION, true );
 			wp_set_script_translations( 'zinn-chat-console', 'zinn-chat', ZINN_CHAT_DIR . 'languages' );
 			/**
 			 * Filters the extra configuration handed to the operator console's script. Zinn® Chat Pro

@@ -1,0 +1,91 @@
+{
+    "translation-revision-date": "2026-11-12T11:42:23+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/discuss.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "ha",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Chat": [
+                "Tattaunawa"
+            ],
+            "Ticket": [
+                "Tikiti"
+            ],
+            "Cancel": [
+                "Soke"
+            ],
+            "Something went wrong. Please try again.": [
+                "Wani abu ya tafi ba daidai ba. Don Allah a sake gwadawa."
+            ],
+            "Contact": [
+                "Tuntu\u0253e mu"
+            ],
+            "Article": [
+                "Labari"
+            ],
+            "%s mentioned you": [
+                "%s ya ambace ku"
+            ],
+            "%s replied in a discussion": [
+                "%s ya ba da amsa a cikin wata tattaunawa"
+            ],
+            "%s reacted to your message": [
+                "%s ya mayar da martani ga sa\u0199onku"
+            ],
+            "%s assigned a ticket to you": [
+                "%s ya ba ku tikiti"
+            ],
+            "Notifications": [
+                "Sanarwa"
+            ],
+            "Notifications, %d unread": [
+                "Sanarwa, %d da ba a karanta ba",
+                "Sanarwa, %d da ba a karanta ba"
+            ],
+            "Mark all read": [
+                "Alamta duk a matsayin wanda aka karanta"
+            ],
+            "Mentions, replies, reactions and assignments show here.": [
+                "Ambato, amsoshi, martani da ayyukan da aka ba da suna fitowa a nan."
+            ],
+            "Someone": [
+                "Wani"
+            ],
+            "Discuss with your team\u2026 type @ and a name to mention someone": [
+                "Tattauna da \u0199ungiyar ku\u2026 rubuta @ da suna don ambaton wani"
+            ],
+            "Message to your team": [
+                "Sa\u0199o zuwa ga tawagarku"
+            ],
+            "Post": [
+                "Aika"
+            ],
+            "No discussion yet. Only your team sees what is written here.": [
+                "Babu wata tattaunawa tukuna. Tawagar ku ce kawai ke ganin abin da aka rubuta a nan."
+            ],
+            "In reply to %s": [
+                "A matsayin amsa ga %s"
+            ],
+            "Reply": [
+                "Ba da amsa"
+            ],
+            "Replying to %s": [
+                "Ana ba da amsa ga %s"
+            ],
+            "About this chat": [
+                "Game da wannan hira"
+            ],
+            "About this contact": [
+                "Game da wannan lamba"
+            ],
+            "Discuss": [
+                "Tattauna"
+            ]
+        }
+    }
+}

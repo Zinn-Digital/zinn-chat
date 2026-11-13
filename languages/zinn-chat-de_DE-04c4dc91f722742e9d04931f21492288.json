@@ -1,0 +1,91 @@
+{
+    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/discuss.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "de_DE",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Chat": [
+                "Chat"
+            ],
+            "Ticket": [
+                "Ticket"
+            ],
+            "Cancel": [
+                "Abbrechen"
+            ],
+            "Something went wrong. Please try again.": [
+                "Etwas ist schiefgelaufen. Bitte versuche es noch einmal."
+            ],
+            "Contact": [
+                "Kontakt"
+            ],
+            "Article": [
+                "Artikel"
+            ],
+            "%s mentioned you": [
+                "%s hat dich erw\u00e4hnt"
+            ],
+            "%s replied in a discussion": [
+                "%s hat in einer Diskussion geantwortet"
+            ],
+            "%s reacted to your message": [
+                "%s hat auf deine Nachricht reagiert"
+            ],
+            "%s assigned a ticket to you": [
+                "%s hat dir ein Ticket zugewiesen"
+            ],
+            "Notifications": [
+                "Benachrichtigungen"
+            ],
+            "Notifications, %d unread": [
+                "Benachrichtigungen, %d ungelesen",
+                "Benachrichtigungen, %d ungelesen"
+            ],
+            "Mark all read": [
+                "Alle als gelesen markieren"
+            ],
+            "Mentions, replies, reactions and assignments show here.": [
+                "Erw\u00e4hnungen, Antworten, Reaktionen und Zuweisungen werden hier angezeigt."
+            ],
+            "Someone": [
+                "Jemand"
+            ],
+            "Discuss with your team\u2026 type @ and a name to mention someone": [
+                "Diskutiere mit deinem Team \u2026 gib @ und einen Namen ein, um jemanden zu erw\u00e4hnen"
+            ],
+            "Message to your team": [
+                "Nachricht an dein Team"
+            ],
+            "Post": [
+                "Ver\u00f6ffentlichen"
+            ],
+            "No discussion yet. Only your team sees what is written here.": [
+                "Noch keine Diskussion vorhanden. Nur dein Team sieht, was hier geschrieben wird."
+            ],
+            "In reply to %s": [
+                "Als Antwort auf %s"
+            ],
+            "Reply": [
+                "Antworten"
+            ],
+            "Replying to %s": [
+                "Antworten auf %s"
+            ],
+            "About this chat": [
+                "\u00dcber diesen Chat"
+            ],
+            "About this contact": [
+                "\u00dcber diesen Kontakt"
+            ],
+            "Discuss": [
+                "Diskutieren"
+            ]
+        }
+    }
+}

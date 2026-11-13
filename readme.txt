@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.13.3
+Stable tag: 2.14.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,6 +42,8 @@ Ask the assistant questions in wp-admin and see the answer with every page it fo
 * **Customer profile beside every chat:** the visitor's earlier chats, their tickets and their WooCommerce orders, matched on their account or email address, with one-click "E-mail them" and "Open a ticket".
 * **Chat in any language:** "Translate chat" shows every message in your language under the original, and "Send in the visitor's language" translates your reply before it is sent. It uses your AI key; the whole chat is one request, and each translation is kept so it is never paid for twice.
 * Sound and desktop alerts when somebody is waiting, and an email if nobody answers.
+* **Team discussions:** talk about a chat or a customer with your colleagues in a side thread the visitor never sees. Mention a teammate with @ and react to a message.
+* **Notification centre:** a bell in the inbox lists mentions, replies to your threads, reactions to your messages and chats or tickets assigned to you, and marks them read.
 
 = Support tickets =
 
@@ -78,6 +80,7 @@ An optional paid edition for a team. Everything described above is free and stay
 * **Replies by email** — customers and agents answer a ticket by replying to its email (a mailbox or an email service).
 * **Saved replies, AI suggested replies and summaries**, business hours and SLA targets, AI triage, a persona and hand-off rules.
 * **A knowledge-gap report** that drafts the article your site was missing.
+* **Article discussions** — your team discusses a knowledge-base article in a thread beside the editor, with mentions and notifications.
 * **An agent app** for phones and computers, with push notifications sent by your own site.
 * **Slack, Microsoft Teams and Telegram alerts**, signed webhooks, proactive messages, reports and customer ratings, your own branding, a Cloudflare Turnstile bot check, and a choice of exactly which pages show the chat.
 
@@ -155,6 +158,11 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.14.0 =
+* New: team discussions. Agents discuss a chat or a contact in a private thread beside it, mention colleagues with @, react to messages and are told when a chat is assigned to them.
+* New: a notification centre in the inbox for mentions, replies, reactions and assignments.
+* New in Pro: discussion threads on knowledge-base articles.
 
 = 2.13.3 =
 * Shows the Zinn® Pro Membership offer in the plugin's Zinn® panel.

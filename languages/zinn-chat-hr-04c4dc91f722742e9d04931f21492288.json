@@ -1,0 +1,92 @@
+{
+    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/discuss.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "hr",
+                "plural-forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+            },
+            "Chat": [
+                "Chat"
+            ],
+            "Ticket": [
+                "Zahtjev za podr\u0161ku"
+            ],
+            "Cancel": [
+                "Odustani"
+            ],
+            "Something went wrong. Please try again.": [
+                "Ne\u0161to je po\u0161lo po zlu. Molimo poku\u0161ajte ponovno."
+            ],
+            "Contact": [
+                "Kontakt"
+            ],
+            "Article": [
+                "\u010clanak"
+            ],
+            "%s mentioned you": [
+                "%s vas je spomenuo"
+            ],
+            "%s replied in a discussion": [
+                "%s je odgovorio\/la u raspravi"
+            ],
+            "%s reacted to your message": [
+                "%s je reagirao na va\u0161u poruku"
+            ],
+            "%s assigned a ticket to you": [
+                "%s vam je dodijelio tiket"
+            ],
+            "Notifications": [
+                "Obavijesti"
+            ],
+            "Notifications, %d unread": [
+                "Obavijesti, %d nepro\u010ditanih",
+                "Obavijesti, %d nepro\u010ditane",
+                "Obavijesti, %d nepro\u010ditanih"
+            ],
+            "Mark all read": [
+                "Ozna\u010di sve pro\u010ditanim"
+            ],
+            "Mentions, replies, reactions and assignments show here.": [
+                "Ovdje se prikazuju spominjanja, odgovori, reakcije i dodjele."
+            ],
+            "Someone": [
+                "Netko"
+            ],
+            "Discuss with your team\u2026 type @ and a name to mention someone": [
+                "Raspravite sa svojim timom\u2026 upi\u0161ite @ i ime kako biste nekoga spomenuli"
+            ],
+            "Message to your team": [
+                "Poruka va\u0161em timu"
+            ],
+            "Post": [
+                "Objavi"
+            ],
+            "No discussion yet. Only your team sees what is written here.": [
+                "Jo\u0161 nema rasprave. Samo va\u0161 tim vidi \u0161to je ovdje napisano."
+            ],
+            "In reply to %s": [
+                "Kao odgovor na %s"
+            ],
+            "Reply": [
+                "Odgovori"
+            ],
+            "Replying to %s": [
+                "Odgovaranje na %s"
+            ],
+            "About this chat": [
+                "O ovom razgovoru"
+            ],
+            "About this contact": [
+                "O ovom kontaktu"
+            ],
+            "Discuss": [
+                "Raspravite"
+            ]
+        }
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "translation-revision-date": "2026-11-12T11:42:23+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/discuss.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "az",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Chat": [
+                "\u00c7at"
+            ],
+            "Ticket": [
+                "M\u00fcraci\u0259t"
+            ],
+            "Cancel": [
+                "L\u0259\u011fv et"
+            ],
+            "Something went wrong. Please try again.": [
+                "N\u0259s\u0259 s\u0259hv getdi. Z\u0259hm\u0259t olmasa yenid\u0259n c\u0259hd edin."
+            ],
+            "Contact": [
+                "\u018flaq\u0259"
+            ],
+            "Article": [
+                "M\u0259qal\u0259"
+            ],
+            "%s mentioned you": [
+                "%s sizi qeyd etdi"
+            ],
+            "%s replied in a discussion": [
+                "%s bir m\u00fczakir\u0259d\u0259 cavab verdi"
+            ],
+            "%s reacted to your message": [
+                "%s ismar\u0131\u015f\u0131n\u0131za reaksiya bildirdi"
+            ],
+            "%s assigned a ticket to you": [
+                "%s siz\u0259 bilet t\u0259yin etdi"
+            ],
+            "Notifications": [
+                "Bildiri\u015fl\u0259r"
+            ],
+            "Notifications, %d unread": [
+                "Bildiri\u015fl\u0259r, %d oxunmam\u0131\u015f",
+                "Bildiri\u015fl\u0259r, %d oxunmam\u0131\u015f"
+            ],
+            "Mark all read": [
+                "Ham\u0131s\u0131n\u0131 oxunmu\u015f kimi qeyd edin"
+            ],
+            "Mentions, replies, reactions and assignments show here.": [
+                "Qeydl\u0259r, cavablar, reaksiyalar v\u0259 tap\u015f\u0131r\u0131qlar burada g\u00f6r\u00fcn\u00fcr."
+            ],
+            "Someone": [
+                "Kims\u0259"
+            ],
+            "Discuss with your team\u2026 type @ and a name to mention someone": [
+                "Komandan\u0131zla m\u00fczakir\u0259 edin\u2026 kimis\u0259 qeyd etm\u0259k \u00fc\u00e7\u00fcn @ v\u0259 ad yaz\u0131n"
+            ],
+            "Message to your team": [
+                "Komandan\u0131za mesaj"
+            ],
+            "Post": [
+                "D\u0259rc et"
+            ],
+            "No discussion yet. Only your team sees what is written here.": [
+                "H\u0259l\u0259 he\u00e7 bir m\u00fczakir\u0259 yoxdur. Burada yaz\u0131lanlar\u0131 yaln\u0131z komandan\u0131z g\u00f6r\u00fcr."
+            ],
+            "In reply to %s": [
+                "%s \u00fc\u00e7\u00fcn cavab olaraq"
+            ],
+            "Reply": [
+                "Cavab verin"
+            ],
+            "Replying to %s": [
+                "%s istifad\u0259\u00e7isin\u0259 cavab verilir"
+            ],
+            "About this chat": [
+                "Bu s\u00f6hb\u0259t haqq\u0131nda"
+            ],
+            "About this contact": [
+                "Bu kontakt haqq\u0131nda"
+            ],
+            "Discuss": [
+                "M\u00fczakir\u0259 edin"
+            ]
+        }
+    }
+}

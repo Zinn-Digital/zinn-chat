@@ -1,0 +1,91 @@
+{
+    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/discuss.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "am",
+                "plural-forms": "nplurals=2; plural=(n > 1);"
+            },
+            "Chat": [
+                "\u12cd\u12ed\u12ed\u1275"
+            ],
+            "Ticket": [
+                "\u1272\u12ac\u1275"
+            ],
+            "Cancel": [
+                "\u1230\u122d\u12dd"
+            ],
+            "Something went wrong. Please try again.": [
+                "\u1270\u1233\u1235\u1277\u120d\u1362 \u12a5\u1263\u12ad\u12ce \u12a5\u1295\u12f0\u1308\u1293 \u12ed\u121e\u12ad\u1229\u1362"
+            ],
+            "Contact": [
+                "\u12e8\u12a5\u12cd\u1242\u12eb \u1218\u1228\u1303"
+            ],
+            "Article": [
+                "\u133d\u1201\u134d"
+            ],
+            "%s mentioned you": [
+                "%s \u1320\u1245\u1236\u12ce\u1273\u120d"
+            ],
+            "%s replied in a discussion": [
+                "%s \u1260\u12cd\u12ed\u12ed\u1275 \u12cd\u1235\u1325 \u121d\u120b\u123d \u1230\u1325\u1270\u12cb\u120d"
+            ],
+            "%s reacted to your message": [
+                "%s \u1208\u1218\u120d\u12a5\u12ad\u1275\u12ce \u121d\u120b\u123d \u1230\u1325\u1270\u12cb\u120d"
+            ],
+            "%s assigned a ticket to you": [
+                "%s \u1275\u12ac\u1275 \u1208\u12a5\u122d\u1235\u12ce \u1218\u12f5\u1267\u120d"
+            ],
+            "Notifications": [
+                "\u121b\u1233\u12c8\u1242\u12eb\u12ce\u127d"
+            ],
+            "Notifications, %d unread": [
+                "\u121b\u1233\u12c8\u1242\u12eb\u12ce\u127d\u1363 %d \u12eb\u120d\u1270\u1290\u1260\u1261",
+                "\u121b\u1233\u12c8\u1242\u12eb\u12ce\u127d\u1363 %d \u12eb\u120d\u1270\u1290\u1260\u1261"
+            ],
+            "Mark all read": [
+                "\u1201\u1209\u1295\u121d \u12a5\u1295\u12f0\u1270\u1290\u1260\u1261 \u121d\u120d\u12ad\u1275 \u12a0\u12f5\u122d\u130d"
+            ],
+            "Mentions, replies, reactions and assignments show here.": [
+                "\u1218\u1325\u1240\u1236\u127d\u1363 \u121d\u120b\u123e\u127d\u1363 \u130d\u1265\u1228\u1218\u120d\u1236\u127d \u12a5\u1293 \u12e8\u1270\u1218\u12f0\u1261 \u1235\u122b\u12ce\u127d \u12a5\u12da\u1205 \u12ed\u1273\u12eb\u1209\u1362"
+            ],
+            "Someone": [
+                "\u12a0\u1295\u12f5 \u1230\u12cd"
+            ],
+            "Discuss with your team\u2026 type @ and a name to mention someone": [
+                "\u12a8\u1261\u12f5\u1295\u12ce \u130b\u122d \u12ed\u12c8\u12eb\u12e9\u2026 \u12a0\u1295\u12f5\u1295 \u1230\u12cd \u1208\u1218\u1325\u1240\u1235 @ \u12a5\u1293 \u1235\u121d \u12ed\u1270\u12ed\u1261"
+            ],
+            "Message to your team": [
+                "\u1208\u1261\u12f5\u1295\u12ce \u12e8\u1270\u120b\u12a8 \u1218\u120d\u12a5\u12ad\u1275"
+            ],
+            "Post": [
+                "\u1208\u1325\u134d"
+            ],
+            "No discussion yet. Only your team sees what is written here.": [
+                "\u12a5\u1235\u12ab\u1201\u1295 \u121d\u1295\u121d \u12cd\u12ed\u12ed\u1275 \u12e8\u1208\u121d\u1362 \u12a5\u12da\u1205 \u12e8\u1270\u133b\u1348\u12cd\u1295 \u12e8\u12a5\u122d\u1235\u12ce \u1261\u12f5\u1295 \u1265\u127b \u1290\u12cd \u12e8\u121a\u12eb\u12e8\u12cd\u1362"
+            ],
+            "In reply to %s": [
+                "\u1208%s \u121d\u120b\u123d"
+            ],
+            "Reply": [
+                "\u121d\u120b\u123d \u12ed\u1235\u1321"
+            ],
+            "Replying to %s": [
+                "\u1208%s \u121d\u120b\u123d \u1260\u1218\u1235\u1320\u1275 \u120b\u12ed"
+            ],
+            "About this chat": [
+                "\u1235\u1208\u12da\u1205 \u12cd\u12ed\u12ed\u1275"
+            ],
+            "About this contact": [
+                "\u1235\u1208\u12da\u1205 \u12d5\u12cd\u1242\u12eb"
+            ],
+            "Discuss": [
+                "\u12ed\u12c8\u12eb\u12e9"
+            ]
+        }
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/discuss.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "tr_TR",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Chat": [
+                "Sohbet"
+            ],
+            "Ticket": [
+                "Destek Talebi"
+            ],
+            "Cancel": [
+                "\u0130ptal Et"
+            ],
+            "Something went wrong. Please try again.": [
+                "Bir \u015feyler yanl\u0131\u015f gitti. L\u00fctfen tekrar deneyin."
+            ],
+            "Contact": [
+                "\u0130leti\u015fim"
+            ],
+            "Article": [
+                "Makale"
+            ],
+            "%s mentioned you": [
+                "%s sizden bahsetti"
+            ],
+            "%s replied in a discussion": [
+                "%s bir tart\u0131\u015fmada yan\u0131tlad\u0131"
+            ],
+            "%s reacted to your message": [
+                "%s mesaj\u0131n\u0131za ifade b\u0131rakt\u0131"
+            ],
+            "%s assigned a ticket to you": [
+                "%s size bir bilet atad\u0131"
+            ],
+            "Notifications": [
+                "Bildirimler"
+            ],
+            "Notifications, %d unread": [
+                "Bildirimler, %d okunmam\u0131\u015f",
+                "Bildirimler, %d okunmam\u0131\u015f"
+            ],
+            "Mark all read": [
+                "T\u00fcm\u00fcn\u00fc okundu olarak i\u015faretle"
+            ],
+            "Mentions, replies, reactions and assignments show here.": [
+                "Bahsetmeler, yan\u0131tlar, tepkiler ve atamalar burada g\u00f6sterilir."
+            ],
+            "Someone": [
+                "Biri"
+            ],
+            "Discuss with your team\u2026 type @ and a name to mention someone": [
+                "Ekibinizle tart\u0131\u015f\u0131n\u2026 birinden bahsetmek i\u00e7in @ ve bir ad yaz\u0131n"
+            ],
+            "Message to your team": [
+                "Ekibinize mesaj"
+            ],
+            "Post": [
+                "Yay\u0131mla"
+            ],
+            "No discussion yet. Only your team sees what is written here.": [
+                "Hen\u00fcz bir tart\u0131\u015fma yok. Burada yaz\u0131lanlar\u0131 yaln\u0131zca ekibiniz g\u00f6r\u00fcr."
+            ],
+            "In reply to %s": [
+                "%s adl\u0131 ki\u015fiye yan\u0131t olarak"
+            ],
+            "Reply": [
+                "Yan\u0131tla"
+            ],
+            "Replying to %s": [
+                "%s adl\u0131 kullan\u0131c\u0131ya yan\u0131t veriliyor"
+            ],
+            "About this chat": [
+                "Bu sohbet hakk\u0131nda"
+            ],
+            "About this contact": [
+                "Bu ki\u015fi hakk\u0131nda"
+            ],
+            "Discuss": [
+                "Tart\u0131\u015f\u0131n"
+            ]
+        }
+    }
+}

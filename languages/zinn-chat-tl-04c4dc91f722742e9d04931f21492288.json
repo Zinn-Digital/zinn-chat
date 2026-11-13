@@ -1,0 +1,91 @@
+{
+    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/discuss.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "tl",
+                "plural-forms": "nplurals=2; plural=(n != 1 && n != 2 && n != 3 && (n%10 == 4 || n%10 == 6 || n%10 == 9));"
+            },
+            "Chat": [
+                "Chat"
+            ],
+            "Ticket": [
+                "Ticket"
+            ],
+            "Cancel": [
+                "Kanselahin"
+            ],
+            "Something went wrong. Please try again.": [
+                "Mayroong nagawang mali. Mangyaring subukang muli."
+            ],
+            "Contact": [
+                "Makipag-ugnayan"
+            ],
+            "Article": [
+                "Artikulo"
+            ],
+            "%s mentioned you": [
+                "Binanggit ka ni %s"
+            ],
+            "%s replied in a discussion": [
+                "Sumagot si %s sa isang talakayan"
+            ],
+            "%s reacted to your message": [
+                "Nag-react si %s sa iyong mensahe"
+            ],
+            "%s assigned a ticket to you": [
+                "Nagtalaga si %s ng tiket sa iyo"
+            ],
+            "Notifications": [
+                "Mga Notification"
+            ],
+            "Notifications, %d unread": [
+                "Mga Notification, %d ang hindi pa nababasa",
+                "Mga Notification, %d ang hindi pa nababasa"
+            ],
+            "Mark all read": [
+                "Markahan ang lahat bilang nabasa na"
+            ],
+            "Mentions, replies, reactions and assignments show here.": [
+                "Dito ipinapakita ang mga pagbanggit, tugon, reaksyon, at pagtatalaga."
+            ],
+            "Someone": [
+                "May isang tao"
+            ],
+            "Discuss with your team\u2026 type @ and a name to mention someone": [
+                "Makipag-usap sa iyong team\u2026 i-type ang @ at isang pangalan para mag-mention ng tao"
+            ],
+            "Message to your team": [
+                "Mensahe sa iyong pangkat"
+            ],
+            "Post": [
+                "I-post"
+            ],
+            "No discussion yet. Only your team sees what is written here.": [
+                "Wala pang talakayan. Ang iyong team lang ang nakakakita sa nakasulat dito."
+            ],
+            "In reply to %s": [
+                "Bilang tugon kay %s"
+            ],
+            "Reply": [
+                "Sumagot"
+            ],
+            "Replying to %s": [
+                "Sumasagot kay %s"
+            ],
+            "About this chat": [
+                "Tungkol sa chat na ito"
+            ],
+            "About this contact": [
+                "Tungkol sa contact na ito"
+            ],
+            "Discuss": [
+                "Talakayin"
+            ]
+        }
+    }
+}

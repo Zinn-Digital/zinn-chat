@@ -1,0 +1,92 @@
+{
+    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/discuss.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "pt_BR",
+                "plural-forms": "nplurals=3; plural=(((((((0 == 0)) && ((((n == 0)) == 0))) && (((n % 1000000) == 0))) && ((0 == 0))) || ((((0 >= 0 && 0 <= 5)) == 0))) ? 1 : ((n >= 0 && n <= 1)) ? 0 : 2);"
+            },
+            "Chat": [
+                "Chat"
+            ],
+            "Ticket": [
+                "Ticket"
+            ],
+            "Cancel": [
+                "Cancelar"
+            ],
+            "Something went wrong. Please try again.": [
+                "Algo deu errado. Tente novamente."
+            ],
+            "Contact": [
+                "Contato"
+            ],
+            "Article": [
+                "Artigo"
+            ],
+            "%s mentioned you": [
+                "%s mencionou voc\u00ea"
+            ],
+            "%s replied in a discussion": [
+                "%s respondeu em uma discuss\u00e3o"
+            ],
+            "%s reacted to your message": [
+                "%s reagiu \u00e0 sua mensagem"
+            ],
+            "%s assigned a ticket to you": [
+                "%s atribuiu um ticket a voc\u00ea"
+            ],
+            "Notifications": [
+                "Notifica\u00e7\u00f5es"
+            ],
+            "Notifications, %d unread": [
+                "Notifica\u00e7\u00f5es, %d n\u00e3o lidas",
+                "Notifica\u00e7\u00f5es, %d n\u00e3o lidas",
+                "Notifica\u00e7\u00f5es, %d n\u00e3o lidas"
+            ],
+            "Mark all read": [
+                "Marcar tudo como lido"
+            ],
+            "Mentions, replies, reactions and assignments show here.": [
+                "Men\u00e7\u00f5es, respostas, rea\u00e7\u00f5es e atribui\u00e7\u00f5es s\u00e3o exibidas aqui."
+            ],
+            "Someone": [
+                "Algu\u00e9m"
+            ],
+            "Discuss with your team\u2026 type @ and a name to mention someone": [
+                "Discuta com sua equipe\u2026 digite @ e um nome para mencionar algu\u00e9m"
+            ],
+            "Message to your team": [
+                "Mensagem para sua equipe"
+            ],
+            "Post": [
+                "Publicar"
+            ],
+            "No discussion yet. Only your team sees what is written here.": [
+                "Ainda n\u00e3o h\u00e1 discuss\u00e3o. Somente a sua equipe v\u00ea o que est\u00e1 escrito aqui."
+            ],
+            "In reply to %s": [
+                "Em resposta a %s"
+            ],
+            "Reply": [
+                "Responder"
+            ],
+            "Replying to %s": [
+                "Respondendo a %s"
+            ],
+            "About this chat": [
+                "Sobre este chat"
+            ],
+            "About this contact": [
+                "Sobre este contato"
+            ],
+            "Discuss": [
+                "Discutir"
+            ]
+        }
+    }
+}

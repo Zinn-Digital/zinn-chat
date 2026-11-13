@@ -1,0 +1,91 @@
+{
+    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/discuss.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "hu_HU",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Chat": [
+                "Cseveg\u00e9s"
+            ],
+            "Ticket": [
+                "Hibajegy"
+            ],
+            "Cancel": [
+                "M\u00e9gse"
+            ],
+            "Something went wrong. Please try again.": [
+                "Valami hiba t\u00f6rt\u00e9nt. K\u00e9rj\u00fck, pr\u00f3b\u00e1lja \u00fajra."
+            ],
+            "Contact": [
+                "Kapcsolat"
+            ],
+            "Article": [
+                "Cikk"
+            ],
+            "%s mentioned you": [
+                "%s megeml\u00edtette"
+            ],
+            "%s replied in a discussion": [
+                "%s v\u00e1laszolt egy besz\u00e9lget\u00e9sben"
+            ],
+            "%s reacted to your message": [
+                "%s reakci\u00f3t k\u00fcld\u00f6tt az \u00fczenetre"
+            ],
+            "%s assigned a ticket to you": [
+                "%s hibajegyet rendelt \u00d6nh\u00f6z"
+            ],
+            "Notifications": [
+                "\u00c9rtes\u00edt\u00e9sek"
+            ],
+            "Notifications, %d unread": [
+                "\u00c9rtes\u00edt\u00e9sek, %d olvasatlan",
+                "\u00c9rtes\u00edt\u00e9sek, %d olvasatlan"
+            ],
+            "Mark all read": [
+                "\u00d6sszes megjel\u00f6l\u00e9se olvasottk\u00e9nt"
+            ],
+            "Mentions, replies, reactions and assignments show here.": [
+                "Itt jelennek meg az eml\u00edt\u00e9sek, v\u00e1laszok, reakci\u00f3k \u00e9s hozz\u00e1rendel\u00e9sek."
+            ],
+            "Someone": [
+                "Valaki"
+            ],
+            "Discuss with your team\u2026 type @ and a name to mention someone": [
+                "Megbesz\u00e9l\u00e9s a csapattal\u2026 \u00edrjon be egy @ jelet \u00e9s egy nevet valaki megeml\u00edt\u00e9s\u00e9hez"
+            ],
+            "Message to your team": [
+                "\u00dczenet a csapatnak"
+            ],
+            "Post": [
+                "K\u00f6zz\u00e9t\u00e9tel"
+            ],
+            "No discussion yet. Only your team sees what is written here.": [
+                "M\u00e9g nincs besz\u00e9lget\u00e9s. Csak a csapat l\u00e1thatja, ami ide van \u00edrva."
+            ],
+            "In reply to %s": [
+                "V\u00e1laszk\u00e9nt erre: %s"
+            ],
+            "Reply": [
+                "V\u00e1lasz"
+            ],
+            "Replying to %s": [
+                "V\u00e1laszad\u00e1s erre: %s"
+            ],
+            "About this chat": [
+                "A cseveg\u00e9sr\u0151l"
+            ],
+            "About this contact": [
+                "A kapcsolat adatai"
+            ],
+            "Discuss": [
+                "Megbesz\u00e9l\u00e9s"
+            ]
+        }
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "translation-revision-date": "2026-11-12T11:42:23+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/discuss.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "ne_NP",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "Chat": [
+                "\u0915\u094d\u092f\u093e\u091f"
+            ],
+            "Ticket": [
+                "\u091f\u093f\u0915\u091f"
+            ],
+            "Cancel": [
+                "\u0930\u0926\u094d\u0926 \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d"
+            ],
+            "Something went wrong. Please try again.": [
+                "\u0915\u0947\u0939\u0940 \u0917\u0932\u0924 \u092d\u092f\u094b\u0964 \u0915\u0943\u092a\u092f\u093e \u092b\u0947\u0930\u093f \u092a\u094d\u0930\u092f\u093e\u0938 \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d\u0964"
+            ],
+            "Contact": [
+                "\u0938\u092e\u094d\u092a\u0930\u094d\u0915"
+            ],
+            "Article": [
+                "\u0932\u0947\u0916"
+            ],
+            "%s mentioned you": [
+                "%s \u0932\u0947 \u0924\u092a\u093e\u0908\u0902\u0932\u093e\u0908 \u0909\u0932\u094d\u0932\u0947\u0916 \u0917\u0930\u094d\u0928\u0941\u092d\u092f\u094b"
+            ],
+            "%s replied in a discussion": [
+                "%s \u0932\u0947 \u090f\u0915 \u091b\u0932\u092b\u0932\u092e\u093e \u091c\u0935\u093e\u092b \u0926\u093f\u0928\u0941\u092d\u092f\u094b"
+            ],
+            "%s reacted to your message": [
+                "%s \u0932\u0947 \u0924\u092a\u093e\u0908\u0902\u0915\u094b \u0938\u0928\u094d\u0926\u0947\u0936\u092e\u093e \u092a\u094d\u0930\u0924\u093f\u0915\u094d\u0930\u093f\u092f\u093e \u0926\u093f\u0928\u0941\u092d\u092f\u094b"
+            ],
+            "%s assigned a ticket to you": [
+                "%s \u0932\u0947 \u0924\u092a\u093e\u0908\u0902\u0932\u093e\u0908 \u091f\u093f\u0915\u091f \u0924\u094b\u0915\u0947\u0915\u094b \u091b"
+            ],
+            "Notifications": [
+                "\u0938\u0942\u091a\u0928\u093e\u0939\u0930\u0942"
+            ],
+            "Notifications, %d unread": [
+                "\u0938\u0942\u091a\u0928\u093e\u0939\u0930\u0942, %d \u0928\u092a\u0922\u093f\u090f\u0915\u093e",
+                "\u0938\u0942\u091a\u0928\u093e\u0939\u0930\u0942, %d \u0928\u092a\u0922\u093f\u090f\u0915\u093e"
+            ],
+            "Mark all read": [
+                "\u0938\u092c\u0948\u0932\u093e\u0908 \u092a\u0922\u093f\u090f\u0915\u094b \u092d\u0928\u0940 \u091a\u093f\u0928\u094d\u0939 \u0932\u0917\u093e\u0909\u0928\u0941\u0939\u094b\u0938\u094d"
+            ],
+            "Mentions, replies, reactions and assignments show here.": [
+                "\u0909\u0932\u094d\u0932\u0947\u0916\u0939\u0930\u0942, \u091c\u0935\u093e\u092b\u0939\u0930\u0942, \u092a\u094d\u0930\u0924\u093f\u0915\u094d\u0930\u093f\u092f\u093e\u0939\u0930\u0942 \u0930 \u091c\u093f\u092e\u094d\u092e\u0947\u0935\u093e\u0930\u0940\u0939\u0930\u0942 \u092f\u0939\u093e\u0901 \u0926\u0947\u0916\u093e\u0907\u0928\u094d\u091b\u0964"
+            ],
+            "Someone": [
+                "\u0915\u094b\u0939\u0940"
+            ],
+            "Discuss with your team\u2026 type @ and a name to mention someone": [
+                "\u0906\u092b\u094d\u0928\u094b \u091f\u094b\u0932\u0940\u0938\u0901\u0917 \u091b\u0932\u092b\u0932 \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d\u2026 \u0915\u0938\u0948\u0932\u093e\u0908 \u0909\u0932\u094d\u0932\u0947\u0916 \u0917\u0930\u094d\u0928 @ \u0930 \u0928\u093e\u092e \u091f\u093e\u0907\u092a \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d"
+            ],
+            "Message to your team": [
+                "\u0924\u092a\u093e\u0908\u0902\u0915\u094b \u091f\u094b\u0932\u0940\u0932\u093e\u0908 \u0938\u0928\u094d\u0926\u0947\u0936"
+            ],
+            "Post": [
+                "\u092a\u094d\u0930\u0915\u093e\u0936\u093f\u0924 \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d"
+            ],
+            "No discussion yet. Only your team sees what is written here.": [
+                "\u0905\u0939\u093f\u0932\u0947\u0938\u092e\u094d\u092e \u0915\u0941\u0928\u0948 \u091b\u0932\u092b\u0932 \u092d\u090f\u0915\u094b \u091b\u0948\u0928\u0964 \u092f\u0939\u093e\u0901 \u0915\u0947 \u0932\u0947\u0916\u093f\u090f\u0915\u094b \u091b \u0924\u094d\u092f\u094b \u0924\u092a\u093e\u0908\u0902\u0915\u094b \u091f\u094b\u0932\u0940\u0932\u0947 \u092e\u093e\u0924\u094d\u0930 \u0926\u0947\u0916\u094d\u091b\u0964"
+            ],
+            "In reply to %s": [
+                "%s \u0915\u094b \u091c\u0935\u093e\u092b\u092e\u093e"
+            ],
+            "Reply": [
+                "\u091c\u0935\u093e\u092b \u0926\u093f\u0928\u0941\u0939\u094b\u0938\u094d"
+            ],
+            "Replying to %s": [
+                "%s \u0932\u093e\u0908 \u091c\u0935\u093e\u092b \u0926\u093f\u0901\u0926\u0948"
+            ],
+            "About this chat": [
+                "\u092f\u094b \u0915\u0941\u0930\u093e\u0915\u093e\u0928\u0940\u0915\u094b \u092c\u093e\u0930\u0947\u092e\u093e"
+            ],
+            "About this contact": [
+                "\u092f\u094b \u0938\u092e\u094d\u092a\u0930\u094d\u0915\u0915\u094b \u092c\u093e\u0930\u0947\u092e\u093e"
+            ],
+            "Discuss": [
+                "\u091b\u0932\u092b\u0932 \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d"
+            ]
+        }
+    }
+}

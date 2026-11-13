@@ -1,0 +1,90 @@
+{
+    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "generator": "WP-CLI\/2.12.0",
+    "source": "assets\/js\/discuss.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "yo",
+                "plural-forms": "nplurals=1; plural=0;"
+            },
+            "Chat": [
+                "Chat"
+            ],
+            "Ticket": [
+                "Tiki\u021bi"
+            ],
+            "Cancel": [
+                "Fagilee"
+            ],
+            "Something went wrong. Please try again.": [
+                "Nkan kan ko t\u1ecd. J\u1ecd\u0300\u1ecd\u0301 t\u00fan gbiyanju r\u1eb9\u0300 l\u1eb9\u0301\u1eb9\u0300kan si."
+            ],
+            "Contact": [
+                "Kan\u1e63o\u1e63o"
+            ],
+            "Article": [
+                "\u00c0pil\u1eb9\u0300k\u1ecd"
+            ],
+            "%s mentioned you": [
+                "%s m\u1eb9\u0301nub\u00e0 y\u00edn"
+            ],
+            "%s replied in a discussion": [
+                "%s fesi ninu ijiroro kan"
+            ],
+            "%s reacted to your message": [
+                "%s f\u00e8s\u00ec s\u00ed \u00e0t\u00e8\u0323j\u00ed\u1e63\u00e9\u0323 r\u1eb9"
+            ],
+            "%s assigned a ticket to you": [
+                "%s yan tiketi kan fun \u1ecd"
+            ],
+            "Notifications": [
+                "\u00c0w\u1ecdn \u00ecfit\u00f3nil\u00e9t\u00ed"
+            ],
+            "Notifications, %d unread": [
+                "\u00c0w\u1ecdn \u00ecfitil\u00e9t\u00ed, %d t\u00ed a k\u00f2 k\u00e0"
+            ],
+            "Mark all read": [
+                "S\u00e0m\u00ec s\u00ed gbogbo r\u1eb9\u0300 g\u1eb9\u0301g\u1eb9\u0301 b\u00ed \u00e8y\u00ed t\u00ed a k\u00e0"
+            ],
+            "Mentions, replies, reactions and assignments show here.": [
+                "\u00c0w\u1ecdn \u00ect\u1ecd\u0301kas\u00ed, \u00ecd\u00e1h\u00f9n, \u00ec\u1e63es\u00ed \u00e0ti \u00e0w\u1ecdn i\u1e63\u1eb9\u0301 t\u00ed a y\u00e0n y\u00f3\u00f2 h\u00e0n n\u00edh\u00ecn-\u00edn."
+            ],
+            "Someone": [
+                "\u1eb8nikan"
+            ],
+            "Discuss with your team\u2026 type @ and a name to mention someone": [
+                "\u1e62e ijiroro p\u1eb9lu \u1eb9gb\u1eb9 r\u1eb9\u2026 t\u1eb9 @ ati oruk\u1ecd kan lati daruk\u1ecd \u1eb9nikan"
+            ],
+            "Message to your team": [
+                "Ifiran\u1e63\u1eb9 si \u1eb9gb\u1eb9 r\u1eb9"
+            ],
+            "Post": [
+                "Fi\u1e63\u1eb9\u0301 r\u00e1n\u1e63\u1eb9\u0301"
+            ],
+            "No discussion yet. Only your team sees what is written here.": [
+                "K\u00f2 t\u00ed\u00ec s\u00ed \u00ecf\u1ecd\u0300r\u1ecd\u0300w\u00e9r\u1ecd\u0300 kankan. \u1eb8gb\u1eb9\u0301 y\u00edn n\u00eckan l\u00f3 \u0144 r\u00ed ohun t\u00ed a k\u1ecd s\u00edb\u00ed."
+            ],
+            "In reply to %s": [
+                "N\u00ed \u00ecd\u00e1h\u00f9n s\u00ed %s"
+            ],
+            "Reply": [
+                "F\u00e8s\u00ec"
+            ],
+            "Replying to %s": [
+                "N f\u00e8s\u00ec s\u00ed %s"
+            ],
+            "About this chat": [
+                "N\u00edpa \u00ecf\u1ecd\u0300r\u1ecd\u0300w\u00e9r\u1ecd\u0300 y\u00ec\u00ed"
+            ],
+            "About this contact": [
+                "N\u00edpa ol\u00f9b\u00e1s\u1ecd\u0300r\u1ecd\u0300 y\u00ec\u00ed"
+            ],
+            "Discuss": [
+                "\u1e62e \u00e0l\u00e0y\u00e9"
+            ]
+        }
+    }
+}

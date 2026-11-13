@@ -112,3 +112,27 @@ body.zc-focus .zc-body{block-size:calc(100vh - 70px)}
 .zc-step.zc-todo{border-inline-start-color:#dba617}
 .zc-pro-card{background:#fff;border:1px solid #c5d9ed;border-radius:8px;padding:16px 20px;max-inline-size:900px}
 .zc-pro-card ul{list-style:disc;margin-inline-start:20px}
+/* 2.14.0: the notification centre (bell) and team discussions. Logical properties only. */
+.zc-bell{position:relative}
+.zc-bell-btn{position:relative}
+.zc-bell-count{display:inline-block;min-inline-size:18px;margin-inline-start:4px;padding-inline:5px;border-radius:9px;background:#d63638;color:#fff;font-size:11px;line-height:18px;text-align:center}
+.zc-bell-panel{position:absolute;inset-inline-end:0;inset-block-start:calc(100% + 4px);z-index:50;inline-size:min(360px,90vw);max-block-size:420px;overflow:auto;background:#fff;border:1px solid #c3c4c7;border-radius:4px;box-shadow:0 4px 16px rgba(0,0,0,.12);padding:8px}
+.zc-bell-head{display:flex;justify-content:space-between;align-items:center;margin-block-end:6px}
+.zc-bell-list{margin:0;padding:0;list-style:none}
+.zc-bell-row{border-block-start:1px solid #f0f0f1}
+.zc-bell-row.is-unread{background:#f0f6fc}
+.zc-bell-go{display:flex;flex-direction:column;align-items:flex-start;inline-size:100%;padding-block:6px;padding-inline:4px;text-align:start;text-decoration:none}
+.zc-bell-where{font-size:11px;color:#646970}
+.zc-bell-text{font-size:12px;color:#1d2327;overflow-wrap:anywhere}
+.zc-discuss-box{border-block-start:1px solid #dcdcde;padding-block:8px;padding-inline:10px;background:#fcfcfc}
+.zc-discuss-tabs{display:flex;gap:6px;margin-block-end:6px}
+.zc-discuss-tabs .is-active,.zc-discuss-acts .is-active{background:#f0f6fc;border-color:#2271b1}
+.zc-discuss-list{display:flex;flex-direction:column;gap:6px;max-block-size:260px;overflow:auto}
+.zc-discuss-msg{border:1px solid #e0e0e0;border-radius:4px;padding-block:6px;padding-inline:8px;background:#fff}
+.zc-discuss-msg.is-reply{margin-inline-start:18px}
+.zc-discuss-quote{font-size:11px;color:#646970}
+.zc-discuss-text{white-space:pre-wrap;overflow-wrap:anywhere}
+.zc-discuss-acts{display:flex;flex-wrap:wrap;gap:4px;margin-block-start:4px;align-items:center}
+.zc-discuss-form{display:flex;flex-direction:column;gap:4px;margin-block-start:6px}
+.zc-discuss-hint{display:flex;flex-wrap:wrap;gap:4px}
+.zc-discuss-replying{display:flex;gap:8px;font-size:12px;color:#646970}

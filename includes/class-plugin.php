@@ -79,6 +79,7 @@ final class Plugin {
 		Mailer::init();
 		Rest::init();
 		Agent_Rest::init();
+		Discuss_Rest::init();
 		Widget::init();
 		Connect::init();
 		Front_Tickets::init();
