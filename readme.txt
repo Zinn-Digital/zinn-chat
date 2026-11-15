@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.15.0
+Stable tag: 2.15.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -88,6 +88,10 @@ An optional paid edition for a team. Everything described above is free and stay
 
 Personal (1 site), Business (5 sites) and Agency (unlimited sites), monthly or yearly, each with a free trial that needs no card. The full user guide is at [zinnchat.com](https://zinnchat.com/).
 
+= Source code =
+
+The complete source is public at https://github.com/Zinn-Digital/zinn-chat
+
 == Installation ==
 
 1. Install and activate the plugin. (If Zinn Digital® hosts your site, it is already there.)
@@ -160,6 +164,9 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.15.1 =
+* The readme links the plugin's public source repository.
 
 = 2.15.0 =
 * New: an inbox sidebar with every inbox, its chat count and unread messages, plus Tickets, the Assistant and Settings (the agent app no longer needs the wp-admin menu).
