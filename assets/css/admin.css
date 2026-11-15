@@ -29,6 +29,13 @@
 .zc-nav-label{flex:1;min-inline-size:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .zc-nav-count{color:#646970;font-size:12px}
 .zc-nav-count:empty{display:none}
+/* 2.15.2: an inbox entry is a <button class="button zc-nav-item">, and wp-admin's `.wp-core-ui .button`
+   (0,2,0) outranks `.zc-nav-item` (0,1,0): it drew a bordered blue box around every inbox and made it
+   inline-block, so the label could not flex and the count ran into it ("All conversations5"). */
+.wp-core-ui .zc-nav .zc-nav-item{display:flex;align-items:center;gap:6px;inline-size:100%;min-block-size:0;block-size:auto;margin:0;padding:8px;border:0;border-radius:4px;background:none;box-shadow:none;color:#1d2327;font-size:13px;line-height:1.4;text-align:start;white-space:nowrap;vertical-align:baseline}
+.wp-core-ui .zc-nav .zc-nav-item:hover,.wp-core-ui .zc-nav .zc-nav-item:focus{background:#f0f0f1;color:#1d2327;border:0;box-shadow:none}
+.wp-core-ui .zc-nav .zc-nav-item:focus-visible{outline:2px solid #2271b1;outline-offset:-2px}
+.wp-core-ui .zc-nav .zc-nav-item.is-active{background:#e7f0f8;color:#135e96;font-weight:600}
 .zc-list{background:#fff;border:1px solid #dcdcde;border-radius:6px;display:flex;flex-direction:column;overflow:hidden}
 .zc-list .zc-filters{padding:8px;margin:0;border-block-end:1px solid #dcdcde}
 .zc-rows{list-style:none;margin:0;padding:0;overflow-y:auto;flex:1}
@@ -57,6 +64,11 @@
 .zc-status.zc-staff{background:#e7f6ec;color:#1a7f37}
 .zc-actions{display:flex;gap:6px;flex-wrap:wrap}
 .zinn-chat-admin .zc-back{display:none}
+/* 2.15.2: visitor text keeps its own direction inside an RTL admin. Without this an English message in
+   the Arabic console rendered "?Hi, do you ship to Spain" and the page URL "/http://…/shop". */
+.zc-row-last,.zc-msg-text,.zc-answer-text{unicode-bidi:plaintext;text-align:match-parent}
+.zc-info a,.zc-info span{direction:ltr;unicode-bidi:isolate}
+.rtl .zinn-chat-admin .zc-back{transform:scaleX(-1)}
 .zc-info{display:flex;flex-wrap:wrap;gap:10px;padding:6px 10px;font-size:12px;color:#646970;border-block-end:1px solid #f0f0f1}
 .zc-info a{max-inline-size:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .zc-profile{display:flex;flex-wrap:wrap;gap:6px 16px;padding:6px 10px;font-size:12px;border-block-end:1px solid #f0f0f1}
@@ -92,7 +104,7 @@ body.zc-focus .zc-body{block-size:calc(100vh - 70px);block-size:calc(100dvh - 70
 	.zc-nav-toggle::after{content:"\25BE";color:#646970}
 	.zc-nav-body{display:none}
 	.zc-nav.is-open .zc-nav-body{display:block;position:absolute;inset-inline:-1px;inset-block-start:100%;z-index:20;background:#fff;border:1px solid #dcdcde;border-radius:0 0 6px 6px;box-shadow:0 6px 16px rgba(0,0,0,.12)}
-	.zc-nav-item{min-block-size:40px}
+	.zc-nav-item,.wp-core-ui .zc-nav .zc-nav-item{min-block-size:40px}
 	.zc-panes,.zc-panes[data-count]{grid-template-columns:1fr}
 	.zc-pane:not(.is-active){display:none}
 	.zc-reply .button,.zc-actions .button{min-block-size:40px}
@@ -106,7 +118,9 @@ body.zc-focus .zc-body{block-size:calc(100vh - 70px);block-size:calc(100dvh - 70
 }
 /* Phones, a folded phone's outer display and Split View: one pane, full screen ("focus" layout). */
 @media (max-width:600px){
-	.zc-body{grid-template-columns:1fr;grid-template-areas:"nav" "list" "work";grid-template-rows:auto auto auto;block-size:auto}
+	/* align-content:start: the inherited min-block-size (480px) was shared out across the nav and list
+	   rows while the chat pane is hidden, leaving empty space inside both boxes (2.15.2). */
+	.zc-body{grid-template-columns:1fr;grid-template-areas:"nav" "list" "work";grid-template-rows:auto auto auto;block-size:auto;align-content:start}
 	.zc-panes,.zc-panes[data-count]{grid-template-columns:1fr}
 	.zc-inbox .zc-work{display:none}
 	.zc-inbox.has-chat .zc-list,.zc-inbox.has-chat .zc-nav{display:none}
