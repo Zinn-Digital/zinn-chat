@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "translation-revision-date": "2026-11-15T08:18:17+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -18,6 +18,9 @@
             ],
             "Assistant": [
                 "Asistan"
+            ],
+            "Settings": [
+                "Ayarlar"
             ],
             "Fix it": [
                 "D\u00fczelt"
@@ -136,8 +139,23 @@
             "Desktop alerts": [
                 "Masa\u00fcst\u00fc uyar\u0131lar\u0131"
             ],
+            "Chat navigation": [
+                "Sohbet gezintisi"
+            ],
+            "Inboxes": [
+                "Gelen Kutular\u0131"
+            ],
+            "All conversations": [
+                "T\u00fcm sohbetler"
+            ],
             "Needs a person": [
                 "Ki\u015fi gerekli"
+            ],
+            "Help desk": [
+                "Yard\u0131m masas\u0131"
+            ],
+            "%d unread": [
+                "%d okunmam\u0131\u015f"
             ],
             "Choose a chat on the left. You can open several; each keeps its own draft.": [
                 "Soldaki bir sohbeti se\u00e7in. Birka\u00e7 tane a\u00e7abilirsiniz; her biri kendi tasla\u011f\u0131n\u0131 korur."

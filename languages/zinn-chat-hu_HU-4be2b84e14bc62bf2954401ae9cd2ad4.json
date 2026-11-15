@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "translation-revision-date": "2026-11-15T08:18:17+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -18,6 +18,9 @@
             ],
             "Assistant": [
                 "Asszisztens"
+            ],
+            "Settings": [
+                "Be\u00e1ll\u00edt\u00e1sok"
             ],
             "Fix it": [
                 "Jav\u00edt\u00e1s"
@@ -136,8 +139,23 @@
             "Desktop alerts": [
                 "Asztali \u00e9rtes\u00edt\u00e9sek"
             ],
+            "Chat navigation": [
+                "Cseveg\u00e9snavig\u00e1ci\u00f3"
+            ],
+            "Inboxes": [
+                "Be\u00e9rkez\u0151 levelek"
+            ],
+            "All conversations": [
+                "\u00d6sszes besz\u00e9lget\u00e9s"
+            ],
             "Needs a person": [
                 "Szem\u00e9ly sz\u00fcks\u00e9ges"
+            ],
+            "Help desk": [
+                "\u00dcgyf\u00e9lszolg\u00e1lat"
+            ],
+            "%d unread": [
+                "%d olvasatlan"
             ],
             "Choose a chat on the left. You can open several; each keeps its own draft.": [
                 "V\u00e1lasszon egy cseveg\u00e9st a bal oldalon. Megnyithat t\u00f6bbet is; mindegyik meg\u0151rzi a saj\u00e1t piszkozat\u00e1t."

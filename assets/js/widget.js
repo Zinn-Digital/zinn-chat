@@ -35,7 +35,7 @@
 	}
 
 	var css = ':host{all:initial}[hidden]{display:none!important}*{box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}'
-		+ '.p{position:fixed;bottom:88px;inset-inline-end:20px;z-index:2147483001;width:370px;max-width:calc(100vw - 24px);height:560px;max-height:calc(100vh - 110px);background:#fff;color:#1f2328;border-radius:14px;box-shadow:0 12px 40px rgba(0,0,0,.25);display:flex;flex-direction:column;overflow:hidden;font-size:15px;line-height:1.45}'
+		+ '.p{position:fixed;inset-block-end:88px;inset-inline-end:20px;z-index:2147483001;width:370px;max-width:calc(100vw - 24px);height:560px;max-height:calc(100vh - 110px);max-height:calc(100dvh - 110px);background:#fff;color:#1f2328;border-radius:14px;box-shadow:0 12px 40px rgba(0,0,0,.25);display:flex;flex-direction:column;overflow:hidden;font-size:15px;line-height:1.45}'
 		+ '.p[data-side=left]{inset-inline-end:auto;inset-inline-start:20px}'
 		+ '.hd{background:var(--c);color:var(--t);padding:14px 16px;display:flex;align-items:center;gap:8px}.hd b{flex:1;font-size:16px}.hd small{display:block;font-weight:400;opacity:.9;font-size:12px}'
 		+ '.ib{background:transparent;border:0;color:inherit;cursor:pointer;padding:6px;border-radius:6px;font-size:14px}.ib:focus-visible{outline:2px solid currentColor}'
@@ -321,6 +321,19 @@
 	}
 
 	function small() { return w.matchMedia && w.matchMedia('(max-width: 600px)').matches; }
+
+	// 2.15.0: a foldable phone (iPhone Duo) changes size while the chat is open. Unfolded, the chat
+	// is a panel beside the launcher; folded to the outer display it is full screen, where the
+	// launcher would cover the send button. Re-decide on every change, keeping the chat open.
+	if (w.matchMedia) {
+		var mq = w.matchMedia('(max-width: 600px)');
+		var onSize = function () {
+			if (!el.panel || el.panel.hidden) { return; }
+			var l = host.zcRoot.querySelector('.l');
+			if (l) { l.style.display = mq.matches ? 'none' : ''; }
+		};
+		if (mq.addEventListener) { mq.addEventListener('change', onSize); } else if (mq.addListener) { mq.addListener(onSize); }
+	}
 
 	function open() {
 		el.panel.hidden = false;

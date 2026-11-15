@@ -326,6 +326,63 @@ final class Conversations {
 	}
 
 	/**
+	 * How many chats each inbox in the console's sidebar holds, and how many unread messages wait
+	 * in it (2.15.0). One grouped query; the folding into inboxes is `fold_view_counts()`.
+	 *
+	 * @return array<string, array{count: int, unread: int}>
+	 */
+	public static function view_counts(): array {
+		global $wpdb;
+		$table = $wpdb->prefix . 'zinn_chat_conversations';
+		// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching -- the plugin's own table.
+		$rows = $wpdb->get_results(
+			$wpdb->prepare(
+				'SELECT status, ( updated_at > DATE_SUB(UTC_TIMESTAMP(), INTERVAL 1 DAY) ) AS recent, COUNT(*) AS n, COALESCE(SUM(unread), 0) AS unread FROM %i GROUP BY status, recent',
+				$table
+			),
+			ARRAY_A
+		);
+		return self::fold_view_counts( is_array( $rows ) ? $rows : array() );
+	}
+
+	/**
+	 * Fold (status, recent, n, unread) groups into the console's inboxes. The conditions are the
+	 * SAME ones `for_console()` lists by, so a count never disagrees with the list it labels:
+	 * `active` = waiting + with an agent + left a message; `bot` = with the assistant in the last
+	 * day; `closed`; `all` = every chat ("All conversations").
+	 *
+	 * @param array<int, array<string, mixed>> $rows Grouped rows.
+	 * @return array<string, array{count: int, unread: int}>
+	 */
+	public static function fold_view_counts( array $rows ): array {
+		$out = array_fill_keys(
+			array( 'all', 'active', 'bot', 'closed' ),
+			array(
+				'count'  => 0,
+				'unread' => 0,
+			)
+		);
+		foreach ( $rows as $row ) {
+			$status = (string) ( $row['status'] ?? '' );
+			$n      = (int) ( $row['n'] ?? 0 );
+			$unread = (int) ( $row['unread'] ?? 0 );
+			$views  = array( 'all' );
+			if ( in_array( $status, array( 'waiting', 'staff', 'offline' ), true ) ) {
+				$views[] = 'active';
+			} elseif ( 'bot' === $status && ! empty( $row['recent'] ) ) {
+				$views[] = 'bot';
+			} elseif ( 'closed' === $status ) {
+				$views[] = 'closed';
+			}
+			foreach ( $views as $view ) {
+				$out[ $view ]['count']  += $n;
+				$out[ $view ]['unread'] += $unread;
+			}
+		}
+		return $out;
+	}
+
+	/**
 	 * Counts for the admin menu badge.
 	 *
 	 * @return array{waiting: int, unread: int}

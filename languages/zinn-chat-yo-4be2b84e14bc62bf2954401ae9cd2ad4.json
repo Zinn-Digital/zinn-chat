@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "translation-revision-date": "2026-11-15T08:18:17+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -18,6 +18,9 @@
             ],
             "Assistant": [
                 "Ol\u00f9r\u00e0nl\u1ecd\u0301w\u1ecd\u0301"
+            ],
+            "Settings": [
+                "Eto"
             ],
             "Fix it": [
                 "\u1e62e \u00e0t\u00fan\u1e63e r\u1eb9"
@@ -136,8 +139,23 @@
             "Desktop alerts": [
                 "\u00c0w\u1ecdn \u00eck\u00ecl\u1ecd\u0300 oj\u00fa oj\u00fa-i\u1e63\u1eb9\u0301"
             ],
+            "Chat navigation": [
+                "\u00cct\u1ecds\u1ecd\u0301n\u00e0 \u00ecf\u1ecd\u0300r\u1ecd\u0300w\u00e9r\u1ecd\u0300"
+            ],
+            "Inboxes": [
+                "\u00c0w\u1ecdn \u00e0p\u00f3t\u00ed \u00ecw\u1ecdl\u00e9"
+            ],
+            "All conversations": [
+                "Gbogbo aw\u1ecdn ibara\u1eb9nis\u1ecdr\u1ecd"
+            ],
             "Needs a person": [
                 "O nilo eniyan kan"
+            ],
+            "Help desk": [
+                "Ib\u00f9d\u00f3 \u00ecr\u00e0nw\u1ecd\u0301"
+            ],
+            "%d unread": [
+                "%d \u00e0\u00eck\u00e0"
             ],
             "Choose a chat on the left. You can open several; each keeps its own draft.": [
                 "Yan iwiregbe kan ni apa osi. O le \u1e63ii pup\u1ecd; eeyan k\u1ecd\u1ecdkan n t\u1ecdju \u00e0k\u1ecd\u1ecdk\u1ecd tir\u1eb9."

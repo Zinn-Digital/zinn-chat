@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "translation-revision-date": "2026-11-15T08:18:17+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -18,6 +18,9 @@
             ],
             "Assistant": [
                 "Tr\u1ee3 l\u00fd"
+            ],
+            "Settings": [
+                "C\u00e0i \u0111\u1eb7t"
             ],
             "Fix it": [
                 "Kh\u1eafc ph\u1ee5c"
@@ -136,8 +139,23 @@
             "Desktop alerts": [
                 "Th\u00f4ng b\u00e1o tr\u00ean m\u00e0n h\u00ecnh n\u1ec1n"
             ],
+            "Chat navigation": [
+                "\u0110i\u1ec1u h\u01b0\u1edbng tr\u00f2 chuy\u1ec7n"
+            ],
+            "Inboxes": [
+                "H\u1ed9p th\u01b0 \u0111\u1ebfn"
+            ],
+            "All conversations": [
+                "T\u1ea5t c\u1ea3 cu\u1ed9c tr\u00f2 chuy\u1ec7n"
+            ],
             "Needs a person": [
                 "C\u1ea7n m\u1ed9t ng\u01b0\u1eddi"
+            ],
+            "Help desk": [
+                "B\u1ed9 ph\u1eadn tr\u1ee3 gi\u00fap"
+            ],
+            "%d unread": [
+                "%d ch\u01b0a \u0111\u1ecdc"
             ],
             "Choose a chat on the left. You can open several; each keeps its own draft.": [
                 "Ch\u1ecdn m\u1ed9t cu\u1ed9c tr\u00f2 chuy\u1ec7n \u1edf b\u00ean tr\u00e1i. B\u1ea1n c\u00f3 th\u1ec3 m\u1edf nhi\u1ec1u cu\u1ed9c tr\u00f2 chuy\u1ec7n; m\u1ed7i cu\u1ed9c tr\u00f2 chuy\u1ec7n s\u1ebd gi\u1eef b\u1ea3n nh\u00e1p ri\u00eang c\u1ee7a m\u00ecnh."

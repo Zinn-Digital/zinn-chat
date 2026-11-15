@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.14.0
+Stable tag: 2.15.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,7 +37,9 @@ Ask the assistant questions in wp-admin and see the answer with every page it fo
 = Live chat that does not lose track =
 
 * **Multi-chat inbox:** open several chats at once as tabs, side by side on a wide screen, each with its own draft. Waiting visitors go to the top with how long they have waited.
-* **Phone and tablet view:** the inbox becomes one chat at a time, full screen, with a Focus mode that hides the rest of wp-admin.
+* **Inbox sidebar:** one column holds your inboxes, each with how many chats it has and how many messages are unread, plus Tickets, the Assistant and Settings, so the agent app needs no wp-admin menu.
+* **All conversations:** one inbox lists every chat together, waiting visitors first, beside Needs a person, With the assistant and Closed.
+* **Phone, tablet and foldable view:** on a phone the inbox becomes one chat at a time, full screen, with a Focus mode that hides the rest of wp-admin. On a tablet or a foldable phone opened flat, such as the iPhone Duo, the chat list and the chat sit side by side, and folding or unfolding keeps your open chat and your draft.
 * Internal notes, hand a chat back to the assistant, turn a chat into a ticket, email the visitor a copy.
 * **Customer profile beside every chat:** the visitor's earlier chats, their tickets and their WooCommerce orders, matched on their account or email address, with one-click "E-mail them" and "Open a ticket".
 * **Chat in any language:** "Translate chat" shows every message in your language under the original, and "Send in the visitor's language" translates your reply before it is sent. It uses your AI key; the whole chat is one request, and each translation is kept so it is never paid for twice.
@@ -158,6 +160,12 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.15.0 =
+* New: an inbox sidebar with every inbox, its chat count and unread messages, plus Tickets, the Assistant and Settings (the agent app no longer needs the wp-admin menu).
+* New: "All conversations", one inbox with every chat in it.
+* New: foldable phones such as the iPhone Duo. Opened flat, the chat list and the chat sit side by side; folding or unfolding keeps the open chat and its draft, and the visitor's chat window refits without closing.
+* The inbox and the chat window size themselves to the visible screen on phones (the address bar no longer hides the reply box).
 
 = 2.14.0 =
 * New: team discussions. Agents discuss a chat or a contact in a private thread beside it, mention colleagues with @, react to messages and are told when a chat is assigned to them.

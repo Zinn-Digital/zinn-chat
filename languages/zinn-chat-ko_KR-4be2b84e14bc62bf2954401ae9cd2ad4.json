@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "translation-revision-date": "2026-11-15T08:18:17+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -18,6 +18,9 @@
             ],
             "Assistant": [
                 "\uc5b4\uc2dc\uc2a4\ud134\ud2b8"
+            ],
+            "Settings": [
+                "\uc124\uc815"
             ],
             "Fix it": [
                 "\uc218\uc815"
@@ -136,8 +139,23 @@
             "Desktop alerts": [
                 "\ub370\uc2a4\ud06c\ud1b1 \uc54c\ub9bc"
             ],
+            "Chat navigation": [
+                "\ucc44\ud305 \ub0b4\ube44\uac8c\uc774\uc158"
+            ],
+            "Inboxes": [
+                "\ubc1b\uc740\ud3b8\uc9c0\ud568"
+            ],
+            "All conversations": [
+                "\ubaa8\ub4e0 \ub300\ud654"
+            ],
             "Needs a person": [
                 "\ub2f4\ub2f9\uc790 \ud544\uc694"
+            ],
+            "Help desk": [
+                "\ud5ec\ud504 \ub370\uc2a4\ud06c"
+            ],
+            "%d unread": [
+                "%d\uac1c \uc77d\uc9c0 \uc54a\uc74c"
             ],
             "Choose a chat on the left. You can open several; each keeps its own draft.": [
                 "\uc67c\ucabd\uc5d0\uc11c \ucc44\ud305\uc744 \uc120\ud0dd\ud558\uc138\uc694. \uc5ec\ub7ec \uac1c\ub97c \uc5f4 \uc218 \uc788\uc73c\uba70, \uac01\uac01\uc758 \ub300\ud654\uc5d0 \ucd08\uc548\uc774 \ub530\ub85c \uc720\uc9c0\ub429\ub2c8\ub2e4."

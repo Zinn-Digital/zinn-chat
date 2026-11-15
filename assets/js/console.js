@@ -69,7 +69,9 @@
 
 	/* ─────────────────────────── INBOX ─────────────────────────── */
 	function inbox() {
-		var state = { rows: [], open: [], active: null, view: 'active', away: false, seen: {}, panes: {}, known: null };
+		var VIEWS = ['all', 'active', 'bot', 'closed'];
+		var saved = null; try { saved = window.localStorage.getItem('zinnChatView'); } catch (e) {}
+		var state = { rows: [], open: [], active: null, view: VIEWS.indexOf(saved) === -1 ? 'active' : saved, away: false, seen: {}, panes: {}, known: null };
 		app.textContent = '';
 		var root = h('div', 'zc-inbox');
 		var bar = h('div', 'zc-bar');
@@ -83,21 +85,73 @@
 		bar.appendChild(title); bar.appendChild(online); bar.appendChild(presence); bar.appendChild(notify); bar.appendChild(focus);
 		root.appendChild(bar);
 		var body = h('div', 'zc-body');
-		var side = h('aside', 'zc-list');
-		var filters = h('div', 'zc-filters');
-		[['active', __('Needs a person', 'zinn-chat')], ['bot', __('With the assistant', 'zinn-chat')], ['closed', __('Closed', 'zinn-chat')]].forEach(function (f) {
-			var b = btn(f[1], f[0] === state.view ? 'is-active' : '', function () { state.view = f[0]; Array.prototype.forEach.call(filters.children, function (c) { c.classList.remove('is-active'); }); b.classList.add('is-active'); refresh(); });
-			filters.appendChild(b);
+		/*
+		 * 2.15.0: THE SIDEBAR. One navigation column holds the inboxes ("All conversations" first,
+		 * then the three working inboxes), each with how many chats it holds and how many unread
+		 * messages wait in it, then the help desk's other screens. In the installed agent app there
+		 * is no wp-admin menu, so this is how an agent reaches Tickets or Settings there too.
+		 */
+		var nav = h('nav', 'zc-nav'); nav.setAttribute('aria-label', __('Chat navigation', 'zinn-chat'));
+		var navToggle = btn(__('Inboxes', 'zinn-chat'), 'zc-nav-toggle', function () { var open = !nav.classList.contains('is-open'); nav.classList.toggle('is-open', open); navToggle.setAttribute('aria-expanded', open ? 'true' : 'false'); });
+		navToggle.setAttribute('aria-expanded', 'false');
+		nav.appendChild(navToggle);
+		var navBody = h('div', 'zc-nav-body');
+		navBody.appendChild(h('h2', 'zc-nav-head', __('Inboxes', 'zinn-chat')));
+		var inboxes = h('ul', 'zc-nav-list');
+		var viewLinks = {};
+		[['all', __('All conversations', 'zinn-chat')], ['active', __('Needs a person', 'zinn-chat')], ['bot', __('With the assistant', 'zinn-chat')], ['closed', __('Closed', 'zinn-chat')]].forEach(function (f) {
+			var li = h('li');
+			var b = btn('', 'zc-nav-item' + (f[0] === state.view ? ' is-active' : ''), function () {
+				state.view = f[0];
+				try { window.localStorage.setItem('zinnChatView', f[0]); } catch (e) {}
+				Object.keys(viewLinks).forEach(function (k) { viewLinks[k].el.classList.toggle('is-active', k === f[0]); viewLinks[k].el.removeAttribute('aria-current'); });
+				b.setAttribute('aria-current', 'page');
+				nav.classList.remove('is-open'); navToggle.setAttribute('aria-expanded', 'false');
+				navToggle.textContent = f[1];
+				refresh();
+			});
+			if (f[0] === state.view) { b.setAttribute('aria-current', 'page'); navToggle.textContent = f[1]; }
+			b.appendChild(h('span', 'zc-nav-label', f[1]));
+			var count = h('span', 'zc-nav-count'), unread = h('span', 'zc-badge');
+			b.appendChild(count); b.appendChild(unread);
+			viewLinks[f[0]] = { el: b, count: count, unread: unread };
+			li.appendChild(b); inboxes.appendChild(li);
 		});
-		side.appendChild(filters);
+		navBody.appendChild(inboxes);
+		navBody.appendChild(h('h2', 'zc-nav-head', __('Help desk', 'zinn-chat')));
+		var desk = h('ul', 'zc-nav-list');
+		var ticketsCount = h('span', 'zc-nav-count');
+		[['zinn-chat-tickets', __('Tickets', 'zinn-chat'), ticketsCount], ['zinn-chat-assistant', __('Assistant', 'zinn-chat'), null]].concat(cfg.manage ? [['zinn-chat-settings', __('Settings', 'zinn-chat'), null]] : []).forEach(function (l) {
+			var li = h('li'), a = h('a', 'zc-nav-item');
+			a.href = cfg.adminUrl + '?page=' + l[0] + (/[?&]zc_app=1/.test(window.location.search) ? '&zc_app=1' : '');
+			a.appendChild(h('span', 'zc-nav-label', l[1]));
+			if (l[2]) { a.appendChild(l[2]); }
+			li.appendChild(a); desk.appendChild(li);
+		});
+		navBody.appendChild(desk);
+		nav.appendChild(navBody);
+		var side = h('aside', 'zc-list');
 		var list = h('ul', 'zc-rows'); side.appendChild(list);
+		function renderCounts(r) {
+			var views = r.views || {};
+			Object.keys(viewLinks).forEach(function (k) {
+				var v = views[k] || { count: 0, unread: 0 };
+				viewLinks[k].count.textContent = v.count ? String(v.count) : '';
+				viewLinks[k].unread.textContent = k !== 'closed' && v.unread ? String(v.unread) : '';
+				/* translators: %d: number of unread messages */
+				viewLinks[k].unread.setAttribute('aria-label', v.unread ? sprintf(__('%d unread', 'zinn-chat'), v.unread) : '');
+			});
+			var tk = r.tickets || {};
+			var open = (tk.open || 0) + (tk.pending || 0);
+			ticketsCount.textContent = open ? String(open) : '';
+		}
 		var work = h('section', 'zc-work');
 		var tabs = h('div', 'zc-tabs'); tabs.setAttribute('role', 'tablist');
 		var panes = h('div', 'zc-panes');
 		var empty = h('p', 'zc-empty', __('Choose a chat on the left. You can open several; each keeps its own draft.', 'zinn-chat'));
 		panes.appendChild(empty);
 		work.appendChild(tabs); work.appendChild(panes);
-		body.appendChild(side); body.appendChild(work);
+		body.appendChild(nav); body.appendChild(side); body.appendChild(work);
 		root.appendChild(body);
 		app.appendChild(root);
 		// 2.14.0: the notification centre's bell joins the bar; a notification can open a chat.
@@ -153,6 +207,7 @@
 				state.rows = r.rows || [];
 				alertNew(state.rows);
 				awayBox.checked = !!r.away;
+				renderCounts(r);
 				/* translators: %d: number of team members online */
 				online.textContent = sprintf(__('%d online', 'zinn-chat'), (r.online || []).length);
 				renderList();

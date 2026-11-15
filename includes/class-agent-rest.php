@@ -155,6 +155,7 @@ final class Agent_Rest {
 				'ok'      => true,
 				'rows'    => $rows,
 				'counts'  => Conversations::counts(),
+				'views'   => Conversations::view_counts(),
 				'tickets' => Tickets::counts(),
 				'online'  => Presence::online(),
 				'away'    => Presence::is_away( $user ),

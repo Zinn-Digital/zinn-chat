@@ -14,7 +14,21 @@
 /* minmax(0,1fr) rows + min-block-size:0: a long chat scrolls inside its pane. With the grid's
    default auto row the pane took the chat's full height, so the reply box sat thousands of pixels
    down, under the admin footer (W39 2026-10-05). */
-.zc-body{display:grid;grid-template-columns:320px 1fr;grid-template-rows:minmax(0,1fr);gap:12px;block-size:calc(100vh - 170px);min-block-size:480px}
+.zc-body{display:grid;grid-template-columns:200px 300px minmax(0,1fr);grid-template-areas:"nav list work";grid-template-rows:minmax(0,1fr);gap:12px;block-size:calc(100vh - 170px);block-size:calc(100dvh - 170px);min-block-size:480px}
+/* 2.15.0 sidebar: the inboxes with their counts, then the help desk's other screens. */
+.zc-nav{grid-area:nav;background:#fff;border:1px solid #dcdcde;border-radius:6px;overflow-y:auto;min-block-size:0}
+.zc-list{grid-area:list}
+.zc-work{grid-area:work}
+.zc-nav-toggle{display:none!important}
+.zc-nav-head{margin:0;padding:12px 12px 4px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:#646970}
+.zc-nav-list{list-style:none;margin:0;padding:0 6px 6px}
+.zc-nav-list li{margin:0}
+.zc-nav-item{display:flex;align-items:center;gap:6px;inline-size:100%;padding:8px;border:0;border-radius:4px;background:none;color:#1d2327;text-align:start;text-decoration:none;font-size:13px;cursor:pointer;box-sizing:border-box}
+.zc-nav-item:hover,.zc-nav-item:focus{background:#f0f0f1;color:#1d2327}
+.zc-nav-item.is-active{background:#e7f0f8;color:#135e96;font-weight:600}
+.zc-nav-label{flex:1;min-inline-size:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.zc-nav-count{color:#646970;font-size:12px}
+.zc-nav-count:empty{display:none}
 .zc-list{background:#fff;border:1px solid #dcdcde;border-radius:6px;display:flex;flex-direction:column;overflow:hidden}
 .zc-list .zc-filters{padding:8px;margin:0;border-block-end:1px solid #dcdcde}
 .zc-rows{list-style:none;margin:0;padding:0;overflow-y:auto;flex:1}
@@ -65,18 +79,40 @@
 body.zc-focus #adminmenumain,body.zc-focus #wpadminbar,body.zc-focus #wpfooter,body.zc-focus .notice{display:none!important}
 body.zc-focus #wpcontent{margin-inline-start:0!important;padding:0 8px}
 body.zc-focus.admin-bar{padding-block-start:0}
-body.zc-focus .zc-body{block-size:calc(100vh - 70px)}
-/* Phones and tablets: one pane, full screen ("focus" layout). */
-@media (max-width:960px){
-	.zc-body{grid-template-columns:1fr;block-size:auto}
+body.zc-focus .zc-body{block-size:calc(100vh - 70px);block-size:calc(100dvh - 70px)}
+/*
+ * Tablets, a laptop beside the wp-admin menu, and a foldable phone opened flat (iPhone Duo's inner
+ * display is about 626 CSS pixels wide upright and 890 on its side): the chat list and the chat sit
+ * side by side, and the sidebar folds into a menu button above the list.
+ */
+@media (max-width:1100px){
+	.zc-body{grid-template-columns:minmax(220px,34%) minmax(0,1fr);grid-template-areas:"nav work" "list work";grid-template-rows:auto minmax(0,1fr)}
+	.zc-nav{overflow:visible;position:relative}
+	.zc-nav-toggle{display:flex!important;inline-size:100%;justify-content:space-between;align-items:center;border:0!important;background:none!important;min-block-size:40px}
+	.zc-nav-toggle::after{content:"\25BE";color:#646970}
+	.zc-nav-body{display:none}
+	.zc-nav.is-open .zc-nav-body{display:block;position:absolute;inset-inline:-1px;inset-block-start:100%;z-index:20;background:#fff;border:1px solid #dcdcde;border-radius:0 0 6px 6px;box-shadow:0 6px 16px rgba(0,0,0,.12)}
+	.zc-nav-item{min-block-size:40px}
 	.zc-panes,.zc-panes[data-count]{grid-template-columns:1fr}
 	.zc-pane:not(.is-active){display:none}
+	.zc-reply .button,.zc-actions .button{min-block-size:40px}
+}
+/*
+ * Two screen segments (a dual-screen or folded device reporting its hinge): the list on one,
+ * the chat on the other, never across the fold.
+ */
+@media (horizontal-viewport-segments:2){
+	.zc-body{grid-template-columns:env(viewport-segment-width 0 0) minmax(0,1fr);grid-template-areas:"nav work" "list work";grid-template-rows:auto minmax(0,1fr);column-gap:calc(env(viewport-segment-left 1 0) - env(viewport-segment-right 0 0))}
+}
+/* Phones, a folded phone's outer display and Split View: one pane, full screen ("focus" layout). */
+@media (max-width:600px){
+	.zc-body{grid-template-columns:1fr;grid-template-areas:"nav" "list" "work";grid-template-rows:auto auto auto;block-size:auto}
+	.zc-panes,.zc-panes[data-count]{grid-template-columns:1fr}
 	.zc-inbox .zc-work{display:none}
-	.zc-inbox.has-chat .zc-list{display:none}
-	.zc-inbox.has-chat .zc-work{display:flex;block-size:calc(100vh - 150px)}
+	.zc-inbox.has-chat .zc-list,.zc-inbox.has-chat .zc-nav{display:none}
+	.zc-inbox.has-chat .zc-work{display:flex;block-size:calc(100vh - 150px);block-size:calc(100dvh - 150px)}
 	.zinn-chat-admin .zc-back{display:inline-block}
 	.zc-row{padding:14px 12px}
-	.zc-reply .button,.zc-actions .button{min-block-size:40px}
 	.zc-msg{max-inline-size:92%}
 }
 /* Tickets */

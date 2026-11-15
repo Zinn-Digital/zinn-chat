@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-11-12T11:42:23+00:00",
+    "translation-revision-date": "2026-11-15T08:18:17+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -18,6 +18,9 @@
             ],
             "Assistant": [
                 "\u0938\u0939\u093e\u092f\u0915"
+            ],
+            "Settings": [
+                "\u0938\u0947\u091f\u093f\u0919\u0939\u0930\u0942"
             ],
             "Fix it": [
                 "\u092f\u0938\u0932\u093e\u0908 \u0920\u0940\u0915 \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d"
@@ -136,8 +139,23 @@
             "Desktop alerts": [
                 "\u0921\u0947\u0938\u094d\u0915\u091f\u092a \u091a\u0947\u0924\u093e\u0935\u0928\u0940\u0939\u0930\u0942"
             ],
+            "Chat navigation": [
+                "\u091a\u094d\u092f\u093e\u091f \u0928\u0947\u092d\u093f\u0917\u0947\u0938\u0928"
+            ],
+            "Inboxes": [
+                "\u0907\u0928\u092c\u0915\u094d\u0938\u0939\u0930\u0942"
+            ],
+            "All conversations": [
+                "\u0938\u092c\u0948 \u0915\u0941\u0930\u093e\u0915\u093e\u0928\u0940\u0939\u0930\u0942"
+            ],
             "Needs a person": [
                 "\u0935\u094d\u092f\u0915\u094d\u0924\u093f \u0906\u0935\u0936\u094d\u092f\u0915 \u091b"
+            ],
+            "Help desk": [
+                "\u092e\u0926\u094d\u0926\u0924 \u0921\u0947\u0938\u094d\u0915"
+            ],
+            "%d unread": [
+                "%d \u0928\u092a\u0922\u093f\u090f\u0915\u093e"
             ],
             "Choose a chat on the left. You can open several; each keeps its own draft.": [
                 "\u092c\u093e\u092f\u093e\u0901\u0924\u0930\u094d\u092b\u092c\u093e\u091f \u090f\u0909\u091f\u093e \u091a\u094d\u092f\u093e\u091f \u091b\u093e\u0928\u094d\u0928\u0941\u0939\u094b\u0938\u094d\u0964 \u0924\u092a\u093e\u0908\u0901 \u0927\u0947\u0930\u0948 \u0916\u094b\u0932\u094d\u0928 \u0938\u0915\u094d\u0928\u0941\u0939\u0941\u0928\u094d\u091b; \u092a\u094d\u0930\u0924\u094d\u092f\u0947\u0915\u0932\u0947 \u0906\u092b\u094d\u0928\u0948 \u0921\u094d\u0930\u093e\u092b\u094d\u091f \u0938\u0941\u0930\u0915\u094d\u0937\u093f\u0924 \u0930\u093e\u0916\u094d\u091b\u0964"

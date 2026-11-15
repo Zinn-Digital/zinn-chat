@@ -2,14 +2,14 @@
 # This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Zinn® Chat 2.14.0\n"
+"Project-Id-Version: Zinn® Chat 2.15.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zinn-chat\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-11-13T12:06:12+00:00\n"
+"POT-Creation-Date: 2026-11-15T08:16:12+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: zinn-chat\n"
@@ -47,13 +47,14 @@ msgstr ""
 
 #: includes/admin/class-admin.php:58
 #: includes/admin/class-console-page.php:32
-#: assets/js/console.js:76
+#: assets/js/console.js:78
 msgid "Inbox"
 msgstr ""
 
 #: includes/admin/class-admin.php:59
 #: includes/admin/class-tickets-page.php:32
-#: assets/js/console.js:372
+#: assets/js/console.js:124
+#: assets/js/console.js:427
 #: assets/pro__premium_only/admin-pro.js:355
 msgid "Tickets"
 msgstr ""
@@ -62,6 +63,7 @@ msgstr ""
 #: includes/admin/class-assistant-page.php:32
 #: includes/class-settings.php:210
 #: assets/js/console.js:67
+#: assets/js/console.js:124
 msgid "Assistant"
 msgstr ""
 
@@ -69,6 +71,7 @@ msgstr ""
 #: includes/admin/class-admin.php:167
 #: includes/admin/class-setup-page.php:98
 #: assets/js/blocks.js:34
+#: assets/js/console.js:124
 msgid "Settings"
 msgstr ""
 
@@ -85,7 +88,7 @@ msgid "The AI assistant could not answer a visitor:"
 msgstr ""
 
 #: includes/admin/class-admin.php:216
-#: assets/js/console.js:547
+#: assets/js/console.js:602
 msgid "Fix it"
 msgstr ""
 
@@ -505,7 +508,7 @@ msgstr ""
 #: includes/ai-core/class-admin.php:59
 #: includes/ai-core/class-admin.php:60
 #: includes/ai-core/class-admin.php:120
-#: assets/js/console.js:549
+#: assets/js/console.js:604
 msgid "AI providers"
 msgstr ""
 
@@ -564,7 +567,7 @@ msgid "Customers see their tickets under Support in My Account, and the assistan
 msgstr ""
 
 #: includes/admin/class-setup-page.php:103
-#: assets/js/console.js:514
+#: assets/js/console.js:569
 msgid "Test the assistant"
 msgstr ""
 
@@ -812,9 +815,9 @@ msgstr ""
 #: includes/ai-core/class-admin.php:255
 #: includes/class-front-tickets.php:359
 #: includes/class-privacy.php:164
-#: assets/js/console.js:381
-#: assets/js/console.js:482
-#: assets/js/console.js:609
+#: assets/js/console.js:436
+#: assets/js/console.js:537
+#: assets/js/console.js:664
 msgid "Status"
 msgstr ""
 
@@ -1033,8 +1036,8 @@ msgstr ""
 
 #: includes/ai-core/class-admin.php:618
 #: includes/class-tickets.php:448
-#: assets/js/console.js:386
-#: assets/js/console.js:480
+#: assets/js/console.js:441
+#: assets/js/console.js:535
 #: assets/pro__premium_only/admin-pro.js:292
 msgid "Open"
 msgstr ""
@@ -1298,42 +1301,42 @@ msgid "Not found."
 msgstr ""
 
 #. translators: %s: agent name.
-#: includes/class-agent-rest.php:237
+#: includes/class-agent-rest.php:238
 #, php-format
 msgid "%s joined the chat."
 msgstr ""
 
-#: includes/class-agent-rest.php:259
+#: includes/class-agent-rest.php:260
 msgid "Type a reply first."
 msgstr ""
 
-#: includes/class-agent-rest.php:281
+#: includes/class-agent-rest.php:282
 msgid "The reply could not be translated, so it was not sent. Try again, or send it without translating."
 msgstr ""
 
-#: includes/class-agent-rest.php:360
+#: includes/class-agent-rest.php:361
 msgid "The chat has ended. Thank you for contacting us."
 msgstr ""
 
-#: includes/class-agent-rest.php:377
+#: includes/class-agent-rest.php:378
 msgid "You are chatting with the assistant again."
 msgstr ""
 
 #. translators: %d: ticket number.
-#: includes/class-agent-rest.php:424
+#: includes/class-agent-rest.php:425
 #, php-format
 msgid "This conversation is now ticket #%d. We will reply by email."
 msgstr ""
 
-#: includes/class-agent-rest.php:640
+#: includes/class-agent-rest.php:641
 msgid "Type a question first."
 msgstr ""
 
-#: includes/class-agent-rest.php:734
+#: includes/class-agent-rest.php:735
 msgid "The whole site is being read again in the background."
 msgstr ""
 
-#: includes/class-agent-rest.php:766
+#: includes/class-agent-rest.php:767
 msgid "Meanings are being rebuilt in the background."
 msgstr ""
 
@@ -1464,8 +1467,8 @@ msgstr ""
 
 #: includes/class-front-tickets.php:273
 #: includes/class-front-tickets.php:359
-#: assets/js/console.js:381
-#: assets/js/console.js:429
+#: assets/js/console.js:436
+#: assets/js/console.js:484
 msgid "Subject"
 msgstr ""
 
@@ -1503,7 +1506,7 @@ msgid "You have no support requests yet."
 msgstr ""
 
 #: includes/class-front-tickets.php:359
-#: assets/js/console.js:381
+#: assets/js/console.js:436
 msgid "Updated"
 msgstr ""
 
@@ -1538,7 +1541,7 @@ msgid "Your reply"
 msgstr ""
 
 #: includes/class-front-tickets.php:416
-#: assets/js/console.js:456
+#: assets/js/console.js:511
 msgid "Send reply"
 msgstr ""
 
@@ -1682,8 +1685,8 @@ msgid "Email"
 msgstr ""
 
 #: includes/class-privacy.php:135
-#: assets/js/console.js:559
-#: assets/js/console.js:609
+#: assets/js/console.js:614
+#: assets/js/console.js:664
 msgid "Page"
 msgstr ""
 
@@ -1702,7 +1705,7 @@ msgid "Ticket"
 msgstr ""
 
 #: includes/class-privacy.php:160
-#: assets/js/console.js:477
+#: assets/js/console.js:532
 msgid "Opened"
 msgstr ""
 
@@ -1837,23 +1840,23 @@ msgid "The reply is empty."
 msgstr ""
 
 #: includes/class-tickets.php:450
-#: assets/js/console.js:386
-#: assets/js/console.js:480
+#: assets/js/console.js:441
+#: assets/js/console.js:535
 msgid "Waiting for customer"
 msgstr ""
 
 #: includes/class-tickets.php:452
 #: includes/pro__premium_only/class-hours.php:367
-#: assets/js/console.js:386
-#: assets/js/console.js:480
+#: assets/js/console.js:441
+#: assets/js/console.js:535
 msgid "Solved"
 msgstr ""
 
 #: includes/class-tickets.php:454
 #: assets/js/console.js:68
-#: assets/js/console.js:88
-#: assets/js/console.js:386
-#: assets/js/console.js:480
+#: assets/js/console.js:102
+#: assets/js/console.js:441
+#: assets/js/console.js:535
 msgid "Closed"
 msgstr ""
 
@@ -1879,7 +1882,7 @@ msgstr ""
 
 #: includes/class-widget.php:157
 #: includes/pro__premium_only/class-csat.php:204
-#: assets/js/console.js:222
+#: assets/js/console.js:277
 msgid "Send"
 msgstr ""
 
@@ -1910,7 +1913,7 @@ msgstr ""
 #: includes/class-widget.php:166
 #: includes/freemius-strings.php:479
 #: includes/freemius-strings.php:3447
-#: assets/js/console.js:436
+#: assets/js/console.js:491
 #: assets/js/discuss.js:155
 msgid "Cancel"
 msgstr ""
@@ -1963,7 +1966,7 @@ msgid "Sent."
 msgstr ""
 
 #: includes/class-widget.php:179
-#: assets/js/console.js:254
+#: assets/js/console.js:309
 msgid "End chat"
 msgstr ""
 
@@ -3189,7 +3192,7 @@ msgstr ""
 
 #: includes/freemius-strings.php:852
 #: includes/freemius-strings.php:3718
-#: assets/js/console.js:473
+#: assets/js/console.js:528
 msgid "Details"
 msgstr ""
 
@@ -3892,7 +3895,7 @@ msgstr ""
 
 #: includes/freemius-strings.php:1394
 #: includes/freemius-strings.php:4462
-#: assets/js/console.js:432
+#: assets/js/console.js:487
 msgid "Message"
 msgstr ""
 
@@ -5441,7 +5444,7 @@ msgstr ""
 
 #: includes/freemius-strings.php:2591
 #: includes/freemius-strings.php:5569
-#: assets/js/console.js:609
+#: assets/js/console.js:664
 msgid "Type"
 msgstr ""
 
@@ -6551,7 +6554,7 @@ msgid "Words in the subject, the customer's name or email."
 msgstr ""
 
 #: includes/mcp/class-rest-map.php:235
-#: assets/js/console.js:267
+#: assets/js/console.js:322
 msgid "Open a ticket"
 msgstr ""
 
@@ -6787,27 +6790,27 @@ msgstr ""
 
 #: includes/pro__premium_only/class-kb.php:897
 #: includes/pro__premium_only/class-kb.php:909
-#: assets/js/console.js:492
+#: assets/js/console.js:547
 msgid "Order"
 msgstr ""
 
 #: includes/pro__premium_only/class-pro-settings.php:291
-#: assets/js/console.js:484
+#: assets/js/console.js:539
 msgid "Low"
 msgstr ""
 
 #: includes/pro__premium_only/class-pro-settings.php:292
-#: assets/js/console.js:484
+#: assets/js/console.js:539
 msgid "Normal"
 msgstr ""
 
 #: includes/pro__premium_only/class-pro-settings.php:293
-#: assets/js/console.js:484
+#: assets/js/console.js:539
 msgid "High"
 msgstr ""
 
 #: includes/pro__premium_only/class-pro-settings.php:294
-#: assets/js/console.js:484
+#: assets/js/console.js:539
 msgid "Urgent"
 msgstr ""
 
@@ -6835,12 +6838,12 @@ msgid "Agent"
 msgstr ""
 
 #: assets/js/console.js:67
-#: assets/js/console.js:221
+#: assets/js/console.js:276
 msgid "Internal note"
 msgstr ""
 
 #: assets/js/console.js:68
-#: assets/js/console.js:88
+#: assets/js/console.js:102
 msgid "With the assistant"
 msgstr ""
 
@@ -6856,406 +6859,429 @@ msgstr ""
 msgid "Left a message"
 msgstr ""
 
-#: assets/js/console.js:79
+#: assets/js/console.js:81
 msgid "Away"
 msgstr ""
 
-#: assets/js/console.js:81
+#: assets/js/console.js:83
 msgid "Focus mode"
 msgstr ""
 
-#: assets/js/console.js:82
+#: assets/js/console.js:84
 msgid "Desktop alerts"
 msgstr ""
 
-#: assets/js/console.js:88
+#: assets/js/console.js:94
+msgid "Chat navigation"
+msgstr ""
+
+#: assets/js/console.js:95
+#: assets/js/console.js:99
+msgid "Inboxes"
+msgstr ""
+
+#: assets/js/console.js:102
+msgid "All conversations"
+msgstr ""
+
+#: assets/js/console.js:102
 msgid "Needs a person"
 msgstr ""
 
-#: assets/js/console.js:97
+#: assets/js/console.js:121
+msgid "Help desk"
+msgstr ""
+
+#. translators: %d: number of unread messages
+#: assets/js/console.js:142
+#, js-format
+msgid "%d unread"
+msgstr ""
+
+#: assets/js/console.js:151
 msgid "Choose a chat on the left. You can open several; each keeps its own draft."
 msgstr ""
 
-#: assets/js/console.js:122
+#: assets/js/console.js:176
 msgid "A visitor is waiting"
 msgstr ""
 
 #. translators: %d: chat number
-#: assets/js/console.js:122
+#: assets/js/console.js:176
 #, js-format
 msgid "Chat #%d"
 msgstr ""
 
-#: assets/js/console.js:131
+#: assets/js/console.js:185
 msgid "Nothing here right now."
 msgstr ""
 
 #. translators: %d: visitor number
-#: assets/js/console.js:137
-#: assets/js/console.js:234
+#: assets/js/console.js:191
+#: assets/js/console.js:289
 #, js-format
 msgid "Visitor #%d"
 msgstr ""
 
-#: assets/js/console.js:140
+#: assets/js/console.js:194
 msgid "typing…"
 msgstr ""
 
 #. translators: %s: how long the visitor has waited, e.g. 2m
-#: assets/js/console.js:142
+#: assets/js/console.js:196
 #, js-format
 msgid "waiting %s"
 msgstr ""
 
 #. translators: %d: number of team members online
-#: assets/js/console.js:157
+#: assets/js/console.js:212
 #, js-format
 msgid "%d online"
 msgstr ""
 
-#: assets/js/console.js:174
+#: assets/js/console.js:229
 msgid "Close tab"
 msgstr ""
 
-#: assets/js/console.js:210
+#: assets/js/console.js:265
 msgid "Back to the list"
 msgstr ""
 
-#: assets/js/console.js:219
+#: assets/js/console.js:274
 msgid "Type a reply… (Enter to send, Shift+Enter for a new line)"
 msgstr ""
 
-#: assets/js/console.js:225
+#: assets/js/console.js:280
 msgid "Send in the visitor's language"
 msgstr ""
 
 #. translators: %d: ticket number
-#: assets/js/console.js:241
+#: assets/js/console.js:296
 #, js-format
 msgid "Ticket #%d"
 msgstr ""
 
-#: assets/js/console.js:250
+#: assets/js/console.js:305
 msgid "Show original"
 msgstr ""
 
-#: assets/js/console.js:250
+#: assets/js/console.js:305
 msgid "Translate chat"
 msgstr ""
 
-#: assets/js/console.js:251
+#: assets/js/console.js:306
 msgid "Take this chat"
 msgstr ""
 
-#: assets/js/console.js:252
+#: assets/js/console.js:307
 msgid "Back to the assistant"
 msgstr ""
 
-#: assets/js/console.js:253
+#: assets/js/console.js:308
 msgid "Make a ticket"
 msgstr ""
 
-#: assets/js/console.js:253
+#: assets/js/console.js:308
 msgid "The visitor's email address"
 msgstr ""
 
-#: assets/js/console.js:255
+#: assets/js/console.js:310
 msgid "The visitor is typing…"
 msgstr ""
 
-#: assets/js/console.js:265
+#: assets/js/console.js:320
 msgid "E-mail them"
 msgstr ""
 
-#: assets/js/console.js:269
+#: assets/js/console.js:324
 msgid "Subject of the new ticket"
 msgstr ""
 
 #. translators: %d: how many earlier chats
-#: assets/js/console.js:275
+#: assets/js/console.js:330
 #, js-format
 msgid "Earlier chats (%d)"
 msgstr ""
 
 #. translators: %d: how many tickets
-#: assets/js/console.js:279
+#: assets/js/console.js:334
 #, js-format
 msgid "Tickets (%d)"
 msgstr ""
 
-#: assets/js/console.js:282
+#: assets/js/console.js:337
 msgid "No earlier chats, tickets or orders."
 msgstr ""
 
-#: assets/js/console.js:373
-#: assets/js/console.js:426
+#: assets/js/console.js:428
+#: assets/js/console.js:481
 msgid "New ticket"
 msgstr ""
 
-#: assets/js/console.js:376
+#: assets/js/console.js:431
 msgid "Search subject, email or number"
 msgstr ""
 
-#: assets/js/console.js:381
-#: assets/js/console.js:476
+#: assets/js/console.js:436
+#: assets/js/console.js:531
 msgid "Customer"
 msgstr ""
 
-#: assets/js/console.js:381
-#: assets/js/console.js:486
+#: assets/js/console.js:436
+#: assets/js/console.js:541
 msgid "Priority"
 msgstr ""
 
-#: assets/js/console.js:386
+#: assets/js/console.js:441
 msgid "Needs attention"
 msgstr ""
 
-#: assets/js/console.js:386
-#: assets/js/console.js:604
+#: assets/js/console.js:441
+#: assets/js/console.js:659
 #: assets/pro__premium_only/admin-pro.js:292
 msgid "All"
 msgstr ""
 
-#: assets/js/console.js:397
+#: assets/js/console.js:452
 msgid "No tickets."
 msgstr ""
 
 #. translators: 1: current page, 2: number of pages
-#: assets/js/console.js:416
-#: assets/js/console.js:636
+#: assets/js/console.js:471
+#: assets/js/console.js:691
 #: assets/pro__premium_only/admin-pro.js:317
 #, js-format
 msgid "Page %1$d of %2$d"
 msgstr ""
 
-#: assets/js/console.js:429
+#: assets/js/console.js:484
 msgid "Customer name"
 msgstr ""
 
-#: assets/js/console.js:429
+#: assets/js/console.js:484
 msgid "Customer email"
 msgstr ""
 
-#: assets/js/console.js:433
+#: assets/js/console.js:488
 msgid "Create ticket"
 msgstr ""
 
-#: assets/js/console.js:444
+#: assets/js/console.js:499
 msgid "All tickets"
 msgstr ""
 
-#: assets/js/console.js:452
+#: assets/js/console.js:507
 msgid "Write a reply…"
 msgstr ""
 
-#: assets/js/console.js:453
+#: assets/js/console.js:508
 msgid "Internal note (the customer does not see it)"
 msgstr ""
 
-#: assets/js/console.js:455
+#: assets/js/console.js:510
 msgid "then: waiting for customer"
 msgstr ""
 
-#: assets/js/console.js:455
+#: assets/js/console.js:510
 msgid "then: solved"
 msgstr ""
 
-#: assets/js/console.js:455
+#: assets/js/console.js:510
 msgid "then: keep open"
 msgstr ""
 
 #. translators: 1: ticket number, 2: ticket subject
-#: assets/js/console.js:464
+#: assets/js/console.js:519
 #, js-format
 msgid "#%1$d %2$s"
 msgstr ""
 
-#: assets/js/console.js:468
+#: assets/js/console.js:523
 msgid "by email"
 msgstr ""
 
-#: assets/js/console.js:468
+#: assets/js/console.js:523
 msgid "internal note"
 msgstr ""
 
-#: assets/js/console.js:478
+#: assets/js/console.js:533
 msgid "Channel"
 msgstr ""
 
-#: assets/js/console.js:487
+#: assets/js/console.js:542
 msgid "Nobody"
 msgstr ""
 
-#: assets/js/console.js:490
+#: assets/js/console.js:545
 msgid "Assigned to"
 msgstr ""
 
 #. translators: 1: order number, 2: order date, 3: order status
-#: assets/js/console.js:492
+#: assets/js/console.js:547
 #, js-format
 msgid "Order #%1$s · %2$s · %3$s"
 msgstr ""
 
-#: assets/js/console.js:495
+#: assets/js/console.js:550
 msgid "Delete ticket"
 msgstr ""
 
-#: assets/js/console.js:495
+#: assets/js/console.js:550
 msgid "Delete this ticket and all its messages?"
 msgstr ""
 
-#: assets/js/console.js:515
+#: assets/js/console.js:570
 msgid "Ask what your visitors ask. You see the answer and every page it found, with how well each matched, when it was last updated, and warnings for pages that look out of date. Fix a page, press Re-read, and ask again."
 msgstr ""
 
-#: assets/js/console.js:517
+#: assets/js/console.js:572
 msgid "For example: What is your returns policy?"
 msgstr ""
 
-#: assets/js/console.js:518
+#: assets/js/console.js:573
 msgid "Ask"
 msgstr ""
 
-#: assets/js/console.js:526
+#: assets/js/console.js:581
 msgid "Not updated for over a year"
 msgstr ""
 
 #. translators: %s: title of the newer page
-#: assets/js/console.js:528
+#: assets/js/console.js:583
 #, js-format
 msgid "A newer page covers the same subject: %s"
 msgstr ""
 
-#: assets/js/console.js:534
+#: assets/js/console.js:589
 msgid "Re-read ✓"
 msgstr ""
 
-#: assets/js/console.js:539
+#: assets/js/console.js:594
 msgid "Asking…"
 msgstr ""
 
 #. translators: 1: answer outcome, 2: search method, 3: tokens sent, 4: tokens received
-#: assets/js/console.js:544
+#: assets/js/console.js:599
 #, js-format
 msgid "Outcome: %1$s · Search: %2$s · Tokens: %3$d in, %4$d out"
 msgstr ""
 
-#: assets/js/console.js:544
+#: assets/js/console.js:599
 msgid "by meaning and words"
 msgstr ""
 
-#: assets/js/console.js:544
+#: assets/js/console.js:599
 msgid "by words only (no embedding key)"
 msgstr ""
 
-#: assets/js/console.js:544
+#: assets/js/console.js:599
 msgid "nothing indexed"
 msgstr ""
 
-#: assets/js/console.js:549
+#: assets/js/console.js:604
 msgid "The AI is not set up yet or could not answer."
 msgstr ""
 
 #. translators: %d: number of sources
-#: assets/js/console.js:555
+#: assets/js/console.js:610
 #, js-format
 msgid "Sources found (%d)"
 msgstr ""
 
-#: assets/js/console.js:556
+#: assets/js/console.js:611
 msgid "Nothing on the site matched. Add a page that answers this, or check the Site index settings."
 msgstr ""
 
-#: assets/js/console.js:559
+#: assets/js/console.js:614
 msgid "Score"
 msgstr ""
 
-#: assets/js/console.js:559
-#: assets/js/console.js:609
+#: assets/js/console.js:614
+#: assets/js/console.js:664
 msgid "Last updated"
 msgstr ""
 
-#: assets/js/console.js:559
+#: assets/js/console.js:614
 msgid "Passage"
 msgstr ""
 
-#: assets/js/console.js:572
-#: assets/js/console.js:623
+#: assets/js/console.js:627
+#: assets/js/console.js:678
 #: assets/pro__premium_only/admin-pro.js:274
 msgid "Edit"
 msgstr ""
 
-#: assets/js/console.js:573
-#: assets/js/console.js:625
+#: assets/js/console.js:628
+#: assets/js/console.js:680
 msgid "Re-read"
 msgstr ""
 
-#: assets/js/console.js:586
+#: assets/js/console.js:641
 msgid "What the assistant has read"
 msgstr ""
 
 #. translators: 1: pages read, 2: pages waiting, 3: pages with errors, 4: passages, 5: pages understood by meaning
-#: assets/js/console.js:589
+#: assets/js/console.js:644
 #, js-format
 msgid "%1$d pages read · %2$d waiting · %3$d with errors · %4$d passages · %5$d understood by meaning"
 msgstr ""
 
 #. translators: %s: the AI model that builds the search index, e.g. gemini/text-embedding-004/256
-#: assets/js/console.js:592
+#: assets/js/console.js:647
 #, js-format
 msgid "Embedding model: %s"
 msgstr ""
 
-#: assets/js/console.js:592
+#: assets/js/console.js:647
 msgid "No embedding model: search is by words only. Connect Google Gemini, OpenAI, Mistral or OpenRouter to search by meaning."
 msgstr ""
 
-#: assets/js/console.js:593
+#: assets/js/console.js:648
 msgid "Building meanings is paused:"
 msgstr ""
 
-#: assets/js/console.js:596
+#: assets/js/console.js:651
 msgid "Re-read the whole site"
 msgstr ""
 
-#: assets/js/console.js:597
+#: assets/js/console.js:652
 msgid "Rebuild all meanings"
 msgstr ""
 
-#: assets/js/console.js:601
+#: assets/js/console.js:656
 msgid "Filter by title or address"
 msgstr ""
 
-#: assets/js/console.js:604
-#: assets/js/console.js:609
+#: assets/js/console.js:659
+#: assets/js/console.js:664
 msgid "Read"
 msgstr ""
 
-#: assets/js/console.js:604
+#: assets/js/console.js:659
 msgid "Waiting"
 msgstr ""
 
-#: assets/js/console.js:604
+#: assets/js/console.js:659
 msgid "Errors"
 msgstr ""
 
-#: assets/js/console.js:609
+#: assets/js/console.js:664
 msgid "Passages"
 msgstr ""
 
-#: assets/js/console.js:618
+#: assets/js/console.js:673
 msgid "by meaning"
 msgstr ""
 
-#: assets/js/console.js:626
+#: assets/js/console.js:681
 msgid "Rebuild meaning"
 msgstr ""
 
-#: assets/js/console.js:626
+#: assets/js/console.js:681
 msgid "Done ✓"
 msgstr ""
 
-#: assets/js/console.js:626
+#: assets/js/console.js:681
 msgid "Failed"
 msgstr ""
 

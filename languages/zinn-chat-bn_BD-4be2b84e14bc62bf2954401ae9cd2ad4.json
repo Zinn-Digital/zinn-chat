@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "translation-revision-date": "2026-11-15T08:18:17+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -18,6 +18,9 @@
             ],
             "Assistant": [
                 "\u09b8\u09b9\u0995\u09be\u09b0\u09c0"
+            ],
+            "Settings": [
+                "\u09b8\u09c7\u099f\u09bf\u0982\u09b8"
             ],
             "Fix it": [
                 "\u098f\u099f\u09bf \u09a0\u09bf\u0995 \u0995\u09b0\u09c1\u09a8"
@@ -136,8 +139,23 @@
             "Desktop alerts": [
                 "\u09a1\u09c7\u09b8\u09cd\u0995\u099f\u09aa \u0985\u09cd\u09af\u09be\u09b2\u09be\u09b0\u09cd\u099f"
             ],
+            "Chat navigation": [
+                "\u099a\u09cd\u09af\u09be\u099f \u09a8\u09c7\u09ad\u09bf\u0997\u09c7\u09b6\u09a8"
+            ],
+            "Inboxes": [
+                "\u0987\u09a8\u09ac\u0995\u09cd\u09b8\u09b8\u09ae\u09c2\u09b9"
+            ],
+            "All conversations": [
+                "\u09b8\u09ae\u09b8\u09cd\u09a4 \u0995\u09a5\u09cb\u09aa\u0995\u09a5\u09a8"
+            ],
             "Needs a person": [
                 "\u098f\u0995\u099c\u09a8 \u09ac\u09cd\u09af\u0995\u09cd\u09a4\u09bf\u09b0 \u09aa\u09cd\u09b0\u09df\u09cb\u099c\u09a8"
+            ],
+            "Help desk": [
+                "\u09b8\u09b9\u09be\u09af\u09bc\u09a4\u09be \u0995\u09c7\u09a8\u09cd\u09a6\u09cd\u09b0"
+            ],
+            "%d unread": [
+                "%d\u099f\u09bf \u0985\u09aa\u09a0\u09bf\u09a4"
             ],
             "Choose a chat on the left. You can open several; each keeps its own draft.": [
                 "\u09ac\u09be\u09ae\u09c7\u09b0 \u098f\u0995\u099f\u09bf \u099a\u09cd\u09af\u09be\u099f \u09ac\u09c7\u099b\u09c7 \u09a8\u09bf\u09a8\u0964 \u0986\u09aa\u09a8\u09bf \u098f\u0995\u09be\u09a7\u09bf\u0995 \u099a\u09cd\u09af\u09be\u099f \u0996\u09c1\u09b2\u09a4\u09c7 \u09aa\u09be\u09b0\u09c7\u09a8; \u09aa\u09cd\u09b0\u09a4\u09bf\u099f\u09bf\u09a4\u09c7 \u09a8\u09bf\u099c\u09b8\u09cd\u09ac \u09a1\u09cd\u09b0\u09be\u09ab\u099f \u09b8\u0982\u09b0\u0995\u09cd\u09b7\u09bf\u09a4 \u09a5\u09be\u0995\u09c7\u0964"

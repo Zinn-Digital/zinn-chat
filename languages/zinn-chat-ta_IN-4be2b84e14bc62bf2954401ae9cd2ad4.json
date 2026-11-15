@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "translation-revision-date": "2026-11-15T08:18:17+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -18,6 +18,9 @@
             ],
             "Assistant": [
                 "\u0b89\u0ba4\u0bb5\u0bbf\u0baf\u0bbe\u0bb3\u0bb0\u0bcd"
+            ],
+            "Settings": [
+                "\u0b85\u0bae\u0bc8\u0baa\u0bcd\u0baa\u0bc1\u0b95\u0bb3\u0bcd"
             ],
             "Fix it": [
                 "\u0b9a\u0bb0\u0bbf\u0b9a\u0bc6\u0baf\u0bcd"
@@ -136,8 +139,23 @@
             "Desktop alerts": [
                 "\u0b9f\u0bc6\u0bb8\u0bcd\u0b95\u0bcd\u0b9f\u0bbe\u0baa\u0bcd \u0b8e\u0b9a\u0bcd\u0b9a\u0bb0\u0bbf\u0b95\u0bcd\u0b95\u0bc8\u0b95\u0bb3\u0bcd"
             ],
+            "Chat navigation": [
+                "\u0b85\u0bb0\u0b9f\u0bcd\u0b9f\u0bc8 \u0bb5\u0bb4\u0bbf\u0b9a\u0bc6\u0bb2\u0bc1\u0ba4\u0bcd\u0ba4\u0bb2\u0bcd"
+            ],
+            "Inboxes": [
+                "\u0b89\u0bb3\u0bcd\u0bb5\u0bb0\u0bb5\u0bc1\u0baa\u0bcd \u0baa\u0bc6\u0b9f\u0bcd\u0b9f\u0bbf\u0b95\u0bb3\u0bcd"
+            ],
+            "All conversations": [
+                "\u0b85\u0ba9\u0bc8\u0ba4\u0bcd\u0ba4\u0bc1 \u0b89\u0bb0\u0bc8\u0baf\u0bbe\u0b9f\u0bb2\u0bcd\u0b95\u0bb3\u0bc1\u0bae\u0bcd"
+            ],
             "Needs a person": [
                 "\u0ba8\u0baa\u0bb0\u0bcd \u0ba4\u0bc7\u0bb5\u0bc8"
+            ],
+            "Help desk": [
+                "\u0b89\u0ba4\u0bb5\u0bbf \u0bae\u0bc8\u0baf\u0bae\u0bcd"
+            ],
+            "%d unread": [
+                "%d \u0baa\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bbe\u0ba4\u0bb5\u0bc8"
             ],
             "Choose a chat on the left. You can open several; each keeps its own draft.": [
                 "\u0b87\u0b9f\u0ba4\u0bc1\u0baa\u0bc1\u0bb1\u0ba4\u0bcd\u0ba4\u0bbf\u0bb2\u0bcd \u0b89\u0bb3\u0bcd\u0bb3 \u0b85\u0bb0\u0b9f\u0bcd\u0b9f\u0bc8\u0baf\u0bc8\u0ba4\u0bcd \u0ba4\u0bc7\u0bb0\u0bcd\u0ba8\u0bcd\u0ba4\u0bc6\u0b9f\u0bc1\u0b95\u0bcd\u0b95\u0bb5\u0bc1\u0bae\u0bcd. \u0ba8\u0bc0\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0baa\u0bb2\u0bb5\u0bb1\u0bcd\u0bb1\u0bc8\u0ba4\u0bcd \u0ba4\u0bbf\u0bb1\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd; \u0b92\u0bb5\u0bcd\u0bb5\u0bca\u0ba9\u0bcd\u0bb1\u0bc1\u0bae\u0bcd \u0b85\u0ba4\u0ba9\u0bcd \u0b9a\u0bca\u0ba8\u0bcd\u0ba4 \u0bb5\u0bb0\u0bc8\u0bb5\u0bc8 \u0bb5\u0bc8\u0ba4\u0bcd\u0ba4\u0bbf\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd."

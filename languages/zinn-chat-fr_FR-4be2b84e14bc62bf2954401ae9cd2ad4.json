@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "translation-revision-date": "2026-11-15T08:18:17+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -18,6 +18,9 @@
             ],
             "Assistant": [
                 "Assistant"
+            ],
+            "Settings": [
+                "R\u00e9glages"
             ],
             "Fix it": [
                 "Corriger"
@@ -136,8 +139,23 @@
             "Desktop alerts": [
                 "Alertes de bureau"
             ],
+            "Chat navigation": [
+                "Navigation du chat"
+            ],
+            "Inboxes": [
+                "Bo\u00eetes de r\u00e9ception"
+            ],
+            "All conversations": [
+                "Toutes les conversations"
+            ],
             "Needs a person": [
                 "N\u00e9cessite une personne"
+            ],
+            "Help desk": [
+                "Centre d\u2019assistance"
+            ],
+            "%d unread": [
+                "%d non lus"
             ],
             "Choose a chat on the left. You can open several; each keeps its own draft.": [
                 "Choisissez une discussion sur la gauche. Vous pouvez en ouvrir plusieurs\u00a0; chacune conserve son propre brouillon."

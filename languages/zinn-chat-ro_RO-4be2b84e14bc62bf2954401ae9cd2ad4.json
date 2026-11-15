@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "translation-revision-date": "2026-11-15T08:18:17+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -18,6 +18,9 @@
             ],
             "Assistant": [
                 "Asistent"
+            ],
+            "Settings": [
+                "Set\u0103ri"
             ],
             "Fix it": [
                 "Rezolv\u0103"
@@ -136,8 +139,23 @@
             "Desktop alerts": [
                 "Alerte desktop"
             ],
+            "Chat navigation": [
+                "Navigare chat"
+            ],
+            "Inboxes": [
+                "Mesaje primite"
+            ],
+            "All conversations": [
+                "Toate conversa\u021biile"
+            ],
             "Needs a person": [
                 "Necesit\u0103 o persoan\u0103"
+            ],
+            "Help desk": [
+                "Serviciu de asisten\u021b\u0103"
+            ],
+            "%d unread": [
+                "%d necitite"
             ],
             "Choose a chat on the left. You can open several; each keeps its own draft.": [
                 "Alege\u021bi un chat din st\u00e2nga. Pute\u021bi deschide mai multe; fiecare \u00ee\u0219i p\u0103streaz\u0103 propria ciorn\u0103."

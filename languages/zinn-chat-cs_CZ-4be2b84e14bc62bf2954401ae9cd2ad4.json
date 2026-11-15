@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-11-12T11:42:23+00:00",
+    "translation-revision-date": "2026-11-15T08:18:17+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -18,6 +18,9 @@
             ],
             "Assistant": [
                 "Asistent"
+            ],
+            "Settings": [
+                "Nastaven\u00ed"
             ],
             "Fix it": [
                 "Opravit"
@@ -136,8 +139,23 @@
             "Desktop alerts": [
                 "Upozorn\u011bn\u00ed na plo\u0161e"
             ],
+            "Chat navigation": [
+                "Navigace chatu"
+            ],
+            "Inboxes": [
+                "Doru\u010den\u00e1 po\u0161ta"
+            ],
+            "All conversations": [
+                "V\u0161echny konverzace"
+            ],
             "Needs a person": [
                 "Vy\u017eaduje osobu"
+            ],
+            "Help desk": [
+                "Helpdesk"
+            ],
+            "%d unread": [
+                "%d nep\u0159e\u010dten\u00fdch"
             ],
             "Choose a chat on the left. You can open several; each keeps its own draft.": [
                 "Zvolte chat vlevo. M\u016f\u017eete jich otev\u0159\u00edt n\u011bkolik; ka\u017ed\u00fd si uchov\u00e1v\u00e1 vlastn\u00ed koncept."

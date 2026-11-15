@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "translation-revision-date": "2026-11-15T08:18:17+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -18,6 +18,9 @@
             ],
             "Assistant": [
                 "Asisten"
+            ],
+            "Settings": [
+                "Pengaturan"
             ],
             "Fix it": [
                 "Perbaiki"
@@ -136,8 +139,23 @@
             "Desktop alerts": [
                 "Peringatan desktop"
             ],
+            "Chat navigation": [
+                "Navigasi obrolan"
+            ],
+            "Inboxes": [
+                "Kotak Masuk"
+            ],
+            "All conversations": [
+                "Semua percakapan"
+            ],
             "Needs a person": [
                 "Membutuhkan seseorang"
+            ],
+            "Help desk": [
+                "Meja bantuan"
+            ],
+            "%d unread": [
+                "%d belum dibaca"
             ],
             "Choose a chat on the left. You can open several; each keeps its own draft.": [
                 "Pilih obrolan di sebelah kiri. Anda dapat membuka beberapa; masing-masing menyimpan drafnya sendiri."

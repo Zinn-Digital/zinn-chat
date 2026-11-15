@@ -1,5 +1,5 @@
 {
-    "translation-revision-date": "2026-11-12T11:42:22+00:00",
+    "translation-revision-date": "2026-11-15T08:18:17+00:00",
     "generator": "WP-CLI\/2.12.0",
     "source": "assets\/js\/console.js",
     "domain": "messages",
@@ -18,6 +18,9 @@
             ],
             "Assistant": [
                 "Pomo\u0107nik"
+            ],
+            "Settings": [
+                "Postavke"
             ],
             "Fix it": [
                 "Popravi to"
@@ -136,8 +139,23 @@
             "Desktop alerts": [
                 "Obavijesti na radnoj povr\u0161ini"
             ],
+            "Chat navigation": [
+                "Navigacija razgovora"
+            ],
+            "Inboxes": [
+                "Pristigle poruke"
+            ],
+            "All conversations": [
+                "Svi razgovori"
+            ],
             "Needs a person": [
                 "Potrebna osoba"
+            ],
+            "Help desk": [
+                "Korisni\u010dka podr\u0161ka"
+            ],
+            "%d unread": [
+                "%d nepro\u010ditanih"
             ],
             "Choose a chat on the left. You can open several; each keeps its own draft.": [
                 "Odaberite razgovor s lijeve strane. Mo\u017eete otvoriti nekoliko njih; svaki \u010duva vlastiti nacrt."
