@@ -160,13 +160,29 @@ final class Store {
 		if ( ! is_string( $sealed ) ) {
 			return null;
 		}
-		$plain = Crypto::open( $sealed );
-		if ( null !== $plain && Crypto::is_legacy( $sealed ) ) {
-			// Sealed by an older core with the salt-derived key: seal it again with the random key.
-			self::set_provider( $provider, array( 'key' => Crypto::seal( $plain ) ) );
-		}
 
-		return $plain;
+		// Read only: a public route (zinn-chat /kb/search) reads a key, and a read never writes.
+		// A legacy-sealed key is moved to the random key by reseal_legacy() on admin_init.
+		return Crypto::open( $sealed );
+	}
+
+	/**
+	 * Seal again, with the site's random key, every provider key an older core sealed with the
+	 * salt-derived key. Run from Core::maintain() (admin_init), never from a read.
+	 *
+	 * @return void
+	 */
+	public static function reseal_legacy(): void {
+		foreach ( array_keys( (array) ( self::get()['providers'] ?? array() ) ) as $provider ) {
+			$sealed = self::provider( (string) $provider )['key'] ?? null;
+			if ( ! is_string( $sealed ) || ! Crypto::is_legacy( $sealed ) ) {
+				continue;
+			}
+			$plain = Crypto::open( $sealed );
+			if ( null !== $plain ) {
+				self::set_provider( (string) $provider, array( 'key' => Crypto::seal( $plain ) ) );
+			}
+		}
 	}
 
 	/**

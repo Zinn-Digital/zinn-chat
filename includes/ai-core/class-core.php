@@ -136,6 +136,8 @@ final class Core {
 
 		// A catalogue that arrived with a plugin update moves saved choices too (once per catalogue).
 		Catalogue::migrate();
+		// A key sealed by an older core moves to the random key here, never on a (public) read.
+		Store::reseal_legacy();
 		$wants = Catalogue::fetches();
 		$next  = wp_next_scheduled( self::CRON );
 		if ( $wants && false === $next ) {
