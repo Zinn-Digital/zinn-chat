@@ -27,7 +27,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 final class Registry {
 
-	/** The any-OpenAI-compatible-server preset (feature ai-1: "including self-hosted/local"). */
+	/** The any-OpenAI-compatible-server preset (feature ai-1: self-hosted, at a public address: Http::public_address()). */
 	public const CUSTOM = 'custom';
 
 	/**

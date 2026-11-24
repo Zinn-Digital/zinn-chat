@@ -85,7 +85,7 @@ final class Admin {
 			case 'openrouter':
 				return __( 'One key for models from many different providers.', 'zinn-chat' );
 			case Registry::CUSTOM:
-				return __( 'Any service that works like OpenAI\'s API, including a model running on your own computer or server.', 'zinn-chat' );
+				return __( 'Any service that works like OpenAI\'s API, including one you host yourself at a public address.', 'zinn-chat' );
 			case Zinn::ID:
 				return __( 'No key needed: pay as you go from your Zinn® account\'s credit. We pick a good, inexpensive model for each job.', 'zinn-chat' );
 		}
@@ -120,17 +120,21 @@ final class Admin {
 		echo '<div class="wrap"><h1>' . esc_html__( 'AI providers', 'zinn-chat' ) . '</h1>';
 		self::print_notice();
 
+		// The wordpress.org build keeps its keys in this plugin's own option, so it says so; the
+		// self-hosted build shares one store between every copy and lists them (region below).
+		$intro = __( 'These AI provider settings and keys belong to this plugin only.', 'zinn-chat' );
+		// dotorg-omit:begin
 		$names = array_map(
 			static fn( array $copy ): string => (string) apply_filters( 'zinn_ai_core_host_name', $copy['name'], $copy['host'] ), // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound -- the core's own hook family (zinn_ai_core_*), shared by both plugins.
 			Core::copies()
 		);
-		echo '<p>' . esc_html(
-			sprintf(
-				/* translators: %s: list of plugin names, e.g. "Tranzly, Page Builder Sandwich". */
-				__( 'These settings are shared by every plugin that uses them: %s.', 'zinn-chat' ),
-				implode( ', ', array_unique( $names ) )
-			)
-		) . ' ' . esc_html__( 'Your keys are encrypted in this site\'s database and are only ever sent to the provider you chose — never to us.', 'zinn-chat' ) . '</p>';
+		$intro = sprintf(
+			/* translators: %s: list of plugin names, e.g. "Tranzly, Page Builder Sandwich". */
+			__( 'These settings are shared by every plugin that uses them: %s.', 'zinn-chat' ),
+			implode( ', ', array_unique( $names ) )
+		);
+		// dotorg-omit:end
+		echo '<p>' . esc_html( $intro ) . ' ' . esc_html__( 'Your keys are encrypted in this site\'s database and are only ever sent to the provider you chose — never to us.', 'zinn-chat' ) . '</p>';
 
 		// phpcs:ignore WordPress.Security.NonceVerification.Recommended -- navigation between wizard steps only; nothing is changed.
 		$step = isset( $_GET['provider'] ) ? sanitize_key( wp_unslash( $_GET['provider'] ) ) : '';
@@ -232,7 +236,7 @@ final class Admin {
 		wp_nonce_field( 'zinn_ai_save_key' );
 		echo '<input type="hidden" name="action" value="zinn_ai_save_key"><input type="hidden" name="provider" value="' . esc_attr( $provider ) . '">';
 		if ( Registry::CUSTOM === $provider ) {
-			echo '<p><label>' . esc_html__( 'Address', 'zinn-chat' ) . '<br><input type="url" class="regular-text" name="base_url" placeholder="http://localhost:11434/v1" value="' . esc_attr( (string) ( $saved['base_url'] ?? '' ) ) . '" required></label></p>';
+			echo '<p><label>' . esc_html__( 'Address', 'zinn-chat' ) . '<br><input type="url" class="regular-text" name="base_url" placeholder="https://ai.example.com/v1" value="' . esc_attr( (string) ( $saved['base_url'] ?? '' ) ) . '" required></label></p>';
 		}
 		$placeholder = '' !== (string) ( $saved['hint'] ?? '' )
 			/* translators: %s: the last four characters of the saved key. */
@@ -707,12 +711,15 @@ final class Admin {
 			self::done( false, __( 'Unknown provider.', 'zinn-chat' ) );
 		}
 		// phpcs:disable WordPress.Security.NonceVerification.Missing -- guard() verified the nonce.
-		// A key is an opaque token: trim it, never "sanitise" characters out of it.
-		$key = isset( $_POST['key'] ) ? trim( (string) wp_unslash( $_POST['key'] ) ) : ''; // phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized -- see above; stored sealed, never output.
+		// A key is an opaque token with no spaces, tags or octets, so sanitize_text_field() leaves a real one intact.
+		$key = isset( $_POST['key'] ) ? trim( sanitize_text_field( wp_unslash( $_POST['key'] ) ) ) : '';
 		if ( Registry::CUSTOM === $provider ) {
 			$base = isset( $_POST['base_url'] ) ? trim( esc_url_raw( wp_unslash( $_POST['base_url'] ), array( 'http', 'https' ) ) ) : '';
 			if ( '' === $base ) {
-				self::done( false, __( 'Enter the address of your service, for example http://localhost:11434/v1.', 'zinn-chat' ), null, '&provider=' . $provider );
+				self::done( false, __( 'Enter the address of your service, for example https://ai.example.com/v1.', 'zinn-chat' ), null, '&provider=' . $provider );
+			}
+			if ( ! Http::allowed_address( $base ) ) {
+				self::done( false, __( 'That address is on a private or local network. Use a public address.', 'zinn-chat' ), null, '&provider=' . $provider );
 			}
 			Store::set_provider( $provider, array( 'base_url' => untrailingslashit( $base ) ) );
 		}

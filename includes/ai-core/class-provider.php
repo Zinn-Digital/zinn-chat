@@ -87,15 +87,6 @@ abstract class Provider {
 	}
 
 	/**
-	 * Is the base a self-hosted address? Only the custom preset may be.
-	 *
-	 * @return bool
-	 */
-	protected function local(): bool {
-		return Registry::CUSTOM === $this->id;
-	}
-
-	/**
 	 * Headers for an authenticated call.
 	 *
 	 * @param string $key API key.
@@ -139,7 +130,6 @@ abstract class Provider {
 			$this->base() . $path,
 			$this->headers( $key ),
 			null === $body ? null : (string) wp_json_encode( $body ),
-			$this->local(),
 			$timeout
 		);
 		$decoded  = null;

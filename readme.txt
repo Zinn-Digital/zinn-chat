@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.15.2
+Stable tag: 2.15.4
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -164,6 +164,12 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.15.4 =
+* WordPress.org review fixes and a shared admin kit update (diagnostics and promotions panels).
+
+= 2.15.3 =
+* Shared AI and MCP code update: stored AI keys are sealed with a random key for each site, a private AI address needs an explicit setting in wp-config.php, and the WordPress.org version no longer carries the MCP sign-in.
 
 = 2.15.2 =
 * The inbox sidebar in wp-admin shows each inbox as a plain row with its count apart from its name, a phone no longer leaves empty space in the inbox and chat lists, and in a right-to-left admin a visitor's message, page address and the back arrow read the right way round.
