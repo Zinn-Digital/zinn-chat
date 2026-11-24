@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.15.4
+Stable tag: 2.15.5
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -164,6 +164,9 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
+
+= 2.15.5 =
+* An AI provider key saved by an older version is re-sealed from the admin screens only, never during a visitor's request; small admin screen fixes.
 
 = 2.15.4 =
 * WordPress.org review fixes and a shared admin kit update (diagnostics and promotions panels).
