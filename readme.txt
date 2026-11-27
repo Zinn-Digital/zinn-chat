@@ -7,7 +7,7 @@ Tags: live chat, helpdesk, support tickets, ai chatbot, woocommerce
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.15.6
+Stable tag: 2.15.5
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -64,7 +64,7 @@ Nothing appears on your site until you turn the chat on. Visitors can be asked t
 
 = Connect to Zinn Digital® (optional) =
 
-You can instead answer chats from the hosted inbox in the Zinn® app. It works on any website, wherever it is hosted: sign in to your Zinn® account, create a chat widget, and paste its key under Settings, Connect to Zinn Digital®.
+If Zinn Digital® hosts your site you can instead answer chats from the Zinn® app. Settings, Connect to Zinn Digital®.
 
 = Shortcodes =
 
@@ -164,9 +164,6 @@ No request is made on the chat's behalf until a visitor opens it, and the launch
 5. The Setup checklist.
 
 == Changelog ==
-
-= 2.15.6 =
-* Copy: the Connect to Zinn Digital® tab and this readme now say the hosted Zinn® inbox works on any website, wherever it is hosted. It never needed Zinn Digital® hosting.
 
 = 2.15.5 =
 * An AI provider key saved by an older version is re-sealed from the admin screens only, never during a visitor's request; small admin screen fixes.
