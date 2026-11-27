@@ -139,7 +139,7 @@ final class Settings_Page {
 				'mode'       => array(
 					'select',
 					__( 'Where chats are answered', 'zinn-chat' ),
-					__( '"This site" keeps everything in this site\'s database and uses your own AI key. "Zinn Digital®" uses the hosted inbox in the Zinn® app (for Zinn® hosting customers).', 'zinn-chat' ),
+					__( '"This site" keeps everything in this site\'s database and uses your own AI key. "Zinn Digital®" answers chats from the hosted inbox in the Zinn® app, on any website, wherever it is hosted; it needs a Zinn® account and a widget key.', 'zinn-chat' ),
 					array(
 						'local'     => __( 'This site (recommended)', 'zinn-chat' ),
 						'connected' => __( 'Zinn Digital® app', 'zinn-chat' ),
